@@ -4,6 +4,9 @@
 [ext_resource type="Texture2D" uid="uid://c1ots7w6i0i1q" path="res://demo/assets/textures/ground037_nrm_rgh.png" id="2_pxdpb"]
 [ext_resource type="Texture2D" uid="uid://c88j3oj0lf6om" path="res://demo/assets/textures/rock023_alb_ht.png" id="3_3ogwu"]
 [ext_resource type="Texture2D" uid="uid://c307hdmos4gtm" path="res://demo/assets/textures/rock023_nrm_rgh.png" id="4_3bfnq"]
+[ext_resource type="PackedScene" uid="uid://bnrlpn0seubj2" path="res://dungeon_01.tscn" id="5_pxdpb"]
+[ext_resource type="Script" uid="uid://dee8jktfvk30o" path="res://dungeon_entrance.gd" id="6_3ogwu"]
+[ext_resource type="Script" uid="uid://bdq8k6jv15of6" path="res://player.gd" id="7_3bfnq"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_88pun"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -55,15 +58,7 @@ _shader_parameters = {
 &"noise1_scale": null,
 &"noise2_scale": null,
 &"noise_texture": SubResource("NoiseTexture2D_0dgkc"),
-&"projection_threshold": null,
-&"world_noise_fragment_normals": null,
-&"world_noise_height": null,
-&"world_noise_lod_distance": null,
-&"world_noise_max_octaves": null,
-&"world_noise_min_octaves": null,
-&"world_noise_offset": null,
-&"world_noise_region_blend": null,
-&"world_noise_scale": null
+&"projection_threshold": null
 }
 world_background = 0
 
@@ -100,13 +95,24 @@ normal_texture = ExtResource("4_3bfnq")
 mesh_list = Array[Terrain3DMeshAsset]([SubResource("Terrain3DMeshAsset_c4yw1")])
 texture_list = Array[Terrain3DTextureAsset]([SubResource("Terrain3DTextureAsset_smwpu"), SubResource("Terrain3DTextureAsset_2wnoc")])
 
+[sub_resource type="BoxMesh" id="BoxMesh_r4vj3"]
+size = Vector3(3, 8.740234, 0.4)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_r4vj3"]
+size = Vector3(4, 4, 2)
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_r4vj3"]
+height = 1.8
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_m2yi4"]
+
 [node name="Node3D" type="Node3D" unique_id=1640476959]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=645135084]
 environment = SubResource("Environment_ge6s5")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1213107140]
-transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, -3.269226, 137.69255, 0)
 shadow_enabled = true
 
 [node name="Terrain3D" type="Terrain3D" parent="." unique_id=1139377109]
@@ -115,3 +121,45 @@ material = SubResource("Terrain3DMaterial_5vaxx")
 assets = SubResource("Terrain3DAssets_glkq6")
 top_level = true
 metadata/_edit_lock_ = true
+
+[node name="Dungeon01" parent="." unique_id=1828693099 instance=ExtResource("5_pxdpb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -20, 0)
+
+[node name="DungeonSpawn" type="Marker3D" parent="Dungeon01" unique_id=457741063]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="DungeonEntrance" type="Node3D" parent="." unique_id=390889073]
+
+[node name="Door" type="MeshInstance3D" parent="DungeonEntrance" unique_id=1789028814]
+transform = Transform3D(1, 0, 0, 0, -4.3711385e-08, -0.99999994, 0, 0.99999994, -4.3711385e-08, -0.9468379, -0.08600366, 5.307928)
+mesh = SubResource("BoxMesh_r4vj3")
+
+[node name="EntranceArea" type="Area3D" parent="DungeonEntrance" unique_id=1599471676]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.99518085, 0, -0.36072302)
+monitoring = false
+script = ExtResource("6_3ogwu")
+dungeon_spawn_path = NodePath("../../Dungeon01/DungeonSpawn")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="DungeonEntrance/EntranceArea" unique_id=1577101124]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -1.3678347, -1.0328932, 2.8135662)
+shape = SubResource("BoxShape3D_r4vj3")
+
+[node name="Player" type="CharacterBody3D" parent="." unique_id=1201735787]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+script = ExtResource("7_3bfnq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player" unique_id=1710329923]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.606834, 0, 6.1282196)
+shape = SubResource("CapsuleShape3D_r4vj3")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Player" unique_id=2145672275]
+transform = Transform3D(1, 0, 0, 0, 0.964656, 0.26351243, 0, -0.26351243, 0.964656, 16.79095, 2, 8.820514)
+mesh = SubResource("CapsuleMesh_m2yi4")
+
+[node name="SpringArm3D" type="SpringArm3D" parent="Player" unique_id=735876623]
+transform = Transform3D(1, 0, 0, 0, 0.98480767, 0.17364816, 0, -0.17364816, 0.98480767, 0, 1.5, 0)
+spring_length = 4.0
+
+[node name="Camera3D" type="Camera3D" parent="Player/SpringArm3D" unique_id=431053898]
+transform = Transform3D(1, 0, 0, 0, 0.9848077, 0.17364818, 0, -0.17364818, 0.9848077, 0, 1.5, 0)
+current = true

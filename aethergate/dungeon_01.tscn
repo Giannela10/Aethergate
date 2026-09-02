@@ -222,8 +222,3 @@ light_color = Color(0.6745098, 0.45490196, 0, 1)
 light_energy = 2.0
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=693796549]
-
-[node name="TestCamera" type="Camera3D" parent="." unique_id=1023821135]
-transform = Transform3D(0.85782677, -0.4209941, 0.29478326, 0, 0.57357645, 0.81915206, -0.5139389, -0.70269054, 0.49202922, 0.5909977, 17.04914, 27.055775)
-current = true
-fov = 129.1
