@@ -1,0 +1,117 @@
+[gd_scene format=3 uid="uid://e7b6mc4kq73v"]
+
+[ext_resource type="Texture2D" uid="uid://ddprscrpsofah" path="res://demo/assets/textures/ground037_alb_ht.png" id="1_vr76w"]
+[ext_resource type="Texture2D" uid="uid://c1ots7w6i0i1q" path="res://demo/assets/textures/ground037_nrm_rgh.png" id="2_pxdpb"]
+[ext_resource type="Texture2D" uid="uid://c88j3oj0lf6om" path="res://demo/assets/textures/rock023_alb_ht.png" id="3_3ogwu"]
+[ext_resource type="Texture2D" uid="uid://c307hdmos4gtm" path="res://demo/assets/textures/rock023_nrm_rgh.png" id="4_3bfnq"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_88pun"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_uevk8"]
+sky_material = SubResource("ProceduralSkyMaterial_88pun")
+
+[sub_resource type="Environment" id="Environment_ge6s5"]
+background_mode = 2
+sky = SubResource("Sky_uevk8")
+glow_enabled = true
+
+[sub_resource type="Gradient" id="Gradient_1cyk1"]
+offsets = PackedFloat32Array(0.2, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_3bel8"]
+noise_type = 2
+frequency = 0.03
+cellular_jitter = 3.0
+cellular_return_type = 0
+domain_warp_enabled = true
+domain_warp_type = 1
+domain_warp_amplitude = 50.0
+domain_warp_fractal_type = 2
+domain_warp_fractal_lacunarity = 1.5
+domain_warp_fractal_gain = 1.0
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_0dgkc"]
+noise = SubResource("FastNoiseLite_3bel8")
+color_ramp = SubResource("Gradient_1cyk1")
+seamless = true
+
+[sub_resource type="Terrain3DMaterial" id="Terrain3DMaterial_5vaxx"]
+_shader_parameters = {
+&"bias_distance": null,
+&"blend_sharpness": null,
+&"depth_blur": null,
+&"enable_macro_variation": null,
+&"enable_projection": null,
+&"flat_terrain_normals": null,
+&"macro_variation1": null,
+&"macro_variation2": null,
+&"macro_variation_slope": null,
+&"mipmap_bias": null,
+&"noise1_angle": null,
+&"noise1_offset": null,
+&"noise1_scale": null,
+&"noise2_scale": null,
+&"noise_texture": SubResource("NoiseTexture2D_0dgkc"),
+&"projection_threshold": null,
+&"world_noise_fragment_normals": null,
+&"world_noise_height": null,
+&"world_noise_lod_distance": null,
+&"world_noise_max_octaves": null,
+&"world_noise_min_octaves": null,
+&"world_noise_offset": null,
+&"world_noise_region_blend": null,
+&"world_noise_scale": null
+}
+world_background = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u57pw"]
+transparency = 4
+cull_mode = 2
+vertex_color_use_as_albedo = true
+backlight_enabled = true
+backlight = Color(0.5, 0.5, 0.5, 1)
+distance_fade_mode = 1
+distance_fade_min_distance = 128.0
+distance_fade_max_distance = 96.0
+
+[sub_resource type="Terrain3DMeshAsset" id="Terrain3DMeshAsset_c4yw1"]
+generated_type = 1
+height_offset = 0.5
+material_override = SubResource("StandardMaterial3D_u57pw")
+last_lod = 0
+last_shadow_lod = 0
+lod0_range = 128.0
+
+[sub_resource type="Terrain3DTextureAsset" id="Terrain3DTextureAsset_smwpu"]
+name = "ground037_alb_ht"
+albedo_texture = ExtResource("1_vr76w")
+normal_texture = ExtResource("2_pxdpb")
+
+[sub_resource type="Terrain3DTextureAsset" id="Terrain3DTextureAsset_2wnoc"]
+name = "rock023_alb_ht"
+id = 1
+albedo_texture = ExtResource("3_3ogwu")
+normal_texture = ExtResource("4_3bfnq")
+
+[sub_resource type="Terrain3DAssets" id="Terrain3DAssets_glkq6"]
+mesh_list = Array[Terrain3DMeshAsset]([SubResource("Terrain3DMeshAsset_c4yw1")])
+texture_list = Array[Terrain3DTextureAsset]([SubResource("Terrain3DTextureAsset_smwpu"), SubResource("Terrain3DTextureAsset_2wnoc")])
+
+[node name="Node3D" type="Node3D" unique_id=1640476959]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=645135084]
+environment = SubResource("Environment_ge6s5")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1213107140]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Terrain3D" type="Terrain3D" parent="." unique_id=1139377109]
+data_directory = "res://Mapa"
+material = SubResource("Terrain3DMaterial_5vaxx")
+assets = SubResource("Terrain3DAssets_glkq6")
+top_level = true
+metadata/_edit_lock_ = true
