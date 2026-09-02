@@ -99,7 +99,7 @@ texture_list = Array[Terrain3DTextureAsset]([SubResource("Terrain3DTextureAsset_
 size = Vector3(3, 8.740234, 0.4)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_r4vj3"]
-size = Vector3(4, 4, 2)
+size = Vector3(6, 3, 8)
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_r4vj3"]
 height = 1.8
@@ -136,12 +136,13 @@ mesh = SubResource("BoxMesh_r4vj3")
 
 [node name="EntranceArea" type="Area3D" parent="DungeonEntrance" unique_id=1599471676]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.99518085, 0, -0.36072302)
-monitoring = false
+collision_layer = 5
+collision_mask = 3
 script = ExtResource("6_3ogwu")
 dungeon_spawn_path = NodePath("../../Dungeon01/DungeonSpawn")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="DungeonEntrance/EntranceArea" unique_id=1577101124]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -1.3678347, -1.0328932, 2.8135662)
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 1.5, 0)
 shape = SubResource("BoxShape3D_r4vj3")
 
 [node name="Player" type="CharacterBody3D" parent="." unique_id=1201735787]
