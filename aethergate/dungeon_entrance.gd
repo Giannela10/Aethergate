@@ -9,6 +9,7 @@ var player_inside: bool = false
 @onready var dungeon_spawn: Node3D = get_node_or_null(dungeon_spawn_path)
 
 func _ready() -> void:
+	print("SCRIPT DEL PORTAL ACTIVO")
 	body_entered.connect(_on_body_entered)
 	body_exited.connect(_on_body_exited)
 
@@ -17,11 +18,11 @@ func _process(_delta: float) -> void:
 		enter_dungeon()
 
 func _on_body_entered(body: Node3D) -> void:
-	print("Algo entró al portal: ", body.name)
+	print("ENTRÓ AL ÁREA: ", body.name)
 
 	if body == player:
 		player_inside = true
-		print("PLAYER DETECTADO - Presiona E")
+		print("PLAYER DETECTADO")
 
 func _on_body_exited(body: Node3D) -> void:
 	if body == player:

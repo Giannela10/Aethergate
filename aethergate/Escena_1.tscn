@@ -99,9 +99,9 @@ texture_list = Array[Terrain3DTextureAsset]([SubResource("Terrain3DTextureAsset_
 size = Vector3(3, 8.740234, 0.4)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_r4vj3"]
-size = Vector3(6, 3, 8)
+size = Vector3(10, 5, 10)
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_r4vj3"]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3bfnq"]
 height = 1.8
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_m2yi4"]
@@ -135,14 +135,13 @@ transform = Transform3D(1, 0, 0, 0, -4.3711385e-08, -0.99999994, 0, 0.99999994, 
 mesh = SubResource("BoxMesh_r4vj3")
 
 [node name="EntranceArea" type="Area3D" parent="DungeonEntrance" unique_id=1599471676]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.99518085, 0, -0.36072302)
-collision_layer = 5
-collision_mask = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
 script = ExtResource("6_3ogwu")
+player_path = NodePath("../../Player")
 dungeon_spawn_path = NodePath("../../Dungeon01/DungeonSpawn")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="DungeonEntrance/EntranceArea" unique_id=1577101124]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 1.5, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
 shape = SubResource("BoxShape3D_r4vj3")
 
 [node name="Player" type="CharacterBody3D" parent="." unique_id=1201735787]
@@ -150,11 +149,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
 script = ExtResource("7_3bfnq")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Player" unique_id=1710329923]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.606834, 0, 6.1282196)
-shape = SubResource("CapsuleShape3D_r4vj3")
+shape = SubResource("CapsuleShape3D_3bfnq")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Player" unique_id=2145672275]
-transform = Transform3D(1, 0, 0, 0, 0.964656, 0.26351243, 0, -0.26351243, 0.964656, 16.79095, 2, 8.820514)
 mesh = SubResource("CapsuleMesh_m2yi4")
 
 [node name="SpringArm3D" type="SpringArm3D" parent="Player" unique_id=735876623]

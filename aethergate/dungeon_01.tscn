@@ -3,12 +3,18 @@
 [sub_resource type="BoxMesh" id="BoxMesh_w11f4"]
 size = Vector3(20, 0.5, 20)
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ga0ld"]
-radius = 0.25
-height = 20.0
+[sub_resource type="BoxShape3D" id="BoxShape3D_wagsa"]
+margin = 0.137
+size = Vector3(20, 0.5, 20)
 
 [sub_resource type="BoxMesh" id="BoxMesh_38how"]
 size = Vector3(16, 0.5, 16)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_r4vj3"]
+size = Vector3(16, 0.5, 16)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_m2yi4"]
+size = Vector3(6, 0.5, 10)
 
 [sub_resource type="BoxMesh" id="BoxMesh_bp5kt"]
 size = Vector3(0.5, 5, 20)
@@ -55,16 +61,29 @@ mesh = SubResource("BoxMesh_w11f4")
 [node name="StaticBody3D" type="StaticBody3D" parent="Geometry/Floor/MeshInstance3D" unique_id=1781276538]
 transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0, 0, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Geometry/Floor/MeshInstance3D/StaticBody3D" unique_id=723216375]
-shape = SubResource("CapsuleShape3D_ga0ld")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Geometry/Floor/MeshInstance3D/StaticBody3D" unique_id=2076631895]
+transform = Transform3D(0.0007223645, 0.9999997, 0, -0.9999997, 0.0007223644, 0, 0, 0, 0.9999999, 0, -0.004, 0)
+shape = SubResource("BoxShape3D_wagsa")
 
 [node name="Room2_Floor" type="MeshInstance3D" parent="Geometry" unique_id=789582354]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 28)
 mesh = SubResource("BoxMesh_38how")
 
+[node name="StaticBody3D" type="StaticBody3D" parent="Geometry/Room2_Floor" unique_id=1066685471]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.2221775, 0, -8.250883)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Geometry/Room2_Floor/StaticBody3D" unique_id=1231543571]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.305776, 0, 8.091892)
+shape = SubResource("BoxShape3D_r4vj3")
+
 [node name="Hallway_Floor" type="MeshInstance3D" parent="Geometry" unique_id=622478097]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 15)
 mesh = SubResource("BoxMesh_38how")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Geometry/Hallway_Floor" unique_id=1206802419]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Geometry/Hallway_Floor/StaticBody3D" unique_id=77549470]
+shape = SubResource("BoxShape3D_m2yi4")
 
 [node name="Walls" type="Node3D" parent="Geometry" unique_id=1109397943]
 
