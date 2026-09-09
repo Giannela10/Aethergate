@@ -1,5 +1,17 @@
 [gd_scene format=3 uid="uid://bcjgibc01ppis"]
 
+[ext_resource type="Script" uid="uid://d0ogp5cgjsdce" path="res://Scrips/options.gd" id="1_p8ha3"]
+[ext_resource type="Texture2D" uid="uid://cax0856mx2582" path="res://Images/Fondo.jpeg" id="2_bqyeh"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6wpsj"]
+bg_color = Color(0.047058824, 0.047058824, 0.047058824, 0.92156863)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3vpl6"]
+bg_color = Color(0.047058824, 0.047058824, 0.047058824, 0.92156863)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8orn8"]
+bg_color = Color(0.047058824, 0.047058824, 0.047058824, 0.92156863)
+
 [node name="Options" type="Control" unique_id=1972342327]
 layout_mode = 3
 anchors_preset = 15
@@ -7,3 +19,59 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_p8ha3")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2120699121]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.20464817, 0.40198323, 0.5475473, 1)
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1586665850]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_bqyeh")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1741199306]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -168.75
+offset_top = -83.0
+offset_right = 168.75
+offset_bottom = 83.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="Volumen" type="Button" parent="VBoxContainer" unique_id=1528719718]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_6wpsj")
+text = "Volumen"
+
+[node name="Resolucion" type="Button" parent="VBoxContainer" unique_id=1590553524]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_3vpl6")
+text = "Resolución"
+
+[node name="Back" type="Button" parent="VBoxContainer" unique_id=1496047845]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_8orn8")
+text = "Salir"
+
+[connection signal="pressed" from="VBoxContainer/Volumen" to="." method="_on_volumen_pressed"]
+[connection signal="pressed" from="VBoxContainer/Resolucion" to="." method="_on_resolucion_pressed"]
+[connection signal="pressed" from="VBoxContainer/Back" to="." method="_on_back_pressed"]
