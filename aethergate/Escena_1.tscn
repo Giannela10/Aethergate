@@ -123,15 +123,15 @@ top_level = true
 metadata/_edit_lock_ = true
 
 [node name="Dungeon01" parent="." unique_id=1828693099 instance=ExtResource("5_pxdpb")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -20, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -21, 0)
 
 [node name="DungeonSpawn" type="Marker3D" parent="Dungeon01" unique_id=457741063]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 30)
 
 [node name="DungeonEntrance" type="Node3D" parent="." unique_id=390889073]
 
 [node name="Door" type="MeshInstance3D" parent="DungeonEntrance" unique_id=1789028814]
-transform = Transform3D(1, 0, 0, 0, -4.3711385e-08, -0.99999994, 0, 0.99999994, -4.3711385e-08, -0.9468379, -0.08600366, 5.307928)
+transform = Transform3D(1, 0, 0, 0, -4.3711385e-08, -0.99999994, 0, 0.99999994, -4.3711385e-08, -0.947, 0, 5.308)
 mesh = SubResource("BoxMesh_r4vj3")
 
 [node name="EntranceArea" type="Area3D" parent="DungeonEntrance" unique_id=1599471676]
