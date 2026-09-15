@@ -1,9 +1,0 @@
-78098b89c88a74ebe8c20117b8754620
-::res://::1789333364
-character.gd::GDScript::3015216325518058279::1789330938::0::1::::<>CharacterBody3D<><>0<>0<><>::
-Character.tscn::PackedScene::-1::1789324166::0::1::::<><><>0<>0<><>::res://Character.gd
-icon.svg::CompressedTexture2D::5005916480702620619::1789324151::1789324196::1::::<><><>0<>0<>56eb5b4d2aa06a5b9fbc30ba1212f14e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-Main.tscn::PackedScene::3003114509752462370::1789333390::0::1::::<><><>0<>0<><>::res://Character.tscn<>uid://bi7uf4ifcmr3l::::res://character.gd<>uid://b16tpou66prew::::res://reja.gd<>uid://fjhh6bc8uiur::::res://node_3d.gd
-reja.gd::GDScript::4276507506102456618::1789333245::0::1::::<>Node3D<><>0<>1<><>::
-character_body_3d.gd::GDScript::5897187559183435089::1789330781::0::1::::<>CharacterBody3D<><>0<>0<><>::
-Muro.gd::GDScript::369962767387824265::1789333348::0::1::::<>Node3D<><>0<>1<><>::
