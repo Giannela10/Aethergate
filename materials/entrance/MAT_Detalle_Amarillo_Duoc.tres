@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://csjxtluh1g8v6"]
+
+[resource]
+resource_name = "MAT_Detalle_Amarillo_Duoc"
+albedo_color = Color(0.85, 0.63, 0.12, 1)
+roughness = 0.7

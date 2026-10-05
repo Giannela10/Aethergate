@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://buprr5xmkjpec"]
+
+[resource]
+resource_name = "MAT_Caseta_Crema"
+albedo_color = Color(0.78, 0.75, 0.65, 1)
+roughness = 0.8

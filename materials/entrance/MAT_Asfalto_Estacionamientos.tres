@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d1qahgo010isr"]
+
+[resource]
+resource_name = "MAT_Asfalto_Estacionamientos"
+albedo_color = Color(0.13, 0.15, 0.15, 1)
+roughness = 0.8

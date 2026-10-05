@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[resource]
+resource_name = "MAT_Columns_Concrete"
+albedo_color = Color(0.7, 0.71, 0.7, 1)
+metallic = 0
+roughness = 0.94
+metallic_specular = 0.5
+

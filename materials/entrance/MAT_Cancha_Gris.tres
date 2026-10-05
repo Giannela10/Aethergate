@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://lywvdhhv7q03"]
+
+[resource]
+resource_name = "MAT_Cancha_Gris"
+albedo_color = Color(0.58, 0.6, 0.58, 1)
+roughness = 0.8

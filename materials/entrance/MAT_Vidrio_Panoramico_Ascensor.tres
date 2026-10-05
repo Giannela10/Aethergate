@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bn2qp3bnnws4f"]
+
+[resource]
+resource_name = "MAT_Vidrio_Panoramico_Ascensor"
+transparency = 1
+cull_mode = 2
+albedo_color = Color(0.75, 0.88, 0.91, 0.065)
+roughness = 0.14

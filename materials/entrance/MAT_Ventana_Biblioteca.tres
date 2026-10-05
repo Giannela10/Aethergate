@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c7g0nnfg7f64w"]
+
+[resource]
+resource_name = "MAT_Ventana_Biblioteca"
+albedo_color = Color(0.62, 0.76, 0.81, 1)
+roughness = 0.22

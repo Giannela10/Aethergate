@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c7ka80ui8kw5u"]
+
+[resource]
+resource_name = "MAT_Vidrio_Autos"
+albedo_color = Color(0.12, 0.21, 0.25, 1)
+metallic = 0.3
+roughness = 0.22

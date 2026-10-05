@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cr1t2loaauax5"]
+
+[ext_resource type="Shader" uid="uid://cpu5g8qr1me23" path="res://materials/entrance/madera_escalera.gdshader" id="1_x8g3p"]
+
+[resource]
+resource_name = "MAT_Madera_Escalera_Principal"
+render_priority = 0
+shader = ExtResource("1_x8g3p")
