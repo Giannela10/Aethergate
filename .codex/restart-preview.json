@@ -1,0 +1,1 @@
+[{"method":"game.stop","params":{}},{"method":"game.start","params":{"scene_path":"main","wait_for_runtime":false}}]

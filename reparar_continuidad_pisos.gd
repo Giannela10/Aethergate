@@ -32,10 +32,14 @@ func holes(level: int) -> Array[Rect2]:
 	if level <= 1:
 		regions = remove_area(regions,Rect2(36.8,-86.7,39.2,10.3))
 	var campus := get_parent()
+	# Preserve the three protected terrace wells when repairing floor continuity.
+	for well in campus.find_children("VacioAmarillo*","Node3D",true,false):
+		if absf(well.global_position.y-LEVELS[level])<0.65 and well.has_meta("area_no_transitable"):
+			regions = remove_area(regions,well.get_meta("area_no_transitable"))
 	for n in campus.find_children("*","GeometryInstance3D",true,false):
 		if is_ancestor_of(n) or not n.is_visible_in_tree(): continue
 		var title := str(n.name)
-		var floor_like := title.begins_with("Building_Floor") or title.begins_with("Losa") or title.begins_with("UmbralPiso") or title in ["PisoCoordinacion","AccesoEscalera","PisoBibliotecaIntegrado"]
+		var floor_like := title.begins_with("Building_Floor") or title.begins_with("Losa") or title.begins_with("PuenteAcceso") or title.begins_with("UmbralEntrada") or title.begins_with("UmbralPiso") or title in ["PisoCoordinacion","AccesoEscalera","PisoBibliotecaIntegrado"]
 		if not floor_like: continue
 		if n is MeshInstance3D and n.mesh == null: continue
 		if not (n is MeshInstance3D or n is CSGBox3D): continue

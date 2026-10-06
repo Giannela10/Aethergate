@@ -2,33 +2,34 @@ extends CharacterBody3D
 ## Jugador. Usa humanoid.gd para el cuerpo y las animaciones.
 ##
 ## Controles:
-##   WASD / flechas = mover (relativo a la cámara)   Shift = correr
+##   WASD / flechas = mover (relativo a la cÃƒÆ’Ã‚Â¡mara)   Shift = correr
 ##   C / Ctrl = agacharse (los enemigos te ven peor)  Espacio = saltar
 ##   J / clic izquierdo = golpear
 ##   E = recoger arma / usar computador    G = soltar arma
-##   Ratón = cámara    Esc = liberar el ratón    R = reiniciar
+##   RatÃƒÆ’Ã‚Â³n = cÃƒÆ’Ã‚Â¡mara    Esc = liberar el ratÃƒÆ’Ã‚Â³n    R = reiniciar
 
 signal health_changed(hp: float, max_hp: float)
 signal weapon_changed(text: String)
 signal weapon_broke(weapon_name: String)
-signal computer_requested(computer)   # pidió usar un computador (main abre el minijuego)
-signal hit_received                   # recibió un golpe (interrumpe el minijuego)
+signal computer_requested(computer)   # pidiÃƒÆ’Ã‚Â³ usar un computador (main abre el minijuego)
+signal hit_received                   # recibiÃƒÆ’Ã‚Â³ un golpe (interrumpe el minijuego)
 signal died
 
 const Humanoid = preload("res://humanoid.gd")
+const SportsProjectile = preload("res://proyectil_deportivo.gd")
 
-# ---------- Ajustes (cámbialos a tu gusto) ----------
+# ---------- Ajustes (cÃƒÆ’Ã‚Â¡mbialos a tu gusto) ----------
 const WALK_SPEED := 2.5
 const RUN_SPEED := 5.5
 const CROUCH_SPEED := 1.3
 const JUMP_VELOCITY := 5.0
 const GRAVITY := 14.0
 
-const PUNCH_DAMAGE := 10.0       # daño con las manos
+const PUNCH_DAMAGE := 10.0       # daÃƒÆ’Ã‚Â±o con las manos
 const PUNCH_RANGE := 1.5         # alcance con las manos
-const PUNCH_COOLDOWN := 0.32     # tiempo mínimo entre puñetazos
-const WEAPON_COOLDOWN := 0.45    # tiempo mínimo entre golpes con arma
-const AIM_ASSIST_RANGE := 3.2    # si hay un enemigo cerca, te gira hacia él al golpear
+const PUNCH_COOLDOWN := 0.32     # tiempo mÃƒÆ’Ã‚Â­nimo entre puÃƒÆ’Ã‚Â±etazos
+const WEAPON_COOLDOWN := 0.45    # tiempo mÃƒÆ’Ã‚Â­nimo entre golpes con arma
+const AIM_ASSIST_RANGE := 3.2    # si hay un enemigo cerca, te gira hacia ÃƒÆ’Ã‚Â©l al golpear
 const PICKUP_RANGE := 1.8        # alcance para recoger armas
 const COMPUTER_RANGE := 2.2      # alcance para usar computadores
 
@@ -37,10 +38,16 @@ var health := 100.0
 var dead := false
 var busy := false                # true mientras usas un computador (no te puedes mover)
 
-var cam_yaw := 0.0               # lo asigna main.gd (la cámara)
+var cam_yaw := 0.0               # lo asigna main.gd (la cÃƒÆ’Ã‚Â¡mara)
 var body: Humanoid
 var collision: CollisionShape3D
 var capsule: CapsuleShape3D
+
+var stationery_inventory: Dictionary = {}
+var equipped_stationery := ""
+var stationery_notes := ""
+var stationery_model: Node3D
+var stationery_ui: CanvasLayer
 
 var weapon = null                # arma equipada (weapon.gd) o null
 var crouching := false
@@ -52,6 +59,7 @@ var punch_cd := 0.0
 func _ready() -> void:
 	add_to_group("player")
 	_setup_input()
+	floor_snap_length = 0.5
 
 	collision = CollisionShape3D.new()
 	capsule = CapsuleShape3D.new()
@@ -66,12 +74,16 @@ func _ready() -> void:
 	body.punch_time = 0.5
 	add_child(body)
 	body.punch_landed.connect(_on_punch_landed)
+	load_stationery()
+	stationery_ui = CanvasLayer.new()
+	stationery_ui.set_script(load("res://inventario_papeleria.gd"))
+	add_child(stationery_ui)
 
 	health_changed.emit(health, max_health)
 
 
 # =====================================================================
-#  Controles (se crean por código para no tener que configurarlos)
+#  Controles (se crean por cÃƒÆ’Ã‚Â³digo para no tener que configurarlos)
 # =====================================================================
 func _setup_input() -> void:
 	var actions := {
@@ -85,6 +97,7 @@ func _setup_input() -> void:
 		"punch": [KEY_J],
 		"interact": [KEY_E],
 		"drop": [KEY_G],
+		"throw_sport": [KEY_Q],
 	}
 	for action in actions:
 		if not InputMap.has_action(action):
@@ -100,7 +113,7 @@ func _setup_input() -> void:
 
 
 # =====================================================================
-#  Física / movimiento
+#  FÃƒÆ’Ã‚Â­sica / movimiento
 # =====================================================================
 func _physics_process(delta: float) -> void:
 	var on_floor := is_on_floor()
@@ -140,7 +153,7 @@ func _physics_process(delta: float) -> void:
 	if body.is_punching():
 		speed *= 0.6
 
-	# Movimiento relativo a la cámara
+	# Movimiento relativo a la cÃƒÆ’Ã‚Â¡mara
 	var dir := Vector3(input.x, 0.0, input.y).rotated(Vector3.UP, cam_yaw)
 	var target := Vector2(dir.x, dir.z) * speed
 	var accel := 14.0 if on_floor else 4.0
@@ -159,6 +172,8 @@ func _physics_process(delta: float) -> void:
 		_try_interact()
 	if Input.is_action_just_pressed("drop"):
 		_drop()
+	if Input.is_action_just_pressed("throw_sport") and punch_cd <= 0.0 and stun_t <= 0.0:
+		_throw_sport()
 
 	move_and_slide()
 
@@ -172,8 +187,8 @@ func _physics_process(delta: float) -> void:
 func _process(delta: float) -> void:
 	body.animate(delta, velocity, is_on_floor(), crouching)
 
-	# Colisión más baja al agacharse
-	var h := lerpf(1.8, 1.15, body.crouch_amt)
+	# ColisiÃƒÆ’Ã‚Â³n mÃƒÆ’Ã‚Â¡s baja al agacharse
+	var h := lerpf(2.7, 1.725, body.crouch_amt)
 	capsule.height = h
 	collision.position.y = h * 0.5
 
@@ -187,7 +202,7 @@ func _try_punch() -> void:
 		_aim_assist()
 
 
-## Si hay un enemigo cerca, gira hacia él para que el golpe conecte.
+## Si hay un enemigo cerca, gira hacia ÃƒÆ’Ã‚Â©l para que el golpe conecte.
 func _aim_assist() -> void:
 	var best: Node3D = null
 	var best_d := AIM_ASSIST_RANGE
@@ -248,7 +263,7 @@ func _use_weapon() -> void:
 		_emit_weapon()
 
 
-## Recibir daño (lo llaman los enemigos).
+## Recibir daÃƒÆ’Ã‚Â±o (lo llaman los enemigos).
 func take_hit(direction: Vector3, damage: float) -> void:
 	if dead:
 		return
@@ -283,11 +298,60 @@ func _emit_weapon() -> void:
 	else:
 		var n: String = weapon.weapon_name
 		var d: int = weapon.durability
+		if weapon.has_method("can_throw") and weapon.can_throw():
+			n += " · Q: lanzar"
 		weapon_changed.emit("%s (%d)" % [n, d])
 
+func _throw_sport() -> void:
+	if dead or busy or weapon == null or body.is_punching():
+		return
+	if not weapon.has_method("can_throw") or not weapon.can_throw():
+		return
+	var direction := Vector3.FORWARD.rotated(Vector3.UP, cam_yaw)
+	var origin := global_position + Vector3.UP * 1.6 + direction * 0.7
+	var destination := origin + direction * 14.0
+	var best_distance := 18.0
+	# Asistencia de puntería solo delante del jugador y con línea de visión.
+	for enemy in get_tree().get_nodes_in_group("enemy"):
+		var en := enemy as Node3D
+		if en == null or en.get("dead") == true:
+			continue
+		var offset := en.global_position - global_position
+		if absf(offset.y) > 3 or offset.length() >= best_distance:
+			continue
+		if offset.normalized().dot(direction) < 0.65:
+			continue
+		var point := en.global_position + Vector3.UP * 1.3
+		var query := PhysicsRayQueryParameters3D.create(origin, point)
+		query.exclude = [get_rid()]
+		var hit := get_world_3d().direct_space_state.intersect_ray(query)
+		var collider := hit.get("collider") as Node
+		if not hit.is_empty() and collider != en and not (collider and en.is_ancestor_of(collider)):
+			continue
+		best_distance = offset.length()
+		destination = point
+	var item = body.unequip()
+	weapon = null
+	body.punch_time = 0.5
+	var projectile := SportsProjectile.new()
+	projectile.equipment = item
+	projectile.sport = item.sport
+	projectile.damage = item.damage + 8.0
+	projectile.targets_enemies = true
+	projectile.shooter = self
+	get_parent().add_child(projectile)
+	projectile.launch(origin, destination, 16.0)
+	body.start_punch()
+	punch_cd = 0.6
+	_emit_weapon()
 
-## E: usa lo más cercano entre un arma del suelo y un computador pendiente.
+
+## E: usa lo mÃƒÆ’Ã‚Â¡s cercano entre un arma del suelo y un computador pendiente.
 func _try_interact() -> void:
+	for vendor in get_tree().get_nodes_in_group("stationery_vendor"):
+		if global_position.distance_to(vendor.global_position) < 4.5:
+			vendor.interact(self)
+			return
 	var best_weapon: Node3D = null
 	var best_wd := PICKUP_RANGE
 	for w in get_tree().get_nodes_in_group("weapon_pickup"):
@@ -325,6 +389,7 @@ func _use_computer(c: Node3D) -> void:
 
 
 func _equip(w) -> void:
+	equip_stationery("")
 	if weapon != null:
 		_drop()                          # cambia el arma actual por la nueva
 	w.pick_up()
@@ -336,6 +401,9 @@ func _equip(w) -> void:
 
 
 func _drop() -> void:
+	if not equipped_stationery.is_empty():
+		equip_stationery("")
+		return
 	if weapon == null:
 		return
 	var w = body.unequip()
@@ -349,3 +417,58 @@ func _drop() -> void:
 		w.rotation = Vector3.ZERO
 		w.put_down()
 	_emit_weapon()
+
+func receive_stationery(key: String) -> int:
+	stationery_inventory[key] = int(stationery_inventory.get(key,0))+1
+	save_stationery()
+	return stationery_inventory[key]
+func equip_stationery(key: String) -> bool:
+	if not key.is_empty() and (not load("res://inventario_papeleria.gd").ITEMS.has(key) or stationery_inventory.get(key,0)<=0): return false
+	if is_instance_valid(stationery_model): stationery_model.free()
+	stationery_model = null
+	equipped_stationery = ""
+	if not key.is_empty() and weapon != null: _drop()
+	equipped_stationery = key
+	if not key.is_empty():
+		stationery_model = Node3D.new()
+		stationery_model.name = "ArticuloEquipado"
+		body.hand_r.add_child(stationery_model)
+		if key == "lapiz":
+			var pencil := CylinderMesh.new()
+			pencil.top_radius = 0.009
+			pencil.bottom_radius = 0.009
+			pencil.height = 0.24
+			stationery_part(pencil,Vector3(0,-0.06,0),Color(0.95,0.7,0.08))
+		else:
+			var mesh := BoxMesh.new()
+			mesh.size = Vector3(0.22,0.045 if key == "cuaderno" else 0.008,0.3) if key != "goma" else Vector3(0.12,0.07,0.06)
+			stationery_part(mesh,Vector3(0,-0.015,-0.1),Color(0.15,0.35,0.7) if key == "cuaderno" else Color(0.92,0.93,0.91) if key == "hoja_impresa" else Color(0.92,0.45,0.55))
+			if key in ["cuaderno","hoja_impresa"]:
+				for i in range(5):
+					var line := BoxMesh.new()
+					line.size = Vector3(0.15,0.002,0.004)
+					stationery_part(line,Vector3(0,0.01 if key == "cuaderno" else -0.009,-0.19+i*0.035),Color(0.2,0.22,0.27))
+	save_stationery()
+	_emit_weapon()
+	return true
+func stationery_part(mesh: Mesh, position_value: Vector3, color: Color) -> void:
+	var part := MeshInstance3D.new()
+	part.mesh = mesh
+	part.position = position_value
+	var material := StandardMaterial3D.new()
+	material.albedo_color = color
+	part.material_override = material
+	stationery_model.add_child(part)
+func save_stationery() -> void:
+	var file := FileAccess.open("user://papeleria_inventario.json",FileAccess.WRITE)
+	if file: file.store_string(JSON.stringify({"items":stationery_inventory,"notes":stationery_notes,"equipped":equipped_stationery}))
+func load_stationery() -> void:
+	if not FileAccess.file_exists("user://papeleria_inventario.json"): return
+	var data = JSON.parse_string(FileAccess.get_file_as_string("user://papeleria_inventario.json"))
+	if not data is Dictionary: return
+	var saved_items = data.get("items",{})
+	if saved_items is Dictionary:
+		for key in load("res://inventario_papeleria.gd").ITEMS:
+			stationery_inventory[key] = maxi(0,int(saved_items.get(key,0)))
+	stationery_notes = str(data.get("notes",""))
+	equip_stationery(str(data.get("equipped","")))

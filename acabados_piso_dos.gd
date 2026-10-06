@@ -81,9 +81,9 @@ func build() -> Dictionary:
 	var rails := group_node("BarandasAtrio")
 	for i in range(9):
 		var x := -16.0 + i * 3.6
-		box(rails, "VidrioFrente" + str(i), Vector3(x, 12.86, -132.0), Vector3(3.5, 1.6, 0.06), glass, true)
-		box(rails, "PosteFrente" + str(i), Vector3(x - 1.8, 12.91, -132), Vector3(0.07, 1.7, 0.07), metal)
-	box(rails, "PasamanosFrente", Vector3(-1.6, 13.75, -132), Vector3(32.4, 0.07, 0.08), metal)
+		box(rails, "VidrioFrente" + str(i), Vector3(x, 12.86, -133.0532), Vector3(3.5, 1.6, 0.06), glass, true)
+		box(rails, "PosteFrente" + str(i), Vector3(x - 1.8, 12.91, -133.0532), Vector3(0.07, 1.7, 0.07), metal)
+	box(rails, "PasamanosFrente", Vector3(-1.6, 13.75, -133.0532), Vector3(32.4, 0.07, 0.08), metal)
 	for i in range(8):
 		var z := -120.2 + i * 3.6
 		box(rails, "VidrioPasillo" + str(i), Vector3(25.60, 12.86, z), Vector3(0.06, 1.6, 3.5), glass, true)

@@ -2,6 +2,8 @@ extends Node3D
 ## Boss local: detección con línea de visión y persecución directa con colisiones.
 ## No requiere cambios en player.gd ni en GameplayManager.
 const Humanoid = preload("res://humanoid.gd")
+const SportsProjectile = preload("res://proyectil_deportivo.gd")
+const THROW_ITEMS := ["bate", "raqueta", "pelota", "baseball", "tenis", "futbol", "rugby", "disco"]
 
 @export_range(1.0, 30.0) var detection_range: float = 10.0
 @export_range(0.1, 10.0) var chase_speed: float = 2.6
@@ -9,6 +11,10 @@ const Humanoid = preload("res://humanoid.gd")
 @export_range(0.0, 100.0) var attack_damage: float = 10.0
 @export_range(0.2, 5.0) var attack_cooldown: float = 1.2
 @export var max_health: float = 200.0
+@export var throw_cooldown: float = 2.4
+@export var throw_damage: float = 12.0
+@export var throw_speed: float = 12.0
+@export var max_sports_equipment: int = 12
 
 var health: float
 var dead: bool = false
@@ -18,6 +24,9 @@ var _visual: Humanoid
 var _attack_timer: float = 0.0
 var _health_label: Label3D
 var _health_fill: MeshInstance3D
+var _throw_timer := 1.0
+var _throw_pending := false
+var _next_sport := 0
 
 func _build_health_display() -> void:
 	_health_label = Label3D.new()
@@ -78,6 +87,7 @@ func _ready() -> void:
 
 func _physics_process(delta: float) -> void:
 	_attack_timer = maxf(0.0, _attack_timer - delta)
+	_throw_timer = maxf(0.0, _throw_timer - delta)
 	_mover.velocity.x = 0.0
 	_mover.velocity.z = 0.0
 	if not _mover.is_on_floor():
@@ -91,12 +101,18 @@ func _physics_process(delta: float) -> void:
 		if distance > 0.001:
 			_visual.rotation.y = atan2(-offset.x, -offset.z)
 		if distance <= attack_range:
-			if _attack_timer <= 0.0 and _visual.start_punch():
+			if not _visual.is_punching() and _attack_timer <= 0.0 and _visual.start_punch():
+				_throw_pending = false
 				_attack_timer = attack_cooldown
+		elif distance >= 3.0 and _throw_timer <= 0.0 and not _visual.is_punching() and _can_spawn_equipment():
+			if _visual.start_punch():
+				_throw_pending = true
+				_throw_timer = throw_cooldown
 		elif not _visual.is_punching():
-			var direction := offset.normalized()
-			_mover.velocity.x = direction.x * chase_speed
-			_mover.velocity.z = direction.z * chase_speed
+			if distance > 6.0 or distance < 3.0 or not _can_spawn_equipment():
+				var direction := offset.normalized()
+				_mover.velocity.x = direction.x * chase_speed
+				_mover.velocity.z = direction.z * chase_speed
 	_mover.move_and_slide()
 	global_position = _mover.global_position
 	_visual.animate(delta, _mover.velocity, _mover.is_on_floor(), false)
@@ -118,6 +134,10 @@ func _has_line_of_sight() -> bool:
 	return hit.is_empty() or hit.get("collider") == target
 
 func _on_punch_landed(_side: int) -> void:
+	if _throw_pending:
+		_throw_pending = false
+		_throw_equipment()
+		return
 	if dead or not _can_detect_target():
 		return
 	var offset := target.global_position - global_position
@@ -127,6 +147,24 @@ func _on_punch_landed(_side: int) -> void:
 	offset.y = 0.0
 	if target.has_method("take_hit"):
 		target.call("take_hit", offset.normalized(), attack_damage)
+
+func _can_spawn_equipment() -> bool:
+	return get_tree().get_nodes_in_group("sports_equipment").size() < max_sports_equipment
+
+func _throw_equipment() -> void:
+	if dead or not _can_detect_target() or not _can_spawn_equipment():
+		return
+	var projectile := SportsProjectile.new()
+	projectile.sport = THROW_ITEMS[_next_sport % THROW_ITEMS.size()]
+	_next_sport += 1
+	projectile.damage = throw_damage
+	projectile.shooter = _mover
+	get_parent().add_child(projectile)
+	var direction := target.global_position - global_position
+	direction.y = 0
+	var origin := global_position + Vector3.UP * 1.8 + direction.normalized() * 0.7
+	var destination := target.global_position + Vector3.UP * (0.7 if target.get("crouching") == true else 1.2)
+	projectile.launch(origin, destination, throw_speed)
 
 func take_hit(_direction: Vector3, damage: float) -> void:
 	if dead:

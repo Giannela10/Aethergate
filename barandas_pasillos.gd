@@ -21,7 +21,7 @@ func inside(p: Vector2, surfaces: Array[Rect2]) -> bool:
 	return false
 
 func floor_like(title: String) -> bool:
-	return title.begins_with("Building_Floor") or title.begins_with("Losa") or title.begins_with("UmbralPiso") or title.contains("_Cierre") or title in ["PisoCoordinacion","AccesoEscalera","PisoBibliotecaIntegrado","RellenoFrenteEscalera"]
+	return title.begins_with("Building_Floor") or title.begins_with("Losa") or title.begins_with("PuenteAcceso") or title.begins_with("UmbralEntrada") or title.begins_with("UmbralPiso") or title.contains("_Cierre") or title in ["PisoCoordinacion","AccesoEscalera","PisoBibliotecaIntegrado","RellenoFrenteEscalera","DesembarcoSuperior"]
 
 func collect(level: int) -> Dictionary:
 	var surfaces: Array[Rect2] = []
@@ -41,9 +41,9 @@ func collect(level: int) -> Dictionary:
 		# Keep existing walls, low rails, and solid wooden stair sides.
 		if b.position.y < y+0.75 and b.end.y > y+1.25 and minf(b.size.x,b.size.z)<1.0:
 			barriers.append(rect_of(b).grow(0.65))
-		# The first and last steps must connect freely to the corridor.
-		if title.begins_with("Step") or title.begins_with("Escalera Norte") or title.begins_with("Escalera Sur"):
-			if absf(b.end.y-y)<0.85:
+		# Reserve the whole player volume, including stairs below this floor.
+		if title.begins_with("Step") or title.begins_with("Escalera Norte") or title.begins_with("Escalera Sur") or title == "DesembarcoSuperior":
+			if b.end.y + 2.8 > y and b.position.y < y + 1.8:
 				accesses.append(rect_of(b).grow(0.55))
 	return {"surfaces":surfaces,"barriers":barriers,"accesses":accesses}
 
@@ -109,7 +109,42 @@ func make_plan(level: int) -> Array:
 
 func own(parent: Node, n: Node) -> void:
 	parent.add_child(n)
-	n.owner = get_tree().edited_scene_root
+	n.owner = owner
+
+# Apply before rebuilding rails. Keep slabs and their physics shapes together.
+func repair_stair_access() -> Dictionary:
+	var campus := get_parent()
+	var changed: Array[String] = []
+	var edge_z := -132.9532
+	for n in campus.find_children("*", "GeometryInstance3D", true, false):
+		if not (n is MeshInstance3D or n is CSGBox3D): continue
+		var title := str(n.name)
+		if not floor_like(title) or title.contains("Techo"): continue
+		var b := bounds_of(n)
+		# These slabs extend 0.8 m into the principal staircase opening.
+		if b.position.x < -18.0 and b.end.x > 15.0 and b.position.z < -140.0 and b.end.z > edge_z and b.end.z < -131.0 and b.end.y > 10.0:
+			var depth := edge_z - b.position.z
+			if n is CSGBox3D:
+				n.size.z = depth
+			else:
+				if not n.mesh is BoxMesh: continue
+				n.mesh = n.mesh.duplicate()
+				n.mesh.size.z = depth
+				for c in n.find_children("*", "CollisionShape3D", true, false):
+					if c.shape is BoxShape3D:
+						c.shape = c.shape.duplicate()
+						c.shape.size.z = depth
+			var p: Vector3 = n.global_position
+			p.z = b.position.z + depth * 0.5
+			n.global_position = p
+			changed.append(str(campus.get_path_to(n)))
+	var front := campus.get_node("Piso2/AcabadosZonaAscensores/BarandasAtrio")
+	for n in front.get_children():
+		if str(n.name).contains("Frente"):
+			var p: Vector3 = n.global_position
+			p.z = -133.0532
+			n.global_position = p
+	return {"losas_recortadas": changed, "baranda_frontal_z": -133.0532}
 
 func box(parent: Node3D, title: String, pos: Vector3, dimensions: Vector3, mat: Material, solid: bool) -> void:
 	var n := MeshInstance3D.new()
@@ -132,6 +167,7 @@ func box(parent: Node3D, title: String, pos: Vector3, dimensions: Vector3, mat: 
 		own(body,collision)
 
 func build() -> Array:
+	repair_stair_access()
 	for n in get_children():
 		remove_child(n)
 		n.free()

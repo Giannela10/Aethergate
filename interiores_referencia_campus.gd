@@ -142,19 +142,18 @@ func build_ground_corridor() -> void:
 	var sign := label(corridor,"IndicacionCoordinacion","COORDINACIÓN  →",Vector3(64,3,-122.42),PI,0.006)
 	sign.modulate = Color(0.92,0.94,0.93)
 	var casino := campus.get_node("Piso1/Casino")
+	casino.get_node("Letrero").hide()
 	var entrance := group(casino,"AcabadosEntradaLateral")
 	for z in [-119.12,-113.88]:
 		box(entrance,"MarcoEntrada",Vector3(-32.22,1.6,z),Vector3(0.14,3.2,0.13),mats["steel"])
 	box(entrance,"FranjaSobreEntrada",Vector3(-32.19,3.65,-116.5),Vector3(0.15,0.65,5.5),mats["cream"])
-	for z in [-121.2,-110.8]:
-		box(entrance,"RevestimientoLateral",Vector3(-32.17,1.4,z),Vector3(0.1,2.8,1.7),mats["cream"])
 	label(entrance,"Casino","CASINO",Vector3(-32.08,3.65,-116.5),PI/2,0.007)
 	for n in casino.find_children("Cristal","MeshInstance3D",true,false):
 		n.material_override = mats["glass"]
 	for n in casino.find_children("*","CSGBox3D",true,false):
 		if str(n.name) in ["CubiertaMeson","Tablero"]:
 			n.material = mats["wood"]
-	box(entrance,"LuzEntrada",Vector3(-31.8,4.4,-116.5),Vector3(0.12,0.06,4.2),mats["lamp"])
+	box(entrance,"LuzEntrada",Vector3(-32.08,4.1,-116.5),Vector3(0.12,0.06,4.2),mats["lamp"])
 	light(entrance,Vector3(-31,3.5,-116.5),8)
 
 func chair(parent: Node3D, pos: Vector3, angle: float = 0.0) -> void:

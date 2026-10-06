@@ -9,6 +9,9 @@ const WEAPON_RESPAWN_TIME := 8.0
 const TASKS_TOTAL := 3
 const TASK_HEAL := 25.0          # vida que recuperas al completar una tarea
 
+# Keep the entrance clear for exploring the campus.
+@export var populate_entrance := false
+
 # Puntos donde aparecen/reaparecen los enemigos (lejos del jugador, para que haya sigilo)
 const ENEMY_SPAWNS := [
 	Vector3(14, 0.05, -8), Vector3(-15, 0.05, -4), Vector3(0, 0.05, -20),
@@ -67,21 +70,18 @@ func _ready() -> void:
 	player.hit_received.connect(_on_player_hit)
 	player.died.connect(_on_player_died)
 	_on_player_health(player.health, player.max_health)
-	_on_weapon_changed("Puños")
+	player._emit_weapon()
 
 	# Computadores: (posición, giro en grados, minijuego)
-	_spawn_computer(Vector3(-6, 0, -5), 0.0, 0)      # PC 1: ordenar archivos
-	_spawn_computer(Vector3(8, 0, 8), 225.0, 1)      # PC 2: antivirus
-	_spawn_computer(Vector3(-13, 0, 6), 90.0, 2)     # PC 3: contraseña
-
-	# Armas iniciales
-	var kinds := ["palo", "silla", "palo", "silla", "palo"]
-	for i in kinds.size():
-		_spawn_weapon(kinds[i], WEAPON_SPOTS[i])
-
-	# Enemigos iniciales
-	for i in START_ENEMIES:
-		_spawn_enemy(ENEMY_SPAWNS[i])
+	if populate_entrance:
+		_spawn_computer(Vector3(-6, 0, -5), 0.0, 0)
+		_spawn_computer(Vector3(8, 0, 8), 225.0, 1)
+		_spawn_computer(Vector3(-13, 0, 6), 90.0, 2)
+		var kinds := ["palo", "silla", "palo", "silla", "palo"]
+		for i in kinds.size():
+			_spawn_weapon(kinds[i], WEAPON_SPOTS[i])
+		for i in START_ENEMIES:
+			_spawn_enemy(ENEMY_SPAWNS[i])
 
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
@@ -279,6 +279,7 @@ func _build_hud() -> void:
 	help.text = "WASD mover · Shift correr · C agacharse (sigilo) · Espacio saltar\n" \
 			+ "J / clic izq. golpear · E usar computador o recoger arma · G soltar\n" \
 			+ "Ratón: cámara · Rueda: zoom · Esc: liberar ratón · R: reiniciar"
+	help.text += "\nQ: lanzar pelota o disco equipado"
 	_style_label(help, 15)
 	box.add_child(help)
 
@@ -318,6 +319,7 @@ func _on_weapon_changed(text: String) -> void:
 
 
 func _on_weapon_broke(weapon_name: String) -> void:
+	if not populate_entrance: return
 	_show_message("¡Se rompió: %s!" % weapon_name, 2.0)
 	await get_tree().create_timer(WEAPON_RESPAWN_TIME).timeout
 	_spawn_weapon(["palo", "silla"][randi() % 2], WEAPON_SPOTS[randi() % WEAPON_SPOTS.size()])
@@ -328,6 +330,7 @@ func _on_player_died() -> void:
 
 
 func _on_enemy_died(_enemy) -> void:
+	if not populate_entrance: return
 	kills += 1
 	_update_counters()
 	_show_message("¡Enemigo derrotado!", 2.0)

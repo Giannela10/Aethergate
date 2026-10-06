@@ -1,0 +1,17 @@
+[
+    {
+        "params":  {
+                       "region":  [
+                                      -32.7,
+                                      0,
+                                      -119.1,
+                                      1,
+                                      12,
+                                      5.3
+                                  ],
+                       "detail":  "brief",
+                       "max_nodes":  60
+                   },
+        "method":  "scene.spatial_map"
+    }
+]

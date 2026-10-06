@@ -1,0 +1,1 @@
+[{"method":"execute.code","params":{"scope_path":"/root/Main/GameplayManager","code":"str(player.global_position)"}}]

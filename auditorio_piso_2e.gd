@@ -476,3 +476,281 @@ func correct_seat_pivots() -> int:
 
 
 
+
+func ampliar_recinto_y_despejar_entradas() -> Dictionary:
+	for child in get_children():
+		if child.name == "AuditorioAmpliado": child.free(); continue
+		if child is Node3D: child.visible = false
+		for col in child.find_children("*","CollisionShape3D",true,false): col.disabled = true
+		for csg in child.find_children("*","CSGShape3D",true,false): csg.use_collision = false
+	var original_floor := get_parent().get_node("Building_Floor Piso 2e") as MeshInstance3D
+	original_floor.visible = false
+	for col in original_floor.find_children("*","CollisionShape3D",true,false): col.disabled = true
+	mats["madera"] = load("res://materials/entrance/MAT_Auditorium_Plywood.tres")
+	make_material("azul",Color(0.025,0.07,0.16),0.98)
+	make_material("metal",Color(0.025,0.027,0.03),0.7)
+	make_material("piso",Color(0.035,0.035,0.04),1)
+	make_material("pantalla",Color(0.83,0.9,0.88),0.6)
+	var campus := get_parent().get_parent()
+	var old_landing := get_parent().get_node("RellenoFrenteEscalera") as CSGBox3D
+	old_landing.visible = false
+	old_landing.use_collision = false
+	# Keep only the landing strip in front of the pillar; fill the former recess.
+	old_landing.size.z = 2.15
+	old_landing.position.z = -87.575
+	var patch := campus.get_node("ContinuidadPisos/Piso2_Cierre3") as MeshInstance3D
+	patch.visible = false
+	for col in patch.find_children("*","CollisionShape3D",true,false): col.disabled = true
+	var hall := group_node("AuditorioAmpliado")
+	var left := 42.85
+	var right := 71.12624
+	var back := -122.0
+	var front := -86.75
+	var top := 23.35
+	var base := 8.2547
+	var entry_y := 12.058385849
+	box(hall,"BaseContinuaHastaSuelo",Vector3((left+right)*0.5,base*0.5,(back+front)*0.5),Vector3(right-left,base,front-back),"piso",true)
+	for z in [back,front]: box(hall,"CierreFondo"+str(z),Vector3((left+right)*0.5,top*0.5,z),Vector3(right-left,top,0.16),"madera",true)
+	# The extension follows the stair landing, keeping its circulation intact.
+	var wing_left := 32.35
+	var wing_front := front
+	var wing_width := left-wing_left
+	var wing_depth := wing_front-back
+	box(hall,"BaseAmpliacionLateral",Vector3((wing_left+left)*0.5,base*0.5,(back+wing_front)*0.5),Vector3(wing_width,base,wing_depth),"piso",true)
+	box(hall,"LateralCompleto",Vector3(wing_left,top*0.5,(back+wing_front)*0.5),Vector3(0.16,top,wing_depth),"madera",true)
+	box(hall,"FondoAmpliacion",Vector3((wing_left+left)*0.5,top*0.5,back),Vector3(wing_width,top,0.16),"madera",true)
+	box(hall,"CierreJuntoDescanso",Vector3((wing_left+left)*0.5,top*0.5,wing_front),Vector3(wing_width,top,0.16),"madera",true)
+	box(hall,"TechoAmpliacion",Vector3((wing_left+left)*0.5,top+0.05,(back+wing_front)*0.5),Vector3(wing_width,0.18,wing_depth),"metal",true)
+	box(hall,"TarimaLateralAmpliada",Vector3((wing_left+left)*0.5,8.97735,(back+wing_front)*0.5),Vector3(wing_width,1.4453,wing_depth-0.2),"piso",true)
+	box(hall,"TechoCompleto",Vector3((left+right)*0.5,top+0.05,(back+front)*0.5),Vector3(right-left,0.18,front-back),"metal",true)
+	for span in [Vector2(back,-120.2),Vector2(-116.8,-92.2),Vector2(-88.8,front)]:
+		box(hall,"FachadaEntrada"+str(span.x),Vector3(right,top*0.5,(span.x+span.y)*0.5),Vector3(0.16,top,span.y-span.x),"madera",true)
+	for z in [-118.5,-90.5]:
+		box(hall,"BaseBajoPuerta"+str(z),Vector3(right,entry_y*0.5,z),Vector3(0.16,entry_y,3.4),"madera",true)
+		box(hall,"DintelPuerta"+str(z),Vector3(right,(15.85+top)*0.5,z),Vector3(0.16,top-15.85,3.4),"madera",true)
+		box(hall,"UmbralLibre"+str(z),Vector3(right+0.05,entry_y-0.07,z),Vector3(1.3,0.14,3.4),"piso",true)
+		var label := Label3D.new()
+		label.name = "LetreroEntrada"+str(z)
+		label.text = "AUDITORIO — ENTRADA "+("1" if z < -100 else "2")
+		label.position = Vector3(right+0.15,15.4,z)
+		label.rotation.y = PI*0.5
+		label.font_size = 56
+		label.pixel_size = 0.008
+		hall.add_child(label)
+		label.owner = owner
+	box(hall,"PasilloEntradasDespejado",Vector3(right-2.075,entry_y-0.1,(back+front)*0.5),Vector3(4.15,0.2,front-back),"piso",true)
+	box(hall,"EscenarioAmpliado",Vector3(44.625,8.97735,(back+front)*0.5),Vector3(3.15,1.4453,front-back-0.4),"piso",true)
+	box(hall,"PantallaGrande",Vector3(32.55,13.8,-105.5),Vector3(0.08,7,20),"pantalla")
+	box(hall,"Atril",Vector3(36.5,10.4,-112),Vector3(1.2,1.4,1.1),"madera",true)
+	var seating := Node3D.new()
+	seating.name = "ButacasAmpliadas"
+	hall.add_child(seating)
+	seating.owner = owner
+	var seats_z: Array[float] = [-115.5,-113.6,-111.7,-109.8,-107.9,-101.5,-99.6,-97.7,-95.8,-93.9,-87.7]
+	for row in range(9):
+		var x := 49.7+row*1.55
+		var y := 8.55+row*0.4
+		for span in [Vector2(-116.5,-106.9),Vector2(-102.5,-92.9),Vector2(-88.5,-87.05)]:
+			box(hall,"Grada"+str(row)+str(span.x),Vector3(x,(base+y)*0.5,(span.x+span.y)*0.5),Vector3(1.55,y-base,span.y-span.x),"piso",true)
+		for col in range(seats_z.size()):
+			var chair := Node3D.new()
+			chair.name = "Butaca%02d_%02d" % [row+1,col+1]
+			seating.add_child(chair)
+			chair.owner = owner
+			chair.position = Vector3(x,y,seats_z[col])
+			chair.rotation.y = PI*0.5
+			box(chair,"Cojin",Vector3(0,0.75,0),Vector3(1.1,0.22,1),"azul",true)
+			box(chair,"Respaldo",Vector3(0,1.15,0.43),Vector3(1.1,1,0.18),"azul",true)
+			box(chair,"Soporte",Vector3(0,0.35,0),Vector3(0.5,0.7,0.5),"metal")
+	var run := 18.57624
+	var rise := entry_y-8.4
+	var angle := atan(rise/run)
+	for z in [-118.5,-104.5,-90.5]:
+		var ramp := box(hall,"PasilloInclinado"+str(z),Vector3(57.68812,(8.4+entry_y)*0.5-0.06/cos(angle),z),Vector3(sqrt(run*run+rise*rise),0.12,2.4),"piso",true)
+		ramp.rotation.z = angle
+	for z in [-118.5,-104.5,-90.5]:
+		var stage_angle := atan(1.3/2.2)
+		var access := box(hall,"AccesoTarima"+str(z),Vector3(47.3,9.05-0.06/cos(stage_angle),z),Vector3(sqrt(2.2*2.2+1.3*1.3),0.12,2.4),"piso",true)
+		access.rotation.z = -stage_angle
+	for x in [46.0,54.0,62.0]:
+		for z in [-114.0,-104.0,-91.0]:
+			var light := OmniLight3D.new()
+			light.name = "Luz"+str(x)+str(z)
+			light.position = Vector3(x,20,z)
+			light.omni_range = 15
+			light.light_color = Color(1,0.89,0.74)
+			light.light_energy = 1.1
+			hall.add_child(light)
+			light.owner = owner
+	# Old corridor rails crossed the two entrances and the enlarged room.
+	var rails := get_parent().get_parent().get_node("BarandasPasillosTodosLosPisos/Piso2")
+	var previous_volume := AABB(Vector3(32.2,11.6,-122.2),Vector3(36.25,4.5,42.2))
+	var room_volume := AABB(Vector3(left-0.1,11.6,back-0.1),Vector3(right-left+0.5,4.5,front-back+0.2))
+	for rail in rails.find_children("*","MeshInstance3D",true,false):
+		var bounds: AABB = rail.global_transform*rail.get_aabb()
+		if bounds.intersects(previous_volume):
+			var wing_volume := AABB(Vector3(32.25,11.6,back-0.1),Vector3(left-32.25,4.5,wing_front-back+0.2))
+			var inside := bounds.intersects(room_volume) or bounds.intersects(wing_volume)
+			rail.visible = not inside
+			for col in rail.find_children("*","CollisionShape3D",true,false): col.disabled = inside
+	box(hall,"LuzTarimaSoporte",Vector3(36,22,-110),Vector3(0.1,0.1,0.1),"metal")
+	var stage_light := OmniLight3D.new()
+	stage_light.name = "LuzAmpliacionTarima"
+	stage_light.position = Vector3(37,19,-110)
+	stage_light.omni_range = 18
+	stage_light.light_energy = 1.2
+	hall.add_child(stage_light)
+	stage_light.owner = owner
+	# Remove the obsolete front platform railings together with the platform.
+	for rail in rails.get_children():
+		var obsolete := str(rail.name) in ["PosteFinal15","PosteFinal21","PosteFinal24"]
+		for number in [13,14,18,19,20,21,22,23]:
+			if str(rail.name) in ["VidrioPasillo%03d" % number,"Pasamanos%03d" % number,"Poste%03d" % number]: obsolete = true
+		if obsolete:
+			rail.visible = false
+			for col in rail.find_children("*","CollisionShape3D",true,false): col.disabled = true
+	# Glass railing follows the new front edge from the corridor to the auditorium.
+	mats["vidrio_borde"] = rails.get_node("VidrioPasillo013").get_active_material(0)
+	mats["metal_borde"] = rails.get_node("Pasamanos013").get_active_material(0)
+	var railing := Node3D.new()
+	railing.name = "BarandaBordePasilloRecortado"
+	hall.add_child(railing)
+	railing.owner = owner
+	var edge_left := 25.6
+	var edge_right := wing_left-0.08
+	var sections := 3
+	var section_width := (edge_right-edge_left)/sections
+	for section in range(sections):
+		var x := edge_left+(section+0.5)*section_width
+		box(railing,"Vidrio"+str(section),Vector3(x,entry_y+0.8,-86.5),Vector3(section_width,1.6,0.06),"vidrio_borde",true)
+		box(railing,"Pasamanos"+str(section),Vector3(x,entry_y+1.64,-86.5),Vector3(section_width,0.08,0.06),"metal_borde")
+	for post in range(sections+1):
+		box(railing,"Poste"+str(post),Vector3(edge_left+post*section_width,entry_y+0.82,-86.5),Vector3(0.07,1.68,0.07),"metal_borde")
+	# Remove the upper front projections over the same atrium opening.
+	for level in [3,4]:
+		var slab := campus.get_node("Piso %d/Building_Floor Piso %d" % [level,level]) as MeshInstance3D
+		var bounds: AABB = slab.global_transform*slab.get_aabb()
+		slab.visible = false
+		for col in slab.find_children("*","CollisionShape3D",true,false): col.disabled = true
+		mats["losa_superior"] = slab.get_active_material(0)
+		var portions := [Rect2(bounds.position.x,bounds.position.z,25.6-bounds.position.x,bounds.size.z),Rect2(68.05,bounds.position.z,bounds.end.x-68.05,bounds.size.z),Rect2(25.6,bounds.position.z,68.05-25.6,-86.75-bounds.position.z)]
+		for part in range(portions.size()):
+			var r: Rect2 = portions[part]
+			box(hall,"LosaRecortadaPiso%dParte%d" % [level,part],Vector3(r.get_center().x,bounds.get_center().y,r.get_center().y),Vector3(r.size.x,bounds.size.y,r.size.y),"losa_superior",true)
+	# Incorporate the marked third-floor lateral corridor into the classroom.
+	var side_wall := campus.get_node("Piso 3/Front_Left piso 3 sur8") as MeshInstance3D
+	var side_bounds: AABB = side_wall.global_transform*side_wall.get_aabb()
+	side_wall.global_position.x += 32.35-side_bounds.position.x
+	var front_wall := campus.get_node("Piso 3/Delantera_piso 3c") as MeshInstance3D
+	var front_bounds: AABB = front_wall.global_transform*front_wall.get_aabb()
+	if absf(front_bounds.position.x-32.35)>0.001:
+		var extension := front_bounds.position.x-32.35
+		var wall_mesh := front_wall.mesh.duplicate() as BoxMesh
+		wall_mesh.size.x += extension/absf(front_wall.global_basis.x.x)
+		front_wall.mesh = wall_mesh
+		front_wall.global_position.x -= extension*0.5
+		for col in front_wall.find_children("*","CollisionShape3D",true,false):
+			var wall_shape := col.shape.duplicate() as BoxShape3D
+			wall_shape.size.x = wall_mesh.size.x
+			col.shape = wall_shape
+	var lateral_patch := campus.get_node("ContinuidadPisos/Piso3_Cierre4") as MeshInstance3D
+	lateral_patch.visible = false
+	for col in lateral_patch.find_children("*","CollisionShape3D",true,false): col.disabled = true
+	var room_floor := campus.get_node("Piso 3/Building_Floor Piso 3c") as MeshInstance3D
+	mats["piso_sala_3"] = room_floor.get_active_material(0)
+	box(hall,"AmpliacionPisoSala3",Vector3((25.6+30.893495)*0.5,23.717668533,(-122.0441-97.7283)*0.5),Vector3(30.893495-25.6,0.5,24.3158),"piso_sala_3",true)
+	var third_rails := campus.get_node("BarandasPasillosTodosLosPisos/Piso3")
+	for rail in third_rails.find_children("*","MeshInstance3D",true,false):
+		var rb: AABB = rail.global_transform*rail.get_aabb()
+		if rb.position.x>25.4 and rb.end.x<25.75 and rb.position.z>=-122.1 and rb.end.z<=-97.7:
+			rail.visible = false
+			for col in rail.find_children("*","CollisionShape3D",true,false): col.disabled = true
+	# Apply the same classroom expansion on the opposite side, floors 3 and 4.
+	for level in [3,4]:
+		var west_wall := campus.get_node("Piso %d/Front_Left piso %d sur4" % [level,level]) as MeshInstance3D
+		var wb: AABB = west_wall.global_transform*west_wall.get_aabb()
+		west_wall.global_position.x += -32.16-wb.end.x
+		for suffix in ["d","d2"]:
+			var end_wall := campus.get_node("Piso %d/Delantera_piso %d%s" % [level,level,suffix]) as MeshInstance3D
+			var eb: AABB = end_wall.global_transform*end_wall.get_aabb()
+			if absf(eb.end.x+32.16)>0.001:
+				var extension := -32.16-eb.end.x
+				var extended_mesh := end_wall.mesh.duplicate() as BoxMesh
+				extended_mesh.size.x += extension/absf(end_wall.global_basis.x.x)
+				end_wall.mesh = extended_mesh
+				end_wall.global_position.x += extension*0.5
+				for col in end_wall.find_children("*","CollisionShape3D",true,false):
+					var extended_shape := col.shape.duplicate() as BoxShape3D
+					extended_shape.size.x = extended_mesh.size.x
+					col.shape = extended_shape
+		var west_patch := campus.get_node("ContinuidadPisos/Piso%d_Cierre%d" % [level,1 if level==3 else 2]) as MeshInstance3D
+		west_patch.visible = false
+		for col in west_patch.find_children("*","CollisionShape3D",true,false): col.disabled = true
+		var west_floor := campus.get_node("Piso %d/Building_Floor Piso %db" % [level,level]) as MeshInstance3D
+		var fb: AABB = west_floor.global_transform*west_floor.get_aabb()
+		mats["piso_sala_oeste"] = west_floor.get_active_material(0)
+		for rail in campus.get_node("BarandasPasillosTodosLosPisos/Piso%d" % level).find_children("*","MeshInstance3D",true,false):
+			var rb: AABB = rail.global_transform*rail.get_aabb()
+			if rb.position.x > -18.75 and rb.end.x < -18.35 and rb.position.z>=-122.1 and rb.end.z<=-97.7:
+				rail.visible = false
+				for col in rail.find_children("*","CollisionShape3D",true,false): col.disabled = true
+	uniformizar_pasillos(hall,campus)
+	hall.set_meta("superficie_m2",(right-left)*(front-back)+wing_width*wing_depth)
+	hall.set_meta("entradas_z",[-118.5,-90.5])
+	hall.set_meta("pasillo_libre_x",Vector2(right-4.15,right))
+	hall.set_meta("butacas",99)
+	return {"ancho_maximo":right-wing_left,"superficie_m2":(right-left)*(front-back)+wing_width*wing_depth,"profundidad":front-back,"butacas":99,"entradas_libres":2,"base_hasta_suelo":true}
+
+func vista_auditorio_ampliado() -> Dictionary:
+	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	camera.global_position = Vector3(64,19,-102)
+	camera.look_at(Vector3(45,11,-102),Vector3.UP)
+	return {"view":"expanded auditorium"}
+
+func vista_lateral_auditorio() -> Dictionary:
+	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	camera.global_position = Vector3(21,27,-121)
+	camera.look_at(Vector3(26,26,-104),Vector3.UP)
+	return {"view":"closed auditorium sides"}
+
+func uniformizar_pasillos(hall: Node3D,campus: Node3D) -> void:
+	for rail in campus.get_node("Piso2/AcabadosZonaAscensores/BarandasAtrio").get_children():
+		if "Pasillo" in str(rail.name):
+			rail.visible = false
+			for col in rail.find_children("*","CollisionShape3D",true,false): col.disabled = true
+	var width := 13.2072
+	var heights: Array[float] = [0.0,12.058385849,23.967668533,35.674415588]
+	var floor_ref := campus.get_node("Piso 3/Building_Floor Piso 3c2") as MeshInstance3D
+	mats["piso_pasillos"] = floor_ref.get_active_material(0)
+	var standardized := Node3D.new()
+	standardized.name = "PasillosUniformesPisos1a4"
+	hall.add_child(standardized)
+	standardized.owner = owner
+	for level in range(4):
+		var y := heights[level]
+		var level_node := Node3D.new()
+		level_node.name = "Piso%d" % (level+1)
+		standardized.add_child(level_node)
+		level_node.owner = owner
+		for side in [-1,1]:
+			var wall_x := -32.16 if side<0 else 32.35
+			var edge_x: float = wall_x-side*width
+			var center_x: float = (wall_x+edge_x)*0.5
+			var deck := box(level_node,"PasilloOeste" if side<0 else "PasilloEste",Vector3(center_x,y-0.144,-109.925),Vector3(width,0.3,24.15),"piso_pasillos",level>0)
+			deck.set_meta("ancho_libre",width)
+			if level==0:
+				deck.position.y = -0.144
+				continue
+			var old_rails := campus.get_node("BarandasPasillosTodosLosPisos/Piso%d" % (level+1))
+			for rail in old_rails.find_children("*","MeshInstance3D",true,false):
+				var rb: AABB = rail.global_transform*rail.get_aabb()
+				if rb.size.x<0.2 and rb.position.z>=-122.1 and rb.end.z<=-97.7 and ((side<0 and rb.position.x>-19.2 and rb.end.x < -18.3) or (side>0 and rb.position.x>18.8 and rb.end.x<25.8)):
+					rail.visible = false
+					for col in rail.find_children("*","CollisionShape3D",true,false): col.disabled = true
+			for segment in range(8):
+				var z := -122+(segment+0.5)*24.15/8
+				box(level_node,"Cristal%d_%d" % [side,segment],Vector3(edge_x,y+0.8,z),Vector3(0.06,1.6,24.15/8),"vidrio_borde",true)
+				box(level_node,"Pasamanos%d_%d" % [side,segment],Vector3(edge_x,y+1.64,z),Vector3(0.06,0.08,24.15/8),"metal_borde")
+			for post in range(9):
+				box(level_node,"Poste%d_%d" % [side,post],Vector3(edge_x,y+0.82,-122+post*24.15/8),Vector3(0.07,1.68,0.07),"metal_borde")
+	standardized.set_meta("ancho_referencia",width)

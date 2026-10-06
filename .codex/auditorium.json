@@ -1,0 +1,1 @@
+[{"method":"editor.refresh","params":{}},{"method":"execute.code","params":{"scope_path":"Piso2/AuditorioPiso2e","code":"get_script().reload(true)"}},{"method":"node.call_method","params":{"node_path":"Piso2/AuditorioPiso2e","method_name":"ampliar_recinto_y_despejar_entradas","args":[]}},{"method":"editor.save_scene","params":{}}]
