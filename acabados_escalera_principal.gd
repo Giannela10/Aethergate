@@ -43,6 +43,10 @@ func apply() -> void:
 	floor_mat.roughness = 0.62
 	ResourceSaver.save(floor_mat,"res://materials/entrance/MAT_Peldanos_Oscuros.tres")
 	var root := get_parent()
+	var glazing := root.get_node_or_null("VidriosLateralesEscaleraPisos2a8")
+	if glazing:
+		root.remove_child(glazing)
+		glazing.free()
 	var count := 0
 	for stair in root.find_children("Escalera ascensor*","Node3D",true,false):
 		var decoration := Node3D.new()
@@ -76,3 +80,16 @@ func apply() -> void:
 				prism(decoration,"PanelDescanso",bounds.position.x,bounds.end.x,bounds.end.y,bounds.end.y,z,wood)
 		count += 1
 	set_meta("tramos_entre_pisos",count)
+	set_meta("vidrio_interior_retirado",true)
+
+func verificar() -> Dictionary:
+	var counts: Array = []
+	for group in get_children():
+		counts.append({"piso":group.name,"paneles":group.get_child_count()})
+	return {"tramos":counts,"vidrio_interior_presente":get_parent().has_node("VidriosLateralesEscaleraPisos2a8")}
+
+func vista_escalera() -> void:
+	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	camera.global_position = Vector3(-24,17,-112)
+	camera.look_at(Vector3(-2,18,-127.8),Vector3.UP)
+
