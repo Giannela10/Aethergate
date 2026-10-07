@@ -33,7 +33,7 @@ func holes(level: int) -> Array[Rect2]:
 		regions = remove_area(regions,Rect2(36.8,-86.7,39.2,10.3))
 	var campus := get_parent()
 	# Preserve the three protected terrace wells when repairing floor continuity.
-	for well in campus.find_children("VacioAmarillo*","Node3D",true,false):
+	for well in campus.find_children("Vacio*","Node3D",true,false):
 		if absf(well.global_position.y-LEVELS[level])<0.65 and well.has_meta("area_no_transitable"):
 			regions = remove_area(regions,well.get_meta("area_no_transitable"))
 	for n in campus.find_children("*","GeometryInstance3D",true,false):
