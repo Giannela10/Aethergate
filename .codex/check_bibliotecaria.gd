@@ -59,7 +59,7 @@ func run() -> void:
 	boss.interact(player)
 	check(not boss.active, "defeated boss restarted")
 	# A fresh encounter covers lethal mistakes and the exit after defeat.
-	var second = load("res://boss_bibliotecaria.gd").new()
+	var second = load("res://scripts/pisos/piso_2/boss_bibliotecaria.gd").new()
 	scene.add_child(second)
 	second.global_position = player.global_position + Vector3(0, 0, 2)
 	await physics_frame

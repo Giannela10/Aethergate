@@ -55,7 +55,7 @@ func run() -> void:
 	manager.player.global_position = Vector3(1000,10,1000)
 	var clutter: Array = []
 	for child in manager.get_children():
-		if child.get_script() and child.get_script().resource_path in ["res://enemy.gd","res://computer.gd","res://weapon.gd"]: clutter.append(str(child.name))
+		if child.get_script() and child.get_script().resource_path in ["res://scripts/juego/enemy.gd","res://scripts/juego/computer.gd","res://scripts/juego/weapon.gd"]: clutter.append(str(child.name))
 	print("ENTRANCE_CLUTTER ",clutter)
 	if not clutter.is_empty(): failures.append("entrance clutter remains")
 	var visual_floor = scene.get_node("Floor/MeshInstance3D")
@@ -66,7 +66,7 @@ func run() -> void:
 	print("GROUND_ALIGNMENT visible=",visible_top," collision=",collision_top)
 	var gates := 0
 	for gate in scene.find_children("Torniquete*","Node3D",true,false):
-		if gate.get_script() == null or gate.get_script().resource_path != "res://Torniquete.gd": continue
+		if gate.get_script() == null or gate.get_script().resource_path != "res://scripts/exterior/Torniquete.gd": continue
 		if absf(gate.global_position.y-0.1)>0.001: failures.append("floating gate "+str(gate.name))
 		for reverse in [false,true]:
 			var center: Vector3 = gate.global_position+gate.global_basis.x*gate.arm_length*0.5
