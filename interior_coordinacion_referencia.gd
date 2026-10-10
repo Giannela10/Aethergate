@@ -1,5 +1,5 @@
 @tool
-extends "res://interior_coordinacion.gd"
+extends "res://scripts/pisos/piso_1/interior_coordinacion.gd"
 ## Acabados y mobiliario de las fotos; conserva los nodos de piso y techo.
 
 func assembly(title: String, p: Vector3, angle: float = 0.0) -> Node3D:

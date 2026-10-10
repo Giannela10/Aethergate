@@ -1,0 +1,28 @@
+{
+  "sizes": [
+    33984,
+    36624,
+    37817
+  ],
+  "edits": {
+    "local": 8962,
+    "remote": 19543,
+    "both": 0,
+    "localOnly": 0,
+    "remoteOnly": 0
+  },
+  "conflicts": [
+    {
+      "key": "ext_resource:10_c6i3y",
+      "base": "[ext_resource type=\"Script\" uid=\"uid://bk3m08eusgb5q\" path=\"res://interior_coordinacion.gd\" id=\"10_c6i3y\"]",
+      "remote": "[ext_resource type=\"Script\" uid=\"uid://bk3m08eusgb5q\" path=\"res://scripts/pisos/piso_1/interior_coordinacion.gd\" id=\"10_c6i3y\"]",
+      "remoteBody": ""
+    },
+    {
+      "key": "node:1292652261",
+      "base": "[node name=\"Floor1_Light Piso 1 Sur\" type=\"OmniLight3D\" parent=\"Lights\" unique_id=1292652261]",
+      "remote": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso1/Iluminacion\" unique_id=1292652261]",
+      "remoteBody": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, -11.632904, -131.88966)\nlight_energy = 2.0\nomni_range = 4096.0\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 1 Sur\""
+    }
+  ]
+}
