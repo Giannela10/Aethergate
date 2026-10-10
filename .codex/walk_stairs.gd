@@ -8,7 +8,7 @@ func run() -> void:
 	scene.set_script(null)
 	root.add_child(scene)
 	var actor := CharacterBody3D.new()
-	actor.set_script(load("res://access_probe.gd"))
+	actor.set_script(load("res://tests/access_probe.gd"))
 	actor.floor_snap_length = 0.5
 	var collider := CollisionShape3D.new()
 	var shape := CapsuleShape3D.new()

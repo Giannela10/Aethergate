@@ -91,7 +91,7 @@ func run() -> void:
 	await frames(2)
 	check(not boss._can_detect_target(), "boss detects player through wall")
 	var before: float = player.health
-	var projectile = load("res://proyectil_deportivo.gd").new()
+	var projectile = load("res://scripts/juego/proyectil_deportivo.gd").new()
 	projectile.shooter = boss._mover
 	scene.add_child(projectile)
 	projectile.launch(boss.global_position + Vector3(0.7, 1.8, 0), player.global_position + Vector3.UP * 1.2, 12)
