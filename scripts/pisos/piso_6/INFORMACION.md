@@ -16,6 +16,11 @@ Nodo de la escena: `Main/Piso6`. Altura: 60.1585.
 - `Estructura` (Node3D).
 - `Escaleras` (Node3D).
 - `BarandasEscalerasPrincipales` (Node3D).
+- `PasilloReferencia`: instancia compartida de la distribución aprobada del piso 8, con pasillo sur de 15,3 m, seis salas, dos baños, espacios de estudio, ventanales y cielo de 11,16 m.
+
+La distribución es la misma en los pisos 6, 7 y 8. En este nivel queda sobre la losa de cota 60,1585; las salas se identifican como 605–610 durante el juego. La geometría, los materiales y el mobiliario proceden de `scripts/pisos/piso_8/PasilloReferencia.tscn`, para mantener los tres niveles iguales. Los accesos de ascensores y escaleras se conservan.
+
+Comprobación de recorridos: `godot --headless --path . --fixed-fps 60 --script res://tests/piso8_recorridos.gd -- --floor=6`.
 
 Los scripts exclusivos del nivel están en esta carpeta. Los mecanismos que conectan varios pisos están en `scripts/compartidos`. El generador del −1 y la emergencia está en `scripts/compartidos/edicion/piso_menos_uno_y_emergencia.gd`.
 

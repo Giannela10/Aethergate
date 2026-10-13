@@ -1,5 +1,6 @@
 [gd_scene format=4 uid="uid://mxmbgp2qgeul"]
 
+[ext_resource type="PackedScene" path="res://scripts/pisos/piso_3/LocalComidaReferencia.tscn" id="91_local3"]
 [ext_resource type="Script" uid="uid://dqjcm3ducuhpk" path="res://scripts/organizacion/informacion_piso.gd" id="1_gdb40"]
 [ext_resource type="Material" path="res://materials/entrance/MAT_Concrete_Floor.tres" id="1_sc1dx"]
 [ext_resource type="Script" uid="uid://b16tpou66prew" path="res://scripts/exterior/reja.gd" id="2_uu6xs"]
@@ -64,6 +65,8 @@
 [ext_resource type="Script" uid="uid://ni8o5lmq2ubl" path="res://scripts/compartidos/edicion/piso_menos_uno_y_emergencia.gd" id="60_uy3go"]
 [ext_resource type="Material" uid="uid://ha4hp54dtjvi" path="res://materials/entrance/MAT_Peldanos_Oscuros.tres" id="61_yf3a2"]
 [ext_resource type="Script" uid="uid://wpxk21ntwq12" path="res://scripts/compartidos/puerta_emergencia.gd" id="62_gdb40"]
+
+[ext_resource type="PackedScene" path="res://scripts/pisos/piso_8/PasilloReferencia.tscn" id="90_pasillo8"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_cl58d"]
 size = Vector3(0.3343506, 23.599426, 31.143219)
@@ -116361,6 +116364,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.09512329)
 shape = SubResource("BoxShape3D_tu5v4")
 
 [node name="Delantera_piso 6" type="MeshInstance3D" parent="Piso6/Estructura" unique_id=1204236412]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.30428314, 65.68114, -122.23456)
 material_override = ExtResource("22_hri7i")
 mesh = SubResource("BoxMesh_lj1sa")
@@ -116370,6 +116374,7 @@ metadata/ruta_antes_de_ordenar = "Piso 6/Delantera_piso 6"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso6/Estructura/Delantera_piso 6" unique_id=1519279322]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso6/Estructura/Delantera_piso 6/StaticBody3D" unique_id=924193755]
+disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6386719, 0.08496094, 0.021972656)
 shape = SubResource("BoxShape3D_tuwr3")
 
@@ -116399,6 +116404,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.10391235)
 shape = SubResource("BoxShape3D_tddp2")
 
 [node name="Delantera_piso 6b" type="MeshInstance3D" parent="Piso6/Estructura" unique_id=2080161623]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.367653, 66.04501, -140)
 mesh = SubResource("BoxMesh_2wgwv")
 skeleton = NodePath("../../Piso1")
@@ -116407,10 +116413,12 @@ metadata/ruta_antes_de_ordenar = "Piso 6/Delantera_piso 6b"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso6/Estructura/Delantera_piso 6b" unique_id=1344163664]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso6/Estructura/Delantera_piso 6b/StaticBody3D" unique_id=2141653541]
+disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.13294601, 0.08496094, 0.021972656)
 shape = SubResource("BoxShape3D_nhfce")
 
 [node name="Wall_Right piso 6b" type="MeshInstance3D" parent="Piso6/Estructura" unique_id=1552035983]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.8017, 66.00093, -144.8557)
 mesh = SubResource("BoxMesh_41csd")
 skeleton = NodePath("../../Piso1")
@@ -116419,6 +116427,7 @@ metadata/ruta_antes_de_ordenar = "Piso 6/Wall_Right piso 6b"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso6/Estructura/Wall_Right piso 6b" unique_id=517814583]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso6/Estructura/Wall_Right piso 6b/StaticBody3D" unique_id=127689811]
+disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00034713745, 0.24830627)
 shape = SubResource("BoxShape3D_8h6et")
 
@@ -116482,6 +116491,7 @@ size = Vector3(4, 8.470274, 0.5)
 material = ExtResource("18_oye8v")
 
 [node name="Wall_Right piso 6c" type="MeshInstance3D" parent="Piso6/Estructura" unique_id=1816668872]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.61382, 66.02971, -144.83398)
 mesh = SubResource("BoxMesh_gwlcv")
 skeleton = NodePath("../../Piso1")
@@ -116490,10 +116500,12 @@ metadata/ruta_antes_de_ordenar = "Piso 6/Wall_Right piso 6c"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso6/Estructura/Wall_Right piso 6c" unique_id=839199318]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso6/Estructura/Wall_Right piso 6c/StaticBody3D" unique_id=1324839939]
+disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.24830627)
 shape = SubResource("BoxShape3D_5cfdv")
 
 [node name="Delantera_piso 6d" type="MeshInstance3D" parent="Piso6/Estructura" unique_id=684161631]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.60242, 66.07846, -140)
 mesh = SubResource("BoxMesh_spdl8")
 skeleton = NodePath("../../Piso1")
@@ -116502,6 +116514,7 @@ metadata/ruta_antes_de_ordenar = "Piso 6/Delantera_piso 6d"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso6/Estructura/Delantera_piso 6d" unique_id=325539406]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso6/Estructura/Delantera_piso 6d/StaticBody3D" unique_id=1679068656]
+disabled = true
 shape = SubResource("BoxShape3D_nrg6s")
 
 [node name="Escaleras" type="Node3D" parent="Piso6" unique_id=1161507992]
@@ -118879,6 +118892,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.09512329)
 shape = SubResource("BoxShape3D_tu5v4")
 
 [node name="Delantera_piso 6" type="MeshInstance3D" parent="Piso7/Estructura" unique_id=1497027975]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.30428314, 65.68114, -122.23456)
 material_override = ExtResource("22_hri7i")
 mesh = SubResource("BoxMesh_lj1sa")
@@ -118888,6 +118902,7 @@ metadata/ruta_antes_de_ordenar = "Piso 7/Delantera_piso 6"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso7/Estructura/Delantera_piso 6" unique_id=69736209]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso7/Estructura/Delantera_piso 6/StaticBody3D" unique_id=1756007378]
+disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6386719, 0.08496094, 0.021972656)
 shape = SubResource("BoxShape3D_tuwr3")
 
@@ -118917,6 +118932,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.10391235)
 shape = SubResource("BoxShape3D_tddp2")
 
 [node name="Delantera_piso 6b" type="MeshInstance3D" parent="Piso7/Estructura" unique_id=747556064]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.367653, 66.04501, -140)
 mesh = SubResource("BoxMesh_2wgwv")
 skeleton = NodePath("../../Piso1")
@@ -118925,10 +118941,12 @@ metadata/ruta_antes_de_ordenar = "Piso 7/Delantera_piso 6b"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso7/Estructura/Delantera_piso 6b" unique_id=1893873147]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso7/Estructura/Delantera_piso 6b/StaticBody3D" unique_id=312511928]
+disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.13294601, 0.08496094, 0.021972656)
 shape = SubResource("BoxShape3D_nhfce")
 
 [node name="Wall_Right piso 6b" type="MeshInstance3D" parent="Piso7/Estructura" unique_id=2046293948]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.8017, 66.00093, -144.8557)
 mesh = SubResource("BoxMesh_41csd")
 skeleton = NodePath("../../Piso1")
@@ -118937,6 +118955,7 @@ metadata/ruta_antes_de_ordenar = "Piso 7/Wall_Right piso 6b"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso7/Estructura/Wall_Right piso 6b" unique_id=1732975390]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso7/Estructura/Wall_Right piso 6b/StaticBody3D" unique_id=282309522]
+disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00034713745, 0.24830627)
 shape = SubResource("BoxShape3D_8h6et")
 
@@ -118998,6 +119017,7 @@ size = Vector3(4, 8.452257, 0.5)
 material = ExtResource("18_oye8v")
 
 [node name="Wall_Right piso 6c" type="MeshInstance3D" parent="Piso7/Estructura" unique_id=662958905]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.61382, 66.02971, -144.83398)
 mesh = SubResource("BoxMesh_gwlcv")
 skeleton = NodePath("../../Piso1")
@@ -119006,10 +119026,12 @@ metadata/ruta_antes_de_ordenar = "Piso 7/Wall_Right piso 6c"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso7/Estructura/Wall_Right piso 6c" unique_id=1552537772]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso7/Estructura/Wall_Right piso 6c/StaticBody3D" unique_id=668714632]
+disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.24830627)
 shape = SubResource("BoxShape3D_5cfdv")
 
 [node name="Delantera_piso 6d" type="MeshInstance3D" parent="Piso7/Estructura" unique_id=214041584]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.60242, 66.07846, -140)
 mesh = SubResource("BoxMesh_spdl8")
 skeleton = NodePath("../../Piso1")
@@ -119018,6 +119040,7 @@ metadata/ruta_antes_de_ordenar = "Piso 7/Delantera_piso 6d"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso7/Estructura/Delantera_piso 6d" unique_id=1756198626]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso7/Estructura/Delantera_piso 6d/StaticBody3D" unique_id=2123564694]
+disabled = true
 shape = SubResource("BoxShape3D_nrg6s")
 
 [node name="Escaleras" type="Node3D" parent="Piso7" unique_id=1161939193]
@@ -120906,6 +120929,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.09512329)
 shape = SubResource("BoxShape3D_tu5v4")
 
 [node name="Delantera_piso 6" type="MeshInstance3D" parent="Piso8/Estructura" unique_id=1335417684]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.30428314, 65.68114, -122.23456)
 material_override = ExtResource("22_hri7i")
 mesh = SubResource("BoxMesh_lj1sa")
@@ -120915,6 +120939,7 @@ metadata/ruta_antes_de_ordenar = "Piso 8/Delantera_piso 6"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso8/Estructura/Delantera_piso 6" unique_id=909506681]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso8/Estructura/Delantera_piso 6/StaticBody3D" unique_id=706805195]
+disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6386719, 0.08496094, 0.021972656)
 shape = SubResource("BoxShape3D_tuwr3")
 
@@ -120944,6 +120969,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.10391235)
 shape = SubResource("BoxShape3D_tddp2")
 
 [node name="Delantera_piso 6b" type="MeshInstance3D" parent="Piso8/Estructura" unique_id=1899445402]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.367653, 66.04501, -140)
 mesh = SubResource("BoxMesh_2wgwv")
 skeleton = NodePath("../../Piso1")
@@ -120952,10 +120978,12 @@ metadata/ruta_antes_de_ordenar = "Piso 8/Delantera_piso 6b"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso8/Estructura/Delantera_piso 6b" unique_id=1161440499]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso8/Estructura/Delantera_piso 6b/StaticBody3D" unique_id=1611039057]
+disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.13294601, 0.08496094, 0.021972656)
 shape = SubResource("BoxShape3D_nhfce")
 
 [node name="Wall_Right piso 6b" type="MeshInstance3D" parent="Piso8/Estructura" unique_id=1487703703]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.8017, 66.00093, -144.8557)
 mesh = SubResource("BoxMesh_41csd")
 skeleton = NodePath("../../Piso1")
@@ -120964,6 +120992,7 @@ metadata/ruta_antes_de_ordenar = "Piso 8/Wall_Right piso 6b"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso8/Estructura/Wall_Right piso 6b" unique_id=1626913144]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso8/Estructura/Wall_Right piso 6b/StaticBody3D" unique_id=1988272159]
+disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00034713745, 0.24830627)
 shape = SubResource("BoxShape3D_8h6et")
 
@@ -121027,6 +121056,7 @@ size = Vector3(4, 8.247438, 0.5)
 material = ExtResource("18_oye8v")
 
 [node name="Wall_Right piso 6c" type="MeshInstance3D" parent="Piso8/Estructura" unique_id=371411807]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.61382, 66.02971, -144.83398)
 mesh = SubResource("BoxMesh_gwlcv")
 skeleton = NodePath("../../Piso1")
@@ -121035,10 +121065,12 @@ metadata/ruta_antes_de_ordenar = "Piso 8/Wall_Right piso 6c"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso8/Estructura/Wall_Right piso 6c" unique_id=341474754]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso8/Estructura/Wall_Right piso 6c/StaticBody3D" unique_id=103021667]
+disabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.24830627)
 shape = SubResource("BoxShape3D_5cfdv")
 
 [node name="Delantera_piso 6d" type="MeshInstance3D" parent="Piso8/Estructura" unique_id=178159960]
+visible = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.60242, 66.07846, -140)
 mesh = SubResource("BoxMesh_spdl8")
 skeleton = NodePath("../../Piso1")
@@ -121047,6 +121079,7 @@ metadata/ruta_antes_de_ordenar = "Piso 8/Delantera_piso 6d"
 [node name="StaticBody3D" type="StaticBody3D" parent="Piso8/Estructura/Delantera_piso 6d" unique_id=1070086356]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Piso8/Estructura/Delantera_piso 6d/StaticBody3D" unique_id=798025045]
+disabled = true
 shape = SubResource("BoxShape3D_nrg6s")
 
 [node name="GameplayManager" type="Node3D" parent="." unique_id=1548214425]
@@ -154554,3 +154587,15 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.33499908, 0, -26.2168)
 use_collision = true
 size = Vector3(169.83, 0.2, 99.411)
 material = ExtResource("1_sc1dx")
+
+[node name="PasilloReferencia" parent="Piso8" instance=ExtResource("90_pasillo8")]
+
+[node name="PasilloReferencia" parent="Piso6" instance=ExtResource("90_pasillo8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 60.184953, 0)
+numero_piso = 6
+
+[node name="PasilloReferencia" parent="Piso7" instance=ExtResource("90_pasillo8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 60.202970, 0)
+numero_piso = 7
+
+[node name="LocalComidaReferencia" parent="Piso3" instance=ExtResource("91_local3")]
