@@ -6,6 +6,8 @@ El piso **−1** se alcanza por la escalera central, la escalera de emergencia o
 
 Abre `project.godot` con Godot y presiona **F6 con Main.tscn abierto**, o **F5** para ejecutar el proyecto.
 
+El renderizador predeterminado es **Compatibility (OpenGL)** para ampliar el soporte de computadores. Reinicia el editor y vuelve a exportar para aplicar el cambio a una distribución. Consulta [RENDIMIENTO.md](RENDIMIENTO.md) para ver las mediciones de consumo y las optimizaciones pendientes.
+
 | Control | Acción |
 | --- | --- |
 | WASD / flechas | Moverse |
