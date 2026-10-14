@@ -1,0 +1,2897 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/pisos/piso_3/sala_detras_local.gd" id="1_moo64"]
+[ext_resource type="Shader" path="res://scripts/pisos/piso_8/paneles_beige.gdshader" id="2_ik8mo"]
+[ext_resource type="Script" path="res://scripts/compartidos/puerta_vidrio_salas.gd" id="3_lmp4y"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ikm5a"]
+albedo_color = Color(0.42, 0.41, 0.37, 1)
+roughness = 0.85
+
+[sub_resource type="BoxMesh" id="BoxMesh_8wt7o"]
+size = Vector3(13.2, 0.03, 23.9)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lyqch"]
+albedo_color = Color(0.84, 0.83, 0.77, 1)
+roughness = 0.6
+
+[sub_resource type="BoxMesh" id="BoxMesh_qe12s"]
+size = Vector3(13.4, 0.14, 23.9)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_40dm8"]
+render_priority = 0
+shader = ExtResource("2_ik8mo")
+
+[sub_resource type="BoxMesh" id="BoxMesh_xb2v3"]
+size = Vector3(0.15, 3.96, 23.9)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rq2qm"]
+size = Vector3(0.15, 3.96, 23.9)
+
+[sub_resource type="BoxMesh" id="BoxMesh_b7rvq"]
+size = Vector3(13.4, 3.96, 0.15)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1gspp"]
+size = Vector3(13.4, 3.96, 0.15)
+
+[sub_resource type="BoxMesh" id="BoxMesh_1yetv"]
+size = Vector3(3.6, 3.96, 0.15)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_s4o0o"]
+size = Vector3(3.6, 3.96, 0.15)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sji3v"]
+transparency = 1
+cull_mode = 2
+albedo_color = Color(0.12, 0.18, 0.22, 0.22)
+metallic = 0.08
+roughness = 0.2
+
+[sub_resource type="BoxMesh" id="BoxMesh_yt5f3"]
+size = Vector3(2, 3.96, 0.06)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_md1d6"]
+size = Vector3(2, 3.96, 0.06)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_77gia"]
+transparency = 1
+cull_mode = 2
+albedo_color = Color(0.6, 0.65, 0.63, 0.72)
+roughness = 0.75
+
+[sub_resource type="BoxMesh" id="BoxMesh_o3k81"]
+size = Vector3(2, 1.15, 0.01)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qht2w"]
+albedo_color = Color(0.28, 0.25, 0.21, 1)
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="BoxMesh_cvyix"]
+size = Vector3(3.6, 0.008, 0.008)
+
+[sub_resource type="BoxMesh" id="BoxMesh_coqxh"]
+size = Vector3(0.008, 3.96, 0.008)
+
+[sub_resource type="BoxMesh" id="BoxMesh_3w0jw"]
+size = Vector3(0.65, 3.96, 0.24)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tss8e"]
+size = Vector3(0.65, 3.96, 0.24)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aowhf"]
+albedo_color = Color(0.025, 0.028, 0.033, 1)
+metallic = 0.35
+roughness = 0.4
+
+[sub_resource type="BoxMesh" id="BoxMesh_8empo"]
+size = Vector3(5.6, 0.12, 0.08)
+
+[sub_resource type="BoxMesh" id="BoxMesh_a1j86"]
+size = Vector3(0.65, 0.008, 0.01)
+
+[sub_resource type="BoxMesh" id="BoxMesh_f174o"]
+size = Vector3(0.05, 3.96, 0.08)
+
+[sub_resource type="BoxMesh" id="BoxMesh_7vgsp"]
+size = Vector3(0.98, 2.76, 0.055)
+
+[sub_resource type="BoxMesh" id="BoxMesh_byorw"]
+size = Vector3(0.96, 1.1, 0.01)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_02b84"]
+albedo_color = Color(0.53, 0.56, 0.57, 1)
+metallic = 0.75
+roughness = 0.25
+
+[sub_resource type="BoxMesh" id="BoxMesh_iwwv8"]
+size = Vector3(0.035, 0.4, 0.04)
+
+[sub_resource type="BoxMesh" id="BoxMesh_vntni"]
+size = Vector3(0.035, 2.76, 0.07)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0qf37"]
+size = Vector3(0.98, 2.76, 0.08)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fgvp3"]
+size = Vector3(0.98, 2.76, 0.08)
+
+[sub_resource type="BoxMesh" id="BoxMesh_np85h"]
+size = Vector3(2.15, 0.09, 0.1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_uycfg"]
+size = Vector3(2.2, 8.215, 0.06)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hlh3q"]
+size = Vector3(2.2, 8.215, 0.06)
+
+[sub_resource type="BoxMesh" id="BoxMesh_flwee"]
+size = Vector3(0.68, 0.38, 0.035)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xa7wu"]
+albedo_color = Color(0.035, 0.11, 0.33, 1)
+roughness = 0.6
+
+[sub_resource type="BoxMesh" id="BoxMesh_3obfv"]
+size = Vector3(0.1, 0.38, 0.01)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w1fse"]
+albedo_color = Color(0.92, 0.92, 0.87, 1)
+roughness = 0.2
+
+[sub_resource type="BoxMesh" id="BoxMesh_n8ppx"]
+size = Vector3(5, 1.6, 0.08)
+
+[sub_resource type="BoxMesh" id="BoxMesh_0xg8n"]
+size = Vector3(5.1, 0.05, 0.1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ytj02"]
+size = Vector3(2.3, 1.3, 0.08)
+
+[sub_resource type="BoxMesh" id="BoxMesh_rpfjs"]
+size = Vector3(2.15, 1.15, 0.015)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c0w6i"]
+albedo_color = Color(0.55, 0.39, 0.22, 1)
+roughness = 0.75
+
+[sub_resource type="BoxMesh" id="BoxMesh_s3fk3"]
+size = Vector3(2, 0.075, 0.85)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_t024m"]
+size = Vector3(2, 0.075, 0.85)
+
+[sub_resource type="BoxMesh" id="BoxMesh_nxlpo"]
+size = Vector3(0.055, 0.74, 0.055)
+
+[sub_resource type="BoxMesh" id="BoxMesh_gker8"]
+size = Vector3(0.34, 0.03, 0.25)
+
+[sub_resource type="BoxMesh" id="BoxMesh_p2ad1"]
+size = Vector3(0.34, 0.26, 0.025)
+
+[sub_resource type="BoxMesh" id="BoxMesh_amvta"]
+size = Vector3(0.46, 0.055, 0.46)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nii36"]
+size = Vector3(0.46, 0.055, 0.46)
+
+[sub_resource type="BoxMesh" id="BoxMesh_uv2vl"]
+size = Vector3(0.46, 0.46, 0.05)
+
+[sub_resource type="BoxMesh" id="BoxMesh_v2coo"]
+size = Vector3(0.035, 0.46, 0.035)
+
+[sub_resource type="BoxMesh" id="BoxMesh_kgau7"]
+size = Vector3(1.45, 0.075, 0.85)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hr8r8"]
+size = Vector3(1.45, 0.075, 0.85)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5mx6o"]
+albedo_color = Color(1, 0.94, 0.83, 1)
+roughness = 0.4
+emission_enabled = true
+emission = Color(1, 0.93, 0.8, 1)
+emission_energy_multiplier = 2.0
+
+[sub_resource type="BoxMesh" id="BoxMesh_jaobd"]
+size = Vector3(0.12, 0.055, 2.8)
+
+[sub_resource type="BoxMesh" id="BoxMesh_spdl5"]
+size = Vector3(1, 2, 0.55)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_inn1h"]
+size = Vector3(1, 2, 0.55)
+
+[sub_resource type="BoxMesh" id="BoxMesh_6b86v"]
+size = Vector3(13.4, 7.64, 0.15)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i7t0s"]
+size = Vector3(13.4, 7.64, 0.15)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ya423"]
+size = Vector3(11.2, 11.6, 0.3)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_v1d83"]
+size = Vector3(11.2, 11.6, 0.3)
+
+[node name="SalaDetrasLocal" type="Node3D" unique_id=337504272]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 23.985, 0)
+script = ExtResource("1_moo64")
+metadata/salas = Array[Dictionary]([{
+"ancho": 13.4,
+"entrada": Vector3(39.4, 0, -122.05),
+"frontal": true,
+"lado": "sur",
+"numero": 303,
+"profundidad": 23.9
+}])
+metadata/numero_piso = 3
+
+[node name="Sala303" type="Node3D" parent="." unique_id=664943942]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 39.4, 0, -122.05)
+metadata/numero_sala = 303
+metadata/lado = "sur"
+
+[node name="SueloSala" type="MeshInstance3D" parent="Sala303" unique_id=44659598]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.015, -11.95)
+material_override = SubResource("StandardMaterial3D_ikm5a")
+mesh = SubResource("BoxMesh_8wt7o")
+
+[node name="CieloSala" type="MeshInstance3D" parent="Sala303" unique_id=2144394144]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.02, -11.95)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_qe12s")
+
+[node name="TabiqueLateral" type="MeshInstance3D" parent="Sala303" unique_id=1235579551]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.7, 1.98, -11.95)
+material_override = SubResource("ShaderMaterial_40dm8")
+mesh = SubResource("BoxMesh_xb2v3")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/TabiqueLateral" unique_id=416122312]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/TabiqueLateral/Cuerpo" unique_id=1483474897]
+shape = SubResource("BoxShape3D_rq2qm")
+
+[node name="TabiqueLateral_0007" type="MeshInstance3D" parent="Sala303" unique_id=727744854]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.7, 1.98, -11.95)
+material_override = SubResource("ShaderMaterial_40dm8")
+mesh = SubResource("BoxMesh_xb2v3")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/TabiqueLateral_0007" unique_id=1770108906]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/TabiqueLateral_0007/Cuerpo" unique_id=1081878899]
+shape = SubResource("BoxShape3D_rq2qm")
+
+[node name="MuroFondo" type="MeshInstance3D" parent="Sala303" unique_id=236355662]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.98, -23.9)
+material_override = SubResource("ShaderMaterial_40dm8")
+mesh = SubResource("BoxMesh_b7rvq")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MuroFondo" unique_id=99338525]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MuroFondo/Cuerpo" unique_id=106195382]
+shape = SubResource("BoxShape3D_1gspp")
+
+[node name="RevestimientoBeige" type="MeshInstance3D" parent="Sala303" unique_id=299997592]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 1.98, 0)
+material_override = SubResource("ShaderMaterial_40dm8")
+mesh = SubResource("BoxMesh_1yetv")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/RevestimientoBeige" unique_id=267472396]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/RevestimientoBeige/Cuerpo" unique_id=1668156884]
+shape = SubResource("BoxShape3D_s4o0o")
+
+[node name="MamparaJuntoPuerta" type="MeshInstance3D" parent="Sala303" unique_id=26043868]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.1, 1.98, 0)
+material_override = SubResource("StandardMaterial3D_sji3v")
+mesh = SubResource("BoxMesh_yt5f3")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MamparaJuntoPuerta" unique_id=1751083418]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MamparaJuntoPuerta/Cuerpo" unique_id=588270443]
+shape = SubResource("BoxShape3D_md1d6")
+
+[node name="EsmeriladoJuntoPuerta" type="MeshInstance3D" parent="Sala303" unique_id=1799220390]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.1, 1.1, 0.042)
+material_override = SubResource("StandardMaterial3D_77gia")
+mesh = SubResource("BoxMesh_o3k81")
+
+[node name="JuntaHorizontalPanel" type="MeshInstance3D" parent="Sala303" unique_id=1085854484]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 0.39, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0021" type="MeshInstance3D" parent="Sala303" unique_id=689191291]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 0.78, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0022" type="MeshInstance3D" parent="Sala303" unique_id=1777990774]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 1.17, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0023" type="MeshInstance3D" parent="Sala303" unique_id=681282026]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 1.56, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0024" type="MeshInstance3D" parent="Sala303" unique_id=1423033927]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 1.95, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0025" type="MeshInstance3D" parent="Sala303" unique_id=507682408]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 2.34, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0026" type="MeshInstance3D" parent="Sala303" unique_id=466318341]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 2.73, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0027" type="MeshInstance3D" parent="Sala303" unique_id=632829075]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 3.12, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0028" type="MeshInstance3D" parent="Sala303" unique_id=366922958]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 3.51, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaVerticalPanel" type="MeshInstance3D" parent="Sala303" unique_id=715105028]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.15, 1.98, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_coqxh")
+
+[node name="JuntaVerticalPanel_0030" type="MeshInstance3D" parent="Sala303" unique_id=69793154]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 1.98, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_coqxh")
+
+[node name="JuntaVerticalPanel_0031" type="MeshInstance3D" parent="Sala303" unique_id=1018691001]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.65, 1.98, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_coqxh")
+
+[node name="PilarBeige" type="MeshInstance3D" parent="Sala303" unique_id=807742494]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.36, 1.98, 0.04)
+material_override = SubResource("ShaderMaterial_40dm8")
+mesh = SubResource("BoxMesh_3w0jw")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/PilarBeige" unique_id=1695843136]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/PilarBeige/Cuerpo" unique_id=1227716715]
+shape = SubResource("BoxShape3D_tss8e")
+
+[node name="Zocalo" type="MeshInstance3D" parent="Sala303" unique_id=758872378]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9, 0.06, 0.05)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_8empo")
+
+[node name="JuntaRevestimiento" type="MeshInstance3D" parent="Sala303" unique_id=812513969]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.36, 0.39, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0037" type="MeshInstance3D" parent="Sala303" unique_id=1401485339]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.36, 0.78, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0038" type="MeshInstance3D" parent="Sala303" unique_id=869741662]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.36, 1.17, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0039" type="MeshInstance3D" parent="Sala303" unique_id=1465105145]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.36, 1.56, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0040" type="MeshInstance3D" parent="Sala303" unique_id=1412554281]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.36, 1.95, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0041" type="MeshInstance3D" parent="Sala303" unique_id=675195877]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.36, 2.34, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0042" type="MeshInstance3D" parent="Sala303" unique_id=1338648465]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.36, 2.73, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0043" type="MeshInstance3D" parent="Sala303" unique_id=1526716487]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.36, 3.12, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0044" type="MeshInstance3D" parent="Sala303" unique_id=1443220635]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.36, 3.51, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="PerfilMampara" type="MeshInstance3D" parent="Sala303" unique_id=1843106778]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, 1.98, 0.035)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_f174o")
+
+[node name="PerfilMampara_0046" type="MeshInstance3D" parent="Sala303" unique_id=1507250766]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9, 1.98, 0.035)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_f174o")
+
+[node name="PerfilMampara_0047" type="MeshInstance3D" parent="Sala303" unique_id=1927185632]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.3, 1.98, 0.035)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_f174o")
+
+[node name="RevestimientoBeige_0048" type="MeshInstance3D" parent="Sala303" unique_id=1049144314]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9, 1.98, 0)
+material_override = SubResource("ShaderMaterial_40dm8")
+mesh = SubResource("BoxMesh_1yetv")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/RevestimientoBeige_0048" unique_id=530044199]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/RevestimientoBeige_0048/Cuerpo" unique_id=1672446867]
+shape = SubResource("BoxShape3D_s4o0o")
+
+[node name="MamparaJuntoPuerta_0051" type="MeshInstance3D" parent="Sala303" unique_id=959110380]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1, 1.98, 0)
+material_override = SubResource("StandardMaterial3D_sji3v")
+mesh = SubResource("BoxMesh_yt5f3")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MamparaJuntoPuerta_0051" unique_id=1183457129]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MamparaJuntoPuerta_0051/Cuerpo" unique_id=1939013774]
+shape = SubResource("BoxShape3D_md1d6")
+
+[node name="EsmeriladoJuntoPuerta_0054" type="MeshInstance3D" parent="Sala303" unique_id=1911038865]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1, 1.1, 0.042)
+material_override = SubResource("StandardMaterial3D_77gia")
+mesh = SubResource("BoxMesh_o3k81")
+
+[node name="JuntaHorizontalPanel_0055" type="MeshInstance3D" parent="Sala303" unique_id=1683854450]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9, 0.39, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0056" type="MeshInstance3D" parent="Sala303" unique_id=717682415]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9, 0.78, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0057" type="MeshInstance3D" parent="Sala303" unique_id=890039313]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9, 1.17, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0058" type="MeshInstance3D" parent="Sala303" unique_id=2134880632]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9, 1.56, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0059" type="MeshInstance3D" parent="Sala303" unique_id=1423909751]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9, 1.95, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0060" type="MeshInstance3D" parent="Sala303" unique_id=618397882]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9, 2.34, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0061" type="MeshInstance3D" parent="Sala303" unique_id=1352405357]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9, 2.73, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0062" type="MeshInstance3D" parent="Sala303" unique_id=1018580553]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9, 3.12, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaHorizontalPanel_0063" type="MeshInstance3D" parent="Sala303" unique_id=629205443]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9, 3.51, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_cvyix")
+
+[node name="JuntaVerticalPanel_0064" type="MeshInstance3D" parent="Sala303" unique_id=1296620029]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.65, 1.98, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_coqxh")
+
+[node name="JuntaVerticalPanel_0065" type="MeshInstance3D" parent="Sala303" unique_id=1391063681]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9, 1.98, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_coqxh")
+
+[node name="JuntaVerticalPanel_0066" type="MeshInstance3D" parent="Sala303" unique_id=1818135254]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.15, 1.98, 0.081)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_coqxh")
+
+[node name="PilarBeige_0067" type="MeshInstance3D" parent="Sala303" unique_id=877435594]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.36, 1.98, 0.04)
+material_override = SubResource("ShaderMaterial_40dm8")
+mesh = SubResource("BoxMesh_3w0jw")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/PilarBeige_0067" unique_id=838846438]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/PilarBeige_0067/Cuerpo" unique_id=1353543678]
+shape = SubResource("BoxShape3D_tss8e")
+
+[node name="Zocalo_0070" type="MeshInstance3D" parent="Sala303" unique_id=1738351939]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9, 0.06, 0.05)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_8empo")
+
+[node name="JuntaRevestimiento_0071" type="MeshInstance3D" parent="Sala303" unique_id=1992568175]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.36, 0.39, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0072" type="MeshInstance3D" parent="Sala303" unique_id=764879569]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.36, 0.78, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0073" type="MeshInstance3D" parent="Sala303" unique_id=1894036681]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.36, 1.17, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0074" type="MeshInstance3D" parent="Sala303" unique_id=9291076]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.36, 1.56, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0075" type="MeshInstance3D" parent="Sala303" unique_id=1867633556]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.36, 1.95, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0076" type="MeshInstance3D" parent="Sala303" unique_id=1400046785]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.36, 2.34, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0077" type="MeshInstance3D" parent="Sala303" unique_id=705532761]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.36, 2.73, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0078" type="MeshInstance3D" parent="Sala303" unique_id=855260418]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.36, 3.12, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="JuntaRevestimiento_0079" type="MeshInstance3D" parent="Sala303" unique_id=1122519935]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.36, 3.51, 0.17)
+material_override = SubResource("StandardMaterial3D_qht2w")
+mesh = SubResource("BoxMesh_a1j86")
+
+[node name="PerfilMampara_0080" type="MeshInstance3D" parent="Sala303" unique_id=1762083865]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, 1.98, 0.035)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_f174o")
+
+[node name="PerfilMampara_0081" type="MeshInstance3D" parent="Sala303" unique_id=1950465710]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9, 1.98, 0.035)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_f174o")
+
+[node name="PerfilMampara_0082" type="MeshInstance3D" parent="Sala303" unique_id=1481971047]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.3, 1.98, 0.035)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_f174o")
+
+[node name="PuertaSala" type="Node3D" parent="Sala303" unique_id=179430820]
+script = ExtResource("3_lmp4y")
+
+[node name="HojaIzquierda" type="AnimatableBody3D" parent="Sala303/PuertaSala" unique_id=1311272202]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 1.38, 0)
+
+[node name="PanelPuerta" type="MeshInstance3D" parent="Sala303/PuertaSala/HojaIzquierda" unique_id=228274161]
+material_override = SubResource("StandardMaterial3D_sji3v")
+mesh = SubResource("BoxMesh_7vgsp")
+
+[node name="EsmeriladoPuerta" type="MeshInstance3D" parent="Sala303/PuertaSala/HojaIzquierda" unique_id=1286976948]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3, 0.038)
+material_override = SubResource("StandardMaterial3D_77gia")
+mesh = SubResource("BoxMesh_byorw")
+
+[node name="Manilla" type="MeshInstance3D" parent="Sala303/PuertaSala/HojaIzquierda" unique_id=1184980264]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.37, -0.12, 0.1)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_iwwv8")
+
+[node name="PerfilHoja" type="MeshInstance3D" parent="Sala303/PuertaSala/HojaIzquierda" unique_id=265368688]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 0, 0.035)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_vntni")
+
+[node name="ColisionPuerta" type="CollisionShape3D" parent="Sala303/PuertaSala/HojaIzquierda" unique_id=1028615302]
+shape = SubResource("BoxShape3D_0qf37")
+
+[node name="HojaDerecha" type="AnimatableBody3D" parent="Sala303/PuertaSala" unique_id=1252716487]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 1.38, 0)
+
+[node name="PanelPuerta" type="MeshInstance3D" parent="Sala303/PuertaSala/HojaDerecha" unique_id=1944499383]
+material_override = SubResource("StandardMaterial3D_sji3v")
+mesh = SubResource("BoxMesh_7vgsp")
+
+[node name="EsmeriladoPuerta" type="MeshInstance3D" parent="Sala303/PuertaSala/HojaDerecha" unique_id=410559891]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3, 0.038)
+material_override = SubResource("StandardMaterial3D_77gia")
+mesh = SubResource("BoxMesh_byorw")
+
+[node name="Manilla" type="MeshInstance3D" parent="Sala303/PuertaSala/HojaDerecha" unique_id=1360485699]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.37, -0.12, 0.1)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_iwwv8")
+
+[node name="PerfilHoja" type="MeshInstance3D" parent="Sala303/PuertaSala/HojaDerecha" unique_id=849130983]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.48, 0, 0.035)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_vntni")
+
+[node name="ColisionPuerta" type="CollisionShape3D" parent="Sala303/PuertaSala/HojaDerecha" unique_id=2111950760]
+shape = SubResource("BoxShape3D_fgvp3")
+
+[node name="DintelPuerta" type="MeshInstance3D" parent="Sala303/PuertaSala" unique_id=2083607444]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.82, 0)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_np85h")
+
+[node name="RellenoSobrePuerta" type="MeshInstance3D" parent="Sala303/PuertaSala" unique_id=2017240694]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.9725, 0)
+material_override = SubResource("StandardMaterial3D_sji3v")
+mesh = SubResource("BoxMesh_uycfg")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/PuertaSala/RellenoSobrePuerta" unique_id=1903510720]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/PuertaSala/RellenoSobrePuerta/Cuerpo" unique_id=334633720]
+shape = SubResource("BoxShape3D_hlh3q")
+
+[node name="PlacaSala" type="MeshInstance3D" parent="Sala303" unique_id=2012741231]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.45, 2.55, 0.08)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_flwee")
+
+[node name="FranjaDuoc" type="MeshInstance3D" parent="Sala303" unique_id=2126442035]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.14, 2.55, 0.105)
+material_override = SubResource("StandardMaterial3D_xa7wu")
+mesh = SubResource("BoxMesh_3obfv")
+
+[node name="NumeroSala" type="Label3D" parent="Sala303" unique_id=565281964]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.48, 2.55, 0.106)
+pixel_size = 0.0025
+modulate = Color(0.06, 0.06, 0.06, 1)
+text = "303"
+font_size = 48
+outline_size = 0
+
+[node name="Pizarra" type="MeshInstance3D" parent="Sala303" unique_id=812592221]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.95, -23.8)
+material_override = SubResource("StandardMaterial3D_w1fse")
+mesh = SubResource("BoxMesh_n8ppx")
+
+[node name="MarcoPizarra" type="MeshInstance3D" parent="Sala303" unique_id=373607970]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.09, -23.75)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_0xg8n")
+
+[node name="TextoPizarra" type="Label3D" parent="Sala303" unique_id=1515152681]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.95, -23.745)
+pixel_size = 0.004
+modulate = Color(0.08, 0.12, 0.16, 1)
+text = "Duoc UC
+Sala 303"
+font_size = 48
+outline_size = 0
+
+[node name="PantallaProyeccion" type="MeshInstance3D" parent="Sala303" unique_id=1230246634]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.7, 2.45, -23.78)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_ytj02")
+
+[node name="ImagenProyector" type="MeshInstance3D" parent="Sala303" unique_id=1741574612]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.7, 2.45, -23.73)
+material_override = SubResource("StandardMaterial3D_xa7wu")
+mesh = SubResource("BoxMesh_rpfjs")
+
+[node name="MesaDocente" type="MeshInstance3D" parent="Sala303" unique_id=1041589424]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.76, -21.8)
+material_override = SubResource("StandardMaterial3D_c0w6i")
+mesh = SubResource("BoxMesh_s3fk3")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaDocente" unique_id=1152126468]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaDocente/Cuerpo" unique_id=1897907314]
+shape = SubResource("BoxShape3D_t024m")
+
+[node name="PataMesa" type="MeshInstance3D" parent="Sala303" unique_id=1232480670]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8, 0.37, -22.123)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0112" type="MeshInstance3D" parent="Sala303" unique_id=1780897993]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8, 0.37, -21.477)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0113" type="MeshInstance3D" parent="Sala303" unique_id=676810867]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8, 0.37, -22.123)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0114" type="MeshInstance3D" parent="Sala303" unique_id=776856901]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8, 0.37, -21.477)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="NotebookDocente" type="MeshInstance3D" parent="Sala303" unique_id=1219744477]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.25, 0.81, -21.8)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_gker8")
+
+[node name="PantallaNotebook" type="MeshInstance3D" parent="Sala303" unique_id=1959183694]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.25, 0.95, -21.92)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_p2ad1")
+
+[node name="Silla" type="Node3D" parent="Sala303" unique_id=1525070690]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, -22.65)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla" unique_id=1016522480]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla/Asiento" unique_id=1111065173]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla/Asiento/Cuerpo" unique_id=172914048]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla" unique_id=1669962343]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla" unique_id=1626628914]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0123" type="MeshInstance3D" parent="Sala303/Silla" unique_id=1542037899]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0124" type="MeshInstance3D" parent="Sala303/Silla" unique_id=2051614230]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0125" type="MeshInstance3D" parent="Sala303/Silla" unique_id=2074466172]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno" type="MeshInstance3D" parent="Sala303" unique_id=2023019401]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0.76, -3.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno" unique_id=901587432]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno/Cuerpo" unique_id=1808198876]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0129" type="MeshInstance3D" parent="Sala303" unique_id=1587312153]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.18, 0.37, -3.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0130" type="MeshInstance3D" parent="Sala303" unique_id=1054272121]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.18, 0.37, -3.0770001)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0131" type="MeshInstance3D" parent="Sala303" unique_id=649159029]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02, 0.37, -3.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0132" type="MeshInstance3D" parent="Sala303" unique_id=702416852]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02, 0.37, -3.0770001)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0133" type="Node3D" parent="Sala303" unique_id=459938691]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0, -2.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0133" unique_id=1517526982]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0133/Asiento" unique_id=172774239]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0133/Asiento/Cuerpo" unique_id=361816348]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0133" unique_id=634805657]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0133" unique_id=549624818]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0139" type="MeshInstance3D" parent="Sala303/Silla_0133" unique_id=1358926330]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0140" type="MeshInstance3D" parent="Sala303/Silla_0133" unique_id=36724666]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0141" type="MeshInstance3D" parent="Sala303/Silla_0133" unique_id=1371511014]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0142" type="MeshInstance3D" parent="Sala303" unique_id=1096416537]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0.76, -3.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0142" unique_id=344629070]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0142/Cuerpo" unique_id=2144872926]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0145" type="MeshInstance3D" parent="Sala303" unique_id=1999884510]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3799999, 0.37, -3.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0146" type="MeshInstance3D" parent="Sala303" unique_id=1753994070]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3799999, 0.37, -3.0770001)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0147" type="MeshInstance3D" parent="Sala303" unique_id=622333471]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22, 0.37, -3.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0148" type="MeshInstance3D" parent="Sala303" unique_id=1064160826]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22, 0.37, -3.0770001)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0149" type="Node3D" parent="Sala303" unique_id=63616820]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0, -2.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0149" unique_id=2058890250]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0149/Asiento" unique_id=2111576442]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0149/Asiento/Cuerpo" unique_id=747984159]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0149" unique_id=1813615034]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0149" unique_id=1165720324]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0155" type="MeshInstance3D" parent="Sala303/Silla_0149" unique_id=618960677]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0156" type="MeshInstance3D" parent="Sala303/Silla_0149" unique_id=1543862578]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0157" type="MeshInstance3D" parent="Sala303/Silla_0149" unique_id=789141075]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0158" type="MeshInstance3D" parent="Sala303" unique_id=1733571938]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.76, -3.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0158" unique_id=504846087]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0158/Cuerpo" unique_id=1966805221]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0161" type="MeshInstance3D" parent="Sala303" unique_id=117810674]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.37, -3.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0162" type="MeshInstance3D" parent="Sala303" unique_id=1858005678]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.37, -3.0770001)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0163" type="MeshInstance3D" parent="Sala303" unique_id=740290341]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 0.37, -3.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0164" type="MeshInstance3D" parent="Sala303" unique_id=217070396]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 0.37, -3.0770001)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0165" type="Node3D" parent="Sala303" unique_id=213140784]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0165" unique_id=1681771116]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0165/Asiento" unique_id=625280079]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0165/Asiento/Cuerpo" unique_id=998765462]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0165" unique_id=1962798610]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0165" unique_id=1714753476]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0171" type="MeshInstance3D" parent="Sala303/Silla_0165" unique_id=919695435]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0172" type="MeshInstance3D" parent="Sala303/Silla_0165" unique_id=1358223177]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0173" type="MeshInstance3D" parent="Sala303/Silla_0165" unique_id=1546501116]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0174" type="MeshInstance3D" parent="Sala303" unique_id=1450105474]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0.76, -3.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0174" unique_id=875823722]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0174/Cuerpo" unique_id=1304916754]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0177" type="MeshInstance3D" parent="Sala303" unique_id=740522049]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22, 0.37, -3.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0178" type="MeshInstance3D" parent="Sala303" unique_id=1788125999]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22, 0.37, -3.0770001)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0179" type="MeshInstance3D" parent="Sala303" unique_id=1489491207]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3799999, 0.37, -3.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0180" type="MeshInstance3D" parent="Sala303" unique_id=1126819836]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3799999, 0.37, -3.0770001)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0181" type="Node3D" parent="Sala303" unique_id=651962816]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0, -2.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0181" unique_id=898123866]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0181/Asiento" unique_id=1634128332]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0181/Asiento/Cuerpo" unique_id=987091245]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0181" unique_id=764286207]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0181" unique_id=1763644881]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0187" type="MeshInstance3D" parent="Sala303/Silla_0181" unique_id=1420033806]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0188" type="MeshInstance3D" parent="Sala303/Silla_0181" unique_id=923040849]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0189" type="MeshInstance3D" parent="Sala303/Silla_0181" unique_id=1051051496]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0190" type="MeshInstance3D" parent="Sala303" unique_id=2027859863]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0.76, -3.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0190" unique_id=1249937448]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0190/Cuerpo" unique_id=1790031374]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0193" type="MeshInstance3D" parent="Sala303" unique_id=695620252]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02, 0.37, -3.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0194" type="MeshInstance3D" parent="Sala303" unique_id=289810930]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02, 0.37, -3.0770001)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0195" type="MeshInstance3D" parent="Sala303" unique_id=192661856]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.18, 0.37, -3.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0196" type="MeshInstance3D" parent="Sala303" unique_id=300378367]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.18, 0.37, -3.0770001)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0197" type="Node3D" parent="Sala303" unique_id=720584271]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0, -2.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0197" unique_id=372485605]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0197/Asiento" unique_id=625143518]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0197/Asiento/Cuerpo" unique_id=1394486902]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0197" unique_id=619205629]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0197" unique_id=1786158829]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0203" type="MeshInstance3D" parent="Sala303/Silla_0197" unique_id=987576996]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0204" type="MeshInstance3D" parent="Sala303/Silla_0197" unique_id=1210916609]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0205" type="MeshInstance3D" parent="Sala303/Silla_0197" unique_id=1374564728]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0206" type="MeshInstance3D" parent="Sala303" unique_id=2038881159]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0.76, -5.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0206" unique_id=209978464]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0206/Cuerpo" unique_id=1537458511]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0209" type="MeshInstance3D" parent="Sala303" unique_id=1950629974]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.18, 0.37, -5.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0210" type="MeshInstance3D" parent="Sala303" unique_id=206611524]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.18, 0.37, -5.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0211" type="MeshInstance3D" parent="Sala303" unique_id=1987685056]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02, 0.37, -5.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0212" type="MeshInstance3D" parent="Sala303" unique_id=635306472]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02, 0.37, -5.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0213" type="Node3D" parent="Sala303" unique_id=444389875]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0, -4.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0213" unique_id=1961593534]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0213/Asiento" unique_id=1547871398]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0213/Asiento/Cuerpo" unique_id=1915386408]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0213" unique_id=1143674767]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0213" unique_id=378033204]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0219" type="MeshInstance3D" parent="Sala303/Silla_0213" unique_id=1874238606]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0220" type="MeshInstance3D" parent="Sala303/Silla_0213" unique_id=937851275]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0221" type="MeshInstance3D" parent="Sala303/Silla_0213" unique_id=1466987008]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0222" type="MeshInstance3D" parent="Sala303" unique_id=1170062119]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0.76, -5.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0222" unique_id=1147014899]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0222/Cuerpo" unique_id=1566110361]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0225" type="MeshInstance3D" parent="Sala303" unique_id=1616300647]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3799999, 0.37, -5.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0226" type="MeshInstance3D" parent="Sala303" unique_id=198229105]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3799999, 0.37, -5.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0227" type="MeshInstance3D" parent="Sala303" unique_id=313094869]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22, 0.37, -5.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0228" type="MeshInstance3D" parent="Sala303" unique_id=1866490788]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22, 0.37, -5.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0229" type="Node3D" parent="Sala303" unique_id=238699545]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0, -4.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0229" unique_id=105786542]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0229/Asiento" unique_id=2004896042]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0229/Asiento/Cuerpo" unique_id=1634811911]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0229" unique_id=194797169]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0229" unique_id=1429261314]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0235" type="MeshInstance3D" parent="Sala303/Silla_0229" unique_id=1449307910]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0236" type="MeshInstance3D" parent="Sala303/Silla_0229" unique_id=1808423444]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0237" type="MeshInstance3D" parent="Sala303/Silla_0229" unique_id=172382486]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0238" type="MeshInstance3D" parent="Sala303" unique_id=1942164569]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.76, -5.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0238" unique_id=1843665285]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0238/Cuerpo" unique_id=2060491938]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0241" type="MeshInstance3D" parent="Sala303" unique_id=1852143655]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.37, -5.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0242" type="MeshInstance3D" parent="Sala303" unique_id=37989385]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.37, -5.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0243" type="MeshInstance3D" parent="Sala303" unique_id=716483288]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 0.37, -5.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0244" type="MeshInstance3D" parent="Sala303" unique_id=1916474904]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 0.37, -5.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0245" type="Node3D" parent="Sala303" unique_id=1249319855]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0245" unique_id=905345418]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0245/Asiento" unique_id=1449954630]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0245/Asiento/Cuerpo" unique_id=1825795783]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0245" unique_id=1959460295]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0245" unique_id=1186740500]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0251" type="MeshInstance3D" parent="Sala303/Silla_0245" unique_id=909969523]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0252" type="MeshInstance3D" parent="Sala303/Silla_0245" unique_id=990631433]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0253" type="MeshInstance3D" parent="Sala303/Silla_0245" unique_id=400896948]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0254" type="MeshInstance3D" parent="Sala303" unique_id=1293646804]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0.76, -5.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0254" unique_id=31661563]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0254/Cuerpo" unique_id=2126351510]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0257" type="MeshInstance3D" parent="Sala303" unique_id=1157850255]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22, 0.37, -5.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0258" type="MeshInstance3D" parent="Sala303" unique_id=1689499115]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22, 0.37, -5.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0259" type="MeshInstance3D" parent="Sala303" unique_id=285425703]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3799999, 0.37, -5.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0260" type="MeshInstance3D" parent="Sala303" unique_id=1932479384]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3799999, 0.37, -5.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0261" type="Node3D" parent="Sala303" unique_id=5428986]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0, -4.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0261" unique_id=505177318]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0261/Asiento" unique_id=782711783]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0261/Asiento/Cuerpo" unique_id=213980044]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0261" unique_id=350643778]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0261" unique_id=1982449132]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0267" type="MeshInstance3D" parent="Sala303/Silla_0261" unique_id=962839825]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0268" type="MeshInstance3D" parent="Sala303/Silla_0261" unique_id=1020808731]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0269" type="MeshInstance3D" parent="Sala303/Silla_0261" unique_id=491826356]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0270" type="MeshInstance3D" parent="Sala303" unique_id=940027939]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0.76, -5.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0270" unique_id=462351980]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0270/Cuerpo" unique_id=1621537409]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0273" type="MeshInstance3D" parent="Sala303" unique_id=119667228]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02, 0.37, -5.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0274" type="MeshInstance3D" parent="Sala303" unique_id=66616510]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02, 0.37, -5.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0275" type="MeshInstance3D" parent="Sala303" unique_id=1555645955]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.18, 0.37, -5.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0276" type="MeshInstance3D" parent="Sala303" unique_id=2130307960]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.18, 0.37, -5.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0277" type="Node3D" parent="Sala303" unique_id=1180354519]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0, -4.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0277" unique_id=635274163]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0277/Asiento" unique_id=15714390]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0277/Asiento/Cuerpo" unique_id=1627654736]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0277" unique_id=1173531109]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0277" unique_id=1567971593]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0283" type="MeshInstance3D" parent="Sala303/Silla_0277" unique_id=610134410]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0284" type="MeshInstance3D" parent="Sala303/Silla_0277" unique_id=18723824]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0285" type="MeshInstance3D" parent="Sala303/Silla_0277" unique_id=139060042]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0286" type="MeshInstance3D" parent="Sala303" unique_id=1198636403]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0.76, -7.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0286" unique_id=944436704]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0286/Cuerpo" unique_id=319048260]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0289" type="MeshInstance3D" parent="Sala303" unique_id=925716389]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.18, 0.37, -7.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0290" type="MeshInstance3D" parent="Sala303" unique_id=730846390]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.18, 0.37, -7.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0291" type="MeshInstance3D" parent="Sala303" unique_id=295611527]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02, 0.37, -7.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0292" type="MeshInstance3D" parent="Sala303" unique_id=1843405715]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02, 0.37, -7.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0293" type="Node3D" parent="Sala303" unique_id=1093682217]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0, -6.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0293" unique_id=1721051744]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0293/Asiento" unique_id=1454302201]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0293/Asiento/Cuerpo" unique_id=1049950600]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0293" unique_id=520050036]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0293" unique_id=1838482377]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0299" type="MeshInstance3D" parent="Sala303/Silla_0293" unique_id=2055586267]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0300" type="MeshInstance3D" parent="Sala303/Silla_0293" unique_id=1005203319]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0301" type="MeshInstance3D" parent="Sala303/Silla_0293" unique_id=610140572]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0302" type="MeshInstance3D" parent="Sala303" unique_id=614572283]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0.76, -7.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0302" unique_id=2144819342]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0302/Cuerpo" unique_id=524620083]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0305" type="MeshInstance3D" parent="Sala303" unique_id=1342326316]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3799999, 0.37, -7.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0306" type="MeshInstance3D" parent="Sala303" unique_id=2119415713]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3799999, 0.37, -7.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0307" type="MeshInstance3D" parent="Sala303" unique_id=2009463655]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22, 0.37, -7.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0308" type="MeshInstance3D" parent="Sala303" unique_id=61568504]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22, 0.37, -7.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0309" type="Node3D" parent="Sala303" unique_id=1290131637]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0, -6.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0309" unique_id=760102180]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0309/Asiento" unique_id=338537934]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0309/Asiento/Cuerpo" unique_id=2068286845]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0309" unique_id=1834607129]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0309" unique_id=353558958]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0315" type="MeshInstance3D" parent="Sala303/Silla_0309" unique_id=25111688]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0316" type="MeshInstance3D" parent="Sala303/Silla_0309" unique_id=709906782]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0317" type="MeshInstance3D" parent="Sala303/Silla_0309" unique_id=248988665]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0318" type="MeshInstance3D" parent="Sala303" unique_id=746000469]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.76, -7.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0318" unique_id=441459481]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0318/Cuerpo" unique_id=1116970939]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0321" type="MeshInstance3D" parent="Sala303" unique_id=164108589]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.37, -7.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0322" type="MeshInstance3D" parent="Sala303" unique_id=1766292537]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.37, -7.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0323" type="MeshInstance3D" parent="Sala303" unique_id=1558701755]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 0.37, -7.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0324" type="MeshInstance3D" parent="Sala303" unique_id=1801315809]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 0.37, -7.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0325" type="Node3D" parent="Sala303" unique_id=1662536670]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0325" unique_id=1808753773]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0325/Asiento" unique_id=682297528]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0325/Asiento/Cuerpo" unique_id=223256838]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0325" unique_id=1397413464]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0325" unique_id=1686746119]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0331" type="MeshInstance3D" parent="Sala303/Silla_0325" unique_id=1301022421]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0332" type="MeshInstance3D" parent="Sala303/Silla_0325" unique_id=1245431437]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0333" type="MeshInstance3D" parent="Sala303/Silla_0325" unique_id=733183181]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0334" type="MeshInstance3D" parent="Sala303" unique_id=1825445877]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0.76, -7.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0334" unique_id=1962229990]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0334/Cuerpo" unique_id=1729294279]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0337" type="MeshInstance3D" parent="Sala303" unique_id=1145991001]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22, 0.37, -7.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0338" type="MeshInstance3D" parent="Sala303" unique_id=1515421569]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22, 0.37, -7.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0339" type="MeshInstance3D" parent="Sala303" unique_id=1499405082]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3799999, 0.37, -7.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0340" type="MeshInstance3D" parent="Sala303" unique_id=905930324]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3799999, 0.37, -7.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0341" type="Node3D" parent="Sala303" unique_id=1962264217]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0, -6.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0341" unique_id=979654710]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0341/Asiento" unique_id=495401633]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0341/Asiento/Cuerpo" unique_id=625641102]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0341" unique_id=909572132]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0341" unique_id=1159268087]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0347" type="MeshInstance3D" parent="Sala303/Silla_0341" unique_id=328292107]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0348" type="MeshInstance3D" parent="Sala303/Silla_0341" unique_id=797602763]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0349" type="MeshInstance3D" parent="Sala303/Silla_0341" unique_id=2060375025]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0350" type="MeshInstance3D" parent="Sala303" unique_id=352073664]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0.76, -7.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0350" unique_id=1088111864]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0350/Cuerpo" unique_id=1666776953]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0353" type="MeshInstance3D" parent="Sala303" unique_id=1948919322]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02, 0.37, -7.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0354" type="MeshInstance3D" parent="Sala303" unique_id=1839227015]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02, 0.37, -7.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0355" type="MeshInstance3D" parent="Sala303" unique_id=1736896430]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.18, 0.37, -7.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0356" type="MeshInstance3D" parent="Sala303" unique_id=807633955]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.18, 0.37, -7.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0357" type="Node3D" parent="Sala303" unique_id=1317312887]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0, -6.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0357" unique_id=847462779]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0357/Asiento" unique_id=139082337]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0357/Asiento/Cuerpo" unique_id=1193890978]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0357" unique_id=733112174]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0357" unique_id=142154500]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0363" type="MeshInstance3D" parent="Sala303/Silla_0357" unique_id=1071635951]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0364" type="MeshInstance3D" parent="Sala303/Silla_0357" unique_id=1525673421]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0365" type="MeshInstance3D" parent="Sala303/Silla_0357" unique_id=715883298]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0366" type="MeshInstance3D" parent="Sala303" unique_id=1994083959]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0.76, -9.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0366" unique_id=606796028]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0366/Cuerpo" unique_id=474207397]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0369" type="MeshInstance3D" parent="Sala303" unique_id=51970012]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.18, 0.37, -9.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0370" type="MeshInstance3D" parent="Sala303" unique_id=1856771473]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.18, 0.37, -9.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0371" type="MeshInstance3D" parent="Sala303" unique_id=832838117]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02, 0.37, -9.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0372" type="MeshInstance3D" parent="Sala303" unique_id=55102268]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02, 0.37, -9.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0373" type="Node3D" parent="Sala303" unique_id=236133947]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0, -8.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0373" unique_id=737602948]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0373/Asiento" unique_id=1185600637]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0373/Asiento/Cuerpo" unique_id=1042101447]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0373" unique_id=1334843302]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0373" unique_id=955969682]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0379" type="MeshInstance3D" parent="Sala303/Silla_0373" unique_id=688064686]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0380" type="MeshInstance3D" parent="Sala303/Silla_0373" unique_id=763932822]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0381" type="MeshInstance3D" parent="Sala303/Silla_0373" unique_id=2034303470]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0382" type="MeshInstance3D" parent="Sala303" unique_id=7273942]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0.76, -9.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0382" unique_id=1134520110]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0382/Cuerpo" unique_id=619782274]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0385" type="MeshInstance3D" parent="Sala303" unique_id=904944725]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3799999, 0.37, -9.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0386" type="MeshInstance3D" parent="Sala303" unique_id=1126820947]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3799999, 0.37, -9.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0387" type="MeshInstance3D" parent="Sala303" unique_id=117637038]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22, 0.37, -9.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0388" type="MeshInstance3D" parent="Sala303" unique_id=1451522321]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22, 0.37, -9.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0389" type="Node3D" parent="Sala303" unique_id=50440798]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0, -8.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0389" unique_id=440119121]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0389/Asiento" unique_id=509408443]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0389/Asiento/Cuerpo" unique_id=581314727]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0389" unique_id=75065814]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0389" unique_id=385403966]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0395" type="MeshInstance3D" parent="Sala303/Silla_0389" unique_id=173455180]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0396" type="MeshInstance3D" parent="Sala303/Silla_0389" unique_id=1241535089]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0397" type="MeshInstance3D" parent="Sala303/Silla_0389" unique_id=906227958]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0398" type="MeshInstance3D" parent="Sala303" unique_id=2063779153]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.76, -9.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0398" unique_id=1648670068]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0398/Cuerpo" unique_id=1170731293]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0401" type="MeshInstance3D" parent="Sala303" unique_id=1463535140]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.37, -9.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0402" type="MeshInstance3D" parent="Sala303" unique_id=1219918194]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.37, -9.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0403" type="MeshInstance3D" parent="Sala303" unique_id=1455084171]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 0.37, -9.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0404" type="MeshInstance3D" parent="Sala303" unique_id=888962198]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 0.37, -9.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0405" type="Node3D" parent="Sala303" unique_id=382730823]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0405" unique_id=1119891049]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0405/Asiento" unique_id=1693846983]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0405/Asiento/Cuerpo" unique_id=1110244101]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0405" unique_id=1800712796]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0405" unique_id=1665216590]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0411" type="MeshInstance3D" parent="Sala303/Silla_0405" unique_id=1341106420]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0412" type="MeshInstance3D" parent="Sala303/Silla_0405" unique_id=1862228933]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0413" type="MeshInstance3D" parent="Sala303/Silla_0405" unique_id=979223404]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0414" type="MeshInstance3D" parent="Sala303" unique_id=1121498936]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0.76, -9.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0414" unique_id=949756955]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0414/Cuerpo" unique_id=1676827293]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0417" type="MeshInstance3D" parent="Sala303" unique_id=793696813]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22, 0.37, -9.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0418" type="MeshInstance3D" parent="Sala303" unique_id=601733522]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22, 0.37, -9.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0419" type="MeshInstance3D" parent="Sala303" unique_id=1420539443]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3799999, 0.37, -9.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0420" type="MeshInstance3D" parent="Sala303" unique_id=2044914834]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3799999, 0.37, -9.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0421" type="Node3D" parent="Sala303" unique_id=853082029]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0, -8.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0421" unique_id=145845553]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0421/Asiento" unique_id=840084357]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0421/Asiento/Cuerpo" unique_id=105503939]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0421" unique_id=1431273416]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0421" unique_id=41288021]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0427" type="MeshInstance3D" parent="Sala303/Silla_0421" unique_id=1311365225]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0428" type="MeshInstance3D" parent="Sala303/Silla_0421" unique_id=141086561]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0429" type="MeshInstance3D" parent="Sala303/Silla_0421" unique_id=2002506115]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0430" type="MeshInstance3D" parent="Sala303" unique_id=639521776]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0.76, -9.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0430" unique_id=1460033085]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0430/Cuerpo" unique_id=1813897635]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0433" type="MeshInstance3D" parent="Sala303" unique_id=643895399]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02, 0.37, -9.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0434" type="MeshInstance3D" parent="Sala303" unique_id=227011955]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02, 0.37, -9.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0435" type="MeshInstance3D" parent="Sala303" unique_id=53717161]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.18, 0.37, -9.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0436" type="MeshInstance3D" parent="Sala303" unique_id=1815868580]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.18, 0.37, -9.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0437" type="Node3D" parent="Sala303" unique_id=1648946662]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0, -8.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0437" unique_id=1426677964]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0437/Asiento" unique_id=1240961288]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0437/Asiento/Cuerpo" unique_id=1640545520]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0437" unique_id=237203457]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0437" unique_id=1212288631]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0443" type="MeshInstance3D" parent="Sala303/Silla_0437" unique_id=6699186]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0444" type="MeshInstance3D" parent="Sala303/Silla_0437" unique_id=1298861884]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0445" type="MeshInstance3D" parent="Sala303/Silla_0437" unique_id=25001011]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0446" type="MeshInstance3D" parent="Sala303" unique_id=2000295570]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0.76, -11.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0446" unique_id=1119928932]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0446/Cuerpo" unique_id=656633684]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0449" type="MeshInstance3D" parent="Sala303" unique_id=1241400022]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.18, 0.37, -11.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0450" type="MeshInstance3D" parent="Sala303" unique_id=1175534277]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.18, 0.37, -11.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0451" type="MeshInstance3D" parent="Sala303" unique_id=940979318]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02, 0.37, -11.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0452" type="MeshInstance3D" parent="Sala303" unique_id=150170469]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02, 0.37, -11.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0453" type="Node3D" parent="Sala303" unique_id=2065022354]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0, -10.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0453" unique_id=1453263262]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0453/Asiento" unique_id=265841785]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0453/Asiento/Cuerpo" unique_id=1059243873]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0453" unique_id=868952817]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0453" unique_id=1996712987]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0459" type="MeshInstance3D" parent="Sala303/Silla_0453" unique_id=153060586]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0460" type="MeshInstance3D" parent="Sala303/Silla_0453" unique_id=1358502109]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0461" type="MeshInstance3D" parent="Sala303/Silla_0453" unique_id=155204797]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0462" type="MeshInstance3D" parent="Sala303" unique_id=2112539356]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0.76, -11.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0462" unique_id=69159]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0462/Cuerpo" unique_id=16116687]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0465" type="MeshInstance3D" parent="Sala303" unique_id=683515966]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3799999, 0.37, -11.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0466" type="MeshInstance3D" parent="Sala303" unique_id=1246861787]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3799999, 0.37, -11.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0467" type="MeshInstance3D" parent="Sala303" unique_id=362232093]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22, 0.37, -11.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0468" type="MeshInstance3D" parent="Sala303" unique_id=1704268453]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22, 0.37, -11.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0469" type="Node3D" parent="Sala303" unique_id=1390255539]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0, -10.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0469" unique_id=2083303228]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0469/Asiento" unique_id=1762341582]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0469/Asiento/Cuerpo" unique_id=1082138788]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0469" unique_id=27711166]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0469" unique_id=1882970611]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0475" type="MeshInstance3D" parent="Sala303/Silla_0469" unique_id=587588583]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0476" type="MeshInstance3D" parent="Sala303/Silla_0469" unique_id=1361297256]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0477" type="MeshInstance3D" parent="Sala303/Silla_0469" unique_id=413445028]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0478" type="MeshInstance3D" parent="Sala303" unique_id=625567310]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.76, -11.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0478" unique_id=1450184701]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0478/Cuerpo" unique_id=647468832]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0481" type="MeshInstance3D" parent="Sala303" unique_id=190954959]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.37, -11.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0482" type="MeshInstance3D" parent="Sala303" unique_id=1534354083]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.37, -11.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0483" type="MeshInstance3D" parent="Sala303" unique_id=227819041]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 0.37, -11.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0484" type="MeshInstance3D" parent="Sala303" unique_id=1173182459]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 0.37, -11.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0485" type="Node3D" parent="Sala303" unique_id=1822391421]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0485" unique_id=635515818]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0485/Asiento" unique_id=1737425348]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0485/Asiento/Cuerpo" unique_id=1618852005]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0485" unique_id=2027552823]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0485" unique_id=1890347610]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0491" type="MeshInstance3D" parent="Sala303/Silla_0485" unique_id=2026929041]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0492" type="MeshInstance3D" parent="Sala303/Silla_0485" unique_id=128898231]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0493" type="MeshInstance3D" parent="Sala303/Silla_0485" unique_id=1744649766]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0494" type="MeshInstance3D" parent="Sala303" unique_id=1824253636]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0.76, -11.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0494" unique_id=21177000]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0494/Cuerpo" unique_id=475881910]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0497" type="MeshInstance3D" parent="Sala303" unique_id=2130116024]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22, 0.37, -11.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0498" type="MeshInstance3D" parent="Sala303" unique_id=422464381]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22, 0.37, -11.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0499" type="MeshInstance3D" parent="Sala303" unique_id=1220940214]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3799999, 0.37, -11.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0500" type="MeshInstance3D" parent="Sala303" unique_id=739516430]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3799999, 0.37, -11.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0501" type="Node3D" parent="Sala303" unique_id=891469372]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0, -10.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0501" unique_id=1138400463]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0501/Asiento" unique_id=833576018]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0501/Asiento/Cuerpo" unique_id=123045286]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0501" unique_id=765809227]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0501" unique_id=714555655]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0507" type="MeshInstance3D" parent="Sala303/Silla_0501" unique_id=273632551]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0508" type="MeshInstance3D" parent="Sala303/Silla_0501" unique_id=430122136]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0509" type="MeshInstance3D" parent="Sala303/Silla_0501" unique_id=794124881]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0510" type="MeshInstance3D" parent="Sala303" unique_id=1255050186]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0.76, -11.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0510" unique_id=1276449645]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0510/Cuerpo" unique_id=1790569066]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0513" type="MeshInstance3D" parent="Sala303" unique_id=352016479]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02, 0.37, -11.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0514" type="MeshInstance3D" parent="Sala303" unique_id=810642456]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02, 0.37, -11.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0515" type="MeshInstance3D" parent="Sala303" unique_id=1838864581]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.18, 0.37, -11.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0516" type="MeshInstance3D" parent="Sala303" unique_id=212429710]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.18, 0.37, -11.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0517" type="Node3D" parent="Sala303" unique_id=1094420114]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0, -10.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0517" unique_id=837952449]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0517/Asiento" unique_id=1122978218]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0517/Asiento/Cuerpo" unique_id=1484735087]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0517" unique_id=730313560]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0517" unique_id=1163545919]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0523" type="MeshInstance3D" parent="Sala303/Silla_0517" unique_id=1267219206]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0524" type="MeshInstance3D" parent="Sala303/Silla_0517" unique_id=177267718]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0525" type="MeshInstance3D" parent="Sala303/Silla_0517" unique_id=1383642852]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0526" type="MeshInstance3D" parent="Sala303" unique_id=1308218051]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0.76, -13.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0526" unique_id=771971051]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0526/Cuerpo" unique_id=472629594]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0529" type="MeshInstance3D" parent="Sala303" unique_id=291904715]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.18, 0.37, -13.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0530" type="MeshInstance3D" parent="Sala303" unique_id=1205034198]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.18, 0.37, -13.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0531" type="MeshInstance3D" parent="Sala303" unique_id=477759602]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02, 0.37, -13.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0532" type="MeshInstance3D" parent="Sala303" unique_id=699717763]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02, 0.37, -13.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0533" type="Node3D" parent="Sala303" unique_id=1809817541]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6, 0, -12.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0533" unique_id=1613969047]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0533/Asiento" unique_id=1613191524]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0533/Asiento/Cuerpo" unique_id=599320354]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0533" unique_id=98729452]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0533" unique_id=298852177]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0539" type="MeshInstance3D" parent="Sala303/Silla_0533" unique_id=438618533]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0540" type="MeshInstance3D" parent="Sala303/Silla_0533" unique_id=724849467]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0541" type="MeshInstance3D" parent="Sala303/Silla_0533" unique_id=970419671]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0542" type="MeshInstance3D" parent="Sala303" unique_id=982446726]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0.76, -13.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0542" unique_id=41193294]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0542/Cuerpo" unique_id=1366991318]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0545" type="MeshInstance3D" parent="Sala303" unique_id=1935933754]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3799999, 0.37, -13.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0546" type="MeshInstance3D" parent="Sala303" unique_id=601664832]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3799999, 0.37, -13.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0547" type="MeshInstance3D" parent="Sala303" unique_id=36707569]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22, 0.37, -13.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0548" type="MeshInstance3D" parent="Sala303" unique_id=1495169422]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22, 0.37, -13.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0549" type="Node3D" parent="Sala303" unique_id=1126472241]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8, 0, -12.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0549" unique_id=226048873]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0549/Asiento" unique_id=520952591]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0549/Asiento/Cuerpo" unique_id=1163991825]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0549" unique_id=274732339]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0549" unique_id=1968199864]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0555" type="MeshInstance3D" parent="Sala303/Silla_0549" unique_id=1607842127]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0556" type="MeshInstance3D" parent="Sala303/Silla_0549" unique_id=1381669459]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0557" type="MeshInstance3D" parent="Sala303/Silla_0549" unique_id=673143129]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0558" type="MeshInstance3D" parent="Sala303" unique_id=612200911]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.76, -13.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0558" unique_id=264181904]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0558/Cuerpo" unique_id=2039055957]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0561" type="MeshInstance3D" parent="Sala303" unique_id=780741747]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.37, -13.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0562" type="MeshInstance3D" parent="Sala303" unique_id=1284587298]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.37, -13.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0563" type="MeshInstance3D" parent="Sala303" unique_id=1867942416]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 0.37, -13.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0564" type="MeshInstance3D" parent="Sala303" unique_id=1788965959]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 0.37, -13.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0565" type="Node3D" parent="Sala303" unique_id=1176455500]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0565" unique_id=1550902419]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0565/Asiento" unique_id=857186314]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0565/Asiento/Cuerpo" unique_id=1286578558]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0565" unique_id=492987982]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0565" unique_id=1964003544]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0571" type="MeshInstance3D" parent="Sala303/Silla_0565" unique_id=1826884431]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0572" type="MeshInstance3D" parent="Sala303/Silla_0565" unique_id=1167689226]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0573" type="MeshInstance3D" parent="Sala303/Silla_0565" unique_id=2110573002]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0574" type="MeshInstance3D" parent="Sala303" unique_id=1948190250]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0.76, -13.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0574" unique_id=528743159]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0574/Cuerpo" unique_id=1302909900]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0577" type="MeshInstance3D" parent="Sala303" unique_id=18511912]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22, 0.37, -13.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0578" type="MeshInstance3D" parent="Sala303" unique_id=991138640]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22, 0.37, -13.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0579" type="MeshInstance3D" parent="Sala303" unique_id=945750946]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3799999, 0.37, -13.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0580" type="MeshInstance3D" parent="Sala303" unique_id=1484030169]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3799999, 0.37, -13.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0581" type="Node3D" parent="Sala303" unique_id=116146402]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0, -12.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0581" unique_id=161566162]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0581/Asiento" unique_id=1283086263]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0581/Asiento/Cuerpo" unique_id=1659131448]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0581" unique_id=1664689408]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0581" unique_id=2023918003]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0587" type="MeshInstance3D" parent="Sala303/Silla_0581" unique_id=1639036522]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0588" type="MeshInstance3D" parent="Sala303/Silla_0581" unique_id=295213475]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0589" type="MeshInstance3D" parent="Sala303/Silla_0581" unique_id=1144260627]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="MesaAlumno_0590" type="MeshInstance3D" parent="Sala303" unique_id=165940735]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0.76, -13.4)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_kgau7")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/MesaAlumno_0590" unique_id=1824721435]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/MesaAlumno_0590/Cuerpo" unique_id=355378954]
+shape = SubResource("BoxShape3D_hr8r8")
+
+[node name="PataMesa_0593" type="MeshInstance3D" parent="Sala303" unique_id=1939301075]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02, 0.37, -13.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0594" type="MeshInstance3D" parent="Sala303" unique_id=1557763637]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02, 0.37, -13.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0595" type="MeshInstance3D" parent="Sala303" unique_id=982023191]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.18, 0.37, -13.723)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="PataMesa_0596" type="MeshInstance3D" parent="Sala303" unique_id=2088649456]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.18, 0.37, -13.077)
+material_override = SubResource("StandardMaterial3D_aowhf")
+mesh = SubResource("BoxMesh_nxlpo")
+
+[node name="Silla_0597" type="Node3D" parent="Sala303" unique_id=982366788]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0, -12.62)
+
+[node name="Asiento" type="MeshInstance3D" parent="Sala303/Silla_0597" unique_id=2116465365]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, 0)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_amvta")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/Silla_0597/Asiento" unique_id=1989711091]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/Silla_0597/Asiento/Cuerpo" unique_id=1979262311]
+shape = SubResource("BoxShape3D_nii36")
+
+[node name="Respaldo" type="MeshInstance3D" parent="Sala303/Silla_0597" unique_id=1394072664]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.72, 0.21)
+material_override = SubResource("StandardMaterial3D_lyqch")
+mesh = SubResource("BoxMesh_uv2vl")
+
+[node name="PataSilla" type="MeshInstance3D" parent="Sala303/Silla_0597" unique_id=754853912]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0603" type="MeshInstance3D" parent="Sala303/Silla_0597" unique_id=1819096344]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0604" type="MeshInstance3D" parent="Sala303/Silla_0597" unique_id=839563598]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, -0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="PataSilla_0605" type="MeshInstance3D" parent="Sala303/Silla_0597" unique_id=359092900]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18, 0.23, 0.18)
+material_override = SubResource("StandardMaterial3D_02b84")
+mesh = SubResource("BoxMesh_v2coo")
+
+[node name="LuminariaLineal" type="MeshInstance3D" parent="Sala303" unique_id=1642510131]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.35, 3.65, -5.975)
+material_override = SubResource("StandardMaterial3D_5mx6o")
+mesh = SubResource("BoxMesh_jaobd")
+
+[node name="LuzInterior" type="OmniLight3D" parent="Sala303" unique_id=2087820332]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.35, 3.4, -5.975)
+light_color = Color(1, 0.93, 0.83, 1)
+omni_range = 8.5
+
+[node name="LuminariaLineal_0608" type="MeshInstance3D" parent="Sala303" unique_id=335953739]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.35, 3.65, -16.73)
+material_override = SubResource("StandardMaterial3D_5mx6o")
+mesh = SubResource("BoxMesh_jaobd")
+
+[node name="LuzInterior_0609" type="OmniLight3D" parent="Sala303" unique_id=131973302]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.35, 3.4, -16.73)
+light_color = Color(1, 0.93, 0.83, 1)
+omni_range = 8.5
+
+[node name="LuminariaLineal_0610" type="MeshInstance3D" parent="Sala303" unique_id=1291879151]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.35, 3.65, -5.975)
+material_override = SubResource("StandardMaterial3D_5mx6o")
+mesh = SubResource("BoxMesh_jaobd")
+
+[node name="LuzInterior_0611" type="OmniLight3D" parent="Sala303" unique_id=961573769]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.35, 3.4, -5.975)
+light_color = Color(1, 0.93, 0.83, 1)
+omni_range = 8.5
+
+[node name="LuminariaLineal_0612" type="MeshInstance3D" parent="Sala303" unique_id=34386398]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.35, 3.65, -16.73)
+material_override = SubResource("StandardMaterial3D_5mx6o")
+mesh = SubResource("BoxMesh_jaobd")
+
+[node name="LuzInterior_0613" type="OmniLight3D" parent="Sala303" unique_id=1275696001]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.35, 3.4, -16.73)
+light_color = Color(1, 0.93, 0.83, 1)
+omni_range = 8.5
+
+[node name="ArmarioMateriales" type="MeshInstance3D" parent="Sala303" unique_id=1821032238]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 1, -22.9)
+material_override = SubResource("StandardMaterial3D_c0w6i")
+mesh = SubResource("BoxMesh_spdl5")
+
+[node name="Cuerpo" type="StaticBody3D" parent="Sala303/ArmarioMateriales" unique_id=1024476955]
+
+[node name="Colision" type="CollisionShape3D" parent="Sala303/ArmarioMateriales/Cuerpo" unique_id=954508309]
+shape = SubResource("BoxShape3D_inn1h")
+
+[node name="MuroSobreMampara" type="MeshInstance3D" parent="." unique_id=2132307844]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39.4, 7.78, -122.05)
+material_override = SubResource("ShaderMaterial_40dm8")
+mesh = SubResource("BoxMesh_6b86v")
+
+[node name="Cuerpo" type="StaticBody3D" parent="MuroSobreMampara" unique_id=1480776402]
+
+[node name="Colision" type="CollisionShape3D" parent="MuroSobreMampara/Cuerpo" unique_id=1646639731]
+shape = SubResource("BoxShape3D_i7t0s")
+
+[node name="CierrePasoContiguo" type="MeshInstance3D" parent="." unique_id=776297550]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.7, 5.8, -122.05)
+material_override = SubResource("ShaderMaterial_40dm8")
+mesh = SubResource("BoxMesh_ya423")
+
+[node name="Cuerpo" type="StaticBody3D" parent="CierrePasoContiguo" unique_id=1761847377]
+
+[node name="Colision" type="CollisionShape3D" parent="CierrePasoContiguo/Cuerpo" unique_id=178853044]
+shape = SubResource("BoxShape3D_v1d83")

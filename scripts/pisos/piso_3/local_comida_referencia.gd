@@ -1,5 +1,6 @@
 @tool
 extends "res://scripts/pisos/piso_8/piso_8_completo.gd"
+const LOCAL_DEPTH := 39.75
 ## Local del piso 3: geometría guardada, sin reconstrucción al jugar.
 
 func _ready() -> void:
@@ -21,9 +22,7 @@ func build() -> Dictionary:
 	material("crema", Color(0.95, 0.87, 0.67), 0.6)
 	box("BaldosasLocal", Vector3(0, -0.012, -11.5), Vector3(23.6, 0.024, 23), dark_floor)
 	box("MuroFondo", Vector3(0, 5.8, -23.1), Vector3(23.6, 11.6, 0.22), materials.hormigon, true)
-	box("CieloHormigon", Vector3(0, 11.48, -11.5), Vector3(23.6, 0.22, 23), materials.hormigon)
-	# Franja de techo de madera y vigas, como el vacío alto de la fotografía.
-	box("CieloMadera", Vector3(-1.5, 11.33, -13.0), Vector3(16, 0.08, 19.0), materials.madera_local)
+	# Doble altura abierta: desde el vacío del piso 4 se ve la cafetería.
 	for z in [-3.0, -11.5, -20.0]:
 		box("VigaHormigon", Vector3(0, 10.8, z), Vector3(23.6, 1.05, 0.65), materials.hormigon)
 	for x in [-11.5, 8.6]:
@@ -110,9 +109,34 @@ func build() -> Dictionary:
 			light.light_energy = 2.3
 			light.omni_range = 15.0
 			owned(light, self)
+	extend_back_to_wall()
+	set_meta("profundidad", LOCAL_DEPTH)
 	set_meta("referencia", "WhatsApp Image 2026-10-13 at 12.17.40.jpeg")
 	set_meta("entrada_global", Vector3(69.3, 23.985, -109.85))
 	return {"nodes": find_children("*", "", true, false).size(), "mesas": 6, "piso": 3}
+
+func extend_back_to_wall() -> void:
+	# Amplía el recinto desde su entrada, conservando las medidas del mobiliario.
+	var factor := LOCAL_DEPTH / 23.0
+	var longitudinal := ["BaldosasLocal", "FondoCelosia", "FrenteGaleriaSuperior", "LosaGaleriaSuperior", "BarandaVidrioGaleria", "PasamanosGaleria", "MamparaSala304"]
+	for child in get_children():
+		if not child is Node3D:
+			continue
+		child.position.z *= factor
+		if child is MeshInstance3D and str(child.name) in longitudinal:
+			var stretched := child.mesh.duplicate() as BoxMesh
+			stretched.size.z *= factor
+			child.mesh = stretched
+			for collision in child.find_children("*", "CollisionShape3D", true, false):
+				var stretched_shape := collision.shape.duplicate() as BoxShape3D
+				stretched_shape.size.z *= factor
+				collision.shape = stretched_shape
+		elif child is MeshInstance3D and str(child.name).begins_with("TuberiaVista"):
+			var tube := child.mesh as CylinderMesh
+			if tube.height > 20.0 and absf(child.position.x) > 6.0:
+				var stretched_tube := tube.duplicate() as CylinderMesh
+				stretched_tube.height *= factor
+				child.mesh = stretched_tube
 
 func pipe(a: Vector3, b: Vector3, radius: float) -> void:
 	var node := cylinder("TuberiaVista", (a + b) * 0.5, radius, a.distance_to(b), materials.hormigon)

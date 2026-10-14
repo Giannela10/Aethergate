@@ -118,10 +118,13 @@ func build_elevator_lobbies() -> void:
 			brand.modulate = Color(0.045,0.075,0.24)
 			label(art,"Texto","FORMACIÓN\nPARA EL FUTURO",Vector3(0,1.35,0.072),0,0.0035)
 		for x in [-20.0,20.0]:
-			box(lobby,"RevestimientoCostado",Vector3(x,2.2,-149.38),Vector3(5,4.4,0.08),mats["cream"])
-		box(lobby,"CartelPlano",Vector3(-20,2.15,-147.6),Vector3(2.5,3.6,0.14),mats["white"])
-		box(lobby,"CabeceraPlano",Vector3(-20,3.8,-147.49),Vector3(2.5,0.3,0.06),mats["blue"])
-		label(lobby,"PlanoPisos","PLANO DE LOS PISOS\n\n"+str(floor_index+1)+"  USTED ESTÁ AQUÍ\n\nBIBLIOTECA · CASINO\nCOORDINACIÓN · AUDITORIO",Vector3(-20,2.3,-147.49),0,0.0028)
+			var panel_x: float = -24.5 if x < 0 else x
+			var panel_width: float = 3.5 if x < 0 else 5.0
+			box(lobby,"RevestimientoCostado",Vector3(panel_x,2.2,-149.38),Vector3(panel_width,4.4,0.08),mats["cream"])
+		# La salida de emergencia en X=-20.7 queda libre de carteles y paneles.
+		box(lobby,"CartelPlano",Vector3(-24,2.15,-147.6),Vector3(2.5,3.6,0.14),mats["white"])
+		box(lobby,"CabeceraPlano",Vector3(-24,3.8,-147.49),Vector3(2.5,0.3,0.06),mats["blue"])
+		label(lobby,"PlanoPisos","PLANO DE LOS PISOS\n\n"+str(floor_index+1)+"  USTED ESTÁ AQUÍ\n\nBIBLIOTECA · CASINO\nCOORDINACIÓN · AUDITORIO",Vector3(-24,2.3,-147.49),0,0.0028)
 		for x in [-16.0,0.0,16.0]:
 			box(lobby,"LuminariaPasillo",Vector3(x,5.6,-143),Vector3(3.4,0.06,0.12),mats["lamp"])
 			light(lobby,Vector3(x,5.3,-142),11)
