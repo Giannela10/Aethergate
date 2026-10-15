@@ -181,15 +181,15 @@ func build() -> Dictionary:
 			n.owner = owner
 	for x in [47.0, 63.0]:
 		box(lighting, "LuzFrontal" + str(x), Vector3(x, 14.3, -121.75), Vector3(1.3, 0.07, 0.1), "luz")
-	var sign := Label3D.new()
-	sign.name = "LetreroAuditorio"
-	sign.text = "AUDITORIO"
-	sign.position = Vector3(68.23, 15.3, -89.5)
-	sign.rotation.y = PI / 2
-	sign.font_size = 64
-	sign.pixel_size = 0.012
-	lighting.add_child(sign)
-	sign.owner = owner
+	var sign_label := Label3D.new()
+	sign_label.name = "LetreroAuditorio"
+	sign_label.text = "AUDITORIO"
+	sign_label.position = Vector3(68.23, 15.3, -89.5)
+	sign_label.rotation.y = PI / 2
+	sign_label.font_size = 64
+	sign_label.pixel_size = 0.012
+	lighting.add_child(sign_label)
+	sign_label.owner = owner
 	resolve_overlaps()
 	add_passage_ramps()
 	orient_to_library()
@@ -273,8 +273,8 @@ func orient_to_library() -> Dictionary:
 	var center := Vector3(55.418, 0, -104.438)
 	var sx := 25.562 / 35.452
 	var sz := 35.452 / 25.562
-	var basis := Basis(Vector3(0, 0, -sz), Vector3(0, 1, 0), Vector3(sx, 0, 0))
-	var transform_value := Transform3D(basis, center - basis * center)
+	var mirror_basis := Basis(Vector3(0, 0, -sz), Vector3(0, 1, 0), Vector3(sx, 0, 0))
+	var transform_value := Transform3D(mirror_basis, center - mirror_basis * center)
 	for title in ["Graderias", "Butacas", "Escenario", "PanelesMadera", "TechoAcustico", "IluminacionCalida", "RampasPasillos"]:
 		CampusNodes.obtener(self, title).transform = transform_value
 	# Mantener las proporciones de cada butaca tras adaptar la huella.
@@ -688,7 +688,7 @@ func ampliar_recinto_y_despejar_entradas() -> Dictionary:
 		west_patch.visible = false
 		for col in west_patch.find_children("*","CollisionShape3D",true,false): col.disabled = true
 		var west_floor := CampusNodes.obtener(campus, "Piso %d/Building_Floor Piso %db" % [level,level]) as MeshInstance3D
-		var fb: AABB = west_floor.global_transform*west_floor.get_aabb()
+		var _fb: AABB = west_floor.global_transform*west_floor.get_aabb()
 		mats["piso_sala_oeste"] = west_floor.get_active_material(0)
 		for rail in CampusNodes.obtener(campus, "BarandasPasillosTodosLosPisos/Piso%d" % level).find_children("*","MeshInstance3D",true,false):
 			var rb: AABB = rail.global_transform*rail.get_aabb()

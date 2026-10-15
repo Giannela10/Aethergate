@@ -115,11 +115,11 @@ func build() -> Dictionary:
 	door.position = Vector3(0,1.3,z)
 	for descendant in door.find_children("*","",true,false):
 		descendant.owner = get_tree().edited_scene_root
-	var sign := CampusNodes.obtener(root, "Piso2/Biblioteca/Letrero").duplicate() as Label3D
-	sign.name = "LetreroAccesoPosterior"
-	sign.text = "ACCESO SEDE"
-	owned(entrance,sign)
-	sign.position = Vector3(0,4.9,z-0.3)
+	var sign_label := CampusNodes.obtener(root, "Piso2/Biblioteca/Letrero").duplicate() as Label3D
+	sign_label.name = "LetreroAccesoPosterior"
+	sign_label.text = "ACCESO SEDE"
+	owned(entrance,sign_label)
+	sign_label.position = Vector3(0,4.9,z-0.3)
 	for vehicle in CampusNodes.obtener(root, "PatioPosteriorDuoc/Estacionamientos").get_children():
 		if vehicle is Node3D and str(vehicle.name).begins_with("Auto") and absf(vehicle.position.x-18.0) < 6:
 			vehicle.position.z -= 12.0
@@ -133,7 +133,6 @@ func build() -> Dictionary:
 
 func alinear_terraza() -> Dictionary:
 	var root := CampusNodes.campus(self)
-	var roof := CampusNodes.obtener(root, "Piso 8/Building_Floor Piso 8 Techo") as MeshInstance3D
 	var west := CampusNodes.obtener(root, "Piso 4/Front_Left piso 4 sur3") as MeshInstance3D
 	var east := CampusNodes.obtener(root, "Piso 4/Wall_Right3") as MeshInstance3D
 	var center_x := (west.global_position.x + east.global_position.x) * 0.5
@@ -418,7 +417,7 @@ func ajustar_posterior_referencia() -> Dictionary:
 			box(group,title+"Costado"+str(interval.x),Vector3((interval.x+interval.y)*0.5,6,-162.6935),Vector3(interval.y-interval.x,12,0.5),concrete)
 		box(group,title+"Dintel",Vector3(x,7.65,-162.6935),Vector3(5,8.7,0.5),concrete)
 		box(group,title+"Umbral",Vector3(x,-0.04,-162.6935),Vector3(5,0.08,0.5),stone)
-		box(group,title+"DescansoExterior",Vector3(x,0.65,-165.4 if title == "Rampa" else -165.05),Vector3(6 if title == "Rampa" else 8,1.3,1 if title == "Rampa" else 0.3),stone)
+		box(group,title+"DescansoExterior",Vector3(x,0.65,-165.4 if title == "Rampa" else -165.05),Vector3(6 if title == "Rampa" else 8,1.3,1.0 if title == "Rampa" else 0.3),stone)
 		# Keep the existing indoor floor flat; put the height transition outside.
 		var outside_run := 2.4
 		var outside_angle := atan(1.3/outside_run)
@@ -533,9 +532,9 @@ func vista_posterior_general() -> Dictionary:
 	return {"view":"rear parking, ramp, stairs and bicycles"}
 
 func corregir_suelo_visible() -> Dictionary:
-	var floor := CampusNodes.obtener(CampusNodes.campus(self), "Floor") as StaticBody3D
-	var visual := CampusNodes.obtener(floor, "MeshInstance3D") as MeshInstance3D
-	var collision := CampusNodes.obtener(floor, "CollisionShape3D") as CollisionShape3D
+	var floor_body := CampusNodes.obtener(CampusNodes.campus(self), "Floor") as StaticBody3D
+	var visual := CampusNodes.obtener(floor_body, "MeshInstance3D") as MeshInstance3D
+	var collision := CampusNodes.obtener(floor_body, "CollisionShape3D") as CollisionShape3D
 	var shape := collision.shape.duplicate() as BoxShape3D
 	var mesh := visual.mesh as BoxMesh
 	# The collision surface was 1.54 m above the visible ground.
@@ -572,9 +571,9 @@ func agregar_npc_papeleria() -> Dictionary:
 
 func corregir_niveles_sede_y_patio() -> Dictionary:
 	var root := CampusNodes.campus(self)
-	var floor := CampusNodes.obtener(root, "Floor")
-	CampusNodes.obtener(floor, "MeshInstance3D").visible = false
-	CampusNodes.obtener(floor, "CollisionShape3D").disabled = true
+	var floor_body := CampusNodes.obtener(root, "Floor")
+	CampusNodes.obtener(floor_body, "MeshInstance3D").visible = false
+	CampusNodes.obtener(floor_body, "CollisionShape3D").disabled = true
 	var old := CampusNodes.buscar(self, "TerrenoExteriorPorNiveles")
 	if old: old.free()
 	var terrain := Node3D.new()

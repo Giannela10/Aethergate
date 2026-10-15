@@ -87,6 +87,9 @@ func _ready() -> void:
 	_visual.punch_landed.connect(_on_punch_landed)
 
 func _physics_process(delta: float) -> void:
+	var duel := get_node_or_null("BossDuelController")
+	if duel != null and not duel.allows_damage():
+		return
 	_attack_timer = maxf(0.0, _attack_timer - delta)
 	_throw_timer = maxf(0.0, _throw_timer - delta)
 	_mover.velocity.x = 0.0
@@ -135,6 +138,9 @@ func _has_line_of_sight() -> bool:
 	return hit.is_empty() or hit.get("collider") == target
 
 func _on_punch_landed(_side: int) -> void:
+	var duel := get_node_or_null("BossDuelController")
+	if duel != null and not duel.allows_damage():
+		return
 	if _throw_pending:
 		_throw_pending = false
 		_throw_equipment()
@@ -168,6 +174,9 @@ func _throw_equipment() -> void:
 	projectile.launch(origin, destination, throw_speed)
 
 func take_hit(_direction: Vector3, damage: float) -> void:
+	var duel := get_node_or_null("BossDuelController")
+	if duel != null and not duel.allows_damage():
+		return
 	if dead:
 		return
 	health = maxf(0.0, health - maxf(0.0, damage))

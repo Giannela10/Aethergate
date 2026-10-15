@@ -1,5 +1,7 @@
 # DuocGames
 
+Consulta la [guía de juego y desarrollo](GUIA.md) para saber cómo avanzar, ejecutar las comprobaciones y priorizar el trabajo pendiente. Dentro del juego: **Esc → Guía de juego**. Los detalles de implementación están en [CAMPANA.md](CAMPANA.md) e [INVENTARIO.md](INVENTARIO.md).
+
 Juego 3D de exploración del campus en Godot 4.7.2. Incluye biblioteca con preguntas de literatura, combate en Punto Estudiantil, papelería con inventario y apuntes, y ascensores que conectan el −1 con los pisos 1–8.
 
 El piso **−1** se alcanza por la escalera central, la escalera de emergencia o cualquiera de los tres ascensores. La emergencia conecta **−1 y 1–8**, con descansos de giro, pasamanos y una puerta abatible automática en cada nivel. La abertura protegida del primer piso permite mirar hacia el −1. Dentro del ascensor, **0** selecciona el −1 y **1–8** selecciona los demás pisos; **E** lo llama desde cada nivel.
@@ -23,7 +25,9 @@ El renderizador predeterminado es **Compatibility (OpenGL)** para ampliar el sop
 | Esc | Cerrar ventana o liberar/capturar el ratón |
 | R | Reiniciar (con las ventanas cerradas) |
 
-El inventario y los apuntes se guardan automáticamente. El resto del progreso se reinicia al volver a cargar la escena. Se conserva la carpeta de guardado anterior aunque la ventana ahora se llama DuocGames.
+La campaña guarda inventario, apuntes, misiones, bosses, recogibles y checkpoints automáticamente. El menú inicial permite continuar o comenzar una nueva partida. Se conserva la carpeta de guardado anterior aunque la ventana ahora se llama DuocGames. Consulta los límites del guardado en CAMPANA.md.
+
+Con la campaña activa, **Esc** abre pausa, **M** las misiones, **Tab** el mapa, **B** el registro y **U** las mejoras. **Alt** permite esquivar. Dentro del ascensor, **E** abre destinos; los pisos se habilitan al avanzar. La tabla siguiente incluye también controles del modo anterior sin campaña.
 
 Los computadores de minijuegos se habilitan con `populate_entrance` en `GameplayManager`; también activa enemigos y armas de la zona inicial. Está desactivado en el campus actual.
 

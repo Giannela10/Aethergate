@@ -25,7 +25,6 @@ func build() -> Dictionary:
 	var dark: Material = load("res://materials/entrance/MAT_Metal_Dark.tres")
 	var wood: Material = load("res://materials/entrance/MAT_Madera_Biblioteca.tres")
 	var white: Material = load("res://materials/entrance/MAT_Puerta_Ascensor_Grafica.tres")
-	var glass: Material = load("res://materials/entrance/MAT_Window_Upper.tres")
 	var library := CampusNodes.obtener(root, "Piso2/Biblioteca")
 	var room := Node3D.new()
 	room.name = "SalaImpresiones"
@@ -39,13 +38,13 @@ func build() -> Dictionary:
 	box(room,"DintelAcceso",Vector3(-79,7.6,-122.7),Vector3(5,8.8,0.16),cream)
 	box(room,"SeparacionBiblioteca",Vector3(-73,6,-116.65),Vector3(0.16,12,12.1),cream)
 	box(room,"ParedFondo",Vector3(-78.875,6,-110.6),Vector3(11.75,12,0.16),cream)
-	var sign := CampusNodes.obtener(library, "Letrero").duplicate() as Label3D
-	sign.name = "LetreroImpresiones"
-	sign.text = "IMPRESIONES Y ARTICULOS"
-	sign.font_size = 56
-	sign.pixel_size = 0.005
-	owned(room,sign)
-	sign.position = Vector3(-79,3.65,-122.82)
+	var sign_label := CampusNodes.obtener(library, "Letrero").duplicate() as Label3D
+	sign_label.name = "LetreroImpresiones"
+	sign_label.text = "IMPRESIONES Y ARTICULOS"
+	sign_label.font_size = 56
+	sign_label.pixel_size = 0.005
+	owned(room,sign_label)
+	sign_label.position = Vector3(-79,3.65,-122.82)
 	box(room,"Mostrador",Vector3(-78.8,0.9,-115.8),Vector3(7.8,1.8,1.2),cream)
 	box(room,"CubiertaMostrador",Vector3(-78.8,1.85,-115.8),Vector3(8,0.12,1.35),wood)
 	box(room,"Impresora",Vector3(-80.8,2.3,-115.8),Vector3(1.4,0.8,0.9),white)

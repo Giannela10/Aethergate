@@ -5,7 +5,7 @@ extends Control
 
 signal completed
 
-const TOTAL := 6    # archivos a ordenar
+var TOTAL := 6    # archivos a ordenar
 
 var folders := [
 	{"name": "Imágenes", "hint": ".jpg  .png", "color": Color(0.23, 0.51, 0.96)},
@@ -137,3 +137,5 @@ func _on_folder(i: int) -> void:
 	else:
 		feedback.add_theme_color_override("font_color", Color(1.0, 0.45, 0.4))
 		feedback.text = "Esa no es. Mira la extensión y los ejemplos de cada carpeta."
+func configure_difficulty(level: int) -> void:
+	TOTAL = mini(8,6+floori(level/3.0))

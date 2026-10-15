@@ -162,5 +162,5 @@ func _process(_delta: float) -> void:
 	if done:
 		return
 	var pl := get_tree().get_first_node_in_group("player") as Node3D
-	prompt.visible = pl != null and not pl.get("dead") and not pl.get("busy") \
+	prompt.visible = pl != null and not pl.has_node("InteractionController") and not pl.get("dead") and not pl.get("busy") \
 			and pl.global_position.distance_to(global_position) < 2.2

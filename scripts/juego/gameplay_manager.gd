@@ -50,6 +50,9 @@ func _ready() -> void:
 
 	player = CharacterBody3D.new()
 	player.set_script(load("res://scripts/juego/player.gd"))
+	var campaign := get_parent().get_node_or_null("CampusCampaign")
+	if campaign and (not campaign.persist or campaign.has_meta("test_mode")):
+		player.persist_inventory = false
 	add_child(player)
 	player.global_position = Vector3(0, 2, 0)
 

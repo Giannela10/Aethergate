@@ -1,5 +1,7 @@
 # Revisión de DuocGames — 8 de octubre de 2026
 
+> Registro histórico. Consulta [GUIA.md](GUIA.md) para las correcciones y pendientes de la revisión actual, y [CAMPANA.md](CAMPANA.md) para la campaña, pausa y guardado incorporados después de este documento.
+
 ## Estado observado
 
 El proyecto inicia en Godot 4.7.2 y permite explorar un campus de ocho pisos. Hay un duelo de preguntas en la biblioteca, un enemigo con combate y lanzamientos en Punto Estudiantil, artículos de papelería con apuntes persistentes, puertas, guardias y ascensores. La geometría combina escenas guardadas y scripts de construcción.

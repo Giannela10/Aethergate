@@ -128,15 +128,15 @@ func build() -> Dictionary:
 			light.omni_range = 12
 			ceiling.add_child(light)
 			light.owner = owner
-	var sign := Label3D.new()
-	sign.name = "IndicacionAscensores"
-	sign.text = "ASCENSORES  ·  PISO 2"
-	sign.position = Vector3(0, 16.2, -149.3)
-	sign.font_size = 72
-	sign.pixel_size = 0.006
-	sign.modulate = Color(0.1, 0.2, 0.17)
-	ceiling.add_child(sign)
-	sign.owner = owner
+	var sign_label := Label3D.new()
+	sign_label.name = "IndicacionAscensores"
+	sign_label.text = "ASCENSORES  ·  PISO 2"
+	sign_label.position = Vector3(0, 16.2, -149.3)
+	sign_label.font_size = 72
+	sign_label.pixel_size = 0.006
+	sign_label.modulate = Color(0.1, 0.2, 0.17)
+	ceiling.add_child(sign_label)
+	sign_label.owner = owner
 	result["zona"] = "Pasillo de ascensores del piso 2"
 	result["barandas_vidrio"] = 17
 	return result

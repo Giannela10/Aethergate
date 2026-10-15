@@ -67,15 +67,17 @@ func _physics_process(delta: float) -> void:
 		_gates[i].position.x = move_toward(_gates[i].position.x, 4.4 if opened else 0.0, 8.0 * delta)
 	cabin_door.position.x = move_toward(cabin_door.position.x, 4.4 if not moving else 0.0, 8.0 * delta)
 	indicator.text = "ASCENSOR · PISO %s%s" % [floor_name(current_floor), " → %s" % floor_name(destination) if moving else ""]
-	_ui.visible = _inside or near_floor >= 0
+	_ui.visible = (_inside or near_floor >= 0) and not get_tree().get_first_node_in_group("campus_campaign")
 	if _inside:
 		_ui.text = "Ascensor: 1–8 para elegir piso · 0: piso −1\n" + ("En movimiento…" if moving else "Piso %s" % floor_name(current_floor))
 	else:
 		_ui.text = "[E] Llamar ascensor al piso %s" % floor_name(near_floor)
-	if not moving and not _inside and near_floor >= 0 and Input.is_action_just_pressed("interact"):
+	if not get_tree().get_first_node_in_group("campus_campaign") and not moving and not _inside and near_floor >= 0 and Input.is_action_just_pressed("interact"):
 		request_floor(near_floor)
 
 func _unhandled_key_input(event: InputEvent) -> void:
+	if get_tree().get_first_node_in_group("campus_campaign"):
+		return
 	var key := event as InputEventKey
 	if key == null or not key.pressed or key.echo or not _inside or moving:
 		return
@@ -90,8 +92,12 @@ func floor_name(index: int) -> String:
 	return "−1" if index == BASEMENT_INDEX else str(index + 1)
 
 func request_floor(index: int) -> void:
+	var campaign := get_tree().get_first_node_in_group("campus_campaign")
+	if campaign and not campaign.floor_unlocked("S" if index == 8 else str(index+1)):
+		return
 	if moving or index < 0 or index >= LEVELS.size() or index == current_floor:
 		return
 	destination = index
 	moving = true
 	close_timer = 1.0
+

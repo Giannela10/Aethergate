@@ -103,7 +103,7 @@ func _build_world_health() -> void:
 	add_child(world_health)
 	for fill in [false, true]:
 		var bar := MeshInstance3D.new()
-		bar.position = Vector3(0, 2.7, 0.01 if fill else 0)
+		bar.position = Vector3(0, 2.7, 0.01 if fill else 0.0)
 		var mesh := QuadMesh.new()
 		mesh.size = Vector2(1.8 if fill else 1.9, 0.12 if fill else 0.18)
 		bar.mesh = mesh
@@ -270,7 +270,7 @@ func _input(event: InputEvent) -> void:
 		elif key.keycode == KEY_ENTER and answered:
 			_next()
 		get_viewport().set_input_as_handled()
-	elif key.physical_keycode == KEY_E and _can_interact():
+	elif key.physical_keycode == KEY_E and not has_node("BossDuelController") and _can_interact():
 		interact(player)
 		get_viewport().set_input_as_handled()
 
@@ -354,6 +354,9 @@ func _answer(index: int) -> void:
 		button.hide()
 	if answers[index].get_meta("correct"):
 		health = maxf(0, health - answer_damage)
+		var campaign := get_tree().get_first_node_in_group("campus_campaign")
+		if campaign:
+			campaign.event("answer","bibliotecaria")
 		visual.hurt()
 		_show_damage(answer_damage)
 		feedback.text = "DOÑA ELVIRA: «¡Correcto! Veo que sí has leído... No me rendiré tan fácil.»\nLa bibliotecaria pierde %d de vida." % int(answer_damage)

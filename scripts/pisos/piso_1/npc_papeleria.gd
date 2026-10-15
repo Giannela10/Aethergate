@@ -53,7 +53,7 @@ func _ready() -> void:
 func _process(_delta: float) -> void:
 	if Engine.is_editor_hint(): return
 	var player := get_tree().get_first_node_in_group("player") as Node3D
-	prompt.visible = is_instance_valid(player) and global_position.distance_to(player.global_position)<4.5 and not window.visible
+	prompt.visible = is_instance_valid(player) and not player.has_node("InteractionController") and global_position.distance_to(player.global_position)<4.5 and not window.visible
 func interact(player: Node3D) -> void:
 	if window.visible or global_position.distance_to(player.global_position)>4.5: return
 	customer = player

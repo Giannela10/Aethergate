@@ -5,8 +5,8 @@ extends Control
 
 signal completed
 
-const CODE_LEN := 4
-const MEMORIZE_TIME := 4.0
+var CODE_LEN := 4
+var MEMORIZE_TIME := 4.0
 const RETRY_TIME := 3.0
 
 enum Phase { MEMORIZE, ENTER }
@@ -179,3 +179,6 @@ func _check() -> void:
 		feedback.text = "Código incorrecto. Mira el código otra vez."
 		entered = ""
 		_set_phase(Phase.MEMORIZE, RETRY_TIME)
+func configure_difficulty(level: int) -> void:
+	CODE_LEN = 5 if level >= 7 else 4
+	MEMORIZE_TIME = 5.0 if CODE_LEN == 5 else maxf(3.2,4.0-level*0.1)

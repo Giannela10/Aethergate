@@ -211,7 +211,7 @@ func dining_table(p: Vector3) -> void:
 	for x in [-0.82, 0.82]:
 		for side in [-1.0, 1.0]:
 			var chair_node := group("SillaNegraNaranja", p + Vector3(x, 0, side * 1.78))
-			chair_node.rotation.y = 0 if side > 0 else PI
+			chair_node.rotation.y = 0.0 if side > 0 else PI
 			box("Asiento", Vector3(0, 0.85, 0), Vector3(0.86, 0.14, 0.86), materials.naranja, true, chair_node)
 			for leg_x in [-0.36, 0.36]:
 				for leg_z in [-0.36, 0.36]:

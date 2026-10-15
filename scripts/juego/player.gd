@@ -17,6 +17,15 @@ signal died
 
 const Humanoid = preload("res://scripts/juego/humanoid.gd")
 const SportsProjectile = preload("res://scripts/juego/proyectil_deportivo.gd")
+const StudentVisual = preload("res://scripts/juego/student_visual.gd")
+@export var persist_inventory := true
+var inventory: Node
+var inventory_ui: CanvasLayer
+var speed_multiplier := 1.0
+var speed_boost_time := 0.0
+var attack_multiplier := 1.0
+var progression_damage := 1.0
+var progression_speed := 1.0
 
 # ---------- Ajustes (cÃƒÆ’Ã‚Â¡mbialos a tu gusto) ----------
 const WALK_SPEED := 2.5
@@ -58,11 +67,13 @@ var punch_cd := 0.0
 
 
 func _ready() -> void:
+	name = "Player"
 	add_to_group("player")
 	_setup_input()
 	floor_snap_length = 0.5
 
 	collision = CollisionShape3D.new()
+	collision.name = "CollisionShape3D"
 	capsule = CapsuleShape3D.new()
 	capsule.radius = 0.45
 	capsule.height = 2.7
@@ -71,7 +82,8 @@ func _ready() -> void:
 	collision.position.y = 1.35
 	add_child(collision)
 
-	body = Humanoid.new()
+	body = StudentVisual.new()
+	body.name = "Visual"
 	body.scale = Vector3(1.5, 1.5, 1.5)
 	body.punch_time = 0.5
 	add_child(body)
@@ -80,6 +92,31 @@ func _ready() -> void:
 	stationery_ui = CanvasLayer.new()
 	stationery_ui.set_script(load("res://scripts/pisos/piso_1/inventario_papeleria.gd"))
 	add_child(stationery_ui)
+	stationery_ui.name = "LegacyStationeryUI"
+	stationery_ui.set_process_input(false)
+	stationery_ui.hide()
+	var pivot := Marker3D.new()
+	pivot.name = "CameraPivot"
+	pivot.position.y = 1.4
+	add_child(pivot)
+	var area := Area3D.new()
+	area.name = "InteractionArea"
+	area.collision_layer = 0
+	area.collision_mask = 0
+	area.monitoring = false
+	var shape := CollisionShape3D.new()
+	var sphere := SphereShape3D.new()
+	sphere.radius = PICKUP_RANGE
+	shape.shape = sphere
+	area.add_child(shape)
+	add_child(area)
+	inventory = load("res://scripts/inventory/inventory.gd").new()
+	inventory.name = "Inventory"
+	inventory.persist = persist_inventory
+	add_child(inventory)
+	inventory_ui = load("res://scripts/inventory/inventory_ui.gd").new()
+	inventory_ui.name = "InventoryUI"
+	add_child(inventory_ui)
 
 	health_changed.emit(health, max_health)
 
@@ -121,6 +158,9 @@ func _setup_input() -> void:
 # =====================================================================
 func _physics_process(delta: float) -> void:
 	var on_floor := is_on_floor()
+	speed_boost_time = maxf(0.0,speed_boost_time-delta)
+	if speed_boost_time <= 0.0:
+		speed_multiplier = 1.0
 	stun_t = maxf(stun_t - delta, 0.0)
 	punch_cd = maxf(punch_cd - delta, 0.0)
 
@@ -135,6 +175,10 @@ func _physics_process(delta: float) -> void:
 		move_and_slide()
 		return
 
+	var seating := get_node_or_null("SeatController")
+	if seating and seating.update_seated():
+		return
+
 	# Usando un computador: quieto y sin atender controles
 	if busy:
 		running = false
@@ -144,17 +188,24 @@ func _physics_process(delta: float) -> void:
 		move_and_slide()
 		return
 
+	var combat := get_node_or_null("CombatExtensions")
+	if combat and combat.dodge_t > 0:
+		velocity.x = combat.dodge_direction.x*8.0
+		velocity.z = combat.dodge_direction.z*8.0
+		move_and_slide()
+		return
 	var wants_crouch := Input.is_action_pressed("crouch") and on_floor
 	crouching = wants_crouch or (crouching and not _has_standing_room())
 
 	var input := Input.get_vector("move_left", "move_right", "move_forward", "move_back")
-	running = Input.is_action_pressed("run") and not crouching and input.length() > 0.1
+	running = Input.is_action_pressed("run") and (combat == null or combat.stamina > 0) and not crouching and input.length() > 0.1
 
 	var speed := WALK_SPEED
 	if crouching:
 		speed = CROUCH_SPEED
 	elif running:
 		speed = RUN_SPEED
+	speed *= speed_multiplier * progression_speed
 	if body.is_punching():
 		speed *= 0.6
 
@@ -172,7 +223,8 @@ func _physics_process(delta: float) -> void:
 		velocity.y = JUMP_VELOCITY
 
 	if Input.is_action_just_pressed("punch") and punch_cd <= 0.0 and stun_t <= 0.0:
-		_try_punch()
+		if combat == null or not Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
+			_try_punch()
 	if Input.is_action_just_pressed("interact"):
 		_try_interact()
 	if Input.is_action_just_pressed("drop"):
@@ -213,6 +265,10 @@ func _has_standing_room() -> bool:
 #  Combate
 # =====================================================================
 func _try_punch() -> void:
+	var seating := get_node_or_null("SeatController")
+	if seating and is_instance_valid(seating.seat):
+		seating.stand()
+		return
 	if body.start_punch():
 		punch_cd = WEAPON_COOLDOWN if weapon != null else PUNCH_COOLDOWN
 		_aim_assist()
@@ -262,7 +318,8 @@ func _on_punch_landed(_side: int) -> void:
 			continue
 		if dist > 0.01 and fwd.dot(to / dist) < 0.35:   # debe estar delante
 			continue
-		en.take_hit(to.normalized(), dmg)
+		var bonus: float = weapon.bonus_against(en) if weapon != null and weapon.has_method("bonus_against") else 1.0
+		en.take_hit(to.normalized(), dmg * attack_multiplier * progression_damage * bonus)
 		hit_any = true
 
 	if hit_any and weapon != null:
@@ -285,6 +342,8 @@ func _use_weapon() -> void:
 	weapon.durability -= 1
 	if weapon.durability <= 0:
 		var broken_name: String = weapon.weapon_name
+		if inventory != null:
+			inventory.detach_equipped()
 		var w = body.unequip()
 		if w != null:
 			w.queue_free()
@@ -294,10 +353,15 @@ func _use_weapon() -> void:
 		weapon_broke.emit(broken_name)
 	else:
 		_emit_weapon()
+	if inventory != null:
+		inventory._commit()
 
 
 ## Recibir daÃƒÆ’Ã‚Â±o (lo llaman los enemigos).
 func take_hit(direction: Vector3, damage: float) -> void:
+	var combat := get_node_or_null("CombatExtensions")
+	if combat and combat.dodge_t > 0:
+		return
 	if dead:
 		return
 	hit_received.emit()
@@ -338,6 +402,11 @@ func _emit_weapon() -> void:
 		weapon_changed.emit("%s (%d)" % [n, d])
 
 func _throw_sport() -> void:
+	if not dead and not busy and weapon == null:
+		var campaign := get_tree().get_first_node_in_group("campus_campaign")
+		if campaign:
+			campaign.throw_distraction()
+		return
 	if dead or busy or weapon == null or body.is_punching():
 		return
 	if not weapon.has_method("can_throw") or not weapon.can_throw():
@@ -365,6 +434,8 @@ func _throw_sport() -> void:
 			continue
 		best_distance = offset.length()
 		destination = point
+	if inventory != null:
+		inventory.detach_equipped()
 	var item = body.unequip()
 	weapon = null
 	body.punch_time = 0.5
@@ -383,6 +454,10 @@ func _throw_sport() -> void:
 
 ## E: usa lo mÃƒÆ’Ã‚Â¡s cercano entre un arma del suelo y un computador pendiente.
 func _try_interact() -> void:
+	var centralized := get_node_or_null("InteractionController")
+	if centralized:
+		centralized.interact_selected()
+		return
 	for vendor in get_tree().get_nodes_in_group("stationery_vendor"):
 		if global_position.distance_to(vendor.global_position) < 4.5 and _can_reach(vendor):
 			vendor.interact(self)
@@ -409,7 +484,17 @@ func _try_interact() -> void:
 			best_cd = d
 			best_pc = cn
 
-	if best_pc != null and (best_weapon == null or best_cd < best_wd):
+	var best_item: Node3D
+	var best_id := PICKUP_RANGE
+	for item in get_tree().get_nodes_in_group("inventory_pickup"):
+		if item is Node3D and not item.is_queued_for_deletion():
+			var d := global_position.distance_to(item.global_position)
+			if d < best_id and _can_reach(item):
+				best_item = item
+				best_id = d
+	if best_item != null and (best_weapon == null or best_id <= best_wd) and (best_pc == null or best_id <= best_cd):
+		best_item.collect(self)
+	elif best_pc != null and (best_weapon == null or best_cd < best_wd):
 		_use_computer(best_pc)
 	elif best_weapon != null:
 		_equip(best_weapon)
@@ -424,6 +509,9 @@ func _use_computer(c: Node3D) -> void:
 
 
 func _equip(w) -> void:
+	if inventory != null:
+		inventory.collect_weapon(w,true)
+		return
 	equip_stationery("")
 	if weapon != null:
 		_drop()                          # cambia el arma actual por la nueva
@@ -441,6 +529,8 @@ func _drop() -> void:
 		return
 	if weapon == null:
 		return
+	if inventory != null:
+		inventory.detach_equipped()
 	var w = body.unequip()
 	weapon = null
 	body.punch_time = 0.5
@@ -458,6 +548,8 @@ func _drop() -> void:
 	_emit_weapon()
 
 func receive_stationery(key: String) -> int:
+	if inventory != null:
+		return inventory.add_item(key,1)
 	if not load("res://scripts/pisos/piso_1/inventario_papeleria.gd").ITEMS.has(key):
 		return 0
 	stationery_inventory[key] = int(stationery_inventory.get(key,0))+1
@@ -468,12 +560,20 @@ func equip_stationery(key: String) -> bool:
 	if is_instance_valid(stationery_model): stationery_model.free()
 	stationery_model = null
 	equipped_stationery = ""
-	if not key.is_empty() and weapon != null: _drop()
+	if not key.is_empty() and weapon != null:
+		if inventory != null:
+			inventory.stash_equipped()
+		else:
+			_drop()
 	equipped_stationery = key
 	if not key.is_empty():
 		stationery_model = Node3D.new()
 		stationery_model.name = "ArticuloEquipado"
-		body.hand_r.add_child(stationery_model)
+		var socket = body.get("item_socket")
+		if is_instance_valid(socket):
+			socket.add_child(stationery_model)
+		else:
+			body.hand_r.add_child(stationery_model)
 		if key == "lapiz":
 			var pencil := CylinderMesh.new()
 			pencil.top_radius = 0.009
@@ -492,6 +592,18 @@ func equip_stationery(key: String) -> bool:
 	save_stationery()
 	_emit_weapon()
 	return true
+func receive_item(id: String, amount: int = 1) -> int:
+	return inventory.add_item(id,amount) if inventory != null else 0
+
+func has_key_item(id: String) -> bool:
+	if inventory != null and inventory.has_item(id):
+		return true
+	return id == "CredencialDirector" and bool(get_meta("CredencialDirector",false))
+
+func apply_speed_boost(multiplier: float, duration: float) -> void:
+	speed_multiplier = clampf(multiplier,1.0,2.0)
+	speed_boost_time = maxf(duration,0.0)
+
 func stationery_part(mesh: Mesh, position_value: Vector3, color: Color) -> void:
 	var part := MeshInstance3D.new()
 	part.mesh = mesh
@@ -501,11 +613,15 @@ func stationery_part(mesh: Mesh, position_value: Vector3, color: Color) -> void:
 	part.material_override = material
 	stationery_model.add_child(part)
 func save_stationery() -> void:
+	if not persist_inventory:
+		return
 	var file := FileAccess.open("user://papeleria_inventario.json",FileAccess.WRITE)
 	if file: file.store_string(JSON.stringify({"items":stationery_inventory,"notes":stationery_notes,"equipped":equipped_stationery}))
 func load_stationery() -> void:
+	if not persist_inventory:
+		return
 	if not FileAccess.file_exists("user://papeleria_inventario.json"): return
-	var data = JSON.parse_string(FileAccess.get_file_as_string("user://papeleria_inventario.json"))
+	var data = preload("res://scripts/compartidos/lectura_guardado.gd").read_dictionary("user://papeleria_inventario.json")
 	if not data is Dictionary: return
 	var saved_items = data.get("items",{})
 	if saved_items is Dictionary:

@@ -6,9 +6,9 @@ signal completed
 
 const COLS := 4
 const ROWS := 3
-const GOAL := 8             # virus que hay que atrapar
-const VIRUS_TIME := 1.6     # segundos que dura cada virus
-const SPAWN_EVERY := 0.7    # cada cuánto aparece uno nuevo
+var GOAL := 8             # virus que hay que atrapar
+var VIRUS_TIME := 1.6     # segundos que dura cada virus
+var SPAWN_EVERY := 0.7    # cada cuánto aparece uno nuevo
 const MAX_AT_ONCE := 2
 
 var buttons: Array = []
@@ -137,3 +137,7 @@ func _on_cell(i: int) -> void:
 	if caught >= GOAL:
 		done = true
 		completed.emit()
+func configure_difficulty(level: int) -> void:
+	GOAL = 8+mini(4,floori(level/2.0))
+	VIRUS_TIME = maxf(1.3,1.6-level*0.03)
+	SPAWN_EVERY = maxf(0.55,0.7-level*0.015)

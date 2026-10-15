@@ -142,8 +142,8 @@ func build_ground_corridor() -> void:
 		for i in range(12):
 			box(corridor,"BandejaInstalaciones",Vector3(x-3+i*0.55,6.6,-134),Vector3(0.055,0.12,0.85),mats["black"])
 	box(corridor,"CartelCoordinacion",Vector3(64,3,-122.38),Vector3(6,1.0,0.06),mats["blue"])
-	var sign := label(corridor,"IndicacionCoordinacion","COORDINACIÓN  →",Vector3(64,3,-122.42),PI,0.006)
-	sign.modulate = Color(0.92,0.94,0.93)
+	var sign_label := label(corridor,"IndicacionCoordinacion","COORDINACIÓN  →",Vector3(64,3,-122.42),PI,0.006)
+	sign_label.modulate = Color(0.92,0.94,0.93)
 	var casino := CampusNodes.obtener(campus, "Piso1/Casino")
 	CampusNodes.obtener(casino, "Letrero").hide()
 	var entrance := group(casino,"AcabadosEntradaLateral")

@@ -3,6 +3,9 @@ extends SceneTree
 var failures: Array[String] = []
 
 class TestPlayer extends "res://scripts/juego/player.gd":
+	func _ready() -> void:
+		persist_inventory = false
+		super._ready()
 	func load_stationery() -> void:
 		pass
 	func save_stationery() -> void:

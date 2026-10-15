@@ -104,6 +104,9 @@ func open(id: int) -> void:
 	holder.add_child(current)
 	current.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	current.completed.connect(_on_completed)
+	var campaign := get_tree().get_first_node_in_group("campus_campaign")
+	if campaign and current.has_method("configure_difficulty"):
+		current.configure_difficulty(8 if campaign.floor_current == "S" else int(campaign.floor_current))
 	current.start()
 
 

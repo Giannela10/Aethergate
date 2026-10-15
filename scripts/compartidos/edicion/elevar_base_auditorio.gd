@@ -73,10 +73,10 @@ func apply() -> String:
 	if aud.has_meta("base_elevada"):
 		return "Base ya elevada."
 	var tiers := CampusNodes.obtener(aud, "Graderias") as Node3D
-	var tr := tiers.global_transform
-	tr.origin.y = 4.2
-	tr.basis.y *= 0.65
-	tiers.global_transform = tr
+	var tiers_transform := tiers.global_transform
+	tiers_transform.origin.y = 4.2
+	tiers_transform.basis.y *= 0.65
+	tiers.global_transform = tiers_transform
 	for seat in CampusNodes.obtener(aud, "Butacas").get_children():
 		var p: Vector3 = seat.global_position
 		p.y = raised(p.y)

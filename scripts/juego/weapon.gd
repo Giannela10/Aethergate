@@ -73,7 +73,7 @@ func _process(delta: float) -> void:
 	t += delta
 	model.position.y = base_y + 0.04 * sin(t * 2.5)
 	var pl := get_tree().get_first_node_in_group("player") as Node3D
-	label.visible = pl != null and not pl.get("dead") \
+	label.visible = pl != null and not pl.has_node("InteractionController") and not pl.get("dead") \
 			and pl.global_position.distance_to(global_position) < 2.2
 
 

@@ -1,0 +1,109 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[   0% ] first_scan_filesystem | Started Inicialización del proyecto (5 steps)
+[   0% ] first_scan_filesystem | Escaneando la estructura del archivo...
+[  16% ] first_scan_filesystem | Cargando nombres de clases globales...
+[  33% ] first_scan_filesystem | Verificando GDExtensions...
+[  50% ] first_scan_filesystem | Creando scripts de carga automática...
+[  66% ] first_scan_filesystem | Inicializando plugins...
+Godot MCP Toolkit v1.0.2 — by NPGameDev · npgamedev.com
+[MCPExtensions] Hot-reload watcher active
+WARNING: [MCPRegistry] failed to acquire lock after 10 retries; proceeding anyway
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] acquire (res://addons/godot_mcp_toolkit/registry/store/file_lock.gd:58)
+       [1] acquire_lock (res://addons/godot_mcp_toolkit/registry/registry_client.gd:75)
+       [2] self_heal (res://addons/godot_mcp_toolkit/core/unfocused_sleep_controller.gd:171)
+       [3] start (res://addons/godot_mcp_toolkit/transport/mcp_server.gd:293)
+       [4] compose (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:91)
+       [5] _enter_tree (res://addons/godot_mcp_toolkit/plugin.gd:47)
+[MCPServer] unfocused-responsive self-heal: reverted leftover interface/editor/unfocused_low_processor_mode_sleep_usec to 16666 (crash/concurrent leftover)
+[MCPServer] port: scanning 6550-6560 (default)
+WARNING: [MCPServer] failed to write token (err 1); auth will still be enforced but bridge may not find the file
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] start (res://addons/godot_mcp_toolkit/transport/mcp_server.gd:317)
+       [1] compose (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:91)
+       [2] _enter_tree (res://addons/godot_mcp_toolkit/plugin.gd:47)
+[MCPServer] listening on 127.0.0.1:6551
+WARNING: [MCPRegistry] cannot write entry C:\Users\Marcelo Diaz\AppData\Roaming/godot-mcp-toolkit/entries/8691e4492437.json.tmp (err 1)
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] write (res://addons/godot_mcp_toolkit/registry/store/registry_entry_file.gd:29)
+       [1] _write_entry (res://addons/godot_mcp_toolkit/registry/registry_client.gd:88)
+       [2] register (res://addons/godot_mcp_toolkit/registry/registry_client.gd:142)
+       [3] _register_in_registry (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:129)
+       [4] <anonymous lambda> (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:90)
+       [5] _on_transport_bound (res://addons/godot_mcp_toolkit/transport/mcp_server.gd:381)
+       [6] _scan_and_listen (res://addons/godot_mcp_toolkit/transport/ws_transport.gd:283)
+       [7] ensure_listening (res://addons/godot_mcp_toolkit/transport/ws_transport.gd:254)
+       [8] start (res://addons/godot_mcp_toolkit/transport/mcp_server.gd:322)
+       [9] compose (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:91)
+       [10] _enter_tree (res://addons/godot_mcp_toolkit/plugin.gd:47)
+WARNING: [MCPRegistry] failed to acquire lock after 10 retries; proceeding anyway
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] acquire (res://addons/godot_mcp_toolkit/registry/store/file_lock.gd:58)
+       [1] acquire_lock (res://addons/godot_mcp_toolkit/registry/registry_client.gd:75)
+       [2] register (res://addons/godot_mcp_toolkit/registry/registry_client.gd:144)
+       [3] _register_in_registry (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:129)
+       [4] <anonymous lambda> (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:90)
+       [5] _on_transport_bound (res://addons/godot_mcp_toolkit/transport/mcp_server.gd:381)
+       [6] _scan_and_listen (res://addons/godot_mcp_toolkit/transport/ws_transport.gd:283)
+       [7] ensure_listening (res://addons/godot_mcp_toolkit/transport/ws_transport.gd:254)
+       [8] start (res://addons/godot_mcp_toolkit/transport/mcp_server.gd:322)
+       [9] compose (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:91)
+       [10] _enter_tree (res://addons/godot_mcp_toolkit/plugin.gd:47)
+WARNING: [MCPRegistry] cannot write C:\Users\Marcelo Diaz\AppData\Roaming/godot-mcp-toolkit/projects.json.tmp (err 1)
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] write_atomic (res://addons/godot_mcp_toolkit/registry/store/registry_projection.gd:35)
+       [1] rebuild (res://addons/godot_mcp_toolkit/registry/store/registry_projection.gd:158)
+       [2] _rebuild_projects_json (res://addons/godot_mcp_toolkit/registry/registry_client.gd:114)
+       [3] register (res://addons/godot_mcp_toolkit/registry/registry_client.gd:145)
+       [4] _register_in_registry (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:129)
+       [5] <anonymous lambda> (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:90)
+       [6] _on_transport_bound (res://addons/godot_mcp_toolkit/transport/mcp_server.gd:381)
+       [7] _scan_and_listen (res://addons/godot_mcp_toolkit/transport/ws_transport.gd:283)
+       [8] ensure_listening (res://addons/godot_mcp_toolkit/transport/ws_transport.gd:254)
+       [9] start (res://addons/godot_mcp_toolkit/transport/mcp_server.gd:322)
+       [10] compose (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:91)
+       [11] _enter_tree (res://addons/godot_mcp_toolkit/plugin.gd:47)
+[MCPRegistry] registered c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames on port 6551
+[  83% ] first_scan_filesystem | Iniciando escaneo de archivos...
+[ DONE ] first_scan_filesystem
+
+[   0% ] loading_editor_layout | Started Cargando editor (5 steps)
+[   0% ] loading_editor_layout | Cargando diseño del editor...
+[  16% ] loading_editor_layout | Cargando docks...
+[  33% ] loading_editor_layout | Reabriendo escenas...
+[  50% ] loading_editor_layout | Cargando el diseño del editor central...
+[  66% ] loading_editor_layout | Cargando Layout de la ventana del plugin...
+[  83% ] loading_editor_layout | Diseño del editor listo.
+[ DONE ] loading_editor_layout
+
+[MCPServer] stopped
+WARNING: [MCPRegistry] failed to acquire lock after 10 retries; proceeding anyway
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] acquire (res://addons/godot_mcp_toolkit/registry/store/file_lock.gd:58)
+       [1] acquire_lock (res://addons/godot_mcp_toolkit/registry/registry_client.gd:75)
+       [2] deregister (res://addons/godot_mcp_toolkit/registry/registry_client.gd:153)
+       [3] dispose (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:298)
+       [4] _exit_tree (res://addons/godot_mcp_toolkit/plugin.gd:113)
+WARNING: [MCPRegistry] cannot write C:\Users\Marcelo Diaz\AppData\Roaming/godot-mcp-toolkit/projects.json.tmp (err 1)
+   at: push_warning (core/variant/variant_utility.cpp:1033)
+   GDScript backtrace (most recent call first):
+       [0] write_atomic (res://addons/godot_mcp_toolkit/registry/store/registry_projection.gd:35)
+       [1] rebuild (res://addons/godot_mcp_toolkit/registry/store/registry_projection.gd:158)
+       [2] _rebuild_projects_json (res://addons/godot_mcp_toolkit/registry/registry_client.gd:114)
+       [3] deregister (res://addons/godot_mcp_toolkit/registry/registry_client.gd:154)
+       [4] dispose (res://addons/godot_mcp_toolkit/core/plugin_composer.gd:298)
+       [5] _exit_tree (res://addons/godot_mcp_toolkit/plugin.gd:113)
+[MCPRegistry] deregistered c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames
+ERROR: Cannot save file 'C:/Users/Marcelo Diaz/AppData/Roaming/Godot/editor_settings-4.7.tres'.
+   at: save (scene/resources/resource_format_text.cpp:1768)
+ERROR: Error saving editor settings to C:/Users/Marcelo Diaz/AppData/Roaming/Godot/editor_settings-4.7.tres
+   at: save (editor/settings/editor_settings.cpp:1525)

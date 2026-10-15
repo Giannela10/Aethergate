@@ -417,8 +417,8 @@ func extend_elevators_to_basement() -> Dictionary:
 		owned(lift, gate, "PuertaPisoMenos1")
 		for child in gate.find_children("*", "Node", true, false):
 			child.owner = campus
-		var sign := label(extension, "SenalAscensorMenos1", "ASCENSOR · PISO −1\n[E] Llamar", Vector3(lift.position.x, LEVELS[0] + 4.0, -149.45), 48)
-		sign.modulate = Color("e8eee9")
+		var sign_label := label(extension, "SenalAscensorMenos1", "ASCENSOR · PISO −1\n[E] Llamar", Vector3(lift.position.x, LEVELS[0] + 4.0, -149.45), 48)
+		sign_label.modulate = Color("e8eee9")
 		count += 1
 	var wall_material := material(Color("c7cdce"))
 	for interval in [Vector2(-15.2, -12.6), Vector2(-7.4, -2.6), Vector2(2.6, 7.4), Vector2(12.6, 15.2)]:

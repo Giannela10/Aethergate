@@ -224,6 +224,9 @@ func _vision_amount() -> float:
 #  IA + física
 # =====================================================================
 func _physics_process(delta: float) -> void:
+	var duel := get_node_or_null("BossDuelController")
+	if duel != null and not duel.allows_damage():
+		return
 	if not is_on_floor():
 		velocity.y -= GRAVITY * delta
 
@@ -395,6 +398,9 @@ func _do_search(delta: float) -> Vector3:
 # =====================================================================
 ## Su golpe conecta solo si sigues cerca y delante (si te alejas, lo esquivas).
 func _on_punch_landed(_side: int) -> void:
+	var duel := get_node_or_null("BossDuelController")
+	if duel != null and not duel.allows_damage():
+		return
 	if dead or target == null or not is_instance_valid(target):
 		return
 	var to := target.global_position - global_position
@@ -412,6 +418,9 @@ func _on_punch_landed(_side: int) -> void:
 
 ## Recibir daño (lo llama el jugador). Un golpe por la espalda también lo alerta.
 func take_hit(direction: Vector3, damage: float) -> void:
+	var duel := get_node_or_null("BossDuelController")
+	if duel != null and not duel.allows_damage():
+		return
 	if dead:
 		return
 	health = maxf(health - damage, 0.0)
@@ -437,5 +446,8 @@ func _die() -> void:
 	alert_label.visible = false
 	collision_layer = 0            # se puede atravesar; sigue chocando con el suelo
 	died.emit(self)
+	# Los bosses de campaña conservan su cuerpo derrotado en el campus.
+	if get_node_or_null("BossDuelController") != null:
+		return
 	await get_tree().create_timer(4.0).timeout
 	queue_free()

@@ -39,3 +39,22 @@ La prueba `tests/piso8_recorridos.gd` verifica las dos alas, las entradas e inte
 Los scripts exclusivos del nivel están en esta carpeta. Los mecanismos que conectan varios pisos están en `scripts/compartidos`. El generador del −1 y la emergencia está en `scripts/compartidos/edicion/piso_menos_uno_y_emergencia.gd`.
 
 La propiedad `altura` informa la cota del piso; las piezas conservan las coordenadas originales del campus.
+
+## Director de Carrera de Informática (personaje ficticio)
+
+`Main/Piso8/EncuentroDirectorInformatica` contiene `DirectorInformaticaBoss` y el registro `CredencialDirector`. El boss aparece en coordenadas globales `(64, 84.06, -131)`, sobre el pasillo sur oriental. Este encuentro solo existe en Main, no en la escena compartida por los pisos 6 y 7.
+
+`director_informatica_boss.gd` hereda de `enemy.gd`: 700 de vida, escala visual 1.4, persecución y ataques limitados al ala oriental del Piso 8. A 420 HP invoca una única pareja de enemigos de `virus_director.gd`, de 50 HP; a 210 HP activa Modo Administrador. `proyectil_error_sistema.gd` resuelve los proyectiles con colisión barrida. Pantallazo Azul anuncia un círculo de 6 m durante 1.2 segundos y después causa 36 de daño, respetando paredes y altura. La muerte cancela el área, los proyectiles y los virus.
+
+La recompensa se guarda en `user://credencial_director.cfg`, separada de la papelería. Una futura puerta puede consultar:
+
+```gdscript
+var registry = get_node("/root/Main/Piso8/EncuentroDirectorInformatica/CredencialDirector")
+if registry.has_credential("CredencialDirector"):
+    # Permitir el acceso especial del Piso 8.
+    pass
+```
+
+La credencial también se refleja en el metadato `CredencialDirector` del jugador y en un indicador visible al estar en el Piso 8. La entrega es única; no se consume al consultar. No se añade ni se bloquea ninguna puerta existente.
+
+Prueba de fases, impactos, invocaciones, muerte, recompensa y persistencia: `godot --headless --path . --script res://tests/director_informatica_boss.gd`.
