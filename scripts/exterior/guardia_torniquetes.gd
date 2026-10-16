@@ -21,6 +21,9 @@ func _ready() -> void:
 	col.position.y = 1.35
 	add_child(col)
 	model = load("res://scripts/juego/humanoid.gd").new()
+	var identity := preload("res://scripts/juego/character_visual_presets.gd").create(str(get_path()),"GUARDIA")
+	model.skin_color = Color(preload("res://scripts/juego/character_appearance.gd").SKIN[identity.skin])
+	model.hair_color = Color(preload("res://scripts/juego/character_appearance.gd").HAIR[identity.hair_color])
 	model.scale = Vector3.ONE*1.5
 	model.shirt_color = Color(0.06,0.075,0.09)
 	model.pants_color = Color(0.08,0.1,0.13)
@@ -57,6 +60,7 @@ func _physics_process(delta: float) -> void:
 		greeting_time = 3.0
 		cooldown = 15.0
 	greeting.visible = greeting_time>0
+	model.look_controller.target = player if greeting.visible and model.secondary_animation_enabled else null
 	var direction := Vector3.ZERO
 	if greeting_time>0 and is_instance_valid(player) and not desk_mode:
 		var to_player := player.global_position-global_position

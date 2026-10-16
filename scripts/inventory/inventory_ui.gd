@@ -64,6 +64,7 @@ func _ready() -> void:
 	column.add_child(actions)
 	_button(actions,"Usar",_use_selected)
 	_button(actions,"Equipar",_equip_selected)
+	_button(actions,"★ Favorito",func(): inventory.toggle_favorite(selected_uid); refresh())
 	_button(actions,"Guardar equipado",func(): inventory.stash_equipped(); player.equip_stationery(""); refresh())
 	var assignments := HBoxContainer.new()
 	column.add_child(assignments)
@@ -257,6 +258,10 @@ func _show_details() -> void:
 		return
 	var item = Catalog.get_item(entry.item_id)
 	description.text = item.display_name + " · " + item.category_name() + "\n" + item.description
+	description.text += "\n★ Favorito" if entry.get("favorite",false) else ""
+	description.text += inventory.describe_comparison(selected_uid)
+	if item.heal_amount > 0: description.text += "\nRestaura %.0f HP" % item.heal_amount
+	if item.speed_multiplier > 1: description.text += "\nVelocidad +%.0f%% durante %.0f s" % [(item.speed_multiplier-1)*100,item.duration]
 	if item.category == Item.Category.CLAVE:
 		description.text += " Se conserva y los accesos pueden comprobar su presencia."
 	if item.category == Item.Category.PAPELERIA:

@@ -11,6 +11,9 @@ func _initialize() -> void:
 		quit(1)
 		return
 	scene = packed.instantiate()
+	# Benchmark startup without reading/writing the player's campaign or settings.
+	scene.get_node("CampusCampaign").persist = false
+	scene.get_node("Piso8/EncuentroDirectorInformatica/CredencialDirector").persist = false
 	print("PERF instantiate_ms=", Time.get_ticks_msec() - started)
 	root.add_child.call_deferred(scene)
 

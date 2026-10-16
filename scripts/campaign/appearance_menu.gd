@@ -54,11 +54,30 @@ func open(new_game: bool = false) -> void:
 	rotation_slider.value_changed.connect(func(value: float): if is_instance_valid(preview): preview.rotation_degrees.y = 180+value)
 	column.add_child(rotation_slider)
 	column.move_child(rotation_slider,3)
+	var zoom := HSlider.new()
+	zoom.min_value = 2.2
+	zoom.max_value = 4.8
+	zoom.value = 3.2
+	zoom.step = 0.05
+	zoom.tooltip_text = "Zoom del personaje"
+	zoom.value_changed.connect(func(value: float):
+		if is_instance_valid(camera):
+			camera.position.z = value
+			camera.look_at(Vector3(0,0.95,0)))
+	column.add_child(zoom)
+	column.move_child(zoom,4)
+	var remove := Button.new()
+	remove.text = "Quitar accesorios, mochila y cosmético"
+	remove.pressed.connect(func():
+		for key in ["accessory","backpack","outfit"]:
+			_select(0,key)
+			selectors[key].select(0))
+	column.add_child(remove)
 	selectors.clear()
 	var grid := GridContainer.new()
 	grid.columns = 2
 	column.add_child(grid)
-	column.move_child(grid,4)
+	column.move_child(grid,5)
 	for key in Profile.OPTIONS:
 		var label := Label.new()
 		label.text = LABELS[key]

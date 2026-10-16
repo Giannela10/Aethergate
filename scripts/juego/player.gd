@@ -83,7 +83,7 @@ func _ready() -> void:
 	add_child(collision)
 
 	body = StudentVisual.new()
-	body.name = "Visual"
+	body.name = "CharacterVisual"
 	body.scale = Vector3(1.5, 1.5, 1.5)
 	body.punch_time = 0.5
 	add_child(body)
@@ -367,6 +367,7 @@ func take_hit(direction: Vector3, damage: float) -> void:
 	hit_received.emit()
 	health = maxf(health - damage, 0.0)
 	body.hurt()
+	body.react_to_hit(direction,damage)
 	stun_t = 0.25
 	velocity.x += direction.x * 4.0
 	velocity.z += direction.z * 4.0
@@ -401,7 +402,16 @@ func _emit_weapon() -> void:
 			n += " · Q: lanzar"
 		weapon_changed.emit("%s (%d)" % [n, d])
 
-func _throw_sport() -> void:
+func _throw_sport(confirmed: bool = false) -> void:
+	if weapon != null and inventory != null and inventory.discard_protected(inventory.equipped_uid):
+		var entry: Dictionary = inventory.entry_for(inventory.equipped_uid)
+		if entry.get("favorite",false):
+			inventory.notice.emit("Desmarca el favorito para lanzarlo.")
+			return
+		if not confirmed:
+			var campaign := get_tree().get_first_node_in_group("campus_campaign")
+			if campaign != null and campaign.live != null: campaign.live.qol.confirm_discard(_throw_sport.bind(true),"lanzar")
+			return
 	if not dead and not busy and weapon == null:
 		var campaign := get_tree().get_first_node_in_group("campus_campaign")
 		if campaign:
@@ -448,6 +458,7 @@ func _throw_sport() -> void:
 	get_parent().add_child(projectile)
 	projectile.launch(origin, destination, 16.0)
 	body.start_punch()
+	body.request_visual_state("THROW",0.45)
 	punch_cd = 0.6
 	_emit_weapon()
 
@@ -523,12 +534,21 @@ func _equip(w) -> void:
 	_emit_weapon()
 
 
-func _drop() -> void:
+func _drop(confirmed: bool = false) -> void:
 	if not equipped_stationery.is_empty():
 		equip_stationery("")
 		return
 	if weapon == null:
 		return
+	if inventory != null and inventory.discard_protected(inventory.equipped_uid):
+		var entry: Dictionary = inventory.entry_for(inventory.equipped_uid)
+		if entry.get("favorite",false):
+			inventory.notice.emit("Desmarca el favorito para soltarlo.")
+			return
+		if not confirmed:
+			var campaign := get_tree().get_first_node_in_group("campus_campaign")
+			if campaign != null and campaign.live != null: campaign.live.qol.confirm_discard(_drop.bind(true))
+			return
 	if inventory != null:
 		inventory.detach_equipped()
 	var w = body.unequip()

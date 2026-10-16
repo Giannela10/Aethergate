@@ -3,6 +3,7 @@ const Catalog = preload("res://scripts/inventory/item_catalog.gd")
 const Item = preload("res://scripts/inventory/inventory_item.gd")
 signal changed
 signal notice(text: String)
+signal item_used(item_id: String)
 @export var persist := true
 @export var save_path := "user://inventario_estudiante.json"
 var entries: Array[Dictionary] = []
@@ -42,6 +43,28 @@ func entry_for(uid: String) -> Dictionary:
 			return entry
 	return {}
 
+func toggle_favorite(uid: String) -> bool:
+	var entry := entry_for(uid)
+	if entry.is_empty(): return false
+	entry["favorite"] = not bool(entry.get("favorite",false))
+	_commit()
+	return true
+
+func discard_protected(uid: String) -> bool:
+	var entry := entry_for(uid)
+	if entry.is_empty(): return false
+	var item = Catalog.get_item(entry.item_id)
+	return bool(entry.get("favorite",false)) or item.unique or item.category == Item.Category.CLAVE
+
+func describe_comparison(uid: String) -> String:
+	var weapon = weapon_nodes.get(uid)
+	if not is_instance_valid(weapon): return ""
+	var current = player.weapon
+	var text := "\nDAÑO: %.1f · VELOCIDAD: %.2f s/golpe\nDURABILIDAD: %d · PESO: sin dato" % [float(weapon.damage),float(weapon.swing_time),int(weapon.durability)]
+	if is_instance_valid(current):
+		text += "\nActual: %.1f daño · %.2f s/golpe · %d durabilidad" % [float(current.damage),float(current.swing_time),int(current.durability)]
+	return text
+
 func count_item(id: String) -> int:
 	var count := 0
 	for entry in entries:
@@ -66,11 +89,17 @@ func add_item(id: String, amount: int = 1, announce: bool = true) -> int:
 		notice.emit("La mochila está llena.")
 		return 0
 	if item.category == Item.Category.ARMA:
+		var added_weapons := 0
 		for i in mini(amount,100):
+			if max_entries > 0 and entries.size() >= max_entries: break
 			var weapon := create_weapon(id)
 			storage.add_child(weapon)
-			collect_weapon(weapon,false)
-		return mini(amount,100)
+			if collect_weapon(weapon,false):
+				added_weapons += 1
+			else:
+				weapon.queue_free()
+		return added_weapons
+	var previous_count := count_item(id)
 	var remaining := amount
 	if item.stackable:
 		for entry in entries:
@@ -83,16 +112,20 @@ func add_item(id: String, amount: int = 1, announce: bool = true) -> int:
 		remaining = 0 if has_item(id) else mini(remaining,1)
 	if remaining > 0:
 		while remaining > 0:
+			if max_entries > 0 and entries.size() >= max_entries: break
 			var quantity := mini(remaining,item.max_stack if item.stackable else 1)
 			var entry := {"uid":_uid(),"item_id":id,"quantity":quantity,"data":{}}
 			entries.append(entry)
 			_auto_slot(entry.uid)
 			remaining -= quantity
-	var added_total := count_item(id)
+	var added_total := count_item(id)-previous_count
+	if added_total == 0:
+		notice.emit("No hay espacio disponible para este objeto.")
+		return 0
 	_sync_paper(id)
 	_commit()
 	if announce:
-		notice.emit("Recogiste: %s x%d" % [item.display_name,mini(amount,1) if item.category == Item.Category.CLAVE else amount])
+		notice.emit("Recogiste: %s x%d" % [item.display_name,added_total])
 	return added_total
 
 func create_weapon(id: String) -> Node3D:
@@ -278,6 +311,7 @@ func use_entry(uid: String) -> bool:
 		_erase_entry(uid)
 	_commit()
 	notice.emit("Usaste: " + item.display_name)
+	item_used.emit(item.id)
 	return true
 
 func _use_special(item: Resource) -> bool:
@@ -360,6 +394,7 @@ func _load_snapshot(data: Variant) -> void:
 		if quantity == 0:
 			continue
 		var entry := {"uid":uid,"item_id":item.id,"quantity":quantity,"data":{}}
+		if value.has("favorite"): entry["favorite"] = value.get("favorite",false) == true
 		entries.append(entry)
 		serial = maxi(serial,int(uid.trim_prefix("item_")))
 		if item.category == Item.Category.ARMA:

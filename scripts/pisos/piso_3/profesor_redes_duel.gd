@@ -32,4 +32,7 @@ func _finish() -> void:
 
 func _show_nexo_hint() -> void:
 	if is_instance_valid(campaign) and not campaign.player.dead:
+		campaign.player.body.set_expression("WORRIED")
+		campaign.player.set_meta("important_scene",true)
+		campaign.ui.begin_character_dialogue(actor,true)
 		campaign.ui.dialog("Profesor de Redes","Esto no es un fallo normal...\nhay tráfico extraño viniendo de otros pisos.\n\nHas obtenido RouterPortatil.",["Continuar"],[campaign.ui.close_modal],true)

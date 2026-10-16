@@ -20,6 +20,7 @@ var music_player: AudioStreamPlayer
 var initialized := false
 var spawn_position := Vector3.ZERO
 var identity_label: Label3D
+var visual_pass := preload("res://scripts/campaign/boss_visual_pass.gd").new()
 
 func _ready() -> void:
 	actor = get_parent()
@@ -48,6 +49,7 @@ func _initialize() -> void:
 		call_deferred("_wait_campaign")
 		return
 	initialized = true
+	visual_pass.setup(actor,boss_id)
 	defeated = defeated or bool(campaign.data.bosses.get(boss_id,false))
 	state = DuelState.DEFEATED if defeated else DuelState.NEUTRAL
 	actor.set_physics_process(false)
@@ -71,15 +73,21 @@ func allows_damage() -> bool:
 	return state == DuelState.COMBAT and duel_type == DuelType.COMBAT and not defeated
 
 func interaction_text(_player: Node) -> String:
+	if defeated and boss_id == "director" and campaign.data.get("campaign_completed",false): return "[E] Hablar con el Director"
 	return "" if state != DuelState.NEUTRAL else "[E] Hablar con "+boss_name
 
 func interact(candidate: CharacterBody3D) -> void:
+	if defeated and boss_id == "director" and campaign.data.get("campaign_completed",false) and not candidate.dead and not candidate.busy:
+		campaign.ui.begin_character_dialogue(actor,true)
+		campaign.ui.dialog(boss_name,"Así que realmente estaba ahí abajo.",["Hasta luego"],[campaign.ui.close_modal],true)
+		return
 	if not initialized or state != DuelState.NEUTRAL or candidate.dead or candidate.busy or is_instance_valid(campaign.active_duel):
 		return
+	campaign.ui.begin_character_dialogue(actor,true)
 	state = DuelState.DIALOGUE
 	campaign.active_duel = self
 	campaign.event("talk",boss_id)
-	campaign.ui.dialog(boss_name,intro_text,["Iniciar duelo","Ahora no"],[accept,decline])
+	campaign.ui.dialog(boss_name,intro_text+"\n\nSi cierras el juego durante el duelo, continuarás desde el estado previo al desafío.",["Iniciar duelo","Ahora no"],[accept,decline])
 
 func decline() -> void:
 	if state != DuelState.DIALOGUE:
@@ -91,6 +99,7 @@ func decline() -> void:
 func accept() -> void:
 	if state != DuelState.DIALOGUE:
 		return
+	if campaign.live != null: campaign.live.retry.capture(self)
 	if duel_type in [DuelType.MINIGAME,DuelType.FUTURE_TYPE] and not special_rules.has("start_method"):
 		campaign.ui.notify("Este tipo de duelo está preparado para un desafío futuro.")
 		decline()
@@ -122,6 +131,9 @@ func accept() -> void:
 
 func _process(delta: float) -> void:
 	identity_label.visible = initialized and state in [DuelState.NEUTRAL,DuelState.DEFEATED]
+	if initialized and is_instance_valid(campaign.player):
+		var offset: Vector3 = campaign.player.global_position-actor.global_position
+		identity_label.visible = identity_label.visible and absf(offset.y) < 4 and offset.length() < 9
 	if not initialized:
 		actor.set_physics_process(false)
 		actor.remove_from_group("enemy")
@@ -138,6 +150,7 @@ func _process(delta: float) -> void:
 		_finish()
 	if state == DuelState.COMBAT and campaign.player.dead:
 		reset_duel()
+	visual_pass.update(delta,state,int(actor.get("phase")) if actor.get("phase") != null else 0)
 
 func _hide_old_bars() -> void:
 	for key in ["bar_root","alert_label","boss_label","name_label","_health_label","_health_fill","world_health","world_fill","prompt"]:

@@ -63,6 +63,8 @@ func nearest_floor(height: float) -> String:
 	return "−1" if nearest == 8 else str(nearest+1)
 
 func find_target(requirement: Dictionary) -> Node3D:
+	if requirement.kind == "door" and requirement.id == "nexo_core" and campaign.final_area != null:
+		return campaign.final_area.access
 	match requirement.kind:
 		"talk", "boss":
 			for duel in get_tree().get_nodes_in_group("boss_duel"):

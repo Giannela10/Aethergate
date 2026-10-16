@@ -6,6 +6,9 @@ var objective: Label
 var context: Label
 var toast: Label
 var toast_t := 0.0
+enum NoticePriority { CRITICAL, MISSION, REWARD, INFO }
+var notice_queue: Array[Dictionary] = []
+var toast_priority := NoticePriority.INFO
 var boss_box: VBoxContainer
 var boss_title: Label
 var boss_bar: ProgressBar
@@ -16,10 +19,19 @@ var modal := false
 var paused_before := false
 var mouse_before := 0
 var page := ""
+var dialogue_camera: Node
+
+func begin_character_dialogue(actor: Node3D, boss: bool = false) -> void:
+	if dialogue_camera == null:
+		dialogue_camera = preload("res://scripts/campaign/dialogue_camera_controller.gd").new()
+		dialogue_camera.name = "DialogueCameraController"
+		add_child(dialogue_camera)
+	dialogue_camera.begin(campaign.player,actor,3 if boss else 2)
 
 func _ready() -> void:
 	layer = 40
 	process_mode = Node.PROCESS_MODE_ALWAYS
+	get_viewport().size_changed.connect(_fit)
 	var root := Control.new()
 	root.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(root)
@@ -92,6 +104,10 @@ func _ready() -> void:
 	intro.hide()
 
 func dialog(title: String, text: String, choices: Array, callbacks: Array, pause_world: bool = false) -> void:
+	if campaign.live != null and campaign.live.event_active():
+		campaign.live.events.finish()
+	if campaign.live != null and campaign.live.qol != null:
+		campaign.live.qol.record_dialogue(title,text)
 	if is_instance_valid(campaign.phone) and is_instance_valid(campaign.phone.view):
 		campaign.phone.view.restore()
 	if not modal:
@@ -135,6 +151,12 @@ func _fit() -> void:
 	panel.position = (size-panel.size*scale_value)*0.5
 
 func close_modal() -> void:
+	if is_instance_valid(campaign.player) and campaign.player.body.has_method("show_phone"):
+		campaign.player.body.show_phone(false)
+		campaign.player.set_meta("important_scene",false)
+		campaign.player.body.set_expression("NEUTRAL")
+	if is_instance_valid(dialogue_camera):
+		dialogue_camera.finish()
 	if is_instance_valid(campaign.phone) and is_instance_valid(campaign.phone.view):
 		campaign.phone.view.restore()
 	if not modal:
@@ -159,13 +181,42 @@ func show_intro(title: String, subtitle: String, duration: float) -> void:
 	await tween.finished
 	intro.hide()
 
-func notify(text: String, duration: float = 4.0) -> void:
-	toast.text = text
-	toast_t = duration
+func notify(text: String, duration: float = 4.0, priority: int = -1) -> void:
+	if text.is_empty(): return
+	if priority < 0:
+		var upper := text.to_upper()
+		priority = NoticePriority.INFO
+		if upper.contains("MISIÓN") or upper.contains("OBJETIVO"):
+			priority = NoticePriority.MISSION
+		elif upper.contains("RECOMPENSA") or upper.contains("DESBLOQUEADO") or upper.contains("BOSS DERROTADO"):
+			priority = NoticePriority.REWARD
+	priority = clampi(priority,NoticePriority.CRITICAL,NoticePriority.INFO)
+	duration = clampf(duration,1.0,12.0)
+	if toast_t > 0 and toast.text == text: return
+	for row in notice_queue:
+		if row.text == text:
+			row.priority = mini(row.priority,priority)
+			notice_queue.sort_custom(func(a,b): return a.priority < b.priority)
+			return
+	if toast_t <= 0:
+		toast.text = text; toast_t = duration; toast_priority = priority
+		return
+	if priority == NoticePriority.CRITICAL and toast_priority != NoticePriority.CRITICAL:
+		notice_queue.append({"text":toast.text,"duration":toast_t,"priority":toast_priority})
+		toast.text = text; toast_t = duration; toast_priority = priority
+	else:
+		notice_queue.append({"text":text,"duration":duration,"priority":priority})
+	notice_queue.sort_custom(func(a,b): return a.priority < b.priority)
+	while notice_queue.size() > 16: notice_queue.pop_back()
 
 func _process(delta: float) -> void:
-	toast_t = maxf(0,toast_t-delta)
-	toast.visible = toast_t > 0
+	var notice_hidden := modal or intro.visible
+	if not notice_hidden:
+		toast_t = maxf(0,toast_t-delta)
+		if toast_t <= 0 and not notice_queue.is_empty():
+			var row: Dictionary = notice_queue.pop_front()
+			toast.text = row.text; toast_t = row.duration; toast_priority = row.priority
+	toast.visible = toast_t > 0 and not notice_hidden
 	var duel = campaign.active_duel
 	boss_box.visible = is_instance_valid(duel) and duel.state == duel.DuelState.COMBAT
 	if boss_box.visible:

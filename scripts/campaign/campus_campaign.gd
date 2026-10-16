@@ -1,4 +1,8 @@
 extends Node3D
+signal gameplay_event(kind: String, id: String, amount: int)
+var live: Node
+var final_area: Node3D
+var save_blocked_reason := ""
 ## Orquesta sistemas existentes. No reconstruye ni mueve piezas del edificio.
 @export_range(1,10) var implementation_phase := 10
 @export var persist := true
@@ -8,7 +12,7 @@ var manager: Node
 var ui: CanvasLayer
 var active_duel: Node
 var ready_for_play := false
-var data: Dictionary = {"version":1,"academics":{},"phone":{},"appearance":{},"cosmetics":{},"stationery":{},"events":{},"inventory":{},"position":[0,0.2,0],"health":100.0,"floor":"1","bosses":{},"quests":{},"collected":{},"secrets":{},"cards":{},"unlocks":{},"credits":0,"xp":0,"upgrades":{},"stats":{},"achievements":{},"notes":{},"computers":{},"checkpoint":{"position":[0,0.1,0],"health":100},"tutorial":false}
+var data: Dictionary = {"version":1,"academics":{},"phone":{},"appearance":{},"npc_visuals":{},"cosmetics":{},"stationery":{},"events":{},"inventory":{},"position":[0,0.2,0],"health":100.0,"floor":"1","bosses":{},"quests":{},"collected":{},"secrets":{},"cards":{},"unlocks":{},"credits":0,"xp":0,"upgrades":{},"stats":{},"achievements":{},"notes":{},"computers":{},"checkpoint":{"position":[0,0.1,0],"health":100},"tutorial":false}
 var events: Dictionary = {}
 var quests: Node
 var quest_ui: Node
@@ -31,6 +35,12 @@ var academics: Node
 func show_personalization(new_run: bool = false) -> void:
 	appearance_menu.open(new_run)
 
+func refresh_visual_rewards() -> void:
+	preload("res://scripts/juego/character_appearance.gd").unlock_from_progress(data.bosses,data.cosmetics)
+	# Keep previously unlocked cosmetics; new unlock requires the actual finale.
+	if data.get("campaign_completed",false) or data.bosses.get("nexo",false):
+		data.cosmetics["nexo_jacket"] = true
+
 func _ready() -> void:
 	add_to_group("campus_campaign")
 	call_deferred("_boot")
@@ -40,10 +50,12 @@ func _boot() -> void:
 	if manager == null:
 		return
 	player = manager.player
-	defaults = data.duplicate(true)
+	defaults = preload("res://scripts/live/save_migration.gd").migrate(data)
+	data["save_version"] = 2
+	data["campus_live"] = {}
 	if persist and FileAccess.file_exists(save_path):
 		var loaded = preload("res://scripts/compartidos/lectura_guardado.gd").read_dictionary(save_path)
-		if loaded is Dictionary and loaded.get("version") == 1:
+		if loaded is Dictionary and preload("res://scripts/live/save_migration.gd").supported(loaded):
 			loaded_save = true
 			for key in data:
 				if loaded.has(key):
@@ -51,7 +63,16 @@ func _boot() -> void:
 						data[key] = loaded[key]
 					elif data[key] is int and (loaded[key] is float or loaded[key] is int):
 						data[key] = int(loaded[key])
+			for key in loaded:
+				if not data.has(key): data[key] = loaded[key]
+		elif not loaded.is_empty():
+			persist = false
+			player.persist_inventory = false
+			player.inventory.persist = false
+			save_blocked_reason = "Guardado de una versión posterior: escritura desactivada para conservarlo."
+	data = preload("res://scripts/live/save_migration.gd").migrate(data)
 	var appearance_profile = preload("res://scripts/juego/character_appearance.gd")
+	refresh_visual_rewards()
 	appearance_profile.unlock_from_progress(data.bosses,data.cosmetics)
 	data.appearance = appearance_profile.normalize(data.appearance,data.cosmetics)
 	player.body.apply_appearance(data.appearance)
@@ -137,12 +158,22 @@ func _boot() -> void:
 	seating.name = "SeatController"
 	player.add_child(seating)
 	preload("res://scripts/campaign/seat_interactable.gd").setup(self)
+	preload("res://scripts/campaign/appearance_station.gd").setup(self)
 	guidance = load("res://scripts/campaign/mission_guidance.gd").new()
 	guidance.name = "GuiaObjetivo"
 	guidance.campaign = self
 	add_child(guidance)
 	booting = false
 	ready_for_play = true
+	live = preload("res://scripts/live/campus_live.gd").new()
+	live.name = "CampusVivo"
+	live.campaign = self
+	add_child(live)
+	final_area = preload("res://scripts/pisos/piso_menos_1/nexo_final_area.gd").new()
+	final_area.name = "NexoFinalArea"
+	final_area.campaign = self
+	final_area.position = Vector3(48,load("res://scripts/campaign/campus_content.gd").HEIGHTS[8]+0.04,-100)
+	get_parent().get_node("PisoMenos1").add_child(final_area)
 	phone.restore_known_contacts()
 	if persist and not get_window().close_requested.is_connected(save_game):
 		get_window().close_requested.connect(save_game)
@@ -167,9 +198,24 @@ func save_game() -> void:
 		player.save_stationery()
 	var file := FileAccess.open(save_path+".tmp",FileAccess.WRITE)
 	if file:
-		file.store_string(JSON.stringify(data))
+		file.store_string(JSON.stringify(save_payload()))
 		file.close()
 		DirAccess.rename_absolute(ProjectSettings.globalize_path(save_path+".tmp"),ProjectSettings.globalize_path(save_path))
+
+func save_payload() -> Dictionary:
+	# A loaded duel always resumes neutral. Persist its approach and resources,
+	# never a half-finished fight; the live retry snapshot remains temporary.
+	if live != null and not live.retry.snapshot.is_empty():
+		var retry = live.retry
+		var fighting: bool = is_instance_valid(active_duel) and active_duel == retry.duel and active_duel.state in [active_duel.DuelState.INTRO,active_duel.DuelState.COMBAT]
+		if fighting or (player.dead and retry.can_retry()):
+			var payload: Dictionary = retry.snapshot.get("campaign_data",data).duplicate(true)
+			payload.inventory = retry.snapshot.inventory.duplicate(true)
+			payload.position = retry.snapshot.position.duplicate()
+			payload.health = retry.snapshot.health
+			payload.checkpoint = data.checkpoint.duplicate(true)
+			return payload
+	return data
 
 func event(kind: String, id: String, amount: int = 1) -> void:
 	var key := kind+":"+id
@@ -186,8 +232,10 @@ func event(kind: String, id: String, amount: int = 1) -> void:
 			ui.notify("¡20 tarjetas! Recompensa: Extintor Dorado")
 	if quests:
 		quests.refresh()
+	refresh_visual_rewards()
 	if phone:
 		phone.on_event(kind,id)
+	gameplay_event.emit(kind,id,amount)
 
 func boss_won(controller: Node) -> void:
 	if data.bosses.get(controller.boss_id,false):
@@ -203,6 +251,7 @@ func boss_won(controller: Node) -> void:
 	if controller.boss_id == "director":
 		give_reward_item("TecladoAdministrador",1)
 	event("boss",controller.boss_id)
+	player.body.set_expression("RELIEVED")
 	active_duel = null
 	apply_upgrades()
 	player.heal(player.max_health)
@@ -225,6 +274,9 @@ func _capture_inventory() -> void:
 		inventory_snapshot[entry.item_id] = int(inventory_snapshot.get(entry.item_id,0))+int(entry.quantity)
 
 func _inventory_changed() -> void:
+	if live != null and live.restoring_inventory:
+		_capture_inventory()
+		return
 	var before := inventory_snapshot.duplicate()
 	_capture_inventory()
 	for id in inventory_snapshot:
@@ -354,6 +406,7 @@ func restore_player(position_value: Array, health_value: float) -> void:
 	manager.msg_label.hide()
 
 func _on_player_died() -> void:
+	if live != null: live.retry.on_death()
 	for duel in get_tree().get_nodes_in_group("boss_duel"):
 		if duel.state in [duel.DuelState.COMBAT,duel.DuelState.INTRO,duel.DuelState.DIALOGUE]:
 			duel.reset_duel()
@@ -361,11 +414,19 @@ func _on_player_died() -> void:
 
 func _death_menu() -> void:
 	manager.msg_label.hide()
+	if live != null and live.retry.can_retry():
+		var final_duel: bool = live.retry.duel.boss_id == "nexo"
+		ui.dialog("NEXO · REINTENTAR" if final_duel else "HAS CAÍDO","Puedes restaurar vida, consumibles, arma y durabilidad al estado previo al duelo.",["REINTENTAR NEXO" if final_duel else "REINTENTAR BOSS","Reintentar desde checkpoint","Volver al menú"],[live.retry.retry_boss,respawn,_death_to_menu],true)
+		return
 	ui.dialog("HAS CAÍDO","Conservas todos tus objetos y el progreso conseguido.",["Reintentar desde checkpoint","Volver al menú"],[respawn,_death_to_menu],true)
 
 func respawn() -> void:
 	ui.close_modal()
 	restore_player(data.checkpoint.position,float(data.checkpoint.health))
+	if live != null:
+		live.retry.failed = false
+		live.retry.snapshot.clear()
+		live.retry.duel = null
 	save_game()
 
 func _death_to_menu() -> void:
@@ -376,6 +437,7 @@ func show_start_menu() -> void:
 	manager.cam.global_position = player.global_position+Vector3(0,3,5)
 	manager.cam.look_at(player.global_position+Vector3.UP*1.4)
 	ui.dialog("DUOCGAMES","Explora el campus, completa misiones y supera los duelos.",["Continuar","Nueva partida"],[ui.close_modal,_confirm_new_game],true)
+	if not save_blocked_reason.is_empty(): ui.notify(save_blocked_reason,12)
 
 func _confirm_new_game() -> void:
 	ui.dialog("NUEVA PARTIDA","Reinicia progreso e inventario de esta partida. Se conservará una copia de la campaña anterior.",["Comenzar nueva partida","Cancelar"],[show_personalization.bind(true),show_start_menu],true)
@@ -496,7 +558,7 @@ func update_status(delta: float) -> void:
 		floor_current = number
 		data.floor = number
 		event("floor",number)
-		ui.notify("PISO "+number+" · "+floor_title(number))
+		if live == null: ui.notify("PISO "+number+" · "+floor_title(number))
 	if quests:
 		ui.objective.text += "\nPISO %s · Nivel %d · Créditos %d · Tarjetas %d/20" % [number,1+int(data.xp/150),data.credits,data.cards.size()]
 	var level := 1+int(data.xp/150)
@@ -523,7 +585,7 @@ func update_status(delta: float) -> void:
 			hint.hide()
 
 func floor_title(number: String) -> String:
-	return {"1":"INTRODUCCIÓN AL CAMPUS","2":"BIBLIOTECA Y AUDITORIO","3":"DESAFÍOS ACADÉMICOS","4":"SALAS DE CLASE","5":"ENTREGAS Y ESTUDIO","6":"SEGURIDAD","7":"ACCESOS RESTRINGIDOS","8":"INGENIERÍA EN INFORMÁTICA","S":"MANTENCIÓN Y SECRETOS"}.get(number,"CAMPUS")
+	return preload("res://scripts/live/story_moments.gd").FLOORS.get("-1" if number == "S" else number,"CAMPUS")
 
 func show_pause() -> void:
 	ui.dialog("PAUSA","DuocGames",["Continuar","Guía de juego","Inventario","Misiones","Mejoras","Registro","Mapa","Opciones","Controles","PERSONALIZACIÓN","Volver al menú"],[ui.close_modal,show_guide,_open_inventory,quest_ui.show_quests,show_upgrades,show_codex,show_map,show_options,show_controls,show_personalization,show_start_menu],true)
@@ -546,6 +608,9 @@ func show_controls() -> void:
 	ui.dialog("CONTROLES","WASD mover · Shift correr · C agacharse · Espacio saltar\nE interacción · I inventario · 1–4 barra rápida · F apuntes\nJ / clic ataque · mantener clic ataque fuerte · Alt esquiva · Q lanzar\nP celular · M misiones · Tab mapa · B registro · U mejoras · Esc pausa",["Volver"],[show_pause],true)
 
 func show_map() -> void:
+	if live != null and live.qol != null:
+		live.qol.show_map()
+		return
 	var text := "Piso actual: "+floor_current+"\nAscensores: núcleo central, Z=-148\nCheckpoint: "+str(data.checkpoint.get("id","Entrada"))+"\n\n"
 	for number in ["S","1","2","3","4","5","6","7","8"]:
 		text += "PISO %s · %s · %s\n" % [number,floor_title(number),"Ascensor disponible" if floor_unlocked(number) else "Ascensor bloqueado"]
@@ -561,6 +626,7 @@ func show_codex() -> void:
 	for entry in player.inventory.entries:
 		text += entry.item_id+" ×"+str(entry.quantity)+"\n"
 	text += "\nCOLECCIONABLES: %d/20\nSECRETOS: %s\nLOGROS: %s\nESTADÍSTICAS: %s" % [data.cards.size(),str(data.secrets.keys()),str(data.achievements.keys()),str(data.stats)]
+	for note in data.notes.values(): text += "\n\n"+str(note)
 	ui.dialog("REGISTRO",text,["Cerrar"],[ui.close_modal],true)
 
 func check_achievements() -> void:
@@ -579,11 +645,20 @@ func check_achievements() -> void:
 			ui.notify("Logro: "+id)
 
 func show_options() -> void:
+	if live != null and live.settings != null:
+		var settings_button := Button.new()
+		settings_button.text = "Gráficos, ventana, idioma y desarrollo"
+		settings_button.pressed.connect(live.settings.show_options)
+		call_deferred("_append_settings_button",settings_button)
 	ui.dialog("OPCIONES","Números de daño y audio configurables. Los slots de audio están preparados para tus archivos.",["Alternar números de daño","Alternar sonido","Volver"],[_toggle_numbers,_toggle_sound,show_pause],true)
 
 func _toggle_numbers() -> void:
 	if polish:
 		polish.show_damage_numbers = not polish.show_damage_numbers
+
+func _append_settings_button(button: Button) -> void:
+	if ui.modal: ui.column.add_child(button)
+	else: button.queue_free()
 
 func _toggle_sound() -> void:
 	AudioServer.set_bus_mute(0,not AudioServer.is_bus_mute(0))

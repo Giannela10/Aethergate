@@ -152,7 +152,8 @@ func run() -> void:
 	card.interact(player)
 	check(amount == 1 and campaign.data.cards.size() == 1,"Tarjeta no duplicable")
 	var quiz := scene.get_node("Piso2/Biblioteca/BossBibliotecaria/BossDuelController")
-	player.global_position = quiz.actor.global_position+Vector3(2,0,0)
+	# Approach the front of the existing desk; the side can be occluded by furniture.
+	player.global_position = quiz.actor.global_position+Vector3(0,0,2)
 	quiz.interact(player)
 	quiz.intro_duration = 0.1
 	quiz.accept()

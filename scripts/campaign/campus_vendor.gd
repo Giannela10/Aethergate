@@ -3,6 +3,10 @@ var interaction_range := 2.5
 @export var vendor_name := "Máquina expendedora"
 @export var prices: Dictionary = {"Bebida":5,"BebidaEnergetica":12,"Comida":10}
 var campaign: Node
+var quoted_prices := {}
+
+func effective_price(id: String) -> int:
+	return maxi(1,ceili(float(prices[id])*float(get_meta("live_discount",1.0))))
 func _ready() -> void:
 	campaign = get_tree().get_first_node_in_group("campus_campaign")
 	add_to_group("campus_interactable")
@@ -28,13 +32,15 @@ func interact(_player: CharacterBody3D) -> void:
 	var choices: Array = []
 	var callbacks: Array = []
 	for id in prices:
-		choices.append("%s · %d créditos" % [id,prices[id]])
+		quoted_prices[id] = effective_price(id)
+		choices.append("%s · %d créditos" % [id,quoted_prices[id]])
 		callbacks.append(_buy.bind(id))
 	choices.append("Cerrar")
 	callbacks.append(campaign.ui.close_modal)
 	campaign.ui.dialog(vendor_name,"Créditos Duoc: %d" % campaign.data.credits,choices,callbacks)
 func _buy(id: String) -> void:
-	if campaign.data.credits < prices[id]:
+	var price := int(quoted_prices.get(id,effective_price(id)))
+	if campaign.data.credits < price:
 		campaign.ui.notify("Créditos insuficientes.")
 		return
 	var item = load("res://scripts/inventory/item_catalog.gd").get_item(id)
@@ -42,7 +48,7 @@ func _buy(id: String) -> void:
 		return
 	if campaign.player.receive_item(id,1) <= 0:
 		return
-	campaign.data.credits -= int(prices[id])
+	campaign.data.credits -= price
 	campaign.save_game()
 	campaign.ui.notify("Compraste: "+item.display_name)
 	interact(campaign.player)

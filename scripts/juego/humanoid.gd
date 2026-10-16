@@ -40,6 +40,73 @@ var crouch_amt := 0.0       # 0 = de pie, 1 = agachado (el dueño lo usa para la
 var dead := false
 var armed := false
 var weapon_node: Node3D
+var look_controller := preload("res://scripts/juego/look_at_controller.gd").new()
+const EXPRESSIONS := ["NEUTRAL","HAPPY","ANGRY","WORRIED","SURPRISED","TIRED","RELIEVED","ALERT"]
+var expression: String = "NEUTRAL"
+var secondary_animation_enabled := true
+var eyes: Array[Dictionary] = []
+var blink_wait := randf_range(2.5,6.0)
+var blink_time := 0.0
+var visual_speed := 0.0
+var hit_direction := 0.0
+var hit_variant := "HIT_FRONT"
+var eyebrows: Array[MeshInstance3D] = []
+var mouth: MeshInstance3D
+var lod_level: int = 0
+var visual_near_distance := 16.0
+var visual_far_distance := 35.0
+var cast_near_shadows := true
+var lod_tick := 0.0
+var lod_meshes: Array[Node] = []
+
+func update_visual_lod(delta: float) -> void:
+	lod_tick -= delta
+	if lod_tick > 0: return
+	lod_tick = 0.5
+	var player := get_tree().get_first_node_in_group("player") as Node3D
+	if player == null or player.is_ancestor_of(self): return
+	var offset := global_position-player.global_position
+	var next_lod := 2 if absf(offset.y) > 4 or offset.length_squared() > visual_far_distance*visual_far_distance else (1 if offset.length_squared() > visual_near_distance*visual_near_distance else 0)
+	secondary_animation_enabled = next_lod == 0
+	if lod_meshes.is_empty():
+		lod_meshes = find_children("*","MeshInstance3D",true,false)
+	if next_lod != lod_level:
+		lod_level = next_lod
+		for node in lod_meshes:
+			if is_instance_valid(node):
+				node.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_ON if lod_level == 0 and cast_near_shadows else GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+
+func set_expression(value: String) -> void:
+	if value in EXPRESSIONS:
+		expression = value
+		set_meta("expression",value)
+
+func react_to_hit(direction: Vector3, intensity: float = 0.0) -> void:
+	var local := global_transform.basis.inverse()*direction
+	hit_direction = clampf(local.x,-1.0,1.0)
+	hit_variant = "HIT_HEAVY" if intensity >= 25 else ("HIT_LEFT" if hit_direction > 0.25 else ("HIT_RIGHT" if hit_direction < -0.25 else "HIT_FRONT"))
+
+func _secondary_animation(delta: float) -> void:
+	if dead or not secondary_animation_enabled:
+		return
+	look_controller.apply(head_pivot,delta)
+	blink_wait -= delta
+	if blink_wait <= 0:
+		blink_time = 0.16
+		blink_wait = randf_range(2.8,6.5)
+	blink_time = maxf(0.0,blink_time-delta)
+	var openness := (1.0-sin(PI*blink_time/0.16)*0.95)*(0.7 if expression == "TIRED" else 1.0)
+	for eye in eyes:
+		if is_instance_valid(eye.mesh):
+			eye.mesh.scale.y = float(eye.height)*openness
+	for index in eyebrows.size():
+		var sign_value := -1.0 if index == 0 else 1.0
+		eyebrows[index].rotation.z = sign_value*(0.25 if expression in ["ANGRY","ALERT"] else (-0.18 if expression == "WORRIED" else 0.0))
+		eyebrows[index].position.y = 0.15 if expression == "SURPRISED" else 0.135
+	if is_instance_valid(mouth):
+		mouth.scale.x = 1.15 if expression in ["HAPPY","RELIEVED"] else 1.0
+		mouth.scale.y = 2.5 if expression == "SURPRISED" else 1.0
+	chest.rotation.z = hit_direction*hurt_t*0.13
 
 # ---------- Articulaciones ----------
 var fall_pivot: Node3D
@@ -114,6 +181,13 @@ func _node(parent: Node3D, mesh: Mesh, pos: Vector3, color: Color,
 	mi.position = pos
 	mi.scale = scl
 	parent.add_child(mi)
+	if parent == head_pivot and color in [Color("f4f4f4"),Color("15151a"),Color("f4f3ec"),Color("303b32")]:
+		eyes.append({"mesh":mi,"height":scl.y})
+	if parent == head_pivot and mesh is BoxMesh:
+		if color.is_equal_approx(hair_color):
+			eyebrows.append(mi)
+		elif color in [Color("8a3b3b"),Color("986958")]:
+			mouth = mi
 	return mi
 
 
@@ -416,6 +490,7 @@ func _apply_leg(hip: Node3D, knee: Node3D, ankle: Node3D, p: Vector2) -> void:
 #  Animación principal (llamar cada frame desde el dueño)
 # =====================================================================
 func animate(delta: float, velocity: Vector3, on_floor: bool, crouching: bool) -> void:
+	update_visual_lod(delta)
 	if dead:
 		velocity = Vector3.ZERO
 		on_floor = true
@@ -423,7 +498,8 @@ func animate(delta: float, velocity: Vector3, on_floor: bool, crouching: bool) -
 		death_t = move_toward(death_t, 1.0, delta / 0.9)
 	time += delta
 
-	var hspeed := Vector2(velocity.x, velocity.z).length()
+	visual_speed = move_toward(visual_speed,Vector2(velocity.x, velocity.z).length(),delta*16.0)
+	var hspeed := visual_speed
 
 	# Aterrizaje: flexión de amortiguación
 	if not on_floor:
@@ -531,6 +607,7 @@ func animate(delta: float, velocity: Vector3, on_floor: bool, crouching: bool) -
 		shoulder_r.rotation.z = 0.07 + 0.8 * f
 
 	_update_flash()
+	_secondary_animation(delta)
 
 
 ## Destello rojo al recibir daño.

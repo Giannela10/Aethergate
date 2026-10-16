@@ -47,6 +47,13 @@ func open() -> void:
 		["MAPA","MISIONES","MENSAJES","CONTACTOS","NEXO","COLECCIONABLES","ESTADÍSTICAS","AJUSTES","Cerrar"],
 		[app.bind("map"),app.bind("quests"),messages,contacts,app.bind("nexo"),app.bind("collectibles"),app.bind("stats"),app.bind("settings"),campaign.ui.close_modal],true)
 	campaign.ui.page = "phone:home"
+	if campaign.live != null:
+		for entry in [["ACTIVIDAD RECIENTE",false],["HISTORIAL DE DIÁLOGO",true]]:
+			var button := Button.new()
+			button.text = entry[0]
+			button.pressed.connect(campaign.live.qol.show_journal.bind(entry[1]))
+			campaign.ui.column.add_child(button)
+	campaign.player.body.show_phone(true)
 	view.home()
 
 func app(id: String) -> void:
@@ -132,6 +139,11 @@ func show_contact(id: String) -> void:
 	var text := "Rol: %s\nPiso habitual: %s\nProgreso: %s\n\nÚltimo mensaje:\n%s" % [contact.get("role","Contacto del campus"),contact.get("floor","—"),progress,latest]
 	campaign.ui.dialog(str(contact.get("name",id)),text,["Volver a contactos"],[contacts],true)
 	campaign.ui.page = "phone:contact"
+	if campaign.live != null:
+		var favorite := Button.new()
+		favorite.text = "★ Quitar favorito" if campaign.live.state.contact_favorites.get(id,false) else "☆ Marcar favorito"
+		favorite.pressed.connect(campaign.live.qol.toggle_contact.bind(id))
+		campaign.ui.column.add_child(favorite)
 	view.present()
 
 func register_contact(id: String, display_name: String, role: String, floor_name: String, quest: String = "") -> bool:

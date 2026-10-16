@@ -1,0 +1,18 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/pisos/piso_menos_1/nexo_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+max_health = 1200.0
+phase_two = 0.7
+phase_three = 0.35
+packet_damage = 18.0
+pulse_damage = 14.0
+zone_damage = 10.0
+deletion_damage = 30.0
+telegraph_time = 1.1
+deletion_warning = 2.0
+attack_gaps = Vector3(3.2, 2.8, 2.5)
+link_protection = 0.18
+assisted_protection = 0.12
+maximum_projectiles = 3
+maximum_zones = 1

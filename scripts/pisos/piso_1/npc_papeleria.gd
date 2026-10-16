@@ -7,14 +7,19 @@ var window: PanelContainer
 var status: Label
 var prompt: Label3D
 var manager: Node
+var model: Node3D
+var dialogue_camera: Node
+var visual_timer := 0.0
 func _ready() -> void:
 	if Engine.is_editor_hint(): return
 	add_to_group("stationery_vendor")
-	var model = load("res://scripts/juego/humanoid.gd").new()
+	model = load("res://scripts/juego/student_visual.gd").new()
+	model.name = "CharacterVisual"
 	model.scale = Vector3.ONE*1.5
 	model.shirt_color = Color(0.15,0.5,0.36)
 	model.rotation.y = PI
 	add_child(model)
+	preload("res://scripts/juego/character_visual_presets.gd").apply(model,preload("res://scripts/juego/character_visual_presets.gd").create("npc_papeleria","VENDEDOR"))
 	prompt = Label3D.new()
 	prompt.text = "[E] Pedir artículos"
 	prompt.position.y = 3.1
@@ -53,10 +58,18 @@ func _ready() -> void:
 func _process(_delta: float) -> void:
 	if Engine.is_editor_hint(): return
 	var player := get_tree().get_first_node_in_group("player") as Node3D
+	visual_timer += _delta
+	if is_instance_valid(player) and global_position.distance_squared_to(player.global_position) < 1225 and visual_timer > 0.05:
+		model.animate(visual_timer,Vector3.ZERO,true,false)
+		visual_timer = 0
 	prompt.visible = is_instance_valid(player) and not player.has_node("InteractionController") and global_position.distance_to(player.global_position)<4.5 and not window.visible
 func interact(player: Node3D) -> void:
 	if window.visible or global_position.distance_to(player.global_position)>4.5: return
 	customer = player
+	if dialogue_camera == null:
+		dialogue_camera = preload("res://scripts/campaign/dialogue_camera_controller.gd").new()
+		add_child(dialogue_camera)
+	dialogue_camera.begin(player,self,1)
 	manager = player.get_parent()
 	customer.busy = true
 	manager.set_process(false)
@@ -68,6 +81,7 @@ func give_item(key: String) -> void:
 	var count: int = customer.receive_stationery(key)
 	status.text = "Recibiste: %s\nEn tu inventario: %d\nPresiona I al cerrar para ver y equipar tus artículos." % [ITEMS[key],count]
 func close_shop() -> void:
+	if is_instance_valid(dialogue_camera): dialogue_camera.finish()
 	window.hide()
 	if is_instance_valid(customer): customer.busy = false
 	if is_instance_valid(manager): manager.set_process(true)

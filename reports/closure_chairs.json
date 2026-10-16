@@ -1,0 +1,110 @@
+[
+  {
+    "geometry_changed": false,
+    "id_changed": false,
+    "original_candidates": [
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_3_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla1/Asiento",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_3_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla1/Asiento",
+      "Ray hits /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Escritorio/Tablero y=1.43999993801117",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_3_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla1/Asiento; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla1/Respaldo"
+    ],
+    "safe_approach": "(-60.7, 0.04, -156.575)",
+    "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla1"
+  },
+  {
+    "geometry_changed": false,
+    "id_changed": false,
+    "original_candidates": [
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_2_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla2/Asiento",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_2_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla2/Asiento",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_2_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla2/Asiento; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla2/Respaldo",
+      "Ray hits /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Escritorio/Tablero y=1.43999993801117"
+    ],
+    "safe_approach": "(-60.7, 0.04, -153.425)",
+    "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla2"
+  },
+  {
+    "geometry_changed": false,
+    "id_changed": false,
+    "original_candidates": [
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_3_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla1/Asiento",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_3_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla1/Asiento",
+      "Ray hits /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Escritorio/Tablero y=1.43999993801117",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_3_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla1/Asiento; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla1/Respaldo"
+    ],
+    "safe_approach": "(-49.7, 0.04, -156.575)",
+    "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla1"
+  },
+  {
+    "geometry_changed": false,
+    "id_changed": false,
+    "original_candidates": [
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_2_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla2/Asiento",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_2_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla2/Asiento",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_2_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla2/Asiento; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla2/Respaldo",
+      "Ray hits /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Escritorio/Tablero y=1.43999993801117"
+    ],
+    "safe_approach": "(-49.7, 0.04, -153.425)",
+    "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla2"
+  },
+  {
+    "geometry_changed": false,
+    "id_changed": false,
+    "original_candidates": [
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_5_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla1/Asiento",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_5_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla1/Asiento",
+      "Ray hits /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Escritorio/Tablero y=1.43999993801117",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_5_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla1/Asiento; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla1/Respaldo"
+    ],
+    "safe_approach": "(-60.7, 0.04, -145.575)",
+    "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla1"
+  },
+  {
+    "geometry_changed": false,
+    "id_changed": false,
+    "original_candidates": [
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_5_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla2/Asiento",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_5_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla2/Asiento",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_5_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla2/Asiento; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla2/Respaldo",
+      "Ray hits /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Escritorio/Tablero y=1.43999993801117"
+    ],
+    "safe_approach": "(-60.7, 0.04, -142.425)",
+    "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla2"
+  },
+  {
+    "geometry_changed": false,
+    "id_changed": false,
+    "original_candidates": [
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_5_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla1/Asiento",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_5_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla1/Asiento",
+      "Ray hits /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Escritorio/Tablero y=1.43999993801117",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_5_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla1/Asiento; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla1/Respaldo"
+    ],
+    "safe_approach": "(-49.7, 0.04, -145.575)",
+    "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla1"
+  },
+  {
+    "geometry_changed": false,
+    "id_changed": false,
+    "original_candidates": [
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_5_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla2/Asiento",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_5_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla2/Asiento",
+      "Ray hits /root/Main/Piso1/LosasYAccesos/LosaRecortada_5_0/Cuerpo y=0.0; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla2/Asiento; capsule overlaps /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla2/Respaldo",
+      "Ray hits /root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Escritorio/Tablero y=1.43999993801117"
+    ],
+    "safe_approach": "(-49.7, 0.04, -142.425)",
+    "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla2"
+  },
+  {
+    "geometry_changed": false,
+    "id_changed": false,
+    "original_candidates": [
+      "Ray hits /root/Main/Piso2/Biblioteca/PuestosComputadores/Puesto19/Escritorio/Tablero y=13.2383861541748",
+      "Ray hits /root/Main/Piso2/Biblioteca/PuestosComputadores/Puesto19/Escritorio/Tablero y=13.2383861541748",
+      "Ray hits /root/Main/Piso2/Losas/LosaOriginal10/StaticBody3D y=12.058385848999; capsule overlaps /root/Main/Piso2/Biblioteca/PuestosComputadores/Puesto19/Escritorio/Tablero; capsule overlaps /root/Main/Piso2/Estructura/Front_Left piso 2/StaticBody3D",
+      "Ray hits /root/Main/Piso2/Biblioteca/PuestosComputadores/Puesto19/Silla/Asiento y=12.7983865737915; capsule overlaps /root/Main/Piso2/Biblioteca/PuestosComputadores/Puesto19/Escritorio/Tablero"
+    ],
+    "safe_approach": "(-55.91924, 12.09839, -78.36923)",
+    "world_id": "silla:Piso2/Biblioteca/PuestosComputadores/Puesto19/Silla"
+  }
+]

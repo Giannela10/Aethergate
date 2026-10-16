@@ -425,6 +425,7 @@ func take_hit(direction: Vector3, damage: float) -> void:
 		return
 	health = maxf(health - damage, 0.0)
 	body.hurt()
+	body.react_to_hit(direction,damage)
 	stun_t = STUN_TIME
 	velocity.x += direction.x * 3.5
 	velocity.z += direction.z * 3.5

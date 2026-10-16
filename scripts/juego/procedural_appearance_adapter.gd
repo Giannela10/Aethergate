@@ -14,9 +14,8 @@ func _capture(node: Node) -> void:
 	if node.name in ["WeaponSocket","ItemSocket","ImportedModel"]:
 		return
 	if node is MeshInstance3D and node.material_override is StandardMaterial3D:
-		var material: StandardMaterial3D = node.material_override.duplicate()
-		node.material_override = material
-		parts.append({"mesh":node,"color":material.albedo_color,"scale":node.scale})
+		var material: StandardMaterial3D = node.material_override
+		parts.append({"mesh":node,"color":material.albedo_color,"scale":node.scale,"roughness":material.roughness})
 	for child in node.get_children():
 		_capture(child)
 
@@ -49,13 +48,19 @@ func apply_appearance(profile: Dictionary) -> void:
 				if profile.hair == 1:
 					mesh.scale.y *= 1.6
 					mesh.scale.z *= 1.12
+				elif profile.hair == 3:
+					mesh.scale.x *= 0.85
+				elif profile.hair == 4:
+					mesh.scale *= Vector3(1.06,1.3,1.12)
+				elif profile.hair == 5:
+					mesh.scale *= Vector3(1.15,1.35,1.13)
 		if body.backpack_socket.is_ancestor_of(mesh):
 			mesh.visible = profile.backpack != 0
 			if profile.backpack == 2 and original.is_equal_approx(Color("bb874e")):
 				color = Color("286f9b")
-		mesh.material_override.albedo_color = color
+		mesh.material_override = body._mat(color,float(part.roughness))
 	var cloth := Color(Profile.COLORS[profile.clothes])
-	if profile.top == 1 or profile.outfit in [2,4]:
+	if profile.top == 1 or profile.outfit in [2,4,5,6]:
 		extras.append(body._ball(body.chest,0.16,Vector3(0,0.27,0.04),cloth,Vector3(1,0.55,0.8)))
 	if profile.outfit == 1:
 		extras.append(body._box(body.chest,Vector3(0.28,0.42,0.025),Vector3(0,-0.04,-0.16),Color("ede3ce")))
@@ -65,6 +70,12 @@ func apply_appearance(profile: Dictionary) -> void:
 		extras.append(body._box(body.chest,Vector3(0.37,0.30,0.24),Vector3(0,0.1,0),Color("4c5962")))
 	elif profile.outfit == 4:
 		extras.append(body._box(body.chest,Vector3(0.1,0.12,0.025),Vector3(0,0.1,-0.17),Color("ffd461")))
+	elif profile.outfit in [5,6]:
+		# Cosmetic only; use the selected clothes as the jacket base.
+		extras.append(body._box(body.chest,Vector3(0.28,0.015,0.012),Vector3(0,0.16,-0.17),Color("45e5dc")))
+		extras.append(body._box(body.chest,Vector3(0.015,0.25,0.012),Vector3(-0.10,0.05,-0.17),Color("45e5dc")))
+	elif profile.outfit == 7:
+		extras.append(body._box(body.chest,Vector3(0.12,0.15,0.012),Vector3(0,0.1,-0.17),Color("f4e8cc")))
 	match profile.accessory:
 		1:
 			for side in [-1,1]:

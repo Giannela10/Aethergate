@@ -6,7 +6,7 @@ const COLORS = ["315e78","723d72","9c403a","376e54","d0b45e","353b46","e1e5e9"]
 const HAIR = ["332a25","171719","815430","bd9355","a54038","c4c4c4"]
 const OPTIONS = {
 	"skin":["Claro","Durazno","Arena","Cobre","Moreno","Oscuro"],
-	"hair":["Corto","Largo","Sin cabello"],
+	"hair":["Corto","Largo","Sin cabello","Corto lateral","Medio","Rizado"],
 	"hair_color":["Castaño","Negro","Avellana","Rubio","Rojizo","Gris"],
 	"top":["Polera","Polerón"],
 	"clothes":["Azul","Violeta","Rojo","Verde","Mostaza","Grafito","Blanco"],
@@ -14,18 +14,18 @@ const OPTIONS = {
 	"shoes":["Azul","Violeta","Rojo","Verde","Mostaza","Grafito","Blanco"],
 	"backpack":["Sin mochila","Mochila clásica","Mochila Informática"],
 	"accessory":["Ninguno","Lentes","Accesorio Telecomunicaciones","Guantes de Taller","Casco de Seguridad","Credencial especial"],
-	"outfit":["Ropa elegida","Delantal del Chef","Polerón Biblioteca","Chaqueta Mecánica","Polerón de campeón"]
+	"outfit":["Ropa elegida","Delantal del Chef","Polerón Biblioteca","Chaqueta Mecánica","Polerón de campeón","NEXO JACKET","TECH SET","SPORT SET"]
 }
 const LOCKS = {
 	"backpack:2":"mochila_informatica","accessory:2":"telecomunicaciones",
 	"accessory:3":"guantes_taller","accessory:4":"casco_seguridad","accessory:5":"credencial",
-	"outfit:1":"delantal_chef","outfit:2":"poleron_biblioteca","outfit:3":"chaqueta_mecanica","outfit:4":"poleron_campeon"
+	"outfit:1":"delantal_chef","outfit:2":"poleron_biblioteca","outfit:3":"chaqueta_mecanica","outfit:4":"poleron_campeon","outfit:5":"nexo_jacket","outfit:6":"telecomunicaciones","outfit:7":"sport_set"
 }
 const REWARDS = {
 	"profesor_redes":["mochila_informatica","telecomunicaciones"],
 	"chef":["delantal_chef"],"bibliotecaria":["poleron_biblioteca"],
 	"director":["credencial"],"maestro_soldadura":["guantes_taller","casco_seguridad"],
-	"jefe_taller":["chaqueta_mecanica"],"nexo":["poleron_campeon"]
+	"jefe_taller":["chaqueta_mecanica"],"nexo":["poleron_campeon","nexo_jacket"],"punto":["sport_set"]
 }
 static func normalize(raw: Dictionary, unlocked: Dictionary = {}) -> Dictionary:
 	var result := {}

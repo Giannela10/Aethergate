@@ -9,4 +9,4 @@ func _init() -> void:
 	max_stack = 1
 	unique = true
 	rarity = 3
-	description = "Recompensa única del Profesor de Redes. Efecto tecnológico reservado para una futura integración; todavía no se consume ni otorga resistencia."
+	description = "En el duelo con NEXO reduce la protección por enlace de 18% a 12%. Ayuda pasiva al llevarlo en la mochila; no se consume. Los tres enlaces deben desactivarse igualmente."

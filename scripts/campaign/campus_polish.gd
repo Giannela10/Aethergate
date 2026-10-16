@@ -8,7 +8,7 @@ var tutorial_timer := 0.0
 func _process(delta: float) -> void:
 	if not campaign.ready_for_play:
 		return
-	if not campaign.data.tutorial:
+	if not campaign.data.tutorial and not campaign.ui.modal and not campaign.player.busy and not is_instance_valid(campaign.active_duel) and campaign.ui.toast_t <= 0 and campaign.ui.notice_queue.is_empty():
 		tutorial_timer -= delta
 		if tutorial_timer <= 0:
 			var tips := ["WASD · Muévete por el campus","SHIFT · Corre; la estamina se recupera","E · Usa la acción contextual","I · Abre la mochila","J / clic · Ataca; mantén clic para ataque fuerte"]

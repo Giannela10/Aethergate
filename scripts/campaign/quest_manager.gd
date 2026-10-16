@@ -15,6 +15,7 @@ func _ready() -> void:
 	_add("acceso7","Acceso restringido","Consigue la TarjetaAcceso mediante la entrega de documentos.",true,"seguridad6",[_req("door","acceso7","Abre el acceso restringido del Piso 7"),_req("computer","pc7","Completa el computador del Piso 7")],{"credits":80,"xp":120,"unlock":"8"})
 	_add("direccion","Modo Administrador","Completa el desafío tecnológico y enfrenta al Director.",true,"acceso7",[_req("computer","pc8","Resuelve el desafío tecnológico"),_req("boss","director","Habla y vence al Director")],{"credits":150,"xp":250,"unlock":"S"})
 	_add("postgame","Archivos del subterráneo","Explora el subterráneo y encuentra el archivo secreto.",true,"direccion",[_req("secret","archivo_subterraneo","Encuentra el archivo del subterráneo")],{"credits":100,"xp":200})
+	_add("nexo_final","El núcleo de Proyecto NEXO","El archivo revela el centro de control industrial del −1. Puedes prepararte antes del último duelo.",true,"postgame",[_req("door","nexo_core","Encuentra el núcleo de NEXO"),_req("boss","nexo","Desactiva NEXO")],{})
 	_add("llaves","Las llaves perdidas","El auxiliar perdió sus llaves en otro piso.",false,"",[_req("deliver","llaves","Entrega las llaves al auxiliar")],{"credits":25,"xp":40,"items":{"Botiquin":1}})
 	_add("cargador","El cargador","Encuentra el cargador y devuélvelo al estudiante.",false,"",[_req("deliver","cargador","Entrega el cargador")],{"credits":20,"xp":30,"items":{"BebidaEnergetica":1}})
 	_add("documentos","Documentos importantes","Lleva los documentos del profesor al funcionario del Piso 5.",false,"",[_req("deliver","documentos","Entrega los documentos")],{"credits":40,"xp":70,"items":{"TarjetaAcceso":1}})
@@ -54,6 +55,8 @@ func progress(requirement: Dictionary) -> int:
 	if requirement.kind == "talk" and campaign.data.bosses.get(requirement.id,false):
 		return mini(1,int(requirement.amount))
 	if requirement.kind == "computer" and campaign.data.computers.get(requirement.id,false):
+		return mini(1,int(requirement.amount))
+	if requirement.kind == "boss" and campaign.data.bosses.get(requirement.id,false):
 		return mini(1,int(requirement.amount))
 	if requirement.id == "*":
 		var total := 0

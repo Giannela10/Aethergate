@@ -1,0 +1,8562 @@
+{
+  "actual_weapons": [
+    {
+      "damage": 22.0,
+      "dps_ideal": 36.6666666666667,
+      "durability": 14,
+      "id": "Palo",
+      "name": "Palo",
+      "rarity": 0,
+      "reach": 1.9,
+      "swing": 0.6,
+      "unique": false
+    },
+    {
+      "damage": 34.0,
+      "dps_ideal": 45.3333333333333,
+      "durability": 4,
+      "id": "Silla",
+      "name": "Silla",
+      "rarity": 0,
+      "reach": 1.7,
+      "swing": 0.75,
+      "unique": false
+    },
+    {
+      "damage": 30.0,
+      "dps_ideal": 46.1538461538462,
+      "durability": 12,
+      "id": "Bate",
+      "name": "Bate de béisbol",
+      "rarity": 0,
+      "reach": 2.2,
+      "swing": 0.65,
+      "unique": false
+    },
+    {
+      "damage": 24.0,
+      "dps_ideal": 43.6363636363636,
+      "durability": 10,
+      "id": "Raqueta",
+      "name": "Raqueta de tenis",
+      "rarity": 0,
+      "reach": 2.1,
+      "swing": 0.55,
+      "unique": false
+    },
+    {
+      "damage": 18.0,
+      "dps_ideal": 36.0,
+      "durability": 16,
+      "id": "PelotaBasquetbol",
+      "name": "Pelota de básquetbol",
+      "rarity": 0,
+      "reach": 1.8,
+      "swing": 0.5,
+      "unique": false
+    },
+    {
+      "damage": 20.0,
+      "dps_ideal": 44.4444444444444,
+      "durability": 16,
+      "id": "PelotaBeisbol",
+      "name": "Pelota de béisbol",
+      "rarity": 0,
+      "reach": 1.7,
+      "swing": 0.45,
+      "unique": false
+    },
+    {
+      "damage": 14.0,
+      "dps_ideal": 31.1111111111111,
+      "durability": 16,
+      "id": "PelotaTenis",
+      "name": "Pelota de tenis",
+      "rarity": 0,
+      "reach": 1.7,
+      "swing": 0.4,
+      "unique": false
+    },
+    {
+      "damage": 20.0,
+      "dps_ideal": 40.0,
+      "durability": 16,
+      "id": "PelotaFutbol",
+      "name": "Pelota de fútbol",
+      "rarity": 0,
+      "reach": 1.8,
+      "swing": 0.5,
+      "unique": false
+    },
+    {
+      "damage": 22.0,
+      "dps_ideal": 40.0,
+      "durability": 14,
+      "id": "PelotaRugby",
+      "name": "Pelota de rugby",
+      "rarity": 0,
+      "reach": 1.8,
+      "swing": 0.55,
+      "unique": false
+    },
+    {
+      "damage": 18.0,
+      "dps_ideal": 40.0,
+      "durability": 14,
+      "id": "Disco",
+      "name": "Disco volador",
+      "rarity": 0,
+      "reach": 1.8,
+      "swing": 0.45,
+      "unique": false
+    },
+    {
+      "damage": 20.0,
+      "dps_ideal": 41.6666666666667,
+      "durability": 22,
+      "id": "PaletaPingPong",
+      "name": "Paleta de ping-pong",
+      "rarity": 1,
+      "reach": 1.85,
+      "swing": 0.48,
+      "unique": false
+    },
+    {
+      "damage": 24.0,
+      "dps_ideal": 34.2857142857143,
+      "durability": 30,
+      "id": "Escoba",
+      "name": "Escoba",
+      "rarity": 0,
+      "reach": 1.9,
+      "swing": 0.7,
+      "unique": false
+    },
+    {
+      "damage": 30.8,
+      "dps_ideal": 44.0,
+      "durability": 28,
+      "id": "Bandeja",
+      "name": "Bandeja",
+      "rarity": 1,
+      "reach": 1.9,
+      "swing": 0.7,
+      "unique": false
+    },
+    {
+      "damage": 33.0,
+      "dps_ideal": 47.1428571428571,
+      "durability": 25,
+      "id": "LibroPesado",
+      "name": "LibroPesado",
+      "rarity": 1,
+      "reach": 1.9,
+      "swing": 0.7,
+      "unique": false
+    },
+    {
+      "damage": 37.4,
+      "dps_ideal": 53.4285714285714,
+      "durability": 31,
+      "id": "Herramienta",
+      "name": "Herramienta",
+      "rarity": 1,
+      "reach": 1.9,
+      "swing": 0.7,
+      "unique": false
+    },
+    {
+      "damage": 40.0,
+      "dps_ideal": 57.1428571428571,
+      "durability": 32,
+      "id": "Teclado",
+      "name": "Teclado",
+      "rarity": 2,
+      "reach": 1.9,
+      "swing": 0.7,
+      "unique": false
+    },
+    {
+      "damage": 50.0,
+      "dps_ideal": 71.4285714285714,
+      "durability": 25,
+      "id": "NotebookRoto",
+      "name": "NotebookRoto",
+      "rarity": 2,
+      "reach": 1.9,
+      "swing": 0.7,
+      "unique": false
+    },
+    {
+      "damage": 26.4,
+      "dps_ideal": 37.7142857142857,
+      "durability": 36,
+      "id": "Cable",
+      "name": "Cable",
+      "rarity": 1,
+      "reach": 1.9,
+      "swing": 0.7,
+      "unique": false
+    },
+    {
+      "damage": 55.0,
+      "dps_ideal": 78.5714285714286,
+      "durability": 44,
+      "id": "LlaveInglesa",
+      "name": "LlaveInglesa",
+      "rarity": 2,
+      "reach": 1.9,
+      "swing": 0.7,
+      "unique": false
+    },
+    {
+      "damage": 67.2,
+      "dps_ideal": 96.0,
+      "durability": 63,
+      "id": "ExtintorDorado",
+      "name": "ExtintorDorado",
+      "rarity": 3,
+      "reach": 1.9,
+      "swing": 0.7,
+      "unique": false
+    },
+    {
+      "damage": 58.8,
+      "dps_ideal": 84.0,
+      "durability": 56,
+      "id": "BandejaDelChef",
+      "name": "BandejaDelChef",
+      "rarity": 3,
+      "reach": 1.9,
+      "swing": 0.7,
+      "unique": true
+    },
+    {
+      "damage": 39.2,
+      "dps_ideal": 87.1111111111111,
+      "durability": 54,
+      "id": "PaletaProfesional",
+      "name": "PaletaProfesional",
+      "rarity": 3,
+      "reach": 1.9,
+      "swing": 0.45,
+      "unique": true
+    },
+    {
+      "damage": 58.8,
+      "dps_ideal": 84.0,
+      "durability": 56,
+      "id": "TecladoAdministrador",
+      "name": "TecladoAdministrador",
+      "rarity": 3,
+      "reach": 1.9,
+      "swing": 0.7,
+      "unique": true
+    }
+  ],
+  "bosses": [
+    {
+      "cooldowns_current": {
+        "attack_cooldown": 1.2,
+        "throw_cooldown": 2.4
+      },
+      "current_phase": null,
+      "damage": 10.0,
+      "damage_note": "Numeric export or exact formulas from the existing script",
+      "health": 200.0,
+      "id": "punto",
+      "range_adaptation": "Existing distance conditions retained",
+      "telegraph": "Existing windup/zone plus pending-special label",
+      "thresholds": []
+    },
+    {
+      "cooldowns_current": {
+        "attack_cd": 1.0,
+        "tray_cd": 1.88333333333333
+      },
+      "current_phase": 1,
+      "damage": [
+        "if target.has_method(\"take_hit\"):",
+        "target.call(\"take_hit\", offset.normalized(), [18.0,22.0,26.0][phase-1])",
+        "projectile.damage = 14.0 if phase == 2 else 18.0",
+        "super.take_hit(direction, maxf(0.0,damage))"
+      ],
+      "damage_note": "Numeric export or exact formulas from the existing script",
+      "health": 450.0,
+      "id": "chef",
+      "range_adaptation": "Existing distance conditions retained",
+      "telegraph": "Existing windup/zone plus pending-special label",
+      "thresholds": [
+        0.6,
+        0.3
+      ]
+    },
+    {
+      "cooldowns_current": {},
+      "current_phase": null,
+      "damage": 25.0,
+      "damage_note": "Numeric export or exact formulas from the existing script",
+      "health": 125.0,
+      "id": "bibliotecaria",
+      "range_adaptation": "Existing distance conditions retained",
+      "telegraph": "Existing windup/zone plus pending-special label",
+      "thresholds": []
+    },
+    {
+      "cooldowns_current": {
+        "attack_cd": 1.0,
+        "connection_cd": 5.0,
+        "packet_cd": 2.5,
+        "pulse_cd": 5.0,
+        "zone_cd": 6.0
+      },
+      "current_phase": 0,
+      "damage": [
+        "shot.damage = [12.0,15.0,18.0][phase-1]",
+        "target.take_hit(global_position.direction_to(target.global_position),[16.0,18.0,22.0][phase-1])",
+        "target.take_hit(global_position.direction_to(target.global_position)*0.5,[8.0,10.0,12.0][phase-1])",
+        "target.take_hit(global_position.direction_to(target.global_position)*0.5,20.0)",
+        "super.take_hit(direction,maxf(0,damage)*damage_factor())"
+      ],
+      "damage_note": "Numeric export or exact formulas from the existing script",
+      "health": 550.0,
+      "id": "profesor_redes",
+      "range_adaptation": "Existing distance conditions retained",
+      "telegraph": "Existing windup/zone plus pending-special label",
+      "thresholds": []
+    },
+    {
+      "cooldowns_current": {
+        "attack_cd": 1.0,
+        "blue_cd": 4.88333333333333,
+        "digital_cd": 1.88333333333333
+      },
+      "current_phase": 1,
+      "damage": [
+        "shot.damage = [16.0,20.0,25.0][phase-1]",
+        "if target.has_method(\"take_hit\"):",
+        "target.call(\"take_hit\",offset.normalized(),[20.0,24.0,32.0][phase-1])",
+        "if offset.length() <= 6.0 and _vision_amount() > 0 and target.has_method(\"take_hit\"):",
+        "target.call(\"take_hit\",offset.normalized(),36.0)",
+        "super.take_hit(direction,maxf(0,damage))"
+      ],
+      "damage_note": "Numeric export or exact formulas from the existing script",
+      "health": 700.0,
+      "id": "director",
+      "range_adaptation": "Existing distance conditions retained",
+      "telegraph": "Existing windup/zone plus pending-special label",
+      "thresholds": [
+        0.6,
+        0.3
+      ]
+    }
+  ],
+  "chairs": {
+    "by_floor": {
+      "1": 11,
+      "2": 67,
+      "3": 55,
+      "4": 150,
+      "5": 28,
+      "6": 156,
+      "7": 156,
+      "8": 156
+    },
+    "local_approach_and_ray_pass": 770,
+    "local_failures": [
+      {
+        "path": "/root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla1/RecogerSilla",
+        "position": [
+          -62.0,
+          0.0,
+          -156.574996948242
+        ],
+        "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla1"
+      },
+      {
+        "path": "/root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla2/RecogerSilla",
+        "position": [
+          -62.0,
+          0.0,
+          -153.425003051758
+        ],
+        "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box01/Silla2"
+      },
+      {
+        "path": "/root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla1/RecogerSilla",
+        "position": [
+          -51.0,
+          0.0,
+          -156.574996948242
+        ],
+        "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla1"
+      },
+      {
+        "path": "/root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla2/RecogerSilla",
+        "position": [
+          -51.0,
+          0.0,
+          -153.425003051758
+        ],
+        "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box02/Silla2"
+      },
+      {
+        "path": "/root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla1/RecogerSilla",
+        "position": [
+          -62.0,
+          0.0,
+          -145.574996948242
+        ],
+        "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla1"
+      },
+      {
+        "path": "/root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla2/RecogerSilla",
+        "position": [
+          -62.0,
+          0.0,
+          -142.425003051758
+        ],
+        "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box03/Silla2"
+      },
+      {
+        "path": "/root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla1/RecogerSilla",
+        "position": [
+          -51.0,
+          0.0,
+          -145.574996948242
+        ],
+        "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla1"
+      },
+      {
+        "path": "/root/Main/Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla2/RecogerSilla",
+        "position": [
+          -51.0,
+          0.0,
+          -142.425003051758
+        ],
+        "world_id": "silla:Piso1/SalaAyudaEstudiantil/BoxesAyuda/Box04/Silla2"
+      },
+      {
+        "path": "/root/Main/Piso2/Biblioteca/PuestosComputadores/Puesto19/Silla/RecogerSilla",
+        "position": [
+          -55.0,
+          12.058385848999,
+          -77.4499969482422
+        ],
+        "world_id": "silla:Piso2/Biblioteca/PuestosComputadores/Puesto19/Silla"
+      }
+    ],
+    "navigation_from_spawn_proven": false
+  },
+  "consumables": [
+    {
+      "duration": 0.0,
+      "full_heal": false,
+      "heal": 10.0,
+      "id": "Bebida",
+      "speed": 1.0
+    },
+    {
+      "duration": 12.0,
+      "full_heal": false,
+      "heal": 0.0,
+      "id": "BebidaEnergetica",
+      "speed": 1.35
+    },
+    {
+      "duration": 0.0,
+      "full_heal": false,
+      "heal": 30.0,
+      "id": "Comida",
+      "speed": 1.0
+    },
+    {
+      "duration": 0.0,
+      "full_heal": true,
+      "heal": 0.0,
+      "id": "ColacionEspecial",
+      "speed": 1.0
+    },
+    {
+      "duration": 0.0,
+      "full_heal": false,
+      "heal": 50.0,
+      "id": "Botiquin",
+      "speed": 1.0
+    }
+  ],
+  "deaths": {},
+  "economy": {
+    "all_upgrades_cost": 3500,
+    "automatic_changes": false,
+    "boss_credits": 375,
+    "live_reward_cap": 24,
+    "quest_credits": 795,
+    "review": [
+      "Free repeatable healing is intentional",
+      "No resale system observed: no sell-price arbitrage evaluated",
+      "Furniture is plentiful; count sources, not unique item definitions",
+      "Rewards must use campaign.grant_reward source IDs"
+    ],
+    "vendors": [
+      {
+        "name": "@Node3D@5820",
+        "prices": {
+          "Bebida": 5,
+          "BebidaEnergetica": 12,
+          "Comida": 10
+        }
+      },
+      {
+        "name": "@Node3D@5823",
+        "prices": {
+          "Bebida": 5,
+          "BebidaEnergetica": 12,
+          "Comida": 10
+        }
+      },
+      {
+        "name": "@Node3D@5826",
+        "prices": {
+          "Bebida": 5,
+          "BebidaEnergetica": 12,
+          "Comida": 10
+        }
+      },
+      {
+        "name": "@Node3D@5829",
+        "prices": {
+          "Bebida": 5,
+          "Botiquin": 25,
+          "Comida": 10,
+          "Palo": 20,
+          "Silla": 25
+        }
+      }
+    ]
+  },
+  "enemies": [
+    {
+      "damage": 6.0,
+      "health": 68.0,
+      "name": "EnemigoPiso1"
+    },
+    {
+      "damage": 7.0,
+      "health": 76.0,
+      "name": "EnemigoPiso2"
+    },
+    {
+      "damage": 8.0,
+      "health": 54.6,
+      "name": "EnemigoPiso3"
+    },
+    {
+      "damage": 12.6,
+      "health": 156.4,
+      "name": "EnemigoPiso4"
+    },
+    {
+      "damage": 10.0,
+      "health": 100.0,
+      "name": "EnemigoPiso5"
+    },
+    {
+      "damage": 11.0,
+      "health": 70.2,
+      "name": "EnemigoPiso6"
+    },
+    {
+      "damage": 16.8,
+      "health": 197.2,
+      "name": "EnemigoPiso7"
+    },
+    {
+      "damage": 13.0,
+      "health": 124.0,
+      "name": "EnemigoPiso8"
+    },
+    {
+      "damage": 21.0,
+      "health": 238.0,
+      "name": "EnemigoPiso9"
+    }
+  ],
+  "mission_durations": {},
+  "positions": [
+    {
+      "group": "health_station",
+      "name": "CentroVida_Piso1",
+      "position": [
+        -2.0,
+        0.200000137090683,
+        -7.0
+      ]
+    },
+    {
+      "group": "health_station",
+      "name": "CentroVida_Piso2",
+      "position": [
+        24.0,
+        12.1583862304688,
+        -140.0
+      ]
+    },
+    {
+      "group": "health_station",
+      "name": "CentroVida_Piso3",
+      "position": [
+        24.0,
+        24.0676689147949,
+        -140.0
+      ]
+    },
+    {
+      "group": "health_station",
+      "name": "CentroVida_Piso4",
+      "position": [
+        24.0,
+        35.7744140625,
+        -140.0
+      ]
+    },
+    {
+      "group": "health_station",
+      "name": "CentroVida_Piso5",
+      "position": [
+        24.0,
+        48.0748481750488,
+        -140.0
+      ]
+    },
+    {
+      "group": "health_station",
+      "name": "CentroVida_Piso6",
+      "position": [
+        24.0,
+        60.2849502563477,
+        -133.0
+      ]
+    },
+    {
+      "group": "health_station",
+      "name": "CentroVida_Piso7",
+      "position": [
+        24.0,
+        72.0686264038086,
+        -133.0
+      ]
+    },
+    {
+      "group": "health_station",
+      "name": "CentroVida_Piso8",
+      "position": [
+        24.0,
+        84.0400009155273,
+        -133.0
+      ]
+    },
+    {
+      "group": "health_station",
+      "name": "CentroVida_Piso-1",
+      "position": [
+        24.0,
+        -11.9583854675293,
+        -140.0
+      ]
+    },
+    {
+      "group": "health_station",
+      "name": "CentroVida_PuntoEstudiantil",
+      "position": [
+        -35.0,
+        0.100000001490116,
+        -141.0
+      ]
+    },
+    {
+      "group": "health_station",
+      "name": "CentroVida_Casino",
+      "position": [
+        -39.0,
+        0.164999961853027,
+        -105.0
+      ]
+    },
+    {
+      "group": "health_station",
+      "name": "CentroVida_Biblioteca",
+      "position": [
+        -43.5,
+        12.1583862304688,
+        -112.866027832031
+      ]
+    },
+    {
+      "group": "boss_duel",
+      "name": "BossDuelController",
+      "position": [
+        -42.0,
+        0.0,
+        -144.0
+      ]
+    },
+    {
+      "group": "boss_duel",
+      "name": "BossDuelController",
+      "position": [
+        -73.0,
+        0.119999997317791,
+        -102.5
+      ]
+    },
+    {
+      "group": "boss_duel",
+      "name": "BossDuelController",
+      "position": [
+        -61.5,
+        12.1083860397339,
+        -115.5
+      ]
+    },
+    {
+      "group": "boss_duel",
+      "name": "BossDuelController",
+      "position": [
+        65.0,
+        24.0076694488525,
+        -145.0
+      ]
+    },
+    {
+      "group": "boss_duel",
+      "name": "BossDuelController",
+      "position": [
+        64.0,
+        84.0599975585938,
+        -131.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -62.0,
+        0.0,
+        -156.574996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -62.0,
+        0.0,
+        -153.425003051758
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.0,
+        0.0,
+        -156.574996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.0,
+        0.0,
+        -153.425003051758
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -62.0,
+        0.0,
+        -145.574996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -62.0,
+        0.0,
+        -142.425003051758
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.0,
+        0.0,
+        -145.574996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.0,
+        0.0,
+        -142.425003051758
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.5499992370605,
+        0.0,
+        -116.599998474121
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        79.0,
+        0.0,
+        -113.900001525879
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        65.5999984741211,
+        0.0,
+        -119.199996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -80.8499984741211,
+        12.058385848999,
+        -108.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -80.8499984741211,
+        12.058385848999,
+        -104.599998474121
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -80.8499984741211,
+        12.058385848999,
+        -101.199996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -80.8499984741211,
+        12.058385848999,
+        -97.8000030517578
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -80.8499984741211,
+        12.058385848999,
+        -94.4000015258789
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -80.8499984741211,
+        12.058385848999,
+        -91.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -80.8499984741211,
+        12.058385848999,
+        -87.5999984741211
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -80.8499984741211,
+        12.058385848999,
+        -84.1999969482422
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -80.8499984741211,
+        12.058385848999,
+        -80.8000030517578
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -81.0,
+        12.058385848999,
+        -77.4499969482422
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -78.1111145019531,
+        12.058385848999,
+        -77.4499969482422
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -75.2222213745117,
+        12.058385848999,
+        -77.4499969482422
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -72.3333358764648,
+        12.058385848999,
+        -77.4499969482422
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -67.0153656005859,
+        12.0466899871826,
+        -78.6305313110352
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -64.6217498779297,
+        12.058385848999,
+        -78.5865325927734
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -62.2076873779297,
+        12.058385848999,
+        -78.5672378540039
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -59.8002128601074,
+        12.058385848999,
+        -78.5595397949219
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -57.4011497497559,
+        12.058385848999,
+        -78.5684204101563
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -55.0,
+        12.058385848999,
+        -77.4499969482422
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.577995300293,
+        12.058385848999,
+        -121.063995361328
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5780029296875,
+        12.058385848999,
+        -116.455993652344
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.7779998779297,
+        12.058385848999,
+        -121.063995361328
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.7780075073242,
+        12.058385848999,
+        -116.455993652344
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.9779968261719,
+        12.058385848999,
+        -121.063995361328
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.9780044555664,
+        12.058385848999,
+        -116.455993652344
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -44.1780014038086,
+        12.058385848999,
+        -121.063995361328
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -44.1780090332031,
+        12.058385848999,
+        -116.455993652344
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5780029296875,
+        12.058385848999,
+        -113.384002685547
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5780029296875,
+        12.058385848999,
+        -108.775993347168
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.7780075073242,
+        12.058385848999,
+        -113.384002685547
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.7780075073242,
+        12.058385848999,
+        -108.775993347168
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.9780044555664,
+        12.058385848999,
+        -113.384002685547
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.9780044555664,
+        12.058385848999,
+        -108.775993347168
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -44.1780090332031,
+        12.058385848999,
+        -113.384002685547
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -44.1780090332031,
+        12.058385848999,
+        -108.775993347168
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5780029296875,
+        12.058385848999,
+        -105.704002380371
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5780029296875,
+        12.058385848999,
+        -101.095993041992
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.7780075073242,
+        12.058385848999,
+        -105.704002380371
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.7780075073242,
+        12.058385848999,
+        -101.095993041992
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.9780044555664,
+        12.058385848999,
+        -105.704002380371
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.9780044555664,
+        12.058385848999,
+        -101.095993041992
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -44.1780090332031,
+        12.058385848999,
+        -105.704002380371
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -44.1780090332031,
+        12.058385848999,
+        -101.095993041992
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5780029296875,
+        12.058385848999,
+        -98.0240097045898
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5780029296875,
+        12.058385848999,
+        -93.416015625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.7780075073242,
+        12.058385848999,
+        -98.0240097045898
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.7780075073242,
+        12.058385848999,
+        -93.416015625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.9780044555664,
+        12.058385848999,
+        -98.0240097045898
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.9780044555664,
+        12.058385848999,
+        -93.416015625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -44.1780090332031,
+        12.058385848999,
+        -98.0240097045898
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -44.1780090332031,
+        12.058385848999,
+        -93.416015625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5780029296875,
+        12.058385848999,
+        -90.3440093994141
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5780029296875,
+        12.058385848999,
+        -85.7360076904297
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.7780075073242,
+        12.058385848999,
+        -90.3440093994141
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.7780075073242,
+        12.058385848999,
+        -85.7360076904297
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.9780044555664,
+        12.058385848999,
+        -90.3440093994141
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.9780044555664,
+        12.058385848999,
+        -85.7360076904297
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -44.1780090332031,
+        12.058385848999,
+        -90.3440093994141
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -44.1780090332031,
+        12.058385848999,
+        -85.7360076904297
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5780029296875,
+        12.058385848999,
+        -82.6640014648438
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5780029296875,
+        12.058385848999,
+        -78.0559997558594
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.7780075073242,
+        12.058385848999,
+        -82.6640014648438
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -39.7780075073242,
+        12.058385848999,
+        -78.0559997558594
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.9780044555664,
+        12.058385848999,
+        -82.6640014648438
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.9780044555664,
+        12.058385848999,
+        -78.0559997558594
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -44.1780090332031,
+        12.058385848999,
+        -82.6640014648438
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -44.1780090332031,
+        12.058385848999,
+        -78.0559997558594
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        56.4638900756836,
+        24.0340766906738,
+        -104.581764221191
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        62.6164970397949,
+        24.0340766906738,
+        -104.581764221191
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        56.4638900756836,
+        24.0340766906738,
+        -106.22176361084
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        62.6164970397949,
+        24.0340766906738,
+        -106.22176361084
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.3780212402344,
+        24.0340766906738,
+        -104.581764221191
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.5306282043457,
+        24.0340766906738,
+        -104.581764221191
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.3780212402344,
+        24.0340766906738,
+        -106.22176361084
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.5306282043457,
+        24.0340766906738,
+        -106.22176361084
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.2921485900879,
+        24.0340766906738,
+        -104.581764221191
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.4447593688965,
+        24.0340766906738,
+        -104.581764221191
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.2921485900879,
+        24.0340766906738,
+        -106.22176361084
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.4447593688965,
+        24.0340766906738,
+        -106.22176361084
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        56.4638900756836,
+        24.0340766906738,
+        -113.781761169434
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        62.6164970397949,
+        24.0340766906738,
+        -113.781761169434
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        56.4638900756836,
+        24.0340766906738,
+        -115.421760559082
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        62.6164970397949,
+        24.0340766906738,
+        -115.421760559082
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.3780212402344,
+        24.0340766906738,
+        -113.781761169434
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.5306282043457,
+        24.0340766906738,
+        -113.781761169434
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.3780212402344,
+        24.0340766906738,
+        -115.421760559082
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.5306282043457,
+        24.0340766906738,
+        -115.421760559082
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.2921485900879,
+        24.0340766906738,
+        -113.781761169434
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.4447593688965,
+        24.0340766906738,
+        -113.781761169434
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.2921485900879,
+        24.0340766906738,
+        -115.421760559082
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.4447593688965,
+        24.0340766906738,
+        -115.421760559082
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        27.9498901367188,
+        23.9850006103516,
+        -99.4000015258789
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        31.5498886108398,
+        23.9850006103516,
+        -119.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        29.7498893737793,
+        23.9850006103516,
+        -119.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        27.9498882293701,
+        23.9850006103516,
+        -119.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.1498889923096,
+        23.9850006103516,
+        -119.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        24.3498878479004,
+        23.9850006103516,
+        -119.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        31.5498886108398,
+        23.9850006103516,
+        -117.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        29.7498893737793,
+        23.9850006103516,
+        -117.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        27.9498882293701,
+        23.9850006103516,
+        -117.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.1498889923096,
+        23.9850006103516,
+        -117.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        24.3498878479004,
+        23.9850006103516,
+        -117.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        31.5498886108398,
+        23.9850006103516,
+        -115.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        29.7498893737793,
+        23.9850006103516,
+        -115.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        27.9498882293701,
+        23.9850006103516,
+        -115.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.1498889923096,
+        23.9850006103516,
+        -115.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        24.3498878479004,
+        23.9850006103516,
+        -115.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        31.5498886108398,
+        23.9850006103516,
+        -113.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        29.7498893737793,
+        23.9850006103516,
+        -113.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        27.9498882293701,
+        23.9850006103516,
+        -113.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.1498889923096,
+        23.9850006103516,
+        -113.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        24.349889755249,
+        23.9850006103516,
+        -113.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        31.5498886108398,
+        23.9850006103516,
+        -111.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        29.7498893737793,
+        23.9850006103516,
+        -111.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        27.9498882293701,
+        23.9850006103516,
+        -111.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.1498889923096,
+        23.9850006103516,
+        -111.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        24.349889755249,
+        23.9850006103516,
+        -111.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        31.5498886108398,
+        23.9850006103516,
+        -109.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        29.7498893737793,
+        23.9850006103516,
+        -109.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        27.9498901367188,
+        23.9850006103516,
+        -109.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.1498889923096,
+        23.9850006103516,
+        -109.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        24.349889755249,
+        23.9850006103516,
+        -109.430000305176
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -68.7499923706055,
+        35.6744155883789,
+        -157.101989746094
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -66.3999938964844,
+        35.6744155883789,
+        -157.101989746094
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -64.0499954223633,
+        35.6744155883789,
+        -157.101989746094
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -68.7499923706055,
+        35.6744155883789,
+        -151.491989135742
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -66.3999938964844,
+        35.6744155883789,
+        -151.491989135742
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -64.0499954223633,
+        35.6744155883789,
+        -151.491989135742
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -68.7499923706055,
+        35.6744155883789,
+        -145.881988525391
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -66.3999938964844,
+        35.6744155883789,
+        -145.881988525391
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -64.0499954223633,
+        35.6744155883789,
+        -145.881988525391
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -59.1499977111816,
+        35.6744155883789,
+        -157.101989746094
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -56.7999992370605,
+        35.6744155883789,
+        -157.101989746094
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -54.4500007629395,
+        35.6744155883789,
+        -157.101989746094
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -59.1499977111816,
+        35.6744155883789,
+        -151.491989135742
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -56.7999992370605,
+        35.6744155883789,
+        -151.491989135742
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -54.4500007629395,
+        35.6744155883789,
+        -151.491989135742
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -59.1499977111816,
+        35.6744155883789,
+        -145.881988525391
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -56.7999992370605,
+        35.6744155883789,
+        -145.881988525391
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -54.4500007629395,
+        35.6744155883789,
+        -145.881988525391
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0499992370605,
+        35.6744155883789,
+        -157.101989746094
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -47.7000007629395,
+        35.6744155883789,
+        -157.101989746094
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -45.3500022888184,
+        35.6744155883789,
+        -157.101989746094
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0499992370605,
+        35.6744155883789,
+        -151.491989135742
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -47.7000007629395,
+        35.6744155883789,
+        -151.491989135742
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -45.3500022888184,
+        35.6744155883789,
+        -151.491989135742
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0499992370605,
+        35.6744155883789,
+        -145.881988525391
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -47.7000007629395,
+        35.6744155883789,
+        -145.881988525391
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -45.3500022888184,
+        35.6744155883789,
+        -145.881988525391
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -33.054500579834,
+        35.6744155883789,
+        -157.101989746094
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.7045001983643,
+        35.6744155883789,
+        -157.101989746094
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -28.3544998168945,
+        35.6744155883789,
+        -157.101989746094
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -33.054500579834,
+        35.6744155883789,
+        -151.491989135742
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.7045001983643,
+        35.6744155883789,
+        -151.491989135742
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -28.3544998168945,
+        35.6744155883789,
+        -151.491989135742
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -33.054500579834,
+        35.6744155883789,
+        -145.881988525391
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.7045001983643,
+        35.6744155883789,
+        -145.881988525391
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -28.3544998168945,
+        35.6744155883789,
+        -145.881988525391
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        46.8499984741211,
+        35.6744155883789,
+        -156.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.8499984741211,
+        35.6744155883789,
+        -156.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        56.8499984741211,
+        35.6744155883789,
+        -156.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        46.8499984741211,
+        35.6744155883789,
+        -150.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.8499984741211,
+        35.6744155883789,
+        -150.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        56.8499984741211,
+        35.6744155883789,
+        -150.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.8499984741211,
+        35.6744155883789,
+        -143.820007324219
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.8499984741211,
+        35.6744155883789,
+        -146.619995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.8499984741211,
+        35.6744155883789,
+        -146.619995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.8499984741211,
+        35.6744155883789,
+        -146.619995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        65.3099975585938,
+        35.6744155883789,
+        -155.820007324219
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        65.3099975585938,
+        35.6744155883789,
+        -147.820007324219
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -82.3243865966797,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -79.9243850708008,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -77.5243835449219,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -82.3243865966797,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -79.9243850708008,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -77.5243835449219,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -73.3705749511719,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -70.970573425293,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -68.5705718994141,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -73.3705749511719,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -70.970573425293,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -68.5705718994141,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -64.9141998291016,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -62.5141983032227,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -60.1141967773438,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -64.9141998291016,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -62.5141983032227,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -60.1141967773438,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.7373466491699,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.337345123291,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -45.9373435974121,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.7373466491699,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.337345123291,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -45.9373435974121,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.0373916625977,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -38.6373901367188,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -36.2373886108398,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.0373916625977,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -38.6373901367188,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -36.2373886108398,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.5810165405273,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.1810169219971,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -27.7810173034668,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.5810165405273,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.1810169219971,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -27.7810173034668,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -23.1297779083252,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -20.7297782897949,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -18.3297786712646,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -23.1297779083252,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -20.7297782897949,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -18.3297786712646,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -12.8951988220215,
+        35.6744155883789,
+        -81.9549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -7.67214584350586,
+        35.6744155883789,
+        -81.9549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -12.8951988220215,
+        35.6744155883789,
+        -78.5549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -7.67214584350586,
+        35.6744155883789,
+        -78.5549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -1.98884963989258,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        0.411150455474854,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        2.81115055084229,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -1.98884963989258,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        0.411150455474854,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        2.81115055084229,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        8.95469093322754,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        11.3546905517578,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        13.7546901702881,
+        35.6744155883789,
+        -82.4549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        8.95469093322754,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        11.3546905517578,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        13.7546901702881,
+        35.6744155883789,
+        -79.0549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        21.2879638671875,
+        35.6744155883789,
+        -81.9549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        27.2879638671875,
+        35.6744155883789,
+        -81.9549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        21.2879638671875,
+        35.6744155883789,
+        -78.5549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        27.2879638671875,
+        35.6744155883789,
+        -78.5549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        34.4853553771973,
+        35.6744155883789,
+        -81.9549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.9571266174316,
+        35.6744155883789,
+        -81.9549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        34.4853553771973,
+        35.6744155883789,
+        -78.5549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.9571266174316,
+        35.6744155883789,
+        -78.5549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        54.6160202026367,
+        35.6744155883789,
+        -81.9549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        60.6160202026367,
+        35.6744155883789,
+        -81.9549179077148
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        54.6160202026367,
+        35.6744155883789,
+        -78.5549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        60.6160202026367,
+        35.6744155883789,
+        -78.5549240112305
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        72.7236175537109,
+        35.6744155883789,
+        -79.6049194335938
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        72.7236175537109,
+        35.6744155883789,
+        -82.6049194335938
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        74.6236190795898,
+        35.6744155883789,
+        -82.6049194335938
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        76.4236221313477,
+        35.6744155883789,
+        -82.6049194335938
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        78.3236236572266,
+        35.6744155883789,
+        -82.6049194335938
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -66.2369995117188,
+        35.6744155883789,
+        -116.399269104004
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -63.8869972229004,
+        35.6744155883789,
+        -116.399269104004
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -61.5369987487793,
+        35.6744155883789,
+        -116.399269104004
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -66.2369995117188,
+        35.6744155883789,
+        -110.16764831543
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -63.8869972229004,
+        35.6744155883789,
+        -110.16764831543
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -61.5369987487793,
+        35.6744155883789,
+        -110.16764831543
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -66.2369995117188,
+        35.6744155883789,
+        -103.93603515625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -63.8869972229004,
+        35.6744155883789,
+        -103.93603515625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -61.5369987487793,
+        35.6744155883789,
+        -103.93603515625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.765998840332,
+        35.6744155883789,
+        -116.399269104004
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.4160003662109,
+        35.6744155883789,
+        -116.399269104004
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -49.0660018920898,
+        35.6744155883789,
+        -116.399269104004
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.765998840332,
+        35.6744155883789,
+        -110.16764831543
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.4160003662109,
+        35.6744155883789,
+        -110.16764831543
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -49.0660018920898,
+        35.6744155883789,
+        -110.16764831543
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.765998840332,
+        35.6744155883789,
+        -103.93603515625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.4160003662109,
+        35.6744155883789,
+        -103.93603515625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -49.0660018920898,
+        35.6744155883789,
+        -103.93603515625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.1509971618652,
+        35.6744155883789,
+        -116.399269104004
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -38.8009986877441,
+        35.6744155883789,
+        -116.399269104004
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -36.451000213623,
+        35.6744155883789,
+        -116.399269104004
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.1509971618652,
+        35.6744155883789,
+        -110.16764831543
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -38.8009986877441,
+        35.6744155883789,
+        -110.16764831543
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -36.451000213623,
+        35.6744155883789,
+        -110.16764831543
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -41.1509971618652,
+        35.6744155883789,
+        -103.93603515625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -38.8009986877441,
+        35.6744155883789,
+        -103.93603515625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -36.451000213623,
+        35.6744155883789,
+        -103.93603515625
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -65.33349609375,
+        47.9748497009277,
+        -86.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -63.83349609375,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -65.33349609375,
+        47.9748497009277,
+        -89.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -66.83349609375,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.3334999084473,
+        47.9748497009277,
+        -86.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.8334999084473,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.3334999084473,
+        47.9748497009277,
+        -89.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -49.8334999084473,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -12.3334999084473,
+        47.9748497009277,
+        -86.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -10.8334999084473,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -12.3334999084473,
+        47.9748497009277,
+        -89.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -13.8334999084473,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -0.333499908447266,
+        47.9748497009277,
+        -86.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        1.16650009155273,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -0.333499908447266,
+        47.9748497009277,
+        -89.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -1.83349990844727,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        11.6665000915527,
+        47.9748497009277,
+        -86.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        13.1665000915527,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        11.6665000915527,
+        47.9748497009277,
+        -89.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        10.1665000915527,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        47.6665000915527,
+        47.9748497009277,
+        -86.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.1665000915527,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        47.6665000915527,
+        47.9748497009277,
+        -89.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        46.1665000915527,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        64.66650390625,
+        47.9748497009277,
+        -86.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        66.16650390625,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        64.66650390625,
+        47.9748497009277,
+        -89.5
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        63.16650390625,
+        47.9748497009277,
+        -88.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        60.1849517822266,
+        -159.949996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        60.1849517822266,
+        -159.949996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        60.1849517822266,
+        -159.949996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        60.1849517822266,
+        -159.949996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        60.1849517822266,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        60.1849517822266,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        60.1849517822266,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        60.1849517822266,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.5,
+        60.1849517822266,
+        -147.150009155273
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        22.8999996185303,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        24.7000007629395,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.5,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        28.2999992370605,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        30.1000003814697,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        22.8999996185303,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        24.7000007629395,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.5,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        28.2999992370605,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        30.1000003814697,
+        60.1849517822266,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -23.0,
+        60.1849517822266,
+        -144.75
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -23.8999996185303,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -22.1000003814697,
+        60.1849517822266,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -13.4499998092651,
+        60.1849517822266,
+        -142.600006103516
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -12.5500001907349,
+        60.1849517822266,
+        -144.199996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -13.4499998092651,
+        60.1849517822266,
+        -139.800003051758
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -12.5500001907349,
+        60.1849517822266,
+        -141.399993896484
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        12.5500001907349,
+        60.1849517822266,
+        -142.600006103516
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        13.4499998092651,
+        60.1849517822266,
+        -144.199996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        12.5500001907349,
+        60.1849517822266,
+        -139.800003051758
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        13.4499998092651,
+        60.1849517822266,
+        -141.399993896484
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -67.8499984741211,
+        60.1849517822266,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -43.8499984741211,
+        60.1849517822266,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -23.8500003814697,
+        60.1849517822266,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        22.1499996185303,
+        60.1849517822266,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        45.1500015258789,
+        60.1849517822266,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        67.1500015258789,
+        60.1849517822266,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -79.5,
+        60.1849517822266,
+        -140.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -74.5,
+        60.1849517822266,
+        -140.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        74.5,
+        60.1849517822266,
+        -140.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        79.5,
+        60.1849517822266,
+        -140.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        71.9686279296875,
+        -159.949996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        71.9686279296875,
+        -159.949996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        71.9686279296875,
+        -159.949996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        71.9686279296875,
+        -159.949996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        71.9686279296875,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        71.9686279296875,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        71.9686279296875,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        71.9686279296875,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.5,
+        71.9686279296875,
+        -147.150009155273
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        22.8999996185303,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        24.7000007629395,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.5,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        28.2999992370605,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        30.1000003814697,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        22.8999996185303,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        24.7000007629395,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.5,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        28.2999992370605,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        30.1000003814697,
+        71.9686279296875,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -23.0,
+        71.9686279296875,
+        -144.75
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -23.8999996185303,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -22.1000003814697,
+        71.9686279296875,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -13.4499998092651,
+        71.9686279296875,
+        -142.600006103516
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -12.5500001907349,
+        71.9686279296875,
+        -144.199996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -13.4499998092651,
+        71.9686279296875,
+        -139.800003051758
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -12.5500001907349,
+        71.9686279296875,
+        -141.399993896484
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        12.5500001907349,
+        71.9686279296875,
+        -142.600006103516
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        13.4499998092651,
+        71.9686279296875,
+        -144.199996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        12.5500001907349,
+        71.9686279296875,
+        -139.800003051758
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        13.4499998092651,
+        71.9686279296875,
+        -141.399993896484
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -67.8499984741211,
+        71.9686279296875,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -43.8499984741211,
+        71.9686279296875,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -23.8500003814697,
+        71.9686279296875,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        22.1499996185303,
+        71.9686279296875,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        45.1500015258789,
+        71.9686279296875,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        67.1500015258789,
+        71.9686279296875,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -79.5,
+        71.9686279296875,
+        -140.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -74.5,
+        71.9686279296875,
+        -140.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        74.5,
+        71.9686279296875,
+        -140.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        79.5,
+        71.9686279296875,
+        -140.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        83.9400024414063,
+        -159.949996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -53.5999984741211,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -51.7999992370605,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -50.0,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -48.2000007629395,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -46.4000015258789,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        83.9400024414063,
+        -159.949996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -37.5999984741211,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -35.7999992370605,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -34.0,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -32.2000007629395,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -30.3999996185303,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        83.9400024414063,
+        -159.949996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        35.6500015258789,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        37.4500007629395,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        39.25,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        41.0499992370605,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        42.8499984741211,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        83.9400024414063,
+        -159.949996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        83.9400024414063,
+        -144.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        83.9400024414063,
+        -146.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        83.9400024414063,
+        -148.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        48.1500015258789,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        49.9500007629395,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        51.75,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        53.5499992370605,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        55.3499984741211,
+        83.9400024414063,
+        -150.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.5,
+        83.9400024414063,
+        -147.150009155273
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        22.8999996185303,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        24.7000007629395,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.5,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        28.2999992370605,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        30.1000003814697,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        22.8999996185303,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        24.7000007629395,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        26.5,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        28.2999992370605,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        30.1000003814697,
+        83.9400024414063,
+        -142.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -23.0,
+        83.9400024414063,
+        -144.75
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -23.8999996185303,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -22.1000003814697,
+        83.9400024414063,
+        -140.419998168945
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -13.4499998092651,
+        83.9400024414063,
+        -142.600006103516
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -12.5500001907349,
+        83.9400024414063,
+        -144.199996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -13.4499998092651,
+        83.9400024414063,
+        -139.800003051758
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -12.5500001907349,
+        83.9400024414063,
+        -141.399993896484
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        12.5500001907349,
+        83.9400024414063,
+        -142.600006103516
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        13.4499998092651,
+        83.9400024414063,
+        -144.199996948242
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        12.5500001907349,
+        83.9400024414063,
+        -139.800003051758
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        13.4499998092651,
+        83.9400024414063,
+        -141.399993896484
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -67.8499984741211,
+        83.9400024414063,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -43.8499984741211,
+        83.9400024414063,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -23.8500003814697,
+        83.9400024414063,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        22.1499996185303,
+        83.9400024414063,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        45.1500015258789,
+        83.9400024414063,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        67.1500015258789,
+        83.9400024414063,
+        -123.369995117188
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -79.5,
+        83.9400024414063,
+        -140.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        -74.5,
+        83.9400024414063,
+        -140.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        74.5,
+        83.9400024414063,
+        -140.0
+      ]
+    },
+    {
+      "group": "campus_chair",
+      "name": "RecogerSilla",
+      "position": [
+        79.5,
+        83.9400024414063,
+        -140.0
+      ]
+    },
+    {
+      "group": "computer",
+      "name": "pc_intro",
+      "position": [
+        -5.0,
+        0.119999997317791,
+        -8.0
+      ]
+    },
+    {
+      "group": "computer",
+      "name": "pc3",
+      "position": [
+        25.0,
+        24.0876693725586,
+        -143.0
+      ]
+    },
+    {
+      "group": "computer",
+      "name": "pc4",
+      "position": [
+        25.0,
+        35.7944145202637,
+        -143.0
+      ]
+    },
+    {
+      "group": "computer",
+      "name": "pc5",
+      "position": [
+        25.0,
+        48.0948486328125,
+        -143.0
+      ]
+    },
+    {
+      "group": "computer",
+      "name": "pc6",
+      "position": [
+        35.0,
+        60.2785034179688,
+        -133.0
+      ]
+    },
+    {
+      "group": "computer",
+      "name": "pc7",
+      "position": [
+        35.0,
+        72.0621871948242,
+        -133.0
+      ]
+    },
+    {
+      "group": "computer",
+      "name": "pc8",
+      "position": [
+        37.0,
+        84.0335540771484,
+        -133.0
+      ]
+    },
+    {
+      "group": "computer",
+      "name": "pc_secreto",
+      "position": [
+        -40.0,
+        -11.9383859634399,
+        -141.0
+      ]
+    }
+  ],
+  "qa": {
+    "errors": [],
+    "geometry_modified": false,
+    "manual_review": [
+      "Check credential source and physical route: acceso7",
+      "Stairs, door connectivity and arena exits require an in-game traversal; no automatic geometry repair"
+    ],
+    "navigation": [
+      {
+        "exists": true,
+        "path": "GameplayManager/Player"
+      },
+      {
+        "exists": true,
+        "path": "SistemasCompartidos/AscensoresEstudiantiles"
+      },
+      {
+        "exists": true,
+        "path": "Piso1"
+      },
+      {
+        "exists": true,
+        "path": "Piso2"
+      },
+      {
+        "exists": true,
+        "path": "Piso3"
+      },
+      {
+        "exists": true,
+        "path": "Piso4"
+      },
+      {
+        "exists": true,
+        "path": "Piso5"
+      },
+      {
+        "exists": true,
+        "path": "Piso6"
+      },
+      {
+        "exists": true,
+        "path": "Piso7"
+      },
+      {
+        "exists": true,
+        "path": "Piso8"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/CampusCampaign/CheckpointEntrada",
+        "position": "(0.0, 0.2, -4.0)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/CampusCampaign/CheckpointBiblioteca",
+        "position": "(-40.0, 12.15839, -114.0)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/CampusCampaign/CheckpointCasino",
+        "position": "(-40.0, 0.165, -102.0)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/CampusCampaign/CheckpointPiso4",
+        "position": "(20.0, 35.77441, -143.0)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/CampusCampaign/CheckpointPiso8",
+        "position": "(25.0, 84.04, -131.0)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/CampusCampaign/CheckpointSubterráneo",
+        "position": "(25.0, -11.95839, -143.0)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/Piso1/SalaAyudaEstudiantil/BossAyudaEstudiantil/BossDuelController",
+        "position": "(-42.0, 0.0, -144.0)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/Piso1/Casino/ChefSupremoCasino/BossDuelController",
+        "position": "(-73.0, 0.12, -102.5)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/Piso2/Biblioteca/BossBibliotecaria/BossDuelController",
+        "position": "(-61.5, 12.10839, -115.5)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/Piso3/EncuentroProfesorRedes/ProfesorRedes/BossDuelController",
+        "position": "(65.0, 24.00767, -145.0)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/Piso8/EncuentroDirectorInformatica/DirectorInformaticaBoss/BossDuelController",
+        "position": "(64.0, 84.06, -131.0)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/Exterior/Caseta/PuestoRegistro/GuardiaRegistro",
+        "position": "(-8.445356, 0.1, -31.52517)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/Exterior/EntradaReferenciaDuoc/GuardiasTorniquetes/Guardia1",
+        "position": "(12.54333, 0.1, -25.0)"
+      },
+      {
+        "ground_check": "existing placement validator/manual route",
+        "path": "/root/Main/Exterior/EntradaReferenciaDuoc/GuardiasTorniquetes/Guardia2",
+        "position": "(-6.524999, 0.100836, -35.0)"
+      }
+    ],
+    "registered_ids": 94
+  },
+  "quests": [
+    {
+      "id": "inicio",
+      "main": true,
+      "prerequisite": "",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "punto",
+          "kind": "talk",
+          "text": "Habla con Punto Estudiantil"
+        },
+        {
+          "amount": 1,
+          "id": "*",
+          "kind": "collect",
+          "text": "Recoge tu primer objeto"
+        },
+        {
+          "amount": 1,
+          "id": "pc_intro",
+          "kind": "computer",
+          "text": "Completa el computador inicial"
+        },
+        {
+          "amount": 1,
+          "id": "punto",
+          "kind": "boss",
+          "text": "Derrota al Encargado"
+        },
+        {
+          "amount": 1,
+          "id": "chef",
+          "kind": "boss",
+          "text": "Habla y vence al Chef"
+        }
+      ],
+      "reward": {
+        "credits": 60,
+        "unlock": "2",
+        "xp": 100
+      },
+      "title": "Primer día"
+    },
+    {
+      "id": "biblioteca",
+      "main": true,
+      "prerequisite": "inicio",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "2",
+          "kind": "floor",
+          "text": "Visita la biblioteca"
+        },
+        {
+          "amount": 3,
+          "id": "LibroBiblioteca",
+          "kind": "collect",
+          "text": "Busca tres libros"
+        },
+        {
+          "amount": 1,
+          "id": "bibliotecaria",
+          "kind": "boss",
+          "text": "Supera el duelo de preguntas"
+        }
+      ],
+      "reward": {
+        "credits": 60,
+        "unlock": "3",
+        "xp": 120
+      },
+      "title": "La guardiana del conocimiento"
+    },
+    {
+      "id": "academico3",
+      "main": true,
+      "prerequisite": "biblioteca",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "3",
+          "kind": "floor",
+          "text": "Llega al piso 3"
+        },
+        {
+          "amount": 1,
+          "id": "pc3",
+          "kind": "computer",
+          "text": "Resuelve el desafío académico"
+        }
+      ],
+      "reward": {
+        "credits": 40,
+        "unlock": "4",
+        "xp": 80
+      },
+      "title": "Etapa académica · Piso 3"
+    },
+    {
+      "id": "academico4",
+      "main": true,
+      "prerequisite": "academico3",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "4",
+          "kind": "floor",
+          "text": "Llega al piso 4"
+        },
+        {
+          "amount": 1,
+          "id": "pc4",
+          "kind": "computer",
+          "text": "Resuelve el desafío académico"
+        }
+      ],
+      "reward": {
+        "credits": 40,
+        "unlock": "5",
+        "xp": 80
+      },
+      "title": "Etapa académica · Piso 4"
+    },
+    {
+      "id": "academico5",
+      "main": true,
+      "prerequisite": "academico4",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "5",
+          "kind": "floor",
+          "text": "Llega al piso 5"
+        },
+        {
+          "amount": 1,
+          "id": "pc5",
+          "kind": "computer",
+          "text": "Resuelve el desafío académico"
+        }
+      ],
+      "reward": {
+        "credits": 40,
+        "unlock": "6",
+        "xp": 80
+      },
+      "title": "Etapa académica · Piso 5"
+    },
+    {
+      "id": "seguridad6",
+      "main": true,
+      "prerequisite": "academico5",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "pc6",
+          "kind": "computer",
+          "text": "Completa el desafío de seguridad"
+        }
+      ],
+      "reward": {
+        "credits": 60,
+        "unlock": "7",
+        "xp": 100
+      },
+      "title": "Práctica avanzada"
+    },
+    {
+      "id": "acceso7",
+      "main": true,
+      "prerequisite": "seguridad6",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "acceso7",
+          "kind": "door",
+          "text": "Abre el acceso restringido del Piso 7"
+        },
+        {
+          "amount": 1,
+          "id": "pc7",
+          "kind": "computer",
+          "text": "Completa el computador del Piso 7"
+        }
+      ],
+      "reward": {
+        "credits": 80,
+        "unlock": "8",
+        "xp": 120
+      },
+      "title": "Acceso restringido"
+    },
+    {
+      "id": "direccion",
+      "main": true,
+      "prerequisite": "acceso7",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "pc8",
+          "kind": "computer",
+          "text": "Resuelve el desafío tecnológico"
+        },
+        {
+          "amount": 1,
+          "id": "director",
+          "kind": "boss",
+          "text": "Habla y vence al Director"
+        }
+      ],
+      "reward": {
+        "credits": 150,
+        "unlock": "S",
+        "xp": 250
+      },
+      "title": "Modo Administrador"
+    },
+    {
+      "id": "postgame",
+      "main": true,
+      "prerequisite": "direccion",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "archivo_subterraneo",
+          "kind": "secret",
+          "text": "Encuentra el archivo del subterráneo"
+        }
+      ],
+      "reward": {
+        "credits": 100,
+        "xp": 200
+      },
+      "title": "Archivos del subterráneo"
+    },
+    {
+      "id": "llaves",
+      "main": false,
+      "prerequisite": "",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "llaves",
+          "kind": "deliver",
+          "text": "Entrega las llaves al auxiliar"
+        }
+      ],
+      "reward": {
+        "credits": 25,
+        "items": {
+          "Botiquin": 1
+        },
+        "xp": 40
+      },
+      "title": "Las llaves perdidas"
+    },
+    {
+      "id": "cargador",
+      "main": false,
+      "prerequisite": "",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "cargador",
+          "kind": "deliver",
+          "text": "Entrega el cargador"
+        }
+      ],
+      "reward": {
+        "credits": 20,
+        "items": {
+          "BebidaEnergetica": 1
+        },
+        "xp": 30
+      },
+      "title": "El cargador"
+    },
+    {
+      "id": "documentos",
+      "main": false,
+      "prerequisite": "",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "documentos",
+          "kind": "deliver",
+          "text": "Entrega los documentos"
+        }
+      ],
+      "reward": {
+        "credits": 40,
+        "items": {
+          "TarjetaAcceso": 1
+        },
+        "xp": 70
+      },
+      "title": "Documentos importantes"
+    },
+    {
+      "id": "implementos",
+      "main": false,
+      "prerequisite": "",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "implementos",
+          "kind": "deliver",
+          "text": "Devuelve los tres implementos"
+        }
+      ],
+      "reward": {
+        "credits": 35,
+        "items": {
+          "PaletaPingPong": 1
+        },
+        "xp": 50
+      },
+      "title": "Implementos perdidos"
+    },
+    {
+      "id": "infectado",
+      "main": false,
+      "prerequisite": "",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "pc3",
+          "kind": "computer",
+          "text": "Elimina los virus"
+        }
+      ],
+      "reward": {
+        "credits": 30,
+        "items": {
+          "USBInfectado": 1
+        },
+        "xp": 50
+      },
+      "title": "Computador infectado"
+    },
+    {
+      "id": "casino",
+      "main": false,
+      "prerequisite": "",
+      "requirements": [
+        {
+          "amount": 1,
+          "id": "chef",
+          "kind": "duel_started",
+          "text": "Inicia el duelo con el Chef"
+        }
+      ],
+      "reward": {
+        "credits": 15,
+        "xp": 25
+      },
+      "title": "Ayuda en el casino"
+    }
+  ],
+  "scan_mean_us": 591.46,
+  "telemetry_enabled": false,
+  "weapons": [
+    {
+      "id": "Palo",
+      "stats": {
+        "damage": 22.0,
+        "durability": 14,
+        "name": "Palo",
+        "reach": 1.9,
+        "swing_time": 0.6
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "Silla",
+      "stats": {
+        "damage": 34.0,
+        "durability": 4,
+        "name": "Silla",
+        "reach": 1.7,
+        "swing_time": 0.75
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "Bate",
+      "stats": {
+        "damage": 30.0,
+        "durability": 12,
+        "name": "Bate de béisbol",
+        "reach": 2.2,
+        "swing_time": 0.65
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "Raqueta",
+      "stats": {
+        "damage": 24.0,
+        "durability": 10,
+        "name": "Raqueta de tenis",
+        "reach": 2.1,
+        "swing_time": 0.55
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "PelotaBasquetbol",
+      "stats": {
+        "damage": 18.0,
+        "durability": 16,
+        "name": "Pelota de básquetbol",
+        "reach": 1.8,
+        "swing_time": 0.5
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "PelotaBeisbol",
+      "stats": {
+        "damage": 20.0,
+        "durability": 16,
+        "name": "Pelota de béisbol",
+        "reach": 1.7,
+        "swing_time": 0.45
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "PelotaTenis",
+      "stats": {
+        "damage": 14.0,
+        "durability": 16,
+        "name": "Pelota de tenis",
+        "reach": 1.7,
+        "swing_time": 0.4
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "PelotaFutbol",
+      "stats": {
+        "damage": 20.0,
+        "durability": 16,
+        "name": "Pelota de fútbol",
+        "reach": 1.8,
+        "swing_time": 0.5
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "PelotaRugby",
+      "stats": {
+        "damage": 22.0,
+        "durability": 14,
+        "name": "Pelota de rugby",
+        "reach": 1.8,
+        "swing_time": 0.55
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "Disco",
+      "stats": {
+        "damage": 18.0,
+        "durability": 14,
+        "name": "Disco volador",
+        "reach": 1.8,
+        "swing_time": 0.45
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "PaletaPingPong",
+      "stats": {
+        "damage": 20.0,
+        "durability": 22,
+        "source": "res://scripts/inventory/paleta_ping_pong.gd",
+        "swing_time": 0.48
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "Escoba",
+      "stats": {
+        "damage": 24.0,
+        "durability": 30,
+        "swing": 0.7,
+        "tech_bonus": 1.0,
+        "throwable": false
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "Bandeja",
+      "stats": {
+        "damage": 30.8,
+        "durability": 28,
+        "swing": 0.7,
+        "tech_bonus": 1.0,
+        "throwable": true
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "LibroPesado",
+      "stats": {
+        "damage": 33.0,
+        "durability": 25,
+        "swing": 0.7,
+        "tech_bonus": 1.0,
+        "throwable": false
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "Herramienta",
+      "stats": {
+        "damage": 37.4,
+        "durability": 31,
+        "swing": 0.7,
+        "tech_bonus": 1.0,
+        "throwable": false
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "Teclado",
+      "stats": {
+        "damage": 40.0,
+        "durability": 32,
+        "swing": 0.7,
+        "tech_bonus": 1.0,
+        "throwable": false
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "NotebookRoto",
+      "stats": {
+        "damage": 50.0,
+        "durability": 25,
+        "swing": 0.7,
+        "tech_bonus": 1.0,
+        "throwable": false
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "Cable",
+      "stats": {
+        "damage": 26.4,
+        "durability": 36,
+        "swing": 0.7,
+        "tech_bonus": 1.0,
+        "throwable": false
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "LlaveInglesa",
+      "stats": {
+        "damage": 55.0,
+        "durability": 44,
+        "swing": 0.7,
+        "tech_bonus": 1.0,
+        "throwable": false
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "ExtintorDorado",
+      "stats": {
+        "damage": 67.2,
+        "durability": 63,
+        "swing": 0.7,
+        "tech_bonus": 1.0,
+        "throwable": false
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "BandejaDelChef",
+      "stats": {
+        "damage": 58.8,
+        "durability": 56,
+        "swing": 0.7,
+        "tech_bonus": 1.0,
+        "throwable": true
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "PaletaProfesional",
+      "stats": {
+        "damage": 39.2,
+        "durability": 54,
+        "swing": 0.45,
+        "tech_bonus": 1.0,
+        "throwable": true
+      },
+      "weight": "not_defined"
+    },
+    {
+      "id": "TecladoAdministrador",
+      "stats": {
+        "damage": 58.8,
+        "durability": 56,
+        "swing": 0.7,
+        "tech_bonus": 1.35,
+        "throwable": false
+      },
+      "weight": "not_defined"
+    }
+  ]
+}

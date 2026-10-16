@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/live/live_config.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/live/library_study.tres" id="2"]
+[resource]
+script = ExtResource("1")
+minimum_gap = 90.0
+maximum_gap = 240.0
+combat_grace = 25.0
+maximum_events = 1
+rare_probability = 0.025
+reward_budget = 24
+event_resources = Array[Resource]([ExtResource("2")])

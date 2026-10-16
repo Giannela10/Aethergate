@@ -25,16 +25,17 @@ func scan() -> void:
 	var best := INF
 	for group in ["campus_interactable","stationery_vendor","inventory_pickup","weapon_pickup","computer"]:
 		for node in get_tree().get_nodes_in_group(group):
-			var priority: float = {"campus_interactable":0,"stationery_vendor":0,"inventory_pickup":1,"weapon_pickup":1,"computer":3}[group]
 			if not node is Node3D or node.is_queued_for_deletion():
 				continue
+			var delta_pos: Vector3 = node.global_position-player.global_position
+			if absf(delta_pos.y) > 2.8: continue
+			var priority: float = {"campus_interactable":0,"stationery_vendor":0,"inventory_pickup":1,"weapon_pickup":1,"computer":3}[group]
 			if node.has_method("interaction_priority"):
 				priority = node.interaction_priority()
 			var limit: float = node.interaction_range if node.get("interaction_range") != null else (4.5 if priority == 0 else (2.2 if group == "computer" else 1.8))
-			var delta_pos: Vector3 = node.global_position-player.global_position
-			var distance := delta_pos.length()
-			if distance > limit or absf(delta_pos.y) > 2.8 or not player._can_reach(node.interaction_target() if node.has_method("interaction_target") else node):
+			if delta_pos.length_squared() > limit*limit or not player._can_reach(node.interaction_target() if node.has_method("interaction_target") else node):
 				continue
+			var distance := delta_pos.length()
 			var text := ""
 			match group:
 				"campus_interactable": text = node.interaction_text(player)
