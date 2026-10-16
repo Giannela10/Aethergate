@@ -1,7 +1,7 @@
 class_name AppearanceMenu
 extends Node
 const Profile = preload("res://scripts/juego/character_appearance.gd")
-const LABELS = {"skin":"Tono de piel","hair":"Cabello","hair_color":"Color de cabello","top":"Polera / polerón","clothes":"Color de ropa","pants":"Pantalón","shoes":"Zapatillas","backpack":"Mochila","accessory":"Accesorio","outfit":"Cosmético"}
+const LABELS = {"skin":"Tono de piel","hair":"Cabello","hair_color":"Color de cabello","top":"Prenda superior","bottom_style":"Tipo de pantalón","shoe_style":"Tipo de calzado","backpack_color":"Color de mochila","head_accessory":"Accesorio de cabeza","clothes":"Color de ropa","pants":"Color de pantalón","shoes":"Color de calzado","backpack":"Mochila","accessory":"Accesorio","outfit":"Cosmético"}
 var campaign: Node
 var working := {}
 var allowed := {}
@@ -69,7 +69,7 @@ func open(new_game: bool = false) -> void:
 	var remove := Button.new()
 	remove.text = "Quitar accesorios, mochila y cosmético"
 	remove.pressed.connect(func():
-		for key in ["accessory","backpack","outfit"]:
+		for key in ["accessory","head_accessory","backpack","outfit"]:
 			_select(0,key)
 			selectors[key].select(0))
 	column.add_child(remove)

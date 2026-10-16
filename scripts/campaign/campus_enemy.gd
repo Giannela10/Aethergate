@@ -52,6 +52,7 @@ func _on_punch_landed(_side: int) -> void:
 			target.take_hit(direction.normalized(),melee_damage)
 
 func _physics_process(delta: float) -> void:
+	if get_meta("perception_sleep",false): return
 	shot_cd = maxf(0,shot_cd-delta)
 	if not dead and variant in ["DISTANCIA","TECNOLOGICO"] and state == State.CHASE and shot_cd <= 0 and is_instance_valid(target) and inside_arena(target.global_position):
 		var distance := global_position.distance_to(target.global_position)

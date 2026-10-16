@@ -58,6 +58,43 @@ var visual_far_distance := 35.0
 var cast_near_shadows := true
 var lod_tick := 0.0
 var lod_meshes: Array[Node] = []
+var activity_level := 0
+var visual_elapsed := 0.0
+var animation_delta := 0.0
+var face_applied := ""
+var eye_openness := -1.0
+var blink_timer: Timer
+static var shared_meshes: Dictionary = {}
+
+func set_activity_level(level: int) -> void:
+	var changed := activity_level != clampi(level,0,3)
+	activity_level = clampi(level,0,3)
+	if changed:
+		lod_tick = 0
+		update_visual_lod(0)
+	set_meta("visual_activity",["LOD0","LOD1","LOD2","SLEEP"][activity_level])
+	secondary_animation_enabled = activity_level == 0 and lod_level == 0
+	if is_instance_valid(blink_timer): blink_timer.paused = not secondary_animation_enabled or dead
+	if get("imported_visual") != null:
+		get("imported_visual").set_activity(activity_level)
+
+func animation_due(delta: float) -> bool:
+	update_visual_lod(delta)
+	visual_elapsed += delta
+	var player := get_tree().get_first_node_in_group("player")
+	var duel := get_parent().get_node_or_null("BossDuelController")
+	var critical: bool = (player != null and player.is_ancestor_of(self)) or (duel != null and duel.state in [duel.DuelState.INTRO,duel.DuelState.COMBAT]) or (dead and death_t < 1) or hurt_t > 0 or is_punching()
+	if get("imported_visual") != null: get("imported_visual").set_activity(0 if critical else activity_level)
+	if activity_level == 3 and not critical:
+		visual_elapsed = 0
+		return false
+	var interval: float = 0.0 if critical else [0.0,0.12,0.5,1.0][maxi(activity_level,lod_level)]
+	if visual_elapsed < interval: return false
+	# Explicit restore/death calls may advance a full second in one step.
+	# Only ambient catch-up is capped; critical gameplay timing stays intact.
+	animation_delta = visual_elapsed if critical else minf(visual_elapsed,0.5)
+	visual_elapsed = 0
+	return true
 
 func update_visual_lod(delta: float) -> void:
 	lod_tick -= delta
@@ -68,6 +105,7 @@ func update_visual_lod(delta: float) -> void:
 	var offset := global_position-player.global_position
 	var next_lod := 2 if absf(offset.y) > 4 or offset.length_squared() > visual_far_distance*visual_far_distance else (1 if offset.length_squared() > visual_near_distance*visual_near_distance else 0)
 	secondary_animation_enabled = next_lod == 0
+	if is_instance_valid(blink_timer): blink_timer.paused = not secondary_animation_enabled or dead
 	if lod_meshes.is_empty():
 		lod_meshes = find_children("*","MeshInstance3D",true,false)
 	if next_lod != lod_level:
@@ -77,7 +115,7 @@ func update_visual_lod(delta: float) -> void:
 				node.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_ON if lod_level == 0 and cast_near_shadows else GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 
 func set_expression(value: String) -> void:
-	if value in EXPRESSIONS:
+	if value in EXPRESSIONS and value != expression:
 		expression = value
 		set_meta("expression",value)
 
@@ -90,15 +128,16 @@ func _secondary_animation(delta: float) -> void:
 	if dead or not secondary_animation_enabled:
 		return
 	look_controller.apply(head_pivot,delta)
-	blink_wait -= delta
-	if blink_wait <= 0:
-		blink_time = 0.16
-		blink_wait = randf_range(2.8,6.5)
 	blink_time = maxf(0.0,blink_time-delta)
 	var openness := (1.0-sin(PI*blink_time/0.16)*0.95)*(0.7 if expression == "TIRED" else 1.0)
-	for eye in eyes:
-		if is_instance_valid(eye.mesh):
-			eye.mesh.scale.y = float(eye.height)*openness
+	if not is_equal_approx(openness,eye_openness):
+		eye_openness = openness
+		for eye in eyes:
+			if is_instance_valid(eye.mesh): eye.mesh.scale.y = float(eye.height)*openness
+	if face_applied == expression:
+		chest.rotation.z = hit_direction*hurt_t*0.13
+		return
+	face_applied = expression
 	for index in eyebrows.size():
 		var sign_value := -1.0 if index == 0 else 1.0
 		eyebrows[index].rotation.z = sign_value*(0.25 if expression in ["ANGRY","ALERT"] else (-0.18 if expression == "WORRIED" else 0.0))
@@ -149,7 +188,18 @@ var next_right := true
 
 
 func _ready() -> void:
+	add_to_group("campus_character_visual")
 	_build()
+	blink_timer = Timer.new()
+	blink_timer.name = "BlinkTimer"
+	blink_timer.one_shot = true
+	blink_timer.timeout.connect(_blink)
+	add_child(blink_timer)
+	blink_timer.start(blink_wait)
+
+func _blink() -> void:
+	if secondary_animation_enabled and not dead: blink_time = 0.16
+	blink_timer.start(randf_range(2.8,6.5))
 
 
 # =====================================================================
@@ -175,6 +225,15 @@ func _pivot(parent: Node3D, pos: Vector3) -> Node3D:
 
 func _node(parent: Node3D, mesh: Mesh, pos: Vector3, color: Color,
 		scl: Vector3, rough: float) -> MeshInstance3D:
+	# Primitive geometry is immutable after construction; materials stay per actor
+	# because damage flashes and customization mutate them.
+	var geometry_key := ""
+	if mesh is SphereMesh: geometry_key = str(["sphere",mesh.radius,mesh.height,mesh.radial_segments,mesh.rings])
+	elif mesh is CylinderMesh: geometry_key = str(["cylinder",mesh.top_radius,mesh.bottom_radius,mesh.height,mesh.radial_segments,mesh.rings])
+	elif mesh is BoxMesh: geometry_key = str(["box",mesh.size])
+	if not geometry_key.is_empty():
+		if shared_meshes.has(geometry_key): mesh = shared_meshes[geometry_key]
+		else: shared_meshes[geometry_key] = mesh
 	var mi := MeshInstance3D.new()
 	mi.mesh = mesh
 	mi.material_override = _mat(color, rough)
@@ -490,7 +549,10 @@ func _apply_leg(hip: Node3D, knee: Node3D, ankle: Node3D, p: Vector2) -> void:
 #  Animación principal (llamar cada frame desde el dueño)
 # =====================================================================
 func animate(delta: float, velocity: Vector3, on_floor: bool, crouching: bool) -> void:
-	update_visual_lod(delta)
+	if not animation_due(delta): return
+	_animate_pose(animation_delta,velocity,on_floor,crouching)
+
+func _animate_pose(delta: float, velocity: Vector3, on_floor: bool, crouching: bool) -> void:
 	if dead:
 		velocity = Vector3.ZERO
 		on_floor = true

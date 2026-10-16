@@ -7,6 +7,8 @@ var applied_window := ""
 var windowed_size := Vector2i(1152,648)
 var windowed_position := Vector2i.ZERO
 const QUALITIES := {"BAJO":{"near":9.0,"far":22.0,"shadows":false,"effects":false},"MEDIO":{"near":13.0,"far":30.0,"shadows":true,"effects":true},"ALTO":{"near":16.0,"far":35.0,"shadows":true,"effects":true}}
+const CHARACTER_QUALITY := {"ALTO":"CHARACTER_HIGH","MEDIO":"CHARACTER_MEDIUM","BAJO":"CHARACTER_LOW"}
+const SHADOW_DISTANCE := {"ALTO":40.0,"MEDIO":30.0,"BAJO":20.0}
 func _ready() -> void:
 	data.telemetry = hub.config.telemetry_enabled
 	if hub.campaign.persist and not hub.campaign.has_meta("test_mode"):
@@ -33,6 +35,10 @@ func save() -> void:
 	if result != OK: hub.campaign.ui.notify("No se pudieron guardar los ajustes: "+error_string(result))
 func apply() -> void:
 	Engine.max_fps = int(data.fps)
+	# Keep nearby sunlight shadows; the previous 100 m range rendered most floors
+	# into shadow maps. Controlled fixture ablation recorded in PERFORMANCE_PROFILE.
+	var sun := hub.campaign.get_parent().get_node_or_null("SistemasCompartidos/LuzExterior") as DirectionalLight3D
+	if sun != null: sun.directional_shadow_max_distance = SHADOW_DISTANCE[data.quality]
 	hub.localization.set_language(data.language)
 	hub.config.telemetry_enabled = data.telemetry
 	hub.reactive.effects_enabled = QUALITIES[data.quality].effects
@@ -74,6 +80,8 @@ func refresh_actors() -> void:
 			body.visual_near_distance = quality.near
 			body.visual_far_distance = quality.far
 			body.cast_near_shadows = quality.shadows
+			body.set_meta("character_quality",CHARACTER_QUALITY[data.quality])
+			if body.get("imported_visual") != null: body.imported_visual.set_quality(CHARACTER_QUALITY[data.quality])
 			var key := str(body.get_instance_id())
 			if known.get(key) == data.quality: continue
 			known[key] = data.quality

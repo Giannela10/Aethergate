@@ -1,0 +1,119 @@
+﻿{
+    "date":  "2026-10-16",
+    "engine":  "Godot 4.7.2",
+    "stage":  "OPTIMIZACIÓN + PERSONAJES REALISTAS 3.0",
+    "rendered_fixture":  "UpperCampusCheck: two Main loads, preview_boss profesor_ingles",
+    "before_fps_mean":  39.5,
+    "after_fps_mean":  65,
+    "historical_single_fps":  19,
+    "draw_calls_before_mean":  22055.5,
+    "draw_calls_after_mean":  8357,
+    "cpu_gpu_classification":  "DESCONOCIDO: evidence isolates shadow rendering, not CPU versus GPU",
+    "gpu_ms":  null,
+    "regressions":  {
+                        "characters3":  {
+                                            "checks":  23,
+                                            "failures":  [
+
+                                                         ]
+                                        },
+                        "personajes2":  {
+                                            "checks":  70,
+                                            "failures":  [
+
+                                                         ]
+                                        },
+                        "personalizacion":  {
+                                                "passed":  true
+                                            },
+                        "campaign_regression":  {
+                                                    "passed":  true
+                                                },
+                        "inventory_regression":  {
+                                                     "passed":  true
+                                                 },
+                        "gameplay_regression":  {
+                                                    "passed":  true
+                                                },
+                        "director_informatica_boss":  {
+                                                          "passed":  true
+                                                      },
+                        "chef_supremo_casino":  {
+                                                    "passed":  true,
+                                                    "hp":  350
+                                                },
+                        "campus_vivo":  {
+                                            "checks":  52,
+                                            "failures":  [
+
+                                                         ]
+                                        },
+                        "balance_regression":  {
+                                                   "checks":  20,
+                                                   "failures":  [
+
+                                                                ]
+                                               },
+                        "nueva_partida":  {
+                                              "passed":  true
+                                          },
+                        "nexo_final":  {
+                                           "checks":  111,
+                                           "failures":  [
+
+                                                        ]
+                                       },
+                        "contextual_interactions":  {
+                                                        "checks":  60,
+                                                        "failures":  [
+
+                                                                     ]
+                                                    },
+                        "revision_scripts":  {
+                                                 "failures":  [
+
+                                                              ],
+                                                 "checked":  237
+                                             },
+                        "performance_regression":  {
+                                                       "captured_windows_only":  true,
+                                                       "checks":  6,
+                                                       "failures":  [
+
+                                                                    ]
+                                                   },
+                        "campus_fixes":  {
+                                             "intentional_save_errors":  3,
+                                             "checks":  74,
+                                             "failures":  [
+
+                                                          ]
+                                         },
+                        "upper_campus":  {
+                                             "tool":  "godot-mcp-toolkit rendered fixture",
+                                             "checks":  104,
+                                             "failures":  [
+
+                                                          ]
+                                         }
+                    },
+    "models":  {
+                   "external_downloads":  0,
+                   "human_glb_found":  false,
+                   "synthetic_rig_contract_validated":  true,
+                   "real_human_pilot_validated":  false
+               },
+    "balance_hp":  {
+                       "english":  450,
+                       "ethics":  550,
+                       "chef":  350,
+                       "language":  500,
+                       "director":  700
+                   },
+    "manual":  "PENDIENTE DE PRUEBA MANUAL: nine floors, full duels, exterior shadow range, imported real human, alternate hardware",
+    "notes":  [
+                  "Intermediate campaign regression caught defeated pose restore; corrected and rerun passed",
+                  "Node/surface material counts do not equal visual draw-call counts",
+                  "No gameplay systems removed; pooling not introduced without bottleneck evidence"
+              ]
+}

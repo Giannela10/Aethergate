@@ -6,6 +6,10 @@ extends Control
 signal completed
 
 var TOTAL := 6    # archivos a ordenar
+var instructions := "Guarda cada archivo en su carpeta.\nFíjate en la extensión: lo que va después del punto."
+var category_hint := ""
+var progress_caption := "Archivos ordenados"
+var wrong_answer := "Esa no es. Mira la extensión y los ejemplos de cada carpeta."
 
 var folders := [
 	{"name": "Imágenes", "hint": ".jpg  .png", "color": Color(0.23, 0.51, 0.96)},
@@ -52,7 +56,7 @@ func _build_ui() -> void:
 	root.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 
 	var info := Label.new()
-	info.text = "Guarda cada archivo en su carpeta.\nFíjate en la extensión: lo que va después del punto."
+	info.text = instructions
 	info.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	info.add_theme_font_size_override("font_size", 18)
 	root.add_child(info)
@@ -116,8 +120,8 @@ func _show_file() -> void:
 	var f: Array = queue[index]
 	var file_name: String = f[0]
 	file_label.text = file_name
-	type_label.text = "Tipo de archivo: .%s" % file_name.get_extension()
-	progress_label.text = "Archivos ordenados: %d / %d" % [index, TOTAL]
+	type_label.text = category_hint if not category_hint.is_empty() else "Tipo de archivo: .%s" % file_name.get_extension()
+	progress_label.text = "%s: %d / %d" % [progress_caption, index, TOTAL]
 
 
 func _on_folder(i: int) -> void:
@@ -130,12 +134,12 @@ func _on_folder(i: int) -> void:
 		feedback.text = "¡Correcto!"
 		if index >= TOTAL:
 			done = true
-			progress_label.text = "Archivos ordenados: %d / %d" % [TOTAL, TOTAL]
+			progress_label.text = "%s: %d / %d" % [progress_caption, TOTAL, TOTAL]
 			completed.emit()
 		else:
 			_show_file()
 	else:
 		feedback.add_theme_color_override("font_color", Color(1.0, 0.45, 0.4))
-		feedback.text = "Esa no es. Mira la extensión y los ejemplos de cada carpeta."
+		feedback.text = wrong_answer
 func configure_difficulty(level: int) -> void:
 	TOTAL = mini(8,6+floori(level/3.0))

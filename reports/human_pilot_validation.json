@@ -1,0 +1,245 @@
+{
+	"baseline_checks": 104,
+	"baseline_failures": [],
+	"checks": 118,
+	"failures": [],
+	"fixture": "UpperCampusCheck: two Main loads, preview_boss profesor_ingles",
+	"gpu_ms": null,
+	"imported_accepted": false,
+	"normalization_scale": 0.384085702986845,
+	"poses": {
+		"ATTACK_LIGHT": "ATTACK_LIGHT",
+		"DEATH": "DEATH",
+		"IDLE": "IDLE",
+		"RUN": "RUN",
+		"SIT": "SIT",
+		"WALK": "WALK"
+	},
+	"scenarios": {
+		"A_without_pilot": {
+			"samples": [
+				{
+					"draw_calls": 8380.0,
+					"fps": 65.0,
+					"physics_ms": 2.951,
+					"primitives": 510198.0,
+					"process_ms": 15.404
+				},
+				{
+					"draw_calls": 8380.0,
+					"fps": 65.0,
+					"physics_ms": 3.06,
+					"primitives": 510154.0,
+					"process_ms": 15.937
+				},
+				{
+					"draw_calls": 8380.0,
+					"fps": 65.0,
+					"physics_ms": 3.036,
+					"primitives": 510200.0,
+					"process_ms": 15.39
+				},
+				{
+					"draw_calls": 8380.0,
+					"fps": 65.0,
+					"physics_ms": 2.665,
+					"primitives": 510200.0,
+					"process_ms": 15.401
+				}
+			]
+		},
+		"B_static_glb_high": {
+			"samples": [
+				{
+					"draw_calls": 8470.0,
+					"fps": 65.0,
+					"physics_ms": 2.94,
+					"primitives": 5696554.0,
+					"process_ms": 15.585
+				},
+				{
+					"draw_calls": 8470.0,
+					"fps": 64.0,
+					"physics_ms": 2.797,
+					"primitives": 5696554.0,
+					"process_ms": 15.387
+				},
+				{
+					"draw_calls": 8470.0,
+					"fps": 65.0,
+					"physics_ms": 3.804,
+					"primitives": 5696554.0,
+					"process_ms": 15.403
+				},
+				{
+					"draw_calls": 8470.0,
+					"fps": 65.0,
+					"physics_ms": 3.373,
+					"primitives": 5696554.0,
+					"process_ms": 15.374
+				}
+			]
+		},
+		"CHARACTER_LOW_static": {
+			"samples": [
+				{
+					"draw_calls": 8398.0,
+					"fps": 65.0,
+					"physics_ms": 3.035,
+					"primitives": 1547434.0,
+					"process_ms": 15.389
+				},
+				{
+					"draw_calls": 8398.0,
+					"fps": 65.0,
+					"physics_ms": 2.884,
+					"primitives": 1547434.0,
+					"process_ms": 15.352
+				},
+				{
+					"draw_calls": 8398.0,
+					"fps": 65.0,
+					"physics_ms": 3.009,
+					"primitives": 1547434.0,
+					"process_ms": 25.896
+				},
+				{
+					"draw_calls": 8398.0,
+					"fps": 65.0,
+					"physics_ms": 2.975,
+					"primitives": 1547434.0,
+					"process_ms": 27.971
+				}
+			]
+		},
+		"CHARACTER_MEDIUM_static": {
+			"samples": [
+				{
+					"draw_calls": 8378.0,
+					"fps": 65.0,
+					"physics_ms": 3.276,
+					"primitives": 5661184.0,
+					"process_ms": 15.388
+				},
+				{
+					"draw_calls": 8378.0,
+					"fps": 65.0,
+					"physics_ms": 2.927,
+					"primitives": 5661154.0,
+					"process_ms": 15.4
+				},
+				{
+					"draw_calls": 8378.0,
+					"fps": 65.0,
+					"physics_ms": 2.843,
+					"primitives": 5661184.0,
+					"process_ms": 26.986
+				},
+				{
+					"draw_calls": 8378.0,
+					"fps": 65.0,
+					"physics_ms": 4.232,
+					"primitives": 5661184.0,
+					"process_ms": 15.368
+				}
+			]
+		},
+		"C_procedural_run_fallback": {
+			"samples": [
+				{
+					"draw_calls": 8704.0,
+					"fps": 64.0,
+					"physics_ms": 3.547,
+					"primitives": 638150.0,
+					"process_ms": 17.472
+				},
+				{
+					"draw_calls": 8707.0,
+					"fps": 65.0,
+					"physics_ms": 3.177,
+					"primitives": 638930.0,
+					"process_ms": 15.432
+				},
+				{
+					"draw_calls": 8625.0,
+					"fps": 65.0,
+					"physics_ms": 3.131,
+					"primitives": 605686.0,
+					"process_ms": 15.406
+				},
+				{
+					"draw_calls": 8612.0,
+					"fps": 65.0,
+					"physics_ms": 2.989,
+					"primitives": 602686.0,
+					"process_ms": 16.14
+				}
+			]
+		},
+		"D_static_glb_distance": {
+			"samples": [
+				{
+					"draw_calls": 8316.0,
+					"fps": 65.0,
+					"physics_ms": 2.884,
+					"primitives": 484356.0,
+					"process_ms": 15.377
+				},
+				{
+					"draw_calls": 8317.0,
+					"fps": 65.0,
+					"physics_ms": 2.467,
+					"primitives": 485026.0,
+					"process_ms": 19.997
+				},
+				{
+					"draw_calls": 8294.0,
+					"fps": 65.0,
+					"physics_ms": 2.781,
+					"primitives": 476360.0,
+					"process_ms": 15.373
+				},
+				{
+					"draw_calls": 8288.0,
+					"fps": 65.0,
+					"physics_ms": 2.601,
+					"primitives": 474800.0,
+					"process_ms": 16.421
+				}
+			]
+		},
+		"E_sleep": {
+			"samples": [
+				{
+					"draw_calls": 8288.0,
+					"fps": 65.0,
+					"physics_ms": 2.643,
+					"primitives": 474754.0,
+					"process_ms": 15.416
+				},
+				{
+					"draw_calls": 8288.0,
+					"fps": 65.0,
+					"physics_ms": 2.811,
+					"primitives": 474754.0,
+					"process_ms": 15.44
+				},
+				{
+					"draw_calls": 8288.0,
+					"fps": 65.0,
+					"physics_ms": 2.69,
+					"primitives": 474754.0,
+					"process_ms": 15.446
+				},
+				{
+					"draw_calls": 8288.0,
+					"fps": 65.0,
+					"physics_ms": 2.454,
+					"primitives": 474784.0,
+					"process_ms": 15.39
+				}
+			]
+		}
+	},
+	"socket_scope": "Procedural sockets only; no GLB bones exist"
+}

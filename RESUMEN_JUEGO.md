@@ -1,6 +1,6 @@
 # DuocGames: contenido y recorrido actual
 
-Estado actual tras CIERRE DE CAMPAÑA 1.0 (16-10-2026): **16 misiones, seis bosses y cierre jugable con NEXO**, pendiente de balance humano. El archivo del subterráneo es ahora un paso intermedio. Detalle al final de este resumen y en [CIERRE_CAMPANA_1_0.md](CIERRE_CAMPANA_1_0.md); las auditorías anteriores se conservan como historial.
+Estado actual (16-10-2026): **16 misiones, nueve bosses y cierre jugable con NEXO**. Inglés/Lenguaje/Ética añaden duelos de acción en pisos 5/6/7; computadores 5–8 son preparación opcional. Personajes con ropa modular ampliada y fallback procedural. Nuevos HP pendientes de balance humano. Detalle en [BOSSES_SUPERIORES_2_0.md](BOSSES_SUPERIORES_2_0.md); las auditorías anteriores se conservan como historial.
 
 Inventario revisado en la escena ejecutada el 15 de octubre de 2026. Los conteos de aulas excluyen oficinas, baños, pasillos y grupos que contienen otras salas. Una sala construida no implica que tenga una misión propia.
 
@@ -18,7 +18,7 @@ Esta organización rige el diseño de misiones, NPC, bosses, actividades y decor
 | 5–8 | Formación general/transversal: Inglés, Lenguaje, Doctrina de la Iglesia, Ética y otras asignaturas generales |
 | −1 | Mecánica Automotriz, Soldadura, Estructuras Metálicas, talleres, herramientas y maquinaria |
 
-El Director de Informática existente permanece en el piso 8 por instrucción expresa del usuario. No reemplazarlo ni trasladarlo. La tabla siguiente inventaría el contenido construido; los desafíos tecnológicos superiores y apuntes antiguos requieren revisión de dependencias antes de cualquier redistribución. El subterráneo conserva su identidad técnica e industrial.
+El Director de Informática existente permanece en el piso 8 por instrucción expresa del usuario. No reemplazarlo ni trasladarlo. Se revisaron las dependencias: las actividades superiores ahora usan contenido docente/transversal y documental NEXO sin cambiar sus IDs; los apuntes tecnológicos están en piso 3. El subterráneo conserva su identidad técnica e industrial.
 
 ## Desarrollo por etapas: Proyecto NEXO
 
@@ -110,18 +110,18 @@ Las 16 aulas del piso 4 son 401, 402, 404–413 y 415–418; no hay aulas identi
 
 ## Qué hacer para completar la campaña
 
-Hay **15 misiones: nueve principales y seis secundarias**. La principal se activa automáticamente y el marcador amarillo sigue su próximo objetivo.
+Hay **16 misiones: diez principales y seis secundarias**. La principal se activa automáticamente y el marcador amarillo sigue su próximo objetivo.
 
 | Orden | Misión principal | Qué hacer |
 | --- | --- | --- |
 | 1 | Primer día | Hablar con Punto Estudiantil, recoger un objeto, resolver el computador inicial y vencer al Encargado y al Chef |
 | 2 | La guardiana del conocimiento | Visitar biblioteca, recoger tres libros y vencer a la Bibliotecaria contestando preguntas |
 | 3 | Etapa académica del piso 3 | Llegar al piso y completar su computador Antivirus |
-| 4 | Etapa académica del piso 4 | Llegar al piso y resolver su computador de contraseña |
-| 5 | Etapa académica del piso 5 | Llegar al piso y ordenar archivos en su computador |
-| 6 | Práctica avanzada | Completar el computador de seguridad del piso 6 |
-| 7 | Acceso restringido | Conseguir TarjetaAcceso, abrir el acceso del piso 7 y completar su computador |
-| 8 | Modo Administrador | Completar el computador del piso 8 y vencer al Director |
+| 4 | Etapa académica del piso 4 | Llegar al piso y organizar documentos docentes |
+| 5 | Etapa académica del piso 5 | Llegar al piso y vencer al Profesor de Inglés; vocabulario como preparación opcional |
+| 6 | Práctica de Lenguaje | Vencer al Profesor de Lenguaje; comprensión lectora como preparación opcional |
+| 7 | Acceso restringido | Conseguir TarjetaAcceso, abrir acceso7 y vencer al Profesor de Ética; decisiones como preparación opcional |
+| 8 | Modo Administrador | Vencer al Director; revisión documental NEXO como preparación opcional |
 | 9 | Archivos del subterráneo | Encontrar el archivo secreto; ahora es un paso intermedio |
 | 10 | El núcleo de Proyecto NEXO | Autorizar acceso en el −1, prepararse y desactivar NEXO mediante duelo y tres enlaces |
 
@@ -138,10 +138,10 @@ Las etapas desbloquean destinos del ascensor. Las escaleras permiten explorar an
 
 ## Desafíos y personajes
 
-- **Seis jefes:** Encargado Punto Estudiantil, Chef Supremo, Bibliotecaria, Profesor de Redes (opcional), Director de Informática y NEXO. Cinco duelos de combate y uno de preguntas. NEXO sigue pendiente de balance humano. Antes de atacar hay que hablar y aceptar.
+- **Nueve jefes:** Encargado Punto Estudiantil, Chef Supremo, Bibliotecaria, Profesor de Redes (opcional), Profesor de Inglés, Profesor de Lenguaje, Profesor de Ética, Director de Informática y NEXO. Ocho duelos de acción y uno de preguntas (Bibliotecaria). Nuevos bosses/NEXO pendientes de balance humano. Antes de atacar hay que hablar y aceptar.
 - Cada victoria recupera toda la vida. El jefe queda caído y su derrota permanece al cargar.
-- **Ocho computadores:** siete del recorrido principal y uno secreto del subterráneo.
-- **Tres tipos de minijuego:** ordenar archivos, Antivirus y contraseña. La dificultad varía por piso.
+- **Ocho computadores:** pc_intro/pc3/pc4 del recorrido, pc5–pc8 de preparación opcional y uno secreto del subterráneo; IDs intactos.
+- **Minijuegos:** clasificación de archivos y sus variantes docente, Inglés, Lenguaje, Ética y NEXO; Antivirus en piso 3 y PC industrial secreto. Contraseña permanece disponible como sistema heredado, sin actividades obligatorias incompatibles en pisos superiores. Los IDs originales se conservan.
 - **Nueve enemigos normales colocados por la campaña**, además de invocaciones de los encuentros. Cinco variantes: normal, rápida, pesada, a distancia y tecnológica.
 - **Ocho NPC de campaña**, además de papelería y vendedor adicional.
 - Tres máquinas expendedoras y un vendedor adicional usan créditos; la papelería tiene su propio servicio.
@@ -242,3 +242,63 @@ Las nueve sillas pendientes tenían IDs correctos: el validador buscaba demasiad
 La suite de cierre pasa 111 comprobaciones y las regresiones anteriores siguen aprobadas; revisión de 226 scripts/recursos. Se inspeccionaron con renderizado diálogo, núcleo, HUD y fase 3 mediante fixture, sin afirmar playthrough ni balance. Partidas antiguas conservan progreso y desbloqueos, reciben la final pendiente y no se marcan completadas solo por el archivo. Save_version sigue en 2.
 
 Documentación completa: [CIERRE_CAMPANA_1_0.md](CIERRE_CAMPANA_1_0.md). Balances nuevos pendientes de validación humana en [BALANCE_1_0.md](BALANCE_1_0.md); recorrido en [PLAYTEST_1_0.md](PLAYTEST_1_0.md), sección FINAL NEXO.
+
+## Correcciones de actividades, guardado y Chef — 16-10-2026
+
+Esta actualización reemplaza los valores y actividades anteriores que se conservan como registro histórico.
+
+- FIX: Actividades por piso. pc4 (game_id 2): organización docente; pc5 (0): vocabulario de Inglés; pc6 (2): comprensión lectora de Lenguaje; pc7 (1): decisiones de Ética; pc8 (2): revisión documental NEXO. Reutilizan la clasificación existente, su señal completed y el circuito finished(success). No se renumeran game_id, campaign_id, quest_id ni eventos computer:ID. pc_intro, pc3 y pc_secreto conservan sus juegos. Director permanece en piso 8.
+- FIX: Apuntes. Apunte_datos pasa de piso 4 a 3, Apunte_redes de 6 a 3 y Apunte_ia de 8 a 3. Apunte_programacion ya estaba en 3. Se conservan world_id, item_id hoja_impresa, textos y flags collected; no se duplican.
+- FIX: Error de autoguardado. Se comprueban apertura, escritura/flush, copia .bak y reemplazo .tmp → definitivo. Un fallo no marca éxito ni borra original/backup/temporal recuperable. Consola registra ruta y error; jugador recibe «No se pudo guardar la partida.» una sola vez por racha de fallos. Tras guardar correctamente se habilita un nuevo aviso. Nueva partida reutiliza el mismo escritor.
+- FIX: WorldItem parcial. Se descuenta solo la cantidad aceptada; el sobrante permanece visible/interactivo y muestra xN. Solo al agotarse se marca collected y se emiten eventos de recogida especial/apunte. El JSON añade remaining_quantity[world_id]; collected sigue siendo booleano. Saves antiguos sin cantidad usan el valor original, salvo collected=true. Respawn explícito mantiene su comportamiento. Save_version sigue en 2 y el snapshot previo al boss incluye el nuevo diccionario.
+- BALANCE: Chef Supremo HP reducido de 450 a 350, tanto actor como BossDuelController de Main.tscn. Tres fases conservadas a 60% y 30% (210/105 con el nuevo máximo). No cambian daño, velocidad, ataques, bandejas, cooldowns, recompensas, economía, XP, precios ni otros bosses.
+
+Validación nueva: tests/CampusFixesCheck.tscn y tests/campus_fixes.gd. Reporte de ejecución: reports/campus_fixes_result.json. Incluye inventario real lleno, 5 → acepta 2 → quedan 3, guardar/cargar campaña real, recoger sobrante, saves antiguos, claves, IDs/señales de los cinco perfiles, desbloqueos 7/8, apuntes, HUD/fases/reset Chef y fallo de reemplazo inyectado. Los errores de consola provocados expresamente por el test de guardado son esperados.
+
+PENDIENTE DE PRUEBA MANUAL:
+
+- [ ] Recorrer los pisos 3–8; comprobar accesibilidad de apuntes y lectura de actividades a distintas resoluciones.
+- [ ] Completar la ruta de campaña jugando cada actividad; verificar ascensores y puertas con una partida personal respaldada.
+- [ ] Chef: comprobar HUD 350/350, morir/reintentar y continuar una partida anterior; evaluar dificultad humana manteniendo el resto del balance.
+- [ ] Probar aviso discreto ante un fallo real de disco/permisos y recuperación; la inyección automática no simula un corte de energía.
+- [ ] Recoger parcialmente un lote en juego, salir/reabrir y recoger el resto tras liberar espacio.
+
+Los resultados automáticos concretos y sus límites se registran a continuación; las casillas manuales permanecen pendientes.
+
+Resultado automático verificado (16-10-2026): nueva fixture ejecutada mediante godot-mcp-toolkit: 73 comprobaciones, cero fallos (reports/campus_fixes_result.json). Regresiones aprobadas con resultados finales sin fallos en los logs: campaña, inventario, gameplay, Chef 350 HP, balance (20), lector de guardado, nueva partida, NEXO (111) y organización (9 pisos/596 rutas de nodos). Revisión de carga: 227 scripts/recursos. Los logs son tests/fixes_*.log (ignorados por Git); no se confunde la salida temprana del ejecutable gráfico con éxito: se comprobaron los marcadores de resultado de cada archivo.
+
+FIX visual adicional demostrado con captura MCP: la capa de minijuegos (antes 20) quedaba debajo del HUD de inventario (26) y campaña (40). Ahora es 50; las opciones quedan delante del HUD. Se inspeccionaron Lenguaje y NEXO con renderizado. No altera estadísticas ni mecánicas. Las pruebas humanas completas y otras resoluciones siguen pendientes.
+## BOSSES DE ACCIÓN Y PERSONAJES — actualización 16-10-2026
+
+Estado actual: 16 misiones existentes y nueve bosses (seis anteriores + Profesor de Inglés/Piso 5, Lenguaje/Piso 6 y Ética/Piso 7). Los nuevos duelos son de acción, voluntarios al aceptar E/diálogo y con fases al 60%/30%; no son cuestionarios. HP iniciales 450/500/550, TODOS PENDIENTES DE PLAYTEST HUMANO. Director existente conserva 700 HP y añade FIREWALL/ACCESO DENEGADO con avisos; Chef permanece en 350 HP. No se cambian armas, consumibles, enemigos normales, precios ni recompensas anteriores. Los nuevos bosses usan premios académicos/cosméticos y el premio estándar existente de boss.
+
+Computadores pc5/pc6/pc7/pc8 mantienen actividades de Inglés/Lenguaje/Ética/documentos NEXO, game_id 0/2/1/2, campaign_id, flags y señales. Son preparación opcional: ENGLISH_PREPARED retrasa 2 s el siguiente ataque tras Word Rush; LECTURA_PREPARADA reduce duración/ralentización de tinta; REFLEXION_PREVIA amplía elección física de zonas de 6 a 10 s; NEXO_INFORMATION reduce HP de los dos virus del Director de 50 a 40 al invocarlos. Las misiones academico5/seguridad6/acceso7/direccion conservan IDs, recompensas y cadena; los bosses pasan a ser su objetivo de acción. Los estados completados antiguos y desbloqueos se conservan. La puerta acceso7 sigue necesitando TarjetaAcceso. No se marca un computador como resuelto por vencer al boss.
+
+Ética usa zonas físicas A (+20% daño, −15% defensa) y B (+20% defensa, −15% daño), sin opción correcta ni preguntas. Los efectos están limitados a su duelo y se limpian al reset. Todos reutilizan BossDuelController, guardado pre-duelo, checkpoint/BossRetry, recursos/arma/desgaste/quickslots, curación y premio único. No se reconstruyen pisos; ubicación con cápsula/suelo/rayos de continuidad. Ninguna prueba automática certifica el recorrido físico humano.
+
+CharacterVisual amplía el rig y adaptador GLB existentes: torso/ojos más discretos, ropa articulada, camisa/sweater/chaqueta/uniforme ficticio/overol, pantalón/calzado, colores de mochila, audífonos/bolso/insignia/dispositivo. Perfiles estables por ID y guardados; no autoequipa premios al protagonista. AnimationTree importado conserva blend de locomoción y transiciones de salto/caída/aterrizaje; sin clips reales se mantiene fallback procedural. BLOCK/PARRY son soporte visual, no nuevas mecánicas. LookAt, diálogo/cámara y LOD se reutilizan; no se descargan assets.
+
+Detalles y scripts: [BOSSES_SUPERIORES_2_0.md](BOSSES_SUPERIORES_2_0.md). Ropa, estados, workflow GLB y assets faltantes: [PERSONAJES_2_0.md](PERSONAJES_2_0.md). Prueba nueva: tests/UpperCampusCheck.tscn; resultados en reports/upper_campus_result.json. Las pruebas humanas siguen pendientes en PLAYTEST_1_0.md. Las secciones anteriores son historial y no deben usarse como valores actuales cuando difieran de esta actualización.
+
+### Validación de esta ampliación
+
+Godot 4.7.2, mediante godot-mcp-toolkit y ejecutable del editor (sin depender de PATH). Preview de nueve roles: sin fallos. Suite nueva UpperCampusCheck: 104 comprobaciones, sin fallos; nueve muestras transitables por arena, neutralidad/aceptación, fases 60/30, proyectiles/zonas con límites y sin daño anticipado, ventajas, elección física A/B, reintento real, premios únicos, guardado/carga, identidad/ropa, LOD y compatibilidad de etapas completadas.
+
+Regresiones aprobadas y verificadas por marcador final del log: personajes (70), personalización, campaña, inventario, gameplay, Director, Chef 350, Campus Vivo (52), balance (20), nueva partida, NEXO (111), interacciones (60), recogidas parciales/guardado previo (74) y carga de 236 scripts/recursos. Logs tests/upper_*.log; los errores deliberados de fixture de escritura no se confunden con errores de partida. No basta el código de salida del ejecutable gráfico de Windows.
+
+Medición orientativa headless: frame 120 a 5133 ms, 377,69 MiB de memoria estática, 45120 nodos; no es FPS gráfico ni comparación controlada con versiones anteriores. Una muestra estabilizada de la fixture renderizada en Piso 5 dio 19 FPS, 58,14 ms de proceso/2,81 ms de física y ~2132 MiB tras dos cargas de Main. Esa muestra no certifica rendimiento general ni 60 FPS: hace falta profiler/recorrido humano con hardware, resolución/calidad y memoria GPU controlados. La muestra de 1 FPS registrada justo al recargar corresponde al pico de carga, no al combate jugable.
+
+Capturas MCP revisaron variantes de ropa y presentación neutral de Inglés. La apariencia continúa procedural/estilizada; no se afirma realismo fotográfico. Quedan manuales todos los casos añadidos al checklist: caminar/saltar/escaleras/armas, ropa y apariencia al cargar, NPC sentados, cámara, combate real con/sin preparación, rutas/puertas/arenas, muerte/reintento mediante UI, lectura de telegraphs, dificultad y FPS. Ninguna casilla humana se marca PASS.
+## OPTIMIZACIÓN + PERSONAJES REALISTAS 3.0 — 16-10-2026
+
+Diagnóstico y datos crudos en PERFORMANCE_PROFILE.md y reports/performance_*.json. En la misma fixture renderizada (dos cargas de Main, cámara frente al profesor de Inglés), el coste demostrado más grande corresponde a sombras: alcance de LuzExterior reducido de 100 m a 40/30/20 m según ALTO/MEDIO/BAJO, manteniendo sombras cercanas. No se certifica 60 FPS en todo el juego ni se atribuye el problema a IA sin medición.
+
+FloorActivityManager clasifica visuales registrados cada 0,35 s: LOD0 completo; LOD1 a intervalos de 0,12 s; LOD2 a 0,5 s; SLEEP sin rig secundario ni AnimationTree importado. Piso actual FULL, vecino REDUCED, más de 18 m verticales SLEEP; distancia también limita. El protagonista, intro/combate, daño/impactos y caída de muerte tienen excepciones. Los enemigos normales de otros pisos omiten percepción/movimiento; no se detienen misiones, horarios, guardado ni interacción. Al volver se recalcula LOD inmediatamente. No había NavigationAgent3D que desactivar.
+
+Geometría procedural idéntica comparte Mesh; materiales permanecen por actor para no propagar flash de daño/personalización. Expresiones y apertura de ojos solo escriben cambios; blink usa Timer pausado por LOD. HUD de objetivo se compone una vez y solo se asigna si cambia. Se conservan el escaneo contextual, las sillas recogibles y sus colisiones.
+
+GLB conserva install_imported_visual(scene, clips, bindings): valida asset/rig/clips/sockets antes de reemplazar, acepta aliases de clips, bindings por rutas o huesos con BoneAttachment3D, HairSocket/HeadAccessorySocket, caché de sockets, blendshapes opcionales y hooks de mirada/parpadeo. Sin clip/modelo válido usa fallback procedural visible. Perfiles internos preparados: student_male/student_female, professor, staff, health, workshop, boss_english, boss_language, boss_ethics, director; no imponen género ni cambian apariencia ya guardada. CHARACTER_HIGH/MEDIUM/LOW se corresponden con ajustes existentes; materiales PBR reales requieren assets adecuados, no se inventan.
+
+MODELO HUMANO EXTERNO NECESARIO. Sin GLB/GLTF/FBX humano encontrado; no se descarga nada. Consultar HUMAN_MODEL_IMPORT.md. Las pruebas sintéticas validan contrato, no realismo humano. Ropa skinned y retargeting se preparan en una escena importada mediante el flujo documentado, sin simulación compleja.
+
+No se agregan bosses/misiones ni se cambia balance: Chef 350, Inglés 450, Lenguaje 500, Ética 550, Director 700 HP; daño, economía y recompensas se conservan. Se mantienen caps existentes de proyectiles/zonas y dos virus. Una protección explícita evita Firewall duplicado. FIX demostrado: una zona sin objetivo vivo ya no conserva su callback indefinidamente; expira y detiene procesamiento antes de liberarse.

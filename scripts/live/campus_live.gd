@@ -13,6 +13,7 @@ var qol: Node
 var diagnostics: Node
 var settings: Node
 var localization: Node
+var floor_activity: Node
 var rng := RandomNumberGenerator.new()
 var restoring_inventory := false
 func _ready() -> void:
@@ -64,6 +65,10 @@ func _ready() -> void:
 	settings.name = "CampusSettings"
 	settings.hub = self
 	add_child(settings)
+	floor_activity = preload("res://scripts/live/floor_activity_manager.gd").new()
+	floor_activity.name = "FloorActivityManager"
+	floor_activity.hub = self
+	add_child(floor_activity)
 func floor_id() -> String:
 	return campaign.phone._floor_for(campaign.player)
 func completed() -> bool:

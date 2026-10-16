@@ -1,0 +1,215 @@
+{
+	"baseline": {
+		"samples": [
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 3.075,
+				"primitives": 510198.0,
+				"process_ms": 28.842,
+				"render_objects": 9316.0
+			},
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 2.469,
+				"primitives": 510198.0,
+				"process_ms": 15.38,
+				"render_objects": 9316.0
+			},
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 3.046,
+				"primitives": 510200.0,
+				"process_ms": 15.386,
+				"render_objects": 9317.0
+			},
+			{
+				"draw_calls": 8288.0,
+				"fps": 65.0,
+				"physics_ms": 2.936,
+				"primitives": 474800.0,
+				"process_ms": 15.379,
+				"render_objects": 9225.0
+			}
+		]
+	},
+	"census": {
+		"animation_trees": 14,
+		"approx_material_signatures": 316,
+		"chairs": 779,
+		"character_activity": {
+			"LOD0": 3,
+			"LOD1": 0,
+			"LOD2": 3,
+			"SLEEP": 24
+		},
+		"cpu_particles": 0,
+		"gpu_particles": 0,
+		"lights": 510,
+		"meshes": 24213,
+		"navigation_agents": 0,
+		"nodes": 45184.0,
+		"physics_callbacks": 99,
+		"processing_callbacks": 188,
+		"shadow_lights": 1,
+		"skeletons": 14,
+		"unique_override_materials": 1671
+	},
+	"classification": "DESCONOCIDO",
+	"environment": {
+		"adapter": "NVIDIA GeForce GTX 1050",
+		"engine": "4.7.2-stable (official)",
+		"quality": "ALTO",
+		"shadow_distance": 40.0,
+		"viewport": "(1152.0, 648.0)"
+	},
+	"fixture": "UpperCampusCheck: two Main loads, preview_boss profesor_ingles",
+	"gpu_ms": null,
+	"restored": {
+		"samples": [
+			{
+				"draw_calls": 8288.0,
+				"fps": 65.0,
+				"physics_ms": 2.499,
+				"primitives": 474754.0,
+				"process_ms": 15.409,
+				"render_objects": 9202.0
+			},
+			{
+				"draw_calls": 8288.0,
+				"fps": 65.0,
+				"physics_ms": 2.555,
+				"primitives": 474754.0,
+				"process_ms": 15.398,
+				"render_objects": 9202.0
+			},
+			{
+				"draw_calls": 8288.0,
+				"fps": 65.0,
+				"physics_ms": 2.597,
+				"primitives": 474754.0,
+				"process_ms": 15.395,
+				"render_objects": 9202.0
+			},
+			{
+				"draw_calls": 8288.0,
+				"fps": 65.0,
+				"physics_ms": 2.81,
+				"primitives": 474784.0,
+				"process_ms": 15.459,
+				"render_objects": 9217.0
+			}
+		]
+	},
+	"visual_callers_disabled": 15,
+	"without_character_idle": {
+		"samples": [
+			{
+				"draw_calls": 8288.0,
+				"fps": 65.0,
+				"physics_ms": 2.788,
+				"primitives": 474754.0,
+				"process_ms": 15.408,
+				"render_objects": 9202.0
+			},
+			{
+				"draw_calls": 8288.0,
+				"fps": 65.0,
+				"physics_ms": 2.355,
+				"primitives": 474754.0,
+				"process_ms": 15.375,
+				"render_objects": 9202.0
+			},
+			{
+				"draw_calls": 8288.0,
+				"fps": 65.0,
+				"physics_ms": 2.572,
+				"primitives": 474754.0,
+				"process_ms": 15.359,
+				"render_objects": 9202.0
+			},
+			{
+				"draw_calls": 8383.0,
+				"fps": 65.0,
+				"physics_ms": 2.672,
+				"primitives": 510934.0,
+				"process_ms": 28.504,
+				"render_objects": 9297.0
+			}
+		]
+	},
+	"without_light_shadows": {
+		"samples": [
+			{
+				"draw_calls": 1340.0,
+				"fps": 65.0,
+				"physics_ms": 2.813,
+				"primitives": 147810.0,
+				"process_ms": 15.391,
+				"render_objects": 2286.0
+			},
+			{
+				"draw_calls": 1340.0,
+				"fps": 65.0,
+				"physics_ms": 2.888,
+				"primitives": 147810.0,
+				"process_ms": 15.412,
+				"render_objects": 2286.0
+			},
+			{
+				"draw_calls": 1340.0,
+				"fps": 65.0,
+				"physics_ms": 2.719,
+				"primitives": 147746.0,
+				"process_ms": 15.412,
+				"render_objects": 2254.0
+			},
+			{
+				"draw_calls": 1340.0,
+				"fps": 65.0,
+				"physics_ms": 3.763,
+				"primitives": 147746.0,
+				"process_ms": 15.374,
+				"render_objects": 2254.0
+			}
+		]
+	},
+	"without_mesh_rendering": {
+		"samples": [
+			{
+				"draw_calls": 259.0,
+				"fps": 65.0,
+				"physics_ms": 2.708,
+				"primitives": 10466.0,
+				"process_ms": 15.4,
+				"render_objects": 1173.0
+			},
+			{
+				"draw_calls": 259.0,
+				"fps": 65.0,
+				"physics_ms": 2.345,
+				"primitives": 10512.0,
+				"process_ms": 15.383,
+				"render_objects": 1196.0
+			},
+			{
+				"draw_calls": 259.0,
+				"fps": 65.0,
+				"physics_ms": 2.581,
+				"primitives": 10512.0,
+				"process_ms": 15.479,
+				"render_objects": 1196.0
+			},
+			{
+				"draw_calls": 259.0,
+				"fps": 65.0,
+				"physics_ms": 3.139,
+				"primitives": 10512.0,
+				"process_ms": 15.389,
+				"render_objects": 1196.0
+			}
+		]
+	}
+}

@@ -52,7 +52,10 @@ func _physics_process(delta: float) -> void:
 	if hit:
 		var victim := hit.get_collider() as Node
 		if victim and victim.is_in_group("player") and victim.has_method("take_hit") and shooter.call("inside_arena",victim.global_position):
-			victim.call("take_hit",velocity.normalized(),damage)
+			_damage_victim(victim)
 		queue_free()
 	elif age >= 4.0 or not shooter.call("inside_arena",global_position):
 		queue_free()
+
+func _damage_victim(victim: Node) -> void:
+	victim.call("take_hit",velocity.normalized(),damage)

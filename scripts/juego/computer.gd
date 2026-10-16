@@ -7,6 +7,13 @@ const NAMES := ["Ordenar archivos", "Antivirus", "Contraseña"]
 
 var game_id := 0        # 0 = archivos, 1 = antivirus, 2 = contraseña (asignar ANTES de add_child)
 var done := false
+var activity_profile := ""
+
+func activity_title() -> String:
+	return preload("res://scripts/juego/campus_activity.gd").title_for(activity_profile) if not activity_profile.is_empty() else NAMES[game_id]
+
+func interaction_text(_player: Node) -> String:
+	return "" if done else "[E] " + activity_title()
 
 var screen_mat: StandardMaterial3D
 var screen_light: OmniLight3D
@@ -127,7 +134,7 @@ func _build_computer() -> void:
 
 func _build_prompt() -> void:
 	prompt = Label3D.new()
-	prompt.text = "[E] Usar computador\n%s" % NAMES[game_id]
+	prompt.text = "[E] Usar computador\n%s" % activity_title()
 	prompt.font_size = 40
 	prompt.pixel_size = 0.005
 	prompt.outline_size = 12
@@ -148,7 +155,7 @@ func set_done() -> void:
 
 func _refresh() -> void:
 	var color := Color("3b82f6")
-	screen_text.text = "PC %d\n%s" % [game_id + 1, NAMES[game_id]]
+	screen_text.text = "PC %d\n%s" % [game_id + 1, activity_title()]
 	if done:
 		color = Color("22c55e")
 		screen_text.text = "COMPLETADO"

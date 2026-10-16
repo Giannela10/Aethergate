@@ -42,12 +42,13 @@ func run() -> void:
 	check(body.weapon_socket == socket and socket.is_inside_tree(),"Se conserva socket de armas")
 	check(campaign.player.health == health,"Personalización no cambia vida")
 	check(not paused and not campaign.player.busy,"Confirmar devuelve controles")
+	var expected_extras: int = body.appearance_adapter.extras.size()
 	for index in 10:
 		campaign.show_personalization()
 		campaign.appearance_menu._select(index%3,"hair")
 		campaign.appearance_menu._confirm()
 		await process_frame
-	check(body.appearance_adapter.extras.size() <= 4,"Cambios repetidos no acumulan accesorios")
+	check(body.appearance_adapter.extras.size() == expected_extras,"Cambios repetidos no acumulan ropa ni accesorios")
 	print("APPEARANCE_RESULT ",JSON.stringify({"failures":failures}))
 	world.queue_free()
 	await process_frame

@@ -59,6 +59,8 @@ static func npcs_and_computers(campaign: Node3D) -> void:
 		var pc = load("res://scripts/juego/computer.gd").new()
 		pc.name = row[1]
 		pc.game_id = row[2]
+		if row[1] in ["pc4","pc5","pc6","pc7","pc8"]:
+			pc.activity_profile = row[1]
 		pc.set_meta("campaign_id",row[1])
 		pc.set_meta("floor",row[0]+1)
 		campaign.add_child(pc)
@@ -98,7 +100,7 @@ static func collectibles(campaign: Node3D) -> void:
 		node.collectible_kind = "card"
 		node.important = true
 		node.pickup_message = "Tarjeta Duoc encontrada"
-	for row in [["programacion",2,-38,-142,"Apunte de Programación: prueba el USB infectado contra el Director."],["datos",3,35,-142,"Apunte de Base de Datos: el funcionario del Piso 5 entrega la TarjetaAcceso."],["redes",5,-60,-134,"Apunte de Redes: la sala especial del Piso 8 requiere la credencial del Director."],["ia",7,58,-133,"Apunte de Inteligencia Artificial: sal del círculo azul antes de que termine la carga."]]:
+	for row in [["programacion",2,-38,-142,"Apunte de Programación: prueba el USB infectado contra el Director."],["datos",2,35,-142,"Apunte de Base de Datos: el funcionario del Piso 5 entrega la TarjetaAcceso."],["redes",2,-60,-134,"Apunte de Redes: la sala especial del Piso 8 requiere la credencial del Director."],["ia",2,58,-133,"Apunte de Inteligencia Artificial: sal del círculo azul antes de que termine la carga."]]:
 		var node = add_item(campaign,"Apunte_"+row[0],"hoja_impresa",point(row[1],row[2],row[3]))
 		node.note_text = row[4]
 	for row in [["archivo_subterraneo",8,44,-143,"Archivo de mantención",""],["sala_director",7,51,-144,"Sala especial del Piso 8","especial8"],["rincon_biblioteca",1,-58,-111,"Rincón de lectura",""],["estudio6",5,-72,-134,"Rincón de estudio",""]]:

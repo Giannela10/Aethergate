@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/campaign/academic_boss_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+boss_id = "profesor_lenguaje"
+display_name = "Profesor de Lenguaje"
+subtitle = "EL PODER DE LAS PALABRAS"
+role = "LENGUAJE"
+floor_number = 6
+max_health = 500.0
+reward = "CuadernoDelEscritor"
+computer_id = "pc6"
+preparation_flag = "LECTURA_PREPARADA"

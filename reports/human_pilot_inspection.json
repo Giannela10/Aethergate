@@ -1,0 +1,248 @@
+{
+	"animation_players": [],
+	"asset": "res://assets/characters/human_pilot/human_pilot.glb",
+	"bounds_dimensions": [
+		3.7795672416687,
+		7.02968120574951,
+		1.29306602478027
+	],
+	"bounds_min": [
+		-1.88977932929993,
+		-5.55130052566528,
+		-0.481660008430481
+	],
+	"bounds_position": "(-1.889779, -5.551301, -0.48166)",
+	"bounds_size": "(3.779567, 7.029681, 1.293066)",
+	"materials": {
+		"Scene_-_Root": {
+			"albedo": "(1.0, 1.0, 1.0, 1.0)",
+			"albedo_map": false,
+			"cull_mode": 2,
+			"metallic": 0.0,
+			"metallic_map": false,
+			"normal_map": false,
+			"roughness": 0.600000023841858,
+			"roughness_map": false
+		}
+	},
+	"meshes": [
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_2",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 227991,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_3",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 210858,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_4",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 212097,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_5",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 298434,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_6",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 222252,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_7",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 343587,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_8",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 196692,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_9",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 201012,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_10",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 209727,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_11",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 204039,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_12",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 262092,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_13",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 252069,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_14",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 302574,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_15",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 271569,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_16",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 213570,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_17",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 234222,
+					"vertices": 65532
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_18",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 73515,
+					"vertices": 23939
+				}
+			]
+		},
+		{
+			"path": "Sketchfab_model/Male_OBJ_cleaner_materialmerger_gles/Object_19",
+			"skeleton_path": "",
+			"skin": false,
+			"surfaces": [
+				{
+					"bones": 0,
+					"indices": 294912,
+					"vertices": 49156
+				}
+			]
+		}
+	],
+	"root_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+	"skeletons": []
+}

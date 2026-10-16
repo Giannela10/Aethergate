@@ -15,12 +15,18 @@ var blue_cd := 5.0
 var blue_charge := 0.0
 var blue_marker: MeshInstance3D
 var name_label: Label3D
+var effects: Array[Node3D] = []
+var firewall_cd := 7.0
+var denied_cd := 10.0
+
+func _create_visual() -> Humanoid:
+	return preload("res://scripts/juego/student_visual.gd").new()
 
 func _ready() -> void:
 	super._ready()
 	health = boss_max_health
 	body.name = "VisualDirectorFicticio"
-	body.scale = Vector3.ONE * visual_scale
+	body.scale = Vector3.ONE * 1.2 # Solo visual: cápsula y alcance anteriores intactos.
 	body.rotation.y = PI/2
 	idle_yaw = body.rotation.y
 	for mesh in body.find_children("*","MeshInstance3D",true,false):
@@ -62,6 +68,37 @@ func _ready() -> void:
 	blue_marker.visible = false
 	add_child(blue_marker)
 	_update_bar()
+	var presets = preload("res://scripts/juego/character_visual_presets.gd")
+	var campaign := get_tree().get_first_node_in_group("campus_campaign")
+	var preset: Dictionary = presets.create("director","DIRECTOR")
+	if campaign:
+		if not campaign.data.npc_visuals.get("director") is Dictionary: campaign.data.npc_visuals.director = preset
+		preset = campaign.data.npc_visuals.director
+	presets.apply(body,preset)
+
+func combat_active() -> bool:
+	var duel := get_node_or_null("BossDuelController")
+	return not dead and duel != null and duel.allows_damage()
+
+func has_clear_line(a: Vector3, b: Vector3) -> bool:
+	return _line_of_sight(a,b)
+
+func hit_player(damage: float) -> void:
+	if combat_active() and _target_available(): target.take_hit(global_position.direction_to(target.global_position),damage)
+
+func clear_director_effects() -> void:
+	for effect in effects:
+		if is_instance_valid(effect): effect.queue_free()
+	effects.clear(); firewall_cd = 7; denied_cd = 10
+
+func _director_zone(text: String, point: Vector3, radius: float, length: float = 0.0) -> void:
+	effects = effects.filter(func(p): return is_instance_valid(p) and not p.is_queued_for_deletion())
+	if effects.size() >= 2 or not inside_arena(point): return
+	if text.begins_with("FIREWALL") and effects.any(func(effect): return effect.caption.begins_with("FIREWALL")): return
+	var zone = preload("res://scripts/campaign/academic_boss_zone.gd").new()
+	zone.boss = self; zone.caption = text; zone.radius = radius; zone.length = length; zone.direction = body.forward(); zone.warning = 1.8; zone.lifetime = 0.25; zone.damage = 18.0
+	get_parent().add_child(zone); zone.global_position = Vector3(point.x,home.y+0.06,point.z); effects.append(zone)
+	body.request_visual_state("BOSS_SPECIAL",1.2)
 
 func _visual_part(parent: Node3D, title: String, pos: Vector3, size: Vector3, color: Color) -> void:
 	var mesh := MeshInstance3D.new()
@@ -150,6 +187,12 @@ func _steer(direction: Vector3, speed: float, delta: float) -> Vector3:
 	return Vector3.ZERO
 
 func _physics_process(delta: float) -> void:
+	if combat_active() and _target_available() and blue_charge <= 0:
+		firewall_cd -= delta; denied_cd -= delta
+		if phase == 2 and firewall_cd <= 0:
+			_director_zone("FIREWALL · sal de la línea",global_position,0.8,7.0); firewall_cd = 9.0
+		elif phase == 3 and denied_cd <= 0:
+			_director_zone("ACCESO DENEGADO",target.global_position,1.5); denied_cd = 11.0
 	if not dead:
 		digital_cd = maxf(0,digital_cd-delta)
 		blue_cd = maxf(0,blue_cd-delta)
@@ -213,11 +256,14 @@ func _activate_security() -> void:
 	security_activated = true
 	_message("El Director ha activado el sistema de seguridad",4.0)
 	for offset in [Vector3(0,0,-2.0),Vector3(0,0,2.0)]:
+		if minions.filter(func(v): return is_instance_valid(v) and not v.dead).size() >= 2: break
 		var virus := Virus.new()
 		virus.name = "VirusSeguridad%d" % (minions.size()+1)
 		virus.director = self
 		virus.position = get_parent().to_local(home+offset)
 		get_parent().add_child(virus)
+		var campaign := get_tree().get_first_node_in_group("campus_campaign")
+		if campaign and campaign.data.computers.get("pc8",false): virus.health *= 0.8
 		minions.append(virus)
 		virus.target = target
 		if _target_available():
@@ -259,6 +305,7 @@ func _die() -> void:
 	if dead:
 		return
 	digital_pending = false
+	clear_director_effects()
 	_cancel_blue_screen()
 	for virus in minions:
 		if is_instance_valid(virus):

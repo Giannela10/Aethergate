@@ -11,9 +11,9 @@ func _ready() -> void:
 	for floor_number in [3,4,5]:
 		var previous := "biblioteca" if floor_number == 3 else "academico%d" % (floor_number-1)
 		_add("academico%d" % floor_number,"Etapa académica · Piso %d" % floor_number,"Completa la tarea del computador del piso.",true,previous,[_req("floor",str(floor_number),"Llega al piso %d" % floor_number),_req("computer","pc%d" % floor_number,"Resuelve el desafío académico")],{"credits":40,"xp":80,"unlock":str(floor_number+1)})
-	_add("seguridad6","Práctica avanzada","Supera el desafío del sexto piso.",true,"academico5",[_req("computer","pc6","Completa el desafío de seguridad")],{"credits":60,"xp":100,"unlock":"7"})
+	_add("seguridad6","Práctica de Lenguaje","Supera la comprensión lectora del sexto piso.",true,"academico5",[_req("computer","pc6","Completa la actividad de Lenguaje")],{"credits":60,"xp":100,"unlock":"7"})
 	_add("acceso7","Acceso restringido","Consigue la TarjetaAcceso mediante la entrega de documentos.",true,"seguridad6",[_req("door","acceso7","Abre el acceso restringido del Piso 7"),_req("computer","pc7","Completa el computador del Piso 7")],{"credits":80,"xp":120,"unlock":"8"})
-	_add("direccion","Modo Administrador","Completa el desafío tecnológico y enfrenta al Director.",true,"acceso7",[_req("computer","pc8","Resuelve el desafío tecnológico"),_req("boss","director","Habla y vence al Director")],{"credits":150,"xp":250,"unlock":"S"})
+	_add("direccion","Modo Administrador","Revisa el informe NEXO y enfrenta al Director.",true,"acceso7",[_req("computer","pc8","Organiza los documentos NEXO"),_req("boss","director","Habla y vence al Director")],{"credits":150,"xp":250,"unlock":"S"})
 	_add("postgame","Archivos del subterráneo","Explora el subterráneo y encuentra el archivo secreto.",true,"direccion",[_req("secret","archivo_subterraneo","Encuentra el archivo del subterráneo")],{"credits":100,"xp":200})
 	_add("nexo_final","El núcleo de Proyecto NEXO","El archivo revela el centro de control industrial del −1. Puedes prepararte antes del último duelo.",true,"postgame",[_req("door","nexo_core","Encuentra el núcleo de NEXO"),_req("boss","nexo","Desactiva NEXO")],{})
 	_add("llaves","Las llaves perdidas","El auxiliar perdió sus llaves en otro piso.",false,"",[_req("deliver","llaves","Entrega las llaves al auxiliar")],{"credits":25,"xp":40,"items":{"Botiquin":1}})
@@ -22,6 +22,16 @@ func _ready() -> void:
 	_add("implementos","Implementos perdidos","Encuentra un balón, una paleta y una raqueta.",false,"",[_req("deliver","implementos","Devuelve los tres implementos")],{"credits":35,"xp":50,"items":{"PaletaPingPong":1}})
 	_add("infectado","Computador infectado","Resuelve el minijuego Antivirus del Piso 3.",false,"",[_req("computer","pc3","Elimina los virus")],{"credits":30,"xp":50,"items":{"USBInfectado":1}})
 	_add("casino","Ayuda en el casino","Habla con el Chef y acepta su desafío.",false,"",[_req("duel_started","chef","Inicia el duelo con el Chef")],{"credits":15,"xp":25})
+	# Mismos IDs/recompensas/cadena; los computadores superiores son preparación.
+	# Estados COMPLETED antiguos nunca se reabren ni pierden desbloqueos.
+	for row in [["academico5","pc5","profesor_ingles","Profesor de Inglés"],["seguridad6","pc6","profesor_lenguaje","Profesor de Lenguaje"],["acceso7","pc7","profesor_etica","Profesor de Ética"],["direccion","pc8","director","Director"]]:
+		var quest = definitions[row[0]]
+		for requirement in quest.requirements:
+			if requirement.kind == "computer" and requirement.id == row[1]:
+				requirement["optional"] = true
+				requirement.text += " (preparación opcional)"
+		if row[0] != "direccion": quest.requirements.append(_req("boss",row[2],"Habla y vence al "+row[3]))
+		quest.description = "Duelo de acción con "+row[3]+". El computador da una ventaja opcional."
 	refresh()
 
 func _req(kind: String, id: String, text: String, amount: int = 1) -> Dictionary:
@@ -78,6 +88,7 @@ func refresh() -> void:
 			continue
 		var complete := true
 		for requirement in quest.requirements:
+			if requirement.get("optional",false): continue
 			complete = complete and progress(requirement) >= requirement.amount
 		if complete:
 			campaign.data.quests[id].state = Quest.State.COMPLETED
@@ -90,6 +101,7 @@ func objective_text() -> String:
 	for id in definitions:
 		if state(id) == Quest.State.ACTIVE and definitions[id].main_quest:
 			for requirement in definitions[id].requirements:
+				if requirement.get("optional",false): continue
 				if progress(requirement) < requirement.amount:
 					return definitions[id].title+"\n"+requirement.text+" (%d/%d)" % [progress(requirement),requirement.amount]
 	return "Explora el campus y busca misiones secundarias."

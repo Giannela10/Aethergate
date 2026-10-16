@@ -32,6 +32,7 @@ func _process(delta: float) -> void:
 		if not quest.main_quest or campaign.quests.state(id) != 1:
 			continue
 		for requirement in quest.requirements:
+			if requirement.get("optional",false): continue
 			if campaign.quests.progress(requirement) >= requirement.amount:
 				continue
 			target = find_target(requirement)

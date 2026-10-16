@@ -1,5 +1,6 @@
 extends Node3D
 var interaction_range := 4.5
+var neutral_visual_tick := 0.0
 enum DuelState { NEUTRAL, DIALOGUE, INTRO, COMBAT, DEFEATED }
 enum DuelType { COMBAT, QUIZ, MINIGAME, FUTURE_TYPE }
 @export var boss_name := "Boss"
@@ -130,6 +131,10 @@ func accept() -> void:
 		actor.call(special_rules.start_method,campaign.player)
 
 func _process(delta: float) -> void:
+	if initialized and state == DuelState.NEUTRAL:
+		neutral_visual_tick -= delta
+		if neutral_visual_tick > 0: return
+		neutral_visual_tick = 0.15
 	identity_label.visible = initialized and state in [DuelState.NEUTRAL,DuelState.DEFEATED]
 	if initialized and is_instance_valid(campaign.player):
 		var offset: Vector3 = campaign.player.global_position-actor.global_position
@@ -235,6 +240,8 @@ func reset_duel() -> void:
 		body.punch_p[1] = -1
 	if actor.has_method("_cancel_blue_screen"):
 		actor._cancel_blue_screen()
+	if actor.has_method("clear_director_effects"):
+		actor.clear_director_effects()
 	for key in ["minions","projectiles"]:
 		var nodes = actor.get(key)
 		if nodes is Array:

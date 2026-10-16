@@ -35,15 +35,15 @@ func _run() -> void:
 	boss.target = player
 	boss.died.connect(func(_enemy): death_count += 1)
 	await physics_frame
-	assert(boss.health == 450.0 and boss.phase == 1)
+	assert(boss.health == 350.0 and boss.phase == 1)
 	assert(is_equal_approx(boss.body.scale.x,1.4))
 	assert(normal.health == 100.0)
 	boss.take_hit(Vector3.ZERO,-50)
-	assert(boss.health == 450.0)
-	boss.take_hit(Vector3.ZERO,179)
-	assert(boss.phase == 1 and boss.health == 271.0)
+	assert(boss.health == 350.0)
+	boss.take_hit(Vector3.ZERO,boss.boss_max_health * 0.40 - 1)
+	assert(boss.phase == 1 and boss.health == boss.boss_max_health * 0.60 + 1)
 	boss.take_hit(Vector3.ZERO,1)
-	assert(boss.phase == 2 and boss.health == 270.0)
+	assert(boss.phase == 2 and boss.health == boss.boss_max_health * 0.60)
 	assert(boss.body.punch_time == 0.58)
 	boss.body.rotation.y = -PI/2
 	player.position.x = -71.2
@@ -57,8 +57,8 @@ func _run() -> void:
 	boss._on_punch_landed(0)
 	var tray := world.get_node("BandejaChef")
 	assert(tray.damage == 14.0 and tray.shooter == boss)
-	boss.take_hit(Vector3.ZERO,135)
-	assert(boss.phase == 3 and boss.health == 135.0)
+	boss.take_hit(Vector3.ZERO,boss.boss_max_health * 0.30)
+	assert(boss.phase == 3 and boss.health == boss.boss_max_health * 0.30)
 	assert(boss.body.punch_time == 0.46)
 	boss.take_hit(Vector3.ZERO,1000)
 	assert(boss.dead and not boss.is_in_group("enemy"))
@@ -71,5 +71,5 @@ func _run() -> void:
 	assert(player.health == player.max_health, "Curación completa")
 	assert(not is_instance_valid(tray), "Las bandejas desaparecen al morir")
 	assert(normal.health == 100.0 and not normal.dead)
-	print("CHEF CASINO OK: 450 HP, fases 60/30%, melee, bandeja, límites, muerte única, curación y enemigo normal intacto.")
+	print("CHEF CASINO OK: 350 HP, fases 60/30%, melee, bandeja, límites, muerte única, curación y enemigo normal intacto.")
 	quit(0)

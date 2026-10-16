@@ -367,7 +367,7 @@ func _on_computer_requested(c) -> void:
 	current_computer = c
 	player.busy = true
 	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
-	minigame.open(c.game_id)
+	minigame.open(c.game_id,str(c.get("activity_profile")) if c.get("activity_profile") != null else "")
 
 
 func _on_minigame_finished(success: bool) -> void:

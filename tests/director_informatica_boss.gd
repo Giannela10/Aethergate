@@ -55,7 +55,7 @@ func run() -> void:
 	normal.set_physics_process(false)
 	await physics_frame
 	check(boss.health == 700 and boss.phase == 1,"700 HP y fase inicial")
-	check(is_equal_approx(boss.body.scale.x,1.4),"Escala visual 1.4")
+	check(is_equal_approx(boss.body.scale.x,1.2),"Escala visual 1.2; cápsula anterior intacta")
 	check(not registry.has_credential(),"Credencial bloqueada antes de vencer")
 	boss.body.rotation.y = PI/2
 	boss._on_punch_landed(0)

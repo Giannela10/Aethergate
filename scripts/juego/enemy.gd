@@ -73,7 +73,7 @@ func _ready() -> void:
 	col.position.y = 0.9
 	add_child(col)
 
-	body = Humanoid.new()
+	body = _create_visual()
 	body.shirt_color = Color("a83232")
 	body.pants_color = Color("3a3a3a")
 	body.hair_color = Color("111111")
@@ -87,6 +87,9 @@ func _ready() -> void:
 
 	_build_bar()
 	_build_indicator()
+
+func _create_visual() -> Humanoid:
+	return Humanoid.new()
 
 
 # =====================================================================
@@ -280,7 +283,10 @@ func _physics_process(delta: float) -> void:
 
 
 func _process(delta: float) -> void:
-	body.animate(delta, velocity, is_on_floor(), false)
+	var duel := get_node_or_null("BossDuelController")
+	var neutral: bool = duel != null and duel.state != duel.DuelState.COMBAT
+	# Sin física neutral no hay is_on_floor fiable: evitar pose de salto en la intro.
+	body.animate(delta,Vector3.ZERO if neutral else velocity,true if neutral else is_on_floor(),false)
 
 
 func _face(dir: Vector3, speed: float, delta: float) -> void:

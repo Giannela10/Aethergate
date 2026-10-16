@@ -1,6 +1,6 @@
 extends RefCounted
 ## Visual layer for existing duel actors. Never writes statistics, collision or AI.
-const STATES := ["BOSS_IDLE","BOSS_INTRO","BOSS_ATTACK","BOSS_SPECIAL","BOSS_HIT","BOSS_PHASE_CHANGE","BOSS_DEATH"]
+const STATES := ["BOSS_IDLE","BOSS_INTRO","BOSS_MELEE","BOSS_RANGED","BOSS_SPECIAL","BOSS_HIT","BOSS_PHASE","BOSS_DEATH"]
 var body: Node3D
 var activity: RefCounted
 var boss_id := ""
@@ -24,10 +24,12 @@ func setup(actor: Node3D, id: String) -> void:
 	var prop := "FOLDER"
 	match id:
 		"chef": work = "REPAIR"; prop = "NONE"
-		"bibliotecaria","profesor_ingles","profesor_lenguaje": work = "READ"; prop = "BOOK"
+		"bibliotecaria","profesor_lenguaje": work = "READ"; prop = "BOOK"
+		"profesor_ingles": work = "INSPECT"; prop = "TABLET"
+		"profesor_etica": work = "WRITE"; prop = "FOLDER"
 		"profesor_redes": work = "INSPECT"; prop = "NONE" # Existing tablet.
 		"profesor_programacion": work = "TYPE"; prop = "TABLET"
-		"director": work = "READ"; prop = "FOLDER"
+		"director": work = "TYPE"; prop = "TABLET"
 		"maestro_soldadura","jefe_taller": work = "INSPECT"; prop = "TOOL"
 		"punto": work = "INSPECT"; prop = "NONE"
 	activity.set_activity(work,prop)
@@ -45,6 +47,10 @@ func setup(actor: Node3D, id: String) -> void:
 func update(delta: float, duel_state: int, phase: int) -> void:
 	if not is_instance_valid(body) or boss_id == "nexo":
 		return
+	body.update_visual_lod(delta)
+	if body.lod_level == 2 and duel_state not in [2,3,4]:
+		if is_instance_valid(activity.prop): activity.prop.hide()
+		return
 	if is_instance_valid(signature_prop):
 		signature_prop.visible = duel_state in [0,1]
 	# Punto's current actor animates only in physics, disabled before the duel.
@@ -58,8 +64,14 @@ func update(delta: float, duel_state: int, phase: int) -> void:
 	if duel_state == 2: visual_state = "BOSS_INTRO"
 	elif duel_state == 4: visual_state = "BOSS_DEATH"
 	elif duel_state == 3:
-		visual_state = "BOSS_PHASE_CHANGE" if phase_time > 0 else ("BOSS_HIT" if body.hurt_t > 0 else ("BOSS_ATTACK" if body.is_punching() else "BOSS_IDLE"))
+		visual_state = "BOSS_PHASE" if phase_time > 0 else ("BOSS_HIT" if body.hurt_t > 0 else ("BOSS_MELEE" if body.is_punching() else "BOSS_IDLE"))
+		var actor := body.get_parent()
+		for key in ["charge","blue_charge","connection_charge"]:
+			if actor.get(key) != null and float(actor.get(key)) > 0: visual_state = "BOSS_SPECIAL"
+		for key in ["digital_pending","packet_pending"]:
+			if actor.get(key) == true: visual_state = "BOSS_RANGED"
 	body.set_meta("boss_visual_state",visual_state)
+	if body.has_method("request_visual_state") and visual_state != "BOSS_IDLE": body.request_visual_state(visual_state,0.15)
 	body.set_expression("ALERT" if duel_state in [2,3] else "NEUTRAL")
 	activity.apply(delta,duel_state in [0,1])
 	if duel_state == 2:

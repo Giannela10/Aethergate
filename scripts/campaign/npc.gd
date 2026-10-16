@@ -23,6 +23,7 @@ func _ready() -> void:
 	var id := str(name)
 	if not campaign.data.npc_visuals.get(id) is Dictionary:
 		campaign.data.npc_visuals[id] = presets.create(id,presets.role_for(id))
+	campaign.data.npc_visuals[id] = presets.upgrade(id,campaign.data.npc_visuals[id])
 	presets.apply(model,campaign.data.npc_visuals[id])
 	var role := presets.role_for(id)
 	if role in ["PROFESOR","FUNCIONARIO"]:
@@ -132,5 +133,5 @@ func _process(delta: float) -> void:
 			if ready: mark = " ?"
 	name_label.text = npc_name+mark
 	if same_floor and distance < model.visual_far_distance:
-		model.animate(minf(animation_elapsed,0.2),Vector3.ZERO,true,false)
+		model.animate(minf(animation_elapsed,0.2),Vector3(0,0,1.3) if get_meta("duel_retreating",false) else Vector3.ZERO,true,false)
 	animation_elapsed = 0

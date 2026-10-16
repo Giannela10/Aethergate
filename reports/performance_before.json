@@ -1,0 +1,199 @@
+{
+	"baseline": {
+		"samples": [
+			{
+				"draw_calls": 22036.0,
+				"fps": 36.0,
+				"physics_ms": 4.599,
+				"primitives": 848052.0,
+				"process_ms": 30.341,
+				"render_objects": 22972.0
+			},
+			{
+				"draw_calls": 22036.0,
+				"fps": 41.0,
+				"physics_ms": 2.947,
+				"primitives": 848008.0,
+				"process_ms": 23.461,
+				"render_objects": 22950.0
+			},
+			{
+				"draw_calls": 22066.0,
+				"fps": 41.0,
+				"physics_ms": 2.874,
+				"primitives": 858282.0,
+				"process_ms": 23.644,
+				"render_objects": 23003.0
+			},
+			{
+				"draw_calls": 22084.0,
+				"fps": 40.0,
+				"physics_ms": 3.229,
+				"primitives": 865758.0,
+				"process_ms": 24.874,
+				"render_objects": 23021.0
+			}
+		]
+	},
+	"census": {
+		"animation_trees": 14,
+		"approx_material_signatures": 316,
+		"cpu_particles": 0,
+		"gpu_particles": 0,
+		"lights": 510,
+		"meshes": 24213,
+		"navigation_agents": 0,
+		"nodes": 45125.0,
+		"shadow_lights": 1,
+		"skeletons": 14,
+		"unique_override_materials": 1671
+	},
+	"classification": "DESCONOCIDO",
+	"fixture": "UpperCampusCheck: two Main loads, preview_boss profesor_ingles",
+	"gpu_ms": null,
+	"restored": {
+		"samples": [
+			{
+				"draw_calls": 21905.0,
+				"fps": 39.0,
+				"physics_ms": 3.27,
+				"primitives": 796348.0,
+				"process_ms": 24.364,
+				"render_objects": 22819.0
+			},
+			{
+				"draw_calls": 21905.0,
+				"fps": 38.0,
+				"physics_ms": 3.26,
+				"primitives": 796348.0,
+				"process_ms": 24.12,
+				"render_objects": 22819.0
+			},
+			{
+				"draw_calls": 21905.0,
+				"fps": 39.0,
+				"physics_ms": 3.123,
+				"primitives": 796348.0,
+				"process_ms": 26.32,
+				"render_objects": 22819.0
+			},
+			{
+				"draw_calls": 21905.0,
+				"fps": 36.0,
+				"physics_ms": 3.939,
+				"primitives": 796378.0,
+				"process_ms": 30.181,
+				"render_objects": 22834.0
+			}
+		]
+	},
+	"visual_callers_disabled": 15,
+	"without_character_idle": {
+		"samples": [
+			{
+				"draw_calls": 22091.0,
+				"fps": 40.0,
+				"physics_ms": 2.78,
+				"primitives": 867152.0,
+				"process_ms": 33.109,
+				"render_objects": 23005.0
+			},
+			{
+				"draw_calls": 22091.0,
+				"fps": 40.0,
+				"physics_ms": 2.939,
+				"primitives": 867152.0,
+				"process_ms": 27.033,
+				"render_objects": 23005.0
+			},
+			{
+				"draw_calls": 22091.0,
+				"fps": 39.0,
+				"physics_ms": 3.278,
+				"primitives": 867152.0,
+				"process_ms": 27.364,
+				"render_objects": 23005.0
+			},
+			{
+				"draw_calls": 22091.0,
+				"fps": 40.0,
+				"physics_ms": 3.478,
+				"primitives": 867152.0,
+				"process_ms": 23.619,
+				"render_objects": 23005.0
+			}
+		]
+	},
+	"without_light_shadows": {
+		"samples": [
+			{
+				"draw_calls": 1346.0,
+				"fps": 65.0,
+				"physics_ms": 3.008,
+				"primitives": 149106.0,
+				"process_ms": 15.37,
+				"render_objects": 2292.0
+			},
+			{
+				"draw_calls": 1346.0,
+				"fps": 65.0,
+				"physics_ms": 3.416,
+				"primitives": 149106.0,
+				"process_ms": 15.448,
+				"render_objects": 2292.0
+			},
+			{
+				"draw_calls": 1346.0,
+				"fps": 65.0,
+				"physics_ms": 3.713,
+				"primitives": 149042.0,
+				"process_ms": 15.39,
+				"render_objects": 2260.0
+			},
+			{
+				"draw_calls": 1346.0,
+				"fps": 64.0,
+				"physics_ms": 3.285,
+				"primitives": 149042.0,
+				"process_ms": 27.944,
+				"render_objects": 2260.0
+			}
+		]
+	},
+	"without_mesh_rendering": {
+		"samples": [
+			{
+				"draw_calls": 631.0,
+				"fps": 65.0,
+				"physics_ms": 2.748,
+				"primitives": 15218.0,
+				"process_ms": 15.409,
+				"render_objects": 1545.0
+			},
+			{
+				"draw_calls": 631.0,
+				"fps": 65.0,
+				"physics_ms": 2.716,
+				"primitives": 15264.0,
+				"process_ms": 15.403,
+				"render_objects": 1568.0
+			},
+			{
+				"draw_calls": 631.0,
+				"fps": 65.0,
+				"physics_ms": 2.991,
+				"primitives": 15264.0,
+				"process_ms": 15.396,
+				"render_objects": 1568.0
+			},
+			{
+				"draw_calls": 631.0,
+				"fps": 65.0,
+				"physics_ms": 2.826,
+				"primitives": 15264.0,
+				"process_ms": 15.497,
+				"render_objects": 1568.0
+			}
+		]
+	}
+}

@@ -1,0 +1,199 @@
+{
+	"baseline": {
+		"samples": [
+			{
+				"draw_calls": 22036.0,
+				"fps": 37.0,
+				"physics_ms": 4.174,
+				"primitives": 848052.0,
+				"process_ms": 33.701,
+				"render_objects": 22972.0
+			},
+			{
+				"draw_calls": 22036.0,
+				"fps": 41.0,
+				"physics_ms": 2.789,
+				"primitives": 848008.0,
+				"process_ms": 24.376,
+				"render_objects": 22950.0
+			},
+			{
+				"draw_calls": 22037.0,
+				"fps": 39.0,
+				"physics_ms": 2.704,
+				"primitives": 848198.0,
+				"process_ms": 25.633,
+				"render_objects": 22974.0
+			},
+			{
+				"draw_calls": 22033.0,
+				"fps": 41.0,
+				"physics_ms": 3.223,
+				"primitives": 846662.0,
+				"process_ms": 24.587,
+				"render_objects": 22970.0
+			}
+		]
+	},
+	"census": {
+		"animation_trees": 8,
+		"approx_material_signatures": 114,
+		"cpu_particles": 0,
+		"gpu_particles": 0,
+		"lights": 8,
+		"meshes": 1561,
+		"navigation_agents": 0,
+		"nodes": 45125.0,
+		"shadow_lights": 0,
+		"skeletons": 8,
+		"unique_override_materials": 871
+	},
+	"classification": "DESCONOCIDO",
+	"fixture": "UpperCampusCheck: two Main loads, preview_boss profesor_ingles",
+	"gpu_ms": null,
+	"restored": {
+		"samples": [
+			{
+				"draw_calls": 21953.0,
+				"fps": 39.0,
+				"physics_ms": 3.803,
+				"primitives": 814052.0,
+				"process_ms": 31.051,
+				"render_objects": 22867.0
+			},
+			{
+				"draw_calls": 21953.0,
+				"fps": 37.0,
+				"physics_ms": 2.848,
+				"primitives": 814052.0,
+				"process_ms": 27.497,
+				"render_objects": 22867.0
+			},
+			{
+				"draw_calls": 21953.0,
+				"fps": 39.0,
+				"physics_ms": 2.772,
+				"primitives": 814052.0,
+				"process_ms": 29.511,
+				"render_objects": 22867.0
+			},
+			{
+				"draw_calls": 21953.0,
+				"fps": 35.0,
+				"physics_ms": 3.327,
+				"primitives": 814082.0,
+				"process_ms": 28.731,
+				"render_objects": 22882.0
+			}
+		]
+	},
+	"visual_callers_disabled": 8,
+	"without_character_idle": {
+		"samples": [
+			{
+				"draw_calls": 21995.0,
+				"fps": 40.0,
+				"physics_ms": 3.322,
+				"primitives": 831744.0,
+				"process_ms": 25.572,
+				"render_objects": 22909.0
+			},
+			{
+				"draw_calls": 21995.0,
+				"fps": 40.0,
+				"physics_ms": 3.144,
+				"primitives": 831744.0,
+				"process_ms": 24.501,
+				"render_objects": 22909.0
+			},
+			{
+				"draw_calls": 21995.0,
+				"fps": 39.0,
+				"physics_ms": 3.601,
+				"primitives": 831744.0,
+				"process_ms": 26.753,
+				"render_objects": 22909.0
+			},
+			{
+				"draw_calls": 21995.0,
+				"fps": 39.0,
+				"physics_ms": 3.155,
+				"primitives": 831744.0,
+				"process_ms": 26.308,
+				"render_objects": 22909.0
+			}
+		]
+	},
+	"without_light_shadows": {
+		"samples": [
+			{
+				"draw_calls": 21995.0,
+				"fps": 40.0,
+				"physics_ms": 3.884,
+				"primitives": 831808.0,
+				"process_ms": 26.392,
+				"render_objects": 22941.0
+			},
+			{
+				"draw_calls": 21995.0,
+				"fps": 40.0,
+				"physics_ms": 3.506,
+				"primitives": 831808.0,
+				"process_ms": 23.699,
+				"render_objects": 22941.0
+			},
+			{
+				"draw_calls": 22043.0,
+				"fps": 38.0,
+				"physics_ms": 3.327,
+				"primitives": 849448.0,
+				"process_ms": 26.949,
+				"render_objects": 22957.0
+			},
+			{
+				"draw_calls": 22043.0,
+				"fps": 40.0,
+				"physics_ms": 2.952,
+				"primitives": 849448.0,
+				"process_ms": 25.05,
+				"render_objects": 22957.0
+			}
+		]
+	},
+	"without_mesh_rendering": {
+		"samples": [
+			{
+				"draw_calls": 21411.0,
+				"fps": 44.0,
+				"physics_ms": 2.703,
+				"primitives": 656712.0,
+				"process_ms": 22.244,
+				"render_objects": 22325.0
+			},
+			{
+				"draw_calls": 21411.0,
+				"fps": 44.0,
+				"physics_ms": 2.709,
+				"primitives": 656758.0,
+				"process_ms": 25.755,
+				"render_objects": 22348.0
+			},
+			{
+				"draw_calls": 21411.0,
+				"fps": 43.0,
+				"physics_ms": 3.343,
+				"primitives": 656758.0,
+				"process_ms": 25.524,
+				"render_objects": 22348.0
+			},
+			{
+				"draw_calls": 21411.0,
+				"fps": 44.0,
+				"physics_ms": 3.096,
+				"primitives": 656758.0,
+				"process_ms": 22.047,
+				"render_objects": 22348.0
+			}
+		]
+	}
+}

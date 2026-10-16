@@ -1,7 +1,7 @@
 extends "res://scripts/juego/enemy.gd"
 ## Boss exclusivo del casino. Conserva impactos, física, animación y died de enemy.gd.
 const Tray = preload("res://scripts/pisos/piso_1/bandeja_chef_casino.gd")
-@export var boss_max_health := 450.0
+@export var boss_max_health := 350.0
 @export_range(1.3, 1.5) var visual_scale := 1.4
 var phase := 1
 var tray_cd := 2.0

@@ -1,0 +1,1 @@
+﻿{"fixture":"UpperCampusCheck, profesor_ingles, same running instance as performance_before","change":"directional_shadow_max_distance:100->40, shadows remain enabled","samples":[{"fps":58,"process_ms":17.76,"physics_ms":3.656},{"fps":61,"process_ms":15.979,"physics_ms":2.788}],"note":"MCP samples; no GPU timing available"}

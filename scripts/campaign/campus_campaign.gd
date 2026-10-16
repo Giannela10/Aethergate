@@ -3,6 +3,8 @@ signal gameplay_event(kind: String, id: String, amount: int)
 var live: Node
 var final_area: Node3D
 var save_blocked_reason := ""
+var last_save_succeeded := false
+var save_failure_notified := false
 ## Orquesta sistemas existentes. No reconstruye ni mueve piezas del edificio.
 @export_range(1,10) var implementation_phase := 10
 @export var persist := true
@@ -12,7 +14,7 @@ var manager: Node
 var ui: CanvasLayer
 var active_duel: Node
 var ready_for_play := false
-var data: Dictionary = {"version":1,"academics":{},"phone":{},"appearance":{},"npc_visuals":{},"cosmetics":{},"stationery":{},"events":{},"inventory":{},"position":[0,0.2,0],"health":100.0,"floor":"1","bosses":{},"quests":{},"collected":{},"secrets":{},"cards":{},"unlocks":{},"credits":0,"xp":0,"upgrades":{},"stats":{},"achievements":{},"notes":{},"computers":{},"checkpoint":{"position":[0,0.1,0],"health":100},"tutorial":false}
+var data: Dictionary = {"version":1,"academics":{},"phone":{},"appearance":{},"npc_visuals":{},"cosmetics":{},"stationery":{},"events":{},"inventory":{},"position":[0,0.2,0],"health":100.0,"floor":"1","bosses":{},"quests":{},"collected":{},"remaining_quantity":{},"secrets":{},"cards":{},"unlocks":{},"credits":0,"xp":0,"upgrades":{},"stats":{},"achievements":{},"notes":{},"computers":{},"checkpoint":{"position":[0,0.1,0],"health":100},"tutorial":false}
 var events: Dictionary = {}
 var quests: Node
 var quest_ui: Node
@@ -71,6 +73,8 @@ func _boot() -> void:
 			player.inventory.persist = false
 			save_blocked_reason = "Guardado de una versión posterior: escritura desactivada para conservarlo."
 	data = preload("res://scripts/live/save_migration.gd").migrate(data)
+	for pair in [["pc5","ENGLISH_PREPARED"],["pc6","LECTURA_PREPARADA"],["pc7","REFLEXION_PREVIA"],["pc8","NEXO_INFORMATION"]]:
+		data.unlocks[pair[1]] = data.computers.get(pair[0],false)
 	var appearance_profile = preload("res://scripts/juego/character_appearance.gd")
 	refresh_visual_rewards()
 	appearance_profile.unlock_from_progress(data.bosses,data.cosmetics)
@@ -159,6 +163,10 @@ func _boot() -> void:
 	player.add_child(seating)
 	preload("res://scripts/campaign/seat_interactable.gd").setup(self)
 	preload("res://scripts/campaign/appearance_station.gd").setup(self)
+	var upper_bosses = preload("res://scripts/campaign/upper_campus_bosses.gd").new()
+	upper_bosses.name = "UpperCampusBosses"; upper_bosses.campaign = self
+	add_child(upper_bosses)
+	await upper_bosses.setup()
 	guidance = load("res://scripts/campaign/mission_guidance.gd").new()
 	guidance.name = "GuiaObjetivo"
 	guidance.campaign = self
@@ -193,14 +201,43 @@ func save_game() -> void:
 	var save_position: Vector3 = seating.save_position() if seating else player.global_position
 	data.position = [save_position.x,save_position.y,save_position.z]
 	data.health = player.health
+	var error := _write_save_payload(save_payload())
+	last_save_succeeded = error == OK
+	if error != OK:
+		_report_save_failure(error)
+		return
+	save_failure_notified = false
 	if player.persist_inventory:
 		player.inventory.save_data()
 		player.save_stationery()
-	var file := FileAccess.open(save_path+".tmp",FileAccess.WRITE)
-	if file:
-		file.store_string(JSON.stringify(save_payload()))
-		file.close()
-		DirAccess.rename_absolute(ProjectSettings.globalize_path(save_path+".tmp"),ProjectSettings.globalize_path(save_path))
+
+func _write_save_payload(payload: Dictionary) -> Error:
+	var temporary := save_path + ".tmp"
+	var file := FileAccess.open(temporary,FileAccess.WRITE)
+	if file == null:
+		return FileAccess.get_open_error()
+	file.store_string(JSON.stringify(payload))
+	file.flush()
+	var error := file.get_error()
+	file.close()
+	if error != OK:
+		return error
+	# Reutilizar el respaldo de Nueva partida. Nunca borrar el destino antes
+	# del reemplazo: si falla, quedan el original, el respaldo y el temporal.
+	if FileAccess.file_exists(save_path):
+		error = DirAccess.copy_absolute(ProjectSettings.globalize_path(save_path),ProjectSettings.globalize_path(save_path+".bak"))
+		if error != OK:
+			return error
+	return _replace_save_file(temporary,save_path)
+
+func _replace_save_file(temporary: String, destination: String) -> Error:
+	return DirAccess.rename_absolute(ProjectSettings.globalize_path(temporary),ProjectSettings.globalize_path(destination))
+
+func _report_save_failure(error: Error) -> void:
+	push_error("No se pudo guardar la campaña en %s: %s. Se conservan los archivos recuperables." % [save_path,error_string(error)])
+	if not save_failure_notified and is_instance_valid(ui):
+		ui.notify("No se pudo guardar la partida.")
+		save_failure_notified = true
 
 func save_payload() -> Dictionary:
 	# A loaded duel always resumes neutral. Persist its approach and resources,
@@ -293,6 +330,8 @@ func _computer_finished(success: bool) -> void:
 		var id := str(pc.get_meta("campaign_id",pc.get_path()))
 		if pc.done and not data.computers.get(id,false):
 			data.computers[id] = true
+			var preparation := {"pc5":"ENGLISH_PREPARED","pc6":"LECTURA_PREPARADA","pc7":"REFLEXION_PREVIA","pc8":"NEXO_INFORMATION"}
+			if preparation.has(id): data.unlocks[preparation[id]] = true
 			event("computer",id)
 			grant_reward({"credits":20,"xp":25},"computer:"+id)
 			if id == "pc_secreto":
@@ -304,10 +343,6 @@ func _computer_finished(success: bool) -> void:
 func _process(_delta: float) -> void:
 	if not ready_for_play:
 		return
-	if quests:
-		ui.objective.text = "OBJETIVO ACTUAL\n"+quests.objective_text()
-		if guidance:
-			ui.objective.text += "\n"+guidance.hint
 	update_status(_delta)
 
 func _input(event_input: InputEvent) -> void:
@@ -450,12 +485,6 @@ func new_game() -> void:
 	call_deferred("_restart_game")
 
 func _restart_game() -> void:
-	if persist and FileAccess.file_exists(save_path):
-		var backup_error := DirAccess.copy_absolute(ProjectSettings.globalize_path(save_path),ProjectSettings.globalize_path(save_path+".bak"))
-		if backup_error != OK:
-			restarting = false
-			ui.notify("No se pudo respaldar la partida anterior: "+error_string(backup_error))
-			return
 	var fresh := defaults.duplicate(true)
 	# La aparición inicial del gestor está a 2 m; 0.2 m puede quedar dentro del suelo.
 	fresh.appearance = preload("res://scripts/juego/character_appearance.gd").normalize(pending_appearance,{})
@@ -465,21 +494,13 @@ func _restart_game() -> void:
 	fresh.stationery = {"items":{},"notes":"","equipped":""}
 	# No usar save_game(): capturaría el jugador y los objetivos anteriores.
 	if persist:
-		var file := FileAccess.open(save_path+".tmp",FileAccess.WRITE)
-		if file == null:
-			restarting = false
-			ui.notify("No se pudo crear la nueva partida: "+error_string(FileAccess.get_open_error()))
-			return
-		file.store_string(JSON.stringify(fresh))
-		file.flush()
-		var write_error := file.get_error()
-		file.close()
-		if write_error == OK:
-			write_error = DirAccess.rename_absolute(ProjectSettings.globalize_path(save_path+".tmp"),ProjectSettings.globalize_path(save_path))
+		var write_error := _write_save_payload(fresh)
+		last_save_succeeded = write_error == OK
 		if write_error != OK:
 			restarting = false
-			ui.notify("No se pudo guardar la nueva partida: "+error_string(write_error))
+			_report_save_failure(write_error)
 			return
+		save_failure_notified = false
 	ui.close_modal()
 	get_tree().paused = false
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
@@ -560,7 +581,10 @@ func update_status(delta: float) -> void:
 		event("floor",number)
 		if live == null: ui.notify("PISO "+number+" · "+floor_title(number))
 	if quests:
-		ui.objective.text += "\nPISO %s · Nivel %d · Créditos %d · Tarjetas %d/20" % [number,1+int(data.xp/150),data.credits,data.cards.size()]
+		var objective_value: String = "OBJETIVO ACTUAL\n"+quests.objective_text()
+		if guidance: objective_value += "\n"+guidance.hint
+		objective_value += "\nPISO %s · Nivel %d · Créditos %d · Tarjetas %d/20" % [number,1+int(data.xp/150),data.credits,data.cards.size()]
+		if ui.objective.text != objective_value: ui.objective.text = objective_value
 	var level := 1+int(data.xp/150)
 	if implementation_phase >= 9 and level != last_level:
 		last_level = level

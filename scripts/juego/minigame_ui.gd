@@ -22,7 +22,8 @@ var current                 # minijuego en pantalla (sin tipo a propósito)
 
 
 func _ready() -> void:
-	layer = 20
+	# Sobre HUD de campaña (40) e inventario (26), debajo del celular (55).
+	layer = 50
 	visible = false
 
 	# Fondo oscuro (también bloquea los clics hacia el juego)
@@ -90,7 +91,7 @@ func _ready() -> void:
 	success_label.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 
 
-func open(id: int) -> void:
+func open(id: int, activity_profile: String = "") -> void:
 	if active or id < 0 or id >= GAME_SCRIPTS.size():
 		return
 	session_id += 1
@@ -98,15 +99,18 @@ func open(id: int) -> void:
 	closing = false
 	visible = true
 	success_label.visible = false
-	title_label.text = "Computador - " + TITLES[id]
-
-	current = GAME_SCRIPTS[id].new()
+	var activity = preload("res://scripts/juego/campus_activity.gd")
+	var themed: bool = activity.PROFILES.has(activity_profile)
+	title_label.text = "Computador - " + (activity.title_for(activity_profile) if themed else TITLES[id])
+	current = activity.new() if themed else GAME_SCRIPTS[id].new()
 	holder.add_child(current)
 	current.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	current.completed.connect(_on_completed)
 	var campaign := get_tree().get_first_node_in_group("campus_campaign")
 	if campaign and current.has_method("configure_difficulty"):
 		current.configure_difficulty(8 if campaign.floor_current == "S" else int(campaign.floor_current))
+	if themed:
+		current.configure_activity(activity_profile)
 	current.start()
 
 

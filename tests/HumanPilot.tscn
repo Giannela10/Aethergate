@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://tests/human_pilot.gd" id="1"]
+[sub_resource type="BoxMesh" id="floor"]
+size = Vector3(10, 0.1, 10)
+[node name="HumanPilot" type="CharacterBody3D"]
+script = ExtResource("1")
+[node name="Camera3D" type="Camera3D" parent="."]
+position = Vector3(0, 1.5, -5)
+rotation = Vector3(0, 3.14159265, 0)
+current = true
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-45, -30, 0)
+shadow_enabled = true
+directional_shadow_max_distance = 40.0
+[node name="InspectionFill" type="OmniLight3D" parent="."]
+position = Vector3(0, 2, -3)
+light_energy = 1.0
+omni_range = 10.0
+shadow_enabled = false
+[node name="Floor" type="MeshInstance3D" parent="."]
+position = Vector3(0, -0.05, 0)
+mesh = SubResource("floor")

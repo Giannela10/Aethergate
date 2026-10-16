@@ -16,6 +16,10 @@ func fixture() -> PackedScene:
 	# Synthetic rig for adapter validation only; never added to game assets.
 	var root_node := Node3D.new()
 	root_node.name = "Fixture"
+	var test_mesh := MeshInstance3D.new()
+	test_mesh.mesh = SphereMesh.new()
+	root_node.add_child(test_mesh)
+	test_mesh.owner = root_node
 	var skeleton := Skeleton3D.new()
 	skeleton.name = "Skeleton3D"
 	skeleton.add_bone("root")
@@ -80,6 +84,8 @@ func run() -> void:
 	visual.animate(0.016,Vector3.ZERO,true,false)
 	check(not visual.fall_pivot.visible and visual.imported_visual.model.visible,"Imported model active")
 	check(socket == visual.weapon_socket and socket.get_parent() == visual,"Equipped socket retains identity and visibility")
+	visual.animate(0.016,Vector3(0,0,5.5),true,false)
+	check(visual.imported_visual.locomotion_speed > 0 and visual.imported_visual.locomotion_speed < 5.5,"AnimationTree smooths run blend without slowing gameplay")
 	visual.animate(0.016,Vector3(0,4,0),false,false)
 	check(visual.fall_pivot.visible and not visual.imported_visual.model.visible,"Missing jump clip uses real procedural fallback")
 	check(socket.get_parent() == socket_parent,"Fallback restores original socket")

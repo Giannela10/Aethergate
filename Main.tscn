@@ -60719,7 +60719,7 @@ script = ExtResource("5_a43ws")
 script = ExtResource("6_ytdkf")
 boss_name = "Chef Supremo del Casino"
 subtitle = "EL REY DEL CASINO"
-max_health = 450.0
+max_health = 350.0
 reward = "BandejaDelChef"
 boss_id = "chef"
 

@@ -11,7 +11,7 @@ static func derive(data: Dictionary) -> int:
 	if data.get("bosses",{}).get("director",false) == true: return Phase.ANOMALY_HIGH
 	var explicit := clampi(int(flags.get("nexo_stage",0)),0,3)
 	if explicit > 0: return explicit
-	if data.get("computers",{}).get("pc6",false) == true: return Phase.ANOMALY_MEDIUM
+	if data.get("computers",{}).get("pc6",false) == true or data.get("bosses",{}).get("profesor_lenguaje",false) == true: return Phase.ANOMALY_MEDIUM
 	if int(data.get("events",{}).get("story:nexo_redes",0)) > 0 or data.get("computers",{}).get("pc3",false) == true:
 		return Phase.ANOMALY_LOW
 	return Phase.NORMAL
