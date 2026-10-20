@@ -32,6 +32,29 @@ func _ready() -> void:
 				requirement.text += " (preparación opcional)"
 		if row[0] != "direccion": quest.requirements.append(_req("boss",row[2],"Habla y vence al "+row[3]))
 		quest.description = "Duelo de acción con "+row[3]+". El computador da una ventaja opcional."
+	for task in [["director_task_network","PC sin conexión"],["director_task_antivirus","Equipo infectado"],["director_task_config","Configuración de red"]]:
+		_add(task[0],task[1],"Resuelve la prueba informática señalizada del piso 8.",false,"",[_req("academic_task",task[0],task[1])],{})
+		definitions.direccion.requirements.append(_req("academic_task",task[0],task[1]))
+	# Preserve completed states and the existing reward/unlock chain.
+	for id in ["academico5","seguridad6","acceso7"]:
+		var quest = definitions[id]
+		quest.requirements = quest.requirements.filter(func(r): return r.kind != "boss")
+		if id == "academico5":
+			quest.title = "Formación general · Piso 5"
+			quest.description = "Explora el piso 5 y conoce sus servicios generales."
+		if id == "seguridad6":
+			quest.title = "Encuentro académico · Piso 6"
+			quest.description = "Explora formación general. Inglés y Ética son desafíos opcionales."
+			quest.requirements.append(_req("floor","6","Visita el piso 6"))
+		if id == "acceso7":
+			quest.description = "Abre el acceso con TarjetaAcceso y explora el piso 7. Sus duelos son opcionales."
+			quest.requirements.append(_req("floor","7","Visita el piso 7"))
+	definitions.academico3.requirements.append(_req("academic_any","piso3","Supera Bases de Datos o Algoritmos"))
+	_add("ubicar_profesores","Ubicar profesores","Habla con Algoritmos (3), Inglés (6) y Matemáticas (7). No necesitas derrotarlos; regresa al coordinador.",false,"",[
+		_req("talk","profesor_algoritmos","Localiza Algoritmos · piso 3 · Informática"),
+		_req("talk","profesor_ingles","Localiza Inglés · piso 6 · formación general"),
+		_req("talk","profesor_matematicas","Localiza Matemáticas · piso 7 · formación general"),
+		_req("academic_return","coordinador","Regresa a Sala de Profesores · piso 4")],{})
 	refresh()
 
 func _req(kind: String, id: String, text: String, amount: int = 1) -> Dictionary:
@@ -61,6 +84,12 @@ func start_quest(id: String) -> void:
 		campaign.save_game()
 
 func progress(requirement: Dictionary) -> int:
+	if requirement.kind == "academic_any":
+		return 1 if campaign.data.bosses.get("profesor_datos",false) or campaign.data.bosses.get("profesor_algoritmos",false) else 0
+	if requirement.kind == "academic_task":
+		return 1 if campaign.data.academic_expansion.flags.get(requirement.id,false) else 0
+	if requirement.kind == "academic_return":
+		return 1 if campaign.data.academic_expansion.flags.get("coordinator_returned",false) else 0
 	# Permitir continuar partidas anteriores con el boss o computador ya resuelto.
 	if requirement.kind == "talk" and campaign.data.bosses.get(requirement.id,false):
 		return mini(1,int(requirement.amount))

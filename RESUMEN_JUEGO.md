@@ -1,5 +1,34 @@
 # DuocGames: contenido y recorrido actual
 
+## DUOCGAMES EDUCATIVO 1.0 — 20-10-2026
+
+F5 abre Login y carga el menú STUDENT/TEACHER/ADMIN según el perfil. Google está
+implementado con PKCE y callback local, pero necesita configurar y validar una
+instancia real de Supabase. En debug existen DEV STUDENT/TEACHER/ADMIN sin red.
+El panel docente permite crear, editar, activar y previsualizar preguntas.
+El Piso 3 añade un desafío INF_GENERAL con progreso local separado del desbloqueo
+argumental. Campaña, inventario, NEXO y bosses anteriores se conservan.
+
+Documentación: [sistema educativo](EDUCATION_SYSTEM_1_0.md),
+[arquitectura](AUTH_ARCHITECTURE.md), [configuración Google](GOOGLE_SUPABASE_SETUP.md)
+y [plan del Piso 3](FLOOR3_EDUCATION_PLAN.md). No se construyeron salas ni se
+convirtieron todavía docentes a mentores. Las estadísticas docentes y la
+administración avanzada siguen pendientes. Las secciones anteriores de combate
+describen el sistema conservado para su futura conversión a simulaciones.
+
+## Estado vigente: bosses académicos 3.0 — 19-10-2026
+
+Hay **15 bosses y 20 misiones** (10 principales y 10 secundarias). Los apartados fechados anteriormente son historial; sus pisos/conteos no prevalecen sobre esta actualización. Detalle en [ACADEMIC_BOSSES_3_0.md](ACADEMIC_BOSSES_3_0.md).
+
+- Piso 1: Encargado y Chef intactos (Chef 350 HP). Piso 2: Bibliotecaria intacta.
+- Piso 3: Datos (500) y Algoritmos (525); basta vencer uno para la principal. Redes (550) se conserva opcional con su ID/recompensa.
+- Piso 4 norte/salud: Enfermería y Odontología (475 cada uno). Sector docente: Coordinador (500), con misión de hablar con Algoritmos, Inglés y Matemáticas y regresar.
+- Piso 5: exploración general y servicios anteriores; Funcionario/documentos/TarjetaAcceso conservados. Sin boss nuevo.
+- Piso 6: Inglés (450) y Ética (550). Piso 7: Habilidades de Comunicación (500, profesor_lenguaje conservado) y Matemáticas (525). Son opcionales.
+- Piso 8: Director (700) intacto, con pruebas previas de conexión, Antivirus breve y configuración PC01/02/03. −1: NEXO (1200) intacto.
+
+pc5/pc6/pc7 se trasladan a 6/7/6 conservando IDs, game_id, preparación, señales y progreso; pc8 permanece en 8. No se reinician victorias antiguas. Director ya derrotado recibe sus tres flags previas por compatibilidad. Los premios nuevos tienen efectos y ledger único. **Balance y recorrido humano pendientes**, independientemente de resultados automáticos.
+
 Estado actual (16-10-2026): **16 misiones, nueve bosses y cierre jugable con NEXO**. Inglés/Lenguaje/Ética añaden duelos de acción en pisos 5/6/7; computadores 5–8 son preparación opcional. Personajes con ropa modular ampliada y fallback procedural. Nuevos HP pendientes de balance humano. Detalle en [BOSSES_SUPERIORES_2_0.md](BOSSES_SUPERIORES_2_0.md); las auditorías anteriores se conservan como historial.
 
 Inventario revisado en la escena ejecutada el 15 de octubre de 2026. Los conteos de aulas excluyen oficinas, baños, pasillos y grupos que contienen otras salas. Una sala construida no implica que tenga una misión propia.
@@ -302,3 +331,7 @@ GLB conserva install_imported_visual(scene, clips, bindings): valida asset/rig/c
 MODELO HUMANO EXTERNO NECESARIO. Sin GLB/GLTF/FBX humano encontrado; no se descarga nada. Consultar HUMAN_MODEL_IMPORT.md. Las pruebas sintéticas validan contrato, no realismo humano. Ropa skinned y retargeting se preparan en una escena importada mediante el flujo documentado, sin simulación compleja.
 
 No se agregan bosses/misiones ni se cambia balance: Chef 350, Inglés 450, Lenguaje 500, Ética 550, Director 700 HP; daño, economía y recompensas se conservan. Se mantienen caps existentes de proyectiles/zonas y dos virus. Una protección explícita evita Firewall duplicado. FIX demostrado: una zona sin objetivo vivo ya no conserva su callback indefinidamente; expira y detiene procesamiento antes de liberarse.
+# Acabados según fotografías — 19-10-2026
+
+Se unificó el pavimento de los pisos 2–8, conservando los de 1 y −1. Se adaptaron 35 puertas de aulas y sus frentes, detalles industriales de cielo, laboratorio 303, café Paradiso, señalética y bordes de escalera. La entrada incorpora jardín con estatua estilizada sobre pedestal, mobiliario y señalética. Detalles, referencias y checklist humano en ARQUITECTURA_REFERENCIAS_2026_10.md. Se conservan IDs y sistemas de campaña; las puertas mantienen el bloqueo CampaignAccess. La revisión mediante capturas y pruebas automáticas no equivale a playtest humano.
+

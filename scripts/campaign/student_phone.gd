@@ -137,6 +137,8 @@ func show_contact(id: String) -> void:
 			latest = state.messages[index].text
 			break
 	var text := "Rol: %s\nPiso habitual: %s\nProgreso: %s\n\nÚltimo mensaje:\n%s" % [contact.get("role","Contacto del campus"),contact.get("floor","—"),progress,latest]
+	if campaign.academic_expansion != null and campaign.player.inventory.has_item("MapaDocente",1) and campaign.academic_expansion.actors.has(id):
+		text += "\nSector aproximado: "+str(preload("res://scripts/campaign/academic_expansion_data.gd").BOSSES.get(id,{}).get("sector","formación general"))
 	campaign.ui.dialog(str(contact.get("name",id)),text,["Volver a contactos"],[contacts],true)
 	campaign.ui.page = "phone:contact"
 	if campaign.live != null:
@@ -191,6 +193,11 @@ func _floor_for(actor: Node3D) -> String:
 	return "-1" if nearest == 8 else str(nearest+1)
 
 func restore_known_contacts() -> void:
+	# Refresh known academic contact locations without resetting messages.
+	for duel in get_tree().get_nodes_in_group("boss_duel"):
+		if state.contacts.has(duel.boss_id):
+			state.contacts[duel.boss_id]["name"] = duel.boss_name
+			state.contacts[duel.boss_id]["floor"] = _floor_for(duel.get_parent())
 	for key in campaign.events.keys():
 		if str(key).begins_with("talk:") and int(campaign.events[key]) > 0:
 			on_event("talk",str(key).trim_prefix("talk:"))

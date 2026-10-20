@@ -1,5 +1,11 @@
 # PLAYTEST Y BALANCE 1.0
 
+## Estado vigente — expansión académica 3.0, 19-10-2026
+
+La distribución anterior es histórica. Ahora hay 15 bosses: se conservan nueve y se añaden Datos 500 HP, Algoritmos 525, Enfermería 475, Odontología 475, Coordinador 500 y Matemáticas 525. Inglés 450 y Ética 550 se trasladan al 6; Lenguaje se presenta como Habilidades de Comunicación en 7 conservando profesor_lenguaje/500. Chef sigue 350, Director 700, NEXO 1200; no se modifican sus estadísticas. Todos los valores nuevos siguen **PENDIENTES DE PLAYTEST HUMANO**.
+
+No se retocan tablas base de armas, consumibles, enemigos, precios, XP ni créditos. Los premios dan efectos pequeños al poseerlos. Los bosses usan el premio común existente de 75 créditos/150 XP. Se exige Datos **o** Algoritmos, no ambos; los demás profesores nuevos son opcionales. Director exige tres pruebas previas, con compatibilidad para victorias antiguas. IDs, fases, efectos, límites y migración: [ACADEMIC_BOSSES_3_0.md](ACADEMIC_BOSSES_3_0.md). No extrapolar duración humana desde pruebas sintéticas.
+
 **Actualización 16-10-2026:** se implementó CIERRE DE CAMPAÑA 1.0. NEXO existe ahora y sigue **PENDIENTE DE BALANCE HUMANO**. La auditoría del 15-10 siguiente se conserva como estado anterior; sus referencias a «NEXO no existe» y al archivo como final son históricas. Estado actual y cambios al final de este documento y en [CIERRE_CAMPANA_1_0.md](CIERRE_CAMPANA_1_0.md).
 
 Fecha: 2026-10-15. Referencia: scripts, recursos, Main.tscn y ejecución aislada de tests/balance_audit.gd. No es un playthrough humano. Los cambios anteriores se conservan.

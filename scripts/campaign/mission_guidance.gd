@@ -66,6 +66,15 @@ func nearest_floor(height: float) -> String:
 func find_target(requirement: Dictionary) -> Node3D:
 	if requirement.kind == "door" and requirement.id == "nexo_core" and campaign.final_area != null:
 		return campaign.final_area.access
+	if requirement.kind == "boss" and requirement.id == "director" and campaign.academic_expansion != null:
+		for flag in ["director_task_network","director_task_antivirus","director_task_config"]:
+			if not campaign.academic_expansion.state.flags.get(flag,false):
+				return campaign.get_node_or_null("director_antivirus" if flag == "director_task_antivirus" else ("DirectorConnection" if flag == "director_task_network" else "DirectorPC01"))
+	if requirement.kind == "academic_task":
+		return campaign.get_node_or_null("director_antivirus" if requirement.id == "director_task_antivirus" else ("DirectorConnection" if requirement.id == "director_task_network" else "DirectorPC01"))
+	if requirement.kind == "academic_any":
+		for duel in get_tree().get_nodes_in_group("boss_duel"):
+			if duel.boss_id in ["profesor_datos","profesor_algoritmos"] and not duel.defeated: return duel.actor
 	match requirement.kind:
 		"talk", "boss":
 			for duel in get_tree().get_nodes_in_group("boss_duel"):

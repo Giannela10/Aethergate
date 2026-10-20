@@ -33,6 +33,7 @@ var appearance_menu: Node
 var pending_appearance: Dictionary = {}
 var phone: Node
 var academics: Node
+var academic_expansion: Node
 
 func show_personalization(new_run: bool = false) -> void:
 	appearance_menu.open(new_run)
@@ -167,6 +168,13 @@ func _boot() -> void:
 	upper_bosses.name = "UpperCampusBosses"; upper_bosses.campaign = self
 	add_child(upper_bosses)
 	await upper_bosses.setup()
+	academic_expansion = preload("res://scripts/campaign/academic_expansion.gd").new()
+	academic_expansion.name = "AcademicExpansion"
+	academic_expansion.campaign = self
+	add_child(academic_expansion)
+	await academic_expansion.setup()
+	gameplay_event.connect(academic_expansion.on_event)
+	academic_expansion.setup_director_tasks()
 	guidance = load("res://scripts/campaign/mission_guidance.gd").new()
 	guidance.name = "GuiaObjetivo"
 	guidance.campaign = self
@@ -183,13 +191,23 @@ func _boot() -> void:
 	final_area.position = Vector3(48,load("res://scripts/campaign/campus_content.gd").HEIGHTS[8]+0.04,-100)
 	get_parent().get_node("PisoMenos1").add_child(final_area)
 	phone.restore_known_contacts()
+	academic_expansion.recover_rewards()
+	var education_gate := preload("res://scripts/education/academic_floor_gate.gd").new()
+	education_gate.name = "AcademicFloorGate"
+	education_gate.campaign = self
+	add_child(education_gate)
 	if persist and not get_window().close_requested.is_connected(save_game):
 		get_window().close_requested.connect(save_game)
 	if implementation_phase >= 6 and persist:
 		if get_tree().get_meta("campaign_new_game",false):
 			get_tree().remove_meta("campaign_new_game")
 		else:
-			call_deferred("show_start_menu")
+			if get_tree().has_meta("education_entry"):
+				var entry := str(get_tree().get_meta("education_entry"))
+				get_tree().remove_meta("education_entry")
+				if entry == "new": call_deferred("_confirm_new_game")
+			else:
+				call_deferred("show_start_menu")
 
 func save_game() -> void:
 	if player == null or not persist or booting:
@@ -302,6 +320,8 @@ func grant_reward(reward: Dictionary, source: String) -> void:
 	data.xp += int(reward.get("xp",0))
 	for item in reward.get("items",{}):
 		give_reward_item(item,int(reward.items[item]))
+	if source.begins_with("quest:") and source.trim_prefix("quest:") in ["llaves","cargador","documentos","implementos","infectado","casino"] and player.inventory.has_item("InsigniaDeOratoria",1):
+		grant_reward({"items":{"Comida":1}},"oratoria:"+source)
 	if reward.has("unlock"):
 		data.unlocks[str(reward.unlock)] = true
 
@@ -469,6 +489,12 @@ func _death_to_menu() -> void:
 	show_start_menu()
 
 func show_start_menu() -> void:
+	if get_tree().get_meta("education_enabled",false):
+		save_game()
+		ui.close_modal()
+		get_tree().paused = false
+		get_tree().change_scene_to_file("res://scenes/education/StudentMainMenu.tscn")
+		return
 	manager.cam.global_position = player.global_position+Vector3(0,3,5)
 	manager.cam.look_at(player.global_position+Vector3.UP*1.4)
 	ui.dialog("DUOCGAMES","Explora el campus, completa misiones y supera los duelos.",["Continuar","Nueva partida"],[ui.close_modal,_confirm_new_game],true)

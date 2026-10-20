@@ -1,0 +1,274 @@
+{
+  "all_doors_pass": true,
+  "campaign_ready": true,
+  "doors": [
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso3/SalaDetrasLocal/Sala303/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/DistribucionPlanoPiso4/411/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/DistribucionPlanoPiso4/412/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/DistribucionPlanoPiso4/413/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/DistribucionPlanoPiso4/416/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/FilaFrontalPiso4/410/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/FilaFrontalPiso4/409/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/FilaFrontalPiso4/408/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/FilaFrontalPiso4/407/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/FilaFrontalPiso4/406/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/FilaFrontalPiso4/405/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/FilaFrontalPiso4/404/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/FilaFrontalPiso4/402/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/FilaFrontalPiso4/401/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/SalasCentralesPiso4/418/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/SalasCentralesPiso4/417/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso4/SalasCentralesPiso4/415/Puerta"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso6/PasilloReferencia/Sala807/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso6/PasilloReferencia/Sala808/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso6/PasilloReferencia/Sala805/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso6/PasilloReferencia/Sala806/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso6/PasilloReferencia/Sala809/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso6/PasilloReferencia/Sala810/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso7/PasilloReferencia/Sala807/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso7/PasilloReferencia/Sala808/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso7/PasilloReferencia/Sala805/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso7/PasilloReferencia/Sala806/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso7/PasilloReferencia/Sala809/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso7/PasilloReferencia/Sala810/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso8/PasilloReferencia/Sala807/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso8/PasilloReferencia/Sala808/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso8/PasilloReferencia/Sala805/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso8/PasilloReferencia/Sala806/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso8/PasilloReferencia/Sala809/PuertaSala"
+    },
+    {
+      "closed_collision": true,
+      "locks_closed": true,
+      "open_clear": true,
+      "opens": true,
+      "path": "Piso8/PasilloReferencia/Sala810/PuertaSala"
+    }
+  ],
+  "floors": {
+    "Piso2": 148,
+    "Piso3": 54,
+    "Piso4": 68,
+    "Piso5": 81,
+    "Piso6": 113,
+    "Piso7": 113,
+    "Piso8": 110
+  },
+  "ground": [
+    {
+      "collider": "Suelo3:<CSGBox3D#1155312712666>",
+      "position": "(62.0, 0.1, -60.0)"
+    },
+    {
+      "collider": "Suelo3:<CSGBox3D#1155312712666>",
+      "position": "(62.0, 0.1, -53.0)"
+    },
+    {
+      "collider": "Suelo3:<CSGBox3D#1155312712666>",
+      "position": "(8.0, 0.1, -50.0)"
+    }
+  ]
+}

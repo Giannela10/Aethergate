@@ -1,0 +1,110 @@
+{
+	"AcademicBossesCheck": {
+		"checks": 320,
+		"failures": 0,
+		"marker_found": true,
+		"passed": true,
+		"script_errors": false,
+		"stopped_after_result": true,
+		"timeout": false
+	},
+	"campaign_regression": {
+		"checks": -1,
+		"failures": 0,
+		"marker_found": true,
+		"passed": true,
+		"script_errors": false,
+		"stopped_after_result": false,
+		"timeout": false
+	},
+	"campus_vivo": {
+		"checks": 52,
+		"failures": 0,
+		"marker_found": true,
+		"passed": true,
+		"script_errors": false,
+		"stopped_after_result": false,
+		"timeout": false
+	},
+	"director_informatica_boss": {
+		"checks": -1,
+		"failures": 0,
+		"marker_found": true,
+		"passed": true,
+		"script_errors": false,
+		"stopped_after_result": false,
+		"timeout": false
+	},
+	"education_1_0": {
+		"checks": 32,
+		"failures": 0,
+		"marker_found": true,
+		"passed": true,
+		"script_errors": false,
+		"stopped_after_result": false,
+		"timeout": false
+	},
+	"gameplay_regression": {
+		"checks": -1,
+		"failures": 0,
+		"marker_found": true,
+		"passed": true,
+		"script_errors": false,
+		"stopped_after_result": false,
+		"timeout": false
+	},
+	"guardado_lectura": {
+		"checks": -1,
+		"failures": 0,
+		"marker_found": true,
+		"passed": true,
+		"script_errors": false,
+		"stopped_after_result": false,
+		"timeout": false
+	},
+	"inventory_regression": {
+		"checks": -1,
+		"failures": 0,
+		"marker_found": true,
+		"passed": true,
+		"script_errors": false,
+		"stopped_after_result": false,
+		"timeout": false
+	},
+	"nexo_final": {
+		"checks": 111,
+		"failures": 0,
+		"marker_found": true,
+		"passed": true,
+		"script_errors": false,
+		"stopped_after_result": false,
+		"timeout": false
+	},
+	"nueva_partida": {
+		"checks": -1,
+		"failures": 0,
+		"marker_found": true,
+		"passed": true,
+		"script_errors": false,
+		"stopped_after_result": false,
+		"timeout": false
+	},
+	"organizacion_pisos": {
+		"checks": -1,
+		"failures": 0,
+		"marker_found": true,
+		"passed": true,
+		"script_errors": false,
+		"stopped_after_result": false,
+		"timeout": false
+	},
+	"student_phone": {
+		"checks": 31,
+		"failures": 0,
+		"marker_found": true,
+		"passed": true,
+		"script_errors": false,
+		"stopped_after_result": false,
+		"timeout": false
+	}
+}

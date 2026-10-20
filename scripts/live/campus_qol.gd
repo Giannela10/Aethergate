@@ -49,6 +49,7 @@ func show_map() -> void:
 		var discovered: bool = hub.state.discoveries.get("floor:"+floor_name,false)
 		text += "PISO "+floor_name+" · "+(str(hub.moments.FLOORS.get(floor_name,"Campus")) if discovered else "Área por explorar")+"\n"
 	for marker in hub.state.markers: text += "★ "+str(marker.get("text","Volver aquí"))+" · Piso "+str(marker.get("floor",""))+"\n"
+	if c.academic_expansion != null: text += c.academic_expansion.map_notes()
 	if c.quests != null: text += "\n"+c.quests.objective_text()
 	var choices: Array = ["Marcar mi ubicación","Borrar marcadores"]
 	var callbacks: Array = [marker_menu,clear_markers]

@@ -46,6 +46,8 @@ static func _build() -> void:
 	_add("USBInfectado","USB infectado",3,{"special_damage":40.0,"description":"Pulso digital a un enemigo compatible a 7 m, con línea de visión. Consume una unidad solo si surte efecto."})
 	for reward in ["AuricularesLinguisticos","CuadernoDelEscritor","InsigniaIntegridad"]:
 		_add(reward,reward,2,{"max_stack":1,"unique":true,"description":"Reconocimiento académico del duelo. Desbloquea un cosmético; no modifica estadísticas generales."})
+	for definition in preload("res://scripts/campaign/academic_expansion_data.gd").REWARDS.values():
+		_add(definition[0],definition[1],2,{"max_stack":1,"unique":true,"description":definition[2]})
 	for key in {"lapiz":"Lápiz","hoja_impresa":"Hoja impresa","cuaderno":"Cuaderno","goma":"Goma de borrar"}:
 		_add(key,{"lapiz":"Lápiz","hoja_impresa":"Hoja impresa","cuaderno":"Cuaderno","goma":"Goma de borrar"}[key],4)
 

@@ -157,7 +157,10 @@ func run() -> void:
 	quiz.interact(player)
 	quiz.intro_duration = 0.1
 	quiz.accept()
-	await create_timer(0.7).timeout
+	# Wait for the actual intro transition; a wall-clock delay is unreliable under headless load.
+	var quiz_deadline := Time.get_ticks_msec() + 5000
+	while not quiz.actor.active and Time.get_ticks_msec() < quiz_deadline:
+		await process_frame
 	check(quiz.actor.active and paused,"Bibliotecaria conserva duelo de preguntas")
 	for i in 5:
 		var correct := 0

@@ -13,7 +13,8 @@ func setup() -> void:
 		var height: float = preload("res://scripts/campaign/campus_content.gd").HEIGHTS[config.floor_number-1]
 		var position_value: Variant = null
 		var best_samples: Array = []
-		for seed in [Vector3(52,height+0.12,-132),Vector3(43,height+0.12,-132),Vector3(35,height+0.12,-140)]:
+		var side := -1.0 if config.boss_id == "profesor_etica" else 1.0
+		for seed in [Vector3(side*52,height+0.12,-132),Vector3(side*43,height+0.12,-132),Vector3(side*35,height+0.12,-140)]:
 			var candidate = campaign.player.get_node("SeatController").safe_position(seed)
 			if candidate == null or absf(candidate.y-height) >= 0.5: continue
 			var samples: Array = []
@@ -27,7 +28,7 @@ func setup() -> void:
 		if position_value == null:
 			failures.append("Sin posición segura: "+config.boss_id)
 			push_error(failures.back()); continue
-		var actor = preload("res://scripts/campaign/academic_boss.gd").new()
+		var actor = preload("res://scripts/campaign/academic_action_boss.gd").new()
 		actor.name = config.boss_id; actor.config = config; actor.position = campaign.get_parent().get_node("Piso"+str(config.floor_number)).to_local(position_value)
 		campaign.get_parent().get_node("Piso"+str(config.floor_number)).add_child(actor)
 		actor.placement_valid = true

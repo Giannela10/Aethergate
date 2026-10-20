@@ -1,0 +1,7 @@
+{
+	"checks": 32,
+	"failures": [],
+	"google_oauth": "NOT TESTED: external credentials required",
+	"release_export": "NOT TESTED: export templates required",
+	"supabase_rls": "NOT TESTED: deployment required"
+}

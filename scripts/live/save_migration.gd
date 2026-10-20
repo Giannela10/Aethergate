@@ -23,6 +23,7 @@ static func migrate(raw: Dictionary) -> Dictionary:
 	result.save_version = CURRENT
 	# Completing the legacy archive remains completed, but no longer ends the campaign.
 	result.campaign_completed = raw.get("campaign_completed",false) == true or raw.get("bosses",{}).get("nexo",false) == true
-	return result
+	result = preload("res://scripts/campaign/academic_expansion_data.gd").migrate(result)
+	return preload("res://scripts/education/academic_progress.gd").migrate(result)
 static func supported(raw: Dictionary) -> bool:
 	return int(raw.get("version",-1)) in [1,2] and int(raw.get("save_version",1)) in range(1,CURRENT+1)

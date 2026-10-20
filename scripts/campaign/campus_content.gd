@@ -55,7 +55,7 @@ static func npcs_and_computers(campaign: Node3D) -> void:
 		npc.starting_items = row[7]
 		campaign.add_child(npc)
 		npc.global_position = point(row[2],row[3],row[4])
-	for row in [[0,"pc_intro",0,-5,-8],[2,"pc3",1,25,-143],[3,"pc4",2,25,-143],[4,"pc5",0,25,-143],[5,"pc6",2,35,-133],[6,"pc7",1,35,-133],[7,"pc8",2,37,-133]]:
+	for row in [[0,"pc_intro",0,-5,-8],[2,"pc3",1,25,-143],[3,"pc4",2,25,-143],[5,"pc5",0,25,-143],[6,"pc6",2,35,-133],[5,"pc7",1,-35,-133],[7,"pc8",2,37,-133]]:
 		var pc = load("res://scripts/juego/computer.gd").new()
 		pc.name = row[1]
 		pc.game_id = row[2]

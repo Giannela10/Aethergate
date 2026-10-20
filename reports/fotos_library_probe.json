@@ -1,0 +1,13 @@
+{
+  "active": true,
+  "busy_after": true,
+  "busy_before": false,
+  "can_interact": true,
+  "dead": false,
+  "hit": "@StaticBody3D@394:<StaticBody3D#1198849590597>",
+  "hit_path": "/root/ArquitecturaFotosPreview/Main/Piso2/Biblioteca/BossBibliotecaria/@StaticBody3D@394",
+  "paused": true,
+  "state_after": 3,
+  "state_before": 0,
+  "state_dialogue": 1
+}

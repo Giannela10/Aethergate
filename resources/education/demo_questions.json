@@ -1,0 +1,5 @@
+[
+  {"id":"demo-ssd","subject_id":"INF_GENERAL","floor":3,"question_text":"¿Cuál de estos componentes almacena datos aunque el computador esté apagado?","option_a":"RAM","option_b":"SSD","option_c":"CPU","option_d":"Caché","correct_option":"B","explanation":"Un SSD utiliza almacenamiento no volátil.","difficulty":"easy","active":true},
+  {"id":"demo-switch","subject_id":"INF_GENERAL","floor":3,"question_text":"¿Qué dispositivo conecta varios equipos dentro de una red local?","option_a":"Monitor","option_b":"Switch","option_c":"Teclado","option_d":"Impresora","correct_option":"B","explanation":"Un switch conecta equipos dentro de una red local.","difficulty":"easy","active":true},
+  {"id":"demo-sql","subject_id":"INF_GENERAL","floor":3,"question_text":"¿Qué lenguaje se utiliza para consultar bases de datos relacionales?","option_a":"SQL","option_b":"HTML","option_c":"CSS","option_d":"PNG","correct_option":"A","explanation":"SQL permite consultar y gestionar datos relacionales.","difficulty":"easy","active":true}
+]

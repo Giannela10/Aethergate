@@ -1,0 +1,52 @@
+{
+  "source": "Godot MCP isolated policy fixtures; no real accounts",
+  "screens": [
+    {
+      "role": "pending",
+      "available_height": 251,
+      "buttons": [
+        "ACTUALIZAR ESTADO",
+        "CERRAR SESIÓN"
+      ],
+      "content_height": 251,
+      "scrollbar": false,
+      "viewport": "(1152.0, 648.0)"
+    },
+    {
+      "role": "teacher",
+      "available_height": 547,
+      "buttons": [
+        "MIS ASIGNATURAS",
+        "MIS PREGUNTAS",
+        "CREAR PREGUNTA",
+        "EDITAR PREGUNTAS",
+        "VISTA PREVIA",
+        "ESTADÍSTICAS",
+        "JUGAR",
+        "CERRAR SESIÓN",
+        "DEBUG"
+      ],
+      "content_height": 547,
+      "scrollbar": false,
+      "viewport": "(1152.0, 648.0)"
+    },
+    {
+      "role": "admin",
+      "available_height": 547,
+      "buttons": [
+        "USUARIOS",
+        "PROFESORES",
+        "ASIGNATURAS",
+        "PREGUNTAS",
+        "ESTADÍSTICAS",
+        "PANEL DOCENTE",
+        "JUGAR",
+        "CERRAR SESIÓN",
+        "DEBUG"
+      ],
+      "content_height": 547,
+      "scrollbar": false,
+      "viewport": "(1152.0, 648.0)"
+    }
+  ]
+}

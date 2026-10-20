@@ -1,0 +1,78 @@
+{
+  "failures": [],
+  "passed": true,
+  "route": [
+    {
+      "clear": true,
+      "hits": [],
+      "name": "ascensor",
+      "position": "(0.0, -10.55839, -147.0)"
+    },
+    {
+      "clear": true,
+      "hits": [],
+      "name": "centro",
+      "position": "(0.0, -10.55839, -121.0)"
+    },
+    {
+      "clear": true,
+      "hits": [],
+      "name": "mecanica",
+      "position": "(45.0, -10.55839, -124.0)"
+    },
+    {
+      "clear": true,
+      "hits": [],
+      "name": "ping_pong",
+      "position": "(-7.0, -10.55839, -103.0)"
+    },
+    {
+      "clear": true,
+      "hits": [],
+      "name": "lockers",
+      "position": "(0.0, -10.55839, -84.0)"
+    },
+    {
+      "clear": true,
+      "hits": [],
+      "name": "negocio",
+      "position": "(-31.0, -10.55839, -126.0)"
+    },
+    {
+      "clear": true,
+      "hits": [],
+      "name": "pasillo",
+      "position": "(-49.0, -10.55839, -115.0)"
+    },
+    {
+      "clear": true,
+      "hits": [],
+      "name": "salas",
+      "position": "(-49.0, -10.55839, -91.0)"
+    },
+    {
+      "clear": true,
+      "hits": [],
+      "name": "soldadura",
+      "position": "(58.0, -10.55839, -152.0)"
+    },
+    {
+      "clear": true,
+      "hits": [],
+      "name": "base_rampa",
+      "position": "(-36.0, -10.15839, -79.0)"
+    },
+    {
+      "clear": true,
+      "hits": [],
+      "name": "mitad_rampa",
+      "position": "(-36.0, -4.53, -57.0)"
+    },
+    {
+      "clear": true,
+      "hits": [],
+      "name": "salida_exterior",
+      "position": "(-36.0, 1.5, -34.0)"
+    }
+  ]
+}

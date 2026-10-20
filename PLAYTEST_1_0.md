@@ -1,5 +1,97 @@
 # PLAYTEST Y BALANCE 1.0 — recorrido manual
 
+## DUOCGAMES EDUCATIVO 1.0 — 20-10-2026
+
+Registro por correo añadido: prueba local con 21 checks sin fallos en
+`reports/email_registration_tests.json` (respuestas simuladas, sin crear cuentas
+reales). Escena de comprobación: `tests/EmailRegistrationCheck.tscn`.
+
+- [ ] Login → Registrarse mantiene el fondo del campus y muestra nombre/correo/contraseñas ocultas.
+- [ ] Correo inválido, contraseña corta y confirmación distinta muestran un error.
+- [ ] Sin configurar Supabase se informa del requisito; no se crea ninguna cuenta local.
+- [ ] Con Supabase real, registro envía confirmación; después se puede iniciar sesión.
+- [ ] La cuenta nueva tiene role student y no puede elegir teacher/admin.
+- [ ] Acceso con correo y Google conservan el mismo menú, guardado y cierre de sesión.
+
+Pruebas automáticas: `tests/education_1_0.gd` y `tests/education_integration.gd`.
+Resultados y límites en `reports/education_1_0_tests.json`,
+`reports/education_integration_tests.json` y `reports/EDUCATION_1_0_VALIDATION.md`.
+Las fixtures no equivalen a la validación de Google ni a un recorrido humano.
+
+- [ ] F5 abre Login limpio; sin configuración informa el estado sin crashear.
+- [ ] DEV STUDENT/TEACHER/ADMIN aparecen en debug y faltan en una exportación Release.
+- [ ] Google real abre navegador, vuelve a localhost, carga perfil y menú correcto.
+- [ ] Reiniciar renueva la sesión; revocar/expirar vuelve a Login.
+- [ ] Logout borra sesión local y permite cambiar de cuenta sin borrar campaña.
+- [ ] Cuenta student no puede cambiar role ni leer question_keys por REST.
+- [ ] Docente asignado crea/edita/reactiva preguntas propias; otro docente no puede editarlas.
+- [ ] Preview no registra intento; errores del avatar no bloquean el menú.
+- [ ] Piso 3 por ascensor, escalera central, emergencia y descenso desde 4 pide el desafío.
+- [ ] Incorrecta: explicación, sin daño/pérdidas, otra pregunta y opción de volver.
+- [ ] Correcta: desbloqueo, guardar/cerrar/continuar sin repetir.
+- [ ] Mando físico: foco, selección de alternativas, resultado y volver.
+- [ ] Cortar Internet: reintento/fallback claramente identificado, sin fingir validación remota.
+- [ ] Save antiguo mantiene inventario, misiones, Director y NEXO; Nueva partida conserva copia.
+- [ ] Release no contiene demo_questions.json con claves, SQL ni configuración local real.
+
+Configurar primero [Google/Supabase](GOOGLE_SUPABASE_SETUP.md). No marcar OAuth,
+RLS real, sesión remota persistente ni exportación Release como PASS sin ejecutarlos.
+
+## Checklist vigente — Academic Bosses 3.0
+
+Todos los casos siguientes están **PENDIENTES DE PRUEBA HUMANA**. Registrar equipo, resolución, calidad, arma, mejoras, duración y muertes. Las ubicaciones antiguas de Inglés/Lenguaje/Ética del historial se sustituyen por las siguientes. No marcar PASS mediante fixture automática.
+
+### Piso 3
+
+- [ ] Bases de Datos neutral, E, iniciar/cancelar duelo.
+- [ ] Registro Corrupto, copias falsas y Error de Conexión anunciados.
+- [ ] Selección física de tabla, JOIN, fases 60%/30% y Consulta Final.
+- [ ] LlaveDeDatos una sola vez, inventario y save/load.
+- [ ] Algoritmos neutral, secuencia, BREAK/Bucle y Debug Mode.
+- [ ] DepuradorPortatil, ralentización posterior y save/load.
+- [ ] Basta Datos o Algoritmos para progresar; Redes permanece opcional y funcional.
+
+### Piso 4
+
+- [ ] Enfermería en norte/salud: presión, zonas, triaje ficticio y dispositivos.
+- [ ] KitClinicoMejorado: botiquín +5, sin cambiar alimentos.
+- [ ] Odontología en norte/salud: Taladro, Enjuague, placas y CARIES.
+- [ ] ProtectorDental: empuje menor, daño intacto.
+- [ ] Coordinador en Sala de Profesores: buscar tres docentes, hablar sin vencerlos, regresar y desbloquear duelo.
+- [ ] Carpetazo, Documentos, Cambio de Sala y Horario Cambiado; premio MapaDocente.
+- [ ] Mapa/celular solo indican sectores de profesores conocidos.
+
+### Pisos 5 y 6
+
+- [ ] Piso 5 sin boss de Inglés, misión general alcanzable y documentos/TarjetaAcceso intactos.
+- [ ] Inglés en 6: combate, banco de preguntas, zonas A/B/C, tiempo y apertura.
+- [ ] AudifonosDeTraduccion y guardado; conservación de AuricularesLinguisticos anterior.
+- [ ] Ética en 6: A/B, PROTEGER/PERSEGUIR y consecuencias sin respuesta moral correcta.
+- [ ] InsigniaDeIntegridad y conservación del premio antiguo InsigniaIntegridad.
+
+### Piso 7
+
+- [ ] Comunicación: Ruido, Mensaje Claro y Escucha Activa después de dos pulsos.
+- [ ] InsigniaDeOratoria: una Comida extra en ayuda, sin duplicación al cargar.
+- [ ] Matemáticas: operación, patrón, círculo seguro y ecuación final con presión moderada.
+- [ ] CalculadoraAvanzada: pistas/tiempos compatibles, sin auto-resolver.
+- [ ] Acceso7 conserva puerta y requisito TarjetaAcceso.
+
+### Piso 8 y regresión
+
+- [ ] Conexión: equipo, cable, adaptador y reiniciar.
+- [ ] Antivirus breve mediante minijuego existente.
+- [ ] PC01/02/03: comparar redes, rechazar corrección incorrecta y aceptar PC03.
+- [ ] Progreso Director 0/3 → 3/3, bloqueo previo, intro y duelo original.
+- [ ] CredencialDirector, USBInfectado, virus, Firewall y Pantallazo Azul intactos.
+- [ ] Todos los profesores: cámara, espacio, salida, proyectiles contra paredes, señales legibles y ausencia de saturación.
+- [ ] Muerte/reintento mediante UI: vida, estamina, arma, desgaste, consumibles y limpieza de objetivos.
+- [ ] Save antiguo: victorias de Inglés/Lenguaje/Ética y Director conservadas, nuevos premios únicos y ascensores utilizables.
+- [ ] Nueva partida limpia; ruta principal completa hasta NEXO intacta.
+- [ ] Recorrido gráfico por todos los pisos y combates completos; medir FPS/memoria sin confundirlo con headless.
+
+IDs, valores, efectos y evidencia automática: [ACADEMIC_BOSSES_3_0.md](ACADEMIC_BOSSES_3_0.md).
+
 Actualización 16-10-2026: el archivo del −1 ya no termina la campaña; activa la misión del núcleo. Completar también **FINAL NEXO**, al final de esta lista. **NEXO: PENDIENTE DE BALANCE HUMANO.** Ninguna casilla manual queda aprobada por las pruebas automáticas.
 
 Todas las casillas comienzan pendientes. Las suites automáticas no equivalen a estas pruebas humanas. Guardar copia de la partida antes de Nueva partida; anotar versión/PC/resolución/calidad/FPS, tiempo activo, muertes, arma, curaciones, XP y créditos al entrar/salir de cada piso. Telemetría opt-in solo local en Ajustes; no se envía a internet.

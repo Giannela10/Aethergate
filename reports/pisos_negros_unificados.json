@@ -1,0 +1,34 @@
+{
+  "collisions_modified": 0,
+  "floors": {
+    "2": {
+      "assigned_shared_reference": 29,
+      "surfaces": 45
+    },
+    "3": {
+      "assigned_shared_reference": 26,
+      "surfaces": 44
+    },
+    "4": {
+      "assigned_shared_reference": 26,
+      "surfaces": 54
+    },
+    "5": {
+      "assigned_shared_reference": 38,
+      "surfaces": 57
+    },
+    "6": {
+      "assigned_shared_reference": 26,
+      "surfaces": 78
+    },
+    "7": {
+      "assigned_shared_reference": 26,
+      "surfaces": 78
+    },
+    "8": {
+      "assigned_shared_reference": 26,
+      "surfaces": 78
+    }
+  },
+  "reference": "Piso3/AcabadosPasillos/PasilloEste"
+}

@@ -1,0 +1,77 @@
+{
+	"auth_accessible": true,
+	"auth_http_status": 200,
+	"config": {
+		"config_source": "res://config/auth_config.json",
+		"configured": true,
+		"key_prefix": "sb_publishable_",
+		"publishable_key": "CONFIGURED",
+		"supabase_host_format_valid": true,
+		"supabase_url": "CONFIGURED"
+	},
+	"email_confirmation_required": false,
+	"email_provider_enabled": true,
+	"original_signup_result": "NOT CAPTURED: user must retry manually",
+	"signup_disabled": false,
+	"signup_endpoint": "https://uykzkseqyskydbbozhqj.supabase.co/auth/v1/signup",
+	"signup_transport_probe": {
+		"diagnostic": {
+			"apikey_header_configured": true,
+			"bearer_present": false,
+			"body": {
+				"display_name_present": false,
+				"email_present": false,
+				"password_length": 0,
+				"password_present": false
+			},
+			"content_type": "application/json",
+			"elapsed_ms": 667,
+			"failure_kind": "http_error",
+			"http_status": 400,
+			"method": "POST",
+			"request_error": 0,
+			"supabase_error_code": "bad_json",
+			"supabase_message": "Could not parse request body as JSON: unexpected end of JSON input",
+			"timeout_seconds": 15,
+			"transport_result": 0,
+			"url": "https://uykzkseqyskydbbozhqj.supabase.co/auth/v1/signup"
+		},
+		"ok": false,
+		"probe": "malformed_json_no_account_parameters",
+		"status": 400
+	},
+	"tables": {
+		"profiles": {
+			"auth_required": true,
+			"http_status": 401,
+			"not_found": false
+		},
+		"question_attempts": {
+			"auth_required": true,
+			"http_status": 401,
+			"not_found": false
+		},
+		"question_keys": {
+			"auth_required": true,
+			"http_status": 401,
+			"not_found": false
+		},
+		"questions": {
+			"auth_required": true,
+			"http_status": 401,
+			"not_found": false
+		},
+		"subjects": {
+			"auth_required": true,
+			"http_status": 401,
+			"not_found": false
+		},
+		"teacher_subjects": {
+			"auth_required": true,
+			"http_status": 401,
+			"not_found": false
+		}
+	},
+	"users_created": 0,
+	"valid_signup_sent": false
+}

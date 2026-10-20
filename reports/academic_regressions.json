@@ -1,0 +1,107 @@
+{
+	"academic_schedule": {
+		"pid": 22884.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nACADEMIC_POINT (39.4, 24.06767, -128.0) approach=(39.4, 24.00767, -127.0)\nACADEMIC_RESULT {\"checks\":27,\"failures\":[]}\n",
+		"timeout": false
+	},
+	"balance_regression": {
+		"pid": 26724.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nBALANCE_REGRESSION checks=20 failures=[]\n",
+		"timeout": false
+	},
+	"campaign_regression": {
+		"pid": 2256.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\n[MCPTools] execute.code: [get('results'),get('finished')]\nCAMPAIGN_REGRESSION {\"failures\":[],\"passed\":true}\n",
+		"timeout": false
+	},
+	"campus_vivo": {
+		"pid": 26172.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nCAMPUS_VIVO_RESULT {\"checks\":52,\"failures\":[],\"qa_review\":[\"Check credential source and physical route: acceso7\",\"Check credential source and physical route: nexo_core\",\"Stairs, door connectivity and arena exits require an in-game traversal; no automatic geometry repair\"]}\n",
+		"timeout": false
+	},
+	"chef_supremo_casino": {
+		"pid": 11324.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nCHEF CASINO OK: 350 HP, fases 60/30%, melee, bandeja, límites, muerte única, curación y enemigo normal intacto.\n",
+		"timeout": false
+	},
+	"director_informatica_boss": {
+		"pid": 21188.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nDIRECTOR INFORMATICA: OK (0 fallos)\n",
+		"timeout": false
+	},
+	"gameplay_regression": {
+		"pid": 2760.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nGAMEPLAY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}\n",
+		"timeout": false
+	},
+	"guardado_lectura": {
+		"pid": 22328.0,
+		"script_errors": false,
+		"tail": "s/guardado_lectura.gd:18)\nWARNING: Guardado inválido en res://tests/guardado_lectura_temporal/partida.json: Expected key. Se conserva una copia en res://tests/guardado_lectura_temporal/partida.json.invalid-411600.bak; se usarán valores iniciales para este archivo.\n   at: push_warning (core/variant/variant_utility.cpp:1033)\n   GDScript backtrace (most recent call first):\n       [0] read_dictionary (res://scripts/compartidos/lectura_guardado.gd:21)\n       [1] _initialize (res://tests/guardado_lectura.gd:18)\nWARNING: Guardado inválido en res://tests/guardado_lectura_temporal/partida.json: Se esperaba un objeto JSON. Se conserva una copia en res://tests/guardado_lectura_temporal/partida.json.invalid-413963.bak; se usarán valores iniciales para este archivo.\n   at: push_warning (core/variant/variant_utility.cpp:1033)\n   GDScript backtrace (most recent call first):\n       [0] read_dictionary (res://scripts/compartidos/lectura_guardado.gd:21)\n       [1] _initialize (res://tests/guardado_lectura.gd:18)\nWARNING: Guardado inválido en res://tests/guardado_lectura_temporal/partida.json: Se esperaba un objeto JSON. Se conserva una copia en res://tests/guardado_lectura_temporal/partida.json.invalid-415999.bak; se usarán valores iniciales para este archivo.\n   at: push_warning (core/variant/variant_utility.cpp:1033)\n   GDScript backtrace (most recent call first):\n       [0] read_dictionary (res://scripts/compartidos/lectura_guardado.gd:21)\n       [1] _initialize (res://tests/guardado_lectura.gd:18)\nSAVE_READING_RESULT {\"failures\":[]}\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\n",
+		"timeout": false
+	},
+	"inventory_regression": {
+		"pid": 26344.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nINVENTORY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}\n",
+		"timeout": false
+	},
+	"nexo_final": {
+		"pid": 7188.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nNEXO_FINAL_RESULT {\"checks\":111,\"failures\":[]}\n",
+		"timeout": false
+	},
+	"nueva_partida": {
+		"pid": 11252.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nNEW_GAME_RESULT {\"failures\":[]}\n",
+		"timeout": false
+	},
+	"organizacion_pisos": {
+		"pid": 17720.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nFLOOR_ORGANIZATION_RESULT {\"failures\":[],\"pisos\":[\"Piso −1\",\"Piso 1\",\"Piso 2\",\"Piso 3\",\"Piso 4\",\"Piso 5\",\"Piso 6\",\"Piso 7\",\"Piso 8\"],\"rutas\":596}\n",
+		"timeout": false
+	},
+	"performance_startup": {
+		"pid": 10744.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nPERF resource_load_ms=2781\nPERF instantiate_ms=3055\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nPERF renderer=gl_compatibility\nPERF total_ms=5187\nPERF static_memory_mib=375.866279602051\nPERF nodes=47199.0\nPERF objects=78072.0\nPERF resources=16022.0\nPERF physics_active_objects=184.0\n",
+		"timeout": false
+	},
+	"res://scripts/pisos/piso_3/ProfesorRedesCheck.tscn": {
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nREDES_POSITIONS (65.0, 24.00767, -145.0) routers=[[\"Router_A\", (59.0, 24.00767, -146.0), true], [\"Router_B\", (69.0, 24.00767, -146.0), true], [\"Router_C\", (65.0, 24.00767, -142.0), true]]\nNETWORK_BOSS_RESULT {\"checks\":38,\"failures\":[],\"passed\":true}\n",
+		"timeout": false
+	},
+	"res://tests/BasementAccessCheck.tscn": {
+		"script_errors": false,
+		"tail": "erver] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.69346, 0.000935, -146.9669)\",\"route\":\"Emergencia_Subida_0\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.70677, -12.05847, -146.9698)\",\"route\":\"Emergencia_Bajada_0\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.69345, 12.05933, -146.967)\",\"route\":\"Emergencia_Subida_1\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.70676, -0.000231, -146.9698)\",\"route\":\"Emergencia_Bajada_1\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.69314, 23.96859, -146.9708)\",\"route\":\"Emergencia_Subida_2\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.70678, 12.05888, -146.9699)\",\"route\":\"Emergencia_Bajada_2\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.69336, 35.67508, -146.9682)\",\"route\":\"Emergencia_Subida_3\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.70678, 23.96765, -146.9699)\",\"route\":\"Emergencia_Bajada_3\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.69321, 47.9756, -146.97)\",\"route\":\"Emergencia_Subida_4\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.70681, 35.67473, -146.9702)\",\"route\":\"Emergencia_Bajada_4\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.69334, 60.15891, -146.9685)\",\"route\":\"Emergencia_Subida_5\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.70681, 47.97556, -146.9703)\",\"route\":\"Emergencia_Bajada_5\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.69328, 71.94265, -146.9692)\",\"route\":\"Emergencia_Subida_6\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.70678, 60.1585, -146.9699)\",\"route\":\"Emergencia_Bajada_6\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.69352, 83.91393, -146.9659)\",\"route\":\"Emergencia_Subida_7\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-20.70678, 71.94254, -146.9699)\",\"route\":\"Emergencia_Bajada_7\",\"waypoint\":12}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(20.31096, 0.0001, -127.8)\",\"route\":\"Central_Subida\",\"waypoint\":3}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-21.6309, -12.05767, -127.8)\",\"route\":\"Central_Bajada\",\"waypoint\":3}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(20.29206, 12.05909, -127.8)\",\"route\":\"Central_Existente_Subida\",\"waypoint\":3}\nBASEMENT_ROUTE {\"blockers\":[],\"passed\":true,\"position\":\"(-21.62485, 0.000221, -127.8)\",\"route\":\"Central_Existente_Bajada\",\"waypoint\":3}\nBASEMENT_ACCESS_RESULT {\"aperture_open\":true,\"doors\":9,\"failed\":[],\"tested\":20}\n",
+		"timeout": false
+	},
+	"res://tests/ElevatorBasementCheck.tscn": {
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nELEVATOR_BASEMENT_ROUTE {\"blockers\":[],\"lift\":\"Ascensor01\",\"message\":\"Salida al piso −1\",\"passed\":true,\"phase\":\"exit\",\"position\":\"(-10.0, -12.05825, -147.6497)\"}\nELEVATOR_BASEMENT_ROUTE {\"blockers\":[],\"lift\":\"Ascensor02\",\"message\":\"Salida al piso −1\",\"passed\":true,\"phase\":\"exit\",\"position\":\"(0.0, -12.0579, -147.6498)\"}\nELEVATOR_BASEMENT_ROUTE {\"blockers\":[],\"lift\":\"Ascensor03\",\"message\":\"Salida al piso −1\",\"passed\":true,\"phase\":\"exit\",\"position\":\"(10.0, -12.05811, -147.6495)\"}\nELEVATOR_BASEMENT_RESULT {\"failed\":[],\"tested\":3}\n",
+		"timeout": false
+	},
+	"revision_scripts": {
+		"pid": 25684.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nSCRIPT_REVIEW {\"checked\":242,\"failures\":[]}\n",
+		"timeout": false
+	},
+	"student_phone": {
+		"pid": 25084.0,
+		"script_errors": false,
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nPHONE_RESULT {\"checks\":31,\"failures\":[]}\n",
+		"timeout": false
+	}
+}

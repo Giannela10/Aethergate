@@ -178,6 +178,7 @@ func zone(caption: String, point: Vector3, radius: float, warning: float, durati
 	return effect
 
 func hit_player(damage: float) -> void:
+	if damage <= 0: return # Visual decoys must not apply stun or push.
 	if not combat_active() or not is_instance_valid(target) or not inside_arena(target.global_position): return
 	var factor := 1.15 if choice == "A" else (0.8 if choice == "B" else 1.0)
 	target.take_hit(global_position.direction_to(target.global_position),damage*factor)
@@ -207,7 +208,7 @@ func take_hit(direction: Vector3, damage: float) -> void:
 		body.request_visual_state("BOSS_PHASE",0.7)
 		var text := "SECOND PART" if config.role == "INGLES" else ("LAS PALABRAS TOMAN FORMA" if config.role == "LENGUAJE" else "TODA DECISIÓN TIENE CONSECUENCIAS")
 		if phase == 3: text = "FINAL EXAM" if config.role == "INGLES" else ("BLOQUEO DEL ESCRITOR" if config.role == "LENGUAJE" else "CONSECUENCIA")
-		duel.campaign.ui.notify(text,3)
+		duel.campaign.ui.notify(phase_title(text),3)
 		if config.role == "ETICA" and not choice_started:
 			for effect in effects:
 				if is_instance_valid(effect): effect.queue_free()
@@ -215,6 +216,9 @@ func take_hit(direction: Vector3, damage: float) -> void:
 			choice_started = true; choices_remaining = 10 if prepared else 6
 			zone("A · daño +20% / defensa −15%",home+Vector3(-3,0,0),1.35,0,choices_remaining,0,"choice",0,Vector3.FORWARD,"A")
 			zone("B · defensa +20% / daño −15%",home+Vector3(3,0,0),1.35,0,choices_remaining,0,"choice",0,Vector3.FORWARD,"B")
+
+func phase_title(default_text: String) -> String:
+	return default_text
 
 func _update_bar() -> void:
 	if is_instance_valid(bar_fg):

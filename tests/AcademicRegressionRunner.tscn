@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bvp0sc3vye0qi"]
+
+[ext_resource type="Script" uid="uid://cjmslx65klm0m" path="res://tests/academic_regression_runner.gd" id="1_k6v0j"]
+
+[node name="AcademicRegressionRunner" type="Node" unique_id=590287230]
+script = ExtResource("1_k6v0j")

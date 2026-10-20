@@ -25,8 +25,8 @@ func run() -> void:
 	var boss = area.actor
 	var duel = boss.duel
 	check(area.placement_valid,"Existing basement points allow capsule")
-	check(get_nodes_in_group("boss_duel").size() == 9,"Six previous bosses plus three academic action bosses")
-	check(c.quests.definitions.size() == 16,"One principal finale, no duplicate quests")
+	check(get_nodes_in_group("boss_duel").size() == 15,"Six previous bosses plus three academic action bosses")
+	check(c.quests.definitions.size() == 20,"One principal finale, no duplicate quests")
 	check(not area.can_access() and not c.live.completed(),"New game access and completion locked")
 	area.enter_core(); check(not c.data.unlocks.get("door:nexo_core",false),"Unauthorized access cannot unlock core")
 	var original_hp: float = boss.health

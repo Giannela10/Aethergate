@@ -1,13 +1,11 @@
-[gd_resource type="Resource" script_class="" load_steps=2 format=3]
-[ext_resource type="Script" path="res://scripts/campaign/academic_boss_config.gd" id="1"]
+[gd_resource type="Resource" format=3 uid="uid://bevyci8egq7vk"]
+
+[ext_resource type="Script" uid="uid://bd4nrfyne6wn7" path="res://scripts/campaign/academic_boss_config.gd" id="1"]
+
 [resource]
 script = ExtResource("1")
 boss_id = "profesor_ingles"
 display_name = "Profesor de Inglés"
 subtitle = "THE FINAL TEST"
-role = "INGLES"
-floor_number = 5
-max_health = 450.0
+floor_number = 6
 reward = "AuricularesLinguisticos"
-computer_id = "pc5"
-preparation_flag = "ENGLISH_PREPARED"

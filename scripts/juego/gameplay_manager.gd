@@ -368,6 +368,11 @@ func _on_computer_requested(c) -> void:
 	player.busy = true
 	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 	minigame.open(c.game_id,str(c.get("activity_profile")) if c.get("activity_profile") != null else "")
+	if c.get_meta("campaign_id","") == "director_antivirus" and minigame.current != null:
+		minigame.current.GOAL = 4
+		minigame.current.bar.max_value = 4
+		minigame.current._update_info()
+		minigame.title_label.text = "Prueba del Director · identifica archivos sospechosos"
 
 
 func _on_minigame_finished(success: bool) -> void:

@@ -1,0 +1,3 @@
+url Proyecto: https://uykzkseqyskydbbozhqj.supabase.co
+
+Publishable key: sb_publishable_5q4gg59YlBC0R8NBgPgHBg_7uGUQvYZ

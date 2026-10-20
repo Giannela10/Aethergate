@@ -8,4 +8,5 @@ extends Resource
 @export var reward := ""
 @export var computer_id := "pc5"
 @export var preparation_flag := "ENGLISH_PREPARED"
+@export var questions: Array[Dictionary] = []
 @export var health_note := "PENDIENTE DE BALANCE HUMANO"

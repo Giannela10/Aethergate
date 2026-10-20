@@ -1,5 +1,11 @@
 # BALANCE REPORT 1.0
 
+## Actualización vigente: Academic Bosses 3.0 — 19-10-2026
+
+Se agregan seis bosses de acción académica y se reorganizan tres conservando IDs y victorias: Inglés/Ética en 6 y Comunicación (profesor_lenguaje) en 7. Redes conserva su contenido opcional. Total: 15 bosses y 20 misiones; misma cadena de diez principales, con Datos o Algoritmos como requisito alternativo. Piso 5 conserva exploración, servicios y documentos/TarjetaAcceso.
+
+Director mantiene 700 HP y combate, con tres pruebas previas y flags persistentes. Chef mantiene 350 HP y NEXO 1200. Sin rebalanceo global. Premios únicos, recuperación de victorias anteriores y migración idempotente; mecánicas físicas con presión moderada y caps de nodos. Informe técnico y efectos concretos: [ACADEMIC_BOSSES_3_0.md](ACADEMIC_BOSSES_3_0.md). **Balance humano pendiente**; el historial siguiente no representa la nueva distribución.
+
 **Estado actual, 16-10-2026:** CIERRE DE CAMPAÑA 1.0 añade NEXO normal y una misión principal final. Las conclusiones fechadas 15-10 son el diagnóstico previo. NEXO está **PENDIENTE DE BALANCE HUMANO**; no se rebalancearon los elementos anteriores. Ver actualización de cierre al final y [CIERRE_CAMPANA_1_0.md](CIERRE_CAMPANA_1_0.md).
 
 ## RESUMEN EJECUTIVO

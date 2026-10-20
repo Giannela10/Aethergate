@@ -12,6 +12,12 @@ var completed := false
 var call_pressed := false
 
 func _ready() -> void:
+	# This fixture replaces Player with a capsule and exercises standalone lifts/routes.
+	# Remove campaign before its deferred boot; it must not reference the deleted Player.
+	var campaign := get_node_or_null("Campus/CampusCampaign")
+	if campaign != null: campaign.free()
+	var credential := get_node_or_null("Campus/Piso8/EncuentroDirectorInformatica/CredencialDirector")
+	if credential != null: credential.persist = false
 	var manager := get_node("Campus/GameplayManager")
 	manager.process_mode = Node.PROCESS_MODE_DISABLED
 	for player in get_tree().get_nodes_in_group("player"):

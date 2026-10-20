@@ -297,7 +297,8 @@ func use_entry(uid: String) -> bool:
 				if player.health >= player.max_health:
 					notice.emit("Ya tienes la vida completa.")
 					return false
-				player.heal(player.max_health if item.full_heal else item.heal_amount)
+				var academic_bonus := 5.0 if entry.item_id == "Botiquin" and has_item("KitClinicoMejorado",1) else 0.0
+				player.heal(player.max_health if item.full_heal else item.heal_amount+academic_bonus)
 			elif item.speed_multiplier > 1:
 				player.apply_speed_boost(item.speed_multiplier,item.duration)
 			else:

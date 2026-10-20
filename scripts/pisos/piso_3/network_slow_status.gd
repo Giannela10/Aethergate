@@ -11,6 +11,13 @@ func _process(delta: float) -> void:
 	if statuses.is_empty():
 		queue_free()
 
+func apply_status(id: String, duration: float, multiplier: float = 0.7) -> bool:
+	var player = get_parent()
+	if player.get("inventory") != null and id == "RALENTIZADO":
+		if player.inventory.has_item("DepuradorPortatil",1): duration *= 0.85
+		if player.inventory.has_item("InsigniaDeIntegridad",1): duration *= 0.9
+	return super.apply_status(id,duration,multiplier)
+
 func clear_slow() -> void:
 	_restore()
 	queue_free()

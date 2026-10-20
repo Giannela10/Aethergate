@@ -1,0 +1,8 @@
+{
+  "checks": 26,
+  "emergency_door_path": "Piso5/EscaleraEmergencia/PuertaPiso5",
+  "failures": [],
+  "front_world": "(0.0, 0.0, 1.0)",
+  "passed": true,
+  "position": "(-28.751, 47.975, -144.517)"
+}

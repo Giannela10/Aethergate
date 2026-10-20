@@ -1,0 +1,22 @@
+{
+  "campaign_regression": {
+    "script_errors": false,
+    "tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nCAMPAIGN_REGRESSION {\"failures\":[],\"passed\":true}\n",
+    "timeout": false
+  },
+  "inventory_regression": {
+    "script_errors": false,
+    "tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nINVENTORY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}\n",
+    "timeout": false
+  },
+  "organizacion_pisos": {
+    "script_errors": false,
+    "tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nFLOOR_ORGANIZATION_RESULT {\"failures\":[],\"pisos\":[\"Piso −1\",\"Piso 1\",\"Piso 2\",\"Piso 3\",\"Piso 4\",\"Piso 5\",\"Piso 6\",\"Piso 7\",\"Piso 8\"],\"rutas\":596}\n",
+    "timeout": false
+  },
+  "performance_startup": {
+    "script_errors": false,
+    "tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nPERF resource_load_ms=3259\nPERF instantiate_ms=3548\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6571\n[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames\nPERF renderer=gl_compatibility\nPERF total_ms=5714\nPERF static_memory_mib=406.760216712952\nPERF nodes=49232.0\nPERF objects=82257.0\nPERF resources=18148.0\nPERF physics_active_objects=149.0\n",
+    "timeout": false
+  }
+}

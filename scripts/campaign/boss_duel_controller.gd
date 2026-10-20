@@ -84,6 +84,12 @@ func interact(candidate: CharacterBody3D) -> void:
 		return
 	if not initialized or state != DuelState.NEUTRAL or candidate.dead or candidate.busy or is_instance_valid(campaign.active_duel):
 		return
+	if campaign.get("academic_expansion") != null:
+		var missing: String = campaign.academic_expansion.boss_missing(boss_id,true)
+		if not missing.is_empty():
+			campaign.ui.begin_character_dialogue(actor,true)
+			campaign.ui.dialog(boss_name,missing,["Ahora no"],[campaign.ui.close_modal],true)
+			return
 	campaign.ui.begin_character_dialogue(actor,true)
 	state = DuelState.DIALOGUE
 	campaign.active_duel = self
@@ -100,6 +106,12 @@ func decline() -> void:
 func accept() -> void:
 	if state != DuelState.DIALOGUE:
 		return
+	if campaign.get("academic_expansion") != null:
+		var missing: String = campaign.academic_expansion.boss_missing(boss_id)
+		if not missing.is_empty():
+			decline()
+			campaign.ui.notify(missing)
+			return
 	if campaign.live != null: campaign.live.retry.capture(self)
 	if duel_type in [DuelType.MINIGAME,DuelType.FUTURE_TYPE] and not special_rules.has("start_method"):
 		campaign.ui.notify("Este tipo de duelo está preparado para un desafío futuro.")

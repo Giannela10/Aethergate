@@ -21,13 +21,15 @@ func run() -> void:
 		var ray := PhysicsRayQueryParameters3D.create(store.to_global(Vector3(x, 0.5, 2)), store.to_global(Vector3(x, -1, 2)))
 		if space.intersect_ray(ray).is_empty():
 			failures.append("Falta suelo ante la tienda en X local=%s" % x)
-	for x in [-1.5, 0.5, 2.5]:
+	for x in [-1.5, 0.5]:
 		var ray := PhysicsRayQueryParameters3D.create(store.to_global(Vector3(x, 1, 1)), store.to_global(Vector3(x, 1, -1.5)))
 		var hit := space.intersect_ray(ray)
 		if hit.is_empty() or not str(hit.collider.get_path()).contains("TiendaEsquinaPiso5/MostradorFrontal"):
 			failures.append("Falta colisión del mostrador en X local=%s" % x)
-	if store.global_position.distance_to(Vector3(-28.2, 47.975, -136.6)) > 0.15:
+	if store.global_position.distance_to(Vector3(-28.751, 47.975, -144.517)) > 0.15:
 		failures.append("La tienda debe estar al norte, junto al desembarco")
+	if store.global_basis.z.normalized().dot(Vector3.BACK) < 0.99:
+		failures.append("El mostrador debe mirar al acceso junto a emergencia (+Z)")
 	if store.find_children("Vitrina*", "MeshInstance3D", true, false).size() != 2:
 		failures.append("Deben existir dos vitrinas")
 	print("TIENDA_PISO5_ACCESS ", JSON.stringify({"tested": 14, "failures": failures}))

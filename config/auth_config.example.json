@@ -1,0 +1,6 @@
+{
+    "supabase_url":  "https://TU_PROYECTO.supabase.co",
+    "supabase_publishable_key":  "sb_publishable_TU_CLAVE",
+    "google_enabled":  false,
+    "oauth_callback_port":  8765
+}

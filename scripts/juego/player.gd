@@ -369,8 +369,9 @@ func take_hit(direction: Vector3, damage: float) -> void:
 	body.hurt()
 	body.react_to_hit(direction,damage)
 	stun_t = 0.25
-	velocity.x += direction.x * 4.0
-	velocity.z += direction.z * 4.0
+	var academic_push := 0.9 if inventory != null and inventory.has_item("ProtectorDental",1) else 1.0
+	velocity.x += direction.x * 4.0 * academic_push
+	velocity.z += direction.z * 4.0 * academic_push
 	health_changed.emit(health, max_health)
 	if health <= 0.0:
 		dead = true

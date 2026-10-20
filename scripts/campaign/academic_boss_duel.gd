@@ -6,6 +6,8 @@ func interact(candidate: CharacterBody3D) -> void:
 		campaign.ui.dialog(boss_name,"Buen trabajo. Puedes seguir explorando y preparándote.",["Continuar"],[campaign.ui.close_modal],true)
 		return
 	super.interact(candidate)
+	if state == DuelState.DIALOGUE:
+		campaign.ui.dialog(boss_name,intro_text,["Iniciar desafío","Ahora no"],[accept,decline])
 func interaction_text(player: Node) -> String:
 	return "[E] Hablar con "+boss_name if defeated else (super.interaction_text(player) if actor.placement_valid else "")
 func accept() -> void:
