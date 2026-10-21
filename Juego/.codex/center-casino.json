@@ -1,0 +1,45 @@
+[
+    {
+        "params":  {
+                       "batch":  [
+                                     {
+                                         "property":  "visible",
+                                         "node_path":  "Piso1/Casino/Letrero",
+                                         "value":  false
+                                     },
+                                     {
+                                         "property":  "horizontal_alignment",
+                                         "node_path":  "Piso1/Casino/AcabadosEntradaLateral/Casino",
+                                         "value":  1
+                                     },
+                                     {
+                                         "property":  "position",
+                                         "node_path":  "Piso1/Casino/AcabadosEntradaLateral/Casino",
+                                         "value":  {
+                                                       "y":  3.65,
+                                                       "z":  -116.5,
+                                                       "type":  "Vector3",
+                                                       "x":  -32.08
+                                                   }
+                                     },
+                                     {
+                                         "property":  "position",
+                                         "node_path":  "Piso1/Casino/AcabadosEntradaLateral/LuzEntrada",
+                                         "value":  {
+                                                       "y":  4.1,
+                                                       "z":  -116.5,
+                                                       "type":  "Vector3",
+                                                       "x":  -32.08
+                                                   }
+                                     }
+                                 ]
+                   },
+        "method":  "node.set_property"
+    },
+    {
+        "params":  {
+
+                   },
+        "method":  "editor.save_scene"
+    }
+]

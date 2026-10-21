@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://4ls2bbn7gm6v"]
+
+[resource]
+resource_name = "MAT_Meson_Biblioteca_Azul"
+albedo_color = Color(0.045, 0.075, 0.24, 1)
+roughness = 0.7

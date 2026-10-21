@@ -1,0 +1,5 @@
+res://scripts/auth/auth_manager.gd
+res://scripts/education/education_shell.gd
+res://tests/email_auth_manager_fixture.gd
+res://tests/supabase_session_fixture.gd
+res://tests/remember_login_check.gd

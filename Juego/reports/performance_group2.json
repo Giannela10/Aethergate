@@ -1,0 +1,199 @@
+{
+	"baseline": {
+		"samples": [
+			{
+				"draw_calls": 8380.0,
+				"fps": 66.0,
+				"physics_ms": 2.446,
+				"primitives": 510198.0,
+				"process_ms": 15.419,
+				"render_objects": 9316.0
+			},
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 2.621,
+				"primitives": 510200.0,
+				"process_ms": 15.413,
+				"render_objects": 9317.0
+			},
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 2.652,
+				"primitives": 510200.0,
+				"process_ms": 15.395,
+				"render_objects": 9317.0
+			},
+			{
+				"draw_calls": 8380.0,
+				"fps": 64.0,
+				"physics_ms": 3.468,
+				"primitives": 510200.0,
+				"process_ms": 28.715,
+				"render_objects": 9317.0
+			}
+		]
+	},
+	"census": {
+		"animation_trees": 14,
+		"approx_material_signatures": 316,
+		"cpu_particles": 0,
+		"gpu_particles": 0,
+		"lights": 510,
+		"meshes": 24213,
+		"navigation_agents": 0,
+		"nodes": 45126.0,
+		"shadow_lights": 1,
+		"skeletons": 14,
+		"unique_override_materials": 1671
+	},
+	"classification": "DESCONOCIDO",
+	"fixture": "UpperCampusCheck: two Main loads, preview_boss profesor_ingles",
+	"gpu_ms": null,
+	"restored": {
+		"samples": [
+			{
+				"draw_calls": 8428.0,
+				"fps": 65.0,
+				"physics_ms": 2.696,
+				"primitives": 527858.0,
+				"process_ms": 15.386,
+				"render_objects": 9342.0
+			},
+			{
+				"draw_calls": 8428.0,
+				"fps": 65.0,
+				"physics_ms": 2.645,
+				"primitives": 527858.0,
+				"process_ms": 15.407,
+				"render_objects": 9342.0
+			},
+			{
+				"draw_calls": 8428.0,
+				"fps": 65.0,
+				"physics_ms": 2.938,
+				"primitives": 527858.0,
+				"process_ms": 15.383,
+				"render_objects": 9342.0
+			},
+			{
+				"draw_calls": 8428.0,
+				"fps": 65.0,
+				"physics_ms": 2.646,
+				"primitives": 527888.0,
+				"process_ms": 15.408,
+				"render_objects": 9357.0
+			}
+		]
+	},
+	"visual_callers_disabled": 15,
+	"without_character_idle": {
+		"samples": [
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 2.712,
+				"primitives": 510154.0,
+				"process_ms": 20.34,
+				"render_objects": 9294.0
+			},
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 2.696,
+				"primitives": 510154.0,
+				"process_ms": 15.406,
+				"render_objects": 9294.0
+			},
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 2.695,
+				"primitives": 510154.0,
+				"process_ms": 28.714,
+				"render_objects": 9294.0
+			},
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 2.902,
+				"primitives": 510154.0,
+				"process_ms": 15.46,
+				"render_objects": 9294.0
+			}
+		]
+	},
+	"without_light_shadows": {
+		"samples": [
+			{
+				"draw_calls": 1292.0,
+				"fps": 65.0,
+				"physics_ms": 2.885,
+				"primitives": 130106.0,
+				"process_ms": 15.411,
+				"render_objects": 2238.0
+			},
+			{
+				"draw_calls": 1292.0,
+				"fps": 65.0,
+				"physics_ms": 3.619,
+				"primitives": 130106.0,
+				"process_ms": 15.387,
+				"render_objects": 2238.0
+			},
+			{
+				"draw_calls": 1292.0,
+				"fps": 65.0,
+				"physics_ms": 2.574,
+				"primitives": 130042.0,
+				"process_ms": 15.387,
+				"render_objects": 2206.0
+			},
+			{
+				"draw_calls": 1292.0,
+				"fps": 65.0,
+				"physics_ms": 2.505,
+				"primitives": 130042.0,
+				"process_ms": 15.408,
+				"render_objects": 2206.0
+			}
+		]
+	},
+	"without_mesh_rendering": {
+		"samples": [
+			{
+				"draw_calls": 259.0,
+				"fps": 65.0,
+				"physics_ms": 2.365,
+				"primitives": 10466.0,
+				"process_ms": 15.385,
+				"render_objects": 1173.0
+			},
+			{
+				"draw_calls": 259.0,
+				"fps": 65.0,
+				"physics_ms": 2.376,
+				"primitives": 10512.0,
+				"process_ms": 15.422,
+				"render_objects": 1196.0
+			},
+			{
+				"draw_calls": 259.0,
+				"fps": 65.0,
+				"physics_ms": 2.658,
+				"primitives": 10512.0,
+				"process_ms": 15.643,
+				"render_objects": 1196.0
+			},
+			{
+				"draw_calls": 259.0,
+				"fps": 65.0,
+				"physics_ms": 2.506,
+				"primitives": 10512.0,
+				"process_ms": 15.443,
+				"render_objects": 1196.0
+			}
+		]
+	}
+}

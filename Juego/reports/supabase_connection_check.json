@@ -1,0 +1,53 @@
+{
+	"administrative_connection": false,
+	"auth_http_status": 200,
+	"auth_reachable": true,
+	"config_source": "res://config/auth_config.json",
+	"configured": true,
+	"email_provider_enabled": true,
+	"legacy_property_supported": true,
+	"migration_verified": false,
+	"new_property_supported": true,
+	"no_remote_writes": true,
+	"publishable_detected": true,
+	"rls_verified_with_real_roles": false,
+	"signup_disabled": false,
+	"tables": {
+		"academic_progress": {
+			"http_status": 404,
+			"missing_or_not_in_schema_cache": true,
+			"requires_auth_or_permissions": false
+		},
+		"profiles": {
+			"http_status": 404,
+			"missing_or_not_in_schema_cache": true,
+			"requires_auth_or_permissions": false
+		},
+		"question_attempts": {
+			"http_status": 404,
+			"missing_or_not_in_schema_cache": true,
+			"requires_auth_or_permissions": false
+		},
+		"question_keys": {
+			"http_status": 404,
+			"missing_or_not_in_schema_cache": true,
+			"requires_auth_or_permissions": false
+		},
+		"questions": {
+			"http_status": 404,
+			"missing_or_not_in_schema_cache": true,
+			"requires_auth_or_permissions": false
+		},
+		"subjects": {
+			"http_status": 404,
+			"missing_or_not_in_schema_cache": true,
+			"requires_auth_or_permissions": false
+		},
+		"teacher_subjects": {
+			"http_status": 404,
+			"missing_or_not_in_schema_cache": true,
+			"requires_auth_or_permissions": false
+		}
+	},
+	"users_created": 0
+}

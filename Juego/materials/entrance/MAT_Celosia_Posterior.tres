@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dxwqhcyg23i6"]
+
+[ext_resource type="Shader" uid="uid://c4lhvw1dsb34r" path="res://materials/entrance/celosia_posterior.gdshader" id="1_0yc4j"]
+
+[resource]
+resource_name = "MAT_Celosia_Posterior"
+render_priority = 0
+shader = ExtResource("1_0yc4j")

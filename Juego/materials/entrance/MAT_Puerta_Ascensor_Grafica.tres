@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dp5cxx7prwd6y"]
+
+[resource]
+resource_name = "MAT_Puerta_Ascensor_Grafica"
+albedo_color = Color(0.86, 0.86, 0.82, 1)
+roughness = 0.35

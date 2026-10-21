@@ -1,0 +1,75 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6571
+[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_ROUTE] status=0 result=PENDING
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_ROUTE] status=0 result=STUDENT
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_ROUTE] status=0 result=TEACHER
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_ROUTE] status=0 result=ADMIN
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_PROFILE] status=0 result=Rol de perfil inválido.
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_PROFILE] status=0 result=El perfil no corresponde a la cuenta autenticada.
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_PROFILE] status=0 result=Auth correcto, profile ausente o inaccesible.
+[AUTH_REFRESH] status=200 result=OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_ROUTE] status=0 result=STUDENT
+[AUTH_REFRESH] status=400 result=FAILED
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_ROUTE] status=0 result=STUDENT
+[AUTH_REFRESH] status=400 result=FAILED
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_RELATIVE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_ROUTE] status=0 result=STUDENT
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_RELATIVE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_ROUTE] status=0 result=STUDENT
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_RELATIVE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_ROUTE] status=0 result=STUDENT
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_ROUTE] status=0 result=STUDENT
+[AUTH_REFRESH] status=200 result=OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_LOGIN] status=0 result=SESSION_ID_OR_EXPIRY_INVALID
+[AUTH_REFRESH] status=200 result=OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=403 result=PROFILE_ERROR
+[AUTH_PROFILE] status=0 result=Auth correcto, profile ausente o inaccesible.
+[AUTH_REFRESH] status=200 result=OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_ROUTE] status=0 result=STUDENT
+[AUTH_LOGIN] status=200 result=PASSWORD_AUTH_OK
+[AUTH_LOGIN] status=0 result=EXPIRY_ABSOLUTE_SECONDS
+[AUTH_PROFILE] status=200 result=OK
+[AUTH_ROUTE] status=0 result=STUDENT
+SUPABASE_AUTH_RESULT {"checks":59,"failures":[],"real_accounts_created":0,"session_storage":"isolated in-memory fixture"}

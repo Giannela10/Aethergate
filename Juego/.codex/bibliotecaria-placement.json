@@ -1,0 +1,16 @@
+[
+    {
+        "params":  {
+                       "subtree":  "Piso2/Biblioteca",
+                       "center":  [
+                                      -62,
+                                      13,
+                                      -98
+                                  ],
+                       "radius":  5,
+                       "max_nodes":  18,
+                       "detail":  "brief"
+                   },
+        "method":  "scene.spatial_map"
+    }
+]

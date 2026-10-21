@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://bevyci8egq7vk"]
+
+[ext_resource type="Script" uid="uid://bd4nrfyne6wn7" path="res://scripts/campaign/academic_boss_config.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+boss_id = "profesor_ingles"
+display_name = "Profesor de Inglés"
+subtitle = "THE FINAL TEST"
+floor_number = 6
+reward = "AuricularesLinguisticos"

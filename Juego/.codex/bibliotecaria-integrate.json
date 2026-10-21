@@ -1,0 +1,31 @@
+[
+    {
+        "params":  {
+                       "parent_path":  "Piso2/Biblioteca",
+                       "node_name":  "BossBibliotecaria",
+                       "properties":  {
+                                          "position":  {
+                                                           "y":  0.05,
+                                                           "z":  -96,
+                                                           "type":  "Vector3",
+                                                           "x":  -57
+                                                       }
+                                      },
+                       "class_name":  "Node3D"
+                   },
+        "method":  "scene.create_node"
+    },
+    {
+        "params":  {
+                       "node_path":  "Piso2/Biblioteca/BossBibliotecaria",
+                       "script_path":  "res://boss_bibliotecaria.gd"
+                   },
+        "method":  "node.set_script"
+    },
+    {
+        "params":  {
+
+                   },
+        "method":  "editor.save_scene"
+    }
+]

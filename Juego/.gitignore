@@ -1,0 +1,8 @@
+.godot/
+config/auth_config.json
+*.auth-session.json
+tests/*.log
+tests/*.bak
+tests/organizacion_resultado.json
+tests/rutas_ordenadas.json
+tests/scripts_ordenados.json

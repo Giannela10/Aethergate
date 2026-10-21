@@ -1,0 +1,150 @@
+{
+	"director": {
+		"note": "Synthetic repeated patterns every 0.8 s; not a human duel or before/after comparison",
+		"samples": [
+			{
+				"draw_calls": 8039.0,
+				"fps": 62.0,
+				"physics_ms": 3.343,
+				"primitives": 543546.0,
+				"process_ms": 15.688,
+				"render_objects": 8965.0
+			},
+			{
+				"draw_calls": 8039.0,
+				"fps": 57.0,
+				"physics_ms": 5.354,
+				"primitives": 543546.0,
+				"process_ms": 18.652,
+				"render_objects": 8965.0
+			},
+			{
+				"draw_calls": 8039.0,
+				"fps": 57.0,
+				"physics_ms": 4.012,
+				"primitives": 543546.0,
+				"process_ms": 18.273,
+				"render_objects": 8965.0
+			},
+			{
+				"draw_calls": 8050.0,
+				"fps": 60.0,
+				"physics_ms": 3.608,
+				"primitives": 547810.0,
+				"process_ms": 17.017,
+				"render_objects": 8976.0
+			}
+		]
+	},
+	"profesor_etica": {
+		"note": "Synthetic repeated patterns every 0.8 s; not a human duel or before/after comparison",
+		"samples": [
+			{
+				"draw_calls": 10301.0,
+				"fps": 61.0,
+				"physics_ms": 3.387,
+				"primitives": 456950.0,
+				"process_ms": 20.613,
+				"render_objects": 11214.0
+			},
+			{
+				"draw_calls": 10304.0,
+				"fps": 61.0,
+				"physics_ms": 3.068,
+				"primitives": 457170.0,
+				"process_ms": 20.033,
+				"render_objects": 11223.0
+			},
+			{
+				"draw_calls": 10301.0,
+				"fps": 64.0,
+				"physics_ms": 2.974,
+				"primitives": 456962.0,
+				"process_ms": 27.606,
+				"render_objects": 11220.0
+			},
+			{
+				"draw_calls": 10298.0,
+				"fps": 66.0,
+				"physics_ms": 2.951,
+				"primitives": 454026.0,
+				"process_ms": 28.587,
+				"render_objects": 11217.0
+			}
+		]
+	},
+	"profesor_ingles": {
+		"note": "Synthetic repeated patterns every 0.8 s; not a human duel or before/after comparison",
+		"samples": [
+			{
+				"draw_calls": 7899.0,
+				"fps": 65.0,
+				"physics_ms": 7.503,
+				"primitives": 476196.0,
+				"process_ms": 15.381,
+				"render_objects": 8828.0
+			},
+			{
+				"draw_calls": 7888.0,
+				"fps": 65.0,
+				"physics_ms": 9.325,
+				"primitives": 474488.0,
+				"process_ms": 15.399,
+				"render_objects": 8817.0
+			},
+			{
+				"draw_calls": 7906.0,
+				"fps": 64.0,
+				"physics_ms": 9.651,
+				"primitives": 477750.0,
+				"process_ms": 17.276,
+				"render_objects": 8828.0
+			},
+			{
+				"draw_calls": 7901.0,
+				"fps": 63.0,
+				"physics_ms": 9.027,
+				"primitives": 476174.0,
+				"process_ms": 26.99,
+				"render_objects": 8823.0
+			}
+		]
+	},
+	"profesor_lenguaje": {
+		"note": "Synthetic repeated patterns every 0.8 s; not a human duel or before/after comparison",
+		"samples": [
+			{
+				"draw_calls": 9617.0,
+				"fps": 65.0,
+				"physics_ms": 9.248,
+				"primitives": 491432.0,
+				"process_ms": 14.579,
+				"render_objects": 10550.0
+			},
+			{
+				"draw_calls": 9609.0,
+				"fps": 61.0,
+				"physics_ms": 9.245,
+				"primitives": 491328.0,
+				"process_ms": 28.524,
+				"render_objects": 10530.0
+			},
+			{
+				"draw_calls": 9623.0,
+				"fps": 65.0,
+				"physics_ms": 7.815,
+				"primitives": 491496.0,
+				"process_ms": 15.199,
+				"render_objects": 10556.0
+			},
+			{
+				"draw_calls": 9662.0,
+				"fps": 61.0,
+				"physics_ms": 9.866,
+				"primitives": 505436.0,
+				"process_ms": 28.297,
+				"render_objects": 10583.0
+			}
+		]
+	}
+}

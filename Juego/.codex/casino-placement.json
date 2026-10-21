@@ -1,0 +1,15 @@
+[
+    {
+        "params":  {
+                       "radius":  5,
+                       "center":  [
+                                      -32.2,
+                                      3.5,
+                                      -116.5
+                                  ],
+                       "detail":  "brief",
+                       "max_nodes":  75
+                   },
+        "method":  "scene.spatial_map"
+    }
+]

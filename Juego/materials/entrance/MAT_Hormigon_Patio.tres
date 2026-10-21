@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d4jldk0jxe4ns"]
+
+[resource]
+resource_name = "MAT_Hormigon_Patio"
+albedo_color = Color(0.43, 0.45, 0.44, 1)
+roughness = 0.8

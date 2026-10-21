@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6570
+[MCPRegistry] runtime port 6570 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames
+CAMPUS_VIVO_RESULT {"checks":52,"failures":[],"qa_review":["Check credential source and physical route: acceso7","Check credential source and physical route: nexo_core","Stairs, door connectivity and arena exits require an in-game traversal; no automatic geometry repair"]}

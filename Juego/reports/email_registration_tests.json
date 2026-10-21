@@ -1,0 +1,6 @@
+{
+	"checks": 21,
+	"failures": [],
+	"real_passwords_used": false,
+	"remote_registration": "NOT TESTED: requires configured Supabase and SMTP"
+}

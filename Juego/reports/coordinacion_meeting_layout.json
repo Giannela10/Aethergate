@@ -1,0 +1,68 @@
+{
+  "ceiling_underside": 4.94,
+  "previous_ceiling_underside": 4.94,
+  "auditorium_base_preserved": true,
+  "removed_glass_components": 102,
+  "desks": [
+    {
+      "desk": "PuestoCoordinador",
+      "chair": "@Node3D@237",
+      "x": 43,
+      "z": -105.4,
+      "meeting": false
+    },
+    {
+      "desk": "@Node3D@252",
+      "chair": "@Node3D@269",
+      "x": 53,
+      "z": -105.4,
+      "meeting": false
+    },
+    {
+      "desk": "@Node3D@284",
+      "chair": "@Node3D@301",
+      "x": 63,
+      "z": -105.4,
+      "meeting": false
+    },
+    {
+      "desk": "@Node3D@316",
+      "chair": "@Node3D@333",
+      "x": 75.9,
+      "z": -101.8,
+      "meeting": true
+    },
+    {
+      "desk": "@Node3D@348",
+      "chair": "@Node3D@365",
+      "x": 43,
+      "z": -97.4,
+      "meeting": false
+    },
+    {
+      "desk": "@Node3D@380",
+      "chair": "@Node3D@397",
+      "x": 53,
+      "z": -97.4,
+      "meeting": false
+    },
+    {
+      "desk": "@Node3D@412",
+      "chair": "@Node3D@429",
+      "x": 63,
+      "z": -97.4,
+      "meeting": false
+    },
+    {
+      "desk": "@Node3D@444",
+      "chair": "@Node3D@461",
+      "x": 79.2,
+      "z": -101.8,
+      "meeting": true
+    }
+  ],
+  "outside_scene_hash": "02b821eabc1eb50a312ea0bfba1831aba1b9cb408d9b81c196d8c8653d8bfdc5",
+  "requested_ceiling_underside": 11.558385849,
+  "ceiling_adjustment_applied": false,
+  "ceiling_constraint": "Auditorium base occupies y=4.94..8.2547 over part of Coordination; retain original ceiling until structural overlap is resolved."
+}

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://digdg37dr3n4c"]
+
+[ext_resource type="Script" uid="uid://cpmgc16bn7cxp" path="res://tests/arquitectura_fotos_preview.gd" id="1_ajv5i"]
+
+[node name="ArquitecturaFotosPreview" type="Node3D" unique_id=553556451]
+script = ExtResource("1_ajv5i")

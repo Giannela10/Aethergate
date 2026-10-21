@@ -1,0 +1,163 @@
+{
+  "baseline": {
+    "samples": [
+      {
+        "draw_calls": 8380,
+        "fps": 65,
+        "physics_ms": 3.016,
+        "primitives": 510198,
+        "process_ms": 15.404,
+        "render_objects": 9316
+      },
+      {
+        "draw_calls": 8380,
+        "fps": 65,
+        "physics_ms": 2.805,
+        "primitives": 510154,
+        "process_ms": 27.981,
+        "render_objects": 9294
+      },
+      {
+        "draw_calls": 8393,
+        "fps": 60,
+        "physics_ms": 3.722,
+        "primitives": 514208,
+        "process_ms": 27.649,
+        "render_objects": 9330
+      },
+      {
+        "draw_calls": 8429,
+        "fps": 57,
+        "physics_ms": 4.252,
+        "primitives": 528528,
+        "process_ms": 19.41,
+        "render_objects": 9366
+      }
+    ]
+  },
+  "census": {
+    "animation_trees": 14,
+    "approx_material_signatures": 316,
+    "cpu_particles": 0,
+    "gpu_particles": 0,
+    "lights": 510,
+    "meshes": 24213,
+    "navigation_agents": 0,
+    "nodes": 45125,
+    "shadow_lights": 1,
+    "skeletons": 14,
+    "unique_override_materials": 1671
+  },
+  "classification": "DESCONOCIDO",
+  "fixture": "UpperCampusCheck: two Main loads, preview_boss profesor_ingles",
+  "gpu_ms": null,
+  "visual_callers_disabled": 15,
+  "without_character_idle": {
+    "samples": [
+      {
+        "draw_calls": 8434,
+        "fps": 65,
+        "physics_ms": 3.138,
+        "primitives": 529154,
+        "process_ms": 15.975,
+        "render_objects": 9348
+      },
+      {
+        "draw_calls": 8434,
+        "fps": 66,
+        "physics_ms": 2.776,
+        "primitives": 529154,
+        "process_ms": 15.007,
+        "render_objects": 9348
+      },
+      {
+        "draw_calls": 8434,
+        "fps": 64,
+        "physics_ms": 2.945,
+        "primitives": 529154,
+        "process_ms": 15.902,
+        "render_objects": 9348
+      },
+      {
+        "draw_calls": 8434,
+        "fps": 65,
+        "physics_ms": 3.019,
+        "primitives": 529154,
+        "process_ms": 15.49,
+        "render_objects": 9348
+      }
+    ]
+  },
+  "without_light_shadows": {
+    "samples": [
+      {
+        "draw_calls": 1346,
+        "fps": 65,
+        "physics_ms": 3.547,
+        "primitives": 149106,
+        "process_ms": 27.459,
+        "render_objects": 2292
+      },
+      {
+        "draw_calls": 1338,
+        "fps": 65,
+        "physics_ms": 3.35,
+        "primitives": 145950,
+        "process_ms": 15.396,
+        "render_objects": 2284
+      },
+      {
+        "draw_calls": 1298,
+        "fps": 65,
+        "physics_ms": 3.889,
+        "primitives": 131338,
+        "process_ms": 15.395,
+        "render_objects": 2212
+      },
+      {
+        "draw_calls": 1298,
+        "fps": 65,
+        "physics_ms": 3.935,
+        "primitives": 131338,
+        "process_ms": 15.41,
+        "render_objects": 2212
+      }
+    ]
+  },
+  "without_mesh_rendering": {
+    "samples": [
+      {
+        "draw_calls": 259,
+        "fps": 65,
+        "physics_ms": 3.085,
+        "primitives": 10466,
+        "process_ms": 15.402,
+        "render_objects": 1173
+      },
+      {
+        "draw_calls": 259,
+        "fps": 65,
+        "physics_ms": 2.743,
+        "primitives": 10512,
+        "process_ms": 15.421,
+        "render_objects": 1196
+      },
+      {
+        "draw_calls": 259,
+        "fps": 65,
+        "physics_ms": 3.871,
+        "primitives": 10512,
+        "process_ms": 15.395,
+        "render_objects": 1196
+      },
+      {
+        "draw_calls": 259,
+        "fps": 65,
+        "physics_ms": 2.74,
+        "primitives": 10512,
+        "process_ms": 15.427,
+        "render_objects": 1196
+      }
+    ]
+  }
+}

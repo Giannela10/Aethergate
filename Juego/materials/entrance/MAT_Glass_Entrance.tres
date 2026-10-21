@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[resource]
+resource_name = "MAT_Glass_Entrance"
+albedo_color = Color(0.46, 0.59, 0.65, 0.8)
+metallic = 0.05
+roughness = 0.18
+metallic_specular = 0.5
+transparency = 1
+cull_mode = 2
+

@@ -1,0 +1,47 @@
+[
+    {
+        "params":  {
+                       "batch":  [
+                                     {
+                                         "property":  "position",
+                                         "node_path":  "Piso1/Casino/ParedDerechaFrente",
+                                         "value":  {
+                                                       "y":  6,
+                                                       "z":  -95.25,
+                                                       "type":  "Vector3",
+                                                       "x":  -32.338
+                                                   }
+                                     },
+                                     {
+                                         "property":  "size",
+                                         "node_path":  "Piso1/Casino/ParedDerechaFrente",
+                                         "value":  {
+                                                       "y":  12,
+                                                       "z":  37.5,
+                                                       "type":  "Vector3",
+                                                       "x":  0.16
+                                                   }
+                                     }
+                                 ]
+                   },
+        "method":  "node.set_property"
+    },
+    {
+        "params":  {
+                       "node_path":  "Piso1/Casino/AcabadosEntradaLateral/RevestimientoLateral"
+                   },
+        "method":  "scene.delete_node"
+    },
+    {
+        "params":  {
+                       "node_path":  "Piso1/Casino/AcabadosEntradaLateral/@MeshInstance3D@215792"
+                   },
+        "method":  "scene.delete_node"
+    },
+    {
+        "params":  {
+
+                   },
+        "method":  "editor.save_scene"
+    }
+]

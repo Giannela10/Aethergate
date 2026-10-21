@@ -1,0 +1,6 @@
+{
+	"checks": 59,
+	"failures": [],
+	"real_accounts_created": 0,
+	"session_storage": "isolated in-memory fixture"
+}

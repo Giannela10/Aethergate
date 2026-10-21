@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3]
+
+[ext_resource type="Shader" path="res://materials/entrance/piso_interior_oscuro.gdshader" id="1"]
+
+[resource]
+resource_name = "MAT_Interior_Floor_Dark"
+shader = ExtResource("1")

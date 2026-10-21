@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dspjxcp7mx1g3"]
+
+[ext_resource type="Script" uid="uid://dlqhjqotafeuf" path="res://tests/academic_bosses_check.gd" id="1_17xld"]
+
+[node name="AcademicBossesCheck" type="Node" unique_id=909044943]
+script = ExtResource("1_17xld")

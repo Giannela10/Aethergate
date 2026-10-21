@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-16",
+  "engine": "Godot 4.7.2",
+  "project": "DuocGames",
+  "new_suite": {"scene": "res://tests/UpperCampusCheck.tscn", "checks": 104, "failures": []},
+  "visual_preview": {"roles": 9, "failures": []},
+  "regressions": {
+    "personajes2": {"checks": 70, "failures": []},
+    "personalizacion": {"passed": true},
+    "campaign_regression": {"passed": true},
+    "inventory_regression": {"passed": true},
+    "gameplay_regression": {"passed": true},
+    "director_informatica_boss": {"passed": true},
+    "chef_supremo_casino": {"passed": true, "hp": 350},
+    "campus_vivo": {"checks": 52, "failures": []},
+    "balance_regression": {"checks": 20, "failures": []},
+    "nueva_partida": {"passed": true},
+    "nexo_final": {"checks": 111, "failures": []},
+    "contextual_interactions": {"checks": 60, "failures": []},
+    "campus_fixes": {"checks": 74, "failures": [], "intentional_save_failure_errors": true},
+    "revision_scripts": {"checked": 236, "failures": []}
+  },
+  "headless_startup": {"frame": 120, "total_ms": 5133, "static_memory_mib": 377.688241004944, "nodes": 45120, "note": "Orientativo; no mide FPS de GPU ni es comparación controlada con versiones anteriores."},
+  "rendered_fixture_sample": {"fps": 19, "process_ms": 58.142, "physics_ms": 2.81, "static_memory_mib": 2132.26712608337, "note": "Muestra puntual tras dos cargas de Main en fixture; requiere profiler y recorrido humano. El 1 FPS de upper_campus_result se tomó durante recarga, no es rendimiento de combate."},
+  "manual_checklist": {"new_cases": 49, "pass_checked": 0, "fail_checked": 0},
+  "balance_pending_human": {"profesor_ingles_hp": 450, "profesor_lenguaje_hp": 500, "profesor_etica_hp": 550, "director_new_patterns": ["FIREWALL", "ACCESO DENEGADO"]},
+  "external_models_downloaded": 0,
+  "visual_fallback": "Procedural estilizado; Skeleton3D de reserva sin huesos. GLB humano, prendas skinned y clips reales siguen siendo assets faltantes."
+}

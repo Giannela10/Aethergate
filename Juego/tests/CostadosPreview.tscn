@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://csy7e43sjsw12"]
+
+[ext_resource type="Script" uid="uid://bpxbcoofwlarr" path="res://tests/costados_preview.gd" id="1_rv2xb"]
+
+[node name="CostadosPreview" type="Node3D" unique_id=1120138618]
+script = ExtResource("1_rv2xb")

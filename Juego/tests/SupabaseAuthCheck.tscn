@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://tests/supabase_auth_check.gd" id="1"]
+[node name="SupabaseAuthCheck" type="Node"]
+script = ExtResource("1")

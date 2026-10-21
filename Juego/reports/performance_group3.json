@@ -1,0 +1,199 @@
+{
+	"baseline": {
+		"samples": [
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 2.697,
+				"primitives": 510198.0,
+				"process_ms": 15.405,
+				"render_objects": 9316.0
+			},
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 2.716,
+				"primitives": 510154.0,
+				"process_ms": 15.444,
+				"render_objects": 9294.0
+			},
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 2.625,
+				"primitives": 510200.0,
+				"process_ms": 15.392,
+				"render_objects": 9317.0
+			},
+			{
+				"draw_calls": 8380.0,
+				"fps": 65.0,
+				"physics_ms": 2.438,
+				"primitives": 510200.0,
+				"process_ms": 15.389,
+				"render_objects": 9317.0
+			}
+		]
+	},
+	"census": {
+		"animation_trees": 14,
+		"approx_material_signatures": 316,
+		"cpu_particles": 0,
+		"gpu_particles": 0,
+		"lights": 510,
+		"meshes": 24213,
+		"navigation_agents": 0,
+		"nodes": 45154.0,
+		"shadow_lights": 1,
+		"skeletons": 14,
+		"unique_override_materials": 1671
+	},
+	"classification": "DESCONOCIDO",
+	"fixture": "UpperCampusCheck: two Main loads, preview_boss profesor_ingles",
+	"gpu_ms": null,
+	"restored": {
+		"samples": [
+			{
+				"draw_calls": 8288.0,
+				"fps": 65.0,
+				"physics_ms": 2.235,
+				"primitives": 474754.0,
+				"process_ms": 15.418,
+				"render_objects": 9202.0
+			},
+			{
+				"draw_calls": 8288.0,
+				"fps": 65.0,
+				"physics_ms": 2.677,
+				"primitives": 474754.0,
+				"process_ms": 15.395,
+				"render_objects": 9202.0
+			},
+			{
+				"draw_calls": 8288.0,
+				"fps": 65.0,
+				"physics_ms": 2.381,
+				"primitives": 474754.0,
+				"process_ms": 15.41,
+				"render_objects": 9202.0
+			},
+			{
+				"draw_calls": 8288.0,
+				"fps": 65.0,
+				"physics_ms": 2.293,
+				"primitives": 474784.0,
+				"process_ms": 15.397,
+				"render_objects": 9217.0
+			}
+		]
+	},
+	"visual_callers_disabled": 15,
+	"without_character_idle": {
+		"samples": [
+			{
+				"draw_calls": 8428.0,
+				"fps": 65.0,
+				"physics_ms": 2.516,
+				"primitives": 527858.0,
+				"process_ms": 15.426,
+				"render_objects": 9342.0
+			},
+			{
+				"draw_calls": 8428.0,
+				"fps": 65.0,
+				"physics_ms": 2.696,
+				"primitives": 527858.0,
+				"process_ms": 15.397,
+				"render_objects": 9342.0
+			},
+			{
+				"draw_calls": 8428.0,
+				"fps": 65.0,
+				"physics_ms": 2.793,
+				"primitives": 527858.0,
+				"process_ms": 15.371,
+				"render_objects": 9342.0
+			},
+			{
+				"draw_calls": 8428.0,
+				"fps": 65.0,
+				"physics_ms": 2.464,
+				"primitives": 527858.0,
+				"process_ms": 15.399,
+				"render_objects": 9342.0
+			}
+		]
+	},
+	"without_light_shadows": {
+		"samples": [
+			{
+				"draw_calls": 1292.0,
+				"fps": 65.0,
+				"physics_ms": 2.335,
+				"primitives": 130106.0,
+				"process_ms": 15.4,
+				"render_objects": 2238.0
+			},
+			{
+				"draw_calls": 1292.0,
+				"fps": 65.0,
+				"physics_ms": 2.359,
+				"primitives": 130106.0,
+				"process_ms": 15.391,
+				"render_objects": 2238.0
+			},
+			{
+				"draw_calls": 1292.0,
+				"fps": 65.0,
+				"physics_ms": 2.557,
+				"primitives": 130042.0,
+				"process_ms": 15.394,
+				"render_objects": 2206.0
+			},
+			{
+				"draw_calls": 1292.0,
+				"fps": 65.0,
+				"physics_ms": 2.887,
+				"primitives": 130042.0,
+				"process_ms": 15.395,
+				"render_objects": 2206.0
+			}
+		]
+	},
+	"without_mesh_rendering": {
+		"samples": [
+			{
+				"draw_calls": 259.0,
+				"fps": 64.0,
+				"physics_ms": 2.22,
+				"primitives": 10466.0,
+				"process_ms": 15.384,
+				"render_objects": 1173.0
+			},
+			{
+				"draw_calls": 259.0,
+				"fps": 65.0,
+				"physics_ms": 2.314,
+				"primitives": 10512.0,
+				"process_ms": 15.371,
+				"render_objects": 1196.0
+			},
+			{
+				"draw_calls": 259.0,
+				"fps": 65.0,
+				"physics_ms": 2.563,
+				"primitives": 10512.0,
+				"process_ms": 15.376,
+				"render_objects": 1196.0
+			},
+			{
+				"draw_calls": 259.0,
+				"fps": 65.0,
+				"physics_ms": 2.207,
+				"primitives": 10512.0,
+				"process_ms": 15.375,
+				"render_objects": 1196.0
+			}
+		]
+	}
+}

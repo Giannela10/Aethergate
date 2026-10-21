@@ -1,0 +1,26 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6571
+[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.69346, 0.000935, -146.9669)","route":"Emergencia_Subida_0","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.70677, -12.05847, -146.9698)","route":"Emergencia_Bajada_0","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.69345, 12.05933, -146.967)","route":"Emergencia_Subida_1","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.70676, -0.000231, -146.9698)","route":"Emergencia_Bajada_1","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.69314, 23.96859, -146.9708)","route":"Emergencia_Subida_2","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.70678, 12.05888, -146.9699)","route":"Emergencia_Bajada_2","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.69336, 35.67508, -146.9682)","route":"Emergencia_Subida_3","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.70678, 23.96765, -146.9699)","route":"Emergencia_Bajada_3","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.69321, 47.9756, -146.97)","route":"Emergencia_Subida_4","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.70681, 35.67473, -146.9702)","route":"Emergencia_Bajada_4","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.69334, 60.15891, -146.9685)","route":"Emergencia_Subida_5","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.70681, 47.97556, -146.9703)","route":"Emergencia_Bajada_5","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.69328, 71.94265, -146.9692)","route":"Emergencia_Subida_6","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.70678, 60.1585, -146.9699)","route":"Emergencia_Bajada_6","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.69352, 83.91393, -146.9659)","route":"Emergencia_Subida_7","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-20.70678, 71.94254, -146.9699)","route":"Emergencia_Bajada_7","waypoint":12}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(20.31096, 0.0001, -127.8)","route":"Central_Subida","waypoint":3}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-21.6309, -12.05767, -127.8)","route":"Central_Bajada","waypoint":3}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(20.29206, 12.05909, -127.8)","route":"Central_Existente_Subida","waypoint":3}
+BASEMENT_ROUTE {"blockers":[],"passed":true,"position":"(-21.62485, 0.000221, -127.8)","route":"Central_Existente_Bajada","waypoint":3}
+BASEMENT_ACCESS_RESULT {"aperture_open":true,"doors":9,"failed":[],"tested":20}

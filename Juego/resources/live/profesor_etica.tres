@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://dfbkvc6h5qb0k"]
+
+[ext_resource type="Script" uid="uid://bd4nrfyne6wn7" path="res://scripts/campaign/academic_boss_config.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+boss_id = "profesor_etica"
+display_name = "Profesor de Ética"
+subtitle = "TODA DECISIÓN TIENE CONSECUENCIAS"
+role = "ETICA"
+floor_number = 6
+max_health = 550.0
+reward = "InsigniaIntegridad"
+computer_id = "pc7"
+preparation_flag = "REFLEXION_PREVIA"

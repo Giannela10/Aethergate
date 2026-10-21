@@ -1,0 +1,156 @@
+[
+    {
+        "params":  {
+                       "node_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate/Palo1"
+                   },
+        "method":  "scene.delete_node"
+    },
+    {
+        "params":  {
+                       "node_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate/Palo2"
+                   },
+        "method":  "scene.delete_node"
+    },
+    {
+        "params":  {
+                       "node_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate/SillaRecogible1"
+                   },
+        "method":  "scene.delete_node"
+    },
+    {
+        "params":  {
+                       "node_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate/SillaRecogible2"
+                   },
+        "method":  "scene.delete_node"
+    },
+    {
+        "params":  {
+                       "parent_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate",
+                       "node_name":  "PelotaBaseball1",
+                       "properties":  {
+                                          "position":  {
+                                                           "y":  0.05,
+                                                           "z":  -140,
+                                                           "type":  "Vector3",
+                                                           "x":  -40
+                                                       }
+                                      },
+                       "class_name":  "Node3D"
+                   },
+        "method":  "scene.create_node"
+    },
+    {
+        "params":  {
+                       "node_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate/PelotaBaseball1",
+                       "script_path":  "res://implemento_deportivo.gd"
+                   },
+        "method":  "node.set_script"
+    },
+    {
+        "params":  {
+                       "property":  "sport",
+                       "node_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate/PelotaBaseball1",
+                       "value":  "baseball"
+                   },
+        "method":  "node.set_property"
+    },
+    {
+        "params":  {
+                       "parent_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate",
+                       "node_name":  "PelotaBaseball2",
+                       "properties":  {
+                                          "position":  {
+                                                           "y":  0.05,
+                                                           "z":  -148,
+                                                           "type":  "Vector3",
+                                                           "x":  -46
+                                                       }
+                                      },
+                       "class_name":  "Node3D"
+                   },
+        "method":  "scene.create_node"
+    },
+    {
+        "params":  {
+                       "node_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate/PelotaBaseball2",
+                       "script_path":  "res://implemento_deportivo.gd"
+                   },
+        "method":  "node.set_script"
+    },
+    {
+        "params":  {
+                       "property":  "sport",
+                       "node_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate/PelotaBaseball2",
+                       "value":  "baseball"
+                   },
+        "method":  "node.set_property"
+    },
+    {
+        "params":  {
+                       "parent_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate",
+                       "node_name":  "PelotaTenis",
+                       "properties":  {
+                                          "position":  {
+                                                           "y":  0.05,
+                                                           "z":  -140,
+                                                           "type":  "Vector3",
+                                                           "x":  -46
+                                                       }
+                                      },
+                       "class_name":  "Node3D"
+                   },
+        "method":  "scene.create_node"
+    },
+    {
+        "params":  {
+                       "node_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate/PelotaTenis",
+                       "script_path":  "res://implemento_deportivo.gd"
+                   },
+        "method":  "node.set_script"
+    },
+    {
+        "params":  {
+                       "property":  "sport",
+                       "node_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate/PelotaTenis",
+                       "value":  "tenis"
+                   },
+        "method":  "node.set_property"
+    },
+    {
+        "params":  {
+                       "parent_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate",
+                       "node_name":  "PelotaFutbol",
+                       "properties":  {
+                                          "position":  {
+                                                           "y":  0.05,
+                                                           "z":  -151,
+                                                           "type":  "Vector3",
+                                                           "x":  -40
+                                                       }
+                                      },
+                       "class_name":  "Node3D"
+                   },
+        "method":  "scene.create_node"
+    },
+    {
+        "params":  {
+                       "node_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate/PelotaFutbol",
+                       "script_path":  "res://implemento_deportivo.gd"
+                   },
+        "method":  "node.set_script"
+    },
+    {
+        "params":  {
+                       "property":  "sport",
+                       "node_path":  "Piso1/SalaAyudaEstudiantil/ObjetosParaCombate/PelotaFutbol",
+                       "value":  "futbol"
+                   },
+        "method":  "node.set_property"
+    },
+    {
+        "params":  {
+
+                   },
+        "method":  "editor.save_scene"
+    }
+]

@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cj6iytasry7ie"]
+
+[ext_resource type="Shader" uid="uid://baearnx6eogux" path="res://materials/entrance/cielo_listones_biblioteca.gdshader" id="1_sg8vm"]
+
+[resource]
+resource_name = "MAT_Cielo_Listones_Biblioteca"
+render_priority = 0
+shader = ExtResource("1_sg8vm")
