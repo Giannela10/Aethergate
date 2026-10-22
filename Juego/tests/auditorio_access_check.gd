@@ -3,7 +3,12 @@ var checks: Array = []
 var results: Array = []
 var finished := false
 
+func _enter_tree() -> void:
+	get_node("Campus/CampusCampaign").persist = false
+
 func _ready() -> void:
+	get_node("Campus/CampusCampaign").free()
+	get_node("Campus/Piso8/EncuentroDirectorInformatica/CredencialDirector").persist = false
 	var manager := get_node_or_null("Campus/GameplayManager")
 	if manager:
 		manager.queue_free()

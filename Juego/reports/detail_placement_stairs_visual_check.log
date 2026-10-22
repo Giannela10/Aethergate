@@ -1,0 +1,7 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6570
+[MCPRegistry] runtime port 6570 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego
+PLACEMENT_STAIRS_RESULT {"camera_states":[{"angle":0,"body_visible":true,"camera_distance":5.00000476837158},{"angle":1,"body_visible":true,"camera_distance":3.45156264305115},{"angle":2,"body_visible":true,"camera_distance":5.00000476837158}],"captures":["res://reports/placement_stairs_view_0.png","res://reports/placement_stairs_view_1.png","res://reports/placement_stairs_view_2.png","res://reports/placement_grounded_stick.png","res://reports/placement_grounded_chair.png"],"failures":[],"personal_saves_used":false}

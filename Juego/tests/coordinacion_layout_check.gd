@@ -28,12 +28,15 @@ func run() -> void:
 		[Vector3(71,1.3,-124),Vector3(71,1.3,-111)],
 		[Vector3(71,1.3,-111),Vector3(70.2,1.3,-107)],
 		[Vector3(70.2,1.3,-107),Vector3(70.2,1.3,-101.7)],
-		[Vector3(35.5,1.3,-101.7),Vector3(81.7,1.3,-101.7)],
+		# The meeting-room glass now begins east of the open-office aisle.
+		# Its separate entrance and internal paths are covered by meeting_check.
+		[Vector3(35.5,1.3,-101.7),Vector3(70.2,1.3,-101.7)],
 		[Vector3(70.2,1.3,-101.7),Vector3(36.2,1.3,-101.7)],
 		[Vector3(36.2,1.3,-101.7),Vector3(36.2,1.3,-110.7)],
 		[Vector3(80.4,1.3,-119.3),Vector3(80.4,1.3,-112)],
 	]
-	for x in [43.0,56.0,69.0,80.0]:
+	# Walk between the current desk/chair groups, never through their centers.
+	for x in [48.0,58.0,69.0,70.2]:
 		routes.append([Vector3(x,1.3,-101.7),Vector3(x,1.3,-94.5)])
 	var space = root.world_3d.direct_space_state
 	for i in range(routes.size()):

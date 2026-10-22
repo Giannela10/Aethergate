@@ -12,11 +12,15 @@ func _initialize() -> void:
 
 func run() -> void:
 	await process_frame
-	var auth := root.get_node("AuthManager")
-	if FileAccess.file_exists(auth.SESSION_FILE):
-		print("EDUCATION_INTEGRATION_SKIPPED existing real session")
-		quit(0)
-		return
+	# Use production auth behavior with in-memory session storage. Never inspect,
+	# restore or delete the user's real session when exercising dev login/logout.
+	var original_auth := root.get_node("AuthManager")
+	root.remove_child(original_auth)
+	original_auth.free()
+	var auth = preload("res://tests/supabase_session_fixture.gd").new()
+	auth.name = "AuthManager"
+	root.add_child(auth)
+	root.get_node("QuestionService").auth = auth
 	auth.dev_login("student")
 	set_meta("education_enabled",true)
 	var scene = load("res://Main.tscn").instantiate()

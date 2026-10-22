@@ -14,39 +14,39 @@
 	"signup_disabled": false,
 	"tables": {
 		"academic_progress": {
-			"http_status": 404,
-			"missing_or_not_in_schema_cache": true,
-			"requires_auth_or_permissions": false
+			"http_status": 401,
+			"missing_or_not_in_schema_cache": false,
+			"requires_auth_or_permissions": true
 		},
 		"profiles": {
-			"http_status": 404,
-			"missing_or_not_in_schema_cache": true,
-			"requires_auth_or_permissions": false
+			"http_status": 401,
+			"missing_or_not_in_schema_cache": false,
+			"requires_auth_or_permissions": true
 		},
 		"question_attempts": {
-			"http_status": 404,
-			"missing_or_not_in_schema_cache": true,
-			"requires_auth_or_permissions": false
+			"http_status": 401,
+			"missing_or_not_in_schema_cache": false,
+			"requires_auth_or_permissions": true
 		},
 		"question_keys": {
-			"http_status": 404,
-			"missing_or_not_in_schema_cache": true,
-			"requires_auth_or_permissions": false
+			"http_status": 401,
+			"missing_or_not_in_schema_cache": false,
+			"requires_auth_or_permissions": true
 		},
 		"questions": {
-			"http_status": 404,
-			"missing_or_not_in_schema_cache": true,
-			"requires_auth_or_permissions": false
+			"http_status": 401,
+			"missing_or_not_in_schema_cache": false,
+			"requires_auth_or_permissions": true
 		},
 		"subjects": {
-			"http_status": 404,
-			"missing_or_not_in_schema_cache": true,
-			"requires_auth_or_permissions": false
+			"http_status": 401,
+			"missing_or_not_in_schema_cache": false,
+			"requires_auth_or_permissions": true
 		},
 		"teacher_subjects": {
-			"http_status": 404,
-			"missing_or_not_in_schema_cache": true,
-			"requires_auth_or_permissions": false
+			"http_status": 401,
+			"missing_or_not_in_schema_cache": false,
+			"requires_auth_or_permissions": true
 		}
 	},
 	"users_created": 0

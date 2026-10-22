@@ -453,8 +453,8 @@ func _process(delta: float) -> void:
 	var offset := Vector3(0, sin(cam_pitch), cos(cam_pitch)) * cam_dist
 	offset = offset.rotated(Vector3.UP, cam_yaw)
 	var desired_position := cam_pivot + offset
-	var query := PhysicsRayQueryParameters3D.create(cam_pivot, desired_position)
-	query.exclude = [player.get_rid()]
-	var hit := get_world_3d().direct_space_state.intersect_ray(query)
-	cam.global_position = hit.position + hit.normal * 0.25 if not hit.is_empty() else desired_position
+	cam.global_position = preload("res://scripts/juego/camera_obstruction.gd").resolve(get_world_3d().direct_space_state,cam_pivot,desired_position,[player.get_rid()])
+	# At a wall or stair railing the camera may need to enter the character's
+	# volume. Hide its visual there and restore it as soon as space opens up.
+	player.body.visible = cam.global_position.distance_to(cam_pivot) >= 1.2
 	cam.look_at(cam_pivot)

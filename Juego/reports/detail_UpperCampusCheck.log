@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6570
+[MCPRegistry] runtime port 6570 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego
+UPPER_CAMPUS_RESULT {"arena_samples":{"profesor_etica":9,"profesor_ingles":9,"profesor_lenguaje":9},"bosses":3,"checks":122,"failures":[],"memory_mib":447.919089317322,"render_fps_sample":1.0}

@@ -1,0 +1,7 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6571
+[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego
+FLOOR_REPAIR_RESULT {"failures":[],"tested":15}
+LIBRARY_ACCESS_RESULT [{"blockers":[],"box":1,"passed":true,"position":"(-48.08684, 12.05853, -118.76)"},{"blockers":[],"box":2,"passed":true,"position":"(-48.08684, 12.05857, -111.08)"},{"blockers":[],"box":3,"passed":true,"position":"(-48.08684, 12.05723, -103.4)"},{"blockers":[],"box":4,"passed":true,"position":"(-48.08684, 12.05857, -95.72)"},{"blockers":[],"box":5,"passed":true,"position":"(-48.08684, 12.05857, -88.04)"},{"blockers":[],"box":6,"passed":true,"position":"(-48.08684, 12.05857, -80.36)"},{"blockers":[],"box":7,"passed":true,"position":"(-53.5, 12.05857, -115.4795)"}]

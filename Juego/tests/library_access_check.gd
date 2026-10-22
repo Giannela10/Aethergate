@@ -5,6 +5,8 @@ var route := 0
 var elapsed := 0.0
 var settled := 0.0
 var floors_checked := false
+func _enter_tree() -> void:
+	get_node("Campus/CampusCampaign").persist = false
 func check_repaired_floors() -> void:
 	var failures: Array = []
 	var patches: Array[Node] = []
@@ -25,6 +27,10 @@ func check_repaired_floors() -> void:
 			failures.append({"patch":str(patch.name),"expected":patch.global_position.y+0.15,"hit":str(hit)})
 	print("FLOOR_REPAIR_RESULT "+JSON.stringify({"tested":tested,"failures":failures}))
 func _ready() -> void:
+	# Standalone route fixture replaces the player; remove its campaign before
+	# deferred boot, as in BasementAccessCheck and ElevatorBasementCheck.
+	get_node("Campus/CampusCampaign").free()
+	get_node("Campus/Piso8/EncuentroDirectorInformatica/CredencialDirector").persist = false
 	var manager := get_node_or_null("Campus/GameplayManager")
 	if manager:
 		manager.process_mode = Node.PROCESS_MODE_DISABLED

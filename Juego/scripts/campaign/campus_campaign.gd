@@ -763,7 +763,11 @@ func stabilize_content() -> void:
 				query.margin = 0.001
 				if not world.intersect_shape(query,1).is_empty():
 					continue
+				if node.has_method("placement_clear") and not node.placement_clear(world,hit.position,excluded):
+					continue
 				node.global_position = hit.position+Vector3.UP*0.10
+				if node.has_method("ground_visuals"):
+					node.ground_visuals(hit.position.y)
 				if node is CharacterBody3D:
 					node.home = node.global_position
 					node.patrol_target = node.home

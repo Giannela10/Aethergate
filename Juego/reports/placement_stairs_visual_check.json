@@ -1,0 +1,28 @@
+{
+	"camera_states": [
+		{
+			"angle": 0,
+			"body_visible": true,
+			"camera_distance": 5.00000476837158
+		},
+		{
+			"angle": 1,
+			"body_visible": true,
+			"camera_distance": 3.45156264305115
+		},
+		{
+			"angle": 2,
+			"body_visible": true,
+			"camera_distance": 5.00000476837158
+		}
+	],
+	"captures": [
+		"res://reports/placement_stairs_view_0.png",
+		"res://reports/placement_stairs_view_1.png",
+		"res://reports/placement_stairs_view_2.png",
+		"res://reports/placement_grounded_stick.png",
+		"res://reports/placement_grounded_chair.png"
+	],
+	"failures": [],
+	"personal_saves_used": false
+}

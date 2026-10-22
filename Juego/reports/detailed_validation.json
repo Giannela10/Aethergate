@@ -1,0 +1,778 @@
+{
+  "campus_polish_regression": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 6,
+        "failures": []
+      }
+    ]
+  },
+  "remember_login_check": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 15,
+        "failures": [],
+        "real_accounts_modified": 0
+      }
+    ]
+  },
+  "revision_scripts": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checked": 262,
+        "failures": []
+      }
+    ]
+  },
+  "resource_reference_check": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checked_scenes": 43,
+        "failures": []
+      }
+    ]
+  },
+  "campaign_regression": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "passed": true
+      }
+    ]
+  },
+  "inventory_regression": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "passed": true
+      }
+    ]
+  },
+  "gameplay_regression": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "passed": true
+      }
+    ]
+  },
+  "guardado_lectura": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": []
+      }
+    ]
+  },
+  "nueva_partida": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": []
+      }
+    ]
+  },
+  "student_phone": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 31,
+        "failures": []
+      }
+    ]
+  },
+  "campus_vivo": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 52,
+        "failures": [],
+        "qa_review": [
+          "Check credential source and physical route: acceso7",
+          "Check credential source and physical route: nexo_core",
+          "Stairs, door connectivity and arena exits require an in-game traversal; no automatic geometry repair"
+        ]
+      }
+    ]
+  },
+  "director_informatica_boss": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": []
+  },
+  "nexo_final": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 111,
+        "failures": []
+      }
+    ]
+  },
+  "organizacion_pisos": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "pisos": [
+          "Piso −1",
+          "Piso 1",
+          "Piso 2",
+          "Piso 3",
+          "Piso 4",
+          "Piso 5",
+          "Piso 6",
+          "Piso 7",
+          "Piso 8"
+        ],
+        "rutas": 596
+      }
+    ]
+  },
+  "education_1_0": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 14,
+        "failures": [],
+        "google_oauth": "NOT TESTED: external credentials required",
+        "release_export": "NOT TESTED: export templates required",
+        "supabase_rls": "NOT TESTED: deployment required"
+      }
+    ]
+  },
+  "education_integration": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 18,
+        "failures": []
+      }
+    ]
+  },
+  "academic_schedule": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 27,
+        "failures": []
+      }
+    ]
+  },
+  "balance_regression": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": []
+  },
+  "chef_supremo_casino": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": []
+  },
+  "contextual_interactions": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 60,
+        "failures": []
+      }
+    ]
+  },
+  "personalizacion": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": []
+      }
+    ]
+  },
+  "chapel_layout_check": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": []
+  },
+  "library_layout_check": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": []
+  },
+  "coordinacion_layout_check": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": []
+  },
+  "coordinacion_meeting_check": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": []
+  },
+  "salidas_emergencia": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": []
+  },
+  "piso5_escalera_recorrido": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": []
+  },
+  "piso8_recorridos": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "floor": 8,
+        "tested": 27
+      }
+    ]
+  },
+  "SupabaseAuthCheck": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": null,
+    "timed_out": false,
+    "stopped_after_result": true,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 59,
+        "failures": [],
+        "real_accounts_created": 0,
+        "session_storage": "isolated in-memory fixture"
+      }
+    ]
+  },
+  "EmailRegistrationCheck": {
+    "passed": true,
+    "exit_code": null,
+    "timed_out": false,
+    "stopped_after_result": true,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 21,
+        "failures": [],
+        "real_passwords_used": false,
+        "remote_registration": "NOT TESTED: requires configured Supabase and SMTP"
+      }
+    ]
+  },
+  "SignupDiagnosticsUnit": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": null,
+    "timed_out": false,
+    "stopped_after_result": true,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 47,
+        "failures": [],
+        "real_accounts_created": 0
+      }
+    ]
+  },
+  "UserRolesCheck": {
+    "passed": true,
+    "exit_code": null,
+    "timed_out": false,
+    "stopped_after_result": true,
+    "errors": [],
+    "reports": [
+      {
+        "backend": "in-memory policy model plus SQL static checks; remote RLS NOT TESTED",
+        "checks": 63,
+        "failures": [],
+        "real_users_created": 0,
+        "real_users_modified": 0
+      }
+    ]
+  },
+  "AcademicBossesCheck": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": null,
+    "timed_out": false,
+    "stopped_after_result": true,
+    "errors": [],
+    "reports": [
+      {
+        "actors": [
+          "profesor_datos",
+          "profesor_algoritmos",
+          "docente_enfermeria",
+          "docente_odontologia",
+          "coordinador_profesores",
+          "profesor_matematicas",
+          "profesor_ingles",
+          "profesor_lenguaje",
+          "profesor_etica"
+        ],
+        "checks": 320,
+        "expansion_failures": [],
+        "failures": [],
+        "stage": 11
+      }
+    ]
+  },
+  "UpperCampusCheck": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": null,
+    "timed_out": false,
+    "stopped_after_result": true,
+    "errors": [],
+    "reports": [
+      {
+        "arena_samples": {
+          "profesor_etica": 9,
+          "profesor_ingles": 9,
+          "profesor_lenguaje": 9
+        },
+        "bosses": 3,
+        "checks": 122,
+        "failures": [],
+        "memory_mib": 447.919089317322,
+        "render_fps_sample": 1
+      }
+    ]
+  },
+  "BasementAccessCheck": {
+    "passed": true,
+    "exit_code": null,
+    "timed_out": false,
+    "stopped_after_result": true,
+    "errors": [],
+    "reports": [
+      {
+        "aperture_open": true,
+        "doors": 9,
+        "failed": [],
+        "tested": 20
+      }
+    ]
+  },
+  "ElevatorBasementCheck": {
+    "passed": true,
+    "exit_code": null,
+    "timed_out": false,
+    "stopped_after_result": true,
+    "errors": [],
+    "reports": [
+      {
+        "failed": [],
+        "tested": 3
+      }
+    ]
+  },
+  "SupabaseConnectionCheck": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": null,
+    "timed_out": false,
+    "stopped_after_result": true,
+    "errors": [],
+    "reports": [
+      {
+        "administrative_connection": false,
+        "auth_http_status": 200,
+        "auth_reachable": true,
+        "config_source": "res://config/auth_config.json",
+        "configured": true,
+        "email_provider_enabled": true,
+        "legacy_property_supported": true,
+        "migration_verified": false,
+        "new_property_supported": true,
+        "no_remote_writes": true,
+        "publishable_detected": true,
+        "rls_verified_with_real_roles": false,
+        "signup_disabled": false,
+        "tables": {
+          "academic_progress": {
+            "http_status": 401,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": true
+          },
+          "profiles": {
+            "http_status": 401,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": true
+          },
+          "question_attempts": {
+            "http_status": 401,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": true
+          },
+          "question_keys": {
+            "http_status": 401,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": true
+          },
+          "questions": {
+            "http_status": 401,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": true
+          },
+          "subjects": {
+            "http_status": 401,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": true
+          },
+          "teacher_subjects": {
+            "http_status": 401,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": true
+          }
+        },
+        "users_created": 0
+      }
+    ]
+  },
+  "supabase_response_regression": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 8,
+        "failures": []
+      }
+    ]
+  },
+  "LibraryAccessCheck": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": null,
+    "timed_out": false,
+    "stopped_after_result": true,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "tested": 15
+      },
+      [
+        {
+          "blockers": [],
+          "box": 1,
+          "passed": true,
+          "position": "(-48.08684, 12.05853, -118.76)"
+        },
+        {
+          "blockers": [],
+          "box": 2,
+          "passed": true,
+          "position": "(-48.08684, 12.05857, -111.08)"
+        },
+        {
+          "blockers": [],
+          "box": 3,
+          "passed": true,
+          "position": "(-48.08684, 12.05723, -103.4)"
+        },
+        {
+          "blockers": [],
+          "box": 4,
+          "passed": true,
+          "position": "(-48.08684, 12.05857, -95.72)"
+        },
+        {
+          "blockers": [],
+          "box": 5,
+          "passed": true,
+          "position": "(-48.08684, 12.05857, -88.04)"
+        },
+        {
+          "blockers": [],
+          "box": 6,
+          "passed": true,
+          "position": "(-48.08684, 12.05857, -80.36)"
+        },
+        {
+          "blockers": [],
+          "box": 7,
+          "passed": true,
+          "position": "(-53.5, 12.05857, -115.4795)"
+        }
+      ]
+    ]
+  },
+  "AuditorioAccessCheck": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": null,
+    "timed_out": false,
+    "stopped_after_result": true,
+    "errors": [],
+    "reports": [
+      [
+        {
+          "passed": true,
+          "position": "(65.90809, 11.85745, -104.5)",
+          "route": "Probe2"
+        },
+        {
+          "passed": true,
+          "position": "(48.11357, 8.642898, -118.5)",
+          "route": "Probe0"
+        },
+        {
+          "passed": true,
+          "position": "(48.11357, 8.642898, -90.5)",
+          "route": "Probe1"
+        }
+      ]
+    ]
+  },
+  "primera_mision": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": []
+      }
+    ]
+  },
+  "visual_detail_check": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "backend": "in-memory fixtures; no real session used",
+        "captures": [
+          "res://reports/detail_login.png",
+          "res://reports/detail_registration.png",
+          "res://reports/detail_registration_800x600.png",
+          "res://reports/detail_admin_dashboard.png",
+          "res://reports/detail_teacher_dashboard.png",
+          "res://reports/detail_library_overview.png",
+          "res://reports/detail_coordination_overview.png"
+        ],
+        "failures": []
+      }
+    ]
+  },
+  "rendered_gameplay_check": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "captures": [
+          "res://reports/detail_gameplay_walking.png",
+          "res://reports/detail_gameplay_inventory.png",
+          "res://reports/detail_gameplay_pause.png",
+          "res://reports/detail_gameplay_map.png",
+          "res://reports/detail_gameplay_phone.png"
+        ],
+        "checks": 14,
+        "failures": [],
+        "personal_saves_used": false
+      }
+    ]
+  },
+  "placement_visual_check": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checked": 92,
+        "failures": []
+      }
+    ]
+  },
+  "camera_obstruction_check": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 5,
+        "failures": []
+      }
+    ]
+  },
+  "placement_stairs_visual_check": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "camera_states": [
+          {
+            "angle": 0,
+            "body_visible": true,
+            "camera_distance": 5.00000476837158
+          },
+          {
+            "angle": 1,
+            "body_visible": true,
+            "camera_distance": 3.45156264305115
+          },
+          {
+            "angle": 2,
+            "body_visible": true,
+            "camera_distance": 5.00000476837158
+          }
+        ],
+        "captures": [
+          "res://reports/placement_stairs_view_0.png",
+          "res://reports/placement_stairs_view_1.png",
+          "res://reports/placement_stairs_view_2.png",
+          "res://reports/placement_grounded_stick.png",
+          "res://reports/placement_grounded_chair.png"
+        ],
+        "failures": [],
+        "personal_saves_used": false
+      }
+    ]
+  }
+}

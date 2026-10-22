@@ -60,12 +60,19 @@ func run() -> void:
 	for i in range(45): await physics_frame
 	walk_segment(point(-53.5,-125),point(-53.5,-109),"main entrance")
 	var pcs=library.get_node("PuestosComputadores").get_children()
-	if pcs.size()!=19: failures.append("Must retain 19 PC stations")
+	# Current scene has west-wall stations 01–03 and south-wall stations 10–19.
+	# Six removed west stations must not shift orientation checks by array index.
+	var expected_stations: Array[String] = ["Puesto01","Puesto02","Puesto03"]
+	for number in range(10,20): expected_stations.append("Puesto%d" % number)
+	if pcs.size()!=expected_stations.size(): failures.append("Current layout must retain 13 PC stations")
+	for station_name in expected_stations:
+		if not library.get_node("PuestosComputadores").has_node(NodePath(station_name)):
+			failures.append("Missing station: "+station_name)
 	for i in range(pcs.size()):
 		var pc=pcs[i]
 		var direction=(pc.get_node("Monitor").global_position-pc.get_node("Silla").global_position)
 		direction.y=0
-		var wall=Vector3.LEFT if i<9 else Vector3.BACK
+		var wall=Vector3.LEFT if str(pc.name) in ["Puesto01","Puesto02","Puesto03"] else Vector3.BACK
 		if direction.normalized().dot(wall)<.98: failures.append("PC faces away from wall: "+str(pc.name))
 		if not pc.has_node("Mouse"): failures.append("PC missing mouse: "+str(pc.name))
 	var ceiling=library.get_node("AcabadosReferencia/FondoCieloMadera")
@@ -88,7 +95,8 @@ func run() -> void:
 		var high_ray=PhysicsRayQueryParameters3D.create(Vector3(-53,floor_y+9,z+2.5),Vector3(-48,floor_y+9,z+2.5),1)
 		if root.world_3d.direct_space_state.intersect_ray(high_ray).is_empty(): failures.append("No upper glass collision: "+str(room.name))
 	walk_segment(point(-53.5,-119),point(-53.5,-81.15),"study-room corridor")
-	walk_segment(point(-79.5,-109.5),point(-79.5,-85),"PC and shelf corridor")
+	# Capsule probes place the current aisle east of both PC chairs and Estante3.
+	walk_segment(point(-78.5,-109.5),point(-78.5,-85),"PC and shelf corridor")
 	for x in [-75.5,-71.5,-67.5]:
 		walk_segment(point(x,-110),point(x,-104.5),"between shelves "+str(x))
 	walk_segment(point(-70.5,-121),point(-70.5,-111),"shelves to reception")

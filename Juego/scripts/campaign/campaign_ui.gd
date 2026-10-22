@@ -210,7 +210,11 @@ func notify(text: String, duration: float = 4.0, priority: int = -1) -> void:
 	while notice_queue.size() > 16: notice_queue.pop_back()
 
 func _process(delta: float) -> void:
-	var notice_hidden := modal or intro.visible
+	# Campaign HUD is above the inventory layer. Hide it during blocking views
+	# so objectives, interaction hints and notifications do not cover their forms.
+	var notice_hidden: bool = modal or intro.visible or campaign.player.busy
+	objective.visible = not notice_hidden
+	context.visible = not notice_hidden
 	if not notice_hidden:
 		toast_t = maxf(0,toast_t-delta)
 		if toast_t <= 0 and not notice_queue.is_empty():

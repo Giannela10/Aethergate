@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6571
+[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego
+SEAT_FLOOR Butaca03_01 (51.40762, 9.3675, -91.65354) target=(51.40762, 9.032317, -91.65354)
+SEAT_FLOOR Butaca04_01 (53.1381, 9.725, -91.65354) target=(53.1381, 9.373116, -91.65354)
+CONTEXT_RESULT {"checks":60,"failures":[]}

@@ -2,5 +2,5 @@ Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
 
 [MCPRuntimeServer] port: scanning 6570-6585 (default)
 [MCPRuntimeServer] listening on 127.0.0.1:6571
-[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames
+[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego
 FLOOR_ORGANIZATION_RESULT {"failures":[],"pisos":["Piso −1","Piso 1","Piso 2","Piso 3","Piso 4","Piso 5","Piso 6","Piso 7","Piso 8"],"rutas":596}

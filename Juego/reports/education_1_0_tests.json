@@ -1,5 +1,5 @@
 {
-	"checks": 32,
+	"checks": 14,
 	"failures": [],
 	"google_oauth": "NOT TESTED: external credentials required",
 	"release_export": "NOT TESTED: export templates required",

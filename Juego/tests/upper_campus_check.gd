@@ -42,7 +42,15 @@ func run() -> void:
 	while get_tree().get_nodes_in_group("boss_duel").any(func(d): return not d.initialized): await get_tree().process_frame
 	check(upper.failures.is_empty(),"Arena placement")
 	for enemy in get_tree().get_nodes_in_group("enemy"): enemy.set_physics_process(false)
-	check(get_tree().get_nodes_in_group("boss_duel").size() == 9,"Nine bosses, no replacements")
+	# AcademicExpansion adds its own actors; the old global count of nine is
+	# obsolete. Validate the configured upper actors and unique duel identities.
+	check(upper.actors.size() == upper.CONFIGS.size(),"All configured upper bosses exist")
+	var duel_ids: Array[String] = []
+	for duel in get_tree().get_nodes_in_group("boss_duel"):
+		check(not duel_ids.has(duel.boss_id),"Unique boss identity: "+str(duel.boss_id))
+		duel_ids.append(duel.boss_id)
+	for config in upper.CONFIGS:
+		check(duel_ids.has(config.boss_id),"Upper boss retains duel: "+config.boss_id)
 	var chosen_appearance: Dictionary = c.data.appearance.duplicate(true)
 	for q in ["inicio","biblioteca","academico3","academico4"]: c.data.quests[q].state = 2
 	for floor_id in ["5","6","7"]: c.events["floor:"+floor_id] = 1

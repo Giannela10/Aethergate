@@ -37,9 +37,53 @@ func _ready() -> void:
 		add_child(weapon_display)
 		weapon_display.pick_up()
 		weapon_display.remove_from_group("weapon_pickup")
-		weapon_display.rotation.z = PI/2
+		# Chairs stand on their legs; elongated weapons rest on their side.
+		weapon_display.rotation.z = 0.0 if item.weapon_kind == "silla" else PI/2
 		weapon_display.position.y = 0.28
 		weapon_display.set_process(false)
+
+func visual_bounds() -> AABB:
+	var bounds := AABB()
+	var found := false
+	for mesh in find_children("*","MeshInstance3D",true,false):
+		if not mesh.is_visible_in_tree(): continue
+		var box: AABB = mesh.global_transform * mesh.get_aabb()
+		bounds = bounds.merge(box) if found else box
+		found = true
+	return bounds
+
+func placement_clear(space: PhysicsDirectSpaceState3D, surface: Vector3, excluded: Array[RID]) -> bool:
+	var bounds := visual_bounds()
+	if bounds.size.is_zero_approx(): return true
+	var center := bounds.get_center()-global_position
+	# Check the actual footprint, including long weapons and chair legs. A clear
+	# capsule at the item's origin alone does not prevent overhangs at stairs.
+	var half := Vector2(bounds.size.x,bounds.size.z)*0.5
+	for offset in [Vector2.ZERO,Vector2(-half.x,-half.y),Vector2(half.x,-half.y),Vector2(-half.x,half.y),Vector2(half.x,half.y)]:
+		var sample: Vector3 = surface+Vector3(center.x+offset.x,0,center.z+offset.y)
+		var ray := PhysicsRayQueryParameters3D.create(sample+Vector3.UP*0.15,sample-Vector3.UP*0.15,1,excluded)
+		var hit := space.intersect_ray(ray)
+		if hit.is_empty() or hit.normal.y < 0.95 or absf(hit.position.y-surface.y) > 0.06: return false
+	var shape := BoxShape3D.new()
+	shape.size = Vector3(maxf(bounds.size.x,0.025),maxf(bounds.size.y,0.025),maxf(bounds.size.z,0.025))
+	var query := PhysicsShapeQueryParameters3D.new()
+	query.shape = shape
+	query.collision_mask = 1
+	query.exclude = excluded
+	query.margin = 0.001
+	query.transform.origin = surface+Vector3(center.x,shape.size.y*0.5+0.015,center.z)
+	return space.intersect_shape(query,1).is_empty()
+
+func ground_visuals(surface_y: float) -> void:
+	var bounds := visual_bounds()
+	if bounds.size.is_zero_approx(): return
+	var adjustment := surface_y+0.015-bounds.position.y
+	if is_instance_valid(weapon_display):
+		weapon_display.global_position.y += adjustment
+	else:
+		for child in get_children():
+			if child is MeshInstance3D and child.visible:
+				child.global_position.y += adjustment
 
 func interaction_text(_player: Node) -> String:
 	var item = Catalog.get_item(item_id)

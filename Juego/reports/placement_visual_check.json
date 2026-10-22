@@ -1,0 +1,650 @@
+{
+	"checked": 92,
+	"failures": [],
+	"items": [
+		{
+			"bottom_gap": 0.0150000024586916,
+			"footprint_clear": true,
+			"id": "Arma_00",
+			"item": "Palo",
+			"position": "(-27.0, 0.1, -145.0)"
+		},
+		{
+			"bottom_gap": 0.0149999856948853,
+			"footprint_clear": true,
+			"id": "Arma_01",
+			"item": "Silla",
+			"position": "(-38.0, 0.1, -140.0)"
+		},
+		{
+			"bottom_gap": 0.0150000089779496,
+			"footprint_clear": true,
+			"id": "Arma_02",
+			"item": "PaletaPingPong",
+			"position": "(-30.0, 0.1, -140.0)"
+		},
+		{
+			"bottom_gap": 0.0149999633431435,
+			"footprint_clear": true,
+			"id": "Arma_03",
+			"item": "Escoba",
+			"position": "(-37.0, 0.165, -111.0)"
+		},
+		{
+			"bottom_gap": 0.0149999707937241,
+			"footprint_clear": true,
+			"id": "Arma_04",
+			"item": "Bandeja",
+			"position": "(-38.0, 0.165, -108.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Arma_05",
+			"item": "Silla",
+			"position": "(-45.0, 12.15839, -113.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Arma_06",
+			"item": "LibroPesado",
+			"position": "(-55.0, 12.15839, -109.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Arma_07",
+			"item": "Palo",
+			"position": "(25.0, 12.15839, -144.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_08",
+			"item": "Silla",
+			"position": "(26.0, 24.06767, -144.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_09",
+			"item": "Palo",
+			"position": "(-26.86603, 24.06767, -144.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_10",
+			"item": "Herramienta",
+			"position": "(28.0, 35.77441, -144.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_11",
+			"item": "Silla",
+			"position": "(-28.0, 35.77441, -144.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_12",
+			"item": "Palo",
+			"position": "(26.0, 48.07485, -144.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_13",
+			"item": "Herramienta",
+			"position": "(-28.0, 48.07485, -144.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_14",
+			"item": "Silla",
+			"position": "(40.0, 60.28495, -135.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_15",
+			"item": "LibroPesado",
+			"position": "(-40.0, 60.28495, -135.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_16",
+			"item": "Palo",
+			"position": "(44.0, 72.06863, -135.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_17",
+			"item": "ExtintorDorado",
+			"position": "(-72.0, 72.06863, -135.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_18",
+			"item": "Teclado",
+			"position": "(40.0, 84.04, -135.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_19",
+			"item": "NotebookRoto",
+			"position": "(46.0, 84.04, -135.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_20",
+			"item": "Cable",
+			"position": "(52.0, 84.04, -135.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Arma_21",
+			"item": "LlaveInglesa",
+			"position": "(-30.0, -11.95839, -141.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Arma_22",
+			"item": "Herramienta",
+			"position": "(30.0, -11.95839, -141.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Arma_23",
+			"item": "ExtintorDorado",
+			"position": "(45.0, -11.95839, -140.0)"
+		},
+		{
+			"bottom_gap": 0.0150001794099808,
+			"footprint_clear": true,
+			"id": "Arma_24",
+			"item": "Palo",
+			"position": "(-3.0, 0.2, -6.0)"
+		},
+		{
+			"bottom_gap": 0.0150001645088196,
+			"footprint_clear": true,
+			"id": "Arma_25",
+			"item": "Silla",
+			"position": "(3.0, 0.2, -7.0)"
+		},
+		{
+			"bottom_gap": 0.0150001719594002,
+			"footprint_clear": true,
+			"id": "Arma_26",
+			"item": "Escoba",
+			"position": "(-7.0, 0.2, -10.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Arma_27",
+			"item": "Palo",
+			"position": "(30.0, 12.15839, -140.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Arma_28",
+			"item": "Silla",
+			"position": "(-30.0, 12.15839, -139.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Arma_29",
+			"item": "LibroPesado",
+			"position": "(34.0, 12.15839, -139.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_30",
+			"item": "Palo",
+			"position": "(30.0, 24.06767, -140.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_31",
+			"item": "Silla",
+			"position": "(-30.0, 24.06767, -139.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_32",
+			"item": "Bandeja",
+			"position": "(34.0, 24.06767, -139.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_33",
+			"item": "Palo",
+			"position": "(30.0, 35.77441, -140.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_34",
+			"item": "Silla",
+			"position": "(-30.0, 35.77441, -139.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_35",
+			"item": "LibroPesado",
+			"position": "(34.0, 35.77441, -139.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_36",
+			"item": "Palo",
+			"position": "(30.0, 48.07485, -140.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_37",
+			"item": "Silla",
+			"position": "(-30.0, 48.07485, -140.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_38",
+			"item": "Bandeja",
+			"position": "(34.0, 48.07485, -139.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_39",
+			"item": "Palo",
+			"position": "(30.0, 60.28495, -133.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_40",
+			"item": "Silla",
+			"position": "(-30.0, 60.28495, -133.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_41",
+			"item": "LibroPesado",
+			"position": "(34.0, 60.28495, -133.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_42",
+			"item": "Palo",
+			"position": "(30.0, 72.06863, -133.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_43",
+			"item": "Silla",
+			"position": "(-30.0, 72.06863, -133.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_44",
+			"item": "Bandeja",
+			"position": "(34.0, 72.06863, -132.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_45",
+			"item": "Palo",
+			"position": "(30.0, 84.04, -133.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_46",
+			"item": "Silla",
+			"position": "(-30.0, 84.04, -133.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Arma_47",
+			"item": "LibroPesado",
+			"position": "(34.0, 84.04, -133.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Arma_48",
+			"item": "Palo",
+			"position": "(30.0, -11.95839, -140.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Arma_49",
+			"item": "Silla",
+			"position": "(-30.0, -11.95839, -140.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Arma_50",
+			"item": "Bandeja",
+			"position": "(34.0, -11.95839, -140.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Mision_LlavesPerdidas_-36_3",
+			"item": "LlavesPerdidas",
+			"position": "(-36.0, 35.77441, -143.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Mision_Cargador_-34_2",
+			"item": "Cargador",
+			"position": "(-34.0, 24.06767, -143.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Mision_LibroBiblioteca_-46_1",
+			"item": "LibroBiblioteca",
+			"position": "(-46.0, 12.15839, -108.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Mision_LibroBiblioteca_-52_1",
+			"item": "LibroBiblioteca",
+			"position": "(-52.0, 12.15839, -108.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Mision_LibroBiblioteca_-58_1",
+			"item": "LibroBiblioteca",
+			"position": "(-58.0, 12.15839, -108.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Mision_PelotaBasquetbol_28_2",
+			"item": "PelotaBasquetbol",
+			"position": "(28.0, 24.06767, -139.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Mision_PaletaPingPong_-32_3",
+			"item": "PaletaPingPong",
+			"position": "(-32.0, 35.77441, -142.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Mision_Raqueta_32_4",
+			"item": "Raqueta",
+			"position": "(33.0, 48.07485, -141.0)"
+		},
+		{
+			"bottom_gap": 0.0149999707937241,
+			"footprint_clear": true,
+			"id": "Tarjeta_01",
+			"item": "TarjetaDuoc",
+			"position": "(-41.0, 0.165, -105.0)"
+		},
+		{
+			"bottom_gap": 0.0150000005960464,
+			"footprint_clear": true,
+			"id": "Tarjeta_02",
+			"item": "TarjetaDuoc",
+			"position": "(-39.13398, 0.1, -136.5)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Tarjeta_03",
+			"item": "TarjetaDuoc",
+			"position": "(-42.0, 12.15839, -109.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Tarjeta_04",
+			"item": "TarjetaDuoc",
+			"position": "(-59.0, 12.15839, -110.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Tarjeta_05",
+			"item": "TarjetaDuoc",
+			"position": "(-46.0, 24.06767, -142.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Tarjeta_06",
+			"item": "TarjetaDuoc",
+			"position": "(46.0, 24.06767, -142.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Tarjeta_07",
+			"item": "TarjetaDuoc",
+			"position": "(-48.0, 35.77441, -142.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Tarjeta_08",
+			"item": "TarjetaDuoc",
+			"position": "(48.0, 35.77441, -142.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Tarjeta_09",
+			"item": "TarjetaDuoc",
+			"position": "(-50.0, 48.07485, -142.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Tarjeta_10",
+			"item": "TarjetaDuoc",
+			"position": "(50.0, 48.07485, -142.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Tarjeta_11",
+			"item": "TarjetaDuoc",
+			"position": "(-52.0, 60.28495, -134.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Tarjeta_12",
+			"item": "TarjetaDuoc",
+			"position": "(52.0, 60.28495, -134.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Tarjeta_13",
+			"item": "TarjetaDuoc",
+			"position": "(-54.0, 72.06863, -134.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Tarjeta_14",
+			"item": "TarjetaDuoc",
+			"position": "(54.0, 72.06863, -134.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Tarjeta_15",
+			"item": "TarjetaDuoc",
+			"position": "(-56.0, 84.04, -134.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Tarjeta_16",
+			"item": "TarjetaDuoc",
+			"position": "(56.0, 84.04, -134.5)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Tarjeta_17",
+			"item": "TarjetaDuoc",
+			"position": "(-58.0, -11.95839, -142.5)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Tarjeta_18",
+			"item": "TarjetaDuoc",
+			"position": "(58.0, -11.95839, -142.5)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Tarjeta_19",
+			"item": "TarjetaDuoc",
+			"position": "(-58.0, -11.95839, -138.5)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Tarjeta_20",
+			"item": "TarjetaDuoc",
+			"position": "(58.0, -11.95839, -138.5)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Apunte_programacion",
+			"item": "hoja_impresa",
+			"position": "(-38.0, 24.06767, -142.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Apunte_datos",
+			"item": "hoja_impresa",
+			"position": "(35.0, 24.06767, -142.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Apunte_redes",
+			"item": "hoja_impresa",
+			"position": "(-60.0, 24.06767, -134.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Apunte_ia",
+			"item": "hoja_impresa",
+			"position": "(58.0, 24.06767, -133.0)"
+		},
+		{
+			"bottom_gap": 0.0150000005960464,
+			"footprint_clear": true,
+			"id": "Curativo_0",
+			"item": "Comida",
+			"position": "(-35.0, 0.1, -143.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Curativo_1",
+			"item": "Comida",
+			"position": "(-35.0, 12.15839, -143.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Curativo_2",
+			"item": "Comida",
+			"position": "(29.0, 24.06767, -143.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Curativo_3",
+			"item": "Comida",
+			"position": "(29.0, 35.77441, -143.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Curativo_4",
+			"item": "Comida",
+			"position": "(29.0, 48.07485, -143.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Curativo_5",
+			"item": "Botiquin",
+			"position": "(29.0, 60.28495, -134.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Curativo_6",
+			"item": "Botiquin",
+			"position": "(29.0, 72.06863, -134.0)"
+		},
+		{
+			"bottom_gap": 0.0149993896484375,
+			"footprint_clear": true,
+			"id": "Curativo_7",
+			"item": "Botiquin",
+			"position": "(29.0, 84.04, -134.0)"
+		},
+		{
+			"bottom_gap": 0.0150003433227539,
+			"footprint_clear": true,
+			"id": "Curativo_8",
+			"item": "Botiquin",
+			"position": "(29.0, -11.95839, -143.0)"
+		}
+	]
+}

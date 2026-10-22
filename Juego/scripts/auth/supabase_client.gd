@@ -81,10 +81,17 @@ func _perform_request(path: String, method: int, serialized: String, body: Dicti
 	var status := int(result[1])
 	last_status = status
 	connected = int(result[0]) == HTTPRequest.RESULT_SUCCESS and status > 0
-	var parsed = JSON.parse_string(result[3].get_string_from_utf8())
+	var parsed = parse_response_body(result[3].get_string_from_utf8())
 	var failure := classify_failure(status,int(result[0]),OK)
 	_record_diagnostic(path,method,status,int(result[0]),OK,parsed,body,token,Time.get_ticks_msec()-started)
 	return {"ok":connected and status >= 200 and status < 300,"status":status,"data":parsed,"transport_result":int(result[0]),"request_error":OK,"failure_kind":failure,"error":"Solicitud rechazada (%d)" % status if status > 0 else "Sin respuesta HTTP"}
+
+static func parse_response_body(body: String) -> Variant:
+	# Network failures, empty responses and proxy HTML are not JSON. Preserve
+	# transport diagnostics without emitting a second, misleading parser error.
+	if body.strip_edges().is_empty(): return null
+	var parser := JSON.new()
+	return parser.data if parser.parse(body) == OK else null
 
 static func classify_failure(status: int, transport: int, request_error: int = OK) -> String:
 	if request_error != OK: return "request_start"
