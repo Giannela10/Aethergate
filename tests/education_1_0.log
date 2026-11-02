@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6572
+[MCPRegistry] runtime port 6572 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames
+EDUCATION_1_0_RESULT {"checks":32,"failures":[],"google_oauth":"NOT TESTED: external credentials required","release_export":"NOT TESTED: export templates required","supabase_rls":"NOT TESTED: deployment required"}

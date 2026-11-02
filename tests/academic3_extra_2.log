@@ -1,0 +1,7 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6571
+[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames
+REDES_POSITIONS (65.0, 24.00767, -145.0) routers=[["Router_A", (59.0, 24.00767, -146.0), true], ["Router_B", (69.0, 24.00767, -146.0), true], ["Router_C", (65.0, 24.00767, -142.0), true]]
+NETWORK_BOSS_RESULT {"checks":38,"failures":[],"passed":true}

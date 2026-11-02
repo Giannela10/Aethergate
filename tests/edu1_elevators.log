@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6570
+[MCPRegistry] runtime port 6570 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames
+ELEVATOR_BASEMENT_ROUTE {"blockers":[],"lift":"Ascensor01","message":"Salida al piso −1","passed":true,"phase":"exit","position":"(-10.0, -12.05825, -147.6497)"}
+ELEVATOR_BASEMENT_ROUTE {"blockers":[],"lift":"Ascensor02","message":"Salida al piso −1","passed":true,"phase":"exit","position":"(0.0, -12.0579, -147.6498)"}
+ELEVATOR_BASEMENT_ROUTE {"blockers":[],"lift":"Ascensor03","message":"Salida al piso −1","passed":true,"phase":"exit","position":"(10.0, -12.05811, -147.6495)"}
+ELEVATOR_BASEMENT_RESULT {"failed":[],"tested":3}

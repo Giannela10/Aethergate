@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PERF resource_load_ms=2781
+PERF instantiate_ms=3055
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6571
+[MCPRegistry] runtime port 6571 registered for c:/users/marcelo diaz/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/duocgames
+PERF renderer=gl_compatibility
+PERF total_ms=5187
+PERF static_memory_mib=375.866279602051
+PERF nodes=47199.0
+PERF objects=78072.0
+PERF resources=16022.0
+PERF physics_active_objects=184.0
