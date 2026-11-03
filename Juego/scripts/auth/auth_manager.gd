@@ -47,9 +47,16 @@ func load_configuration() -> void:
 	var candidates: Array[String] = []
 	if not external.is_empty(): candidates.append(external)
 	candidates.append_array(["user://auth_config.json","res://config/auth_config.json"])
+	# The repository root and the Godot project are different directories.
+	# Support the existing repository configuration during editor development,
+	# and an external config beside the executable in exported builds.
+	if OS.has_feature("editor"):
+		candidates.append(ProjectSettings.globalize_path("res://").trim_suffix("/").get_base_dir().path_join("config/auth_config.json"))
+	else:
+		candidates.append(OS.get_executable_path().get_base_dir().path_join("config/auth_config.json"))
 	for path in candidates:
 		if not FileAccess.file_exists(path): continue
-		config_source = path if path.begins_with("res://") or path.begins_with("user://") else "DUOCGAMES_AUTH_CONFIG"
+		config_source = "DUOCGAMES_AUTH_CONFIG" if path == external else path
 		var parsed = JSON.parse_string(FileAccess.get_file_as_string(path).trim_prefix("\ufeff"))
 		if parsed is Dictionary: client.config = parsed
 		return
@@ -211,6 +218,9 @@ static func _email_error(response: Dictionary) -> String:
 	var status := int(response.get("status",0))
 	var kind := str(response.get("failure_kind",""))
 	if kind == "configuration": return "La configuración de Supabase no es válida. Revisa la URL y la clave pública."
+	if kind == "dns": return "No se encontró la dirección del proyecto Supabase. Revisa la conexión y confirma en el panel de Supabase que el proyecto esté activo y su URL sea correcta."
+	if kind == "timeout": return "Supabase tardó demasiado en responder. Revisa tu conexión e intenta nuevamente."
+	if kind == "tls": return "No se pudo establecer una conexión segura con Supabase. Revisa la fecha del equipo y los certificados de red."
 	if status == 0 or kind in ["timeout","dns","connection","tls","transport","no_http_response","request_start"]:
 		return "No se pudo conectar con el servidor."
 	var data = response.get("data",{})
