@@ -26,19 +26,6 @@
       }
     ]
   },
-  "resource_reference_check": {
-    "passed": true,
-    "exit_code": 0,
-    "timed_out": false,
-    "stopped_on_result": false,
-    "script_errors": false,
-    "reports": [
-      {
-        "checked_scenes": 43,
-        "failures": []
-      }
-    ]
-  },
   "inventory_regression": {
     "passed": true,
     "exit_code": 0,
@@ -52,7 +39,7 @@
       }
     ]
   },
-  "campaign_regression": {
+  "gameplay_regression": {
     "passed": true,
     "exit_code": 0,
     "timed_out": false,
@@ -77,7 +64,7 @@
       }
     ]
   },
-  "gameplay_regression": {
+  "campaign_regression": {
     "passed": true,
     "exit_code": 0,
     "timed_out": false,
@@ -195,17 +182,16 @@
       }
     ]
   },
-  "SignupDiagnosticsUnit": {
+  "nexo_final": {
     "passed": true,
-    "exit_code": null,
+    "exit_code": 0,
     "timed_out": false,
-    "stopped_on_result": true,
+    "stopped_on_result": false,
     "script_errors": false,
     "reports": [
       {
-        "checks": 47,
-        "failures": [],
-        "real_accounts_created": 0
+        "checks": 111,
+        "failures": []
       }
     ]
   },
@@ -222,19 +208,6 @@
         "failures": [],
         "real_users_created": 0,
         "real_users_modified": 0
-      }
-    ]
-  },
-  "nexo_final": {
-    "passed": true,
-    "exit_code": 0,
-    "timed_out": false,
-    "stopped_on_result": false,
-    "script_errors": false,
-    "reports": [
-      {
-        "checks": 111,
-        "failures": []
       }
     ]
   },
@@ -261,6 +234,33 @@
         "expansion_failures": [],
         "failures": [],
         "stage": 11
+      }
+    ]
+  },
+  "SignupDiagnosticsUnit": {
+    "passed": true,
+    "exit_code": null,
+    "timed_out": false,
+    "stopped_on_result": true,
+    "script_errors": false,
+    "reports": [
+      {
+        "checks": 47,
+        "failures": [],
+        "real_accounts_created": 0
+      }
+    ]
+  },
+  "resource_reference_check": {
+    "passed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_on_result": false,
+    "script_errors": false,
+    "reports": [
+      {
+        "checked_scenes": 43,
+        "failures": []
       }
     ]
   }

@@ -22,16 +22,9 @@ func _process(delta: float) -> void:
 	if timer > 0:
 		return
 	timer = 0.1
-	var current_healths: Dictionary = {}
 	for enemy in get_tree().get_nodes_in_group("enemy"):
-		# Destructible academic objectives also use this group, without health.
-		if not enemy is Node3D:
-			continue
-		var value = enemy.get("health")
-		if not (value is float or value is int):
-			continue
 		var key := enemy.get_instance_id()
-		var hp := float(value)
+		var hp: float = enemy.get("health")
 		if healths.has(key) and hp < healths[key] and show_damage_numbers:
 			var label := Label3D.new()
 			label.text = "−%d" % ceili(float(healths[key])-hp)
@@ -48,5 +41,4 @@ func _process(delta: float) -> void:
 			tween.tween_property(label,"position:y",label.position.y+0.7,0.7)
 			tween.tween_property(label,"modulate:a",0.0,0.7)
 			tween.chain().tween_callback(label.queue_free)
-		current_healths[key] = hp
-	healths = current_healths
+		healths[key] = hp
