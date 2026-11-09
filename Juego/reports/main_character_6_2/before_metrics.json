@@ -1,0 +1,480 @@
+{
+	"capsule_height": 2.70000004768372,
+	"capsule_radius": 0.449999988079071,
+	"draw_calls": 242.0,
+	"fps": 33.0,
+	"meshes": 86,
+	"player_scale": "(1.5, 1.5, 1.5)",
+	"profile": {
+		"accessory": 0,
+		"backpack": 1,
+		"backpack_color": 5,
+		"bottom_style": 1,
+		"clothes": 0,
+		"face": 0,
+		"hair": 0,
+		"hair_color": 1,
+		"head_accessory": 0,
+		"outfit": 0,
+		"pants": 0,
+		"shoe_style": 0,
+		"shoes": 6,
+		"skin": 0,
+		"top": 1
+	},
+	"rig": "procedural joint transforms; placeholder Skeleton3D has no bones",
+	"samples": [
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 7.951
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 8.238
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.371
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.321
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.345
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.315
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.348
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.324
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.331
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.401
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.27
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.34
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.408
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.255
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.329
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.345
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.334
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.309
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.356
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.335
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.324
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.349
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.318
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.479
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.297
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.369
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.236
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.306
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.303
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.339
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.328
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.318
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.385
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.29
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.36
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.309
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.338
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.349
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.319
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 33.0,
+			"ms": 13.333
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.329
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.393
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.274
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.335
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.318
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.369
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.318
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.345
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.328
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.317
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.339
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.389
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.263
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.339
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.337
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.389
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.269
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.347
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.402
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.243
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.343
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.335
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.338
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.323
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.409
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.269
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.354
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.317
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.319
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.327
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.347
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.334
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.372
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.29
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.327
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.341
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.366
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.298
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.34
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.369
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.329
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.336
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.353
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.302
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.37
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.364
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.447
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.259
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.323
+		},
+		{
+			"draw_calls": 242.0,
+			"fps": 65.0,
+			"ms": 13.265
+		}
+	],
+	"surfaces": 80,
+	"vertices": 19261
+}

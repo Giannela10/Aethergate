@@ -63,6 +63,7 @@ func apply_appearance(profile: Dictionary) -> void:
 	appearance_adapter.apply_appearance(profile)
 	if imported_visual != null and is_instance_valid(imported_visual.model) and imported_visual.model.has_method("apply_appearance"):
 		imported_visual.model.call("apply_appearance",profile)
+	if is_instance_valid(human_visual63): human_visual63.reapply(profile)
 
 func _ready() -> void:
 	shirt_color = Color("315e78")
@@ -77,18 +78,6 @@ func _ready() -> void:
 	shoulder_r.name = "RightArm"
 	hip_l.name = "LeftLeg"
 	hip_r.name = "RightLeg"
-	# Silueta más definida sin cambiar alturas, pivotes ni colisiones.
-	_cyl(chest,0.16,0.13,0.28,Vector3(0,0.115,0),shirt_color,Vector3(1.04,1,0.78))
-	for side in [-1.0,1.0]:
-		var collar := _box(chest,Vector3(0.075,0.10,0.025),Vector3(side*0.055,0.25,-0.13),Color("e3e8e8"))
-		collar.rotation.z = side*0.3
-		_box(chest,Vector3(0.018,0.35,0.02),Vector3(side*0.11,0.06,-0.143),Color("1c3546"))
-		_box(chest,Vector3(0.018,0.31,0.035),Vector3(side*0.135,0.1,0.085),Color("172732"))
-	for ankle in [ankle_l,ankle_r]:
-		for index in 3:
-			_box(ankle,Vector3(0.075,0.008,0.012),Vector3(0,-0.018,-0.07-index*0.023),Color("dce6ea"))
-	_box(chest,Vector3(0.08,0.09,0.016),Vector3(-0.085,0.08,-0.16),Color("dceff2"))
-	_cyl(elbow_l,0.04,0.04,0.03,Vector3(0,-0.22,0),Color("15212a"))
 	weapon_socket = Marker3D.new()
 	weapon_socket.name = "WeaponSocket"
 	hand_r.add_child(weapon_socket)
@@ -222,20 +211,7 @@ func _idle_variation(delta: float, speed: float, on_floor: bool) -> void:
 			for elbow in [elbow_l,elbow_r]: elbow.rotation.x = lerpf(elbow.rotation.x,2.2,weight)
 
 func _build_head() -> void:
-	_ball(head_pivot,0.107,Vector3(0,0.10,0),skin_color,Vector3(0.87,1.14,0.88),0.65)
-	_ball(head_pivot,0.073,Vector3(0,0.045,-0.015),skin_color,Vector3(0.95,0.66,0.92),0.65)
-	var hair := SphereMesh.new()
-	hair.radius = 0.11
-	hair.height = 0.22
-	hair.is_hemisphere = true
-	_node(head_pivot,hair,Vector3(0,0.13,0.01),hair_color,Vector3(0.92,0.75,0.93),0.9)
-	for side in [-1.0,1.0]:
-		_ball(head_pivot,0.018,Vector3(side*0.094,0.095,0),skin_color,Vector3(0.7,1,0.7))
-		_ball(head_pivot,0.011,Vector3(side*0.038,0.11,-0.088),Color("f4f3ec"),Vector3(1,0.65,0.5))
-		_ball(head_pivot,0.0055,Vector3(side*0.038,0.11,-0.095),Color("303b32"))
-		_box(head_pivot,Vector3(0.035,0.007,0.012),Vector3(side*0.038,0.135,-0.088),hair_color)
-	_ball(head_pivot,0.017,Vector3(0,0.086,-0.096),skin_color.darkened(0.06),Vector3(0.7,1,1.1))
-	_box(head_pivot,Vector3(0.042,0.005,0.008),Vector3(0,0.052,-0.085),Color("986958"))
+	super._build_head()
 
 func equip(weapon: Node3D) -> void:
 	weapon_socket.add_child(weapon)
@@ -320,3 +296,4 @@ func animate(delta: float, velocity: Vector3, on_floor: bool, crouching: bool) -
 		backpack_socket.rotation.x = sin(phase)*0.025*minf(speed/2.5,1.0)
 	set_meta("visual_state",visual_state)
 	set_meta("animation_state",animation_state)
+	_update_human63(delta)

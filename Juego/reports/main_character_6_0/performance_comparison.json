@@ -1,0 +1,17 @@
+{
+  "before": {
+    "vertices": 12721,
+    "surfaces": 59,
+    "frame_ms_median": 13.3305,
+    "fps_monitor_median": 64,
+    "draw_calls_median": 179
+  },
+  "after": {
+    "vertices": 17638,
+    "surfaces": 66,
+    "frame_ms_median": 13.329,
+    "fps_monitor_median": 54,
+    "draw_calls_median": 200
+  },
+  "method": "90 frame_post_draw samples; same Main wrapper, camera, controlled pose, seed600, frozen actors. GTX1050 Compatibility. FPS monitor includes startup history; frame times at 75Hz cap cannot establish GPU headroom. Not full gameplay benchmark."
+}

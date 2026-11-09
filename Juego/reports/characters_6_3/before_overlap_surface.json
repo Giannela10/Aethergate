@@ -1,0 +1,44 @@
+[
+	{
+		"bounds": "[P: (-164.1258, -0.1, -261.7903), S: (313.4075, 0.2, 285.2791)]",
+		"class": "MeshInstance3D",
+		"collision": null,
+		"material": "(res://Main.tscn::ShaderMaterial_sa5lj):<ShaderMaterial#-9223371646163728958>",
+		"path": "/root/Feet63/Main/Exterior/Floor/MeshInstance3D"
+	},
+	{
+		"bounds": "[P: (-19.0, 0.11, -53.5), S: (38.0, 0.04, 43.0)]",
+		"class": "MeshInstance3D",
+		"collision": null,
+		"material": "(res://Main.tscn::ShaderMaterial_b1va2):<ShaderMaterial#-9223371615998292792>",
+		"path": "/root/Feet63/Main/Exterior/EntradaReferenciaDuoc/ExplanadaFrontalReferenciaAerea/PlazaCentral"
+	},
+	{
+		"bounds": "[P: (-85.25, -0.1, -75.9223), S: (169.83, 0.2, 99.411)]",
+		"class": "CSGBox3D",
+		"collision": true,
+		"material": "<Object#null>",
+		"path": "/root/Feet63/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"
+	},
+	{
+		"bounds": "[P: (-62.32, -1.35, -60.8), S: (125.22, 6.285, 19.12)]",
+		"class": "MeshInstance3D",
+		"collision": null,
+		"material": "(res://Main.tscn::StandardMaterial3D_7qrdk):<StandardMaterial3D#-9223371575347096001>",
+		"path": "/root/Feet63/Main/Exterior/JardinYEntradaFotos/DetalleCombinado"
+	},
+	{
+		"bounds": "[P: (-47.29, 0.088547, -47.95743), S: (93.46, 1.941453, 13.65743)]",
+		"class": "MeshInstance3D",
+		"collision": null,
+		"material": "(res://Main.tscn::StandardMaterial3D_ro6qh):<StandardMaterial3D#-9223371575179323831>",
+		"path": "/root/Feet63/Main/Exterior/JardinYEntradaFotos/DetalleCombinado6"
+	},
+	{
+		"bounds": "[P: (7.675, 0.1925, -70.075), S: (39.325, 5.0075, 35.925)]",
+		"class": "MeshInstance3D",
+		"collision": null,
+		"material": "(res://Main.tscn::StandardMaterial3D_fg4rh):<StandardMaterial3D#-9223371575145769397>",
+		"path": "/root/Feet63/Main/Exterior/JardinYEntradaFotos/DetalleCombinado7"
+	}
+]

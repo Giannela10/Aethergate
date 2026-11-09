@@ -3,7 +3,6 @@ var hub: Node
 var tick := 0.0
 var previous_objective := ""
 var quest_states := {}
-var marker_labels: Array[Label3D] = []
 const DESTINATIONS := {"Entrada":["1","CheckpointEntrada"],"Biblioteca":["2","CheckpointBiblioteca"],"Piso 3":["3","CentroVida_Piso3"],"Piso 4":["4","CheckpointPiso4"],"Acceso a terraza":["5","CentroVida_Piso5"],"Piso 8":["8","CheckpointPiso8"],"Talleres":["-1","CheckpointSubterráneo"]}
 func _ready() -> void:
 	previous_objective = hub.campaign.quests.objective_text()

@@ -1,0 +1,115 @@
+{
+	"batched_meshes": 127,
+	"checks": 6,
+	"failures": [],
+	"fps_claim": false,
+	"measurements": [
+		{
+			"cpu_process_ms": 24.7811851851851,
+			"draw_calls": 6420.55185185185,
+			"optimization": false,
+			"position": [
+				0,
+				0.2,
+				-140
+			],
+			"renderer": "Windows",
+			"resolution": "(1152, 648)",
+			"static_memory_mib": 2322.34717655182
+		},
+		{
+			"cpu_process_ms": 22.2959333333333,
+			"draw_calls": 6360.18148148148,
+			"optimization": true,
+			"position": [
+				0,
+				0.2,
+				-140
+			],
+			"renderer": "Windows",
+			"resolution": "(1152, 648)",
+			"static_memory_mib": 2322.35807387034
+		}
+	],
+	"runs": [
+		{
+			"cpu_process_ms": 25.2304,
+			"draw_calls": 6422.0,
+			"optimization": false,
+			"position": [
+				0,
+				0.2,
+				-140
+			],
+			"renderer": "Windows",
+			"resolution": "(1152, 648)",
+			"static_memory_mib": 2322.3311662674
+		},
+		{
+			"cpu_process_ms": 24.6056888888889,
+			"draw_calls": 6361.0,
+			"optimization": true,
+			"position": [
+				0,
+				0.2,
+				-140
+			],
+			"renderer": "Windows",
+			"resolution": "(1152, 648)",
+			"static_memory_mib": 2322.35606098175
+		},
+		{
+			"cpu_process_ms": 17.7089111111111,
+			"draw_calls": 6360.54444444444,
+			"optimization": true,
+			"position": [
+				0,
+				0.2,
+				-140
+			],
+			"renderer": "Windows",
+			"resolution": "(1152, 648)",
+			"static_memory_mib": 2322.35345935822
+		},
+		{
+			"cpu_process_ms": 24.8557444444444,
+			"draw_calls": 6420.0,
+			"optimization": false,
+			"position": [
+				0,
+				0.2,
+				-140
+			],
+			"renderer": "Windows",
+			"resolution": "(1152, 648)",
+			"static_memory_mib": 2322.3545999527
+		},
+		{
+			"cpu_process_ms": 24.2574111111111,
+			"draw_calls": 6419.65555555556,
+			"optimization": false,
+			"position": [
+				0,
+				0.2,
+				-140
+			],
+			"renderer": "Windows",
+			"resolution": "(1152, 648)",
+			"static_memory_mib": 2322.35576343536
+		},
+		{
+			"cpu_process_ms": 24.5732,
+			"draw_calls": 6359.0,
+			"optimization": true,
+			"position": [
+				0,
+				0.2,
+				-140
+			],
+			"renderer": "Windows",
+			"resolution": "(1152, 648)",
+			"static_memory_mib": 2322.36470127106
+		}
+	],
+	"scope": "Three A/B pairs with camera, civilian routes and game clock frozen; not an original-project baseline or a constant FPS guarantee"
+}

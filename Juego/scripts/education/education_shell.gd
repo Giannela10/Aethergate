@@ -16,6 +16,27 @@ var users_list: VBoxContainer
 var user_search: LineEdit
 var user_filter: OptionButton
 var remember_checkbox: CheckBox
+var learning_panel := preload("res://scripts/education/learning_staff_panel.gd").new()
+
+func _start_menu_music() -> void:
+	if get_tree().current_scene!=self or name!="Login": return
+	var path := "res://assets/audio/v4/menu.wav"
+	if not ResourceLoader.exists(path) and not FileAccess.file_exists(path): return
+	var index := AudioServer.get_bus_index("Music")
+	if index<0:
+		AudioServer.add_bus(); index=AudioServer.bus_count-1; AudioServer.set_bus_name(index,"Music"); AudioServer.set_bus_volume_db(index,linear_to_db(0.4))
+	var player := AudioStreamPlayer.new(); player.bus="Music"; player.stream=preload("res://scripts/education/campus_audio_v4.gd").load_sample(path)
+	if player.stream==null: player.free(); return
+	player.stream.loop_mode=AudioStreamWAV.LOOP_FORWARD; player.stream.loop_end=player.stream.data.size()/2
+	add_child(player); player.play()
+
+func _learning_bank() -> void:
+	learning_panel.shell = self
+	learning_panel.open()
+
+func _learning_statistics() -> void:
+	learning_panel.shell = self
+	learning_panel.statistics()
 
 func _resolve_services() -> void:
 	auth = get_node("/root/AuthManager")
@@ -42,11 +63,13 @@ func layout_diagnostics() -> Dictionary:
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
+	_start_menu_music.call_deferred()
 	get_tree().paused = false
 	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 	_resolve_services()
 	auth.session_changed.connect(_route)
 	auth.status_changed.connect(_status)
+	get_node("/root/CloudSave").status_changed.connect(_status)
 	var background := ColorRect.new()
 	background.color = Color("091526")
 	background.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -300,6 +323,11 @@ func _submit_account(registering: bool) -> void:
 	_status(str(result.get("message","No se pudo completar la solicitud.")))
 
 func _logout() -> void:
+	var cloud := get_node("/root/CloudSave")
+	if not auth.dev_session and (cloud.busy or not cloud.pending.is_empty() or not cloud.operation.is_empty()):
+		if not await cloud.flush():
+			_status(cloud.last_error)
+			return
 	get_tree().remove_meta("education_menu_view")
 	service.clear_session()
 	auth.logout()
@@ -307,15 +335,59 @@ func _logout() -> void:
 func _student() -> void:
 	_clear("DUOCGAMES","Bienvenido, " + auth.display_name)
 	var continue_button := _button("CONTINUAR",_play.bind("continue"))
-	continue_button.disabled = preload("res://scripts/compartidos/lectura_guardado.gd").read_dictionary("user://campus_campaign_v1.json").is_empty()
+	continue_button.disabled = true
 	continue_button.grab_focus()
-	_button("NUEVA PARTIDA",_confirm_new)
+	var new_button := _button("NUEVA PARTIDA",_confirm_new)
 	_button("PROGRESO ACADÉMICO",_progress)
 	_button("AJUSTES",_settings)
 	_button("CERRAR SESIÓN",_logout)
 	if auth.role in ["teacher","admin"]: _button("VOLVER A MI PANEL",_open_menu.bind(""))
 	_debug_button()
 	_load_avatar()
+	if auth.dev_session:
+		continue_button.disabled = preload("res://scripts/compartidos/lectura_guardado.gd").read_dictionary("user://campus_campaign_v1.json").is_empty()
+		return
+	new_button.disabled = true
+	var current := page_generation
+	_status("Cargando tu partida de Supabase…")
+	var cloud := get_node("/root/CloudSave")
+	var success: bool = await cloud.load_game()
+	if current != page_generation: return
+	if not success:
+		_status(cloud.last_error)
+		_button("REINTENTAR CONEXIÓN",_student)
+		if cloud.conflicted: _button("CARGAR PARTIDA DE LA NUBE",_confirm_cloud_reload)
+		return
+	continue_button.disabled = cloud.payload.is_empty()
+	new_button.disabled = false
+	_status("Partida sincronizada con tu cuenta." if cloud.revision > 0 else "Tu cuenta está lista para crear una partida.")
+	if cloud.revision == 0 and FileAccess.file_exists("user://campus_campaign_v1.json"):
+		_button("IMPORTAR MI PARTIDA LOCAL ANTERIOR",_confirm_import)
+
+func _confirm_cloud_reload() -> void:
+	_clear("CARGAR PARTIDA","Se descartarán los cambios pendientes de esta sesión.")
+	_button("CARGAR DESDE SUPABASE",func():
+		var cloud := get_node("/root/CloudSave")
+		if await cloud.discard_and_reload(): _student()
+		else: _status(cloud.last_error))
+	_button("CANCELAR",_student)
+
+func _confirm_import() -> void:
+	_clear("IMPORTAR PARTIDA","La partida local era compartida en este computador. Impórtala únicamente si es tuya. Se copiará a tu cuenta actual y se conservará el archivo original.")
+	_button("IMPORTAR A MI CUENTA",_import_local)
+	_button("CANCELAR",_student)
+
+func _import_local() -> void:
+	var cloud := get_node("/root/CloudSave")
+	if auth.dev_session or not cloud.loaded or cloud.revision != 0: return
+	var raw := preload("res://scripts/compartidos/lectura_guardado.gd").read_dictionary("user://campus_campaign_v1.json")
+	if raw.is_empty() or not preload("res://scripts/live/save_migration.gd").supported(raw):
+		_status("La partida local no es válida o pertenece a otra versión.")
+		return
+	_status("Importando partida…")
+	if not cloud.enqueue(preload("res://scripts/live/save_migration.gd").migrate(raw)): return
+	if await cloud.flush(): _student()
+	else: _status(cloud.last_error)
 
 func _confirm_new() -> void:
 	_clear("NUEVA PARTIDA","El menú de campaña pedirá confirmación y permitirá personalizar al estudiante. Se conserva el mecanismo de copia del guardado anterior.")
@@ -326,6 +398,11 @@ func _play(entry: String) -> void:
 	if not auth.can_enter_menu() or auth.role not in ["student","teacher","admin"]:
 		_route()
 		return
+	if not auth.dev_session:
+		var cloud := get_node("/root/CloudSave")
+		if not await cloud.load_game() or cloud.conflicted:
+			_status(cloud.last_error)
+			return
 	get_tree().set_meta("education_entry",entry)
 	get_tree().set_meta("education_enabled",true)
 	get_tree().change_scene_to_file("res://Main.tscn")
@@ -357,7 +434,14 @@ func _load_avatar() -> void:
 	column.add_child(avatar)
 
 func _progress() -> void:
-	var raw: Dictionary = preload("res://scripts/compartidos/lectura_guardado.gd").read_dictionary("user://campus_campaign_v1.json")
+	var raw: Dictionary = {}
+	if auth.dev_session: raw = preload("res://scripts/compartidos/lectura_guardado.gd").read_dictionary("user://campus_campaign_v1.json")
+	if not auth.dev_session:
+		var cloud := get_node("/root/CloudSave")
+		if not await cloud.load_game():
+			_status(cloud.last_error)
+			return
+		raw = cloud.payload.duplicate(true)
 	var data: Dictionary = preload("res://scripts/education/academic_progress.gd").migrate(raw)
 	_clear("PROGRESO DE APRENDIZAJE EN EL JUEGO","Estos resultados no son una nota oficial.")
 	_label("Respondidas: %d · Correctas: %d · Incorrectas: %d\nAsignaturas: %s\nPiso 3: %s" % [data.academic_progress.answered,data.academic_progress.correct,data.academic_progress.incorrect,str(data.academic_progress.subjects.keys()),"Desbloqueado" if data.academic_floor_unlocks.get("3",false) else "Pendiente"])
@@ -375,7 +459,9 @@ func _teacher() -> void:
 	_button("CREAR PREGUNTA",_form.bind({}))
 	_button("EDITAR PREGUNTAS",_questions)
 	_button("VISTA PREVIA",_questions)
-	_button("ESTADÍSTICAS",_placeholder.bind("Estadísticas", "Las estadísticas docentes se incorporarán en una etapa posterior."))
+	_button("ACTIVIDADES EDUCATIVAS 4.0",_learning_bank)
+	_button("ESTADÍSTICAS",_learning_statistics)
+	_button("HISTORIAL DE ACTIVIDADES",func(): learning_panel.shell=self; learning_panel.history())
 	_button("JUGAR",_open_menu.bind("StudentMainMenu"))
 	_button("CERRAR SESIÓN",_logout)
 	if auth.role == "admin": _button("ADMINISTRACIÓN",_open_menu.bind(""))
@@ -385,9 +471,12 @@ func _admin() -> void:
 	_clear("ADMINISTRACIÓN DUOCGAMES","Administrador: " + auth.display_name)
 	_button("USUARIOS",_users_page.bind("")).grab_focus()
 	_button("PROFESORES",_users_page.bind("teacher"))
+	_button("ESTUDIANTES",_users_page.bind("student"))
+	_button("AUDITORÍA ADMINISTRATIVA",_administrative_audit)
 	_button("ASIGNATURAS",_subjects_page)
 	_button("PREGUNTAS",_questions)
-	_button("ESTADÍSTICAS",_placeholder.bind("Estadísticas","Disponible en una próxima etapa."))
+	_button("ACTIVIDADES PUBLICADAS",_learning_bank)
+	_button("ESTADÍSTICAS",_learning_statistics)
 	_button("PANEL DOCENTE",_open_menu.bind("TeacherDashboard"))
 	_button("JUGAR",_open_menu.bind("StudentMainMenu"))
 	_button("CERRAR SESIÓN",_logout)
@@ -395,6 +484,17 @@ func _admin() -> void:
 
 func _home() -> void:
 	_route()
+
+func _administrative_audit() -> void:
+	if auth.role!="admin": return
+	_clear("AUDITORÍA ADMINISTRATIVA","Últimos 100 cambios. Los actores se identifican por UUID.")
+	var generation := page_generation
+	var response: Dictionary = await auth.client.request_json("/rest/v1/admin_audit_log?select=created_at,admin_id,target_user_id,action,old_role,new_role&order=created_at.desc&limit=100",HTTPClient.METHOD_GET,{},auth.access_token)
+	if generation!=page_generation: return
+	if response.get("ok",false) and response.data is Array:
+		for row in response.data: _label("%s · %s\nActor %s\nCuenta %s\n%s → %s" % [row.created_at,row.action,row.admin_id,row.target_user_id,row.old_role,row.new_role],14)
+	else: _status("No se pudo consultar auditoría. Comprueba tu sesión y permisos.")
+	_button("VOLVER",_home)
 
 func _users_page(initial_role: String = "") -> void:
 	if auth.role != "admin": return
@@ -522,6 +622,7 @@ func _debug() -> void:
 
 func _subjects_page() -> void:
 	_clear("ASIGNATURAS","Cargando…")
+	if auth.role=="admin": _button("CREAR ASIGNATURA",_subject_form.bind({}))
 	var current := page_generation
 	var rows: Array
 	if auth.role == "admin":
@@ -535,8 +636,33 @@ func _subjects_page() -> void:
 	else: rows = await service.get_subjects()
 	if current != page_generation: return
 	_status("%d asignaturas%s" % [rows.size()," asignadas" if auth.role=="teacher" else " en el catálogo"])
-	for row in rows: _label("%s · Piso %s · %s" % [row.name,row.floor,row.code])
+	for row in rows:
+		_label("%s · Piso %s · %s" % [row.name,row.floor,row.code])
+		if auth.role=="admin": _button("EDITAR ASIGNATURA",_subject_form.bind(row))
 	_button("VOLVER",_home)
+
+func _subject_form(row: Dictionary) -> void:
+	if auth.role!="admin": return
+	_clear("ASIGNATURA","El piso debe corresponder a la temática del campus. Las asignaturas con contenido no se pueden trasladar.")
+	form_fields = {}
+	for entry in [["code","Código estable"],["name","Nombre"],["area","Área académica"]]: _input_field(entry[0],entry[1],str(row.get(entry[0],"")))
+	if not row.is_empty(): form_fields.code.editable=false
+	var floor_choice := OptionButton.new()
+	for number in [-1,1,2,3,4,5,6,7,8]:
+		floor_choice.add_item("Piso "+str(number),number+1)
+		if number==int(row.get("floor",3)): floor_choice.select(floor_choice.item_count-1)
+	column.add_child(floor_choice)
+	var enabled := CheckBox.new(); enabled.text="Activa"; enabled.button_pressed=row.get("active",true); column.add_child(enabled)
+	var generation := page_generation
+	_button("GUARDAR",func():
+		var data := {"floor":[-1,1,2,3,4,5,6,7,8][floor_choice.selected],"active":enabled.button_pressed}
+		for key in ["code","name","area"]: data[key]=form_fields[key].text.strip_edges()
+		var rpc := preload("res://scripts/education/learning_activity_service.gd").new(); rpc.auth=auth
+		var response: Dictionary = await rpc.rpc("admin_save_subject",{"p_id":row.get("id",null),"p_data":data})
+		if generation!=page_generation: return
+		if response.has("error"): _status(response.error+" Requiere migración 009.")
+		else: _subjects_page())
+	_button("CANCELAR",_subjects_page)
 
 func _questions() -> void:
 	_clear("PREGUNTAS","Cargando preguntas autorizadas…")

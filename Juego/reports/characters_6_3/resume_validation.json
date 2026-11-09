@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-11-06T15:26:47.574Z",
+  "batch": 3,
+  "inventory_count": 57,
+  "remodelled": 16,
+  "checks": [
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Auxiliar/CharacterVisual",
+      "id": "Auxiliar",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Estudiante/CharacterVisual",
+      "id": "Estudiante",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Profesor/CharacterVisual",
+      "id": "Profesor",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_ingles/@Node3D@8971",
+      "id": "profesor_ingles",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_lenguaje/@Node3D@9096",
+      "id": "profesor_lenguaje",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_etica/@Node3D@9212",
+      "id": "profesor_etica",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_datos/@Node3D@9326",
+      "id": "profesor_datos",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_algoritmos/@Node3D@9451",
+      "id": "profesor_algoritmos",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_docente_enfermeria/@Node3D@9579",
+      "id": "docente_enfermeria",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_docente_odontologia/@Node3D@9684",
+      "id": "docente_odontologia",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_coordinador_profesores/@Node3D@9789",
+      "id": "coordinador_profesores",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_matematicas/@Node3D@9913",
+      "id": "profesor_matematicas",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_punto/@Node3D@10038",
+      "id": "punto",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_chef/@Node3D@10150",
+      "id": "chef",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_redes/@Node3D@10267",
+      "id": "profesor_redes",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    },
+    {
+      "path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_director/@Node3D@10381",
+      "id": "director",
+      "rig": true,
+      "skin": true,
+      "finite": true
+    }
+  ],
+  "dialogue": {
+    "mission_not_accepted": true,
+    "text": "[E] Hablar con Auxiliar",
+    "ui_busy": true
+  },
+  "performance_gate": {
+    "passed": false,
+    "reason": "30 NPC: frame time and video memory still exceed the previous representation; batches 4-7 remain disabled."
+  }
+}

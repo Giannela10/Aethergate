@@ -1,6 +1,6 @@
 extends RefCounted
 ## Props and work poses only. Activity/routine logic remains with the owner.
-const ACTIONS := ["TYPE","WRITE","READ","PHONE","EAT","REPAIR","INSPECT"]
+const ACTIONS := ["TYPE","WRITE","READ","PHONE","EAT","REPAIR","INSPECT","GREET","EXPLAIN","CELEBRATE"]
 const PROPS := ["NONE","PHONE","BOOK","COFFEE","TABLET","FOLDER","TOOL"]
 var action := ""
 var prop_kind := "NONE"
@@ -51,8 +51,14 @@ func apply(delta: float, compatible: bool = true) -> void:
 	elif action == "TYPE": pose = Vector2(0.85+0.025*sin(clock*9),0.9)
 	elif action == "REPAIR": pose = Vector2(0.9+0.08*sin(clock*3),0.7)
 	elif action == "EAT": pose = Vector2(0.9,1.8)
+	elif action == "GREET": pose = Vector2(2.2,0.4+0.12*sin(clock*4))
+	elif action == "EXPLAIN": pose = Vector2(0.55+0.08*sin(clock*2),1.15)
+	elif action == "CELEBRATE": pose = Vector2(2.5,0.6)
 	body.shoulder_l.rotation.x = lerpf(body.shoulder_l.rotation.x,pose.x,weight)
 	body.elbow_l.rotation.x = lerpf(body.elbow_l.rotation.x,pose.y,weight)
+	if action == "EXPLAIN" and not body.armed:
+		body.shoulder_r.rotation.x=lerpf(body.shoulder_r.rotation.x,0.45+0.08*sin(clock*2.1),weight)
+		body.elbow_r.rotation.x=lerpf(body.elbow_r.rotation.x,0.9+0.12*sin(clock*1.6),weight)
 	if action in ["TYPE","WRITE","REPAIR"] and not body.armed:
 		body.shoulder_r.rotation.x = lerpf(body.shoulder_r.rotation.x,pose.x,weight)
 		body.elbow_r.rotation.x = lerpf(body.elbow_r.rotation.x,pose.y+0.035*sin(clock*7),weight)

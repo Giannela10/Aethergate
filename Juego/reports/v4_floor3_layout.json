@@ -1,0 +1,292 @@
+[
+	{
+		"blockers": [
+			"/root/Main/Piso3/Estructura/Front_Left piso 3 sur5/StaticBody3D"
+		],
+		"clear": false,
+		"x": -70,
+		"z": -116
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/Estructura/Front_Left piso 3 sur5/StaticBody3D"
+		],
+		"clear": false,
+		"x": -70,
+		"z": -106
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/Estructura/Front_Left piso 3 sur5/StaticBody3D"
+		],
+		"clear": false,
+		"x": -70,
+		"z": -96
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/Estructura/Front_Left piso 3 sur6/StaticBody3D"
+		],
+		"clear": false,
+		"x": -58,
+		"z": -116
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/Estructura/Front_Left piso 3 sur6/StaticBody3D"
+		],
+		"clear": false,
+		"x": -58,
+		"z": -106
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/Estructura/Delantera_piso 3d/StaticBody3D",
+			"/root/Main/Piso3/Estructura/Front_Left piso 3 sur6/StaticBody3D"
+		],
+		"clear": false,
+		"x": -58,
+		"z": -96
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/Estructura/Front_Left piso 3 sur7/StaticBody3D"
+		],
+		"clear": false,
+		"x": -46,
+		"z": -116
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/Estructura/Front_Left piso 3 sur7/StaticBody3D"
+		],
+		"clear": false,
+		"x": -46,
+		"z": -106
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/Estructura/Delantera_piso 3d/StaticBody3D",
+			"/root/Main/Piso3/Estructura/Front_Left piso 3 sur7/StaticBody3D"
+		],
+		"clear": false,
+		"x": -46,
+		"z": -96
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso2/Biblioteca/SalasEstudio/SalaEstudio1/ParedFondo/@StaticBody3D@218289"
+		],
+		"clear": false,
+		"x": -34,
+		"z": -116
+	},
+	{
+		"blockers": [],
+		"clear": true,
+		"x": -34,
+		"z": -106
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/Estructura/Delantera_piso 3d/StaticBody3D"
+		],
+		"clear": false,
+		"x": -34,
+		"z": -96
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/Estructura/Delantera_piso 3d/StaticBody3D",
+			"/root/Main/Piso3/BarandasPasillos/VidrioPasillo000/Cuerpo",
+			"/root/Main/Piso3/AcabadosPasillos/Cristal-1_7/Cuerpo",
+			"/root/Main/Piso3/Estructura/Front_Left piso 3 sur4/StaticBody3D"
+		],
+		"clear": false,
+		"x": -22,
+		"z": -96
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/BarandasPasillos/VidrioPasillo001/Cuerpo",
+			"/root/Main/Piso3/BarandasPasillos/VidrioPasillo002/Cuerpo",
+			"/root/Main/Piso3/BarandasPasillos/VidrioPasillo003/Cuerpo"
+		],
+		"clear": false,
+		"x": -10,
+		"z": -96
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/BarandasPasillos/VidrioPasillo004/Cuerpo",
+			"/root/Main/Piso3/BarandasPasillos/VidrioPasillo005/Cuerpo",
+			"/root/Main/Piso3/BarandasPasillos/VidrioPasillo007/Cuerpo",
+			"/root/Main/Piso3/BarandasPasillos/VidrioPasillo006/Cuerpo"
+		],
+		"clear": false,
+		"x": 2,
+		"z": -96
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/BarandasPasillos/VidrioPasillo011/Cuerpo",
+			"/root/Main/Piso3/BarandasPasillos/VidrioPasillo010/Cuerpo",
+			"/root/Main/Piso3/BarandasPasillos/VidrioPasillo009/Cuerpo",
+			"/root/Main/Piso3/BarandasPasillos/VidrioPasillo008/Cuerpo"
+		],
+		"clear": false,
+		"x": 14,
+		"z": -96
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/MesaAlumno_0398/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/Silla_0389/Asiento/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/MesaAlumno_0382/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/MesaAlumno_0366/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/Silla_0357/Asiento/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/MesaAlumno_0350/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/Silla_0341/Asiento/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/MesaAlumno_0334/Cuerpo"
+		],
+		"clear": false,
+		"x": 26,
+		"z": -116
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/MesaAlumno_0574/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/Silla_0597/Asiento/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/MesaAlumno_0590/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/Silla_0581/Asiento/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/MesaAlumno_0526/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/MesaAlumno_0542/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/Silla_0549/Asiento/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/MesaAlumno_0558/Cuerpo"
+		],
+		"clear": false,
+		"x": 26,
+		"z": -106
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/LocalComidaReferencia/PapeleraLocal/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/MostradorYProductos/CubiertaMostrador/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/MostradorYProductos/FrenteMostradorMadera/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0709/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0709/Asiento/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0681/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0681/Asiento/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/TabiqueLateral/Cuerpo"
+		],
+		"clear": false,
+		"x": 38,
+		"z": -116
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/LocalComidaReferencia/MostradorYProductos/CubiertaMostrador/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/MostradorYProductos/FrenteMostradorMadera/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0517/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0517/Asiento/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0489/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0489/Asiento/Cuerpo",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/TabiqueLateral/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/MuroFondo/Cuerpo"
+		],
+		"clear": false,
+		"x": 38,
+		"z": -106
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/MuroFondo/Cuerpo",
+			"/root/Main/Piso3/Estructura/Delantera_piso 3c2/StaticBody3D",
+			"/root/Main/Piso3/SalaDetrasLocal/Sala303/TabiqueLateral/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/MuroFondo/Cuerpo"
+		],
+		"clear": false,
+		"x": 38,
+		"z": -96
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0645/Asiento/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0617/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0617/Asiento/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/MesaComedor_0609/Cubierta/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0645/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0695/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0723/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/AsientoTaburete_0133/Cuerpo"
+		],
+		"clear": false,
+		"x": 50,
+		"z": -116
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0531/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0503/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0453/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0453/Asiento/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0425/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0425/Asiento/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/MesaComedor_0417/Cubierta/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0531/Asiento/Cuerpo"
+		],
+		"clear": false,
+		"x": 50,
+		"z": -106
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/LocalComidaReferencia/BarraLateral/Cuerpo",
+			"/root/Main/Piso3/Estructura/Delantera_piso 3c2/StaticBody3D"
+		],
+		"clear": false,
+		"x": 50,
+		"z": -96
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0595/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0595/Asiento/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0567/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0567/Asiento/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/MesaComedor_0545/Cubierta/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/JardineraNegra_0321/Macetero/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/AsientoTaburete_0126/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/AsientoTaburete_0119/Cuerpo"
+		],
+		"clear": false,
+		"x": 62,
+		"z": -116
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0403/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0403/Asiento/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0375/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillaNegraNaranja_0375/Asiento/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/MesaComedor/Cubierta/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/MesaBajaMadera/Cuerpo"
+		],
+		"clear": false,
+		"x": 62,
+		"z": -106
+	},
+	{
+		"blockers": [
+			"/root/Main/Piso3/LocalComidaReferencia/BarraLateral/Cuerpo",
+			"/root/Main/Piso3/Estructura/Delantera_piso 3c2/StaticBody3D",
+			"/root/Main/Piso3/LocalComidaReferencia/SillonGris_0167/Brazo_0177/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillonGris_0167/Brazo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillonGris_0167/Respaldo/Cuerpo",
+			"/root/Main/Piso3/LocalComidaReferencia/SillonGris_0167/BaseSillon/Cuerpo"
+		],
+		"clear": false,
+		"x": 62,
+		"z": -96
+	}
+]

@@ -1,4 +1,6 @@
-﻿# PILOTO HUMANO REAL 1.0 — resultado
+> Estado al 26-10-2026: documento histórico. El GLB descrito ya no está en el árbol de trabajo. Se retiraron las tres escenas HumanPilot y sus scripts/UID, que dependían de ese archivo ausente y no se usaban en la campaña. Se conservan las capturas y mediciones como evidencia; las instrucciones de ejecución de este documento corresponden al prototipo anterior.
+
+# PILOTO HUMANO REAL 1.0 — resultado
 
 **Asset encontrado e inspeccionado; NO compatible como humano animado en su estado actual.** Se creó únicamente HumanPilot aislado. No se reemplazaron protagonista, NPC ni bosses; no se modificaron balance, armas, economía, misiones ni el GLB original.
 

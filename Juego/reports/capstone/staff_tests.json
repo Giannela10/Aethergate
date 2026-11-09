@@ -1,0 +1,8 @@
+{
+	"checks": 17,
+	"environment": "Actual Godot panels and services against isolated in-memory auth/RPC policy model; not production or remote RLS proof",
+	"failures": [],
+	"hard_delete_feature": "Not offered by current panel; activation/deactivation used",
+	"real_questions_deleted": 0,
+	"real_users_modified": 0
+}

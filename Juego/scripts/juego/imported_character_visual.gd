@@ -19,9 +19,6 @@ var blend_position := -1.0
 var last_blink := false
 var face_channels: Dictionary = {}
 var visual_quality := "CHARACTER_HIGH"
-# Disabled until a compatible, individually tested skeleton is supplied.
-var ragdoll_enabled := false
-var foot_ik_enabled := false
 
 func _init(owner_visual: Node3D) -> void:
 	host = owner_visual

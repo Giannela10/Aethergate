@@ -1,0 +1,46 @@
+[
+  {
+    "suite": "gameplay_regression",
+    "exit_code": 0,
+    "status": "FAIL",
+    "elapsed_ms": 12453,
+    "engine_errors": 1,
+    "timeout": false,
+    "summary": [
+      "GAMEPLAY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}"
+    ]
+  },
+  {
+    "suite": "inventory_regression",
+    "exit_code": 0,
+    "status": "FAIL",
+    "elapsed_ms": 7748,
+    "engine_errors": 1,
+    "timeout": false,
+    "summary": [
+      "INVENTORY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}"
+    ]
+  },
+  {
+    "suite": "organizacion_pisos",
+    "exit_code": 0,
+    "status": "FAIL",
+    "elapsed_ms": 11424,
+    "engine_errors": 1,
+    "timeout": false,
+    "summary": [
+      "FLOOR_ORGANIZATION_RESULT {\"failures\":[],\"pisos\":[\"Piso −1\",\"Piso 1\",\"Piso 2\",\"Piso 3\",\"Piso 4\",\"Piso 5\",\"Piso 6\",\"Piso 7\",\"Piso 8\"],\"rutas\":596}"
+    ]
+  },
+  {
+    "suite": "placement_visual_check",
+    "exit_code": 0,
+    "status": "FAIL",
+    "elapsed_ms": 12781,
+    "engine_errors": 1,
+    "timeout": false,
+    "summary": [
+      "PLACEMENT_VISUAL_RESULT {\"checked\":92,\"failures\":[]}"
+    ]
+  }
+]

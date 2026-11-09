@@ -37,7 +37,7 @@ func _ready() -> void:
 	add_child(root)
 	root.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	objective = Label.new()
-	objective.position = Vector2(20,310)
+	objective.position = Vector2(20,150)
 	objective.add_theme_font_size_override("font_size",15)
 	objective.add_theme_color_override("font_outline_color",Color.BLACK)
 	objective.add_theme_constant_override("outline_size",4)
@@ -51,6 +51,7 @@ func _ready() -> void:
 	context.offset_top = -183
 	context.offset_bottom = -150
 	toast = Label.new()
+	toast.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART
 	toast.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	toast.add_theme_color_override("font_color",Color("a8edca"))
 	root.add_child(toast)
@@ -139,6 +140,8 @@ func dialog(title: String, text: String, choices: Array, callbacks: Array, pause
 		button.pressed.connect(callbacks[i])
 		column.add_child(button)
 	panel.show()
+	var platform := campaign.get_node_or_null("DuocGames4")
+	if platform != null: platform.accessibility.apply_text.call_deferred(column)
 	call_deferred("_fit")
 
 func _fit() -> void:
@@ -225,7 +228,7 @@ func _process(delta: float) -> void:
 	boss_box.visible = is_instance_valid(duel) and duel.state == duel.DuelState.COMBAT
 	if boss_box.visible:
 		var hp: float = duel.actor.get("health")
-		boss_title.text = duel.boss_name
+		boss_title.text = ("SIMULACIÓN · " if duel.is_educational_simulation() else "")+duel.boss_name
 		boss_bar.max_value = duel.max_health
 		boss_bar.value = hp
 		var phase_value = duel.actor.get("phase")

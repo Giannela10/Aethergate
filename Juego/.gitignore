@@ -5,4 +5,5 @@ tests/*.log
 tests/*.bak
 tests/organizacion_resultado.json
 tests/rutas_ordenadas.json
+tests/tmp_queue_v4_*/
 tests/scripts_ordenados.json

@@ -1,0 +1,7342 @@
+[
+	{
+		"floor_y": 0.0,
+		"id": "CuerpoBoss",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso1/SalaAyudaEstudiantil/BossAyudaEstudiantil/CuerpoBoss/VisualBoss",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 0.119999997317791,
+		"id": "ChefSupremoCasino",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso1/Casino/ChefSupremoCasino/VisualChef",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 12.058385848999,
+		"id": "npc_papeleria",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso2/SalaImpresiones/EncargadoPapeleria/CharacterVisual",
+		"remodel": {},
+		"role": "VENDEDOR",
+		"visible": true
+	},
+	{
+		"floor_y": 12.1083860397339,
+		"id": "BossBibliotecaria",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso2/Biblioteca/BossBibliotecaria/@Node3D@326",
+		"remodel": {},
+		"role": "",
+		"visible": true
+	},
+	{
+		"floor_y": 24.0076694488525,
+		"id": "ProfesorRedes",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso3/EncuentroProfesorRedes/ProfesorRedes/@Node3D@436",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 24.0076694488525,
+		"id": "profesor_datos",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso3/profesor_datos/CharacterVisual",
+		"remodel": {},
+		"role": "DATOS",
+		"visible": false
+	},
+	{
+		"floor_y": 24.0076694488525,
+		"id": "profesor_algoritmos",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso3/profesor_algoritmos/CharacterVisual",
+		"remodel": {},
+		"role": "ALGORITMOS",
+		"visible": false
+	},
+	{
+		"floor_y": 35.7144165039063,
+		"id": "docente_enfermeria",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso4/docente_enfermeria/CharacterVisual",
+		"remodel": {},
+		"role": "ENFERMERIA",
+		"visible": false
+	},
+	{
+		"floor_y": 35.7144165039063,
+		"id": "docente_odontologia",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso4/docente_odontologia/CharacterVisual",
+		"remodel": {},
+		"role": "ODONTOLOGIA",
+		"visible": false
+	},
+	{
+		"floor_y": 35.7144165039063,
+		"id": "coordinador_profesores",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso4/coordinador_profesores/CharacterVisual",
+		"remodel": {},
+		"role": "COORDINADOR",
+		"visible": false
+	},
+	{
+		"floor_y": 60.2249526977539,
+		"id": "profesor_ingles",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso6/profesor_ingles/CharacterVisual",
+		"remodel": {},
+		"role": "INGLES",
+		"visible": false
+	},
+	{
+		"floor_y": 60.2249526977539,
+		"id": "profesor_etica",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso6/profesor_etica/CharacterVisual",
+		"remodel": {},
+		"role": "ETICA",
+		"visible": false
+	},
+	{
+		"floor_y": 72.0086288452148,
+		"id": "profesor_lenguaje",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso7/profesor_lenguaje/CharacterVisual",
+		"remodel": {},
+		"role": "LENGUAJE",
+		"visible": false
+	},
+	{
+		"floor_y": 71.9821853637695,
+		"id": "profesor_matematicas",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso7/profesor_matematicas/CharacterVisual",
+		"remodel": {},
+		"role": "MATEMATICAS",
+		"visible": false
+	},
+	{
+		"floor_y": 84.0599975585938,
+		"id": "director",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso8/EncuentroDirectorInformatica/DirectorInformaticaBoss/VisualDirectorFicticio",
+		"remodel": {},
+		"role": "DIRECTOR",
+		"visible": false
+	},
+	{
+		"floor_y": 0.500225722789764,
+		"id": "Player",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/GameplayManager/Player/CharacterVisual",
+		"remodel": {},
+		"role": "",
+		"visible": true
+	},
+	{
+		"floor_y": 0.100000001490116,
+		"id": "GuardiaRegistro",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Exterior/Caseta/PuestoRegistro/GuardiaRegistro/@Node3D@3978",
+		"remodel": {},
+		"role": "",
+		"visible": true
+	},
+	{
+		"floor_y": 0.100000001490116,
+		"id": "Guardia1",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Exterior/EntradaReferenciaDuoc/GuardiasTorniquetes/Guardia1/@Node3D@4176",
+		"remodel": {},
+		"role": "",
+		"visible": true
+	},
+	{
+		"floor_y": 0.100835986435413,
+		"id": "Guardia2",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Exterior/EntradaReferenciaDuoc/GuardiasTorniquetes/Guardia2/@Node3D@4255",
+		"remodel": {},
+		"role": "",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 0.100000001490116,
+		"id": "Auxiliar",
+		"interaction": "[E] Hablar con Auxiliar",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Auxiliar/CharacterVisual",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101402, 0.077434, -0.003874)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101309, 0.077435, 0.005827)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.217596, 0.851732, 0.076905)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.139234, 1.379379, 0.357274)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002207, 1.516766, 0.074931)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.205134, 1.762297, 0.160038)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.208249, 0.854992, 0.04166)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.525749, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.207555, 0.874923, 0.11736)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.208249, 0.858614, 0.04166)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.529371, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.103151, 0.071129, 0.021182)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.099324, 0.071129, 0.034979)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.176569, 0.684805, 0.41988)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.215766, 0.489762, 0.155012)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002211, 1.092953, 0.272378)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.09641, 0.077566, -0.032695)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100413, 0.077566, 0.016765)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.201826, 0.844777, -0.009245)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.138341, 1.267526, 0.403603)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.015982, 1.521079, 0.081853)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.076885, 0.198367)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.300557, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.207337, 0.850435, -0.020734)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.183443, 0.953621, 0.322744)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001214, 1.486308, 0.10705)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.098441, 0.386494)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.098441, 0.386494)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.19718, 0.787095, 0.369881)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200044, 0.706696, 0.345824)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.15335, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.19718, 1.151876, 0.365845)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200403, 1.066477, 0.338783)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.526432, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197181, 1.172864, 0.374745)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.199664, 1.098296, 0.354234)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.528414, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101628, 0.077271, 0.001908)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.086683, 0.078404, -0.194823)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.204933, 0.860424, -0.134313)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.192003, 0.907475, 0.255001)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002435, 1.505975, 0.0534)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.192626, 1.249453, 0.363591)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.192567, 1.250114, 0.363247)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.525931, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "",
+			"id": "Auxiliar",
+			"rig_bones": 53,
+			"role": "FUNCIONARIO",
+			"traits": {
+				"age_old": 0.153021693229675,
+				"face_cheekbones_incr": 0.272512286901474,
+				"face_chin_incr": 0.27593120932579,
+				"face_ear_size_incr": 0.359039962291718,
+				"face_eye_size_decr": 0.178928166627884,
+				"face_eye_spacing_incr": 0.335381984710693,
+				"face_eye_tilt_decr": 0.356240421533585,
+				"face_forehead_incr": 0.290963292121887,
+				"face_jaw_width_decr": 0.322350949048996,
+				"face_lips_incr": 0.23006609082222,
+				"face_mouth_width_incr": 0.324140787124634,
+				"face_nose_height_decr": 0.279633522033691,
+				"face_nose_length_decr": 0.258690059185028,
+				"face_nose_width_decr": 0.106292501091957,
+				"gender_male": 0.303614735603333,
+				"muscle_max": 0.03824682533741,
+				"weight_max": 0.00322874682024121,
+				"weight_min": 0.0402240082621574
+			},
+			"wardrobe": "clothing_shirt"
+		},
+		"role": "FUNCIONARIO",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 12.1583862304688,
+		"id": "Estudiante",
+		"interaction": "[E] Hablar con Estudiante",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Estudiante/CharacterVisual",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101402, 0.077434, -0.003874)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101309, 0.077434, 0.005827)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.212343, 0.850445, 0.077429)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.139152, 1.37842, 0.357257)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.00208, 1.515865, 0.074937)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077567, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077567, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200709, 1.762997, 0.160153)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.203436, 0.855063, 0.041686)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.526178, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077567, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.077566, -0.0082)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.203444, 0.857029, 0.041647)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.20342, 0.857199, 0.043264)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.528147, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.103151, 0.07113, 0.021182)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.099324, 0.07113, 0.034979)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178462, 0.682856, 0.45745)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.210261, 0.489421, 0.154975)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002968, 1.092779, 0.272339)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096933, 0.077567, -0.03111)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100675, 0.077566, 0.015116)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.199173, 0.844578, -0.003958)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.110054, 1.279404, 0.42215)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.012835, 1.520441, 0.079451)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.076885, 0.198368)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.300557, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20317, 0.850259, -0.020824)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.18211, 0.953375, 0.322727)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000933, 1.486314, 0.107028)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.098442, 0.386494)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.098442, 0.386494)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 0.77454, 0.364388)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.196705, 0.687109, 0.336137)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.152372, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077567, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077567, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 1.140591, 0.360506)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.197061, 1.048007, 0.329231)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.525818, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077567, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077567, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 1.160265, 0.369788)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.196275, 1.079576, 0.345578)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.527136, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101628, 0.077271, 0.001908)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.086683, 0.078405, -0.194823)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.201241, 0.860279, -0.134399)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.1894, 0.907334, 0.255025)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002357, 1.506018, 0.053394)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077567, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077567, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.189778, 1.249133, 0.363707)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.189203, 1.256431, 0.359755)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.525754, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_short02",
+			"id": "Estudiante",
+			"rig_bones": 53,
+			"role": "ESTUDIANTE",
+			"traits": {
+				"face_cheekbones_decr": 0.157801032066345,
+				"face_chin_decr": 0.356004297733307,
+				"face_ear_size_decr": 0.126438960433006,
+				"face_eye_size_decr": 0.145488709211349,
+				"face_eye_spacing_incr": 0.118681326508522,
+				"face_eye_tilt_decr": 0.180770874023438,
+				"face_forehead_decr": 0.139421924948692,
+				"face_jaw_width_decr": 0.157840713858604,
+				"face_lips_decr": 0.244195073843002,
+				"face_mouth_width_decr": 0.145244359970093,
+				"face_nose_height_incr": 0.178720161318779,
+				"face_nose_length_incr": 0.312214851379395,
+				"face_nose_width_decr": 0.104885175824165,
+				"gender_male": 0.69189989566803,
+				"muscle_max": 0.042780015617609,
+				"weight_max": 0.0149513557553291,
+				"weight_min": 0.0519033148884773
+			},
+			"wardrobe": "clothing_shirt"
+		},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 24.0676689147949,
+		"id": "Profesor",
+		"interaction": "[E] Hablar con Profesor",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Profesor/CharacterVisual",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100477, 0.077554, -0.015194)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.10153, 0.077554, 0.004272)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.210518, 0.854208, 0.035571)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.082196, 1.37978, 0.402229)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001998, 1.525434, 0.062599)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200709, 1.762567, 0.160153)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.203436, 0.854634, 0.041686)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.525748, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.202828, 0.874588, 0.117438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.203436, 0.858255, 0.041686)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.52937, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.103151, 0.071129, 0.021182)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.099324, 0.071129, 0.034979)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.176426, 0.684422, 0.419819)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.210261, 0.489619, 0.154975)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002968, 1.092977, 0.272339)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096933, 0.077566, -0.03111)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100675, 0.077565, 0.015116)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.199173, 0.845802, -0.003958)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.110054, 1.280627, 0.42215)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.012835, 1.521665, 0.079451)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.076886, 0.198368)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.300558, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20317, 0.85026, -0.020824)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.18211, 0.953376, 0.322727)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000933, 1.486314, 0.107028)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.098442, 0.386494)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.098442, 0.386494)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 0.786944, 0.370008)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.196259, 0.706523, 0.345959)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.153351, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 1.151721, 0.365968)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.196573, 1.066297, 0.338917)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.526431, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 1.172715, 0.374876)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.195926, 1.098127, 0.35437)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.528414, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101628, 0.07727, 0.001908)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.086683, 0.078404, -0.194823)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.201241, 0.860237, -0.134399)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.1894, 0.907292, 0.255025)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002357, 1.505976, 0.053394)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.189778, 1.249309, 0.363707)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.189726, 1.249969, 0.363363)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.525931, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_bob02",
+			"id": "Profesor",
+			"rig_bones": 53,
+			"role": "PROFESOR",
+			"traits": {
+				"age_old": 0.170729398727417,
+				"face_cheekbones_decr": 0.307768583297729,
+				"face_chin_decr": 0.250292658805847,
+				"face_ear_size_incr": 0.271863847970963,
+				"face_eye_size_incr": 0.362863332033157,
+				"face_eye_spacing_incr": 0.239380240440369,
+				"face_eye_tilt_incr": 0.321336716413498,
+				"face_forehead_decr": 0.145967796444893,
+				"face_jaw_width_decr": 0.23136579990387,
+				"face_lips_decr": 0.199105247855186,
+				"face_mouth_width_incr": 0.175336390733719,
+				"face_nose_height_decr": 0.352325737476349,
+				"face_nose_length_decr": 0.241796761751175,
+				"face_nose_width_decr": 0.268539279699326,
+				"gender_male": 0.207863315939903,
+				"muscle_max": 0.0415915735065937,
+				"weight_max": 0.0148876337334514,
+				"weight_min": 0.0453146062791348
+			},
+			"wardrobe": "clothing_hoodie"
+		},
+		"role": "PROFESOR",
+		"visible": true
+	},
+	{
+		"floor_y": 48.0748481750488,
+		"id": "Funcionario",
+		"interaction": "[E] Hablar con Funcionario",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Funcionario/CharacterVisual",
+		"remodel": {},
+		"role": "FUNCIONARIO",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 0.100000001490116,
+		"id": "MonitorDeportes",
+		"interaction": "[E] Hablar con MonitorDeportes",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/MonitorDeportes/CharacterVisual",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101402, 0.077434, -0.003874)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101309, 0.077435, 0.005827)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.217596, 0.851732, 0.076905)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.139234, 1.379379, 0.357274)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002207, 1.516766, 0.074931)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.205134, 1.762297, 0.160038)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.208249, 0.854992, 0.04166)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.525749, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.208249, 0.858614, 0.04166)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.208249, 0.858614, 0.04166)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.529371, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.103151, 0.071129, 0.021182)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.099324, 0.071129, 0.034979)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178808, 0.683415, 0.457535)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.215766, 0.489762, 0.155012)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002211, 1.092953, 0.272378)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.09641, 0.077566, -0.032695)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100413, 0.077566, 0.016765)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.201826, 0.844777, -0.009245)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.138341, 1.267526, 0.403603)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.015982, 1.521079, 0.081853)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.076885, 0.198367)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.300557, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.207337, 0.850435, -0.020734)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.183443, 0.953621, 0.322744)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001214, 1.486308, 0.10705)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.098441, 0.386494)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.098441, 0.386494)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.19718, 0.787095, 0.369881)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200044, 0.706696, 0.345824)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.15335, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.19718, 1.151876, 0.365845)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200403, 1.066477, 0.338783)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.526432, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197181, 1.172864, 0.374745)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.199664, 1.098296, 0.354234)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.528414, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101628, 0.077271, 0.001908)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.086683, 0.078404, -0.194823)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.204933, 0.860424, -0.134313)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.192003, 0.907475, 0.255001)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002435, 1.505975, 0.0534)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.192626, 1.249453, 0.363591)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.192567, 1.250114, 0.363247)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.525931, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "",
+			"id": "MonitorDeportes",
+			"rig_bones": 53,
+			"role": "ESTUDIANTE",
+			"traits": {
+				"face_cheekbones_incr": 0.229107052087784,
+				"face_chin_incr": 0.236312240362167,
+				"face_ear_size_incr": 0.240880519151688,
+				"face_eye_size_decr": 0.368522942066193,
+				"face_eye_spacing_incr": 0.325855761766434,
+				"face_eye_tilt_decr": 0.239802658557892,
+				"face_forehead_decr": 0.210907518863678,
+				"face_jaw_width_incr": 0.146292865276337,
+				"face_lips_decr": 0.10768074542284,
+				"face_mouth_width_incr": 0.140192463994026,
+				"face_nose_height_decr": 0.118353232741356,
+				"face_nose_length_incr": 0.272553145885468,
+				"face_nose_width_decr": 0.227788954973221,
+				"gender_male": 0.303037345409393,
+				"muscle_max": 0.0629027634859085,
+				"weight_max": 0.0234857350587845,
+				"weight_min": 0.0510721988976002
+			},
+			"wardrobe": "clothing_shirt"
+		},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": 24.0676689147949,
+		"id": "Tecnico",
+		"interaction": "[E] Hablar con Tecnico",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Tecnico/CharacterVisual",
+		"remodel": {},
+		"role": "TECNICO",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 0.100000001490116,
+		"id": "EstudiantePerdido",
+		"interaction": "[E] Hablar con EstudiantePerdido",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EstudiantePerdido/CharacterVisual",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100477, 0.077555, -0.015194)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.10153, 0.077555, 0.004272)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.210518, 0.854209, 0.035571)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.082196, 1.379781, 0.402229)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001998, 1.525435, 0.062599)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200709, 1.762567, 0.160153)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.203436, 0.854634, 0.041686)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.525749, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.203436, 0.858256, 0.041686)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.203436, 0.858256, 0.041686)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.529371, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.103151, 0.071129, 0.021182)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.099324, 0.071129, 0.034979)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178462, 0.683054, 0.45745)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.210261, 0.48962, 0.154975)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002968, 1.092977, 0.272339)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096933, 0.077566, -0.03111)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100675, 0.077566, 0.015116)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.199173, 0.845803, -0.003958)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.110054, 1.280628, 0.42215)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.012835, 1.521666, 0.079451)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.076885, 0.198367)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.300557, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20317, 0.850258, -0.020824)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.18211, 0.953374, 0.322727)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000933, 1.486313, 0.107028)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.098441, 0.386494)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.098441, 0.386494)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 0.786944, 0.370008)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.196259, 0.706523, 0.345959)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.15335, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 1.151722, 0.365968)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.196573, 1.066298, 0.338917)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.526432, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 1.172716, 0.374876)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.195926, 1.098128, 0.35437)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.528414, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101628, 0.077271, 0.001908)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.086683, 0.078404, -0.194823)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.201241, 0.860238, -0.134399)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.1894, 0.907293, 0.255025)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002357, 1.505976, 0.053394)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077566, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077566, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.189778, 1.249309, 0.363707)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.189726, 1.24997, 0.363363)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.525931, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_afro01",
+			"id": "EstudiantePerdido",
+			"rig_bones": 53,
+			"role": "ESTUDIANTE",
+			"traits": {
+				"face_cheekbones_decr": 0.133260950446129,
+				"face_chin_decr": 0.2666896879673,
+				"face_ear_size_incr": 0.353677600622177,
+				"face_eye_size_incr": 0.37131541967392,
+				"face_eye_spacing_incr": 0.137055039405823,
+				"face_eye_tilt_decr": 0.282802432775497,
+				"face_forehead_decr": 0.255731493234634,
+				"face_jaw_width_incr": 0.209826678037643,
+				"face_lips_incr": 0.282347589731216,
+				"face_mouth_width_incr": 0.187781110405922,
+				"face_nose_height_incr": 0.269843757152557,
+				"face_nose_length_incr": 0.249192208051682,
+				"face_nose_width_decr": 0.101274289190769,
+				"gender_female": 0.45,
+				"gender_male": 0.0,
+				"muscle_max": 0.0481319278478622,
+				"weight_max": 0.0395115613937378,
+				"weight_min": 0.0786149278283119
+			},
+			"wardrobe": "clothing_hoodie"
+		},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": 0.164999961853027,
+		"id": "AyudanteCasino",
+		"interaction": "[E] Hablar con AyudanteCasino",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/AyudanteCasino/CharacterVisual",
+		"remodel": {},
+		"role": "VENDEDOR",
+		"visible": true
+	},
+	{
+		"floor_y": 0.000149736180901527,
+		"id": "EnemigoPiso1",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso1/@Node3D@6015",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 12.0585355758667,
+		"id": "EnemigoPiso2",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso2/@Node3D@6100",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 23.9678192138672,
+		"id": "EnemigoPiso3",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso3/@Node3D@6185",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 35.6745643615723,
+		"id": "EnemigoPiso4",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso4/@Node3D@6270",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 47.9749984741211,
+		"id": "EnemigoPiso5",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso5/@Node3D@6355",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 60.1851005554199,
+		"id": "EnemigoPiso6",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso6/@Node3D@6440",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 71.9687805175781,
+		"id": "EnemigoPiso7",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso7/@Node3D@6525",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 83.9401550292969,
+		"id": "EnemigoPiso8",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso8/@Node3D@6610",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": -12.0582361221313,
+		"id": "EnemigoPiso9",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso9/@Node3D@6695",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 24.0100002288818,
+		"id": "v4_rescued_student",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8144/@CharacterBody3D@8159/@Node3D@8161",
+		"remodel": {},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": -12.018385887146,
+		"id": "v4_civilian_-1",
+		"interaction": "[E] Conversar · estudiante",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8299/@Node3D@8301",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101556, 0.035524, 0.005875)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.10137, 0.035524, 0.008499)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20333, 0.801448, 0.1163)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.16991, 1.318748, 0.317214)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000894, 1.458665, 0.09016)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.720687, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.812378, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483707, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200191, 0.815999, 0.041702)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.815999, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.487328, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.035524, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.098292, 0.035524, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178352, 0.647197, 0.457379)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.206495, 0.453956, 0.154957)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.003508, 1.057388, 0.27231)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.09641, 0.035624, -0.032699)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100413, 0.035624, 0.016769)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.194305, 0.802539, -0.005404)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.123957, 1.223549, 0.414356)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.014628, 1.479033, 0.082195)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.035524, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259196, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200367, 0.808799, -0.020873)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.181322, 0.911846, 0.322702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000733, 1.444957, 0.107012)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035523, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035523, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.730779, 0.370084)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193709, 0.650344, 0.34604)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.097276, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.109588, 0.366042)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193992, 1.024149, 0.338997)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.48439, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.130586, 0.374955)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193408, 1.055986, 0.354452)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.486372, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101846, 0.035524, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101379, 0.035523, -0.019791)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198799, 0.817246, -0.134438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187729, 0.864293, 0.255024)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002302, 1.463097, 0.05339)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.207181, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187812, 1.207842, 0.363432)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483889, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "",
+			"id": "v4_civilian_-1",
+			"rig_bones": 53,
+			"role": "ESTUDIANTE",
+			"traits": {
+				"face_cheekbones_decr": 0.30417662858963,
+				"face_chin_decr": 0.14762981235981,
+				"face_ear_size_incr": 0.22454360127449,
+				"face_eye_size_decr": 0.196588441729546,
+				"face_eye_spacing_incr": 0.13803394138813,
+				"face_eye_tilt_incr": 0.373479872941971,
+				"face_forehead_decr": 0.134737208485603,
+				"face_jaw_width_decr": 0.131792083382607,
+				"face_lips_decr": 0.373765140771866,
+				"face_mouth_width_decr": 0.254403948783875,
+				"face_nose_height_decr": 0.100592374801636,
+				"face_nose_length_incr": 0.274742066860199,
+				"face_nose_width_decr": 0.14801561832428,
+				"gender_female": 0.45,
+				"gender_male": 0.0,
+				"muscle_max": 0.0205038916319609,
+				"weight_max": 0.0494116544723511,
+				"weight_min": 0.0102674923837185
+			},
+			"wardrobe": "clothing_hoodie"
+		},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 0.0399999991059303,
+		"id": "v4_civilian_1",
+		"interaction": "[E] Conversar · estudiante",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8394/@Node3D@8396",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100477, 0.035524, -0.015183)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.10153, 0.035524, 0.004272)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.206974, 0.811956, 0.036247)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.083768, 1.337722, 0.402446)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001866, 1.483403, 0.062612)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.720686, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.812378, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483707, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035624, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101473, 0.035624, -0.008194)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200198, 0.816099, 0.041663)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200176, 0.816269, 0.04328)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.48743, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.035524, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.098292, 0.035524, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178352, 0.647197, 0.457379)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.206495, 0.453956, 0.154957)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.003508, 1.057388, 0.27231)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096933, 0.035624, -0.031113)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100675, 0.035624, 0.015121)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.196056, 0.803675, -0.002467)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.104146, 1.238002, 0.426073)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.012338, 1.479621, 0.079568)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.035524, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259196, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200367, 0.808799, -0.020873)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.181322, 0.911846, 0.322702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000733, 1.444957, 0.107012)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035524, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035524, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.730778, 0.370084)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193709, 0.650344, 0.34604)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.097275, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.109588, 0.366042)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193992, 1.024149, 0.338997)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.48439, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.130586, 0.374955)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193408, 1.055986, 0.354452)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.486372, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101846, 0.035524, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101379, 0.035524, -0.019791)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198799, 0.817245, -0.134438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187729, 0.864293, 0.255024)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002302, 1.463097, 0.05339)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.207181, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187812, 1.207842, 0.363432)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.483889, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_bob02",
+			"id": "v4_civilian_1",
+			"rig_bones": 53,
+			"role": "ESTUDIANTE",
+			"traits": {
+				"face_cheekbones_incr": 0.379109501838684,
+				"face_chin_incr": 0.355132192373276,
+				"face_ear_size_decr": 0.174922525882721,
+				"face_eye_size_incr": 0.220092639327049,
+				"face_eye_spacing_decr": 0.120239719748497,
+				"face_eye_tilt_incr": 0.174867153167725,
+				"face_forehead_incr": 0.370999187231064,
+				"face_jaw_width_incr": 0.275714933872223,
+				"face_lips_incr": 0.197993576526642,
+				"face_mouth_width_incr": 0.259349197149277,
+				"face_nose_height_decr": 0.165444493293762,
+				"face_nose_length_decr": 0.106014490127563,
+				"face_nose_width_incr": 0.182471752166748,
+				"gender_female": 0.45,
+				"gender_male": 0.0,
+				"muscle_max": 0.0768081694841385,
+				"weight_max": 0.0551202595233917,
+				"weight_min": 0.0785112529993057
+			},
+			"wardrobe": "clothing_tshirt"
+		},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 12.0983858108521,
+		"id": "v4_civilian_2",
+		"interaction": "[E] Conversar · estudiante",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8482/@Node3D@8484",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100477, 0.035523, -0.015183)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.10153, 0.035523, 0.004272)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.206974, 0.811956, 0.036247)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.083768, 1.337722, 0.402447)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001866, 1.483403, 0.062612)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.720687, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.812378, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483707, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035624, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101473, 0.035624, -0.008194)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200198, 0.816099, 0.041663)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200176, 0.816269, 0.04328)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.48743, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.035523, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.098292, 0.035524, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178352, 0.647197, 0.457379)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.206495, 0.453956, 0.154957)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.003508, 1.057388, 0.27231)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096933, 0.035624, -0.031113)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100675, 0.035624, 0.015121)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.196056, 0.803675, -0.002467)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.104146, 1.238002, 0.426073)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.012338, 1.479621, 0.079568)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.035523, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259196, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200367, 0.808799, -0.020873)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.181322, 0.911846, 0.322702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000733, 1.444957, 0.107012)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.730779, 0.370084)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193709, 0.650344, 0.34604)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.097276, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.109588, 0.366042)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193992, 1.024149, 0.338997)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.48439, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.130586, 0.374955)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193408, 1.055986, 0.354452)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.486372, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101846, 0.035523, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101379, 0.035523, -0.019791)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198799, 0.817246, -0.134438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187729, 0.864293, 0.255024)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002302, 1.463097, 0.05339)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035624, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035624, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.207181, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187812, 1.207842, 0.363432)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483889, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_long01",
+			"id": "v4_civilian_2",
+			"rig_bones": 53,
+			"role": "ESTUDIANTE",
+			"traits": {
+				"face_cheekbones_incr": 0.279549092054367,
+				"face_chin_decr": 0.295974791049957,
+				"face_ear_size_incr": 0.332654625177383,
+				"face_eye_size_incr": 0.197987511754036,
+				"face_eye_spacing_incr": 0.351701974868774,
+				"face_eye_tilt_incr": 0.361259281635284,
+				"face_forehead_incr": 0.287346005439758,
+				"face_jaw_width_decr": 0.278662979602814,
+				"face_lips_decr": 0.121914818882942,
+				"face_mouth_width_decr": 0.268690496683121,
+				"face_nose_height_incr": 0.207379460334778,
+				"face_nose_length_incr": 0.299457907676697,
+				"face_nose_width_incr": 0.145950138568878,
+				"gender_female": 0.45,
+				"gender_male": 0.0,
+				"muscle_max": 0.0761528536677361,
+				"weight_max": 0.0367135442793369,
+				"weight_min": 0.0635434910655022
+			},
+			"wardrobe": "clothing_hoodie"
+		},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 24.0076694488525,
+		"id": "v4_civilian_3",
+		"interaction": "[E] Conversar · estudiante",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8579/@Node3D@8581",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100477, 0.035522, -0.015183)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.10153, 0.035522, 0.004272)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.215738, 0.812557, 0.034596)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.080178, 1.33778, 0.401953)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002182, 1.483404, 0.062581)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.205134, 1.720254, 0.160038)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.208249, 0.812948, 0.04166)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.483705, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101473, 0.035622, -0.008194)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.208258, 0.81667, 0.041619)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.208232, 0.816839, 0.043238)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.487429, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.035522, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.098292, 0.035523, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178808, 0.647808, 0.457535)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.215766, 0.454155, 0.155012)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002211, 1.057346, 0.272378)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096933, 0.035623, -0.031113)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100675, 0.035622, 0.015121)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20377, 0.803934, -0.006096)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.11791, 1.239398, 0.416759)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.01353, 1.479625, 0.079288)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.035522, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259195, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.207338, 0.809074, -0.020734)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.183443, 0.91226, 0.322744)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001214, 1.444946, 0.107051)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197181, 0.731019, 0.369881)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200044, 0.65062, 0.345824)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.097274, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.19718, 1.109832, 0.365845)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200403, 1.024433, 0.338783)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.484388, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.19718, 1.13082, 0.374745)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.199664, 1.056252, 0.354234)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.48637, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101846, 0.03552, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101379, 0.035522, -0.019791)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.204933, 0.817542, -0.134313)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.192003, 0.864593, 0.255001)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002435, 1.463093, 0.0534)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.192626, 1.207409, 0.363591)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.192567, 1.20807, 0.363247)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483887, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_ponytail01",
+			"id": "v4_civilian_3",
+			"rig_bones": 53,
+			"role": "ESTUDIANTE",
+			"traits": {
+				"face_cheekbones_incr": 0.263407379388809,
+				"face_chin_incr": 0.378545194864273,
+				"face_ear_size_decr": 0.355998873710632,
+				"face_eye_size_incr": 0.167567253112793,
+				"face_eye_spacing_incr": 0.30535489320755,
+				"face_eye_tilt_decr": 0.294989794492722,
+				"face_forehead_decr": 0.284317314624786,
+				"face_jaw_width_decr": 0.101056665182114,
+				"face_lips_incr": 0.134924307465553,
+				"face_mouth_width_incr": 0.145933538675308,
+				"face_nose_height_incr": 0.259225368499756,
+				"face_nose_length_incr": 0.357634752988815,
+				"face_nose_width_decr": 0.132388740777969,
+				"gender_male": 0.309130996465683,
+				"muscle_max": 0.00757587375119329,
+				"weight_max": 0.0461543202400208,
+				"weight_min": 0.0264663603156805
+			},
+			"wardrobe": "clothing_shirt"
+		},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 35.7144165039063,
+		"id": "v4_civilian_4",
+		"interaction": "[E] Conversar · estudiante",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8669/@Node3D@8671",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096286, 0.035622, -0.033051)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100348, 0.035622, 0.017135)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193873, 0.802883, -0.006072)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.128283, 1.220856, 0.411202)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.01518, 1.479507, 0.082781)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.720677, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.812369, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483698, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101473, 0.035622, -0.008194)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200198, 0.816677, 0.041663)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200176, 0.816847, 0.04328)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.488008, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.098135, 0.035526, 0.046615)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101176, 0.035522, 0.013672)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.190904, 0.645878, 0.332237)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200629, 0.587778, 0.209743)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000868, 1.198616, 0.22864)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.10118, 0.035622, -0.011246)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101671, 0.035622, -0.005173)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.201822, 0.81571, 0.036183)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.171171, 0.960412, 0.319867)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000773, 1.487268, 0.037831)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.098135, 0.035526, 0.046615)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.054121, 0.287916, -0.475305)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.199647, 0.808353, -0.015503)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.175357, 0.946063, 0.363765)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000241, 1.426808, 0.123908)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.733838, 0.371379)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193624, 0.654977, 0.348281)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.097567, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.113559, 0.367855)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193861, 1.030384, 0.342166)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.484695, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.129635, 0.374585)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193429, 1.054603, 0.353815)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.486263, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.098135, 0.035526, 0.046616)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.086407, 0.035621, -0.196557)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198735, 0.817029, -0.135184)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187539, 0.866843, 0.257454)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0024, 1.463333, 0.0509)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.207422, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.188093, 1.204059, 0.365489)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.48413, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_braid01",
+			"id": "v4_civilian_4",
+			"rig_bones": 53,
+			"role": "ESTUDIANTE",
+			"traits": {
+				"face_cheekbones_decr": 0.161758169531822,
+				"face_chin_incr": 0.366114437580109,
+				"face_ear_size_decr": 0.20007535815239,
+				"face_eye_size_decr": 0.363946735858917,
+				"face_eye_spacing_incr": 0.153200000524521,
+				"face_eye_tilt_decr": 0.177006363868713,
+				"face_forehead_incr": 0.158854588866234,
+				"face_jaw_width_incr": 0.329959809780121,
+				"face_lips_decr": 0.284452736377716,
+				"face_mouth_width_decr": 0.267833411693573,
+				"face_nose_height_decr": 0.117649033665657,
+				"face_nose_length_decr": 0.259582370519638,
+				"face_nose_width_decr": 0.239464163780212,
+				"gender_male": 0.267411231994629,
+				"muscle_max": 0.0127958208322525,
+				"weight_max": 0.00210758810862899,
+				"weight_min": 0.0584659576416016
+			},
+			"wardrobe": "clothing_jacket"
+		},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 48.0148506164551,
+		"id": "v4_civilian_5",
+		"interaction": "[E] Conversar · estudiante",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8757/@Node3D@8759",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100477, 0.035522, -0.015183)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.10153, 0.035522, 0.004272)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.206974, 0.811953, 0.036247)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.083768, 1.337719, 0.402447)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001866, 1.4834, 0.062612)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.720685, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.812376, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.483705, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101473, 0.035622, -0.008194)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200198, 0.816098, 0.041663)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200176, 0.816268, 0.04328)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.487429, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.035523, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.098292, 0.035523, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178352, 0.647196, 0.457379)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.206495, 0.453955, 0.154957)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.003508, 1.057387, 0.27231)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096933, 0.035623, -0.031113)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100675, 0.035622, 0.015121)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.196056, 0.803674, -0.002467)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.104146, 1.238001, 0.426073)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.012338, 1.47962, 0.079568)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.035523, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259194, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200367, 0.808797, -0.020872)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.181322, 0.911843, 0.322702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000733, 1.444954, 0.107012)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.730779, 0.370084)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193709, 0.650344, 0.34604)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.097276, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.109586, 0.366042)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193992, 1.024148, 0.338997)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.484388, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.130584, 0.374955)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193408, 1.055984, 0.354452)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.48637, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101846, 0.035526, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101379, 0.035523, -0.019791)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198799, 0.817246, -0.134438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187729, 0.864293, 0.255024)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002302, 1.463097, 0.05339)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.207179, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187811, 1.207841, 0.363432)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483887, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_bob01",
+			"id": "v4_civilian_5",
+			"rig_bones": 53,
+			"role": "ESTUDIANTE",
+			"traits": {
+				"face_cheekbones_decr": 0.118228137493134,
+				"face_chin_incr": 0.347712725400925,
+				"face_ear_size_incr": 0.241933614015579,
+				"face_eye_size_incr": 0.246054977178574,
+				"face_eye_spacing_incr": 0.320970475673676,
+				"face_eye_tilt_decr": 0.29223370552063,
+				"face_forehead_incr": 0.114850610494614,
+				"face_jaw_width_incr": 0.118288762867451,
+				"face_lips_decr": 0.140089675784111,
+				"face_mouth_width_decr": 0.18408876657486,
+				"face_nose_height_decr": 0.218543246388435,
+				"face_nose_length_incr": 0.332472860813141,
+				"face_nose_width_decr": 0.378998458385468,
+				"gender_male": 0.214841142296791,
+				"muscle_max": 0.000107833118818235,
+				"weight_max": 0.0439539849758148,
+				"weight_min": 0.0608109049499035
+			},
+			"wardrobe": "clothing_tshirt"
+		},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 24.1700000762939,
+		"id": "v4_lab_student",
+		"interaction": "[E] Conversar · estudiante",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8860/@Node3D@8862",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101556, 0.077184, 0.005871)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.10137, 0.077184, 0.008495)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20333, 0.843107, 0.116299)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.16991, 1.360407, 0.317214)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000894, 1.500324, 0.09016)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077568, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077567, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.76273, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.854421, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.52575, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077568, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077567, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200191, 0.858043, 0.041702)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.858043, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.529372, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.103151, 0.071129, 0.021182)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.099324, 0.071129, 0.034979)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178352, 0.682802, 0.457379)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.206495, 0.489561, 0.154957)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.003508, 1.092993, 0.27231)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.09641, 0.077567, -0.032695)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100413, 0.077567, 0.016765)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.194305, 0.844582, -0.005404)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.123957, 1.265593, 0.414356)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.014628, 1.521076, 0.082195)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.076886, 0.198368)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.300558, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200367, 0.850161, -0.020873)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.181322, 0.953207, 0.322702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000733, 1.486318, 0.107012)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.098442, 0.386494)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.098442, 0.386494)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.786854, 0.370084)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193709, 0.706419, 0.34604)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.153351, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077568, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077567, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.151631, 0.366042)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193992, 1.066193, 0.338997)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.526433, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077568, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077567, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.172629, 0.374955)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193408, 1.098029, 0.354452)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.528416, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101628, 0.07727, 0.001908)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.086683, 0.078404, -0.194823)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198799, 0.860125, -0.134438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187729, 0.907172, 0.255024)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002302, 1.505976, 0.05339)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077568, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077567, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.249225, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187812, 1.249886, 0.363432)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.525932, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_short02",
+			"id": "v4_lab_student",
+			"rig_bones": 53,
+			"role": "ESTUDIANTE",
+			"traits": {
+				"face_cheekbones_incr": 0.162037879228592,
+				"face_chin_decr": 0.326808929443359,
+				"face_ear_size_decr": 0.184472560882568,
+				"face_eye_size_incr": 0.220612049102783,
+				"face_eye_spacing_decr": 0.101354002952576,
+				"face_eye_tilt_incr": 0.240874469280243,
+				"face_forehead_incr": 0.136230230331421,
+				"face_jaw_width_incr": 0.177150145173073,
+				"face_lips_incr": 0.27705842256546,
+				"face_mouth_width_decr": 0.314106792211533,
+				"face_nose_height_decr": 0.24812051653862,
+				"face_nose_length_incr": 0.231991678476334,
+				"face_nose_width_incr": 0.324929594993591,
+				"gender_male": 0.253893315792084,
+				"muscle_max": 0.0706326067447662,
+				"weight_max": 0.0715120434761047,
+				"weight_min": 0.0480456352233887
+			},
+			"wardrobe": "clothing_shirt"
+		},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 60.2249526977539,
+		"id": "profesor_ingles",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_ingles/@Node3D@8971",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100479, 0.035526, -0.01519)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101528, 0.035526, 0.004272)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.206974, 0.809412, 0.036247)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.083768, 1.335179, 0.402446)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001866, 1.48086, 0.062612)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.722378, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.814069, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.485398, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008232)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008202)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200198, 0.813273, 0.041663)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200176, 0.813443, 0.04328)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.484604, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085476, 0.035526, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.09829, 0.035523, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178887, 0.578685, 0.396034)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.205795, 0.530726, 0.343823)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.003508, 1.056673, 0.27231)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096935, 0.035622, -0.03112)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100674, 0.035622, 0.015114)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.196056, 0.800806, -0.002467)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.104146, 1.235134, 0.426073)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.012338, 1.476752, 0.079568)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085476, 0.035526, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259197, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200367, 0.8088, -0.020872)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.181322, 0.911847, 0.322702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000733, 1.444957, 0.107012)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.705904, 0.358061)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.194673, 0.609642, 0.324765)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.095829, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.089216, 0.355391)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.194992, 0.98834, 0.319845)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483875, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.102934, 0.362853)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.194239, 1.0134, 0.333372)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483967, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101849, 0.035526, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101375, 0.035523, -0.019798)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198799, 0.81727, -0.134438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187729, 0.864317, 0.255024)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002302, 1.463121, 0.05339)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.207658, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187909, 1.206934, 0.36415)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.484366, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_long01",
+			"id": "profesor_ingles",
+			"rig_bones": 53,
+			"role": "INGLES",
+			"traits": {
+				"age_old": 0.175535053014755,
+				"face_cheekbones_incr": 0.209341466426849,
+				"face_chin_incr": 0.214058011770248,
+				"face_ear_size_incr": 0.218828231096268,
+				"face_eye_size_incr": 0.289379149675369,
+				"face_eye_spacing_decr": 0.23308652639389,
+				"face_eye_tilt_decr": 0.30018362402916,
+				"face_forehead_decr": 0.377692490816116,
+				"face_jaw_width_incr": 0.15544655919075,
+				"face_lips_decr": 0.361216276884079,
+				"face_mouth_width_decr": 0.344167768955231,
+				"face_nose_height_incr": 0.136382609605789,
+				"face_nose_length_decr": 0.365912467241287,
+				"face_nose_width_decr": 0.301275342702866,
+				"gender_male": 0.394890189170837,
+				"muscle_max": 0.0332541465759277,
+				"weight_max": 0.0508379451930523,
+				"weight_min": 0.0721861124038696
+			},
+			"wardrobe": "clothing_shirt"
+		},
+		"role": "INGLES",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 72.0086288452148,
+		"id": "profesor_lenguaje",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_lenguaje/@Node3D@9096",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101406, 0.035522, -0.003883)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101307, 0.035523, 0.005829)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.217596, 0.809187, 0.076905)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.139234, 1.336834, 0.357274)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002207, 1.474221, 0.07493)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035625, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035625, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.205134, 1.720522, 0.160038)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.208249, 0.813216, 0.04166)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483974, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035625, -0.008232)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035625, -0.008202)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.208258, 0.815682, 0.041619)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.208232, 0.815851, 0.043238)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.48644, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085476, 0.035515, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.09829, 0.035523, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.176569, 0.64907, 0.41988)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.215766, 0.454027, 0.155012)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002211, 1.057218, 0.272378)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096935, 0.035625, -0.03112)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100674, 0.035625, 0.015114)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20377, 0.803039, -0.006096)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.11791, 1.238504, 0.416759)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.01353, 1.47873, 0.079288)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085476, 0.035515, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259193, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.207338, 0.809072, -0.020734)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.183443, 0.912257, 0.322744)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001214, 1.444945, 0.107051)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197181, 0.721601, 0.365675)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200419, 0.635988, 0.338484)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.096496, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035625, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035625, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.19718, 1.101246, 0.361689)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200818, 1.010465, 0.331428)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.483876, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035625, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035625, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197181, 1.121562, 0.371015)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.19995, 1.042543, 0.347789)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.485395, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101849, 0.035515, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101375, 0.035522, -0.019798)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.204933, 0.817576, -0.134313)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.192003, 0.864626, 0.255001)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002435, 1.463127, 0.0534)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035625, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035625, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.192626, 1.207219, 0.363591)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.192026, 1.213877, 0.360002)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483697, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_ponytail01",
+			"id": "profesor_lenguaje",
+			"rig_bones": 53,
+			"role": "LENGUAJE",
+			"traits": {
+				"age_old": 0.0431045480072498,
+				"face_cheekbones_decr": 0.336850434541702,
+				"face_chin_decr": 0.188394844532013,
+				"face_ear_size_incr": 0.178535506129265,
+				"face_eye_size_decr": 0.182696372270584,
+				"face_eye_spacing_incr": 0.113727279007435,
+				"face_eye_tilt_incr": 0.143459483981133,
+				"face_forehead_incr": 0.257853388786316,
+				"face_jaw_width_decr": 0.288993418216705,
+				"face_lips_incr": 0.103563487529755,
+				"face_mouth_width_decr": 0.37533900141716,
+				"face_nose_height_decr": 0.160520195960999,
+				"face_nose_length_incr": 0.368906110525131,
+				"face_nose_width_decr": 0.138126641511917,
+				"gender_female": 0.45,
+				"gender_male": 0.0,
+				"muscle_max": 0.0454288423061371,
+				"weight_max": 0.0341787077486515,
+				"weight_min": 0.0134326824918389
+			},
+			"wardrobe": "clothing_hoodie"
+		},
+		"role": "LENGUAJE",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 60.2249526977539,
+		"id": "profesor_etica",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_etica/@Node3D@9212",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101402, 0.035526, -0.003883)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101311, 0.035527, 0.005829)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.217596, 0.809188, 0.076905)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.139234, 1.336834, 0.357274)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002207, 1.474222, 0.07493)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101467, 0.035622, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.205134, 1.720519, 0.160038)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.208249, 0.813213, 0.04166)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.48397, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101467, 0.035622, -0.008232)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008202)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.208258, 0.815678, 0.041619)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.208232, 0.815848, 0.043238)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.486437, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085472, 0.035526, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.098294, 0.035523, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.176569, 0.64907, 0.41988)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.215766, 0.454027, 0.155012)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002211, 1.057218, 0.272378)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096931, 0.035622, -0.03112)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100677, 0.035622, 0.015114)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20377, 0.803037, -0.006096)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.11791, 1.238501, 0.416759)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.01353, 1.478727, 0.079288)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085472, 0.035526, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259197, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.207338, 0.809075, -0.020734)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.183443, 0.912261, 0.322744)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001214, 1.444948, 0.107051)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101467, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197181, 0.721601, 0.365675)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200419, 0.635988, 0.338484)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.096496, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101467, 0.035622, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.19718, 1.101243, 0.361689)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200818, 1.010462, 0.331428)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483873, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101467, 0.035622, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197181, 1.121559, 0.371015)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.19995, 1.04254, 0.347789)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.485392, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101845, 0.035526, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101379, 0.035522, -0.019798)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.204933, 0.817579, -0.134313)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.192003, 0.86463, 0.255001)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002435, 1.463131, 0.0534)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101467, 0.035622, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.192626, 1.207216, 0.363591)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.192027, 1.213874, 0.360002)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483694, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_afro01",
+			"id": "profesor_etica",
+			"rig_bones": 53,
+			"role": "ETICA",
+			"traits": {
+				"age_old": 0.0918483883142471,
+				"face_cheekbones_decr": 0.138276815414429,
+				"face_chin_decr": 0.17912358045578,
+				"face_ear_size_incr": 0.227829903364182,
+				"face_eye_size_decr": 0.102946534752846,
+				"face_eye_spacing_incr": 0.325254857540131,
+				"face_eye_tilt_decr": 0.180313065648079,
+				"face_forehead_decr": 0.137477070093155,
+				"face_jaw_width_decr": 0.214512795209885,
+				"face_lips_incr": 0.152827441692352,
+				"face_mouth_width_incr": 0.202703207731247,
+				"face_nose_height_incr": 0.331401407718658,
+				"face_nose_length_incr": 0.143678218126297,
+				"face_nose_width_incr": 0.260851681232452,
+				"gender_female": 0.45,
+				"gender_male": 0.0,
+				"muscle_max": 0.00184579053893685,
+				"weight_max": 0.0296889189630747,
+				"weight_min": 0.0185957066714764
+			},
+			"wardrobe": "clothing_shirt"
+		},
+		"role": "ETICA",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 24.0076694488525,
+		"id": "profesor_datos",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_datos/@Node3D@9326",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100475, 0.035522, -0.015183)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101532, 0.035522, 0.004288)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.206974, 0.808433, 0.036247)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.083768, 1.334199, 0.402446)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001866, 1.479881, 0.062612)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.723357, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.815048, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.486377, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.199781, 0.824451, 0.10248)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.19989, 0.821065, 0.08951)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483951, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085472, 0.035522, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.09829, 0.035523, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178928, 0.573731, 0.389895)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.205857, 0.52399, 0.334073)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.003508, 1.05629, 0.27231)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096413, 0.035622, -0.0327)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100414, 0.035623, 0.016769)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.194305, 0.798842, -0.005404)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.123957, 1.219853, 0.414356)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.014628, 1.475336, 0.082195)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085472, 0.035522, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259195, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200367, 0.808798, -0.020873)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.181322, 0.911845, 0.322702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000733, 1.444956, 0.107012)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.701213, 0.355302)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.195005, 0.600156, 0.31968)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.096026, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.087, 0.353809)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.195299, 0.981923, 0.316817)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.484392, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.095502, 0.359011)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.194578, 1.000669, 0.326491)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.483705, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101845, 0.03552, -0.078697)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101379, 0.035522, -0.019791)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198799, 0.817223, -0.134438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187729, 0.86427, 0.255024)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002302, 1.463074, 0.05339)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.208436, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.18833, 1.201642, 0.367167)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.485144, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_ponytail01",
+			"id": "profesor_datos",
+			"rig_bones": 53,
+			"role": "PROFESOR",
+			"traits": {
+				"age_old": 0.137411624193192,
+				"face_cheekbones_incr": 0.354758739471436,
+				"face_chin_incr": 0.346639841794968,
+				"face_ear_size_decr": 0.346345871686935,
+				"face_eye_size_incr": 0.17641618847847,
+				"face_eye_spacing_decr": 0.331256449222565,
+				"face_eye_tilt_incr": 0.100241206586361,
+				"face_forehead_incr": 0.280773133039474,
+				"face_jaw_width_incr": 0.18972510099411,
+				"face_lips_decr": 0.221012830734253,
+				"face_mouth_width_incr": 0.20944544672966,
+				"face_nose_height_incr": 0.326671302318573,
+				"face_nose_length_incr": 0.285471707582474,
+				"face_nose_width_incr": 0.306417524814606,
+				"gender_female": 0.45,
+				"gender_male": 0.0,
+				"muscle_max": 0.0498040243983269,
+				"weight_max": 0.0879835709929466,
+				"weight_min": 0.0618009641766548
+			},
+			"wardrobe": "clothing_jacket"
+		},
+		"role": "PROFESOR",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 24.0076694488525,
+		"id": "profesor_algoritmos",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_algoritmos/@Node3D@9451",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100477, 0.035522, -0.015183)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.10153, 0.035522, 0.00428)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.206974, 0.808433, 0.036247)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.083768, 1.334199, 0.402446)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001866, 1.479881, 0.062612)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101469, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.723357, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.815048, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.486377, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101469, 0.035622, -0.008224)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101473, 0.035622, -0.008194)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200198, 0.812666, 0.041663)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200176, 0.812836, 0.04328)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.483997, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085476, 0.035523, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.098294, 0.035523, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178928, 0.573731, 0.389895)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.205857, 0.52399, 0.334073)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.003508, 1.05629, 0.27231)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096933, 0.035623, -0.031113)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100676, 0.035622, 0.015121)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.196056, 0.799986, -0.002467)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.104146, 1.234314, 0.426073)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.012338, 1.475932, 0.079568)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085476, 0.035523, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259195, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200367, 0.808798, -0.020873)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.181322, 0.911845, 0.322702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000733, 1.444956, 0.107012)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101469, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.701213, 0.355302)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.195005, 0.600156, 0.31968)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.096026, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101469, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.087, 0.353809)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.195299, 0.981923, 0.316817)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.484392, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101469, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.095502, 0.359011)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.194578, 1.000669, 0.326491)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.483705, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101845, 0.035521, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101379, 0.035522, -0.019791)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198799, 0.817223, -0.134438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187729, 0.86427, 0.255024)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002302, 1.463074, 0.05339)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101469, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.208436, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.18833, 1.201642, 0.367167)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.485144, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_bob02",
+			"id": "profesor_algoritmos",
+			"rig_bones": 53,
+			"role": "PROFESOR",
+			"traits": {
+				"age_old": 0.133510887622833,
+				"face_cheekbones_decr": 0.263221472501755,
+				"face_chin_decr": 0.295075446367264,
+				"face_ear_size_incr": 0.194116592407227,
+				"face_eye_size_decr": 0.323374778032303,
+				"face_eye_spacing_incr": 0.154427513480186,
+				"face_eye_tilt_incr": 0.116204410791397,
+				"face_forehead_incr": 0.216852486133575,
+				"face_jaw_width_decr": 0.237734824419022,
+				"face_lips_decr": 0.237383991479874,
+				"face_mouth_width_decr": 0.284286856651306,
+				"face_nose_height_incr": 0.206399232149124,
+				"face_nose_length_incr": 0.168558120727539,
+				"face_nose_width_decr": 0.114979229867458,
+				"gender_female": 0.45,
+				"gender_male": 0.0,
+				"muscle_max": 0.0303001161664724,
+				"weight_max": 0.0112940175458789,
+				"weight_min": 0.069571889936924
+			},
+			"wardrobe": "clothing_jacket"
+		},
+		"role": "PROFESOR",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 35.7144165039063,
+		"id": "docente_enfermeria",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_docente_enfermeria/@Node3D@9579",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101406, 0.035526, -0.003876)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101307, 0.035527, 0.005844)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.208778, 0.808576, 0.07779)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.139188, 1.336736, 0.357247)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.00199, 1.474222, 0.074941)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.72095, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.812642, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483971, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008194)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200198, 0.815106, 0.041663)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200176, 0.815276, 0.04328)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.486438, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085476, 0.035526, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.09829, 0.035522, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178847, 0.58455, 0.402834)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.205864, 0.537289, 0.354189)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.003508, 1.057259, 0.27231)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096413, 0.035622, -0.0327)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.10041, 0.035622, 0.016769)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.194305, 0.801658, -0.005404)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.123957, 1.222669, 0.414356)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.014628, 1.478152, 0.082195)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085476, 0.035526, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259197, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200367, 0.8088, -0.020872)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.181322, 0.911847, 0.322702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000733, 1.444957, 0.107012)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.721358, 0.365872)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.194005, 0.635706, 0.338699)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.096499, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.100992, 0.361881)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.194319, 1.010168, 0.331643)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.483873, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.121319, 0.371219)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193634, 1.042265, 0.348005)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.485392, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101849, 0.035526, -0.07869)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101375, 0.035522, -0.019791)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198799, 0.817281, -0.134438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187729, 0.864328, 0.255024)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002302, 1.463132, 0.05339)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.206987, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187385, 1.213644, 0.360184)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483695, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_short04",
+			"id": "docente_enfermeria",
+			"rig_bones": 53,
+			"role": "ENFERMERIA",
+			"traits": {
+				"age_old": 0.0857382267713547,
+				"face_cheekbones_decr": 0.283976525068283,
+				"face_chin_incr": 0.171501994132996,
+				"face_ear_size_decr": 0.159324616193771,
+				"face_eye_size_decr": 0.115442767739296,
+				"face_eye_spacing_incr": 0.179632440209389,
+				"face_eye_tilt_incr": 0.244384825229645,
+				"face_forehead_incr": 0.169067591428757,
+				"face_jaw_width_decr": 0.154290914535522,
+				"face_lips_decr": 0.158863440155983,
+				"face_mouth_width_decr": 0.204370230436325,
+				"face_nose_height_decr": 0.125212445855141,
+				"face_nose_length_incr": 0.154403582215309,
+				"face_nose_width_decr": 0.300640672445297,
+				"gender_female": 0.45,
+				"gender_male": 0.0,
+				"muscle_max": 0.0270897969603539,
+				"weight_max": 0.0822657272219658,
+				"weight_min": 0.0633563473820686
+			},
+			"wardrobe": "clothing_tshirt"
+		},
+		"role": "ENFERMERIA",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 35.7144165039063,
+		"id": "docente_odontologia",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_docente_odontologia/@Node3D@9684",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100479, 0.035522, -0.015198)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101528, 0.035522, 0.004272)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.215738, 0.811893, 0.034596)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.080178, 1.337116, 0.401952)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002182, 1.48274, 0.062581)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008225)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.205134, 1.720519, 0.160038)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.208249, 0.813213, 0.04166)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483971, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008225)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.207732, 0.82825, 0.106503)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.207828, 0.825422, 0.095689)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.48633, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085476, 0.035526, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.09829, 0.035522, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.179928, 0.58523, 0.402992)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.216225, 0.537522, 0.353961)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002211, 1.057219, 0.272378)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096935, 0.035622, -0.031128)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100674, 0.035622, 0.015106)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20377, 0.803037, -0.006096)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.11791, 1.238501, 0.416759)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.01353, 1.478728, 0.079288)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085476, 0.035526, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259197, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.207338, 0.809075, -0.020734)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.183443, 0.912261, 0.322744)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001214, 1.444948, 0.107051)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.19718, 0.721605, 0.365675)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200419, 0.635992, 0.338484)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.096499, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008225)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.19718, 1.101243, 0.361689)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200818, 1.010463, 0.331428)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.483873, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008225)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197181, 1.12156, 0.371015)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.19995, 1.04254, 0.347789)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.485392, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101849, 0.035526, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101375, 0.035523, -0.019806)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.204933, 0.817579, -0.134313)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.192003, 0.86463, 0.255001)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002435, 1.463131, 0.0534)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101467, 0.035622, -0.008225)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.192626, 1.207216, 0.363591)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.192027, 1.213875, 0.360002)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483695, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_bob02",
+			"id": "docente_odontologia",
+			"rig_bones": 53,
+			"role": "ODONTOLOGIA",
+			"traits": {
+				"age_old": 0.113046497106552,
+				"face_cheekbones_decr": 0.201653093099594,
+				"face_chin_decr": 0.310316771268845,
+				"face_ear_size_decr": 0.151970580220222,
+				"face_eye_size_decr": 0.366996139287949,
+				"face_eye_spacing_decr": 0.236453592777252,
+				"face_eye_tilt_incr": 0.362558901309967,
+				"face_forehead_incr": 0.311140477657318,
+				"face_jaw_width_incr": 0.365661084651947,
+				"face_lips_incr": 0.377699166536331,
+				"face_mouth_width_incr": 0.208899617195129,
+				"face_nose_height_decr": 0.307727068662643,
+				"face_nose_length_decr": 0.224856406450272,
+				"face_nose_width_decr": 0.287736654281616,
+				"gender_male": 0.198100194334984,
+				"muscle_max": 0.0546540208160877,
+				"weight_max": 0.0412146486341953,
+				"weight_min": 0.0168701615184546
+			},
+			"wardrobe": "clothing_shirt"
+		},
+		"role": "ODONTOLOGIA",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 35.7144165039063,
+		"id": "coordinador_profesores",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_coordinador_profesores/@Node3D@9789",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100475, 0.035522, -0.015183)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101532, 0.035522, 0.004272)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.206974, 0.811291, 0.036247)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.083768, 1.337057, 0.402447)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001866, 1.482738, 0.062612)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.72095, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.812642, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483971, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.199642, 0.831349, 0.117484)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.815001, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.48633, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101509, 0.035526, 0.014297)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.09829, 0.035522, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.176441, 0.648426, 0.419764)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.206495, 0.453827, 0.154957)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.003508, 1.057259, 0.27231)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096931, 0.035622, -0.031113)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100677, 0.035622, 0.015121)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.196056, 0.802776, -0.002467)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.104146, 1.237104, 0.426073)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.012338, 1.478723, 0.079568)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.079651, 0.035523, 0.194244)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259197, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200367, 0.8088, -0.020872)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.181322, 0.911847, 0.322702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000733, 1.444957, 0.107012)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.721358, 0.365872)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.194005, 0.635706, 0.338699)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.096499, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.100992, 0.361881)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.194319, 1.010168, 0.331643)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.483873, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.121319, 0.371219)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193634, 1.042265, 0.348005)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.485392, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101845, 0.035526, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101379, 0.035523, -0.019791)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198799, 0.817281, -0.134438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187729, 0.864328, 0.255024)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002302, 1.463132, 0.05339)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.206987, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187385, 1.213644, 0.360184)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483695, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_braid01",
+			"id": "coordinador_profesores",
+			"rig_bones": 53,
+			"role": "PROFESOR",
+			"traits": {
+				"age_old": 0.0935452356934547,
+				"face_cheekbones_incr": 0.277595669031143,
+				"face_chin_incr": 0.336061269044876,
+				"face_ear_size_incr": 0.235100507736206,
+				"face_eye_size_decr": 0.234384626150131,
+				"face_eye_spacing_decr": 0.361311972141266,
+				"face_eye_tilt_decr": 0.265304744243622,
+				"face_forehead_decr": 0.205418705940247,
+				"face_jaw_width_decr": 0.168442010879517,
+				"face_lips_decr": 0.28021639585495,
+				"face_mouth_width_incr": 0.182197749614716,
+				"face_nose_height_incr": 0.180477052927017,
+				"face_nose_length_incr": 0.3778195977211,
+				"face_nose_width_decr": 0.162364274263382,
+				"gender_male": 0.500262677669525,
+				"muscle_max": 0.0210329405963421,
+				"weight_max": 0.070791557431221,
+				"weight_min": 0.0646210536360741
+			},
+			"wardrobe": "clothing_shirt"
+		},
+		"role": "PROFESOR",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 71.9821853637695,
+		"id": "profesor_matematicas",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_matematicas/@Node3D@9913",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101559, 0.060242, 0.005875)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101372, 0.060242, 0.008499)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.206651, 0.825764, 0.116178)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.170664, 1.342912, 0.317172)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000926, 1.482775, 0.090159)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.060339, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.060339, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200709, 1.745506, 0.160153)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.203436, 0.837573, 0.041686)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.508687, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.060339, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.060339, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.202982, 0.852627, 0.106574)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.203067, 0.849796, 0.095753)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.511047, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085476, 0.060242, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.09829, 0.060242, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.179216, 0.60954, 0.402905)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.2101, 0.562073, 0.354101)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002968, 1.081956, 0.272339)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096413, 0.060339, -0.032699)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.10041, 0.060339, 0.016769)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197343, 0.826434, -0.006982)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.130139, 1.248194, 0.409824)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.015192, 1.502871, 0.082053)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085476, 0.060242, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.283907, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20317, 0.833609, -0.020824)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.18211, 0.936725, 0.322727)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000933, 1.469664, 0.107028)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.060242, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.060242, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 0.73932, 0.365798)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.196587, 0.653682, 0.338619)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.114369, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.060339, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.060339, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 1.125803, 0.361809)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.196936, 1.034995, 0.331562)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.50859, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.060339, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.060339, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 1.146126, 0.371143)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.196177, 1.067085, 0.347925)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.510109, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101845, 0.060234, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101379, 0.060242, -0.019791)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.201241, 0.842103, -0.134399)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.1894, 0.889158, 0.255025)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002357, 1.487842, 0.053394)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.060339, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.060339, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.189778, 1.231789, 0.363707)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.189254, 1.238447, 0.360115)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.508412, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_bob02",
+			"id": "profesor_matematicas",
+			"rig_bones": 53,
+			"role": "PROFESOR",
+			"traits": {
+				"age_old": 0.0678682401776314,
+				"face_cheekbones_incr": 0.139804393053055,
+				"face_chin_incr": 0.306981086730957,
+				"face_ear_size_decr": 0.184199184179306,
+				"face_eye_size_decr": 0.267076402902603,
+				"face_eye_spacing_decr": 0.249618262052536,
+				"face_eye_tilt_decr": 0.156509011983871,
+				"face_forehead_incr": 0.296537339687347,
+				"face_jaw_width_incr": 0.116370759904385,
+				"face_lips_incr": 0.362239211797714,
+				"face_mouth_width_incr": 0.21503646671772,
+				"face_nose_height_decr": 0.233507841825485,
+				"face_nose_length_decr": 0.153229042887688,
+				"face_nose_width_decr": 0.154300883412361,
+				"gender_male": 0.168380469083786,
+				"muscle_max": 0.0491057001054287,
+				"weight_max": 0.0287150572985411,
+				"weight_min": 0.036601584404707
+			},
+			"wardrobe": "clothing_shirt"
+		},
+		"role": "PROFESOR",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 0.0,
+		"id": "punto",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_punto/@Node3D@10038",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101402, 0.072907, -0.003891)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101311, 0.072907, 0.005829)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.212343, 0.843344, 0.077429)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.139152, 1.371319, 0.357257)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.00208, 1.508763, 0.074936)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.073007, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.073007, -0.008224)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20071, 1.76058, 0.160153)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.203436, 0.852647, 0.041686)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.523762, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.073007, -0.00824)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.073007, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.203444, 0.850265, 0.041647)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.20342, 0.850435, 0.043264)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.521382, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101509, 0.072907, 0.014282)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101933, 0.072907, -0.003738)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178462, 0.681958, 0.45745)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.210261, 0.488523, 0.154975)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002968, 1.091881, 0.272339)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096931, 0.073007, -0.031128)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100677, 0.073007, 0.015106)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.199173, 0.837456, -0.003958)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.110054, 1.272282, 0.42215)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.012835, 1.51332, 0.079451)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085472, 0.072907, 0.198349)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.296579, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20317, 0.846281, -0.020824)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.18211, 0.949397, 0.322727)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000933, 1.482336, 0.107028)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.072907, 0.386475)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.072907, 0.386475)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 0.731851, 0.355234)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.197695, 0.630814, 0.319597)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.126568, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.073007, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.073007, -0.008224)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 1.124481, 0.353741)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.19802, 1.019426, 0.316732)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.521777, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.073007, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.073007, -0.008224)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 1.132982, 0.358941)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.197222, 1.038167, 0.32641)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.521089, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101845, 0.072907, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101379, 0.072907, -0.019806)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.201241, 0.85472, -0.134399)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.1894, 0.901775, 0.255025)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002357, 1.500459, 0.053394)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.073007, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.073007, -0.008224)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.189778, 1.245907, 0.363707)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.190301, 1.239112, 0.367097)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.522529, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_short02",
+			"id": "punto",
+			"rig_bones": 53,
+			"role": "FUNCIONARIO",
+			"traits": {
+				"age_old": 0.1640305519104,
+				"face_cheekbones_incr": 0.314460039138794,
+				"face_chin_incr": 0.108661808073521,
+				"face_ear_size_incr": 0.196626394987106,
+				"face_eye_size_decr": 0.19797071814537,
+				"face_eye_spacing_decr": 0.171851933002472,
+				"face_eye_tilt_decr": 0.375870436429977,
+				"face_forehead_decr": 0.187496185302734,
+				"face_jaw_width_decr": 0.132932543754578,
+				"face_lips_incr": 0.251412749290466,
+				"face_mouth_width_incr": 0.121953397989273,
+				"face_nose_height_incr": 0.33610463142395,
+				"face_nose_length_incr": 0.362575799226761,
+				"face_nose_width_decr": 0.255171149969101,
+				"gender_female": 0.45,
+				"gender_male": 0.0,
+				"muscle_max": 0.0662333592772484,
+				"weight_max": 0.0393399856984615,
+				"weight_min": 0.058078907430172
+			},
+			"wardrobe": "clothing_jacket"
+		},
+		"role": "FUNCIONARIO",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 0.119999997317791,
+		"id": "chef",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_chef/@Node3D@10150",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100479, 0.021505, -0.015198)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101532, 0.021505, 0.004272)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.206974, 0.796388, 0.036247)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.083768, 1.322154, 0.402446)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001866, 1.467836, 0.062612)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.021605, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.021605, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.707523, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.799214, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.470543, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.021605, -0.008225)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.021605, -0.008202)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200198, 0.800106, 0.041663)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200176, 0.800276, 0.04328)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.000005, 1.471437, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085472, 0.021505, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.09829, 0.021505, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178352, 0.632802, 0.457379)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.206495, 0.439561, 0.154957)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.003508, 1.042993, 0.27231)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096931, 0.021605, -0.031113)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100677, 0.021605, 0.015114)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.196056, 0.787761, -0.002467)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.104146, 1.222088, 0.426073)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.012338, 1.463707, 0.079568)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085472, 0.021505, 0.198364)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.245177, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200367, 0.794781, -0.020872)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.181322, 0.897827, 0.322702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000733, 1.430938, 0.107012)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.098441, 0.386494)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.098441, 0.386494)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.76889, 0.361721)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.194333, 0.677851, 0.331358)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.152071, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.021605, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.021605, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.079989, 0.358192)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.19466, 0.98393, 0.325005)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.469677, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.021605, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.021605, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.097788, 0.367063)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193917, 1.013629, 0.340784)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.470538, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101624, 0.021505, 0.001907)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.086701, 0.022386, -0.194623)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198799, 0.804095, -0.134438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187729, 0.851142, 0.255024)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002302, 1.449946, 0.05339)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.021605, -0.008217)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.021605, -0.008217)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.193137, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187434, 1.199111, 0.360565)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.469844, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_short02",
+			"id": "chef",
+			"rig_bones": 53,
+			"role": "VENDEDOR",
+			"traits": {
+				"age_old": 0.105693109333515,
+				"face_cheekbones_incr": 0.336945325136185,
+				"face_chin_incr": 0.341595381498337,
+				"face_ear_size_incr": 0.144155234098434,
+				"face_eye_size_incr": 0.220940008759499,
+				"face_eye_spacing_decr": 0.273712933063507,
+				"face_eye_tilt_decr": 0.196912541985512,
+				"face_forehead_incr": 0.220005959272385,
+				"face_jaw_width_decr": 0.191077172756195,
+				"face_lips_decr": 0.113034978508949,
+				"face_mouth_width_decr": 0.220937162637711,
+				"face_nose_height_decr": 0.286477297544479,
+				"face_nose_length_decr": 0.290909230709076,
+				"face_nose_width_incr": 0.212295740842819,
+				"gender_female": 0.45,
+				"gender_male": 0.0,
+				"muscle_max": 0.0357702001929283,
+				"weight_max": 0.0848147794604301,
+				"weight_min": 0.061713632196188
+			},
+			"wardrobe": "clothing_shirt"
+		},
+		"role": "VENDEDOR",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 24.0076694488525,
+		"id": "profesor_redes",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_redes/@Node3D@10267",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100479, 0.035522, -0.015183)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101528, 0.035522, 0.004272)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.206974, 0.811292, 0.036247)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.083768, 1.337058, 0.402446)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001866, 1.48274, 0.062612)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197728, 1.72095, 0.160221)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.200191, 0.812642, 0.041702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483971, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.199781, 0.827707, 0.106617)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.199857, 0.824874, 0.095792)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.48633, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101506, 0.035522, 0.014298)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.098294, 0.035523, 0.040573)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.178847, 0.584549, 0.402834)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.205864, 0.537288, 0.354189)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.003508, 1.057259, 0.27231)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.096409, 0.035622, -0.032699)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100418, 0.035622, 0.016769)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.194305, 0.801658, -0.005404)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.123957, 1.222669, 0.414356)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.014628, 1.478152, 0.082195)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.079651, 0.03552, 0.194244)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.259195, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200367, 0.808798, -0.020873)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.181322, 0.911845, 0.322702)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000733, 1.444956, 0.107012)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035522, 0.38649)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035522, 0.38649)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 0.721356, 0.365872)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.194004, 0.635704, 0.338699)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.096497, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.100992, 0.361881)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.194319, 1.010168, 0.331643)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.483873, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.191449, 1.121319, 0.371219)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.193634, 1.042265, 0.348005)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.485392, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101849, 0.035521, -0.078705)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101379, 0.035522, -0.019791)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.198799, 0.81728, -0.134438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187729, 0.864327, 0.255024)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002302, 1.463131, 0.05339)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.035622, -0.008209)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.035622, -0.008209)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.187858, 1.206987, 0.363776)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.187385, 1.213644, 0.360184)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.483695, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_ponytail01",
+			"id": "profesor_redes",
+			"rig_bones": 53,
+			"role": "PROFESOR",
+			"traits": {
+				"age_old": 0.0753986686468124,
+				"face_cheekbones_incr": 0.229069858789444,
+				"face_chin_decr": 0.129191100597382,
+				"face_ear_size_incr": 0.379918247461319,
+				"face_eye_size_incr": 0.22725573182106,
+				"face_eye_spacing_decr": 0.292199790477753,
+				"face_eye_tilt_incr": 0.34054160118103,
+				"face_forehead_incr": 0.303627610206604,
+				"face_jaw_width_decr": 0.287312030792236,
+				"face_lips_incr": 0.310983240604401,
+				"face_mouth_width_incr": 0.361959338188171,
+				"face_nose_height_decr": 0.124101221561432,
+				"face_nose_length_incr": 0.352118760347366,
+				"face_nose_width_decr": 0.376920223236084,
+				"gender_female": 0.45,
+				"gender_male": 0.0,
+				"muscle_max": 0.0714974999427795,
+				"weight_max": 0.0506779663264751,
+				"weight_min": 0.057206068187952
+			},
+			"wardrobe": "clothing_hoodie"
+		},
+		"role": "PROFESOR",
+		"visible": true
+	},
+	{
+		"anatomy_valid": true,
+		"bone_count": 53,
+		"floor_y": 84.0599975585938,
+		"id": "director",
+		"interaction": "",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_director/@Node3D@10381",
+		"poses": {
+			"attack": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.100477, 0.07756, -0.015194)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.10153, 0.077559, 0.004272)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.210518, 0.853551, 0.035571)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.082196, 1.379123, 0.402229)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.001998, 1.524777, 0.062599)"
+				}
+			},
+			"celebrate": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077564, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077564, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.200709, 1.76283, 0.160153)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.203436, 0.854897, 0.041686)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.526012, 0.030789)"
+				}
+			},
+			"computer": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077564, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077564, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.202828, 0.873589, 0.117438)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.203436, 0.857256, 0.041686)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.528371, 0.030789)"
+				}
+			},
+			"crouch": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.103151, 0.071136, 0.021182)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.099324, 0.071136, 0.034979)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.176426, 0.684302, 0.419819)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.210261, 0.489499, 0.154975)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002968, 1.092856, 0.272339)"
+				}
+			},
+			"read": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.09641, 0.077564, -0.032695)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.100413, 0.077564, 0.016765)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.197343, 0.843759, -0.006982)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(0.130139, 1.265518, 0.409824)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.015192, 1.520195, 0.082052)"
+				}
+			},
+			"run": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.085475, 0.076889, 0.198368)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.064742, 0.300562, -0.450066)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.20317, 0.850263, -0.020824)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.18211, 0.953379, 0.322727)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.000933, 1.486318, 0.107028)"
+				}
+			},
+			"sit": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101472, 0.098445, 0.386494)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101472, 0.098445, 0.386494)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 0.777529, 0.365798)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.196587, 0.691891, 0.338619)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.0, 1.152578, 0.030789)"
+				}
+			},
+			"stand": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077564, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077564, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 1.143128, 0.361809)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.196936, 1.05232, 0.331562)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.525914, 0.030789)"
+				}
+			},
+			"talk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077564, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077564, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.193756, 1.16345, 0.371143)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.196177, 1.084409, 0.347924)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.527433, 0.030789)"
+				}
+			},
+			"walk": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101628, 0.077274, 0.001908)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.086683, 0.078407, -0.194823)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.201241, 0.860276, -0.134399)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.1894, 0.907331, 0.255025)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(0.002357, 1.506015, 0.053394)"
+				}
+			},
+			"write": {
+				"foot_l": {
+					"finite": true,
+					"position": "(0.101471, 0.077564, -0.008213)"
+				},
+				"foot_r": {
+					"finite": true,
+					"position": "(-0.101471, 0.077564, -0.008213)"
+				},
+				"hand_l": {
+					"finite": true,
+					"position": "(0.189778, 1.249114, 0.363707)"
+				},
+				"hand_r": {
+					"finite": true,
+					"position": "(-0.189254, 1.255771, 0.360115)"
+				},
+				"head": {
+					"finite": true,
+					"position": "(-0.0, 1.525736, 0.030789)"
+				}
+			}
+		},
+		"remodel": {
+			"hair": "hair_bob01",
+			"id": "director",
+			"rig_bones": 53,
+			"role": "DIRECTOR",
+			"traits": {
+				"age_old": 0.0511029548943043,
+				"face_cheekbones_decr": 0.238968253135681,
+				"face_chin_decr": 0.124676033854485,
+				"face_ear_size_incr": 0.126401647925377,
+				"face_eye_size_decr": 0.159036099910736,
+				"face_eye_spacing_incr": 0.257599294185638,
+				"face_eye_tilt_incr": 0.190408170223236,
+				"face_forehead_decr": 0.269926279783249,
+				"face_jaw_width_incr": 0.277052521705627,
+				"face_lips_incr": 0.225527167320251,
+				"face_mouth_width_decr": 0.163784548640251,
+				"face_nose_height_incr": 0.348927021026611,
+				"face_nose_length_decr": 0.3102166056633,
+				"face_nose_width_decr": 0.364705413579941,
+				"gender_male": 0.160009577870369,
+				"muscle_max": 0.0203000586479902,
+				"weight_max": 0.0305800586938858,
+				"weight_min": 0.0453457236289978
+			},
+			"wardrobe": "clothing_jacket"
+		},
+		"role": "DIRECTOR",
+		"visible": true
+	}
+]

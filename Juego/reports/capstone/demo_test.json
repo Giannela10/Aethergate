@@ -1,0 +1,11 @@
+{
+	"duration_seconds": 60.688,
+	"end": "(-45.0, 23.96852, -134.3001)",
+	"failures": [],
+	"input_movement_metres": 1.29736495018005,
+	"official_mentor_pass": false,
+	"practice_answers": 1,
+	"scope": "Isolated Main, floor 3 diagnostic start, actual input movement and interaction scanner, production question UI and progress. No login, remote verification or mission unlock claim.",
+	"start": "(-45.0, 23.96642, -132.8)",
+	"teacher": "(-45.0, 24.00767, -137.0)"
+}

@@ -1,0 +1,1087 @@
+{
+	"method": "Animated walk-in-place in Main, fixed camera at campus entrance, real visual.animate() every frame, NPC physics/process frozen; 75Hz cap.",
+	"phase": "after",
+	"samples": [
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 10.048,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.344,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.331,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.304,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.351,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.346,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.308,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.344,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.333,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.347,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.325,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.319,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.379,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.289,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.346,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.314,
+			"process_ms": 13.406
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.331,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.342,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.359,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.327,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.319,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.334,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.331,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.338,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.327,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.335,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.341,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.319,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.333,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.325,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.36,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.384,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.339,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.518,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.092,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.33,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.319,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.338,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.326,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.334,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.366,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.315,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.328,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.334,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.319,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.344,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.325,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.358,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.3,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.338,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.324,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.375,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.31,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.334,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.382,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.265,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.346,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.33,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.367,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.306,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.336,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.403,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.25,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.39,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.283,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.342,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.327,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.336,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.407,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.286,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.32,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.308,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.341,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.338,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.311,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.354,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.322,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.403,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.253,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.331,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.352,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.35,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.311,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.34,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.32,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.361,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.309,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.337,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.323,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.341,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.345,
+			"process_ms": 13.395
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.381,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.282,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.319,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.324,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.354,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.337,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.33,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.38,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.285,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.324,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.32,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.378,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.307,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.33,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.363,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.313,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.317,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.326,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.372,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.424,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.227,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.352,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.317,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.347,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.307,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.324,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.35,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.315,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.326,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.367,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.303,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.346,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.357,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.3,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.337,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.339,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.338,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.322,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.332,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.376,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.297,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.341,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.314,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.349,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.327,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.315,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.381,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.292,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.332,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.346,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.34,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.317,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.341,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.339,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.336,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.33,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.34,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.332,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1873.0,
+			"fps": 75.0,
+			"frame_ms": 13.324,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.319,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.376,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.297,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.331,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.34,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.324,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.34,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.333,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.535,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.477,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.011,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.318,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.313,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.357,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.314,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.345,
+			"process_ms": 13.469
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.326,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.354,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.308,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.333,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.343,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.338,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.345,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.31,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.346,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.309,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.335,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.356,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.339,
+			"process_ms": 13.521
+		},
+		{
+			"draw_calls": 1871.0,
+			"fps": 75.0,
+			"frame_ms": 13.325,
+			"process_ms": 13.521
+		}
+	],
+	"warmup_seconds": 3
+}

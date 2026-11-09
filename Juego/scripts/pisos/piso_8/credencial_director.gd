@@ -8,6 +8,13 @@ var acquired := false
 var badge: Label
 
 func _ready() -> void:
+	var ancestor := get_parent()
+	while ancestor != null:
+		var campaign := ancestor.get_node_or_null("CampusCampaign")
+		if campaign and campaign.has_method("uses_cloud") and campaign.uses_cloud():
+			persist = false
+			break
+		ancestor = ancestor.get_parent()
 	if persist:
 		var data := ConfigFile.new()
 		if data.load(save_path) == OK:

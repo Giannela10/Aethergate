@@ -7,7 +7,6 @@ var boss_id := ""
 var last_phase := -1
 var phase_time := 0.0
 var visual_state := "BOSS_IDLE"
-var gesture_time := 0.0
 var signature_prop: Node3D
 
 func setup(actor: Node3D, id: String) -> void:

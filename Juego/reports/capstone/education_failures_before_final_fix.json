@@ -1,0 +1,101 @@
+{
+	"all_questions_exercised": 150,
+	"checks": 1315,
+	"failures": [
+		"Completed teacher retains education prompt director",
+		"Visible mentor selected after relocation director"
+	],
+	"practice_answers": 33,
+	"remote_published": 0,
+	"save_roundtrip": "Isolated JSON serialization and production migration; not remote persistence",
+	"teachers": [
+		{
+			"floor": 3,
+			"id": "profesor_datos",
+			"no_official_rewards": true,
+			"questions": 15,
+			"reachable": true,
+			"three_consecutive_answers": 3
+		},
+		{
+			"floor": 3,
+			"id": "profesor_algoritmos",
+			"no_official_rewards": true,
+			"questions": 15,
+			"reachable": true,
+			"three_consecutive_answers": 3
+		},
+		{
+			"floor": 3,
+			"id": "profesor_redes",
+			"no_official_rewards": true,
+			"questions": 15,
+			"reachable": true,
+			"three_consecutive_answers": 3
+		},
+		{
+			"floor": 4,
+			"id": "docente_enfermeria",
+			"no_official_rewards": true,
+			"questions": 15,
+			"reachable": true,
+			"three_consecutive_answers": 3
+		},
+		{
+			"floor": 4,
+			"id": "docente_odontologia",
+			"no_official_rewards": true,
+			"questions": 15,
+			"reachable": true,
+			"three_consecutive_answers": 3
+		},
+		{
+			"floor": 6,
+			"id": "profesor_ingles",
+			"no_official_rewards": true,
+			"questions": 15,
+			"reachable": true,
+			"three_consecutive_answers": 3
+		},
+		{
+			"floor": 6,
+			"id": "profesor_etica",
+			"no_official_rewards": true,
+			"questions": 15,
+			"reachable": true,
+			"three_consecutive_answers": 3
+		},
+		{
+			"floor": 7,
+			"id": "profesor_lenguaje",
+			"no_official_rewards": true,
+			"questions": 15,
+			"reachable": true,
+			"three_consecutive_answers": 3
+		},
+		{
+			"floor": 7,
+			"id": "profesor_matematicas",
+			"no_official_rewards": true,
+			"questions": 15,
+			"reachable": true,
+			"three_consecutive_answers": 3
+		},
+		{
+			"floor": 4,
+			"id": "coordinador_profesores",
+			"no_official_rewards": true,
+			"questions": 15,
+			"reachable": true,
+			"three_consecutive_answers": 3
+		},
+		{
+			"floor": 8,
+			"id": "director",
+			"no_official_rewards": true,
+			"questions": 15,
+			"reachable": true,
+			"three_consecutive_answers": 3
+		}
+	]
+}

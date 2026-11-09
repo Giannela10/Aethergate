@@ -34,6 +34,17 @@ var pending_appearance: Dictionary = {}
 var phone: Node
 var academics: Node
 var academic_expansion: Node
+var cloud_mode := false
+var cloud_store: Node
+
+func uses_cloud() -> bool:
+	var auth := get_node_or_null("/root/AuthManager")
+	return persist and save_path == "user://campus_campaign_v1.json" and not has_meta("test_mode") and get_tree().get_meta("education_enabled",false) and auth != null and not auth.dev_session
+
+func _cloud_status(message: String) -> void:
+	last_save_succeeded = cloud_store.last_error.is_empty() and not cloud_store.busy and cloud_store.pending.is_empty() and cloud_store.operation.is_empty()
+	if not cloud_store.last_error.is_empty() and is_instance_valid(ui):
+		ui.notify(message,10)
 
 func show_personalization(new_run: bool = false) -> void:
 	appearance_menu.open(new_run)
@@ -56,8 +67,20 @@ func _boot() -> void:
 	defaults = preload("res://scripts/live/save_migration.gd").migrate(data)
 	data["save_version"] = 2
 	data["campus_live"] = {}
-	if persist and FileAccess.file_exists(save_path):
-		var loaded = preload("res://scripts/compartidos/lectura_guardado.gd").read_dictionary(save_path)
+	cloud_mode = uses_cloud()
+	var loaded: Dictionary = {}
+	if cloud_mode:
+		cloud_store = get_node("/root/CloudSave")
+		player.busy = true
+		if not await cloud_store.load_game():
+			get_tree().change_scene_to_file("res://scenes/education/StudentMainMenu.tscn")
+			return
+		loaded = cloud_store.payload.duplicate(true)
+		player.busy = false
+		cloud_store.status_changed.connect(_cloud_status)
+	elif persist and FileAccess.file_exists(save_path):
+		loaded = preload("res://scripts/compartidos/lectura_guardado.gd").read_dictionary(save_path)
+	if not loaded.is_empty():
 		if loaded is Dictionary and preload("res://scripts/live/save_migration.gd").supported(loaded):
 			loaded_save = true
 			for key in data:
@@ -196,7 +219,11 @@ func _boot() -> void:
 	education_gate.name = "AcademicFloorGate"
 	education_gate.campaign = self
 	add_child(education_gate)
-	if persist and not get_window().close_requested.is_connected(save_game):
+	var platform := preload("res://scripts/education/duocgames_v4.gd").new()
+	platform.name = "DuocGames4"
+	platform.campaign = self
+	add_child(platform)
+	if persist and not cloud_mode and not get_window().close_requested.is_connected(save_game):
 		get_window().close_requested.connect(save_game)
 	if implementation_phase >= 6 and persist:
 		if get_tree().get_meta("campaign_new_game",false):
@@ -221,6 +248,7 @@ func save_game() -> void:
 	data.health = player.health
 	var error := _write_save_payload(save_payload())
 	last_save_succeeded = error == OK
+	if cloud_mode: last_save_succeeded = false # A queued request is not a remote confirmation.
 	if error != OK:
 		_report_save_failure(error)
 		return
@@ -230,6 +258,8 @@ func save_game() -> void:
 		player.save_stationery()
 
 func _write_save_payload(payload: Dictionary) -> Error:
+	if cloud_mode:
+		return OK if cloud_store.enqueue(payload) else ERR_CANT_CONNECT
 	var temporary := save_path + ".tmp"
 	var file := FileAccess.open(temporary,FileAccess.WRITE)
 	if file == null:
@@ -252,6 +282,9 @@ func _replace_save_file(temporary: String, destination: String) -> Error:
 	return DirAccess.rename_absolute(ProjectSettings.globalize_path(temporary),ProjectSettings.globalize_path(destination))
 
 func _report_save_failure(error: Error) -> void:
+	if cloud_mode:
+		ui.notify(cloud_store.last_error,10)
+		return
 	push_error("No se pudo guardar la campaña en %s: %s. Se conservan los archivos recuperables." % [save_path,error_string(error)])
 	if not save_failure_notified and is_instance_valid(ui):
 		ui.notify("No se pudo guardar la partida.")
@@ -310,7 +343,7 @@ func boss_won(controller: Node) -> void:
 	active_duel = null
 	apply_upgrades()
 	player.heal(player.max_health)
-	ui.notify("BOSS DERROTADO · VIDA COMPLETA\n%s · Recompensa: %s" % [controller.boss_name,controller.reward])
+	ui.notify(("SIMULACIÓN COMPLETADA" if controller.is_educational_simulation() else "DESAFÍO SUPERADO")+" · VIDA COMPLETA\n%s · Recompensa: %s" % [controller.boss_name,controller.reward])
 	save_game()
 func grant_reward(reward: Dictionary, source: String) -> void:
 	if data.unlocks.get("reward:"+source,false):
@@ -491,6 +524,9 @@ func _death_to_menu() -> void:
 func show_start_menu() -> void:
 	if get_tree().get_meta("education_enabled",false):
 		save_game()
+		if cloud_mode and not await cloud_store.flush():
+			ui.dialog("PARTIDA SIN SINCRONIZAR",cloud_store.last_error,["Reintentar","Seguir jugando","Cargar partida de la nube"],[show_start_menu,ui.close_modal,_reload_cloud],true)
+			return
 		ui.close_modal()
 		get_tree().paused = false
 		get_tree().change_scene_to_file("res://scenes/education/StudentMainMenu.tscn")
@@ -499,6 +535,43 @@ func show_start_menu() -> void:
 	manager.cam.look_at(player.global_position+Vector3.UP*1.4)
 	ui.dialog("DUOCGAMES","Explora el campus, completa misiones y supera los duelos.",["Continuar","Nueva partida"],[ui.close_modal,_confirm_new_game],true)
 	if not save_blocked_reason.is_empty(): ui.notify(save_blocked_reason,12)
+
+func reload_cloud_scene() -> void:
+	if not cloud_mode or not ready_for_play or restarting: return
+	restarting = true
+	save_game()
+	booting = true
+	ui.dialog("SINCRONIZANDO PARTIDA","Esperando la confirmación de Supabase antes de reiniciar…",[],[],true)
+	if not await cloud_store.flush():
+		booting = false
+		restarting = false
+		ui.dialog("PARTIDA SIN SINCRONIZAR",cloud_store.last_error,["Reintentar reinicio","Seguir jugando","Cargar partida de la nube"],[reload_cloud_scene,ui.close_modal,_reload_cloud],true)
+		return
+	ui.close_modal()
+	get_tree().paused = false
+	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	get_tree().set_meta("education_entry","continue")
+	var reload_error := get_tree().reload_current_scene()
+	if reload_error != OK:
+		get_tree().remove_meta("education_entry")
+		booting = false
+		restarting = false
+		player.busy = false
+		ui.notify("No se pudo reiniciar la escena: "+error_string(reload_error))
+
+func _reload_cloud() -> void:
+	if not cloud_mode: return
+	ui.dialog("CARGAR PARTIDA","Se descartarán los cambios de esta sesión que no llegaron a Supabase.",["Cargar desde Supabase","Cancelar"],[_confirm_reload_cloud,ui.close_modal],true)
+
+func _confirm_reload_cloud() -> void:
+	if not await cloud_store.discard_and_reload():
+		ui.notify(cloud_store.last_error,10)
+		return
+	booting = true
+	ui.close_modal()
+	get_tree().paused = false
+	get_tree().set_meta("education_entry","continue")
+	get_tree().reload_current_scene()
 
 func _confirm_new_game() -> void:
 	ui.dialog("NUEVA PARTIDA","Reinicia progreso e inventario de esta partida. Se conservará una copia de la campaña anterior.",["Comenzar nueva partida","Cancelar"],[show_personalization.bind(true),show_start_menu],true)
@@ -518,13 +591,24 @@ func _restart_game() -> void:
 	fresh.checkpoint = {"position":[0,2,0],"health":100}
 	fresh.inventory = {"version":1,"entries":[],"quick":["","","",""],"serial":0,"equipped":""}
 	fresh.stationery = {"items":{},"notes":"","equipped":""}
+	if cloud_mode: fresh["settings"] = data.get("settings",{}).duplicate(true)
 	# No usar save_game(): capturaría el jugador y los objetivos anteriores.
 	if persist:
-		var write_error := _write_save_payload(fresh)
+		var write_error: Error
+		if cloud_mode:
+			booting = true # Prevent old-scene autosaves while reset confirmation is pending.
+			write_error = OK if cloud_store.enqueue(fresh,true) else ERR_CANT_CONNECT
+		else:
+			write_error = _write_save_payload(fresh)
 		last_save_succeeded = write_error == OK
 		if write_error != OK:
+			booting = false
 			restarting = false
 			_report_save_failure(write_error)
+			return
+		if cloud_mode and not await cloud_store.flush():
+			restarting = false
+			ui.dialog("REINICIO PENDIENTE",cloud_store.last_error,["Reintentar nueva partida","Cargar partida de la nube"],[new_game,_reload_cloud],true)
 			return
 		save_failure_notified = false
 	ui.close_modal()

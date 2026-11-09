@@ -3760,7 +3760,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior" type="OmniLight3D" parent="Sala807" unique_id=1279428189]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 10.51, -5.85)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -3771,7 +3771,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_0609" type="OmniLight3D" parent="Sala807" unique_id=1858727821]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 10.51, -16.38)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -3782,7 +3782,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_0611" type="OmniLight3D" parent="Sala807" unique_id=401919735]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 10.51, -5.85)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -3793,7 +3793,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_0613" type="OmniLight3D" parent="Sala807" unique_id=1538397775]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 10.51, -16.38)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -6482,7 +6482,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior" type="OmniLight3D" parent="Sala808" unique_id=605423193]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 10.51, -5.85)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -6493,7 +6493,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_1225" type="OmniLight3D" parent="Sala808" unique_id=784762975]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 10.51, -16.38)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -6504,7 +6504,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_1227" type="OmniLight3D" parent="Sala808" unique_id=381750314]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 10.51, -5.85)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -6515,7 +6515,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_1229" type="OmniLight3D" parent="Sala808" unique_id=50523437]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 10.51, -16.38)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -9204,7 +9204,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior" type="OmniLight3D" parent="Sala805" unique_id=913867511]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.125, 10.51, -5.85)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -9215,7 +9215,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_1841" type="OmniLight3D" parent="Sala805" unique_id=1614062739]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.125, 10.51, -16.38)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -9226,7 +9226,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_1843" type="OmniLight3D" parent="Sala805" unique_id=370864721]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.125, 10.51, -5.85)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -9237,7 +9237,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_1845" type="OmniLight3D" parent="Sala805" unique_id=1498095772]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.125, 10.51, -16.38)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -11926,7 +11926,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior" type="OmniLight3D" parent="Sala806" unique_id=2077033520]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.125, 10.51, -5.85)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -11937,7 +11937,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_2457" type="OmniLight3D" parent="Sala806" unique_id=311336856]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.125, 10.51, -16.38)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -11948,7 +11948,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_2459" type="OmniLight3D" parent="Sala806" unique_id=241967817]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.125, 10.51, -5.85)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -11959,7 +11959,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_2461" type="OmniLight3D" parent="Sala806" unique_id=811279400]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.125, 10.51, -16.38)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -13288,7 +13288,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior" type="OmniLight3D" parent="Sala809" unique_id=1369791618]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.25, 10.51, -2.65)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -13299,7 +13299,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_2753" type="OmniLight3D" parent="Sala809" unique_id=1282516482]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.25, 10.51, -7.42)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -13310,7 +13310,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_2755" type="OmniLight3D" parent="Sala809" unique_id=552713705]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 10.51, -2.65)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -13321,7 +13321,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_2757" type="OmniLight3D" parent="Sala809" unique_id=1987308129]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, 10.51, -7.42)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -13856,12 +13856,12 @@ font_size = 48
 outline_size = 0
 
 [node name="PantallaProyeccion" type="MeshInstance3D" parent="Sala810" unique_id=1293718597]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2.45, -8.08)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 3.6, -8.08)
 material_override = SubResource("StandardMaterial3D_e5evj")
 mesh = SubResource("BoxMesh_6l7iy")
 
 [node name="ImagenProyector" type="MeshInstance3D" parent="Sala810" unique_id=68127279]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2.45, -8.03)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 3.6, -8.03)
 material_override = SubResource("StandardMaterial3D_xwi6p")
 mesh = SubResource("BoxMesh_vymht")
 
@@ -14086,7 +14086,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior" type="OmniLight3D" parent="Sala810" unique_id=296715306]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 10.51, -2.05)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -14097,7 +14097,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_2917" type="OmniLight3D" parent="Sala810" unique_id=932019609]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 10.51, -5.74)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -14108,7 +14108,7 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_2919" type="OmniLight3D" parent="Sala810" unique_id=553647288]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 10.51, -2.05)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
@@ -14119,12 +14119,12 @@ mesh = SubResource("BoxMesh_2cbab")
 
 [node name="LuzInterior_2921" type="OmniLight3D" parent="Sala810" unique_id=645800214]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 10.51, -5.74)
-light_color = Color(1, 0.93, 0.83, 1)
+light_color = Color(1, 0.98, 0.95, 1)
 light_energy = 1.5
 omni_range = 15.16
 
 [node name="ArmarioMateriales" type="MeshInstance3D" parent="Sala810" unique_id=1198261016]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3, 1, -7.2)
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 2.65, 1, -6.7)
 material_override = SubResource("StandardMaterial3D_6g27e")
 mesh = SubResource("BoxMesh_c6kkn")
 

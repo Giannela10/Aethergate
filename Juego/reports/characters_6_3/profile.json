@@ -1,0 +1,81 @@
+{
+	"meshes": [
+		{
+			"name": "Body",
+			"shapes": 0,
+			"vertices": 14517,
+			"visible": true
+		},
+		{
+			"name": "Eyebrows",
+			"shapes": 0,
+			"vertices": 124,
+			"visible": true
+		},
+		{
+			"name": "Eyelashes",
+			"shapes": 0,
+			"vertices": 250,
+			"visible": true
+		},
+		{
+			"name": "Eyes",
+			"shapes": 0,
+			"vertices": 1116,
+			"visible": true
+		},
+		{
+			"name": "Teeth",
+			"shapes": 0,
+			"vertices": 4494,
+			"visible": true
+		},
+		{
+			"name": "Tongue",
+			"shapes": 0,
+			"vertices": 253,
+			"visible": true
+		},
+		{
+			"name": "Cloth_hoodie",
+			"shapes": 0,
+			"vertices": 1793,
+			"visible": true
+		},
+		{
+			"name": "Cloth_jeans",
+			"shapes": 0,
+			"vertices": 950,
+			"visible": true
+		},
+		{
+			"name": "Hair_braid01",
+			"shapes": 0,
+			"vertices": 4663,
+			"visible": true
+		},
+		{
+			"name": "StudentSneakers63",
+			"shapes": 0,
+			"vertices": 3312,
+			"visible": true
+		}
+	],
+	"timings": [
+		{
+			"cpu_ms": 0.0,
+			"frame_ms": 1.298,
+			"phase": "frozen"
+		},
+		{
+			"cpu_ms": 5.821,
+			"frame_ms": 14.005,
+			"phase": "animated"
+		},
+		{
+			"cpu_ms": 5.717,
+			"frame_ms": 13.658,
+			"phase": "hidden_animated"
+		}
+	]
+}

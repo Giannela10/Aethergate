@@ -9,7 +9,8 @@ void fragment() {
 	vec3 glass = mix(vec3(0.06, 0.16, 0.17), vec3(0.25, 0.39, 0.40), smoothstep(12.0, 48.0, world_pos.y));
 	float reflection = sin(world_pos.x * 0.045 + world_pos.y * 0.13) * 0.035;
 	ALBEDO = glass + reflectivity + reflection;
-	ROUGHNESS = 0.24;
-	METALLIC = 0.28;
-	SPECULAR = 0.65;
+	// Tinted dielectric glass; soften the repeated point-light glare.
+	ROUGHNESS = 0.4;
+	METALLIC = 0.0;
+	SPECULAR = 0.35;
 }

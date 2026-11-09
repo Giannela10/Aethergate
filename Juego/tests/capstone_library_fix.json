@@ -1,0 +1,1 @@
+[{"tool":"scene_open","arguments":{"file_path":"res://Main.tscn"}},{"tool":"node_set_property","arguments":{"node_path":"Piso2/Biblioteca/BossBibliotecaria/BossDuelController","property":"duel_type","value":1}}]

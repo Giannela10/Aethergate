@@ -1,0 +1,1 @@
+[{"tool":"script_edit","arguments":{"file_path":"res://tests/npc_validation_6_3.gd","old_string":"var actor=visual.get_parent()","new_string":"var actor=visual.get_parent()\n\t\tactor.set_process(false);actor.set_physics_process(false)"}}]

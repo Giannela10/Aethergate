@@ -1,0 +1,6877 @@
+{
+	"fov": 60.0,
+	"labels": [
+		{
+			"double_sided": true,
+			"font_size": 56,
+			"path": "Piso2/AuditorioPiso2e/EntradasAuditorio/LetreroEntrada-118_5",
+			"pixel_size": 0.00999999977648258,
+			"position": [
+				68.1800003051758,
+				15.1999998092651,
+				-118.5
+			],
+			"text": "AUDITORIO — ENTRADA 1",
+			"visible": true
+		},
+		{
+			"double_sided": true,
+			"font_size": 56,
+			"path": "Piso2/AuditorioPiso2e/EntradasAuditorio/LetreroEntrada-90_5",
+			"pixel_size": 0.00999999977648258,
+			"position": [
+				68.1800003051758,
+				15.1999998092651,
+				-90.5
+			],
+			"text": "AUDITORIO — ENTRADA 2",
+			"visible": true
+		},
+		{
+			"double_sided": true,
+			"font_size": 56,
+			"path": "Piso2/AuditorioPiso2e/AuditorioAmpliado/LetreroEntrada-118_5",
+			"pixel_size": 0.00800000037997961,
+			"position": [
+				71.276237487793,
+				15.3999996185303,
+				-118.5
+			],
+			"text": "AUDITORIO — ENTRADA 1",
+			"visible": true
+		},
+		{
+			"double_sided": true,
+			"font_size": 56,
+			"path": "Piso2/AuditorioPiso2e/AuditorioAmpliado/LetreroEntrada-90_5",
+			"pixel_size": 0.00800000037997961,
+			"position": [
+				71.276237487793,
+				15.3999996185303,
+				-90.5
+			],
+			"text": "AUDITORIO — ENTRADA 2",
+			"visible": true
+		},
+		{
+			"double_sided": true,
+			"font_size": 56,
+			"path": "Piso2/VestibuloAscensores/PlanoPisos",
+			"pixel_size": 0.00279999990016222,
+			"position": [
+				-24.0,
+				14.3583860397339,
+				-147.490005493164
+			],
+			"text": "PLANO DE LOS PISOS\r\n\r\n2  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO",
+			"visible": true
+		},
+		{
+			"double_sided": true,
+			"font_size": 56,
+			"path": "Piso3/VestibuloAscensores/PlanoPisos",
+			"pixel_size": 0.00279999990016222,
+			"position": [
+				-24.0,
+				26.2676677703857,
+				-147.490005493164
+			],
+			"text": "PLANO DE LOS PISOS\r\n\r\n3  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO",
+			"visible": true
+		},
+		{
+			"double_sided": true,
+			"font_size": 56,
+			"path": "Piso4/VestibuloAscensores/PlanoPisos",
+			"pixel_size": 0.00279999990016222,
+			"position": [
+				-24.0,
+				37.9744148254395,
+				-147.490005493164
+			],
+			"text": "PLANO DE LOS PISOS\r\n\r\n4  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO",
+			"visible": true
+		},
+		{
+			"double_sided": true,
+			"font_size": 56,
+			"path": "Piso5/VestibuloAscensores/PlanoPisos",
+			"pixel_size": 0.00279999990016222,
+			"position": [
+				-24.0,
+				50.2748489379883,
+				-147.490005493164
+			],
+			"text": "PLANO DE LOS PISOS\r\n\r\n5  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO",
+			"visible": true
+		},
+		{
+			"double_sided": true,
+			"font_size": 56,
+			"path": "Piso6/VestibuloAscensores/PlanoPisos",
+			"pixel_size": 0.00279999990016222,
+			"position": [
+				-24.0,
+				62.4585037231445,
+				-147.490005493164
+			],
+			"text": "PLANO DE LOS PISOS\r\n\r\n6  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO",
+			"visible": true
+		},
+		{
+			"double_sided": true,
+			"font_size": 56,
+			"path": "Piso7/VestibuloAscensores/PlanoPisos",
+			"pixel_size": 0.00279999990016222,
+			"position": [
+				-24.0,
+				74.2421875,
+				-147.490005493164
+			],
+			"text": "PLANO DE LOS PISOS\r\n\r\n7  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO",
+			"visible": true
+		},
+		{
+			"double_sided": true,
+			"font_size": 56,
+			"path": "Piso8/VestibuloAscensores/PlanoPisos",
+			"pixel_size": 0.00279999990016222,
+			"position": [
+				-24.0,
+				86.2135543823242,
+				-147.490005493164
+			],
+			"text": "PLANO DE LOS PISOS\r\n\r\n8  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO",
+			"visible": true
+		}
+	],
+	"lattice_bounds": "[P: (-84.514, 12.1, -75.515), S: (168.664, 35.4, 0.089996)]",
+	"lattice_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+	"lights": [
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso1/Casino/AcabadosEntradaLateral/Luz",
+			"position": [
+				-31.0,
+				3.5,
+				-116.5
+			],
+			"range": 8.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.94, 0.84, 1.0)",
+			"energy": 2.0,
+			"path": "Piso1/Casino/InteriorFotografico/@OmniLight3D@24208",
+			"position": [
+				-38.0,
+				4.80000019073486,
+				-100.0
+			],
+			"range": 22.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.94, 0.84, 1.0)",
+			"energy": 2.0,
+			"path": "Piso1/Casino/InteriorFotografico/@OmniLight3D@24225",
+			"position": [
+				-47.0,
+				4.80000019073486,
+				-100.0
+			],
+			"range": 22.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.94, 0.84, 1.0)",
+			"energy": 2.0,
+			"path": "Piso1/Casino/InteriorFotografico/@OmniLight3D@24242",
+			"position": [
+				-56.0,
+				4.80000019073486,
+				-100.0
+			],
+			"range": 22.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.94, 0.84, 1.0)",
+			"energy": 2.0,
+			"path": "Piso1/Casino/InteriorFotografico/@OmniLight3D@24259",
+			"position": [
+				-65.0,
+				4.80000019073486,
+				-100.0
+			],
+			"range": 22.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.94, 0.84, 1.0)",
+			"energy": 2.0,
+			"path": "Piso1/Casino/InteriorFotografico/@OmniLight3D@24276",
+			"position": [
+				-74.0,
+				4.80000019073486,
+				-100.0
+			],
+			"range": 22.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.94, 0.84, 1.0)",
+			"energy": 2.0,
+			"path": "Piso1/Casino/InteriorFotografico/@OmniLight3D@24293",
+			"position": [
+				-80.0,
+				4.80000019073486,
+				-100.0
+			],
+			"range": 22.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso1/AcabadosPasilloCoordinacion/Luz",
+			"position": [
+				-25.0,
+				5.69999980926514,
+				-129.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso1/AcabadosPasilloCoordinacion/@OmniLight3D@215722",
+			"position": [
+				-7.0,
+				5.69999980926514,
+				-129.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso1/AcabadosPasilloCoordinacion/@OmniLight3D@215736",
+			"position": [
+				11.0,
+				5.69999980926514,
+				-129.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso1/AcabadosPasilloCoordinacion/@OmniLight3D@215750",
+			"position": [
+				29.0,
+				5.69999980926514,
+				-129.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso1/AcabadosPasilloCoordinacion/@OmniLight3D@215764",
+			"position": [
+				47.0,
+				5.69999980926514,
+				-129.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso1/AcabadosPasilloCoordinacion/@OmniLight3D@215778",
+			"position": [
+				65.0,
+				5.69999980926514,
+				-129.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso1/VestibuloAscensores/Luz",
+			"position": [
+				-16.0,
+				5.30000019073486,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso1/VestibuloAscensores/@OmniLight3D@215553",
+			"position": [
+				0.0,
+				5.30000019073486,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso1/VestibuloAscensores/@OmniLight3D@215555",
+			"position": [
+				16.0,
+				5.30000019073486,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.9, 0.94, 1.0, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/@OmniLight3D@4",
+			"position": [
+				36.0,
+				5.59999990463257,
+				-140.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.9, 0.94, 1.0, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/@OmniLight3D@6",
+			"position": [
+				46.0,
+				5.59999990463257,
+				-140.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.9, 0.94, 1.0, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/@OmniLight3D@8",
+			"position": [
+				56.0,
+				5.59999990463257,
+				-140.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.9, 0.94, 1.0, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/@OmniLight3D@10",
+			"position": [
+				66.0,
+				5.59999990463257,
+				-140.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.9, 0.94, 1.0, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/@OmniLight3D@12",
+			"position": [
+				75.0,
+				5.59999990463257,
+				-140.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.9, 0.94, 1.0, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/@OmniLight3D@15",
+			"position": [
+				36.0,
+				5.59999990463257,
+				-126.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.9, 0.94, 1.0, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/@OmniLight3D@17",
+			"position": [
+				46.0,
+				5.59999990463257,
+				-126.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.9, 0.94, 1.0, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/@OmniLight3D@19",
+			"position": [
+				56.0,
+				5.59999990463257,
+				-126.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.9, 0.94, 1.0, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/@OmniLight3D@21",
+			"position": [
+				66.0,
+				5.59999990463257,
+				-126.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.9, 0.94, 1.0, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/@OmniLight3D@23",
+			"position": [
+				75.0,
+				5.59999990463257,
+				-126.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.85, 0.65, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/Capilla/@OmniLight3D@339",
+			"position": [
+				62.0,
+				5.40000009536743,
+				-147.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.85, 0.65, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/Capilla/@OmniLight3D@340",
+			"position": [
+				62.0,
+				5.40000009536743,
+				-153.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.85, 0.65, 1.0)",
+			"energy": 1.5,
+			"path": "Piso1/PasilloDerechoYCapilla/Capilla/@OmniLight3D@341",
+			"position": [
+				62.0,
+				5.40000009536743,
+				-159.0
+			],
+			"range": 14.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso1/Iluminacion/LuzNorte",
+			"position": [
+				46.0077629089355,
+				-12.1958923339844,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/EscaleraEmergencia/LuzEmergencia",
+			"position": [
+				-20.7000007629395,
+				4.5,
+				-154.300003051758
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.91, 0.78, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/InteriorCoordinacion/LuzReferencia39_0-117_0",
+			"position": [
+				39.0,
+				4.56999969482422,
+				-117.0
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.91, 0.78, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/InteriorCoordinacion/LuzReferencia39_0-105_0",
+			"position": [
+				39.0,
+				4.56999969482422,
+				-105.0
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.91, 0.78, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/InteriorCoordinacion/LuzReferencia39_0-96_0",
+			"position": [
+				39.0,
+				4.56999969482422,
+				-96.0
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.91, 0.78, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/InteriorCoordinacion/LuzReferencia52_0-117_0",
+			"position": [
+				52.0,
+				4.56999969482422,
+				-117.0
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.91, 0.78, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/InteriorCoordinacion/LuzReferencia52_0-105_0",
+			"position": [
+				52.0,
+				4.56999969482422,
+				-105.0
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.91, 0.78, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/InteriorCoordinacion/LuzReferencia52_0-96_0",
+			"position": [
+				52.0,
+				4.56999969482422,
+				-96.0
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.91, 0.78, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/InteriorCoordinacion/LuzReferencia65_0-117_0",
+			"position": [
+				65.0,
+				4.56999969482422,
+				-117.0
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.91, 0.78, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/InteriorCoordinacion/LuzReferencia65_0-105_0",
+			"position": [
+				65.0,
+				4.56999969482422,
+				-105.0
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.91, 0.78, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/InteriorCoordinacion/LuzReferencia65_0-96_0",
+			"position": [
+				65.0,
+				4.56999969482422,
+				-96.0
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.91, 0.78, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/InteriorCoordinacion/LuzReferencia77_0-117_0",
+			"position": [
+				77.0,
+				4.56999969482422,
+				-117.0
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.91, 0.78, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/InteriorCoordinacion/LuzReferencia77_0-105_0",
+			"position": [
+				77.0,
+				4.56999969482422,
+				-105.0
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.91, 0.78, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso1/InteriorCoordinacion/LuzReferencia77_0-96_0",
+			"position": [
+				77.0,
+				4.56999969482422,
+				-96.0
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.84, 0.62, 1.0)",
+			"energy": 1.79999995231628,
+			"path": "Piso2/AuditorioPiso2e/IluminacionCalida/Luz46_0-118_0",
+			"position": [
+				45.6393814086914,
+				16.7999992370605,
+				-91.3761596679688
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.84, 0.62, 1.0)",
+			"energy": 1.79999995231628,
+			"path": "Piso2/AuditorioPiso2e/IluminacionCalida/Luz46_0-109_0",
+			"position": [
+				52.128662109375,
+				16.7999992370605,
+				-91.3761596679688
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.84, 0.62, 1.0)",
+			"energy": 1.79999995231628,
+			"path": "Piso2/AuditorioPiso2e/IluminacionCalida/Luz46_0-100_0",
+			"position": [
+				58.6179428100586,
+				16.7999992370605,
+				-91.3761596679688
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.84, 0.62, 1.0)",
+			"energy": 1.79999995231628,
+			"path": "Piso2/AuditorioPiso2e/IluminacionCalida/Luz46_0-91_0",
+			"position": [
+				65.1072235107422,
+				16.7999992370605,
+				-91.3761596679688
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.84, 0.62, 1.0)",
+			"energy": 1.79999995231628,
+			"path": "Piso2/AuditorioPiso2e/IluminacionCalida/Luz55_4-118_0",
+			"position": [
+				45.6393814086914,
+				16.7999992370605,
+				-104.413040161133
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.84, 0.62, 1.0)",
+			"energy": 1.79999995231628,
+			"path": "Piso2/AuditorioPiso2e/IluminacionCalida/Luz55_4-109_0",
+			"position": [
+				52.128662109375,
+				16.7999992370605,
+				-104.413040161133
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.84, 0.62, 1.0)",
+			"energy": 1.79999995231628,
+			"path": "Piso2/AuditorioPiso2e/IluminacionCalida/Luz55_4-100_0",
+			"position": [
+				58.6179428100586,
+				16.7999992370605,
+				-104.413040161133
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.84, 0.62, 1.0)",
+			"energy": 1.79999995231628,
+			"path": "Piso2/AuditorioPiso2e/IluminacionCalida/Luz55_4-91_0",
+			"position": [
+				65.1072235107422,
+				16.7999992370605,
+				-104.413040161133
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.84, 0.62, 1.0)",
+			"energy": 1.79999995231628,
+			"path": "Piso2/AuditorioPiso2e/IluminacionCalida/Luz64_8-118_0",
+			"position": [
+				45.6393814086914,
+				16.7999992370605,
+				-117.449928283691
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.84, 0.62, 1.0)",
+			"energy": 1.79999995231628,
+			"path": "Piso2/AuditorioPiso2e/IluminacionCalida/Luz64_8-109_0",
+			"position": [
+				52.128662109375,
+				16.7999992370605,
+				-117.449928283691
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.84, 0.62, 1.0)",
+			"energy": 1.79999995231628,
+			"path": "Piso2/AuditorioPiso2e/IluminacionCalida/Luz64_8-100_0",
+			"position": [
+				58.6179428100586,
+				16.7999992370605,
+				-117.449928283691
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.84, 0.62, 1.0)",
+			"energy": 1.79999995231628,
+			"path": "Piso2/AuditorioPiso2e/IluminacionCalida/Luz64_8-91_0",
+			"position": [
+				65.1072235107422,
+				16.7999992370605,
+				-117.449928283691
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.89, 0.74, 1.0)",
+			"energy": 1.10000002384186,
+			"path": "Piso2/AuditorioPiso2e/AuditorioAmpliado/Luz46_0-114_0",
+			"position": [
+				46.0,
+				20.0,
+				-114.0
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.89, 0.74, 1.0)",
+			"energy": 1.10000002384186,
+			"path": "Piso2/AuditorioPiso2e/AuditorioAmpliado/Luz46_0-104_0",
+			"position": [
+				46.0,
+				20.0,
+				-104.0
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.89, 0.74, 1.0)",
+			"energy": 1.10000002384186,
+			"path": "Piso2/AuditorioPiso2e/AuditorioAmpliado/Luz46_0-91_0",
+			"position": [
+				46.0,
+				20.0,
+				-91.0
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.89, 0.74, 1.0)",
+			"energy": 1.10000002384186,
+			"path": "Piso2/AuditorioPiso2e/AuditorioAmpliado/Luz54_0-114_0",
+			"position": [
+				54.0,
+				20.0,
+				-114.0
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.89, 0.74, 1.0)",
+			"energy": 1.10000002384186,
+			"path": "Piso2/AuditorioPiso2e/AuditorioAmpliado/Luz54_0-104_0",
+			"position": [
+				54.0,
+				20.0,
+				-104.0
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.89, 0.74, 1.0)",
+			"energy": 1.10000002384186,
+			"path": "Piso2/AuditorioPiso2e/AuditorioAmpliado/Luz54_0-91_0",
+			"position": [
+				54.0,
+				20.0,
+				-91.0
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.89, 0.74, 1.0)",
+			"energy": 1.10000002384186,
+			"path": "Piso2/AuditorioPiso2e/AuditorioAmpliado/Luz62_0-114_0",
+			"position": [
+				62.0,
+				20.0,
+				-114.0
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.89, 0.74, 1.0)",
+			"energy": 1.10000002384186,
+			"path": "Piso2/AuditorioPiso2e/AuditorioAmpliado/Luz62_0-104_0",
+			"position": [
+				62.0,
+				20.0,
+				-104.0
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.89, 0.74, 1.0)",
+			"energy": 1.10000002384186,
+			"path": "Piso2/AuditorioPiso2e/AuditorioAmpliado/Luz62_0-91_0",
+			"position": [
+				62.0,
+				20.0,
+				-91.0
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso2/AuditorioPiso2e/AuditorioAmpliado/LuzAmpliacionTarima",
+			"position": [
+				37.0,
+				19.0,
+				-110.0
+			],
+			"range": 18.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.94, 0.84, 1.0)",
+			"energy": 0.899999976158142,
+			"path": "Piso2/AcabadosZonaAscensores/TechoInstalaciones/LuzPasillo-16_0-146_0",
+			"position": [
+				-16.0,
+				18.7999992370605,
+				-146.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.94, 0.84, 1.0)",
+			"energy": 0.899999976158142,
+			"path": "Piso2/AcabadosZonaAscensores/TechoInstalaciones/LuzPasillo-16_0-136_0",
+			"position": [
+				-16.0,
+				18.7999992370605,
+				-136.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.94, 0.84, 1.0)",
+			"energy": 0.899999976158142,
+			"path": "Piso2/AcabadosZonaAscensores/TechoInstalaciones/LuzPasillo0_0-146_0",
+			"position": [
+				0.0,
+				18.7999992370605,
+				-146.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.94, 0.84, 1.0)",
+			"energy": 0.899999976158142,
+			"path": "Piso2/AcabadosZonaAscensores/TechoInstalaciones/LuzPasillo0_0-136_0",
+			"position": [
+				0.0,
+				18.7999992370605,
+				-136.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.94, 0.84, 1.0)",
+			"energy": 0.899999976158142,
+			"path": "Piso2/AcabadosZonaAscensores/TechoInstalaciones/LuzPasillo16_0-146_0",
+			"position": [
+				16.0,
+				18.7999992370605,
+				-146.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.94, 0.84, 1.0)",
+			"energy": 0.899999976158142,
+			"path": "Piso2/AcabadosZonaAscensores/TechoInstalaciones/LuzPasillo16_0-136_0",
+			"position": [
+				16.0,
+				18.7999992370605,
+				-136.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso2/VestibuloAscensores/Luz",
+			"position": [
+				-16.0,
+				17.3583869934082,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso2/VestibuloAscensores/@OmniLight3D@215575",
+			"position": [
+				0.0,
+				17.3583869934082,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso2/VestibuloAscensores/@OmniLight3D@215577",
+			"position": [
+				16.0,
+				17.3583869934082,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso2/Iluminacion/LuzNorte",
+			"position": [
+				46.0077629089355,
+				2.89770889282227,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso2/Iluminacion/LuzSur",
+			"position": [
+				-55.9532165527344,
+				2.70570373535156,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso2/EscaleraEmergencia/LuzEmergencia",
+			"position": [
+				-20.7000007629395,
+				16.558385848999,
+				-154.300003051758
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso2/Biblioteca/SalasEstudio/SalaEstudio1/Luz",
+			"position": [
+				-41.4779968261719,
+				15.7583856582642,
+				-118.76000213623
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso2/Biblioteca/SalasEstudio/SalaEstudio2/Luz",
+			"position": [
+				-41.4780044555664,
+				15.7583856582642,
+				-111.080001831055
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso2/Biblioteca/SalasEstudio/SalaEstudio3/Luz",
+			"position": [
+				-41.4780044555664,
+				15.7583856582642,
+				-103.400001525879
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso2/Biblioteca/SalasEstudio/SalaEstudio4/Luz",
+			"position": [
+				-41.4780044555664,
+				15.7583856582642,
+				-95.7200012207031
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso2/Biblioteca/SalasEstudio/SalaEstudio5/Luz",
+			"position": [
+				-41.4780044555664,
+				15.7583856582642,
+				-88.0400009155273
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso2/Biblioteca/SalasEstudio/SalaEstudio6/Luz",
+			"position": [
+				-41.4780044555664,
+				15.7583856582642,
+				-80.3600006103516
+			],
+			"range": 13.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso2/Biblioteca/AcabadosReferencia/Luz",
+			"position": [
+				-70.0,
+				17.058385848999,
+				-110.0
+			],
+			"range": 18.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso2/Biblioteca/AcabadosReferencia/@OmniLight3D@218451",
+			"position": [
+				-70.0,
+				17.058385848999,
+				-90.0
+			],
+			"range": 18.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso2/Biblioteca/AcabadosReferencia/@OmniLight3D@218452",
+			"position": [
+				-43.0,
+				16.058385848999,
+				-80.0
+			],
+			"range": 18.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso3/VestibuloAscensores/Luz",
+			"position": [
+				-16.0,
+				29.2676696777344,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso3/VestibuloAscensores/@OmniLight3D@215597",
+			"position": [
+				0.0,
+				29.2676696777344,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso3/VestibuloAscensores/@OmniLight3D@215599",
+			"position": [
+				16.0,
+				29.2676696777344,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso3/Iluminacion/LuzNorte",
+			"position": [
+				46.0077629089355,
+				17.4523963928223,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso3/Iluminacion/LuzSur",
+			"position": [
+				-55.9532165527344,
+				17.7398872375488,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso3/EscaleraEmergencia/LuzEmergencia",
+			"position": [
+				-20.7000007629395,
+				28.4676685333252,
+				-154.300003051758
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.86, 0.68, 1.0)",
+			"energy": 2.29999995231628,
+			"path": "Piso3/LocalComidaReferencia/LuzLocal",
+			"position": [
+				69.2184524536133,
+				31.8340759277344,
+				-102.501762390137
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.86, 0.68, 1.0)",
+			"energy": 2.29999995231628,
+			"path": "Piso3/LocalComidaReferencia/LuzLocal_0975",
+			"position": [
+				56.2564964294434,
+				31.8340759277344,
+				-102.501762390137
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.86, 0.68, 1.0)",
+			"energy": 2.29999995231628,
+			"path": "Piso3/LocalComidaReferencia/LuzLocal_0977",
+			"position": [
+				43.2945404052734,
+				31.8340759277344,
+				-102.501762390137
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.86, 0.68, 1.0)",
+			"energy": 2.29999995231628,
+			"path": "Piso3/LocalComidaReferencia/LuzLocal_0979",
+			"position": [
+				69.2184524536133,
+				31.8340759277344,
+				-118.001762390137
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.86, 0.68, 1.0)",
+			"energy": 2.29999995231628,
+			"path": "Piso3/LocalComidaReferencia/LuzLocal_0981",
+			"position": [
+				56.2564964294434,
+				31.8340759277344,
+				-118.001762390137
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.86, 0.68, 1.0)",
+			"energy": 2.29999995231628,
+			"path": "Piso3/LocalComidaReferencia/LuzLocal_0983",
+			"position": [
+				43.2945404052734,
+				31.8340759277344,
+				-118.001762390137
+			],
+			"range": 15.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.0,
+			"path": "Piso3/SalaDetrasLocal/Sala303/LuzInterior",
+			"position": [
+				31.2998886108398,
+				27.3850002288818,
+				-116.075004577637
+			],
+			"range": 8.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.0,
+			"path": "Piso3/SalaDetrasLocal/Sala303/LuzInterior_0609",
+			"position": [
+				31.2998886108398,
+				27.3850002288818,
+				-105.320007324219
+			],
+			"range": 8.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.0,
+			"path": "Piso3/SalaDetrasLocal/Sala303/LuzInterior_0611",
+			"position": [
+				24.5998878479004,
+				27.3850002288818,
+				-116.075004577637
+			],
+			"range": 8.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.0,
+			"path": "Piso3/SalaDetrasLocal/Sala303/LuzInterior_0613",
+			"position": [
+				24.599889755249,
+				27.3850002288818,
+				-105.320007324219
+			],
+			"range": 8.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/DistribucionPlanoPiso4/411/@OmniLight3D@35102",
+			"position": [
+				-66.3999938964844,
+				40.6744155883789,
+				-151.220001220703
+			],
+			"range": 19.0740013122559,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/DistribucionPlanoPiso4/412/@OmniLight3D@35195",
+			"position": [
+				-56.7999992370605,
+				40.6744155883789,
+				-151.220001220703
+			],
+			"range": 19.0740013122559,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/DistribucionPlanoPiso4/413/@OmniLight3D@35288",
+			"position": [
+				-47.7000007629395,
+				40.6744155883789,
+				-151.220001220703
+			],
+			"range": 19.0740013122559,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/DistribucionPlanoPiso4/BAÑO MUJERES/@OmniLight3D@35381",
+			"position": [
+				-39.3000030517578,
+				40.6744155883789,
+				-151.220001220703
+			],
+			"range": 19.0740013122559,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/DistribucionPlanoPiso4/416/@OmniLight3D@35418",
+			"position": [
+				-30.7045001983643,
+				40.6744155883789,
+				-151.220001220703
+			],
+			"range": 19.0740013122559,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/SectorDocentesPiso4/BanosDocentes/@OmniLight3D@35835",
+			"position": [
+				37.0499992370605,
+				40.6744155883789,
+				-151.220001220703
+			],
+			"range": 19.0740013122559,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/SectorDocentesPiso4/ProfesoresCoordDocente/@OmniLight3D@35874",
+			"position": [
+				51.8499984741211,
+				40.6744155883789,
+				-151.220001220703
+			],
+			"range": 19.0740013122559,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/SectorDocentesPiso4/ED/@OmniLight3D@35977",
+			"position": [
+				66.1100006103516,
+				40.6744155883789,
+				-151.220001220703
+			],
+			"range": 19.0740013122559,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/410/@OmniLight3D@36133",
+			"position": [
+				-79.9243850708008,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.01836013793945,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/409/@OmniLight3D@36226",
+			"position": [
+				-70.970573425293,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.01836013793945,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/408/@OmniLight3D@36319",
+			"position": [
+				-62.5141983032227,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.01836013793945,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/PanolSalud/@OmniLight3D@36412",
+			"position": [
+				-56.0475654602051,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.01836013793945,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/407/@OmniLight3D@36455",
+			"position": [
+				-48.337345123291,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.30200862884521,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/406/@OmniLight3D@36548",
+			"position": [
+				-38.6373901367188,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.01836013793945,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/405/@OmniLight3D@36641",
+			"position": [
+				-30.1810169219971,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.01836013793945,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/404/@OmniLight3D@36734",
+			"position": [
+				-20.7297782897949,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.01836013793945,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/CoworkDocente/@OmniLight3D@36827",
+			"position": [
+				-10.2836723327637,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.01836013793945,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/402/@OmniLight3D@36875",
+			"position": [
+				0.411150455474854,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.30200862884521,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/401/@OmniLight3D@36968",
+			"position": [
+				11.3546905517578,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.30200862884521,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/AdmisionComunicacionExtension/@OmniLight3D@37061",
+			"position": [
+				24.2879638671875,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 12.6845579147339,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/ContabilidadAdministracion/@OmniLight3D@37109",
+			"position": [
+				37.2212409973145,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.30200862884521,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/Cafeteria/@OmniLight3D@37157",
+			"position": [
+				45.4288940429688,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 9.01836013793945,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/DireccionSede/@OmniLight3D@37172",
+			"position": [
+				57.6160202026367,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 16.0671062469482,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/FilaFrontalPiso4/SalaReunionesDireccion/@OmniLight3D@37220",
+			"position": [
+				75.5236206054688,
+				40.6744155883789,
+				-82.1049194335938
+			],
+			"range": 14.3758316040039,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/SalasCentralesPiso4/418/@OmniLight3D@40822",
+			"position": [
+				-63.8869972229004,
+				40.6744155883789,
+				-109.771324157715
+			],
+			"range": 21.1874980926514,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/SalasCentralesPiso4/417/@OmniLight3D@40915",
+			"position": [
+				-51.4160003662109,
+				40.6744155883789,
+				-109.771324157715
+			],
+			"range": 21.1874980926514,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.0,
+			"path": "Piso4/SalasCentralesPiso4/415/@OmniLight3D@41008",
+			"position": [
+				-38.8009986877441,
+				40.6744155883789,
+				-109.771324157715
+			],
+			"range": 21.1874980926514,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso4/VestibuloAscensores/Luz",
+			"position": [
+				-16.0,
+				40.9744148254395,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso4/VestibuloAscensores/@OmniLight3D@215619",
+			"position": [
+				0.0,
+				40.9744148254395,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso4/VestibuloAscensores/@OmniLight3D@215621",
+			"position": [
+				16.0,
+				40.9744148254395,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso4/Iluminacion/LuzNorte",
+			"position": [
+				46.0077629089355,
+				30.9303283691406,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso4/Iluminacion/LuzSur",
+			"position": [
+				-55.9532165527344,
+				32.1053657531738,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso4/EscaleraEmergencia/LuzEmergencia",
+			"position": [
+				-20.7000007629395,
+				40.1744155883789,
+				-154.300003051758
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso5/VestibuloAscensores/Luz",
+			"position": [
+				-16.0,
+				53.2748489379883,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso5/VestibuloAscensores/@OmniLight3D@215641",
+			"position": [
+				0.0,
+				53.2748489379883,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso5/VestibuloAscensores/@OmniLight3D@215643",
+			"position": [
+				16.0,
+				53.2748489379883,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso5/Iluminacion/LuzNorte",
+			"position": [
+				46.0077629089355,
+				46.6248245239258,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso5/Iluminacion/LuzSur",
+			"position": [
+				-55.9532165527344,
+				47.4101676940918,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso5/EscaleraEmergencia/LuzEmergencia",
+			"position": [
+				-20.7000007629395,
+				52.4748497009277,
+				-154.300003051758
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.0,
+			"path": "Piso5/TiendaEsquinaPiso5/LuzInterior",
+			"position": [
+				-31.7209987640381,
+				53.0574989318848,
+				-146.876998901367
+			],
+			"range": 8.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.0,
+			"path": "Piso5/TiendaEsquinaPiso5/LuzInterior_0157",
+			"position": [
+				-26.3209991455078,
+				53.0574989318848,
+				-146.876998901367
+			],
+			"range": 8.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso6/VestibuloAscensores/Luz",
+			"position": [
+				-16.0,
+				65.4585037231445,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso6/VestibuloAscensores/@OmniLight3D@215663",
+			"position": [
+				0.0,
+				65.4585037231445,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso6/VestibuloAscensores/@OmniLight3D@215665",
+			"position": [
+				16.0,
+				65.4585037231445,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso6/Iluminacion/LuzNorte",
+			"position": [
+				46.0077629089355,
+				61.7227249145508,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso6/Iluminacion/LuzSur",
+			"position": [
+				-55.9532165527344,
+				62.0834922790527,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso6/EscaleraEmergencia/LuzEmergencia",
+			"position": [
+				-20.7000007629395,
+				64.6585006713867,
+				-154.300003051758
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala807/LuzInterior",
+			"position": [
+				-54.0,
+				70.694953918457,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala807/LuzInterior_0609",
+			"position": [
+				-54.0,
+				70.694953918457,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala807/LuzInterior_0611",
+			"position": [
+				-46.0,
+				70.694953918457,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala807/LuzInterior_0613",
+			"position": [
+				-46.0,
+				70.694953918457,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala808/LuzInterior",
+			"position": [
+				-38.0,
+				70.694953918457,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala808/LuzInterior_1225",
+			"position": [
+				-38.0,
+				70.694953918457,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala808/LuzInterior_1227",
+			"position": [
+				-30.0,
+				70.694953918457,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala808/LuzInterior_1229",
+			"position": [
+				-30.0,
+				70.694953918457,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala805/LuzInterior",
+			"position": [
+				36.125,
+				70.694953918457,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala805/LuzInterior_1841",
+			"position": [
+				36.125,
+				70.694953918457,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala805/LuzInterior_1843",
+			"position": [
+				42.375,
+				70.694953918457,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala805/LuzInterior_1845",
+			"position": [
+				42.375,
+				70.694953918457,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala806/LuzInterior",
+			"position": [
+				48.625,
+				70.694953918457,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala806/LuzInterior_2457",
+			"position": [
+				48.625,
+				70.694953918457,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala806/LuzInterior_2459",
+			"position": [
+				54.875,
+				70.694953918457,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala806/LuzInterior_2461",
+			"position": [
+				54.875,
+				70.694953918457,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala809/LuzInterior",
+			"position": [
+				23.25,
+				70.694953918457,
+				-140.449996948242
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala809/LuzInterior_2753",
+			"position": [
+				23.25,
+				70.694953918457,
+				-145.220001220703
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala809/LuzInterior_2755",
+			"position": [
+				29.75,
+				70.694953918457,
+				-140.449996948242
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala809/LuzInterior_2757",
+			"position": [
+				29.75,
+				70.694953918457,
+				-145.220001220703
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala810/LuzInterior",
+			"position": [
+				-24.5,
+				70.694953918457,
+				-139.850006103516
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala810/LuzInterior_2917",
+			"position": [
+				-24.5,
+				70.694953918457,
+				-143.540008544922
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala810/LuzInterior_2919",
+			"position": [
+				-21.5,
+				70.694953918457,
+				-139.850006103516
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/Sala810/LuzInterior_2921",
+			"position": [
+				-21.5,
+				70.694953918457,
+				-143.540008544922
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/BanosMujeres/LuzInterior",
+			"position": [
+				-64.0,
+				70.694953918457,
+				-141.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/BanosMujeres/LuzInterior_3069",
+			"position": [
+				-64.0,
+				70.694953918457,
+				-147.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/BanosMujeres/LuzInterior_3071",
+			"position": [
+				-64.0,
+				70.694953918457,
+				-153.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/BanosHombres/LuzInterior",
+			"position": [
+				64.0,
+				70.694953918457,
+				-141.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/BanosHombres/LuzInterior_3222",
+			"position": [
+				64.0,
+				70.694953918457,
+				-147.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/BanosHombres/LuzInterior_3224",
+			"position": [
+				64.0,
+				70.694953918457,
+				-153.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/ZonaEncuentroDuoc/LuzInterior",
+			"position": [
+				-12.0,
+				70.694953918457,
+				-142.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/ZonaEncuentroDuoc/LuzInterior_3375",
+			"position": [
+				0.0,
+				70.694953918457,
+				-142.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/ZonaEncuentroDuoc/LuzInterior_3377",
+			"position": [
+				12.0,
+				70.694953918457,
+				-142.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior",
+			"position": [
+				-21.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3411",
+			"position": [
+				-21.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3413",
+			"position": [
+				-21.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3433",
+			"position": [
+				-27.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3435",
+			"position": [
+				-27.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3437",
+			"position": [
+				-27.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3460",
+			"position": [
+				-33.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3462",
+			"position": [
+				-33.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3464",
+			"position": [
+				-33.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3484",
+			"position": [
+				-39.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3486",
+			"position": [
+				-39.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3488",
+			"position": [
+				-39.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3511",
+			"position": [
+				-45.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3513",
+			"position": [
+				-45.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3515",
+			"position": [
+				-45.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3535",
+			"position": [
+				-51.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3537",
+			"position": [
+				-51.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3539",
+			"position": [
+				-51.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3562",
+			"position": [
+				-57.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3564",
+			"position": [
+				-57.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3566",
+			"position": [
+				-57.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3586",
+			"position": [
+				-63.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3588",
+			"position": [
+				-63.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3590",
+			"position": [
+				-63.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3613",
+			"position": [
+				-69.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3615",
+			"position": [
+				-69.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3617",
+			"position": [
+				-69.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3637",
+			"position": [
+				-75.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3639",
+			"position": [
+				-75.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3641",
+			"position": [
+				-75.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3664",
+			"position": [
+				-81.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3666",
+			"position": [
+				-81.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3668",
+			"position": [
+				-81.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3671",
+			"position": [
+				-19.0,
+				70.694953918457,
+				-131.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3697",
+			"position": [
+				21.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3699",
+			"position": [
+				21.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3701",
+			"position": [
+				21.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3721",
+			"position": [
+				27.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3723",
+			"position": [
+				27.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3725",
+			"position": [
+				27.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3748",
+			"position": [
+				33.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3750",
+			"position": [
+				33.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3752",
+			"position": [
+				33.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3772",
+			"position": [
+				39.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3774",
+			"position": [
+				39.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3776",
+			"position": [
+				39.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3799",
+			"position": [
+				45.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3801",
+			"position": [
+				45.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3803",
+			"position": [
+				45.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3823",
+			"position": [
+				51.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3825",
+			"position": [
+				51.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3827",
+			"position": [
+				51.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3850",
+			"position": [
+				57.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3852",
+			"position": [
+				57.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3854",
+			"position": [
+				57.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3874",
+			"position": [
+				63.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3876",
+			"position": [
+				63.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3878",
+			"position": [
+				63.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3901",
+			"position": [
+				69.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3903",
+			"position": [
+				69.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3905",
+			"position": [
+				69.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3925",
+			"position": [
+				75.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3927",
+			"position": [
+				75.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3929",
+			"position": [
+				75.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3952",
+			"position": [
+				81.0,
+				70.694953918457,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3954",
+			"position": [
+				81.0,
+				70.694953918457,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3956",
+			"position": [
+				81.0,
+				70.694953918457,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3959",
+			"position": [
+				19.0,
+				70.694953918457,
+				-131.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/SalaEstudioExtremoSur/LuzInterior",
+			"position": [
+				-77.0,
+				70.694953918457,
+				-140.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/SalaEstudioExtremoSur_4187/LuzInterior",
+			"position": [
+				77.0,
+				70.694953918457,
+				-140.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/AcabadosPasilloCompleto/LuzInterior",
+			"position": [
+				0.549999237060547,
+				70.6849517822266,
+				-140.726501464844
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/AcabadosPasilloCompleto/LuzInterior_4275",
+			"position": [
+				19.1499996185303,
+				70.6849517822266,
+				-143.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso6/PasilloReferencia/AcabadosPasilloCompleto/LuzInterior_4281",
+			"position": [
+				-18.6000003814697,
+				70.6849517822266,
+				-143.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso7/VestibuloAscensores/Luz",
+			"position": [
+				-16.0,
+				77.2421875,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso7/VestibuloAscensores/@OmniLight3D@215685",
+			"position": [
+				0.0,
+				77.2421875,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso7/VestibuloAscensores/@OmniLight3D@215687",
+			"position": [
+				16.0,
+				77.2421875,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso7/Iluminacion/LuzNorte",
+			"position": [
+				46.0077629089355,
+				77.1087875366211,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso7/Iluminacion/LuzSur",
+			"position": [
+				-55.9532165527344,
+				78.4019165039063,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso7/EscaleraEmergencia/LuzEmergencia",
+			"position": [
+				-20.7000007629395,
+				76.4421844482422,
+				-154.300003051758
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala807/LuzInterior",
+			"position": [
+				-54.0,
+				82.478630065918,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala807/LuzInterior_0609",
+			"position": [
+				-54.0,
+				82.478630065918,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala807/LuzInterior_0611",
+			"position": [
+				-46.0,
+				82.478630065918,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala807/LuzInterior_0613",
+			"position": [
+				-46.0,
+				82.478630065918,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala808/LuzInterior",
+			"position": [
+				-38.0,
+				82.478630065918,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala808/LuzInterior_1225",
+			"position": [
+				-38.0,
+				82.478630065918,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala808/LuzInterior_1227",
+			"position": [
+				-30.0,
+				82.478630065918,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala808/LuzInterior_1229",
+			"position": [
+				-30.0,
+				82.478630065918,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala805/LuzInterior",
+			"position": [
+				36.125,
+				82.478630065918,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala805/LuzInterior_1841",
+			"position": [
+				36.125,
+				82.478630065918,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala805/LuzInterior_1843",
+			"position": [
+				42.375,
+				82.478630065918,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala805/LuzInterior_1845",
+			"position": [
+				42.375,
+				82.478630065918,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala806/LuzInterior",
+			"position": [
+				48.625,
+				82.478630065918,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala806/LuzInterior_2457",
+			"position": [
+				48.625,
+				82.478630065918,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala806/LuzInterior_2459",
+			"position": [
+				54.875,
+				82.478630065918,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala806/LuzInterior_2461",
+			"position": [
+				54.875,
+				82.478630065918,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala809/LuzInterior",
+			"position": [
+				23.25,
+				82.478630065918,
+				-140.449996948242
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala809/LuzInterior_2753",
+			"position": [
+				23.25,
+				82.478630065918,
+				-145.220001220703
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala809/LuzInterior_2755",
+			"position": [
+				29.75,
+				82.478630065918,
+				-140.449996948242
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala809/LuzInterior_2757",
+			"position": [
+				29.75,
+				82.478630065918,
+				-145.220001220703
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala810/LuzInterior",
+			"position": [
+				-24.5,
+				82.478630065918,
+				-139.850006103516
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala810/LuzInterior_2917",
+			"position": [
+				-24.5,
+				82.478630065918,
+				-143.540008544922
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala810/LuzInterior_2919",
+			"position": [
+				-21.5,
+				82.478630065918,
+				-139.850006103516
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/Sala810/LuzInterior_2921",
+			"position": [
+				-21.5,
+				82.478630065918,
+				-143.540008544922
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/BanosMujeres/LuzInterior",
+			"position": [
+				-64.0,
+				82.478630065918,
+				-141.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/BanosMujeres/LuzInterior_3069",
+			"position": [
+				-64.0,
+				82.478630065918,
+				-147.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/BanosMujeres/LuzInterior_3071",
+			"position": [
+				-64.0,
+				82.478630065918,
+				-153.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/BanosHombres/LuzInterior",
+			"position": [
+				64.0,
+				82.478630065918,
+				-141.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/BanosHombres/LuzInterior_3222",
+			"position": [
+				64.0,
+				82.478630065918,
+				-147.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/BanosHombres/LuzInterior_3224",
+			"position": [
+				64.0,
+				82.478630065918,
+				-153.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/ZonaEncuentroDuoc/LuzInterior",
+			"position": [
+				-12.0,
+				82.478630065918,
+				-142.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/ZonaEncuentroDuoc/LuzInterior_3375",
+			"position": [
+				0.0,
+				82.478630065918,
+				-142.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/ZonaEncuentroDuoc/LuzInterior_3377",
+			"position": [
+				12.0,
+				82.478630065918,
+				-142.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior",
+			"position": [
+				-21.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3411",
+			"position": [
+				-21.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3413",
+			"position": [
+				-21.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3433",
+			"position": [
+				-27.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3435",
+			"position": [
+				-27.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3437",
+			"position": [
+				-27.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3460",
+			"position": [
+				-33.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3462",
+			"position": [
+				-33.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3464",
+			"position": [
+				-33.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3484",
+			"position": [
+				-39.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3486",
+			"position": [
+				-39.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3488",
+			"position": [
+				-39.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3511",
+			"position": [
+				-45.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3513",
+			"position": [
+				-45.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3515",
+			"position": [
+				-45.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3535",
+			"position": [
+				-51.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3537",
+			"position": [
+				-51.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3539",
+			"position": [
+				-51.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3562",
+			"position": [
+				-57.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3564",
+			"position": [
+				-57.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3566",
+			"position": [
+				-57.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3586",
+			"position": [
+				-63.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3588",
+			"position": [
+				-63.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3590",
+			"position": [
+				-63.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3613",
+			"position": [
+				-69.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3615",
+			"position": [
+				-69.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3617",
+			"position": [
+				-69.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3637",
+			"position": [
+				-75.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3639",
+			"position": [
+				-75.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3641",
+			"position": [
+				-75.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3664",
+			"position": [
+				-81.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3666",
+			"position": [
+				-81.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3668",
+			"position": [
+				-81.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3671",
+			"position": [
+				-19.0,
+				82.478630065918,
+				-131.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3697",
+			"position": [
+				21.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3699",
+			"position": [
+				21.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3701",
+			"position": [
+				21.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3721",
+			"position": [
+				27.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3723",
+			"position": [
+				27.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3725",
+			"position": [
+				27.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3748",
+			"position": [
+				33.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3750",
+			"position": [
+				33.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3752",
+			"position": [
+				33.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3772",
+			"position": [
+				39.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3774",
+			"position": [
+				39.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3776",
+			"position": [
+				39.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3799",
+			"position": [
+				45.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3801",
+			"position": [
+				45.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3803",
+			"position": [
+				45.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3823",
+			"position": [
+				51.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3825",
+			"position": [
+				51.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3827",
+			"position": [
+				51.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3850",
+			"position": [
+				57.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3852",
+			"position": [
+				57.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3854",
+			"position": [
+				57.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3874",
+			"position": [
+				63.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3876",
+			"position": [
+				63.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3878",
+			"position": [
+				63.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3901",
+			"position": [
+				69.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3903",
+			"position": [
+				69.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3905",
+			"position": [
+				69.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3925",
+			"position": [
+				75.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3927",
+			"position": [
+				75.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3929",
+			"position": [
+				75.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3952",
+			"position": [
+				81.0,
+				82.478630065918,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3954",
+			"position": [
+				81.0,
+				82.478630065918,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3956",
+			"position": [
+				81.0,
+				82.478630065918,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3959",
+			"position": [
+				19.0,
+				82.478630065918,
+				-131.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/SalaEstudioExtremoSur/LuzInterior",
+			"position": [
+				-77.0,
+				82.478630065918,
+				-140.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/SalaEstudioExtremoSur_4187/LuzInterior",
+			"position": [
+				77.0,
+				82.478630065918,
+				-140.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/AcabadosPasilloCompleto/LuzInterior",
+			"position": [
+				0.549999237060547,
+				82.4686279296875,
+				-140.726501464844
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/AcabadosPasilloCompleto/LuzInterior_4275",
+			"position": [
+				19.1499996185303,
+				82.4686279296875,
+				-143.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso7/PasilloReferencia/AcabadosPasilloCompleto/LuzInterior_4281",
+			"position": [
+				-18.6000003814697,
+				82.4686279296875,
+				-143.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso8/VestibuloAscensores/Luz",
+			"position": [
+				-16.0,
+				89.2135543823242,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso8/VestibuloAscensores/@OmniLight3D@215707",
+			"position": [
+				0.0,
+				89.2135543823242,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.95, 0.86, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "Piso8/VestibuloAscensores/@OmniLight3D@215709",
+			"position": [
+				16.0,
+				89.2135543823242,
+				-142.0
+			],
+			"range": 11.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso8/Iluminacion/LuzNorte",
+			"position": [
+				46.0077629089355,
+				93.0636596679688,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 2.0,
+			"path": "Piso8/Iluminacion/LuzSur",
+			"position": [
+				-55.9532165527344,
+				91.2471160888672,
+				-131.889663696289
+			],
+			"range": 16.0,
+			"shadows": false,
+			"visible": false
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "Piso8/EscaleraEmergencia/LuzEmergencia",
+			"position": [
+				-20.7000007629395,
+				88.4135513305664,
+				-154.300003051758
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala807/LuzInterior",
+			"position": [
+				-54.0,
+				94.4500045776367,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala807/LuzInterior_0609",
+			"position": [
+				-54.0,
+				94.4500045776367,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala807/LuzInterior_0611",
+			"position": [
+				-46.0,
+				94.4500045776367,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala807/LuzInterior_0613",
+			"position": [
+				-46.0,
+				94.4500045776367,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala808/LuzInterior",
+			"position": [
+				-38.0,
+				94.4500045776367,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala808/LuzInterior_1225",
+			"position": [
+				-38.0,
+				94.4500045776367,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala808/LuzInterior_1227",
+			"position": [
+				-30.0,
+				94.4500045776367,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala808/LuzInterior_1229",
+			"position": [
+				-30.0,
+				94.4500045776367,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala805/LuzInterior",
+			"position": [
+				36.125,
+				94.4500045776367,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala805/LuzInterior_1841",
+			"position": [
+				36.125,
+				94.4500045776367,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala805/LuzInterior_1843",
+			"position": [
+				42.375,
+				94.4500045776367,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala805/LuzInterior_1845",
+			"position": [
+				42.375,
+				94.4500045776367,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala806/LuzInterior",
+			"position": [
+				48.625,
+				94.4500045776367,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala806/LuzInterior_2457",
+			"position": [
+				48.625,
+				94.4500045776367,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala806/LuzInterior_2459",
+			"position": [
+				54.875,
+				94.4500045776367,
+				-143.650009155273
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala806/LuzInterior_2461",
+			"position": [
+				54.875,
+				94.4500045776367,
+				-154.18000793457
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala809/LuzInterior",
+			"position": [
+				23.25,
+				94.4500045776367,
+				-140.449996948242
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala809/LuzInterior_2753",
+			"position": [
+				23.25,
+				94.4500045776367,
+				-145.220001220703
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala809/LuzInterior_2755",
+			"position": [
+				29.75,
+				94.4500045776367,
+				-140.449996948242
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala809/LuzInterior_2757",
+			"position": [
+				29.75,
+				94.4500045776367,
+				-145.220001220703
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala810/LuzInterior",
+			"position": [
+				-24.5,
+				94.4500045776367,
+				-139.850006103516
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala810/LuzInterior_2917",
+			"position": [
+				-24.5,
+				94.4500045776367,
+				-143.540008544922
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala810/LuzInterior_2919",
+			"position": [
+				-21.5,
+				94.4500045776367,
+				-139.850006103516
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.98, 0.95, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/Sala810/LuzInterior_2921",
+			"position": [
+				-21.5,
+				94.4500045776367,
+				-143.540008544922
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/BanosMujeres/LuzInterior",
+			"position": [
+				-64.0,
+				94.4500045776367,
+				-141.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/BanosMujeres/LuzInterior_3069",
+			"position": [
+				-64.0,
+				94.4500045776367,
+				-147.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/BanosMujeres/LuzInterior_3071",
+			"position": [
+				-64.0,
+				94.4500045776367,
+				-153.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/BanosHombres/LuzInterior",
+			"position": [
+				64.0,
+				94.4500045776367,
+				-141.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/BanosHombres/LuzInterior_3222",
+			"position": [
+				64.0,
+				94.4500045776367,
+				-147.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/BanosHombres/LuzInterior_3224",
+			"position": [
+				64.0,
+				94.4500045776367,
+				-153.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/ZonaEncuentroDuoc/LuzInterior",
+			"position": [
+				-12.0,
+				94.4500045776367,
+				-142.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/ZonaEncuentroDuoc/LuzInterior_3375",
+			"position": [
+				0.0,
+				94.4500045776367,
+				-142.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/ZonaEncuentroDuoc/LuzInterior_3377",
+			"position": [
+				12.0,
+				94.4500045776367,
+				-142.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior",
+			"position": [
+				-21.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3411",
+			"position": [
+				-21.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3413",
+			"position": [
+				-21.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3433",
+			"position": [
+				-27.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3435",
+			"position": [
+				-27.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3437",
+			"position": [
+				-27.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3460",
+			"position": [
+				-33.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3462",
+			"position": [
+				-33.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3464",
+			"position": [
+				-33.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3484",
+			"position": [
+				-39.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3486",
+			"position": [
+				-39.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3488",
+			"position": [
+				-39.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3511",
+			"position": [
+				-45.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3513",
+			"position": [
+				-45.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3515",
+			"position": [
+				-45.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3535",
+			"position": [
+				-51.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3537",
+			"position": [
+				-51.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3539",
+			"position": [
+				-51.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3562",
+			"position": [
+				-57.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3564",
+			"position": [
+				-57.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3566",
+			"position": [
+				-57.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3586",
+			"position": [
+				-63.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3588",
+			"position": [
+				-63.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3590",
+			"position": [
+				-63.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3613",
+			"position": [
+				-69.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3615",
+			"position": [
+				-69.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3617",
+			"position": [
+				-69.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3637",
+			"position": [
+				-75.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3639",
+			"position": [
+				-75.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3641",
+			"position": [
+				-75.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3664",
+			"position": [
+				-81.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3666",
+			"position": [
+				-81.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3668",
+			"position": [
+				-81.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3671",
+			"position": [
+				-19.0,
+				94.4500045776367,
+				-131.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3697",
+			"position": [
+				21.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3699",
+			"position": [
+				21.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3701",
+			"position": [
+				21.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3721",
+			"position": [
+				27.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3723",
+			"position": [
+				27.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3725",
+			"position": [
+				27.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3748",
+			"position": [
+				33.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3750",
+			"position": [
+				33.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3752",
+			"position": [
+				33.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3772",
+			"position": [
+				39.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3774",
+			"position": [
+				39.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3776",
+			"position": [
+				39.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3799",
+			"position": [
+				45.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3801",
+			"position": [
+				45.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3803",
+			"position": [
+				45.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3823",
+			"position": [
+				51.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3825",
+			"position": [
+				51.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3827",
+			"position": [
+				51.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3850",
+			"position": [
+				57.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3852",
+			"position": [
+				57.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3854",
+			"position": [
+				57.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3874",
+			"position": [
+				63.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3876",
+			"position": [
+				63.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3878",
+			"position": [
+				63.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3901",
+			"position": [
+				69.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3903",
+			"position": [
+				69.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3905",
+			"position": [
+				69.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3925",
+			"position": [
+				75.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3927",
+			"position": [
+				75.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3929",
+			"position": [
+				75.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3952",
+			"position": [
+				81.0,
+				94.4500045776367,
+				-134.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3954",
+			"position": [
+				81.0,
+				94.4500045776367,
+				-130.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3956",
+			"position": [
+				81.0,
+				94.4500045776367,
+				-125.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/LadoSurSalasYVentanales/LuzInterior_3959",
+			"position": [
+				19.0,
+				94.4500045776367,
+				-131.0
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/SalaEstudioExtremoSur/LuzInterior",
+			"position": [
+				-77.0,
+				94.4500045776367,
+				-140.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/SalaEstudioExtremoSur_4187/LuzInterior",
+			"position": [
+				77.0,
+				94.4500045776367,
+				-140.800003051758
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/AcabadosPasilloCompleto/LuzInterior",
+			"position": [
+				0.549999237060547,
+				94.4400024414063,
+				-140.726501464844
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/AcabadosPasilloCompleto/LuzInterior_4275",
+			"position": [
+				19.1499996185303,
+				94.4400024414063,
+				-143.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.93, 0.83, 1.0)",
+			"energy": 1.5,
+			"path": "Piso8/PasilloReferencia/AcabadosPasilloCompleto/LuzInterior_4281",
+			"position": [
+				-18.6000003814697,
+				94.4400024414063,
+				-143.149993896484
+			],
+			"range": 15.1599998474121,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/Luz",
+			"position": [
+				-56.0,
+				-3.0,
+				-149.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23668",
+			"position": [
+				-56.0,
+				-3.0,
+				-124.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23670",
+			"position": [
+				-56.0,
+				-3.0,
+				-95.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23672",
+			"position": [
+				-28.0,
+				-3.0,
+				-149.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23674",
+			"position": [
+				-28.0,
+				-3.0,
+				-124.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23676",
+			"position": [
+				-28.0,
+				-3.0,
+				-95.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23678",
+			"position": [
+				0.0,
+				-3.0,
+				-149.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23680",
+			"position": [
+				0.0,
+				-3.0,
+				-124.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23682",
+			"position": [
+				0.0,
+				-3.0,
+				-95.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23684",
+			"position": [
+				28.0,
+				-3.0,
+				-149.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23686",
+			"position": [
+				28.0,
+				-3.0,
+				-124.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23688",
+			"position": [
+				28.0,
+				-3.0,
+				-95.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23690",
+			"position": [
+				56.0,
+				-3.0,
+				-149.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23692",
+			"position": [
+				56.0,
+				-3.0,
+				-124.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.39999997615814,
+			"path": "PisoMenos1/@OmniLight3D@23694",
+			"position": [
+				56.0,
+				-3.0,
+				-95.0
+			],
+			"range": 24.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.20000004768372,
+			"path": "PisoMenos1/EscaleraEmergencia/LuzEmergencia",
+			"position": [
+				-20.7000007629395,
+				-7.55838584899902,
+				-154.300003051758
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 0.7804, 0.4902, 1.0)",
+			"energy": 1.0,
+			"path": "PisoMenos1/AmbientacionIndustrial2026/LuzCalidaNegocio",
+			"position": [
+				-30.0,
+				-7.35838603973389,
+				-131.0
+			],
+			"range": 9.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.8627, 0.9098, 0.8941, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "PisoMenos1/AmbientacionIndustrial2026/LuzTransicionRampa",
+			"position": [
+				24.3700008392334,
+				-8.05838584899902,
+				-158.0
+			],
+			"range": 12.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 0.600000023841858,
+			"path": "PisoMenos1/NexoFinalArea/@OmniLight3D@7682",
+			"position": [
+				40.0,
+				-9.518385887146,
+				-97.0
+			],
+			"range": 7.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 0.600000023841858,
+			"path": "PisoMenos1/NexoFinalArea/@OmniLight3D@7685",
+			"position": [
+				56.0,
+				-9.518385887146,
+				-97.0
+			],
+			"range": 7.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 1.10000002384186,
+			"path": "PisoMenos1/NexoFinalArea/NEXO/@OmniLight3D@7691",
+			"position": [
+				48.0,
+				-10.018385887146,
+				-100.0
+			],
+			"range": 7.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "SistemasCompartidos/LuzExterior",
+			"position": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"range": 0,
+			"shadows": true,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 0.649999976158142,
+			"path": "SistemasCompartidos/AscensoresEstudiantiles/Ascensor01/Cabina/AcabadosInoxidable/LuzInterior",
+			"position": [
+				-10.0,
+				2.70000004768372,
+				-156.199996948242
+			],
+			"range": 10.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 0.649999976158142,
+			"path": "SistemasCompartidos/AscensoresEstudiantiles/Ascensor02/Cabina/AcabadosInoxidable/LuzInterior",
+			"position": [
+				0.0,
+				2.70000004768372,
+				-156.199996948242
+			],
+			"range": 10.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(1.0, 1.0, 1.0, 1.0)",
+			"energy": 0.649999976158142,
+			"path": "SistemasCompartidos/AscensoresEstudiantiles/Ascensor03/Cabina/AcabadosInoxidable/LuzInterior",
+			"position": [
+				10.0,
+				2.70000004768372,
+				-156.199996948242
+			],
+			"range": 10.0,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/pc_intro/@OmniLight3D@5603",
+			"position": [
+				-5.0,
+				1.35000014305115,
+				-6.65000009536743
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/pc3/@OmniLight3D@5626",
+			"position": [
+				25.0,
+				25.2176685333252,
+				-141.649993896484
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/pc4/@OmniLight3D@5649",
+			"position": [
+				25.0,
+				36.9244155883789,
+				-141.649993896484
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/pc5/@OmniLight3D@5672",
+			"position": [
+				25.5,
+				61.408504486084,
+				-141.783966064453
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/pc6/@OmniLight3D@5695",
+			"position": [
+				35.0,
+				73.2186279296875,
+				-131.649993896484
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/pc7/@OmniLight3D@5718",
+			"position": [
+				-35.0,
+				61.4349517822266,
+				-131.649993896484
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/pc8/@OmniLight3D@5741",
+			"position": [
+				37.0,
+				85.1900024414063,
+				-131.649993896484
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/pc_secreto/@OmniLight3D@5764",
+			"position": [
+				-40.0,
+				-10.808385848999,
+				-139.649993896484
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/DirectorConnection/@OmniLight3D@7564",
+			"position": [
+				-25.0,
+				85.1300048828125,
+				-132.649993896484
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/director_antivirus/@OmniLight3D@7587",
+			"position": [
+				-32.0,
+				85.1300048828125,
+				-132.649993896484
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/DirectorPC01/@OmniLight3D@7610",
+			"position": [
+				-39.0,
+				85.1300048828125,
+				-132.649993896484
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/DirectorPC02/@OmniLight3D@7633",
+			"position": [
+				-46.0,
+				85.1300048828125,
+				-132.649993896484
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		},
+		{
+			"color": "(0.2314, 0.5098, 0.9647, 1.0)",
+			"energy": 0.800000011920929,
+			"path": "CampusCampaign/DirectorPC03/@OmniLight3D@7656",
+			"position": [
+				-53.0,
+				85.1300048828125,
+				-132.649993896484
+			],
+			"range": 3.5,
+			"shadows": false,
+			"visible": true
+		}
+	],
+	"persist": false,
+	"resolution": "(1152, 648)",
+	"screen_space_aa": 0,
+	"test_mode": true
+}

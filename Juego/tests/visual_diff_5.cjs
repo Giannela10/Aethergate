@@ -1,0 +1,20 @@
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+const root=path.resolve(__dirname,'../..'),project=path.join(root,'Juego');
+const source=fs.readFileSync(path.join(root,'recovery/before_visual_remodel_5_0/Juego/Main.tscn'),'utf8');
+const current=fs.readFileSync(path.join(project,'Main.tscn'),'utf8');
+function blocks(s){const map=new Map();for(const b of s.split(/(?=^\[(?:node|sub_resource|ext_resource|connection|editable) )/m)){const header=b.split('\n')[0].trim();map.set(header,b.trim());}return map;}
+const a=blocks(source),b=blocks(current),changes=[];
+for(const [key,value] of a)if(b.get(key)!==value)changes.push({header:key,before:value,after:b.get(key)||null});
+for(const [key,value]of b)if(!a.has(key))changes.push({header:key,before:null,after:value});
+const shapeChanges=changes.filter(c=>/type="(?:Collision|BoxShape|CapsuleShape|SphereShape|StaticBody|CharacterBody|Area3D)/.test(c.header));
+const idLines=s=>s.split('\n').filter(l=>/world_id\s*=|boss_id\s*=|mission_id\s*=/.test(l)).sort();
+const idsUnchanged=JSON.stringify(idLines(source))===JSON.stringify(idLines(current));
+const report={changed_blocks:changes.length,collision_shape_or_body_changes:shapeChanges.length,persistent_ids_unchanged:idsUnchanged,changes};
+const shared='Juego/scripts/pisos/piso_8/PasilloReferencia.tscn';
+const oldShared=blocks(fs.readFileSync(path.join(root,'recovery/before_visual_remodel_5_0',shared),'utf8')),newShared=blocks(fs.readFileSync(path.join(root,shared),'utf8'));
+const sharedChanges=[...oldShared].filter(([k,v])=>newShared.get(k)!==v).map(([k])=>k);
+report.shared_scene={changed_blocks:sharedChanges.length,changes:sharedChanges,collision_changes:sharedChanges.filter(k=>/type="(?:Collision|BoxShape|CapsuleShape|SphereShape|StaticBody|CharacterBody|Area3D)/.test(k)).length};
+const snapshot=JSON.parse(fs.readFileSync(path.join(root,'recovery/before_visual_remodel_5_0/manifest.json'),'utf8'));
+report.changed_files=snapshot.files.filter(f=>{const p=path.join(root,f.path);return !fs.existsSync(p)||crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex')!==f.sha256;}).map(f=>f.path);
+fs.writeFileSync(path.join(project,'reports/visual_5/scene_diff.json'),JSON.stringify(report,null,2));
+console.log(JSON.stringify({...report,changes:changes.slice(0,30).map(c=>c.header)},null,2));

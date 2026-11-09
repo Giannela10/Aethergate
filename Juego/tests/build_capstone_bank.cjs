@@ -1,0 +1,24 @@
+const fs=require('fs'),path=require('path'),crypto=require('crypto');const project=path.resolve(__dirname,'..'),dir=path.join(project,'resources/education');
+const files=['capstone_authoring_informatica.json','capstone_authoring_salud_matematicas.json','capstone_authoring_ingles_etica.json','capstone_authoring_comunicacion_general.json'];
+const authored=Object.assign({},...files.map(file=>JSON.parse(fs.readFileSync(path.join(dir,file)))));
+function uuid(text){const b=crypto.createHash('sha1').update('duocgames-capstone-v1:'+text).digest().subarray(0,16);b[6]=(b[6]&15)|80;b[8]=(b[8]&63)|128;const h=b.toString('hex');return `${h.slice(0,8)}-${h.slice(8,12)}-${h.slice(12,16)}-${h.slice(16,20)}-${h.slice(20)}`;}
+const definitions=[['BASE_DATOS','Bases de Datos',3,'profesor_datos'],['ALGORITMOS','Algoritmos y Programación',3,'profesor_algoritmos'],['REDES','Redes y Telecomunicaciones',3,'profesor_redes'],['ENFERMERIA','Enfermería',4,'docente_enfermeria'],['ODONTOLOGIA','Odontología',4,'docente_odontologia'],['INGLES','Inglés',6,'profesor_ingles'],['ETICA','Ética',6,'profesor_etica'],['COMUNICACION','Habilidades de Comunicación',7,'profesor_lenguaje'],['MATEMATICAS','Matemáticas',7,'profesor_matematicas'],['INF_GENERAL','Informática General',3,'']];
+const demo=JSON.parse(fs.readFileSync(path.join(dir,'demo_questions.json'))).slice(0,3);
+authored.INF_GENERAL=[...demo.map(q=>[q.question_text,q['option_'+q.correct_option.toLowerCase()],...['a','b','c','d'].filter(k=>k!==q.correct_option.toLowerCase()).map(k=>q['option_'+k]),q.explanation,'Banco local anterior']),...authored.INF_GENERAL_EXTRA];
+const questions=[],subjects=[],mentors={};
+for(const [code,name,floor,mentor] of definitions){const data=authored[code];if(data.length!==15)throw Error(code+' must have 15');const sid=uuid('subject:'+code);const ids=[];
+ data.forEach((tuple,index)=>{const [prompt,correct,...rest]=tuple;const alternatives=[correct,...rest.slice(0,3)];const shift=index%4;const options=alternatives.slice(shift).concat(alternatives.slice(0,shift));const id=uuid(code+':'+(index+1));ids.push(id);questions.push({id,subject_id:sid,unit:rest[4],kind:'multiple_choice',prompt,content:{options},answer:options.indexOf(correct),explanation:rest[3],difficulty:['easy','medium','hard'][Math.floor(index/5)],active:true,access_challenge:false,mentor_id:mentor,retry_delay_seconds:0,max_attempts_per_day:0});});
+ subjects.push({id:sid,code,name,floor,active:true});if(mentor)mentors[mentor]={floor,question_ids:ids};
+}
+const byCode=code=>questions.filter(q=>q.subject_id===subjects.find(s=>s.code===code).id);
+const codes=definitions.slice(0,9).map(x=>x[0]);
+mentors.coordinador_profesores={floor:4,question_ids:['easy','medium','hard'].flatMap((difficulty,d)=>Array.from({length:5},(_,i)=>byCode(codes[(i+d*3)%9]).filter(q=>q.difficulty===difficulty)[i%5].id))};
+mentors.director={floor:8,question_ids:['BASE_DATOS','ALGORITMOS','REDES'].flatMap(code=>byCode(code).filter(q=>q.difficulty==='hard').map(q=>q.id))};
+const bank={version:1,notice:'Práctica local original. No constituye programa oficial, evaluación institucional ni protocolo clínico. Publicación remota pendiente de autorización y validación docente.',subjects,mentors,questions};
+const ids=new Set();for(const q of questions){if(ids.has(q.id)||new Set(q.content.options).size!==4||!q.explanation||!q.unit)throw Error('Invalid or duplicate question '+q.id);ids.add(q.id);}
+const target=path.join(dir,'capstone_practice_bank.json');const payload=JSON.stringify(bank,null,2)+'\n';const identical=fs.existsSync(target)&&fs.readFileSync(target,'utf8')===payload;fs.writeFileSync(target,payload);
+const generalRows=byCode('INF_GENERAL').slice(3).map(q=>({id:q.id,subject_id:'INF_GENERAL',floor:3,question_text:q.prompt,option_a:q.content.options[0],option_b:q.content.options[1],option_c:q.content.options[2],option_d:q.content.options[3],correct_option:'ABCD'[q.answer],explanation:q.explanation,difficulty:q.difficulty,active:q.active}));
+fs.writeFileSync(path.join(dir,'demo_questions.json'),JSON.stringify([...demo,...generalRows],null,2)+'\n');
+const publication={status:'NOT_PUBLISHED',no_remote_writes:true,required:'Resolve actual subject UUIDs, mentor/floor permissions and teacher ownership in an authorized staging environment before calling existing save_learning_activity RPC. Integrator references are local; do not clone rows or invent SQL columns.',subjects:subjects.map(x=>({local_id:x.id,code:x.code,name:x.name,floor:x.floor,remote_subject_id:null})),question_ids:questions.map(q=>q.id)};
+fs.writeFileSync(path.join(project,'reports/capstone/publication_pending.json'),JSON.stringify(publication,null,2));
+console.log(JSON.stringify({questions:questions.length,subjects:subjects.length,mentors:Object.keys(mentors).length,unchanged_on_repeat:identical,remote_published:0}));

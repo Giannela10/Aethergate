@@ -1,5 +1,7 @@
 # Personaje e inventario
 
+Actualización 4.0: se conservan catálogo, persistencia y personalización, y se agregan vista previa del objeto, barra de durabilidad y acceso a CREDENCIALES ACADÉMICAS. El celular muestra progreso y accesibilidad. Ver [DUOCGAMES_4_0_REPORT.md](DUOCGAMES_4_0_REPORT.md); las afirmaciones históricas siguientes sobre scripts no modificados corresponden a revisiones anteriores.
+
 El jugador de Main se crea en tiempo de ejecución por `gameplay_manager.gd`. Ahora se llama `Player`; no se usa `Character.tscn` para ese recorrido. El movimiento, cápsula de pie/agachado, cámara, golpes, daño, computadores y minijuegos conservan sus mecanismos anteriores. `humanoid.gd`, `weapon.gd`, `enemy.gd` y `gameplay_manager.gd` no se modificaron.
 
 ## Controles y objetos de muestra

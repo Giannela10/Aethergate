@@ -6,7 +6,6 @@ var source: Camera3D
 var speaker: Node3D
 var listener: Node3D
 var elapsed := 0.0
-var expression_before := "NEUTRAL"
 
 func begin(player: Node3D, actor: Node3D, requested: Mode = Mode.TWO_SHOT) -> void:
 	finish()

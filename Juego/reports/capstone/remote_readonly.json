@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-11-06T16:27:22.207Z",
+  "public_get_only": true,
+  "configured": true,
+  "authenticated_user": false,
+  "remote_bank_counts": "unknown_without_authorized_staff_session",
+  "probes": [
+    {
+      "route": "/auth/v1/settings",
+      "status": 0,
+      "transport_failure": "ENOTFOUND"
+    },
+    {
+      "route": "/rest/v1/",
+      "status": 0,
+      "transport_failure": "ENOTFOUND"
+    },
+    {
+      "route": "/rest/v1/campaign_saves",
+      "status": 0,
+      "transport_failure": "ENOTFOUND"
+    },
+    {
+      "route": "/rest/v1/learning_activities",
+      "status": 0,
+      "transport_failure": "ENOTFOUND"
+    },
+    {
+      "route": "/rest/v1/learning_attempts",
+      "status": 0,
+      "transport_failure": "ENOTFOUND"
+    },
+    {
+      "route": "/rest/v1/profiles",
+      "status": 0,
+      "transport_failure": "ENOTFOUND"
+    },
+    {
+      "route": "/rest/v1/questions",
+      "status": 0,
+      "transport_failure": "ENOTFOUND"
+    },
+    {
+      "route": "/rest/v1/subjects",
+      "status": 0,
+      "transport_failure": "ENOTFOUND"
+    },
+    {
+      "route": "/rest/v1/teacher_subjects",
+      "status": 0,
+      "transport_failure": "ENOTFOUND"
+    }
+  ],
+  "reachable": false
+}

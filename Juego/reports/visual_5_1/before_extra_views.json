@@ -1,0 +1,200 @@
+[
+	{
+		"camera": [
+			39.0,
+			86.2399978637695,
+			-130.0
+		],
+		"capture": "before_pc8_close.png",
+		"ground_y": 83.9400024414063,
+		"label": "pc8_close",
+		"note": "",
+		"profile": false,
+		"samples": [],
+		"target": [
+			37.0,
+			85.0400009155273,
+			-132.0
+		]
+	},
+	{
+		"camera": [
+			-63.8869972229004,
+			37.8744163513184,
+			-95.3080902099609
+		],
+		"capture": "before_central_418_hall.png",
+		"ground_y": 35.6744155883789,
+		"label": "central_418_hall",
+		"note": "Door-relative student-height view, no architectural modification",
+		"profile": false,
+		"samples": [],
+		"target": [
+			-63.8869972229004,
+			37.8744163513184,
+			-101.308090209961
+		]
+	},
+	{
+		"camera": [
+			-63.8869972229004,
+			37.8744163513184,
+			-99.3080902099609
+		],
+		"capture": "before_central_418_interior.png",
+		"ground_y": 35.6744155883789,
+		"label": "central_418_interior",
+		"note": "Compare actual node elevation with upper atrium photographs before changing any wall",
+		"profile": false,
+		"samples": [],
+		"target": [
+			-63.8869972229004,
+			42.8744163513184,
+			-101.308090209961
+		]
+	},
+	{
+		"camera": [
+			-51.4160003662109,
+			37.8744163513184,
+			-95.3080902099609
+		],
+		"capture": "before_central_417_hall.png",
+		"ground_y": 35.6744155883789,
+		"label": "central_417_hall",
+		"note": "Door-relative student-height view, no architectural modification",
+		"profile": false,
+		"samples": [],
+		"target": [
+			-51.4160003662109,
+			37.8744163513184,
+			-101.308090209961
+		]
+	},
+	{
+		"camera": [
+			-51.4160003662109,
+			37.8744163513184,
+			-99.3080902099609
+		],
+		"capture": "before_central_417_interior.png",
+		"ground_y": 35.6744155883789,
+		"label": "central_417_interior",
+		"note": "Compare actual node elevation with upper atrium photographs before changing any wall",
+		"profile": false,
+		"samples": [],
+		"target": [
+			-51.4160003662109,
+			42.8744163513184,
+			-101.308090209961
+		]
+	},
+	{
+		"camera": [
+			-38.8009986877441,
+			37.8744163513184,
+			-95.3080902099609
+		],
+		"capture": "before_central_415_hall.png",
+		"ground_y": 35.6744155883789,
+		"label": "central_415_hall",
+		"note": "Door-relative student-height view, no architectural modification",
+		"profile": false,
+		"samples": [],
+		"target": [
+			-38.8009986877441,
+			37.8744163513184,
+			-101.308090209961
+		]
+	},
+	{
+		"camera": [
+			-38.8009986877441,
+			37.8744163513184,
+			-99.3080902099609
+		],
+		"capture": "before_central_415_interior.png",
+		"ground_y": 35.6744155883789,
+		"label": "central_415_interior",
+		"note": "Compare actual node elevation with upper atrium photographs before changing any wall",
+		"profile": false,
+		"samples": [],
+		"target": [
+			-38.8009986877441,
+			42.8744163513184,
+			-101.308090209961
+		]
+	},
+	{
+		"camera": [
+			-16.0,
+			50.1748504638672,
+			-143.0
+		],
+		"capture": "before_directory_public_5.png",
+		"ground_y": 47.9748497009277,
+		"label": "directory_public_5",
+		"note": "",
+		"profile": false,
+		"samples": [],
+		"target": [
+			-20.0,
+			50.2748489379883,
+			-143.0
+		]
+	},
+	{
+		"camera": [
+			-16.0,
+			62.3585052490234,
+			-143.0
+		],
+		"capture": "before_directory_public_6.png",
+		"ground_y": 60.1849517822266,
+		"label": "directory_public_6",
+		"note": "",
+		"profile": false,
+		"samples": [],
+		"target": [
+			-20.0,
+			62.4585037231445,
+			-143.0
+		]
+	},
+	{
+		"camera": [
+			-16.0,
+			74.1421813964844,
+			-143.0
+		],
+		"capture": "before_directory_public_7.png",
+		"ground_y": 71.9686279296875,
+		"label": "directory_public_7",
+		"note": "",
+		"profile": false,
+		"samples": [],
+		"target": [
+			-20.0,
+			74.2421875,
+			-143.0
+		]
+	},
+	{
+		"camera": [
+			-16.0,
+			86.1135482788086,
+			-143.0
+		],
+		"capture": "before_directory_public_8.png",
+		"ground_y": 83.9400024414063,
+		"label": "directory_public_8",
+		"note": "",
+		"profile": false,
+		"samples": [],
+		"target": [
+			-20.0,
+			86.2135543823242,
+			-143.0
+		]
+	}
+]

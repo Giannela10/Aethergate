@@ -6,10 +6,10 @@ func interact(candidate: CharacterBody3D) -> void:
 		return
 	super.interact(candidate)
 	if state == DuelState.DIALOGUE:
-		campaign.ui.dialog("PROFESOR DE REDES Y TELECOMUNICACIONES",intro_text,["Iniciar desafío","Ahora no"],[accept,decline])
+		campaign.ui.dialog("PROFESOR DE REDES Y TELECOMUNICACIONES",intro_text+"\nLos ataques se dirigen a una simulación de red.",["ACTIVIDAD DE REDES","INICIAR SIMULACIÓN","AHORA NO"],[learn_from_mentor,accept,decline])
 
 func interaction_text(_player: Node) -> String:
-	return "[E] Hablar con Profesor de Redes" if state == DuelState.NEUTRAL else ""
+	return "[E] Hablar con Profesor de Redes" if state == DuelState.NEUTRAL or defeated else ""
 
 func accept() -> void:
 	await super.accept()
@@ -34,5 +34,5 @@ func _show_nexo_hint() -> void:
 	if is_instance_valid(campaign) and not campaign.player.dead:
 		campaign.player.body.set_expression("WORRIED")
 		campaign.player.set_meta("important_scene",true)
-		campaign.ui.begin_character_dialogue(actor,true)
+		campaign.ui.begin_character_dialogue(interaction_target(),true)
 		campaign.ui.dialog("Profesor de Redes","Esto no es un fallo normal...\nhay tráfico extraño viniendo de otros pisos.\n\nHas obtenido RouterPortatil.",["Continuar"],[campaign.ui.close_modal],true)

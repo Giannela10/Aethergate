@@ -1,3 +1,5 @@
+> Estado al 26-10-2026: documento histórico. El GLB descrito ya no está en el árbol de trabajo. Se retiraron las tres escenas HumanPilot y sus scripts/UID, que dependían de ese archivo ausente y no se usaban en la campaña. Se conservan las capturas y mediciones como evidencia; las instrucciones de ejecución de este documento corresponden al prototipo anterior.
+
 # Modelos humanos: perfil de importación 3.0
 
 Se incorporó `res://assets/characters/human_pilot/human_pilot.glb`. Su inspección real confirmó que es geometría humana **estática**, sin rig, Skin ni clips. Para animarlo sigue siendo necesario un humano riggeado compatible o preparar una versión riggeada de este asset. No se descargan assets. Los rigs sintéticos de tests no son modelos humanos ni una validación artística.

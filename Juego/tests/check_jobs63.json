@@ -1,0 +1,20 @@
+[
+    {
+        "arguments":  {
+                          "file_path":  "res://scripts/juego/human_npc_6_3.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://scripts/juego/npc_visual_6_3.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://tests/npc_validation_6_3.gd"
+                      },
+        "tool":  "script_check"
+    }
+]

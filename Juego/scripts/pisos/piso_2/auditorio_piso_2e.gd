@@ -295,6 +295,7 @@ func orient_to_library() -> Dictionary:
 		box(entrances, "Umbral" + str(z), Vector3(68.08, 11.92, z), Vector3(1.0, 0.28, 2.9), "piso", true)
 		var label := Label3D.new()
 		label.name = "LetreroEntrada" + str(z)
+		label.double_sided = false
 		label.text = "AUDITORIO — ENTRADA " + ("1" if z < -100 else "2")
 		label.font_size = 56
 		label.pixel_size = 0.01
@@ -532,11 +533,14 @@ func ampliar_recinto_y_despejar_entradas() -> Dictionary:
 		box(hall,"UmbralLibre"+str(z),Vector3(right+0.05,entry_y-0.07,z),Vector3(1.3,0.14,3.4),"piso",true)
 		var label := Label3D.new()
 		label.name = "LetreroEntrada"+str(z)
+		label.double_sided = false
 		label.text = "AUDITORIO — ENTRADA "+("1" if z < -100 else "2")
-		label.position = Vector3(right+0.15,15.4,z)
+		label.position = Vector3(right+0.141,16.25,z)
 		label.rotation.y = PI*0.5
 		label.font_size = 56
-		label.pixel_size = 0.008
+		label.pixel_size = 0.0042
+		label.outline_size = 0
+		box(hall,"PlacaEntrada51"+str(z),Vector3(right+0.106,16.25,z),Vector3(0.05,0.56,3.24),"metal")
 		hall.add_child(label)
 		label.owner = owner
 	box(hall,"PasilloEntradasDespejado",Vector3(right-2.075,entry_y-0.1,(back+front)*0.5),Vector3(4.15,0.2,front-back),"piso",true)

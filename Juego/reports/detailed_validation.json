@@ -1,6 +1,7 @@
 {
   "campus_polish_regression": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
@@ -14,6 +15,7 @@
   },
   "remember_login_check": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
@@ -35,7 +37,7 @@
     "errors": [],
     "reports": [
       {
-        "checked": 262,
+        "checked": 263,
         "failures": []
       }
     ]
@@ -49,7 +51,7 @@
     "errors": [],
     "reports": [
       {
-        "checked_scenes": 43,
+        "checked_scenes": 40,
         "failures": []
       }
     ]
@@ -138,6 +140,7 @@
   },
   "campus_vivo": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
@@ -156,6 +159,7 @@
   },
   "director_informatica_boss": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
@@ -203,13 +207,14 @@
   },
   "education_1_0": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
     "errors": [],
     "reports": [
       {
-        "checks": 14,
+        "checks": 32,
         "failures": [],
         "google_oauth": "NOT TESTED: external credentials required",
         "release_export": "NOT TESTED: export templates required",
@@ -247,14 +252,18 @@
   },
   "balance_regression": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
     "errors": [],
-    "reports": []
+    "reports": [
+      []
+    ]
   },
   "chef_supremo_casino": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
@@ -263,6 +272,7 @@
   },
   "contextual_interactions": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
@@ -276,6 +286,7 @@
   },
   "personalizacion": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
@@ -288,6 +299,7 @@
   },
   "chapel_layout_check": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
@@ -314,6 +326,7 @@
   },
   "coordinacion_meeting_check": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
@@ -322,6 +335,7 @@
   },
   "salidas_emergencia": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
@@ -330,6 +344,7 @@
   },
   "piso5_escalera_recorrido": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
@@ -338,6 +353,7 @@
   },
   "piso8_recorridos": {
     "passed": true,
+    "skipped": false,
     "exit_code": 0,
     "timed_out": false,
     "stopped_after_result": false,
@@ -347,6 +363,61 @@
         "failures": [],
         "floor": 8,
         "tested": 27
+      }
+    ]
+  },
+  "supabase_response_regression": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 8,
+        "failures": []
+      }
+    ]
+  },
+  "primera_mision": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": []
+      }
+    ]
+  },
+  "placement_visual_check": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checked": 92,
+        "failures": []
+      }
+    ]
+  },
+  "camera_obstruction_check": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 5,
+        "failures": []
       }
     ]
   },
@@ -368,6 +439,7 @@
   },
   "EmailRegistrationCheck": {
     "passed": true,
+    "skipped": false,
     "exit_code": null,
     "timed_out": false,
     "stopped_after_result": true,
@@ -398,6 +470,7 @@
   },
   "UserRolesCheck": {
     "passed": true,
+    "skipped": false,
     "exit_code": null,
     "timed_out": false,
     "stopped_after_result": true,
@@ -456,13 +529,14 @@
         "bosses": 3,
         "checks": 122,
         "failures": [],
-        "memory_mib": 447.919089317322,
-        "render_fps_sample": 1
+        "memory_mib": 447.981610298157,
+        "render_fps_sample": 11
       }
     ]
   },
   "BasementAccessCheck": {
     "passed": true,
+    "skipped": false,
     "exit_code": null,
     "timed_out": false,
     "stopped_after_result": true,
@@ -478,6 +552,7 @@
   },
   "ElevatorBasementCheck": {
     "passed": true,
+    "skipped": false,
     "exit_code": null,
     "timed_out": false,
     "stopped_after_result": true,
@@ -549,20 +624,6 @@
           }
         },
         "users_created": 0
-      }
-    ]
-  },
-  "supabase_response_regression": {
-    "passed": true,
-    "skipped": false,
-    "exit_code": 0,
-    "timed_out": false,
-    "stopped_after_result": false,
-    "errors": [],
-    "reports": [
-      {
-        "checks": 8,
-        "failures": []
       }
     ]
   },
@@ -651,7 +712,7 @@
       ]
     ]
   },
-  "primera_mision": {
+  "cloud_save_check": {
     "passed": true,
     "skipped": false,
     "exit_code": 0,
@@ -660,7 +721,24 @@
     "errors": [],
     "reports": [
       {
-        "failures": []
+        "checks": 21,
+        "failures": [],
+        "remote_database_tested": false
+      }
+    ]
+  },
+  "cloud_campaign_check": {
+    "passed": true,
+    "skipped": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "stopped_after_result": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 20,
+        "failures": [],
+        "remote_database_tested": false
       }
     ]
   },
@@ -706,34 +784,6 @@
         "checks": 14,
         "failures": [],
         "personal_saves_used": false
-      }
-    ]
-  },
-  "placement_visual_check": {
-    "passed": true,
-    "skipped": false,
-    "exit_code": 0,
-    "timed_out": false,
-    "stopped_after_result": false,
-    "errors": [],
-    "reports": [
-      {
-        "checked": 92,
-        "failures": []
-      }
-    ]
-  },
-  "camera_obstruction_check": {
-    "passed": true,
-    "skipped": false,
-    "exit_code": 0,
-    "timed_out": false,
-    "stopped_after_result": false,
-    "errors": [],
-    "reports": [
-      {
-        "checks": 5,
-        "failures": []
       }
     ]
   },

@@ -41,7 +41,8 @@ func run() -> void:
 		auth.dev_login("student")
 		var q: Dictionary = await service.get_random_question("INF_GENERAL","floor_unlock")
 		check(not q.has("correct_option") and not q.has("explanation"),"Student question hides key")
-		var key := "A" if q.id == "demo-sql" else "B"
+		var fixture=JSON.parse_string(FileAccess.get_file_as_string("res://resources/education/demo_questions.json"))
+		var key: String=fixture.filter(func(row): return row.id==q.id)[0].correct_option
 		var result: Dictionary = await service.submit_answer(q.id,key,"floor_unlock")
 		check(result.get("correct",false) and not str(result.get("explanation","")).is_empty(),"Correct answer and explanation")
 		Progress.record(migrated,q,result,"floor_unlock")
@@ -50,7 +51,9 @@ func run() -> void:
 		check(repeated.has("error"),"Single use local answer")
 		var q2: Dictionary = await service.get_random_question("INF_GENERAL","floor_unlock")
 		check(q2.id != q.id,"Retry offers different question")
-		var wrong: Dictionary = await service.submit_answer(q2.id,"D","floor_unlock")
+		var key2: String=fixture.filter(func(row): return row.id==q2.id)[0].correct_option
+		var wrong_option: String="ABCD"[("ABCD".find(key2)+1)%4]
+		var wrong: Dictionary = await service.submit_answer(q2.id,wrong_option,"floor_unlock")
 		check(not wrong.correct and not str(wrong.explanation).is_empty(),"Incorrect answer and explanation")
 		Progress.record(migrated,q2,wrong,"floor_unlock")
 		var path := "user://education_test_fixture.json"

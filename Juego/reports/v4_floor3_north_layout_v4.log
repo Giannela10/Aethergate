@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6570
+[MCPRegistry] runtime port 6570 registered for c:/users/despacho2-cd/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego
+FLOOR3_NORTH_LAYOUT_V4_RESULT {"checks":168,"failures":[],"free":[{"x":-64,"z":-158},{"x":-64,"z":-154},{"x":-64,"z":-150},{"x":-58,"z":-158},{"x":-58,"z":-154},{"x":-58,"z":-150},{"x":-52,"z":-158},{"x":-52,"z":-154},{"x":-52,"z":-150},{"x":-46,"z":-158},{"x":-46,"z":-154},{"x":-46,"z":-150},{"x":-40,"z":-158},{"x":-40,"z":-154},{"x":-40,"z":-150},{"x":-34,"z":-158},{"x":-34,"z":-154},{"x":-34,"z":-150},{"x":20,"z":-158},{"x":20,"z":-154},{"x":26,"z":-158},{"x":26,"z":-154},{"x":32,"z":-158},{"x":32,"z":-154},{"x":38,"z":-158},{"x":38,"z":-154},{"x":38,"z":-150},{"x":44,"z":-158},{"x":44,"z":-154},{"x":44,"z":-150},{"x":50,"z":-158},{"x":50,"z":-154},{"x":50,"z":-150},{"x":56,"z":-158},{"x":56,"z":-154},{"x":56,"z":-150},{"x":62,"z":-158},{"x":62,"z":-154},{"x":62,"z":-150}]}

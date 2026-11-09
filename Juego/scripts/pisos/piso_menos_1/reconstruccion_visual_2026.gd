@@ -251,7 +251,11 @@ func _cafe(parent: Node3D) -> void:
 	_box(shop, "MaquinaCafe", Vector3(x + 5.15, BASE_Y + 1.35, z - 0.45), Vector3(1.1, 2.5, 1.1), m["dark"])
 	_box(shop, "PantallaCafe", Vector3(x + 5.15, BASE_Y + 1.95, z + 0.12), Vector3(0.58, 0.48, 0.035), m["screen"])
 	_box(shop, "LamparaCalida", Vector3(x, BASE_Y + 3.73, z - 1.0), Vector3(6.4, 0.06, 0.07), m["warm"])
-	var shop_sign := _label(shop, "LetreroCafeteria", "CAFETERIA  ·  TALLER 21", Vector3(x, BASE_Y + 3.25, z - 2.0), 64, Color("f1c36b"))
+	var sign_backing: Material = preload("res://materials/entrance/MAT_Sign_Backplate_5.tres")
+	_box(shop, "PlacaLetreroCafeteria5", Vector3(x, BASE_Y + 3.25, z - 1.98), Vector3(8.5, 0.68, 0.06), sign_backing)
+	for dx in [-3.4, 3.4]:
+		_box(shop, "SoporteLetreroCafeteria5" + str(dx), Vector3(x + dx, BASE_Y + 3.71, z - 1.98), Vector3(0.04, 0.35, 0.04), sign_backing)
+	var shop_sign := _label(shop, "LetreroCafeteria", "CAFETERIA  ·  TALLER 21", Vector3(x, BASE_Y + 3.25, z - 2.025), 64, Color("f1c36b"))
 	shop_sign.rotation.y = PI
 
 func _corridor_rooms(parent: Node3D) -> void:

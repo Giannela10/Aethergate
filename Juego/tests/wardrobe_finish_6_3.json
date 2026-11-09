@@ -1,0 +1,4 @@
+[
+ {"tool":"script_edit","arguments":{"file_path":"res://scripts/juego/npc_visual_6_3.gd","old_string":"if identity==\"chef\": model.wardrobe=\"clothing_shirt\"","new_string":"if identity==\"chef\": model.wardrobe=\"clothing_shirt\"\n if role==\"ESTUDIANTE\": model.wardrobe=[\"clothing_tshirt\",\"clothing_hoodie\",\"clothing_shirt\",\"clothing_jacket\"][absi((identity+\"wardrobe63\").hash())%4]"}},
+ {"tool":"script_edit","arguments":{"file_path":"res://scripts/juego/npc_visual_6_3.gd","old_string":"if role==\"BIBLIOTECARIA\" and mesh.get_parent()==host.hand_l and mesh.mesh is BoxMesh: keep=true","new_string":"if role==\"BIBLIOTECARIA\" and mesh.get_parent() in [host.hand_l,host.head_pivot] and mesh.mesh is BoxMesh: keep=true"}}
+]

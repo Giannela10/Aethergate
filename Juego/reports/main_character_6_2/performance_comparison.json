@@ -1,0 +1,36 @@
+{
+  "before_6_0": {
+    "vertices": 19261,
+    "surfaces": 80,
+    "frame_ms_median": 13.334,
+    "draw_calls_median": 242,
+    "fps_monitor_median": 65
+  },
+  "after_6_2": {
+    "vertices": 28348,
+    "surfaces": 20,
+    "frame_ms_median": 13.3295,
+    "draw_calls_median": 70,
+    "fps_monitor_median": 40
+  },
+  "method": "90 frame_post_draw intervals in same Main wrapper, matched outfit/profile, same camera and frozen actors, GTX1050 Compatibility. 75Hz cap. FPS monitor includes startup history. No claim of full gameplay/GPU benchmark.",
+  "animated": {
+    "before": {
+      "warmup_seconds": 3,
+      "samples": 180,
+      "frame_ms_median": 13.333,
+      "process_ms_median": 13.372,
+      "fps_monitor_median": 75,
+      "draw_calls_median": 2046
+    },
+    "after": {
+      "warmup_seconds": 3,
+      "samples": 180,
+      "frame_ms_median": 13.333,
+      "process_ms_median": 13.406,
+      "fps_monitor_median": 75,
+      "draw_calls_median": 1873
+    },
+    "method": "Walk-in-place pose animated every frame in Main, 3-second warmup and 180 intervals, fixed campus entrance camera; NPC physics/process frozen; 75Hz cap. Includes visual animation cost, not full gameplay."
+  }
+}

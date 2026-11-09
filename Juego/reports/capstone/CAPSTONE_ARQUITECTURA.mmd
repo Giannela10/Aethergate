@@ -1,0 +1,32 @@
+flowchart LR
+  Estudiante["Estudiante"] --> Login["Login y menús Godot"]
+  Docente["Docente"] --> Login
+  Administrador["Administrador"] --> Login
+  subgraph Cliente["Cliente Godot: componentes implementados; pruebas locales y fixtures"]
+    Login --> Auth["AuthManager: perfil, sesión, rutas por rol"]
+    Auth --> Juego["Main.tscn: campus, jugador y NPC"]
+    Auth --> PD["TeacherDashboard / LearningStaffPanel"]
+    Auth --> PA["AdminDashboard / AdminService"]
+    Juego --> Misiones["CampusCampaign / QuestManager / DuocGames4"]
+    Misiones --> UI["MentorActivityV4 / LearningActivityView"]
+    UI --> Local["LocalPracticeService + JSON: práctica no verificada"]
+    UI --> RPC["LearningActivityService / QuestionService"]
+    UI --> Progreso["AcademicProgress: separa local y verificado"]
+    Misiones --> Cloud["CloudSave + cola local por cuenta"]
+    PD --> RPC
+    PA --> RPC
+    PA --> Admin["AdminService: usuarios, roles, asignaturas"]
+  end
+  subgraph Remoto["Integración escrita en código; despliegue remoto NO verificado: fallo DNS"]
+    SA["Supabase Auth"]
+    REST["Supabase PostgREST y RPC SQL"]
+    Storage["Supabase Storage: imágenes educativas"]
+    PG[("PostgreSQL según migraciones 001–009: perfiles, asignaturas, actividades, intentos, progreso, guardados")]
+    SA -->|"auth.users y perfil por trigger, según SQL"| PG
+    REST -->|"funciones, RLS y claves privadas según SQL"| PG
+  end
+  Auth -. "HTTP correo / PKCE Google implementados; login real pendiente" .-> SA
+  RPC -. "HTTP autenticado: recuperar y evaluar" .-> REST
+  Admin -. "HTTP autenticado: RPC administrativos" .-> REST
+  Cloud -. "load_campaign / save_campaign" .-> REST
+  PD -. "subida de imágenes implementada, no probada remotamente" .-> Storage

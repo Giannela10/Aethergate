@@ -1,0 +1,5 @@
+[
+ {"tool":"script_edit","arguments":{"file_path":"res://tests/npc_validation_6_3.gd","old_string":"if state in [\"talk\",\"write\",\"celebrate\"]: visual.set_visual_activity","new_string":"if state in [\"talk\",\"write\",\"celebrate\"] and visual.has_method(\"set_visual_activity\"): visual.set_visual_activity"}},
+ {"tool":"script_edit","arguments":{"file_path":"res://tests/npc_validation_6_3.gd","old_string":"if state==\"sit\": visual.contextual_pose.seated=true;visual.contextual_pose.seat_height=0.55","new_string":"if state==\"sit\" and visual.get(\"contextual_pose\")!=null: visual.contextual_pose.seated=true;visual.contextual_pose.seat_height=0.55"}},
+ {"tool":"script_edit","arguments":{"file_path":"res://tests/npc_validation_6_3.gd","old_string":"if state==\"stand\": visual.contextual_pose.seated=false","new_string":"if state==\"stand\" and visual.get(\"contextual_pose\")!=null: visual.contextual_pose.seated=false"}}
+]

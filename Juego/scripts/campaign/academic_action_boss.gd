@@ -16,7 +16,6 @@ var pulse_t := 0.0
 var pulses := 0
 var remembered := ""
 var bonus_choice := ""
-var point_failures: Array[String] = []
 func _ready() -> void:
 	super._ready()
 	question_bank = config.questions.duplicate(true) if not config.questions.is_empty() else load("res://scripts/campaign/academic_expansion_data.gd").ENGLISH_BANK.duplicate(true)
@@ -108,6 +107,7 @@ func begin_activity() -> void:
 	sequence_index = 0
 	activity_count += 1
 	remaining = 8.0
+	var v4: Node = duel.campaign.get_node_or_null("DuocGames4")
 	pulses = 0
 	pulse_t = 1.5
 	var text := ""
@@ -116,8 +116,8 @@ func begin_activity() -> void:
 	match config.role:
 		"DATOS":
 			if phase == 1:
-				activity = "duplicate"; tokens = ["REGISTRO VÁLIDO","DUPLICADO","DUPLICADO"]; expected.assign(["0"]); mode = "destroy"
-				text = "DATOS DUPLICADOS · golpea REGISTRO VÁLIDO"
+				activity = "duplicate"; tokens = ["REGISTRO DUPLICADO","REGISTRO VÁLIDO A","REGISTRO VÁLIDO B"]; expected.assign(["0"]); mode = "destroy"
+				text = "DATOS DUPLICADOS · elimina el duplicado y conserva los registros válidos"
 			elif activity_count % 2 == 0:
 				activity = "join"; tokens = ["CLIENTE","PEDIDO","PRODUCTO"]; expected.assign(["0","1"]); mode = "use"; remaining = 12
 				text = "JOIN · activa CLIENTE + PEDIDO con E"
@@ -178,6 +178,7 @@ func begin_activity() -> void:
 				if load("res://scripts/campaign/academic_expansion_data.gd").reward_owned(target,"CalculadoraAvanzada"): text += " · Pista: "+q[3]
 			if phase == 3: text = "ECUACIÓN FINAL · "+text
 	if activity.is_empty(): activity_cooldown = 12; return
+	if v4 != null and v4.accessibility.state().get("extra_time",false): remaining += 8.0
 	if config.role in ["INGLES","LENGUAJE"] and target.inventory.has_item("AudifonosDeTraduccion",1): remaining += 2
 	activity_label.text = text
 	duel.campaign.ui.notify(text,4)

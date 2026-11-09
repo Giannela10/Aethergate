@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "state": "idle",
+      "pass": true
+    },
+    {
+      "state": "walk",
+      "pass": true
+    },
+    {
+      "state": "run",
+      "pass": true
+    },
+    {
+      "state": "land",
+      "pass": true
+    },
+    {
+      "state": "crouch",
+      "pass": true
+    },
+    {
+      "state": "attack",
+      "pass": true
+    },
+    {
+      "state": "live_walk",
+      "pass": true
+    },
+    {
+      "state": "live_run",
+      "pass": true
+    },
+    {
+      "state": "live_land",
+      "pass": true
+    },
+    {
+      "state": "live_crouch",
+      "pass": true
+    },
+    {
+      "state": "live_attack",
+      "pass": true
+    },
+    {
+      "state": "raised_marking",
+      "pass": true
+    },
+    {
+      "state": "interior",
+      "pass": true
+    },
+    {
+      "state": "library",
+      "pass": true
+    },
+    {
+      "state": "inside_elevator",
+      "pass": true
+    },
+    {
+      "state": "elevator_moving",
+      "pass": true
+    },
+    {
+      "state": "jump airborne",
+      "pass": true
+    },
+    {
+      "state": "stairs ascent",
+      "pass": true
+    },
+    {
+      "state": "actual cabin displacement",
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "Foot clearance is for the combined two-shoe bounds; the stairs image has one planted foot and one swinging foot.",
+    "Short samples do not certify sliding-free movement over every surface.",
+    "Fresh-campaign unlock request is preserved; moving cabin uses the documented visual fixture."
+  ]
+}

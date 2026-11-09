@@ -6,7 +6,6 @@ var ready_for_play := false
 var failures: Array[String] = []
 var arena_samples: Dictionary = {}
 @export_range(1,3) var enabled_stages := 3
-func _ready() -> void: pass
 func setup() -> void:
 	await get_tree().physics_frame
 	for config in CONFIGS.slice(0,enabled_stages):

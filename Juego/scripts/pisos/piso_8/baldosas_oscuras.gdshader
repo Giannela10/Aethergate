@@ -19,7 +19,7 @@ void fragment() {
 	stone += veins * vec3(0.065, 0.060, 0.055);
 	ALBEDO = mix(stone, vec3(0.035), grout * 0.6);
 	EMISSION = ALBEDO * 0.65;
-	ROUGHNESS = mix(0.32 + 0.06 * variation, 0.85, grout);
+	ROUGHNESS = mix(0.62 + 0.06 * variation, 0.9, grout);
 	SPECULAR = 0.22;
 	METALLIC = 0.0;
 }

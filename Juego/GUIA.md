@@ -1,5 +1,7 @@
 # Guía de DuocGames
 
+Estado 4.0: consulta primero [DUOCGAMES_4_0_REPORT.md](DUOCGAMES_4_0_REPORT.md). Los profesores guían simulaciones digitales; el celular añade progreso, historia y accesibilidad. El piso 3 incorpora laboratorios 301, 302, 303, 304-B, 305, 306 y sala técnica. Hay solicitudes junto a Punto Estudiantil y seis misiones educativas nuevas. Las actividades publicadas requieren las migraciones 008–009 y conexión real; el último diagnóstico falló por DNS. No existe todavía una exportación Windows validada.
+
 Consulta [ERRORES.md](ERRORES.md) para las correcciones de la captura del depurador y la explicación de mensajes pendientes.
 
 ## Abrir y jugar

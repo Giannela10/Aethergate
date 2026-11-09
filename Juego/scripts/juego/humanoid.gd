@@ -32,6 +32,7 @@ var skin_color := Color("e0ac86")
 var shirt_color := Color("3b6ea5")
 var pants_color := Color("2f4058")
 var hair_color := Color("2b1d14")
+const Surface6 = preload("res://scripts/juego/character_surface_6.gd")
 var angry := false          # cejas fruncidas
 var punch_time := 0.45      # duración de cada golpe (segundos)
 
@@ -41,7 +42,7 @@ var dead := false
 var armed := false
 var weapon_node: Node3D
 var look_controller := preload("res://scripts/juego/look_at_controller.gd").new()
-const EXPRESSIONS := ["NEUTRAL","HAPPY","ANGRY","WORRIED","SURPRISED","TIRED","RELIEVED","ALERT"]
+const EXPRESSIONS := ["NEUTRAL","HAPPY","ANGRY","WORRIED","SURPRISED","TIRED","RELIEVED","ALERT","FOCUSED","PAIN","VICTORY"]
 var expression: String = "NEUTRAL"
 var secondary_animation_enabled := true
 var eyes: Array[Dictionary] = []
@@ -89,6 +90,7 @@ func animation_due(delta: float) -> bool:
 		visual_elapsed = 0
 		return false
 	var interval: float = 0.0 if critical else [0.0,0.12,0.5,1.0][maxi(activity_level,lod_level)]
+	if not critical and is_instance_valid(human_visual63): interval=maxf(interval,human_visual63.pose_interval())
 	if visual_elapsed < interval: return false
 	# Explicit restore/death calls may advance a full second in one step.
 	# Only ambient catch-up is capped; critical gameplay timing stays intact.
@@ -103,6 +105,7 @@ func update_visual_lod(delta: float) -> void:
 	var player := get_tree().get_first_node_in_group("player") as Node3D
 	if player == null or player.is_ancestor_of(self): return
 	var offset := global_position-player.global_position
+	if is_instance_valid(human_visual63): human_visual63.set_relevance(offset.length())
 	var next_lod := 2 if absf(offset.y) > 4 or offset.length_squared() > visual_far_distance*visual_far_distance else (1 if offset.length_squared() > visual_near_distance*visual_near_distance else 0)
 	secondary_animation_enabled = next_lod == 0
 	if is_instance_valid(blink_timer): blink_timer.paused = not secondary_animation_enabled or dead
@@ -140,10 +143,10 @@ func _secondary_animation(delta: float) -> void:
 	face_applied = expression
 	for index in eyebrows.size():
 		var sign_value := -1.0 if index == 0 else 1.0
-		eyebrows[index].rotation.z = sign_value*(0.25 if expression in ["ANGRY","ALERT"] else (-0.18 if expression == "WORRIED" else 0.0))
+		eyebrows[index].rotation.z = sign_value*(0.20 if expression in ["ANGRY","ALERT","FOCUSED"] else (-0.16 if expression in ["WORRIED","PAIN"] else 0.0))
 		eyebrows[index].position.y = 0.15 if expression == "SURPRISED" else 0.135
 	if is_instance_valid(mouth):
-		mouth.scale.x = 1.15 if expression in ["HAPPY","RELIEVED"] else 1.0
+		mouth.scale.x = 1.15 if expression in ["HAPPY","RELIEVED","VICTORY"] else 1.0
 		mouth.scale.y = 2.5 if expression == "SURPRISED" else 1.0
 	chest.rotation.z = hit_direction*hurt_t*0.13
 
@@ -187,8 +190,36 @@ var punch_hit: Array[bool] = [false, false]
 var next_right := true
 
 
+
+# One world-space human height policy; actor roots and gameplay capsules stay intact.
+const STANDARD_HUMAN_HEIGHT := 2.7
+const STANDARD_HUMAN_SCALE := 1.5
+var normalized_human_scale := STANDARD_HUMAN_SCALE
+
+func normalize_visual_height() -> void:
+	if not is_inside_tree(): return
+	var actor := get_parent()
+	var actor_script: Script = actor.get_script()
+	# Director viruses are digital minions, deliberately not adult humans.
+	if actor_script != null and actor_script.resource_path.ends_with("/virus_director.gd"): return
+	var target := Vector3.ONE * normalized_human_scale
+	if not global_basis.get_scale().is_equal_approx(target):
+		global_basis = global_basis.orthonormalized().scaled(target)
+	set_meta("standard_human_height",STANDARD_HUMAN_HEIGHT)
+
+func reset_visual_height_reference() -> void:
+	normalized_human_scale = STANDARD_HUMAN_SCALE
+	normalize_visual_height()
+
+func set_visual_height_reference(source_height: float, imported_scale: float) -> void:
+	if source_height <= 0.1 or imported_scale <= 0.0: return
+	normalized_human_scale = STANDARD_HUMAN_HEIGHT / (source_height * imported_scale)
+	normalize_visual_height()
+
 func _ready() -> void:
+	normalize_visual_height()
 	add_to_group("campus_character_visual")
+	_install_human63.call_deferred()
 	_build()
 	blink_timer = Timer.new()
 	blink_timer.name = "BlinkTimer"
@@ -196,6 +227,20 @@ func _ready() -> void:
 	blink_timer.timeout.connect(_blink)
 	add_child(blink_timer)
 	blink_timer.start(blink_wait)
+
+var human_visual63: Node3D
+func _install_human63() -> void:
+	# Actor presets and mentor/simulation ownership are assigned after child ready.
+	if not is_inside_tree(): return
+	await get_tree().process_frame
+	if not is_inside_tree(): return
+	await get_tree().process_frame
+	if not is_inside_tree(): return
+	normalize_visual_height()
+	human_visual63=load("res://scripts/juego/npc_visual_6_3.gd").install(self)
+
+func _update_human63(delta: float) -> void:
+	if is_instance_valid(human_visual63): human_visual63.update(delta)
 
 func _blink() -> void:
 	if secondary_animation_enabled and not dead: blink_time = 0.16
@@ -281,7 +326,8 @@ func _box(parent: Node3D, size: Vector3, pos: Vector3, color: Color,
 ## Segmento cónico que cuelga hacia abajo desde su pivote (más grueso arriba).
 func _limb(parent: Node3D, top_r: float, bot_r: float, length: float,
 		color: Color, rough: float = 0.85) -> void:
-	_cyl(parent, top_r, bot_r, length, Vector3(0, -length * 0.5, 0), color, Vector3.ONE, rough)
+	var key := str(["limb6",top_r,bot_r,length])
+	_node(parent,Surface6.contour(key,[Vector2(-length,bot_r),Vector2(-length*0.8,lerpf(bot_r,top_r,0.25)),Vector2(-length*0.48,lerpf(bot_r,top_r,0.8)),Vector2(-length*0.23,top_r*1.04),Vector2(0,top_r)],0.94,16),Vector3.ZERO,color,Vector3.ONE,maxf(rough,0.8))
 
 
 # =====================================================================
@@ -333,27 +379,22 @@ func _build() -> void:
 
 
 func _build_head() -> void:
-	# Cráneo ovalado y pelo
-	_ball(head_pivot, 0.105, Vector3(0, 0.1, 0), skin_color, Vector3(0.92, 1.1, 1.0), 0.6)
-	_ball(head_pivot, 0.112, Vector3(0, 0.122, 0.016), hair_color, Vector3(0.96, 1.0, 1.0), 0.9)
-
-	# Orejas y nariz
-	for sx in [-1.0, 1.0]:
-		_ball(head_pivot, 0.02, Vector3(0.095 * sx, 0.095, 0.0), skin_color, Vector3(0.6, 1.0, 0.8), 0.6)
-	_ball(head_pivot, 0.017, Vector3(0, 0.085, -0.102), skin_color.darkened(0.08),
-			Vector3(0.8, 1.0, 1.3), 0.6)
-
-	# Ojos y cejas
-	for sx in [-1.0, 1.0]:
-		_ball(head_pivot, 0.017, Vector3(0.038 * sx, 0.105, -0.09), Color("f4f4f4"), Vector3.ONE, 0.3)
-		_ball(head_pivot, 0.009, Vector3(0.038 * sx, 0.105, -0.103), Color("15151a"), Vector3.ONE, 0.2)
-		var brow := _box(head_pivot, Vector3(0.045, 0.009, 0.012),
-				Vector3(0.038 * sx, 0.132, -0.094), hair_color)
-		if angry:
-			brow.rotation.z = 0.35 * sx
-
-	# Boca
-	_box(head_pivot, Vector3(0.05, 0.007, 0.006), Vector3(0, 0.056, -0.096), Color("8a3b3b"), 0.5)
+	var face := _node(head_pivot,Surface6.contour("head6",[Vector2(-0.012,0),Vector2(0.005,0.048),Vector2(0.035,0.073),Vector2(0.075,0.091),Vector2(0.12,0.093),Vector2(0.165,0.089),Vector2(0.198,0.070),Vector2(0.218,0.033),Vector2(0.223,0)],0.91,28),Vector3.ZERO,skin_color,Vector3.ONE,0.82)
+	face.name = "FaceContour6"
+	var hair_cap := _node(head_pivot,Surface6.contour("haircap6",[Vector2(0.134,0.096),Vector2(0.166,0.093),Vector2(0.201,0.074),Vector2(0.222,0.036),Vector2(0.228,0)],0.94,28),Vector3.ZERO,hair_color,Vector3.ONE,0.95)
+	hair_cap.name="HairCap6"
+	for side in [-1.0,1.0]:
+		_ball(head_pivot,0.019,Vector3(side*0.094,0.09,0),skin_color,Vector3(0.5,1,0.65),0.84)
+		var eye := _ball(head_pivot,0.012,Vector3(side*0.035,0.111,-0.079),Color("f4f3ec"),Vector3(1,0.47,0.42),0.5)
+		eye.name = "EyeWhite6"
+		_ball(head_pivot,0.005,Vector3(side*0.035,0.111,-0.084),Color("303b32"),Vector3(1,1,0.45),0.45)
+		var brow := _box(head_pivot,Vector3(0.032,0.004,0.006),Vector3(side*0.035,0.135,-0.079),hair_color,0.94)
+		brow.rotation.z=side*0.05
+		_ball(head_pivot,0.014,Vector3(side*0.037,0.100,-0.071),skin_color,Vector3(1.2,0.32,0.8),0.84)
+	_ball(head_pivot,0.013,Vector3(0,0.099,-0.084),skin_color,Vector3(0.55,1.4,0.8),0.83)
+	_ball(head_pivot,0.012,Vector3(0,0.082,-0.093),skin_color.darkened(0.06),Vector3(0.8,0.6,0.8),0.82)
+	var lips := _box(head_pivot,Vector3(0.036,0.003,0.006),Vector3(0,0.046,-0.079),Color("986958"),0.8)
+	lips.name="Mouth6"
 
 
 func _build_arm(side: float) -> Array:
@@ -371,6 +412,9 @@ func _build_arm(side: float) -> Array:
 	var hand := _pivot(elbow, Vector3(0, -FOREARM - 0.03, 0))
 	_ball(hand, 0.043, Vector3.ZERO, skin_color, Vector3(0.85, 1.15, 1.0), 0.6)
 	_ball(hand, 0.018, Vector3(-0.028 * side, 0.012, -0.02), skin_color, Vector3.ONE, 0.6)
+	var fingers := _node(hand,Surface6.fingers(),Vector3.ZERO,skin_color,Vector3.ONE,0.84)
+	fingers.name="Fingers6"
+	fingers.visibility_range_end=14.0
 	return [shoulder, elbow, hand]
 
 
@@ -549,8 +593,10 @@ func _apply_leg(hip: Node3D, knee: Node3D, ankle: Node3D, p: Vector2) -> void:
 #  Animación principal (llamar cada frame desde el dueño)
 # =====================================================================
 func animate(delta: float, velocity: Vector3, on_floor: bool, crouching: bool) -> void:
+	normalize_visual_height()
 	if not animation_due(delta): return
 	_animate_pose(animation_delta,velocity,on_floor,crouching)
+	_update_human63(animation_delta)
 
 func _animate_pose(delta: float, velocity: Vector3, on_floor: bool, crouching: bool) -> void:
 	if dead:

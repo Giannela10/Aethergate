@@ -22,6 +22,18 @@ var initialized := false
 var spawn_position := Vector3.ZERO
 var identity_label: Label3D
 var visual_pass := preload("res://scripts/campaign/boss_visual_pass.gd").new()
+var simulation: Node3D
+var base_education := preload("res://scripts/education/mentor_activity_v4.gd").new()
+
+func learn_from_mentor() -> void:
+	decline()
+	base_education.campaign=campaign
+	base_education.floor_number=int(campaign.phone._floor_for(actor))
+	base_education.mentor_id=boss_id
+	base_education.open()
+
+func is_educational_simulation() -> bool:
+	return boss_id != "nexo" and duel_type == DuelType.COMBAT
 
 func _ready() -> void:
 	actor = get_parent()
@@ -42,6 +54,7 @@ func _ready() -> void:
 
 func interaction_target() -> Node3D:
 	# El cuerpo con colisión pertenece al actor, no a este controlador hijo.
+	if simulation!=null and state!=DuelState.COMBAT: return simulation.mentor
 	return actor
 
 func _initialize() -> void:
@@ -62,6 +75,10 @@ func _initialize() -> void:
 	music_player.stream = music
 	add_child(music_player)
 	_hide_old_bars()
+	if is_educational_simulation():
+		simulation = preload("res://scripts/campaign/simulation_visual_v4.gd").new()
+		add_child(simulation)
+		simulation.setup(self)
 	if defeated:
 		_show_defeated(true)
 
@@ -75,26 +92,33 @@ func allows_damage() -> bool:
 
 func interaction_text(_player: Node) -> String:
 	if defeated and boss_id == "director" and campaign.data.get("campaign_completed",false): return "[E] Hablar con el Director"
+	if defeated and boss_id in ["director","profesor_redes"]: return "[E] Hablar con "+boss_name
 	return "" if state != DuelState.NEUTRAL else "[E] Hablar con "+boss_name
 
 func interact(candidate: CharacterBody3D) -> void:
 	if defeated and boss_id == "director" and campaign.data.get("campaign_completed",false) and not candidate.dead and not candidate.busy:
-		campaign.ui.begin_character_dialogue(actor,true)
-		campaign.ui.dialog(boss_name,"Así que realmente estaba ahí abajo.",["Hasta luego"],[campaign.ui.close_modal],true)
+		campaign.ui.begin_character_dialogue(interaction_target(),true)
+		campaign.ui.dialog(boss_name,"Así que realmente estaba ahí abajo.",["ACTIVIDAD DEL DOCENTE","Hasta luego"],[learn_from_mentor,campaign.ui.close_modal],true)
+		return
+	if defeated and boss_id in ["director","profesor_redes"] and not candidate.dead and not candidate.busy:
+		campaign.ui.begin_character_dialogue(interaction_target(),true)
+		campaign.ui.dialog(boss_name,"Puedes seguir practicando sin repetir recompensas de la simulación.",["ACTIVIDAD DEL DOCENTE","CONTINUAR"],[learn_from_mentor,campaign.ui.close_modal],true)
 		return
 	if not initialized or state != DuelState.NEUTRAL or candidate.dead or candidate.busy or is_instance_valid(campaign.active_duel):
 		return
 	if campaign.get("academic_expansion") != null:
 		var missing: String = campaign.academic_expansion.boss_missing(boss_id,true)
 		if not missing.is_empty():
-			campaign.ui.begin_character_dialogue(actor,true)
-			campaign.ui.dialog(boss_name,missing,["Ahora no"],[campaign.ui.close_modal],true)
+			campaign.ui.begin_character_dialogue(interaction_target(),true)
+			campaign.ui.dialog(boss_name,missing+"\nPuedes practicar sin iniciar la simulación.",["ACTIVIDAD DEL DOCENTE","Ahora no"],[learn_from_mentor,campaign.ui.close_modal],true)
 			return
-	campaign.ui.begin_character_dialogue(actor,true)
+	campaign.ui.begin_character_dialogue(interaction_target(),true)
 	state = DuelState.DIALOGUE
 	campaign.active_duel = self
 	campaign.event("talk",boss_id)
-	campaign.ui.dialog(boss_name,intro_text+"\n\nSi cierras el juego durante el duelo, continuarás desde el estado previo al desafío.",["Iniciar duelo","Ahora no"],[accept,decline])
+	campaign.ui.dialog(boss_name,intro_text+"\n\nEl docente guía la actividad. Los ataques se dirigen a una entidad digital de entrenamiento.\nSi cierras durante el desafío, continuarás desde el estado previo.",["INICIAR SIMULACIÓN" if is_educational_simulation() else "INICIAR DESAFÍO","AHORA NO"],[accept,decline])
+	if boss_id=="profesor_redes": campaign.ui.dialog(boss_name,"Puedes practicar Redes o iniciar la simulación con sus requisitos actuales.",["ACTIVIDAD DEL DOCENTE","INICIAR SIMULACIÓN","AHORA NO"],[learn_from_mentor,accept,decline])
+	if boss_id=="director": campaign.ui.dialog(boss_name,intro_text+"\nEvaluación integradora: completa la actividad publicada y luego acepta la simulación.",["EVALUACIÓN INTEGRADORA","INICIAR SIMULACIÓN","AHORA NO"],[learn_from_mentor,accept,decline])
 
 func decline() -> void:
 	if state != DuelState.DIALOGUE:
@@ -105,6 +129,10 @@ func decline() -> void:
 
 func accept() -> void:
 	if state != DuelState.DIALOGUE:
+		return
+	var platform := campaign.get_node_or_null("DuocGames4")
+	if platform!=null and platform.published_mentors.has(boss_id) and not campaign.data.education_v4.get("mentor_passes",{}).get(boss_id,false):
+		learn_from_mentor()
 		return
 	if campaign.get("academic_expansion") != null:
 		var missing: String = campaign.academic_expansion.boss_missing(boss_id)
@@ -134,6 +162,7 @@ func accept() -> void:
 	if duel_type == DuelType.QUIZ:
 		actor.interact(campaign.player)
 	elif duel_type == DuelType.COMBAT:
+		if simulation: simulation.begin()
 		actor.set_physics_process(true)
 		actor.add_to_group("enemy")
 		actor.set("target",campaign.player)
@@ -201,6 +230,13 @@ func _defeat_visual() -> Node3D:
 	return null
 
 func _show_defeated(restored: bool) -> void:
+	if simulation:
+		actor.set_physics_process(false)
+		actor.remove_from_group("enemy")
+		if actor is CharacterBody3D: actor.velocity = Vector3.ZERO
+		simulation.finish()
+		identity_label.text = boss_name+"\nSIMULACIÓN COMPLETADA"
+		return
 	actor.set_physics_process(false)
 	actor.remove_from_group("enemy")
 	actor.set("health",0.0)
@@ -226,6 +262,7 @@ func _show_defeated(restored: bool) -> void:
 func reset_duel() -> void:
 	if defeated:
 		return
+	if simulation: simulation.reset()
 	if duel_type == DuelType.QUIZ and actor.get("active"):
 		actor._close()
 	state = DuelState.NEUTRAL

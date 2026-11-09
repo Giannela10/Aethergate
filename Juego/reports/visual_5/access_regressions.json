@@ -1,0 +1,55 @@
+[
+  {
+    "suite": "scene:tests/BasementAccessCheck.tscn",
+    "exit_code": 0,
+    "status": "PASS AUTOMÁTICO",
+    "completed": true,
+    "reportedFailures": false,
+    "elapsed_ms": 24204,
+    "engine_errors": 0,
+    "timeout": false,
+    "summary": [
+      "BASEMENT_ACCESS_RESULT {\"aperture_open\":true,\"doors\":9,\"failed\":[],\"tested\":20}"
+    ]
+  },
+  {
+    "suite": "scene:tests/ElevatorBasementCheck.tscn",
+    "exit_code": 0,
+    "status": "PASS AUTOMÁTICO",
+    "completed": true,
+    "reportedFailures": false,
+    "elapsed_ms": 11973,
+    "engine_errors": 0,
+    "timeout": false,
+    "summary": [
+      "ELEVATOR_BASEMENT_RESULT {\"failed\":[],\"tested\":3}"
+    ]
+  },
+  {
+    "suite": "scene:LibraryAccessCheck.tscn",
+    "exit_code": 0,
+    "status": "PASS AUTOMÁTICO",
+    "completed": true,
+    "reportedFailures": false,
+    "elapsed_ms": 17992,
+    "engine_errors": 0,
+    "timeout": false,
+    "summary": [
+      "FLOOR_REPAIR_RESULT {\"failures\":[],\"tested\":15}",
+      "LIBRARY_ACCESS_RESULT [{\"blockers\":[],\"box\":1,\"passed\":true,\"position\":\"(-48.08684, 12.05853, -118.76)\"},{\"blockers\":[],\"box\":2,\"passed\":true,\"position\":\"(-48.08684, 12.05857, -111.08)\"},{\"blockers\":[],\"box\":3,\"passed\":true,\"position\":\"(-48.08684, 12.05723, -103.4)\"},{\"blockers\":[],\"box\":4,\"passed\":true,\"position\":\"(-48.08684, 12.05857, -95.72)\"},{\"blockers\":[],\"box\":5,\"passed\":true,\"position\":\"(-48.08684, 12.05857, -88.04)\"},{\"blockers\":[],\"box\":6,\"passed\":true,\"position\":\"(-48.08684, 12.05857, -80.36)\"},{\"blockers\":[],\"box\":7,\"passed\":true,\"position\":\"(-53.5, 12.05857, -115.4795)\"}]"
+    ]
+  },
+  {
+    "suite": "scene:AuditorioAccessCheck.tscn",
+    "exit_code": 0,
+    "status": "PASS AUTOMÁTICO",
+    "completed": true,
+    "reportedFailures": false,
+    "elapsed_ms": 16870,
+    "engine_errors": 0,
+    "timeout": false,
+    "summary": [
+      "AUDITORIO_ACCESS_RESULT [{\"passed\":true,\"position\":\"(65.90809, 11.85745, -104.5)\",\"route\":\"Probe2\"},{\"passed\":true,\"position\":\"(48.11357, 8.642898, -118.5)\",\"route\":\"Probe0\"},{\"passed\":true,\"position\":\"(48.11357, 8.642898, -90.5)\",\"route\":\"Probe1\"}]"
+    ]
+  }
+]

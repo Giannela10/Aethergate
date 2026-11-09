@@ -1,0 +1,232 @@
+{
+  "matched_profiled_views": 12,
+  "samples_per_view": 90,
+  "resolution": "(1152, 648)",
+  "fov": 60,
+  "before": {
+    "frame_ms": 39.778999999999996,
+    "engine_fps": 24,
+    "draw_calls": 15697.5,
+    "primitives": 827159
+  },
+  "after": {
+    "frame_ms": 38.0835,
+    "engine_fps": 25,
+    "draw_calls": 15690.5,
+    "primitives": 826844
+  },
+  "enabled_lights_before": 502,
+  "enabled_lights_after": 502,
+  "screen_space_aa_before": 0,
+  "screen_space_aa_after": 0,
+  "fxaa_runtime_trial": {
+    "aa_off": {
+      "frame_ms": 79.46199999999999,
+      "engine_fps": 12,
+      "draw_calls": 31128,
+      "primitives": 1962336
+    },
+    "fxaa": {
+      "frame_ms": 87.973,
+      "engine_fps": 11,
+      "draw_calls": 31128,
+      "primitives": 1962336
+    },
+    "persisted": false
+  },
+  "pairs": [
+    {
+      "label": "lattice_near",
+      "identical_camera": true,
+      "before": {
+        "frame_ms": 31.25,
+        "engine_fps": 32,
+        "draw_calls": 14772,
+        "primitives": 538016
+      },
+      "after": {
+        "frame_ms": 32.1225,
+        "engine_fps": 30,
+        "draw_calls": 14771,
+        "primitives": 537628
+      }
+    },
+    {
+      "label": "lattice_medium",
+      "identical_camera": true,
+      "before": {
+        "frame_ms": 63.150999999999996,
+        "engine_fps": 16,
+        "draw_calls": 26289,
+        "primitives": 1603406
+      },
+      "after": {
+        "frame_ms": 63.772,
+        "engine_fps": 15,
+        "draw_calls": 26283,
+        "primitives": 1602604
+      }
+    },
+    {
+      "label": "lattice_far",
+      "identical_camera": true,
+      "before": {
+        "frame_ms": 79.46199999999999,
+        "engine_fps": 12,
+        "draw_calls": 31128,
+        "primitives": 1962336
+      },
+      "after": {
+        "frame_ms": 77.19,
+        "engine_fps": 12,
+        "draw_calls": 31120,
+        "primitives": 1961438
+      }
+    },
+    {
+      "label": "Piso2_Biblioteca_east",
+      "identical_camera": true,
+      "before": {
+        "frame_ms": 45.692,
+        "engine_fps": 20,
+        "draw_calls": 15579,
+        "primitives": 1069720
+      },
+      "after": {
+        "frame_ms": 40.915,
+        "engine_fps": 22.5,
+        "draw_calls": 15572,
+        "primitives": 1069304
+      }
+    },
+    {
+      "label": "Piso3_SalaDetrasLocal_Sala303_LaboratorioInformaticaFotos_east",
+      "identical_camera": true,
+      "before": {
+        "frame_ms": 15.771,
+        "engine_fps": 65,
+        "draw_calls": 5112,
+        "primitives": 305882
+      },
+      "after": {
+        "frame_ms": 13.400500000000001,
+        "engine_fps": 67,
+        "draw_calls": 5108,
+        "primitives": 305690
+      }
+    },
+    {
+      "label": "Piso4_FilaFrontalPiso4_CoworkDocente_east",
+      "identical_camera": true,
+      "before": {
+        "frame_ms": 21.4565,
+        "engine_fps": 44,
+        "draw_calls": 7350,
+        "primitives": 427128
+      },
+      "after": {
+        "frame_ms": 20.990000000000002,
+        "engine_fps": 43,
+        "draw_calls": 7346,
+        "primitives": 426936
+      }
+    },
+    {
+      "label": "Piso6_PasilloReferencia_Sala807_east",
+      "identical_camera": true,
+      "before": {
+        "frame_ms": 41.0685,
+        "engine_fps": 23,
+        "draw_calls": 19303,
+        "primitives": 853920
+      },
+      "after": {
+        "frame_ms": 38.980999999999995,
+        "engine_fps": 24,
+        "draw_calls": 19302,
+        "primitives": 853482
+      }
+    },
+    {
+      "label": "Piso7_PasilloReferencia_Sala807_east",
+      "identical_camera": true,
+      "before": {
+        "frame_ms": 31.018,
+        "engine_fps": 30,
+        "draw_calls": 15816,
+        "primitives": 610080
+      },
+      "after": {
+        "frame_ms": 30.734,
+        "engine_fps": 32,
+        "draw_calls": 15809,
+        "primitives": 609570
+      }
+    },
+    {
+      "label": "Piso8_PasilloReferencia_Sala807_east",
+      "identical_camera": true,
+      "before": {
+        "frame_ms": 21.5405,
+        "engine_fps": 41,
+        "draw_calls": 11136,
+        "primitives": 371980
+      },
+      "after": {
+        "frame_ms": 21.0415,
+        "engine_fps": 41,
+        "draw_calls": 11134,
+        "primitives": 371768
+      }
+    },
+    {
+      "label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio1_east",
+      "identical_camera": true,
+      "before": {
+        "frame_ms": 33.864999999999995,
+        "engine_fps": 29,
+        "draw_calls": 11260,
+        "primitives": 800398
+      },
+      "after": {
+        "frame_ms": 32.451,
+        "engine_fps": 28,
+        "draw_calls": 11256,
+        "primitives": 800206
+      }
+    },
+    {
+      "label": "exterior_west",
+      "identical_camera": true,
+      "before": {
+        "frame_ms": 83.5445,
+        "engine_fps": 11,
+        "draw_calls": 29153,
+        "primitives": 1848204
+      },
+      "after": {
+        "frame_ms": 71.102,
+        "engine_fps": 14,
+        "draw_calls": 29145,
+        "primitives": 1847306
+      }
+    },
+    {
+      "label": "exterior_east",
+      "identical_camera": true,
+      "before": {
+        "frame_ms": 73.452,
+        "engine_fps": 12,
+        "draw_calls": 30365,
+        "primitives": 1805212
+      },
+      "after": {
+        "frame_ms": 73.4065,
+        "engine_fps": 13,
+        "draw_calls": 30359,
+        "primitives": 1804338
+      }
+    }
+  ],
+  "method": "Same editor inspection tab, 1152x648, native game FOV, fixed seed, same frozen actor policy, same camera/target and preserved production sector/LOD processing. 1.5s warm-up and 90 actual frame-post-draw intervals. Not a playable campaign benchmark; caches, OS load and timers may still vary. Primitives are the native Godot counter, not an independent GPU triangle capture."
+}

@@ -3,9 +3,9 @@ extends Node
 ## Horario opcional. Reutiliza tiempo jugado, CampaignUI, recompensas y guardado.
 ## Puede enlazarse a otro reloj mediante time_provider -> {day:int, minute:int}.
 const CLASSES = [
-	{"id":"programming","name":"Programación","minute":540,"duration":30,"room":"Sala 303 · Piso 3","floor":3,"x":39.4,"z":-128.0,"site":"technology"},
-	{"id":"network","name":"Redes","minute":660,"duration":30,"room":"Laboratorio académico · Sala 303 · Piso 3","floor":3,"x":39.4,"z":-128.0,"site":"technology"},
-	{"id":"english","name":"Inglés","minute":840,"duration":30,"room":"Punto académico · Piso 5","floor":5,"x":-20.0,"z":-140.0,"site":"general"}
+	{"id":"programming","name":"Programación","minute":540,"duration":30,"room":"Sala 301 · Piso 3","floor":3,"x":-34.0,"z":-107.5,"site":"technology"},
+	{"id":"network","name":"Redes","minute":660,"duration":30,"room":"Laboratorio académico · Sala 303 · Piso 3","floor":3,"x":28.0,"z":-129.5,"site":"network_lab"},
+	{"id":"english","name":"Inglés","minute":840,"duration":30,"room":"Punto académico · Piso 6","floor":6,"x":-20.0,"z":-140.0,"site":"general"}
 ]
 const SECONDS_PER_MINUTE := 10.0
 var campaign: Node

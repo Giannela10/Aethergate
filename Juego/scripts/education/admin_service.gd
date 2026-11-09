@@ -88,7 +88,7 @@ func list_profiles() -> Dictionary:
 	return await _read_all("/rest/v1/profiles?select=id,email,display_name,role,created_at&order=created_at.desc,id")
 
 func list_subjects() -> Dictionary:
-	return await _read_all("/rest/v1/subjects?select=id,code,name,floor,active&order=code")
+	return await _read_all("/rest/v1/subjects?select=id,code,name,floor,area,active&order=code")
 
 func get_teacher_subjects(target_id: String) -> Dictionary:
 	if not valid_id(target_id): return {"ok":false,"message":"Identificador de cuenta inválido."}

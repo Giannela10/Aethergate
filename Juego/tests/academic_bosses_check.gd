@@ -151,7 +151,7 @@ func verify_expansion() -> void:
 	DirAccess.remove_absolute(ProjectSettings.globalize_path(save_path))
 	DirAccess.remove_absolute(ProjectSettings.globalize_path(save_path+".bak"))
 	check(get_tree().get_nodes_in_group("boss_duel").size() == 15,"Fifteen bosses including optional Redes")
-	check(c.quests.definitions.size() == 20,"Twenty quests without duplicate main chain")
+	check(c.quests.definitions.size() == 26 and c.quests.definitions.values().filter(func(q): return q.main_quest).size()==10,"Six additive educational quests without duplicate main chain")
 func preview(id: String) -> Dictionary:
 	var actor = c.academic_expansion.actors[id]
 	c.ui.close_modal()

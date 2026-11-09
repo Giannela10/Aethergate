@@ -1,0 +1,4890 @@
+[
+	{
+		"camera": "(-51.93369, 2.19, -149.0278)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_1.0_room_000_north.png",
+		"label": "floor_1.0_room_000_north",
+		"samples": [
+			{
+				"draw_calls": 8606.0,
+				"fps": 12.0,
+				"frame_ms": 19.4444444444444,
+				"primitives": 319586.0
+			},
+			{
+				"draw_calls": 8606.0,
+				"fps": 12.0,
+				"frame_ms": 19.4444444444444,
+				"primitives": 319586.0
+			},
+			{
+				"draw_calls": 8606.0,
+				"fps": 12.0,
+				"frame_ms": 19.4444444444444,
+				"primitives": 319586.0
+			},
+			{
+				"draw_calls": 8606.0,
+				"fps": 12.0,
+				"frame_ms": 19.047619047619,
+				"primitives": 319586.0
+			},
+			{
+				"draw_calls": 8606.0,
+				"fps": 12.0,
+				"frame_ms": 19.8412698412698,
+				"primitives": 319586.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 19.4444444444444,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 19.4444444444444,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 19.047619047619,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 19.047619047619,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 19.047619047619,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 19.047619047619,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 19.047619047619,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 19.047619047619,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 17.7933968253984,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 16.62,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 16.438,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 16.976,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 16.623,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 16.753,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 16.799,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 16.627,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 16.968,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 18.0555555555556,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 18.0555555555556,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 18.0555555555556,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 24.3946666666651,
+				"primitives": 315490.0
+			},
+			{
+				"draw_calls": 8605.0,
+				"fps": 12.0,
+				"frame_ms": 22.3770000000015,
+				"primitives": 315490.0
+			}
+		],
+		"target": "(-51.93369, 2.19, -159.0278)"
+	},
+	{
+		"camera": "(-51.93369, 2.19, -149.0278)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_1.0_room_000_south.png",
+		"label": "floor_1.0_room_000_south",
+		"samples": [
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 64.319,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 34.3866666666667,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 42.816,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 37.259,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 38.623,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 38.8888888888889,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 41.3407777777778,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 43.25,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 41.447,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 44.531,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 49.996,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 43.118,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 44.513,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 44.4444444444444,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 44.0,
+				"frame_ms": 44.4444444444444,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 44.4444444444444,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 40.5603333333333,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 39.086,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 36.774,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 37.693,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 38.8888888888889,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 39.6651111111096,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 39.5833333333333,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 43.75,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 40.0,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 39.4656666666682,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 39.111,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 39.251,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 39.5833333333333,
+				"primitives": 798072.0
+			},
+			{
+				"draw_calls": 13844.0,
+				"fps": 20.0,
+				"frame_ms": 39.5833333333333,
+				"primitives": 798072.0
+			}
+		],
+		"target": "(-51.93369, 2.19, -139.0278)"
+	},
+	{
+		"camera": "(-58.4725, 2.255, -100.71)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_1.0_room_001_north.png",
+		"label": "floor_1.0_room_001_north",
+		"samples": [
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 64.3424126984142,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 61.259,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 70.574,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 66.007,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 58.8493333333319,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 37.5,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 36.6666666666667,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 35.5846666666681,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 35.7142857142857,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 37.8677142857128,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 36.1111111111111,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 36.1111111111111,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 42.3701111111126,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 45.057,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 24.0,
+				"frame_ms": 52.896,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 45.8333333333333,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 41.6213333333319,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 50.0,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 42.9910000000015,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 43.3333333333333,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 47.0089999999985,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 48.9550000000015,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 48.185,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 68.835,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 50.0,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 50.0,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 33.3046666666667,
+				"primitives": 724104.0
+			},
+			{
+				"draw_calls": 12618.0,
+				"fps": 23.0,
+				"frame_ms": 31.893,
+				"primitives": 724104.0
+			}
+		],
+		"target": "(-58.4725, 2.255, -110.71)"
+	},
+	{
+		"camera": "(-58.4725, 2.255, -100.71)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_1.0_room_001_south.png",
+		"label": "floor_1.0_room_001_south",
+		"samples": [
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 23.594,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 22.293,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 23.814,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 24.079,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 23.3333333333333,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 23.3333333333333,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 22.6413333333319,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 22.9166666666667,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 20.9220000000015,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 16.603,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 16.496,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 15.955,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 16.414,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 15.687,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 15.772,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 15.897,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 15.555,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 17.088,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 16.552,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 16.011,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 18.0555555555556,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 18.0555555555556,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 18.0555555555556,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 18.0555555555556,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 18.0555555555556,
+				"primitives": 432172.0
+			},
+			{
+				"draw_calls": 5424.0,
+				"fps": 33.0,
+				"frame_ms": 21.1868888888874,
+				"primitives": 432172.0
+			}
+		],
+		"target": "(-58.4725, 2.255, -90.71)"
+	},
+	{
+		"camera": "(58.3475, 2.31, -107.9013)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_1.0_room_003_north.png",
+		"label": "floor_1.0_room_003_north",
+		"samples": [
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 36.3636363636364,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 32.6770303030318,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 36.3636363636364,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 31.5923636363636,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 30.917,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 31.033,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 31.057,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 31.24,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 33.287,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 31.024,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 29.947,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 31.9444444444444,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 27.0595555555556,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 28.714,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 29.697,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 27.868,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 28.976,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 28.365,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 28.098,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 47.0,
+				"frame_ms": 28.245,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 30.0,
+				"frame_ms": 28.402,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 30.0,
+				"frame_ms": 28.835,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 30.0,
+				"frame_ms": 29.1666666666667,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 30.0,
+				"frame_ms": 29.1666666666667,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 30.0,
+				"frame_ms": 28.7878787878788,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 30.0,
+				"frame_ms": 29.1666666666667,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 30.0,
+				"frame_ms": 30.5214545454545,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 30.0,
+				"frame_ms": 43.611,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 30.0,
+				"frame_ms": 64.9903333333333,
+				"primitives": 788760.0
+			},
+			{
+				"draw_calls": 12688.0,
+				"fps": 30.0,
+				"frame_ms": 51.093,
+				"primitives": 788760.0
+			}
+		],
+		"target": "(58.3475, 2.31, -117.9013)"
+	},
+	{
+		"camera": "(58.3475, 2.31, -107.9013)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_1.0_room_003_south.png",
+		"label": "floor_1.0_room_003_south",
+		"samples": [
+			{
+				"draw_calls": 4916.0,
+				"fps": 30.0,
+				"frame_ms": 17.094,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 30.0,
+				"frame_ms": 16.912,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 17.519,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 16.965,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 15.824,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 16.303,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 17.588,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 17.918,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 17.907,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 17.62,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 18.0555555555556,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 20.1904444444429,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 19.5136666666682,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 18.0555555555556,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 18.0555555555556,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 18.0555555555556,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 20.1493333333333,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 18.898,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 19.077,
+				"primitives": 432376.0
+			},
+			{
+				"draw_calls": 4916.0,
+				"fps": 34.0,
+				"frame_ms": 19.867,
+				"primitives": 432376.0
+			}
+		],
+		"target": "(58.3475, 2.31, -97.90125)"
+	},
+	{
+		"camera": "(-58.52399, 14.24839, -107.3047)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_2.0_room_007_north.png",
+		"label": "floor_2.0_room_007_north",
+		"samples": [
+			{
+				"draw_calls": 8697.0,
+				"fps": 41.0,
+				"frame_ms": 31.006,
+				"primitives": 647582.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 32.003,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 31.884,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8697.0,
+				"fps": 41.0,
+				"frame_ms": 35.6166666666667,
+				"primitives": 647582.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 34.742,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8697.0,
+				"fps": 41.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 647582.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 37.7726666666667,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 34.7222222222222,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 34.7222222222222,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8697.0,
+				"fps": 41.0,
+				"frame_ms": 33.5465555555556,
+				"primitives": 647582.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 31.4256666666667,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 28.478,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8697.0,
+				"fps": 41.0,
+				"frame_ms": 29.294,
+				"primitives": 647582.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 29.155,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 27.802,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 29.47,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 27.502,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 27.992,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8697.0,
+				"fps": 41.0,
+				"frame_ms": 29.172,
+				"primitives": 647582.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 41.0,
+				"frame_ms": 28.494,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 31.0,
+				"frame_ms": 26.782,
+				"primitives": 645422.0
+			},
+			{
+				"draw_calls": 8692.0,
+				"fps": 31.0,
+				"frame_ms": 28.702,
+				"primitives": 645422.0
+			}
+		],
+		"target": "(-58.52399, 14.24839, -117.3047)"
+	},
+	{
+		"camera": "(-58.52399, 14.24839, -107.3047)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_2.0_room_007_south.png",
+		"label": "floor_2.0_room_007_south",
+		"samples": [
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 46.4453333333333,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 32.0763333333318,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 33.3200000000015,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 23.071,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 27.102,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 25.447,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 24.456,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 23.737,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 22.954,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 19.347,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 20.812,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 21.38,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 20.731,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 20.11,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 19.428,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 20.797,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 21.2121212121212,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 22.7625454545439,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 21.2121212121212,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 21.4285714285714,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 21.4285714285714,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 21.4285714285714,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 21.7788311688327,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 26.304,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 26.154,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 22.77,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 22.444,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 25.58,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 24.788,
+				"primitives": 412856.0
+			},
+			{
+				"draw_calls": 8118.0,
+				"fps": 31.0,
+				"frame_ms": 23.872,
+				"primitives": 412856.0
+			}
+		],
+		"target": "(-58.52399, 14.24839, -97.30473)"
+	},
+	{
+		"camera": "(25.33072, 26.16367, -113.6625)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_3.0_room_011_north.png",
+		"label": "floor_3.0_room_011_north",
+		"samples": [
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 32.989,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 35.7142857142857,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 35.7142857142857,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 35.7142857142857,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 35.7142857142857,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 36.1111111111111,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 36.1111111111111,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 38.1419682539683,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 36.1111111111111,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 36.1111111111111,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 36.1111111111111,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 36.1111111111111,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 35.7142857142857,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 35.2546031746016,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 32.6703333333349,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 31.622,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 33.439,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 31.159,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 31.056,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 32.091,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 31.212,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 30.219,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 30.7926666666667,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 30.838,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 30.627,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 31.9444444444444,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 31.3715555555556,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 31.9444444444444,
+				"primitives": 889992.0
+			},
+			{
+				"draw_calls": 14406.0,
+				"fps": 30.0,
+				"frame_ms": 31.9444444444444,
+				"primitives": 889992.0
+			}
+		],
+		"target": "(25.33072, 26.16367, -123.6625)"
+	},
+	{
+		"camera": "(25.33072, 26.16367, -113.6625)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_3.0_room_011_south.png",
+		"label": "floor_3.0_room_011_south",
+		"samples": [
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 25.0,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 25.0,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 25.0,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 22.0986666666667,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 19.299,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 20.241,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 18.402,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 18.252,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 17.956,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 18.504,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 19.047619047619,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 19.047619047619,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 18.4817619047619,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 17.158,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 17.312,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 17.226,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 17.382,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 30.0,
+				"frame_ms": 18.5185185185185,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 44.0,
+				"frame_ms": 20.6674814814799,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 44.0,
+				"frame_ms": 18.75,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 44.0,
+				"frame_ms": 18.75,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 44.0,
+				"frame_ms": 18.75,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 44.0,
+				"frame_ms": 18.5185185185185,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 44.0,
+				"frame_ms": 18.5185185185185,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 44.0,
+				"frame_ms": 18.5185185185185,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 44.0,
+				"frame_ms": 15.893444444446,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 44.0,
+				"frame_ms": 14.431,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 44.0,
+				"frame_ms": 14.656,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 44.0,
+				"frame_ms": 13.858,
+				"primitives": 456582.0
+			},
+			{
+				"draw_calls": 5662.0,
+				"fps": 44.0,
+				"frame_ms": 14.416,
+				"primitives": 456582.0
+			}
+		],
+		"target": "(25.33072, 26.16367, -103.6625)"
+	},
+	{
+		"camera": "(-79.87439, 38.50442, -82.28242)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_4.0_room_020_north.png",
+		"label": "floor_4.0_room_020_north",
+		"samples": [
+			{
+				"draw_calls": 14025.0,
+				"fps": 44.0,
+				"frame_ms": 50.0,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 44.0,
+				"frame_ms": 44.8466666666667,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 44.0,
+				"frame_ms": 38.81,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 44.0,
+				"frame_ms": 39.551,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 44.0,
+				"frame_ms": 38.466,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 41.6666666666667,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 41.6666666666667,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 40.9676666666667,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 41.6666666666667,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 39.7313333333333,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 38.65,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 37.381,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 38.144,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 37.166,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 37.276,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 38.8888888888889,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 37.2751111111111,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 37.521,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 37.743,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 37.556,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 37.8787878787879,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 37.8787878787879,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 37.8787878787879,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 37.8787878787879,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 38.0952380952381,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 43.6999437229437,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 41.401,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 38.3333333333333,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 38.3276666666652,
+				"primitives": 894700.0
+			},
+			{
+				"draw_calls": 14025.0,
+				"fps": 30.0,
+				"frame_ms": 39.7420000000015,
+				"primitives": 894700.0
+			}
+		],
+		"target": "(-79.87439, 38.50442, -92.28242)"
+	},
+	{
+		"camera": "(-79.87439, 38.50442, -82.28242)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_4.0_room_020_south.png",
+		"label": "floor_4.0_room_020_south",
+		"samples": [
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.6300606060606,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.377,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.3643333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 25.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 70.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 109072.0
+			},
+			{
+				"draw_calls": 1475.0,
+				"fps": 70.0,
+				"frame_ms": 13.6363636363636,
+				"primitives": 109072.0
+			}
+		],
+		"target": "(-79.87439, 38.50442, -72.28242)"
+	},
+	{
+		"camera": "(-10.23367, 37.86442, -82.28242)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_4.0_room_028_north.png",
+		"label": "floor_4.0_room_028_north",
+		"samples": [
+			{
+				"draw_calls": 22600.0,
+				"fps": 70.0,
+				"frame_ms": 56.838,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 70.0,
+				"frame_ms": 58.3333333333333,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 70.0,
+				"frame_ms": 63.923,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 70.0,
+				"frame_ms": 59.9039999999985,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 70.0,
+				"frame_ms": 59.0909090909091,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 70.0,
+				"frame_ms": 59.0909090909091,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 60.0621818181833,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 59.0909090909091,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 59.0909090909091,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 58.3333333333333,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 58.3333333333333,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 56.1551818181818,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 53.682,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 53.58,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 57.008,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 55.483,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 55.055,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 51.581,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 51.943,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 51.171,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 52.7777777777778,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 53.3333333333333,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 56.4442222222222,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 53.429,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 56.691,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 54.18,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 54.048,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 53.6793333333319,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 62.0296666666681,
+				"primitives": 1377040.0
+			},
+			{
+				"draw_calls": 22600.0,
+				"fps": 18.0,
+				"frame_ms": 62.329,
+				"primitives": 1377040.0
+			}
+		],
+		"target": "(-10.23367, 37.86442, -92.28242)"
+	},
+	{
+		"camera": "(-10.23367, 37.86442, -82.28242)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_4.0_room_028_south.png",
+		"label": "floor_4.0_room_028_south",
+		"samples": [
+			{
+				"draw_calls": 2036.0,
+				"fps": 18.0,
+				"frame_ms": 13.262,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 18.0,
+				"frame_ms": 13.315,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 18.0,
+				"frame_ms": 13.34,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 18.0,
+				"frame_ms": 13.363,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3663333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.384,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			},
+			{
+				"draw_calls": 2036.0,
+				"fps": 48.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 158312.0
+			}
+		],
+		"target": "(-10.23367, 37.86442, -72.28242)"
+	},
+	{
+		"camera": "(-0.333496, 50.16485, -103.395)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_5.0_room_039_north.png",
+		"label": "floor_5.0_room_039_north",
+		"samples": [
+			{
+				"draw_calls": 20172.0,
+				"fps": 48.0,
+				"frame_ms": 40.9090909090909,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 41.2069090909091,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 41.6666666666667,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 48.919,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 46.602,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 41.6666666666667,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 42.4242424242424,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 42.4242424242424,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 42.4242424242424,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 50.4476060606061,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 45.276,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 44.4444444444444,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 44.4444444444444,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 44.4444444444444,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 44.9066666666667,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 44.4444444444444,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 44.4444444444444,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 44.4444444444444,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 44.4444444444444,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 42.8908888888889,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 43.674,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 43.492,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 42.48,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 41.0,
+				"frame_ms": 42.466,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 23.0,
+				"frame_ms": 43.9393939393939,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 23.0,
+				"frame_ms": 40.2796060606061,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 23.0,
+				"frame_ms": 38.338,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 23.0,
+				"frame_ms": 37.192,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 23.0,
+				"frame_ms": 37.5,
+				"primitives": 946902.0
+			},
+			{
+				"draw_calls": 20172.0,
+				"fps": 23.0,
+				"frame_ms": 38.8888888888889,
+				"primitives": 946902.0
+			}
+		],
+		"target": "(-0.333496, 50.16485, -113.395)"
+	},
+	{
+		"camera": "(-0.333496, 50.16485, -103.395)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_5.0_room_039_south.png",
+		"label": "floor_5.0_room_039_south",
+		"samples": [
+			{
+				"draw_calls": 3484.0,
+				"fps": 23.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 23.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 23.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 23.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 23.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 23.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 23.0,
+				"frame_ms": 15.2777777777778,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 23.0,
+				"frame_ms": 15.2777777777778,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 23.0,
+				"frame_ms": 15.2777777777778,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 15.2777777777778,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 15.2777777777778,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 13.3894444444444,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 13.872,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 12.859,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 13.174,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 10.845,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 14.2857142857143,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 14.2857142857143,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 14.2857142857143,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 14.2857142857143,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 16.5614761904749,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 14.2857142857143,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 13.0489523809537,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 13.567,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 12.965,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 14.2857142857143,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 15.1809523809511,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 13.8888888888889,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 13.8814444444458,
+				"primitives": 254470.0
+			},
+			{
+				"draw_calls": 3484.0,
+				"fps": 44.0,
+				"frame_ms": 13.8888888888889,
+				"primitives": 254470.0
+			}
+		],
+		"target": "(-0.333496, 50.16485, -93.395)"
+	},
+	{
+		"camera": "(-50.0, 63.16245, -149.4575)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_6.0_room_041_north.png",
+		"label": "floor_6.0_room_041_north",
+		"samples": [
+			{
+				"draw_calls": 7310.0,
+				"fps": 44.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 44.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 44.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 44.0,
+				"frame_ms": 13.317,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 44.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 44.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 44.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3296666666667,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3306666666667,
+				"primitives": 175600.0
+			},
+			{
+				"draw_calls": 7310.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 175600.0
+			}
+		],
+		"target": "(-50.0, 63.16245, -159.4575)"
+	},
+	{
+		"camera": "(-50.0, 63.16245, -149.4575)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_6.0_room_041_south.png",
+		"label": "floor_6.0_room_041_south",
+		"samples": [
+			{
+				"draw_calls": 10509.0,
+				"fps": 64.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 64.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 31.4814814814815,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 29.9205185185185,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 31.4814814814815,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 28.2155185185185,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 29.283,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 32.2599999999987,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.5243333333347,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 35.2106666666667,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 36.488,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 31.9444444444444,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 32.7802222222222,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 34.5013333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 33.3333333333333,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 31.9444444444444,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 30.2732222222209,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 31.8743333333347,
+				"primitives": 520954.0
+			},
+			{
+				"draw_calls": 10509.0,
+				"fps": 45.0,
+				"frame_ms": 29.233,
+				"primitives": 520954.0
+			}
+		],
+		"target": "(-50.0, 63.16245, -139.4575)"
+	},
+	{
+		"camera": "(-50.0, 74.94613, -149.4575)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_7.0_room_049_north.png",
+		"label": "floor_7.0_room_049_north",
+		"samples": [
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3286666666667,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3323333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			},
+			{
+				"draw_calls": 4032.0,
+				"fps": 29.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 91668.0
+			}
+		],
+		"target": "(-50.0, 74.94613, -159.4575)"
+	},
+	{
+		"camera": "(-50.0, 74.94613, -149.4575)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_7.0_room_049_south.png",
+		"label": "floor_7.0_room_049_south",
+		"samples": [
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.58,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 23.1186666666653,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.8420000000014,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 22.2222222222222,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 22.2222222222222,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 71.0,
+				"frame_ms": 22.2222222222222,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 43.0,
+				"frame_ms": 22.2222222222222,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 43.0,
+				"frame_ms": 22.2222222222222,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 43.0,
+				"frame_ms": 23.6985555555556,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 43.0,
+				"frame_ms": 25.03,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 43.0,
+				"frame_ms": 23.871,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 43.0,
+				"frame_ms": 24.432,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 43.0,
+				"frame_ms": 23.3333333333333,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 43.0,
+				"frame_ms": 23.3333333333333,
+				"primitives": 546478.0
+			},
+			{
+				"draw_calls": 9361.0,
+				"fps": 43.0,
+				"frame_ms": 23.3333333333333,
+				"primitives": 546478.0
+			}
+		],
+		"target": "(-50.0, 74.94613, -139.4575)"
+	},
+	{
+		"camera": "(-50.0, 86.9175, -149.4575)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_8.0_room_057_north.png",
+		"label": "floor_8.0_room_057_north",
+		"samples": [
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 43.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			},
+			{
+				"draw_calls": 566.0,
+				"fps": 64.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 42028.0
+			}
+		],
+		"target": "(-50.0, 86.9175, -159.4575)"
+	},
+	{
+		"camera": "(-50.0, 86.9175, -149.4575)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_8.0_room_057_south.png",
+		"label": "floor_8.0_room_057_south",
+		"samples": [
+			{
+				"draw_calls": 7396.0,
+				"fps": 64.0,
+				"frame_ms": 22.2222222222222,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 64.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 64.0,
+				"frame_ms": 21.6666666666667,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 64.0,
+				"frame_ms": 21.4681111111125,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 64.0,
+				"frame_ms": 21.262,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 64.0,
+				"frame_ms": 18.952,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 64.0,
+				"frame_ms": 20.244,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 64.0,
+				"frame_ms": 19.442,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 64.0,
+				"frame_ms": 21.2121212121212,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 21.2121212121212,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 23.9854242424229,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 21.0023333333347,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 19.977,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 21.2121212121212,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 20.0048787878788,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 18.65,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 20.8333333333333,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 20.8333333333333,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 20.8333333333333,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 20.8333333333333,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 26.092,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 24.311,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 22.818,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 23.471,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 28.196,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 36.916,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 33.823,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 30.0,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 30.5555555555556,
+				"primitives": 419246.0
+			},
+			{
+				"draw_calls": 7396.0,
+				"fps": 48.0,
+				"frame_ms": 26.3044444444431,
+				"primitives": 419246.0
+			}
+		],
+		"target": "(-50.0, 86.9175, -139.4575)"
+	},
+	{
+		"camera": "(-3.905, -9.868385, -104.0)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_-1.0_room_066_north.png",
+		"label": "floor_-1.0_room_066_north",
+		"samples": [
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 46.149,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 43.974,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 48.924,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 50.82,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 50.226,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 50.0,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 37.3986666666667,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 29.1186666666653,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 37.5,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 35.1973333333347,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 43.9693333333319,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 48.5900000000014,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 49.393,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 41.98,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 41.6666666666667,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 41.6666666666667,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 41.6666666666667,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 41.6666666666667,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 40.858,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 34.0,
+				"frame_ms": 36.984,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 24.0,
+				"frame_ms": 37.382,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 24.0,
+				"frame_ms": 39.116,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 24.0,
+				"frame_ms": 37.087,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 24.0,
+				"frame_ms": 38.8888888888889,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 24.0,
+				"frame_ms": 38.8888888888889,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 24.0,
+				"frame_ms": 38.8888888888889,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 24.0,
+				"frame_ms": 38.8888888888889,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 24.0,
+				"frame_ms": 38.8888888888889,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 24.0,
+				"frame_ms": 38.8888888888889,
+				"primitives": 814844.0
+			},
+			{
+				"draw_calls": 11927.0,
+				"fps": 24.0,
+				"frame_ms": 38.8888888888889,
+				"primitives": 814844.0
+			}
+		],
+		"target": "(-3.905, -9.868385, -114.0)"
+	},
+	{
+		"camera": "(-3.905, -9.868385, -104.0)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_-1.0_room_066_south.png",
+		"label": "floor_-1.0_room_066_south",
+		"samples": [
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.347,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.334,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.352,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.355,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 14.0663333333333,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.4686666666667,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 14.0186666666667,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.3333333333333,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 25.1083333333333,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 16.617,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.405,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 16.6666666666667,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 14.096,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 12.763,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 13.252,
+				"primitives": 459618.0
+			},
+			{
+				"draw_calls": 3657.0,
+				"fps": 49.0,
+				"frame_ms": 11.929,
+				"primitives": 459618.0
+			}
+		],
+		"target": "(-3.905, -9.868385, -94.0)"
+	},
+	{
+		"camera": "(51.415, -9.868385, -128.8025)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_-1.0_room_068_north.png",
+		"label": "floor_-1.0_room_068_north",
+		"samples": [
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 20.8333333333333,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 20.8333333333333,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 20.8333333333333,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 26.486,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 20.8333333333333,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 21.6456666666667,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 25.272,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 22.2222222222222,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 22.2222222222222,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 23.6045555555556,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 22.2222222222222,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 33.7137777777778,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 34.505,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 45.567,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 34.408,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 36.935,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 49.87,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 58.269,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 53.886,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 56.516,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 50.0,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 50.0,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 50.0,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 55.865,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 52.885,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 53.0,
+				"frame_ms": 51.075,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 28.0,
+				"frame_ms": 54.365,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 28.0,
+				"frame_ms": 55.442,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 28.0,
+				"frame_ms": 52.706,
+				"primitives": 554556.0
+			},
+			{
+				"draw_calls": 10790.0,
+				"fps": 28.0,
+				"frame_ms": 52.0833333333333,
+				"primitives": 554556.0
+			}
+		],
+		"target": "(51.415, -9.868385, -138.8025)"
+	},
+	{
+		"camera": "(51.415, -9.868385, -128.8025)",
+		"capture": "res://reports/visual_5/candidate_lights_floor_-1.0_room_068_south.png",
+		"label": "floor_-1.0_room_068_south",
+		"samples": [
+			{
+				"draw_calls": 7251.0,
+				"fps": 28.0,
+				"frame_ms": 27.7777777777778,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 28.0,
+				"frame_ms": 27.7777777777778,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 28.0,
+				"frame_ms": 19.8421111111125,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 28.0,
+				"frame_ms": 19.719,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 28.0,
+				"frame_ms": 25.0,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 28.0,
+				"frame_ms": 25.0,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 28.0,
+				"frame_ms": 22.648,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 28.0,
+				"frame_ms": 24.434,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 25.0,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 25.0,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 20.862,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 18.857,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 20.493,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 18.889,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 17.584,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 18.781,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 17.714,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 19.786,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 19.034,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 19.1346666666653,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 19.047619047619,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 19.047619047619,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 19.047619047619,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 19.4444444444444,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 19.4444444444444,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 20.6349206349206,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 19.4444444444444,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 19.4444444444444,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 19.4444444444444,
+				"primitives": 541256.0
+			},
+			{
+				"draw_calls": 7251.0,
+				"fps": 29.0,
+				"frame_ms": 19.4444444444444,
+				"primitives": 541256.0
+			}
+		],
+		"target": "(51.415, -9.868385, -118.8025)"
+	}
+]

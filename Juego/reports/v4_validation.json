@@ -1,0 +1,1215 @@
+{
+  "revision_scripts": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checked": 287,
+        "failures": []
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T18:07:53.230Z"
+  },
+  "AcademicBossesCheck": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": null,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "actors": [
+          "profesor_datos",
+          "profesor_algoritmos",
+          "docente_enfermeria",
+          "docente_odontologia",
+          "coordinador_profesores",
+          "profesor_matematicas",
+          "profesor_ingles",
+          "profesor_lenguaje",
+          "profesor_etica"
+        ],
+        "checks": 320,
+        "expansion_failures": [],
+        "failures": [],
+        "stage": 11
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T18:11:36.132Z"
+  },
+  "floor3_layout_v4": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 27,
+        "failures": [],
+        "free": [
+          {
+            "blockers": [],
+            "clear": true,
+            "x": -34,
+            "z": -106
+          }
+        ]
+      }
+    ],
+    "executed_at": "2026-11-02T15:39:14.991Z"
+  },
+  "campus_v4": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "audio_streams": 13,
+        "checks": 59,
+        "escort_position": "(38.0, 23.96851, -149.2909)",
+        "failures": [],
+        "routine_actors": 7
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T18:11:24.517Z"
+  },
+  "campaign_regression": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "passed": true
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:12:40.238Z"
+  },
+  "campus_vivo": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 52,
+        "failures": [],
+        "qa_review": [
+          "Check credential source and physical route: acceso7",
+          "Check credential source and physical route: nexo_core",
+          "Stairs, door connectivity and arena exits require an in-game traversal; no automatic geometry repair"
+        ]
+      }
+    ],
+    "executed_at": "2026-11-02T16:20:21.041Z"
+  },
+  "nexo_final": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 111,
+        "failures": []
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:54:27.685Z"
+  },
+  "inventory_regression": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "passed": true
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T16:56:19.215Z"
+  },
+  "student_phone": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 31,
+        "failures": []
+      }
+    ],
+    "executed_at": "2026-11-02T16:20:14.890Z"
+  },
+  "personalizacion": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": []
+      }
+    ],
+    "executed_at": "2026-11-02T16:21:05.103Z"
+  },
+  "learning_activity_v4": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 15,
+        "failures": [],
+        "server_sql_executed": false
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:18:07.273Z"
+  },
+  "education_1_0": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 32,
+        "failures": [],
+        "google_oauth": "NOT TESTED: external credentials required",
+        "release_export": "NOT TESTED: export templates required",
+        "supabase_rls": "NOT TESTED: deployment required"
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:10:35.280Z"
+  },
+  "UserRolesCheck": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": null,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "backend": "in-memory policy model plus SQL static checks; remote RLS NOT TESTED",
+        "checks": 63,
+        "failures": [],
+        "real_users_created": 0,
+        "real_users_modified": 0
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:05:41.319Z"
+  },
+  "education_integration": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 18,
+        "failures": []
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:10:41.154Z"
+  },
+  "balance_regression": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      []
+    ],
+    "executed_at": "2026-11-02T16:20:52.906Z"
+  },
+  "performance_v4": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "batched_meshes": 127,
+        "checks": 6,
+        "failures": [],
+        "fps_claim": false,
+        "measurements": [
+          {
+            "cpu_process_ms": 24.7811851851851,
+            "draw_calls": 6420.55185185185,
+            "optimization": false,
+            "position": [
+              0,
+              0.2,
+              -140
+            ],
+            "renderer": "Windows",
+            "resolution": "(1152, 648)",
+            "static_memory_mib": 2322.34717655182
+          },
+          {
+            "cpu_process_ms": 22.2959333333333,
+            "draw_calls": 6360.18148148148,
+            "optimization": true,
+            "position": [
+              0,
+              0.2,
+              -140
+            ],
+            "renderer": "Windows",
+            "resolution": "(1152, 648)",
+            "static_memory_mib": 2322.35807387034
+          }
+        ],
+        "runs": [
+          {
+            "cpu_process_ms": 25.2304,
+            "draw_calls": 6422,
+            "optimization": false,
+            "position": [
+              0,
+              0.2,
+              -140
+            ],
+            "renderer": "Windows",
+            "resolution": "(1152, 648)",
+            "static_memory_mib": 2322.3311662674
+          },
+          {
+            "cpu_process_ms": 24.6056888888889,
+            "draw_calls": 6361,
+            "optimization": true,
+            "position": [
+              0,
+              0.2,
+              -140
+            ],
+            "renderer": "Windows",
+            "resolution": "(1152, 648)",
+            "static_memory_mib": 2322.35606098175
+          },
+          {
+            "cpu_process_ms": 17.7089111111111,
+            "draw_calls": 6360.54444444444,
+            "optimization": true,
+            "position": [
+              0,
+              0.2,
+              -140
+            ],
+            "renderer": "Windows",
+            "resolution": "(1152, 648)",
+            "static_memory_mib": 2322.35345935822
+          },
+          {
+            "cpu_process_ms": 24.8557444444444,
+            "draw_calls": 6420,
+            "optimization": false,
+            "position": [
+              0,
+              0.2,
+              -140
+            ],
+            "renderer": "Windows",
+            "resolution": "(1152, 648)",
+            "static_memory_mib": 2322.3545999527
+          },
+          {
+            "cpu_process_ms": 24.2574111111111,
+            "draw_calls": 6419.65555555556,
+            "optimization": false,
+            "position": [
+              0,
+              0.2,
+              -140
+            ],
+            "renderer": "Windows",
+            "resolution": "(1152, 648)",
+            "static_memory_mib": 2322.35576343536
+          },
+          {
+            "cpu_process_ms": 24.5732,
+            "draw_calls": 6359,
+            "optimization": true,
+            "position": [
+              0,
+              0.2,
+              -140
+            ],
+            "renderer": "Windows",
+            "resolution": "(1152, 648)",
+            "static_memory_mib": 2322.36470127106
+          }
+        ],
+        "scope": "Three A/B pairs with camera, civilian routes and game clock frozen; not an original-project baseline or a constant FPS guarantee"
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:34:33.473Z"
+  },
+  "persistent_queue_v4": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 22,
+        "failures": [],
+        "remote_database_tested": false
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T18:15:30.063Z"
+  },
+  "floor3_north_layout_v4": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 168,
+        "failures": [],
+        "free": [
+          {
+            "x": -64,
+            "z": -158
+          },
+          {
+            "x": -64,
+            "z": -154
+          },
+          {
+            "x": -64,
+            "z": -150
+          },
+          {
+            "x": -58,
+            "z": -158
+          },
+          {
+            "x": -58,
+            "z": -154
+          },
+          {
+            "x": -58,
+            "z": -150
+          },
+          {
+            "x": -52,
+            "z": -158
+          },
+          {
+            "x": -52,
+            "z": -154
+          },
+          {
+            "x": -52,
+            "z": -150
+          },
+          {
+            "x": -46,
+            "z": -158
+          },
+          {
+            "x": -46,
+            "z": -154
+          },
+          {
+            "x": -46,
+            "z": -150
+          },
+          {
+            "x": -40,
+            "z": -158
+          },
+          {
+            "x": -40,
+            "z": -154
+          },
+          {
+            "x": -40,
+            "z": -150
+          },
+          {
+            "x": -34,
+            "z": -158
+          },
+          {
+            "x": -34,
+            "z": -154
+          },
+          {
+            "x": -34,
+            "z": -150
+          },
+          {
+            "x": 20,
+            "z": -158
+          },
+          {
+            "x": 20,
+            "z": -154
+          },
+          {
+            "x": 26,
+            "z": -158
+          },
+          {
+            "x": 26,
+            "z": -154
+          },
+          {
+            "x": 32,
+            "z": -158
+          },
+          {
+            "x": 32,
+            "z": -154
+          },
+          {
+            "x": 38,
+            "z": -158
+          },
+          {
+            "x": 38,
+            "z": -154
+          },
+          {
+            "x": 38,
+            "z": -150
+          },
+          {
+            "x": 44,
+            "z": -158
+          },
+          {
+            "x": 44,
+            "z": -154
+          },
+          {
+            "x": 44,
+            "z": -150
+          },
+          {
+            "x": 50,
+            "z": -158
+          },
+          {
+            "x": 50,
+            "z": -154
+          },
+          {
+            "x": 50,
+            "z": -150
+          },
+          {
+            "x": 56,
+            "z": -158
+          },
+          {
+            "x": 56,
+            "z": -154
+          },
+          {
+            "x": 56,
+            "z": -150
+          },
+          {
+            "x": 62,
+            "z": -158
+          },
+          {
+            "x": 62,
+            "z": -154
+          },
+          {
+            "x": 62,
+            "z": -150
+          }
+        ]
+      }
+    ],
+    "executed_at": "2026-11-02T16:08:07.531Z"
+  },
+  "campus_polish_regression": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 6,
+        "failures": []
+      }
+    ],
+    "executed_at": "2026-11-02T16:19:29.445Z"
+  },
+  "remember_login_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 15,
+        "failures": [],
+        "real_accounts_modified": 0
+      }
+    ],
+    "executed_at": "2026-11-02T16:19:30.119Z"
+  },
+  "resource_reference_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checked_scenes": 41,
+        "failures": []
+      }
+    ],
+    "executed_at": "2026-11-02T16:19:42.025Z"
+  },
+  "gameplay_regression": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "passed": true
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:15:23.745Z"
+  },
+  "guardado_lectura": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": []
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T16:34:39.183Z"
+  },
+  "nueva_partida": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": []
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:54:17.815Z"
+  },
+  "director_informatica_boss": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [],
+    "text_evidence": [
+      "DIRECTOR INFORMATICA: OK (0 fallos)"
+    ],
+    "executed_at": "2026-11-02T16:29:50.668Z"
+  },
+  "organizacion_pisos": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "pisos": [
+          "Piso −1",
+          "Piso 1",
+          "Piso 2",
+          "Piso 3",
+          "Piso 4",
+          "Piso 5",
+          "Piso 6",
+          "Piso 7",
+          "Piso 8"
+        ],
+        "rutas": 596
+      }
+    ],
+    "executed_at": "2026-11-02T16:20:35.672Z"
+  },
+  "academic_schedule": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 28,
+        "failures": []
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:12:23.232Z"
+  },
+  "chef_supremo_casino": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [],
+    "text_evidence": [
+      "CHEF CASINO OK: 350 HP, fases 60/30%, melee, bandeja, límites, muerte única, curación y enemigo normal intacto."
+    ],
+    "executed_at": "2026-11-02T16:29:51.246Z"
+  },
+  "contextual_interactions": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 60,
+        "failures": []
+      }
+    ],
+    "executed_at": "2026-11-02T16:20:59.149Z"
+  },
+  "chapel_layout_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [],
+    "text_evidence": [
+      "CHAPEL_LAYOUT_CHECK routes=10 floor_samples=77 failures=0"
+    ],
+    "executed_at": "2026-11-02T16:29:56.007Z"
+  },
+  "library_layout_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [],
+    "text_evidence": [
+      "LIBRARY_LAYOUT_CHECK PCs=13 rooms=6 routes=21 floor_samples=231 failures=0"
+    ],
+    "executed_at": "2026-11-02T16:30:01.037Z"
+  },
+  "coordinacion_layout_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [],
+    "text_evidence": [
+      "COORDINACION_LAYOUT_CHECK desks=8 routes=11 floor_samples=121 failures=0"
+    ],
+    "executed_at": "2026-11-02T16:30:05.805Z"
+  },
+  "coordinacion_meeting_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [],
+    "text_evidence": [
+      "COORD_MEETING_CHECK desks=8 routes=13 floor_samples=143 failures=0"
+    ],
+    "executed_at": "2026-11-02T16:30:10.554Z"
+  },
+  "salidas_emergencia": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "pisos": 9,
+        "recorridos": 18
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T16:30:16.694Z"
+  },
+  "piso5_escalera_recorrido": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "tramos": 4
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T16:30:22.758Z"
+  },
+  "piso8_recorridos": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "floor": 8,
+        "tested": 27
+      }
+    ],
+    "executed_at": "2026-11-02T16:21:59.541Z"
+  },
+  "supabase_response_regression": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 8,
+        "failures": []
+      }
+    ],
+    "executed_at": "2026-11-02T16:22:00.107Z"
+  },
+  "primera_mision": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": []
+      }
+    ],
+    "executed_at": "2026-11-02T16:22:05.683Z"
+  },
+  "placement_visual_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checked": 92,
+        "failures": []
+      }
+    ],
+    "executed_at": "2026-11-02T16:22:11.072Z"
+  },
+  "camera_obstruction_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 5,
+        "failures": []
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T18:11:36.745Z"
+  },
+  "SupabaseAuthCheck": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": null,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 59,
+        "failures": [],
+        "real_accounts_created": 0,
+        "session_storage": "isolated in-memory fixture"
+      }
+    ],
+    "executed_at": "2026-11-02T16:22:12.130Z"
+  },
+  "EmailRegistrationCheck": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": null,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 21,
+        "failures": [],
+        "real_passwords_used": false,
+        "remote_registration": "NOT TESTED: requires configured Supabase and SMTP"
+      }
+    ],
+    "executed_at": "2026-11-02T16:22:12.605Z"
+  },
+  "SignupDiagnosticsUnit": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": null,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 47,
+        "failures": [],
+        "real_accounts_created": 0
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T16:30:23.360Z"
+  },
+  "UpperCampusCheck": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": null,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "arena_samples": {
+          "profesor_etica": 9,
+          "profesor_ingles": 9,
+          "profesor_lenguaje": 9
+        },
+        "bosses": 3,
+        "checks": 122,
+        "failures": [],
+        "memory_mib": 475.964173316956,
+        "render_fps_sample": 1
+      }
+    ],
+    "executed_at": "2026-11-02T16:22:33.644Z"
+  },
+  "BasementAccessCheck": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": null,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "aperture_open": true,
+        "doors": 9,
+        "failed": [],
+        "tested": 20
+      }
+    ],
+    "executed_at": "2026-11-02T16:22:52.977Z"
+  },
+  "ElevatorBasementCheck": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": null,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failed": [],
+        "tested": 3
+      }
+    ],
+    "executed_at": "2026-11-02T16:23:02.709Z"
+  },
+  "SupabaseConnectionCheck": {
+    "status": "FAIL",
+    "exit_code": null,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "administrative_connection": false,
+        "auth_http_status": 0,
+        "auth_reachable": false,
+        "config_source": "res://config/auth_config.json",
+        "configured": true,
+        "legacy_property_supported": true,
+        "migration_verified": false,
+        "new_property_supported": true,
+        "no_remote_writes": true,
+        "publishable_detected": true,
+        "rls_verified_with_real_roles": false,
+        "tables": {
+          "academic_progress": {
+            "http_status": 0,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": false
+          },
+          "profiles": {
+            "http_status": 0,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": false
+          },
+          "question_attempts": {
+            "http_status": 0,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": false
+          },
+          "question_keys": {
+            "http_status": 0,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": false
+          },
+          "questions": {
+            "http_status": 0,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": false
+          },
+          "subjects": {
+            "http_status": 0,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": false
+          },
+          "teacher_subjects": {
+            "http_status": 0,
+            "missing_or_not_in_schema_cache": false,
+            "requires_auth_or_permissions": false
+          }
+        },
+        "users_created": 0
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T16:30:53.282Z"
+  },
+  "LibraryAccessCheck": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": null,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "failures": [],
+        "tested": 15
+      }
+    ],
+    "executed_at": "2026-11-02T16:26:07.388Z"
+  },
+  "AuditorioAccessCheck": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": null,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      [
+        {
+          "passed": true,
+          "position": "(65.90809, 11.85745, -104.5)",
+          "route": "Probe2"
+        },
+        {
+          "passed": true,
+          "position": "(48.11357, 8.642898, -118.5)",
+          "route": "Probe0"
+        },
+        {
+          "passed": true,
+          "position": "(48.11357, 8.642898, -90.5)",
+          "route": "Probe1"
+        }
+      ]
+    ],
+    "executed_at": "2026-11-02T16:26:12.182Z"
+  },
+  "cloud_save_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 21,
+        "failures": [],
+        "remote_database_tested": false
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:08:14.772Z"
+  },
+  "cloud_campaign_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "checks": 21,
+        "failures": [],
+        "remote_database_tested": false
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:54:04.518Z"
+  },
+  "visual_detail_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      [
+        {
+          "facing": "(-0.640185, 0.768221, 0.0)",
+          "name": "Puesto01",
+          "position": "(-82.0, 12.05839, -108.0)"
+        },
+        {
+          "facing": "(-0.640185, 0.768221, 0.0)",
+          "name": "Puesto02",
+          "position": "(-82.0, 12.05839, -105.0)"
+        },
+        {
+          "facing": "(-0.640185, 0.768221, 0.0)",
+          "name": "Puesto03",
+          "position": "(-82.0, 12.05839, -102.0)"
+        },
+        {
+          "facing": "(0.0, 0.768221, 0.640185)",
+          "name": "Puesto10",
+          "position": "(-81.0, 12.05839, -78.9)"
+        },
+        {
+          "facing": "(0.0, 0.768221, 0.640185)",
+          "name": "Puesto11",
+          "position": "(-78.15, 12.05839, -78.9)"
+        },
+        {
+          "facing": "(0.0, 0.768221, 0.640185)",
+          "name": "Puesto12",
+          "position": "(-75.3, 12.05839, -78.9)"
+        },
+        {
+          "facing": "(0.0, 0.768221, 0.640185)",
+          "name": "Puesto13",
+          "position": "(-72.45, 12.05839, -78.9)"
+        },
+        {
+          "facing": "(0.0, 0.768221, 0.640185)",
+          "name": "Puesto14",
+          "position": "(-69.6, 12.05839, -78.9)"
+        },
+        {
+          "facing": "(0.0, 0.768221, 0.640185)",
+          "name": "Puesto15",
+          "position": "(-66.75, 12.05839, -78.9)"
+        },
+        {
+          "facing": "(0.0, 0.768221, 0.640185)",
+          "name": "Puesto16",
+          "position": "(-63.9, 12.05839, -78.9)"
+        },
+        {
+          "facing": "(0.0, 0.768221, 0.640185)",
+          "name": "Puesto17",
+          "position": "(-61.05, 12.05839, -78.9)"
+        },
+        {
+          "facing": "(0.0, 0.768221, 0.640185)",
+          "name": "Puesto18",
+          "position": "(-58.2, 12.05839, -78.9)"
+        },
+        {
+          "facing": "(0.0, 0.768221, 0.640185)",
+          "name": "Puesto19",
+          "position": "(-55.35, 12.05839, -78.9)"
+        }
+      ],
+      {
+        "backend": "in-memory fixtures; no real session used",
+        "captures": [
+          "res://reports/detail_login.png",
+          "res://reports/detail_registration.png",
+          "res://reports/detail_registration_800x600.png",
+          "res://reports/detail_admin_dashboard.png",
+          "res://reports/detail_teacher_dashboard.png",
+          "res://reports/detail_library_overview.png",
+          "res://reports/detail_coordination_overview.png"
+        ],
+        "failures": []
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:58:14.791Z"
+  },
+  "rendered_gameplay_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "captures": [
+          "res://reports/detail_gameplay_walking.png",
+          "res://reports/detail_gameplay_inventory.png",
+          "res://reports/detail_gameplay_pause.png",
+          "res://reports/detail_gameplay_map.png",
+          "res://reports/detail_gameplay_phone.png"
+        ],
+        "checks": 14,
+        "failures": [],
+        "personal_saves_used": false
+      }
+    ],
+    "text_evidence": [],
+    "executed_at": "2026-11-02T17:15:44.899Z"
+  },
+  "placement_stairs_visual_check": {
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "timeout": false,
+    "errors": [],
+    "reports": [
+      {
+        "camera_states": [
+          {
+            "angle": 0,
+            "body_visible": true,
+            "camera_distance": 5.00000476837158
+          },
+          {
+            "angle": 1,
+            "body_visible": true,
+            "camera_distance": 3.45156264305115
+          },
+          {
+            "angle": 2,
+            "body_visible": true,
+            "camera_distance": 5.00000476837158
+          }
+        ],
+        "captures": [
+          "res://reports/placement_stairs_view_0.png",
+          "res://reports/placement_stairs_view_1.png",
+          "res://reports/placement_stairs_view_2.png",
+          "res://reports/placement_grounded_stick.png",
+          "res://reports/placement_grounded_chair.png"
+        ],
+        "failures": [],
+        "personal_saves_used": false
+      }
+    ],
+    "executed_at": "2026-11-02T16:27:19.524Z"
+  }
+}

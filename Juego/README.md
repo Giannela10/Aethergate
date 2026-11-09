@@ -1,5 +1,9 @@
 # DuocGames
 
+Actualización 4.0 en implementación: consulta [DUOCGAMES_4_0_REPORT.md](DUOCGAMES_4_0_REPORT.md) y [DEMO_WINDOWS_4_0.md](DEMO_WINDOWS_4_0.md). Incluye cambios reales de código, laboratorios, misiones, paneles y guardado persistente; la entrega sigue parcial y no hay EXE Windows validado. Las migraciones nuevas 008–009 requieren revisión/ejecución manual. El último diagnóstico remoto falló por DNS.
+
+Guardado por cuenta en Supabase: consulta [GUARDADO_SUPABASE.md](GUARDADO_SUPABASE.md). La activación requiere ejecutar la migración 007 en el servidor. Las secciones antiguas sobre guardado local describen el modo de desarrollo y el comportamiento anterior al acceso educativo.
+
 Consulta la [guía de juego y desarrollo](GUIA.md) para saber cómo avanzar, ejecutar las comprobaciones y priorizar el trabajo pendiente. Dentro del juego: **Esc → Guía de juego**. Los detalles de implementación están en [CAMPANA.md](CAMPANA.md) e [INVENTARIO.md](INVENTARIO.md).
 
 Juego 3D de exploración del campus en Godot 4.7.2. Incluye biblioteca con preguntas de literatura, combate en Punto Estudiantil, papelería con inventario y apuntes, y ascensores que conectan el −1 con los pisos 1–8.

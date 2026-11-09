@@ -1,0 +1,730 @@
+[
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_-1_-1.png",
+		"label": "corridor_-1_-1",
+		"position": [
+			-24.0,
+			-9.85838603973389,
+			-133.0
+		],
+		"target": [
+			-82.0,
+			-9.85838603973389,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_-1_1.png",
+		"label": "corridor_-1_1",
+		"position": [
+			24.0,
+			-9.85838603973389,
+			-133.0
+		],
+		"target": [
+			82.0,
+			-9.85838603973389,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/elevators_-1.png",
+		"label": "elevators_-1",
+		"position": [
+			0.0,
+			-9.85838603973389,
+			-137.0
+		],
+		"target": [
+			0.0,
+			-9.85838603973389,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/stairs_-1.png",
+		"label": "stairs_-1",
+		"position": [
+			20.0,
+			-9.85838603973389,
+			-146.0
+		],
+		"target": [
+			0.0,
+			-6.85838603973389,
+			-152.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/emergency_-1.png",
+		"label": "emergency_-1",
+		"position": [
+			-78.0,
+			-9.85838603973389,
+			-143.0
+		],
+		"target": [
+			-85.0,
+			-9.85838603973389,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_1_-1.png",
+		"label": "corridor_1_-1",
+		"position": [
+			-24.0,
+			2.20000004768372,
+			-133.0
+		],
+		"target": [
+			-82.0,
+			2.20000004768372,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_1_1.png",
+		"label": "corridor_1_1",
+		"position": [
+			24.0,
+			2.20000004768372,
+			-133.0
+		],
+		"target": [
+			82.0,
+			2.20000004768372,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/elevators_1.png",
+		"label": "elevators_1",
+		"position": [
+			0.0,
+			2.20000004768372,
+			-137.0
+		],
+		"target": [
+			0.0,
+			2.20000004768372,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/stairs_1.png",
+		"label": "stairs_1",
+		"position": [
+			20.0,
+			2.20000004768372,
+			-146.0
+		],
+		"target": [
+			0.0,
+			5.19999980926514,
+			-152.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/emergency_1.png",
+		"label": "emergency_1",
+		"position": [
+			-78.0,
+			2.20000004768372,
+			-143.0
+		],
+		"target": [
+			-85.0,
+			2.20000004768372,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_2_-1.png",
+		"label": "corridor_2_-1",
+		"position": [
+			-24.0,
+			14.2583856582642,
+			-133.0
+		],
+		"target": [
+			-82.0,
+			14.2583856582642,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_2_1.png",
+		"label": "corridor_2_1",
+		"position": [
+			24.0,
+			14.2583856582642,
+			-133.0
+		],
+		"target": [
+			82.0,
+			14.2583856582642,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/elevators_2.png",
+		"label": "elevators_2",
+		"position": [
+			0.0,
+			14.2583856582642,
+			-137.0
+		],
+		"target": [
+			0.0,
+			14.2583856582642,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/stairs_2.png",
+		"label": "stairs_2",
+		"position": [
+			20.0,
+			14.2583856582642,
+			-146.0
+		],
+		"target": [
+			0.0,
+			17.2583866119385,
+			-152.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/emergency_2.png",
+		"label": "emergency_2",
+		"position": [
+			-78.0,
+			14.2583856582642,
+			-143.0
+		],
+		"target": [
+			-85.0,
+			14.2583856582642,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_3_-1.png",
+		"label": "corridor_3_-1",
+		"position": [
+			-24.0,
+			26.1676692962646,
+			-133.0
+		],
+		"target": [
+			-82.0,
+			26.1676692962646,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_3_1.png",
+		"label": "corridor_3_1",
+		"position": [
+			24.0,
+			26.1676692962646,
+			-133.0
+		],
+		"target": [
+			82.0,
+			26.1676692962646,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/elevators_3.png",
+		"label": "elevators_3",
+		"position": [
+			0.0,
+			26.1676692962646,
+			-137.0
+		],
+		"target": [
+			0.0,
+			26.1676692962646,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/stairs_3.png",
+		"label": "stairs_3",
+		"position": [
+			20.0,
+			26.1676692962646,
+			-146.0
+		],
+		"target": [
+			0.0,
+			29.1676692962646,
+			-152.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/emergency_3.png",
+		"label": "emergency_3",
+		"position": [
+			-78.0,
+			26.1676692962646,
+			-143.0
+		],
+		"target": [
+			-85.0,
+			26.1676692962646,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_4_-1.png",
+		"label": "corridor_4_-1",
+		"position": [
+			-24.0,
+			37.8744163513184,
+			-133.0
+		],
+		"target": [
+			-82.0,
+			37.8744163513184,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_4_1.png",
+		"label": "corridor_4_1",
+		"position": [
+			24.0,
+			37.8744163513184,
+			-133.0
+		],
+		"target": [
+			82.0,
+			37.8744163513184,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/elevators_4.png",
+		"label": "elevators_4",
+		"position": [
+			0.0,
+			37.8744163513184,
+			-137.0
+		],
+		"target": [
+			0.0,
+			37.8744163513184,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/stairs_4.png",
+		"label": "stairs_4",
+		"position": [
+			20.0,
+			37.8744163513184,
+			-146.0
+		],
+		"target": [
+			0.0,
+			40.8744163513184,
+			-152.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/emergency_4.png",
+		"label": "emergency_4",
+		"position": [
+			-78.0,
+			37.8744163513184,
+			-143.0
+		],
+		"target": [
+			-85.0,
+			37.8744163513184,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_5_-1.png",
+		"label": "corridor_5_-1",
+		"position": [
+			-24.0,
+			50.1748504638672,
+			-133.0
+		],
+		"target": [
+			-82.0,
+			50.1748504638672,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_5_1.png",
+		"label": "corridor_5_1",
+		"position": [
+			24.0,
+			50.1748504638672,
+			-133.0
+		],
+		"target": [
+			82.0,
+			50.1748504638672,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/elevators_5.png",
+		"label": "elevators_5",
+		"position": [
+			0.0,
+			50.1748504638672,
+			-137.0
+		],
+		"target": [
+			0.0,
+			50.1748504638672,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/stairs_5.png",
+		"label": "stairs_5",
+		"position": [
+			20.0,
+			50.1748504638672,
+			-146.0
+		],
+		"target": [
+			0.0,
+			53.1748504638672,
+			-152.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/emergency_5.png",
+		"label": "emergency_5",
+		"position": [
+			-78.0,
+			50.1748504638672,
+			-143.0
+		],
+		"target": [
+			-85.0,
+			50.1748504638672,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_6_-1.png",
+		"label": "corridor_6_-1",
+		"position": [
+			-24.0,
+			62.3585052490234,
+			-133.0
+		],
+		"target": [
+			-82.0,
+			62.3585052490234,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_6_1.png",
+		"label": "corridor_6_1",
+		"position": [
+			24.0,
+			62.3585052490234,
+			-133.0
+		],
+		"target": [
+			82.0,
+			62.3585052490234,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/elevators_6.png",
+		"label": "elevators_6",
+		"position": [
+			0.0,
+			62.3585052490234,
+			-137.0
+		],
+		"target": [
+			0.0,
+			62.3585052490234,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/stairs_6.png",
+		"label": "stairs_6",
+		"position": [
+			20.0,
+			62.3585052490234,
+			-146.0
+		],
+		"target": [
+			0.0,
+			65.3585052490234,
+			-152.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/emergency_6.png",
+		"label": "emergency_6",
+		"position": [
+			-78.0,
+			62.3585052490234,
+			-143.0
+		],
+		"target": [
+			-85.0,
+			62.3585052490234,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_7_-1.png",
+		"label": "corridor_7_-1",
+		"position": [
+			-24.0,
+			74.1421813964844,
+			-133.0
+		],
+		"target": [
+			-82.0,
+			74.1421813964844,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_7_1.png",
+		"label": "corridor_7_1",
+		"position": [
+			24.0,
+			74.1421813964844,
+			-133.0
+		],
+		"target": [
+			82.0,
+			74.1421813964844,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/elevators_7.png",
+		"label": "elevators_7",
+		"position": [
+			0.0,
+			74.1421813964844,
+			-137.0
+		],
+		"target": [
+			0.0,
+			74.1421813964844,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/stairs_7.png",
+		"label": "stairs_7",
+		"position": [
+			20.0,
+			74.1421813964844,
+			-146.0
+		],
+		"target": [
+			0.0,
+			77.1421813964844,
+			-152.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/emergency_7.png",
+		"label": "emergency_7",
+		"position": [
+			-78.0,
+			74.1421813964844,
+			-143.0
+		],
+		"target": [
+			-85.0,
+			74.1421813964844,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_8_-1.png",
+		"label": "corridor_8_-1",
+		"position": [
+			-24.0,
+			86.1135482788086,
+			-133.0
+		],
+		"target": [
+			-82.0,
+			86.1135482788086,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/corridor_8_1.png",
+		"label": "corridor_8_1",
+		"position": [
+			24.0,
+			86.1135482788086,
+			-133.0
+		],
+		"target": [
+			82.0,
+			86.1135482788086,
+			-133.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/elevators_8.png",
+		"label": "elevators_8",
+		"position": [
+			0.0,
+			86.1135482788086,
+			-137.0
+		],
+		"target": [
+			0.0,
+			86.1135482788086,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/stairs_8.png",
+		"label": "stairs_8",
+		"position": [
+			20.0,
+			86.1135482788086,
+			-146.0
+		],
+		"target": [
+			0.0,
+			89.1135482788086,
+			-152.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/emergency_8.png",
+		"label": "emergency_8",
+		"position": [
+			-78.0,
+			86.1135482788086,
+			-143.0
+		],
+		"target": [
+			-85.0,
+			86.1135482788086,
+			-155.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/exterior_front.png",
+		"label": "exterior_front",
+		"position": [
+			0.0,
+			12.0,
+			35.0
+		],
+		"target": [
+			0.0,
+			35.0,
+			-125.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/exterior_west.png",
+		"label": "exterior_west",
+		"position": [
+			-115.0,
+			35.0,
+			-120.0
+		],
+		"target": [
+			0.0,
+			35.0,
+			-120.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/exterior_east.png",
+		"label": "exterior_east",
+		"position": [
+			115.0,
+			35.0,
+			-120.0
+		],
+		"target": [
+			0.0,
+			35.0,
+			-120.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/exterior_back.png",
+		"label": "exterior_back",
+		"position": [
+			0.0,
+			35.0,
+			-205.0
+		],
+		"target": [
+			0.0,
+			35.0,
+			-130.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/roof.png",
+		"label": "roof",
+		"position": [
+			0.0,
+			120.0,
+			-100.0
+		],
+		"target": [
+			0.0,
+			70.0,
+			-130.0
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/auditorium_aisle.png",
+		"label": "auditorium_aisle",
+		"position": [
+			65.5,
+			14.1000003814697,
+			-104.5
+		],
+		"target": [
+			44.0,
+			10.0,
+			-104.5
+		]
+	},
+	{
+		"capture": "res://reports/detailed_walkthrough_2026_10_26/printing_counter.png",
+		"label": "printing_counter",
+		"position": [
+			-27.0,
+			14.1999998092651,
+			-119.0
+		],
+		"target": [
+			-31.0,
+			14.1999998092651,
+			-119.0
+		]
+	}
+]

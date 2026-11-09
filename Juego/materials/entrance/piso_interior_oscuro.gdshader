@@ -10,7 +10,8 @@ void fragment() {
 	float seam = max(line.x, line.y);
 	float variation = sin(dot(floor(p), vec2(12.3, 8.1))) * 0.004;
 	ALBEDO = mix(vec3(0.045, 0.05, 0.052) + variation, vec3(0.012, 0.014, 0.015), seam);
-	ROUGHNESS = 0.32;
-	METALLIC = 0.06;
-	SPECULAR = 0.5;
+	// Satin ceramic: broad highlights, without a metallic floor response.
+	ROUGHNESS = mix(0.64, 0.9, seam);
+	METALLIC = 0.0;
+	SPECULAR = 0.25;
 }

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://p3qbo7mocutf"]
+
+[ext_resource type="Script" uid="uid://chj0rj7p7n03x" path="res://tests/character_height_check.gd" id="1_qubm7"]
+
+[node name="CharacterHeightCheck" type="Node3D" unique_id=150422945]
+script = ExtResource("1_qubm7")

@@ -1,0 +1,3750 @@
+{
+  "version": 1,
+  "notice": "Práctica local original. No constituye programa oficial, evaluación institucional ni protocolo clínico. Publicación remota pendiente de autorización y validación docente.",
+  "subjects": [
+    {
+      "id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "code": "BASE_DATOS",
+      "name": "Bases de Datos",
+      "floor": 3,
+      "active": true
+    },
+    {
+      "id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "code": "ALGORITMOS",
+      "name": "Algoritmos y Programación",
+      "floor": 3,
+      "active": true
+    },
+    {
+      "id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "code": "REDES",
+      "name": "Redes y Telecomunicaciones",
+      "floor": 3,
+      "active": true
+    },
+    {
+      "id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "code": "ENFERMERIA",
+      "name": "Enfermería",
+      "floor": 4,
+      "active": true
+    },
+    {
+      "id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "code": "ODONTOLOGIA",
+      "name": "Odontología",
+      "floor": 4,
+      "active": true
+    },
+    {
+      "id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "code": "INGLES",
+      "name": "Inglés",
+      "floor": 6,
+      "active": true
+    },
+    {
+      "id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "code": "ETICA",
+      "name": "Ética",
+      "floor": 6,
+      "active": true
+    },
+    {
+      "id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "code": "COMUNICACION",
+      "name": "Habilidades de Comunicación",
+      "floor": 7,
+      "active": true
+    },
+    {
+      "id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "code": "MATEMATICAS",
+      "name": "Matemáticas",
+      "floor": 7,
+      "active": true
+    },
+    {
+      "id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "code": "INF_GENERAL",
+      "name": "Informática General",
+      "floor": 3,
+      "active": true
+    }
+  ],
+  "mentors": {
+    "profesor_datos": {
+      "floor": 3,
+      "question_ids": [
+        "358945cd-2bf8-5a8d-a5d1-30c1a7294f0b",
+        "349dd33a-b61a-51ce-a200-db71d0f66e68",
+        "07f684a9-d000-52f1-99ba-c55071aaca3c",
+        "a45dc9cb-9174-5a63-a6d9-459836e11bed",
+        "e15bb58e-11c2-5781-a6a8-27fab989c8a7",
+        "9a8e1999-8163-57bd-b40c-d225d7dbd03c",
+        "0b9430d5-e471-5656-badf-8bce346fdfef",
+        "18c1ac28-ba6d-5ed6-8ec1-8d8c3e04f66b",
+        "bbaa8ed4-2978-5988-8f4c-2f8788173602",
+        "7b852d43-918e-560c-9b0c-5a3b8f29d930",
+        "66e154d1-c925-58c0-8f67-d4ffe0f53960",
+        "63a11d9c-e17e-5755-b1fd-7798e04a4d90",
+        "1d05b001-8c84-5b15-9199-7d5cd191aa2e",
+        "2bfb6dc7-ca29-5632-bbcf-00f74be26c58",
+        "6c3731f3-f6db-58d4-a3be-dcc0f7770634"
+      ]
+    },
+    "profesor_algoritmos": {
+      "floor": 3,
+      "question_ids": [
+        "f4ad0b7e-f737-5540-8b8f-4e0194fa1b57",
+        "c2ec7a81-a405-5487-9da9-73b3c6260cdb",
+        "49715368-78e1-5b50-8408-9025d46cea45",
+        "dc3ba72a-90eb-5394-ad2f-68b788ce0d13",
+        "9dccf80a-8519-5226-a914-04009ed80d93",
+        "d3c0ace2-1cb3-5a5a-82ce-63437219dcb1",
+        "18f0057a-b976-5bf5-a1ed-0066ce19b2cc",
+        "b56fe939-ba43-5cce-a2db-09a9318e8cd9",
+        "219a9cb5-28d8-514d-95b5-1d4273991af4",
+        "d25a027e-4ec5-5fe7-b979-03c66de736c1",
+        "8855e7c8-9d37-575f-8015-c18b3bbe076b",
+        "67c50a0e-c6e0-52c6-ac80-bf11b0b912f3",
+        "3eea51c0-7fa7-56eb-b643-52254165cc80",
+        "81ecdd9c-d0a2-52fa-8e39-19561d0166b7",
+        "24e14424-b55b-58fc-935a-b64c79640f5d"
+      ]
+    },
+    "profesor_redes": {
+      "floor": 3,
+      "question_ids": [
+        "135d6824-1db8-5f01-855f-272b469c265a",
+        "ee8224c6-1fbb-5aa7-8166-30faee820e93",
+        "ab6cf4ec-b5b9-589e-bd86-08eb437f05e8",
+        "21935a11-2bed-5fc0-85fb-29323bf322e6",
+        "63b002c5-3970-5278-be7b-a4d33566350a",
+        "c71ff6ed-e4e6-5046-8a76-7bcea38e287d",
+        "65fa7143-dcba-5525-a78f-337b1d4d5182",
+        "2321b3a9-2d33-56b7-b87d-392b570803a7",
+        "8e30d1bd-4702-5f6a-8baf-a5d2bf15838b",
+        "24494675-5217-5298-b7cd-dbf5e23d86d5",
+        "e4051b4b-e798-5494-8d88-334fd618d7df",
+        "cdfd0e4e-3fe9-5a29-bc1e-918ad7875b12",
+        "78be0ac3-32eb-5123-b32b-edddf599512e",
+        "b74b1815-3d01-54bf-89bf-62a94cfc7f97",
+        "19fde581-10d7-554c-8b2d-b5ae2b82e017"
+      ]
+    },
+    "docente_enfermeria": {
+      "floor": 4,
+      "question_ids": [
+        "2dbc9922-9b7e-5b50-a415-e353a0fc899e",
+        "63ceeb5e-296e-539f-adfe-5b3c7cabe895",
+        "9aa7f9e7-cdfb-5ceb-9a01-dbe6714a0927",
+        "1eea46f8-85e9-532e-8ce2-abd92e91cf28",
+        "5c3be994-e4e0-5f0d-bd14-8c220cfe3a63",
+        "81f912b9-b3ff-564c-b893-6942a803ad5d",
+        "2a7661bf-47d7-5025-a51e-d7848e311a33",
+        "eed9304b-dd07-5075-8a6c-a2ba7b921522",
+        "635d6e7e-769d-50e6-8b88-f6e597c2fb75",
+        "777dee40-9ee0-5431-8977-77d36c36f45a",
+        "5ed59c8c-2d51-5e45-afd6-ab8b6e63a892",
+        "7b0eceed-3d4c-50bf-8375-bce985a19956",
+        "0b6dc4e5-f27d-5026-8cd2-86834a95f5ba",
+        "f8b266fc-7f94-5db8-a15d-61141a4d3814",
+        "ccf6b06b-0150-5f34-9e0d-2a178f41e50d"
+      ]
+    },
+    "docente_odontologia": {
+      "floor": 4,
+      "question_ids": [
+        "598aa81a-1ab6-5122-9837-5edfc7b1b339",
+        "9006544e-f8d6-5e4e-9459-60b56d52b6bb",
+        "4080fbde-8b3d-5377-a135-7118c4ce8abb",
+        "bfb86126-ec5b-52fa-8cac-58e42cc6b195",
+        "d8eb99c4-f3e8-5e51-b429-73436fed1ba2",
+        "290841fc-27ff-5c79-a739-d1399603c835",
+        "6469eddb-c427-58dc-8340-e8f846b4f931",
+        "ccf8d7d4-382c-5467-a41a-a00ef246b28e",
+        "e5b064e3-614b-5910-9b23-8d450d5b5fb4",
+        "aefb0e0d-a60f-5b4e-bc6f-7b5dcecae384",
+        "ac78cc4e-fbed-5acb-a591-f63793818cb7",
+        "62ecf2ec-75c0-5332-9fc5-2d0831aef9d4",
+        "472bea54-4511-5c00-bea9-77c0ff9621fc",
+        "157e9617-d120-500a-bbdd-6a3d2f01ab5a",
+        "7d6e9b2f-d6bb-556d-9a6f-376ea7020a73"
+      ]
+    },
+    "profesor_ingles": {
+      "floor": 6,
+      "question_ids": [
+        "4e928533-e6f8-52e3-bbf1-115a8d4fd993",
+        "0747cad5-1dcf-5ab2-b71e-508f53af783f",
+        "70edf2e8-01cf-5fdc-97d8-d5a81195ebba",
+        "ec5eab92-2326-5f18-9934-2c71676e7926",
+        "ad6a26f7-e697-586d-9625-364f75be07ed",
+        "9ad1ec01-781e-537b-8971-3b0e99658a3b",
+        "57e5692f-6a4f-51b7-b08b-08fa88797d08",
+        "aa9b994b-6328-5ef2-af2b-18456a7fd296",
+        "1d5be2ec-f557-5523-97ca-9577a1ae0606",
+        "41607bb2-a820-5295-9ac4-1b335feeb82d",
+        "8c06ff3c-5f43-5f12-a616-4fe4ac993c26",
+        "87a85dea-421b-5469-930a-a2267b08e2fc",
+        "ddfd6c71-651d-59ab-8d6c-23b028eb5fe6",
+        "0e3a8372-83f5-5ef0-9a2b-ec23ae620b22",
+        "66d3d3ed-c312-5fde-8dcc-21c9c63dae9e"
+      ]
+    },
+    "profesor_etica": {
+      "floor": 6,
+      "question_ids": [
+        "33f119dc-11d8-5e9e-9bc6-3c15d15a6e11",
+        "4c39ed85-8425-5aab-92aa-4da105b01b2f",
+        "024df2bf-6cef-5f54-8933-b55d1d784ba9",
+        "351882dc-a8ad-5b71-8354-a6f9c49beb03",
+        "84e10f69-b1ce-5cb5-ab19-c56eee616c91",
+        "30800f1b-5b97-51f5-9788-69f5d258919b",
+        "3bd8a95a-9a20-5a08-9bd4-fa4baeefc227",
+        "0ac1e8ed-a0c4-589e-b007-5f27f0c7236f",
+        "72ffc97c-262a-501e-a650-8b3b71a35ff1",
+        "063b9742-45eb-5073-a23d-4702e195c8ae",
+        "fe7a84cd-83e1-5aa4-b254-c13f06d46570",
+        "f784268e-20ec-586b-bd59-5d7642c19335",
+        "6949e9eb-73af-5868-a1ac-bed0d454565a",
+        "5ae4f104-25c6-5e2e-8afa-efa12b6e59db",
+        "7fc4a062-b8e7-53c5-bfc4-c922aa549dd0"
+      ]
+    },
+    "profesor_lenguaje": {
+      "floor": 7,
+      "question_ids": [
+        "a2dd06ba-ecdd-5251-b991-b2babbeeefb9",
+        "f5a5fbae-9845-5581-85d0-b6e58fb7de26",
+        "0b58f0f8-7861-5431-877a-cb001e51fa73",
+        "1ac9aa2b-616b-5610-89b2-16e349a8b9f9",
+        "c4e4b723-3612-58e5-b88e-5f214904c13d",
+        "dfd7908b-373a-5711-bd75-9baf5cbb555b",
+        "d7c0a248-dfff-521a-af6f-2d3936c3a069",
+        "6a5fbc3d-a906-5c60-b03d-478ec9d0d172",
+        "ceaf3fcc-8102-5797-b011-2828b3340446",
+        "eed5b1e0-fc19-5182-a7e6-680a27f32fa0",
+        "8e7ef9d8-7a31-567f-ba81-bccee92d2d78",
+        "925fd8df-35b9-50c8-b8bf-c428d70d81a9",
+        "8da166e3-cba2-528e-97ba-5410723ec1d8",
+        "5b897dc4-2b72-5893-befe-1733a2d3ac00",
+        "c0554fa2-b086-51f6-9374-f7bba5cdf9d0"
+      ]
+    },
+    "profesor_matematicas": {
+      "floor": 7,
+      "question_ids": [
+        "3dc70762-bd7b-56eb-bbb7-a29ddd75d009",
+        "2aefbc88-67a3-5cbf-a026-18d4f0406057",
+        "3b83e3dc-d5f0-5638-8d7e-55f53af50ca8",
+        "72b26465-7a65-5d31-86c5-0a6f323d5a46",
+        "d2b854a0-0cfc-5f30-a30a-642a6726025b",
+        "9e536fd8-1f4b-5c52-8f58-fd101693f5e2",
+        "c33c9997-121f-5383-86d3-92a3e21e518e",
+        "3d9cef21-4c63-5c7a-95e2-98958260fdf2",
+        "534990e9-2505-58bd-8c0c-4ca47440ba5e",
+        "4d93df66-92bc-57c7-b1dc-d48360bee63b",
+        "cbb335b8-db25-5525-9a31-b4289f5c4586",
+        "593e617d-af4a-5c73-aa00-3ebf2e11b09c",
+        "dd5c1143-a111-57b3-8981-d1b3c92c9b06",
+        "0cf6cbbd-8539-58a2-af8d-65424e8ecea7",
+        "47d94b38-3f33-5f1b-a84e-061d67a0b510"
+      ]
+    },
+    "coordinador_profesores": {
+      "floor": 4,
+      "question_ids": [
+        "358945cd-2bf8-5a8d-a5d1-30c1a7294f0b",
+        "c2ec7a81-a405-5487-9da9-73b3c6260cdb",
+        "ab6cf4ec-b5b9-589e-bd86-08eb437f05e8",
+        "1eea46f8-85e9-532e-8ce2-abd92e91cf28",
+        "d8eb99c4-f3e8-5e51-b429-73436fed1ba2",
+        "81f912b9-b3ff-564c-b893-6942a803ad5d",
+        "6469eddb-c427-58dc-8340-e8f846b4f931",
+        "aa9b994b-6328-5ef2-af2b-18456a7fd296",
+        "72ffc97c-262a-501e-a650-8b3b71a35ff1",
+        "eed5b1e0-fc19-5182-a7e6-680a27f32fa0",
+        "fe7a84cd-83e1-5aa4-b254-c13f06d46570",
+        "925fd8df-35b9-50c8-b8bf-c428d70d81a9",
+        "dd5c1143-a111-57b3-8981-d1b3c92c9b06",
+        "2bfb6dc7-ca29-5632-bbcf-00f74be26c58",
+        "24e14424-b55b-58fc-935a-b64c79640f5d"
+      ]
+    },
+    "director": {
+      "floor": 8,
+      "question_ids": [
+        "66e154d1-c925-58c0-8f67-d4ffe0f53960",
+        "63a11d9c-e17e-5755-b1fd-7798e04a4d90",
+        "1d05b001-8c84-5b15-9199-7d5cd191aa2e",
+        "2bfb6dc7-ca29-5632-bbcf-00f74be26c58",
+        "6c3731f3-f6db-58d4-a3be-dcc0f7770634",
+        "8855e7c8-9d37-575f-8015-c18b3bbe076b",
+        "67c50a0e-c6e0-52c6-ac80-bf11b0b912f3",
+        "3eea51c0-7fa7-56eb-b643-52254165cc80",
+        "81ecdd9c-d0a2-52fa-8e39-19561d0166b7",
+        "24e14424-b55b-58fc-935a-b64c79640f5d",
+        "e4051b4b-e798-5494-8d88-334fd618d7df",
+        "cdfd0e4e-3fe9-5a29-bc1e-918ad7875b12",
+        "78be0ac3-32eb-5123-b32b-edddf599512e",
+        "b74b1815-3d01-54bf-89bf-62a94cfc7f97",
+        "19fde581-10d7-554c-8b2d-b5ae2b82e017"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "358945cd-2bf8-5a8d-a5d1-30c1a7294f0b",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "SQL",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué instrucción SQL consulta filas de una tabla?",
+      "content": {
+        "options": [
+          "SELECT",
+          "PAINT",
+          "PRINTSCREEN",
+          "STYLE"
+        ]
+      },
+      "answer": 0,
+      "explanation": "SELECT recupera datos de una relación.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "349dd33a-b61a-51ce-a200-db71d0f66e68",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "Claves",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué propiedad debe cumplir una clave primaria?",
+      "content": {
+        "options": [
+          "Repetirse en todas las filas",
+          "Contener siempre una fecha",
+          "Ser una imagen",
+          "Identificar cada fila sin valores nulos"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La clave primaria identifica filas y exige unicidad y ausencia de NULL.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "07f684a9-d000-52f1-99ba-c55071aaca3c",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "Integridad",
+      "kind": "multiple_choice",
+      "prompt": "¿Para qué sirve una clave foránea?",
+      "content": {
+        "options": [
+          "Cambiar la contraseña de PostgreSQL",
+          "Duplicar todas las columnas",
+          "Relacionar filas con una clave de otra tabla o de la misma",
+          "Ordenar los archivos del computador"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Una clave foránea define una referencia cuya integridad puede comprobar la base de datos.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "a45dc9cb-9174-5a63-a6d9-459836e11bed",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "SQL",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué cláusula filtra filas antes de agruparlas?",
+      "content": {
+        "options": [
+          "LIMIT",
+          "WHERE",
+          "ORDER BY",
+          "HAVING"
+        ]
+      },
+      "answer": 1,
+      "explanation": "WHERE selecciona filas antes de GROUP BY; HAVING filtra grupos.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "e15bb58e-11c2-5781-a6a8-27fab989c8a7",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "SQL",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué consulta obtiene todas las columnas de alumnos?",
+      "content": {
+        "options": [
+          "SELECT * FROM alumnos;",
+          "DELETE FROM alumnos;",
+          "DROP TABLE alumnos;",
+          "UPDATE alumnos SET nombre = 'Ana';"
+        ]
+      },
+      "answer": 0,
+      "explanation": "SELECT * consulta columnas; las otras instrucciones modifican o eliminan datos.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "9a8e1999-8163-57bd-b40c-d225d7dbd03c",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "JOIN",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué devuelve INNER JOIN entre dos tablas según una condición?",
+      "content": {
+        "options": [
+          "Siempre todas las filas de ambas tablas",
+          "Solo columnas sin valores",
+          "Una copia de la base completa",
+          "Las combinaciones de filas que cumplen la condición"
+        ]
+      },
+      "answer": 3,
+      "explanation": "INNER JOIN conserva las coincidencias que satisfacen ON.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "0b9430d5-e471-5656-badf-8bce346fdfef",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "JOIN",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué conserva LEFT JOIN cuando una fila izquierda no tiene coincidencia?",
+      "content": {
+        "options": [
+          "Inventa una fila derecha",
+          "Cambia la clave primaria",
+          "La fila izquierda y NULL en columnas derechas",
+          "Elimina siempre esa fila"
+        ]
+      },
+      "answer": 2,
+      "explanation": "LEFT JOIN preserva las filas izquierdas incluso sin coincidencia.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "18c1ac28-ba6d-5ed6-8ec1-8d8c3e04f66b",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "Normalización",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué regla básica caracteriza a la primera forma normal?",
+      "content": {
+        "options": [
+          "Duplicar cada fila para respaldarla",
+          "Evitar grupos repetidos y usar valores atómicos en cada atributo",
+          "Guardar toda la información en una celda JSON sin analizarla",
+          "Eliminar todas las claves"
+        ]
+      },
+      "answer": 1,
+      "explanation": "La primera forma normal organiza atributos sin grupos repetitivos y con valores atómicos para el dominio.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "bbaa8ed4-2978-5988-8f4c-2f8788173602",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "Agregación",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál es la diferencia entre COUNT(*) y COUNT(columna)?",
+      "content": {
+        "options": [
+          "COUNT(columna) no cuenta valores NULL de esa columna",
+          "COUNT(*) ignora todas las filas",
+          "COUNT(columna) suma números",
+          "Ambas funciones borran registros"
+        ]
+      },
+      "answer": 0,
+      "explanation": "COUNT(*) cuenta filas; COUNT de una expresión cuenta sus valores no nulos.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "7b852d43-918e-560c-9b0c-5a3b8f29d930",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "Transacciones",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué hace ROLLBACK en una transacción abierta?",
+      "content": {
+        "options": [
+          "Confirma todos los cambios",
+          "Elimina siempre la base de datos",
+          "Desactiva las claves foráneas",
+          "Cancela los cambios no confirmados de esa transacción"
+        ]
+      },
+      "answer": 3,
+      "explanation": "ROLLBACK deshace el trabajo no confirmado dentro de la transacción.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "66e154d1-c925-58c0-8f67-d4ffe0f53960",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "Normalización",
+      "kind": "multiple_choice",
+      "prompt": "En una relación con clave simple, A determina B y B determina C no clave. ¿Qué problema se busca evitar al alcanzar tercera forma normal?",
+      "content": {
+        "options": [
+          "Toda relación entre tablas",
+          "El uso de valores enteros",
+          "Una dependencia transitiva de un atributo no clave respecto de la clave",
+          "La existencia de cualquier clave primaria"
+        ]
+      },
+      "answer": 2,
+      "explanation": "La tercera forma normal busca evitar dependencias transitivas indebidas de atributos no clave.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "63a11d9c-e17e-5755-b1fd-7798e04a4d90",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "Transacciones",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué garantiza la atomicidad de una transferencia entre dos cuentas?",
+      "content": {
+        "options": [
+          "Que toda consulta sea más rápida",
+          "Que los pasos se confirmen juntos o se cancelen juntos",
+          "Que las operaciones no necesiten permisos",
+          "Que nunca existan errores de hardware"
+        ]
+      },
+      "answer": 1,
+      "explanation": "Atomicidad significa que la unidad transaccional no queda confirmada parcialmente.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "1d05b001-8c84-5b15-9199-7d5cd191aa2e",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "Seguridad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué evita principalmente una consulta SQL parametrizada frente a concatenar entradas?",
+      "content": {
+        "options": [
+          "Que la entrada se interprete como parte de la instrucción SQL",
+          "Toda falla de conexión",
+          "La necesidad de índices",
+          "La existencia de datos NULL"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Los parámetros separan valores e instrucciones y reducen el riesgo de inyección SQL.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "2bfb6dc7-ca29-5632-bbcf-00f74be26c58",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "Subconsultas",
+      "kind": "multiple_choice",
+      "prompt": "Con alumnos(id) y matriculas(alumno_id), ¿qué devuelve SELECT a.id FROM alumnos a WHERE NOT EXISTS (SELECT 1 FROM matriculas m WHERE m.alumno_id=a.id)?",
+      "content": {
+        "options": [
+          "Alumnos con al menos una matrícula",
+          "Todas las matrículas duplicadas",
+          "Solo el alumno de mayor id",
+          "Alumnos sin matrículas asociadas"
+        ]
+      },
+      "answer": 3,
+      "explanation": "NOT EXISTS es verdadero cuando no existe una matrícula correlacionada para ese alumno.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "6c3731f3-f6db-58d4-a3be-dcc0f7770634",
+      "subject_id": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+      "unit": "Índices",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál es un costo posible de añadir muchos índices a una tabla con frecuentes escrituras?",
+      "content": {
+        "options": [
+          "Que SELECT deje de funcionar",
+          "La prohibición de transacciones",
+          "Más almacenamiento y trabajo al insertar o actualizar",
+          "La eliminación automática de claves foráneas"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Cada índice debe mantenerse cuando cambian los datos indexados; su utilidad depende de la carga.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_datos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "f4ad0b7e-f737-5540-8b8f-4e0194fa1b57",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Variables",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué representa una variable en un algoritmo?",
+      "content": {
+        "options": [
+          "Un nombre asociado a un valor que puede cambiar",
+          "Una instrucción que siempre termina el programa",
+          "Un error obligatorio",
+          "Una tabla de rutas de red"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Una variable permite referirse a un valor durante la ejecución.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "c2ec7a81-a405-5487-9da9-73b3c6260cdb",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Condicionales",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué estructura selecciona una acción según una condición?",
+      "content": {
+        "options": [
+          "Comentario",
+          "Importación de imagen",
+          "Tipo de letra",
+          "Condicional"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Una estructura if/else permite ejecutar ramas según una condición lógica.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "49715368-78e1-5b50-8408-9025d46cea45",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Ciclos",
+      "kind": "multiple_choice",
+      "prompt": "¿Para qué se utiliza un ciclo?",
+      "content": {
+        "options": [
+          "Eliminar toda función",
+          "Impedir condiciones",
+          "Repetir un conjunto de instrucciones",
+          "Cambiar el monitor"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Los ciclos expresan repeticiones controladas por condiciones o recorridos.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "dc3ba72a-90eb-5394-ad2f-68b788ce0d13",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Arreglos",
+      "kind": "multiple_choice",
+      "prompt": "En un arreglo indexado desde cero, ¿cuál es el índice del primer elemento?",
+      "content": {
+        "options": [
+          "La longitud del arreglo",
+          "0",
+          "1",
+          "-1 siempre"
+        ]
+      },
+      "answer": 1,
+      "explanation": "El primer índice de un arreglo con base cero es 0.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "9dccf80a-8519-5226-a914-04009ed80d93",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Funciones",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué ventaja aporta una función bien definida?",
+      "content": {
+        "options": [
+          "Reutilizar una operación con una responsabilidad clara",
+          "Hacer obligatoria la duplicación de código",
+          "Eliminar la necesidad de parámetros en todos los casos",
+          "Garantizar cualquier resultado sin pruebas"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Una función agrupa una operación que puede invocarse desde distintos lugares.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "d3c0ace2-1cb3-5a5a-82ce-63437219dcb1",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Trazado",
+      "kind": "multiple_choice",
+      "prompt": "Si x vale 3 y se ejecuta x = x + 2 dos veces, ¿cuánto vale x?",
+      "content": {
+        "options": [
+          "5",
+          "6",
+          "9",
+          "7"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La primera actualización da 5 y la segunda da 7.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "18f0057a-b976-5bf5-a1ed-0066ce19b2cc",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Ciclos",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuántas iteraciones ejecuta un ciclo para i = 0, 1, 2, 3?",
+      "content": {
+        "options": [
+          "5",
+          "0",
+          "4",
+          "3"
+        ]
+      },
+      "answer": 2,
+      "explanation": "El conjunto contiene cuatro valores distintos.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "b56fe939-ba43-5cce-a2db-09a9318e8cd9",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Recursividad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué condición debe existir para que una recursión termine?",
+      "content": {
+        "options": [
+          "Un arreglo vacío en todo caso",
+          "Un caso base alcanzable",
+          "Una llamada recursiva sin cambios",
+          "Una variable global obligatoria"
+        ]
+      },
+      "answer": 1,
+      "explanation": "El caso base detiene la recursión y las llamadas deben avanzar hacia él.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "219a9cb5-28d8-514d-95b5-1d4273991af4",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Complejidad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué complejidad temporal tiene recorrer una vez n elementos con trabajo constante por elemento?",
+      "content": {
+        "options": [
+          "O(n)",
+          "O(1)",
+          "O(n²)",
+          "O(2^n)"
+        ]
+      },
+      "answer": 0,
+      "explanation": "El trabajo total crece linealmente con la cantidad de elementos recorridos.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "d25a027e-4ec5-5fe7-b979-03c66de736c1",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Búsqueda",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué requisito necesita la búsqueda binaria habitual sobre un arreglo?",
+      "content": {
+        "options": [
+          "Que todos los elementos sean iguales",
+          "Que el arreglo tenga exactamente diez elementos",
+          "Que no existan índices",
+          "Que los elementos estén ordenados según el criterio de búsqueda"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La búsqueda binaria descarta mitades usando el orden del arreglo.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "8855e7c8-9d37-575f-8015-c18b3bbe076b",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Complejidad",
+      "kind": "multiple_choice",
+      "prompt": "Dos ciclos anidados recorren n elementos cada uno y el trabajo interno es constante. ¿Cuál es el orden temporal?",
+      "content": {
+        "options": [
+          "O(n)",
+          "O(1)",
+          "O(n²)",
+          "O(log n)"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Se realizan n por n combinaciones de iteraciones.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "67c50a0e-c6e0-52c6-ac80-bf11b0b912f3",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Complejidad",
+      "kind": "multiple_choice",
+      "prompt": "Si un algoritmo reduce a la mitad el tamaño del problema en cada paso y realiza trabajo constante por paso, ¿cuál es su complejidad?",
+      "content": {
+        "options": [
+          "O(n)",
+          "O(log n)",
+          "O(n²)",
+          "O(n!)"
+        ]
+      },
+      "answer": 1,
+      "explanation": "La cantidad de reducciones sucesivas por mitades crece logarítmicamente.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "3eea51c0-7fa7-56eb-b643-52254165cc80",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Recursividad",
+      "kind": "multiple_choice",
+      "prompt": "Con f(0)=1 y f(n)=n*f(n-1) para n positivo, ¿cuánto es f(4)?",
+      "content": {
+        "options": [
+          "24",
+          "16",
+          "10",
+          "4"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Se calcula 4×3×2×1×1 = 24.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "81ecdd9c-d0a2-52fa-8e39-19561d0166b7",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Diseño",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué condición se necesita para aplicar programación dinámica de manera útil a un problema?",
+      "content": {
+        "options": [
+          "Que toda solución use exclusivamente azar",
+          "Que no haya ninguna relación entre subproblemas",
+          "Que cada resultado se descarte inmediatamente",
+          "Subproblemas repetidos cuyos resultados se pueden reutilizar"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Memoización o tabulación evitan recalcular subproblemas relacionados y repetidos.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "24e14424-b55b-58fc-935a-b64c79640f5d",
+      "subject_id": "702a0166-82e3-5a7e-9004-8de48d1cecf7",
+      "unit": "Robustez",
+      "kind": "multiple_choice",
+      "prompt": "¿Por qué el promedio (min+max)/2 puede ser problemático con enteros de tamaño fijo?",
+      "content": {
+        "options": [
+          "Porque la división por dos siempre falla",
+          "Porque un arreglo no acepta números",
+          "La suma puede desbordarse aunque el promedio sea representable",
+          "Porque todo promedio es negativo"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Para límites no negativos válidos, min+(max-min)/2 evita el desbordamiento de la suma de extremos.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_algoritmos",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "135d6824-1db8-5f01-855f-272b469c265a",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "Servicios",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué servicio traduce nombres de dominio a direcciones mediante registros?",
+      "content": {
+        "options": [
+          "DNS",
+          "FTP",
+          "HDMI",
+          "SQL"
+        ]
+      },
+      "answer": 0,
+      "explanation": "DNS permite resolver nombres usando distintos tipos de registros.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "ee8224c6-1fbb-5aa7-8166-30faee820e93",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "Servicios",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué servicio puede asignar automáticamente configuración IPv4 a un equipo?",
+      "content": {
+        "options": [
+          "SMTP",
+          "IMAP",
+          "CSS",
+          "DHCP"
+        ]
+      },
+      "answer": 3,
+      "explanation": "DHCP puede proporcionar dirección, máscara, puerta de enlace y servidores DNS.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "ab6cf4ec-b5b9-589e-bd86-08eb437f05e8",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "Dispositivos",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué dispositivo reenvía tramas Ethernet entre puertos de una LAN usando direcciones MAC?",
+      "content": {
+        "options": [
+          "Micrófono",
+          "Escáner",
+          "Switch",
+          "Monitor"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Un switch Ethernet utiliza su tabla de direcciones MAC para reenviar tramas.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "21935a11-2bed-5fc0-85fb-29323bf322e6",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "Dispositivos",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué función cumple un router?",
+      "content": {
+        "options": [
+          "Reemplazar el sistema operativo",
+          "Encaminar paquetes entre redes IP",
+          "Convertir texto en audio",
+          "Almacenar exclusivamente contraseñas"
+        ]
+      },
+      "answer": 1,
+      "explanation": "Un router decide el siguiente salto hacia redes de destino.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "63b002c5-3970-5278-be7b-a4d33566350a",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "IPv4",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuántos bits tiene una dirección IPv4?",
+      "content": {
+        "options": [
+          "32",
+          "16",
+          "48",
+          "128"
+        ]
+      },
+      "answer": 0,
+      "explanation": "IPv4 usa direcciones de 32 bits; IPv6 utiliza 128.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "c71ff6ed-e4e6-5046-8a76-7bcea38e287d",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "OSI",
+      "kind": "multiple_choice",
+      "prompt": "¿A qué capa OSI se asocia habitualmente el direccionamiento IP?",
+      "content": {
+        "options": [
+          "Física, capa 1",
+          "Sesión, capa 5",
+          "Presentación, capa 6",
+          "Red, capa 3"
+        ]
+      },
+      "answer": 3,
+      "explanation": "IP opera como protocolo de red para direccionamiento y encaminamiento.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "65fa7143-dcba-5525-a78f-337b1d4d5182",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "Transporte",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué ofrece TCP que UDP no garantiza por sí mismo?",
+      "content": {
+        "options": [
+          "Ausencia total de cabeceras",
+          "Direcciones MAC universales",
+          "Entrega ordenada de un flujo con retransmisiones",
+          "Cifrado obligatorio de todo contenido"
+        ]
+      },
+      "answer": 2,
+      "explanation": "TCP mantiene un flujo fiable y ordenado; el cifrado requiere otros mecanismos.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "2321b3a9-2d33-56b7-b87d-392b570803a7",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "IPv4",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál de estas direcciones pertenece a un rango IPv4 privado?",
+      "content": {
+        "options": [
+          "208.67.222.222",
+          "192.168.10.5",
+          "8.8.8.8",
+          "1.1.1.1"
+        ]
+      },
+      "answer": 1,
+      "explanation": "192.168.0.0/16 es un bloque privado definido para redes internas.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "8e30d1bd-4702-5f6a-8baf-a5d2bf15838b",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "Subredes",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué prefijo corresponde a la máscara 255.255.255.0?",
+      "content": {
+        "options": [
+          "/24",
+          "/8",
+          "/16",
+          "/32"
+        ]
+      },
+      "answer": 0,
+      "explanation": "La máscara contiene 24 bits consecutivos de red.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "24494675-5217-5298-b7cd-dbf5e23d86d5",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "Encaminamiento",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuándo utiliza normalmente un host su puerta de enlace predeterminada?",
+      "content": {
+        "options": [
+          "Para cualquier acceso a su propio disco",
+          "Solo al imprimir por USB",
+          "Cuando no dispone de alimentación",
+          "Cuando el destino no está en su red local ni existe otra ruta más específica"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La decisión se toma con la tabla de rutas y la pertenencia del destino a la red local.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "e4051b4b-e798-5494-8d88-334fd618d7df",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "Subredes",
+      "kind": "multiple_choice",
+      "prompt": "En una LAN IPv4 convencional /26, reservando red y broadcast, ¿cuántas direcciones de host son utilizables?",
+      "content": {
+        "options": [
+          "30",
+          "126",
+          "62",
+          "64"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Quedan seis bits de host: 2^6−2 = 62 en este caso convencional.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "cdfd0e4e-3fe9-5a29-bc1e-918ad7875b12",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "Subredes",
+      "kind": "multiple_choice",
+      "prompt": "Para 192.168.1.70/26, ¿cuál es la dirección de red?",
+      "content": {
+        "options": [
+          "192.168.1.128",
+          "192.168.1.64",
+          "192.168.1.0",
+          "192.168.1.70"
+        ]
+      },
+      "answer": 1,
+      "explanation": "Los bloques /26 avanzan de 64 en 64; 70 pertenece al intervalo 64–127.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "78be0ac3-32eb-5123-b32b-edddf599512e",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "Diagnóstico",
+      "kind": "multiple_choice",
+      "prompt": "Si un equipo accede a una IP conocida pero no resuelve nombres, ¿qué componente conviene investigar primero en este ejercicio?",
+      "content": {
+        "options": [
+          "La configuración o respuesta DNS",
+          "El formato del teclado",
+          "El cable de audio",
+          "La extensión de un documento"
+        ]
+      },
+      "answer": 0,
+      "explanation": "La diferencia observada apunta a resolución de nombres; no prueba por sí sola toda la causa.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "b74b1815-3d01-54bf-89bf-62a94cfc7f97",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "Segmentación",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué permite una VLAN en una red con switches compatibles?",
+      "content": {
+        "options": [
+          "Convertir IPv4 en un archivo de texto",
+          "Garantizar cifrado extremo a extremo",
+          "Eliminar la necesidad de políticas de acceso",
+          "Separar lógicamente dominios de broadcast"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Una VLAN segmenta dominios de broadcast; el control de acceso y el cifrado son mecanismos distintos.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "19fde581-10d7-554c-8b2d-b5ae2b82e017",
+      "subject_id": "d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+      "unit": "Seguridad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué afirmación sobre HTTPS es correcta?",
+      "content": {
+        "options": [
+          "Impide todos los ataques a la aplicación",
+          "Reemplaza la autorización de usuarios",
+          "TLS protege el canal y permite autenticar el servidor mediante certificados válidos",
+          "Garantiza que toda información publicada sea verdadera"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Un canal protegido no elimina errores de la aplicación ni determina permisos de negocio.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_redes",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "2dbc9922-9b7e-5b50-a415-e353a0fc899e",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Bioseguridad",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál es el propósito general de la higiene de manos en atención de salud?",
+      "content": {
+        "options": [
+          "Reducir la transmisión de microorganismos",
+          "Reemplazar toda limpieza ambiental",
+          "Evitar identificar al paciente",
+          "Sustituir siempre los guantes"
+        ]
+      },
+      "answer": 0,
+      "explanation": "La higiene de manos es una medida básica de prevención de infecciones.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "63ceeb5e-296e-539f-adfe-5b3c7cabe895",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Comunicación",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué conducta favorece una comunicación respetuosa con un paciente?",
+      "content": {
+        "options": [
+          "Interrumpir de inmediato",
+          "Hablar de su información frente a desconocidos",
+          "Dar por hecho que comprendió",
+          "Escuchar y utilizar un lenguaje comprensible"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Escuchar y adaptar el lenguaje facilita la comprensión y el trato digno.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "9aa7f9e7-cdfb-5ceb-9a01-dbe6714a0927",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Signos vitales",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál de estas mediciones es un signo vital?",
+      "content": {
+        "options": [
+          "Talla de zapatos",
+          "Código del uniforme",
+          "Frecuencia respiratoria",
+          "Número de habitación"
+        ]
+      },
+      "answer": 2,
+      "explanation": "La frecuencia respiratoria es una medición fisiológica; no determina por sí sola un diagnóstico.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "1eea46f8-85e9-532e-8ce2-abd92e91cf28",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Confidencialidad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué significa confidencialidad en una ficha de salud?",
+      "content": {
+        "options": [
+          "Comentarla en redes sociales sin nombre",
+          "Limitar el acceso a quienes tienen una finalidad y autorización legítimas",
+          "Publicarla para que cualquiera la revise",
+          "Usar siempre una contraseña compartida"
+        ]
+      },
+      "answer": 1,
+      "explanation": "El acceso debe limitarse según finalidad, funciones y normativa aplicable.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "5c3be994-e4e0-5f0d-bd14-8c220cfe3a63",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Bioseguridad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué elemento corresponde a protección personal?",
+      "content": {
+        "options": [
+          "Protección ocular adecuada a la tarea",
+          "Un calendario de pared",
+          "Un folleto comercial",
+          "Una credencial estudiantil"
+        ]
+      },
+      "answer": 0,
+      "explanation": "La protección ocular forma parte del equipamiento de protección según el riesgo de la tarea.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "81f912b9-b3ff-564c-b893-6942a803ad5d",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Bioseguridad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué afirmación sobre los guantes es correcta?",
+      "content": {
+        "options": [
+          "Permiten usar el mismo par con cualquier paciente",
+          "Se deben compartir entre estudiantes",
+          "Eliminan todo riesgo de contaminación",
+          "No reemplazan la higiene de manos"
+        ]
+      },
+      "answer": 3,
+      "explanation": "El uso de guantes y la higiene de manos cumplen funciones complementarias.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "2a7661bf-47d7-5025-a51e-d7848e311a33",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Registro",
+      "kind": "multiple_choice",
+      "prompt": "En un registro educativo, ¿qué opción es más objetiva?",
+      "content": {
+        "options": [
+          "Seguro exagera",
+          "Todo está perfecto sin medir",
+          "Frecuencia respiratoria observada: 18 por minuto",
+          "Se ve raro"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Una observación cuantificada es más verificable que una impresión o juicio sobre la persona.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "eed9304b-dd07-5075-8a6c-a2ba7b921522",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Signos vitales",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué representa la frecuencia cardiaca?",
+      "content": {
+        "options": [
+          "La talla corporal",
+          "La cantidad de latidos por unidad de tiempo",
+          "El número de respiraciones de todo un día",
+          "La temperatura del ambiente"
+        ]
+      },
+      "answer": 1,
+      "explanation": "La frecuencia cardiaca expresa cuántos latidos se producen, habitualmente por minuto.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "635d6e7e-769d-50e6-8b88-f6e597c2fb75",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Comunicación",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué estrategia permite comprobar comprensión sin culpar al paciente?",
+      "content": {
+        "options": [
+          "Pedir que explique con sus palabras lo entendido",
+          "Preguntar solo si sabe leer",
+          "Suponer que asentir equivale a comprender",
+          "Evitar preguntas"
+        ]
+      },
+      "answer": 0,
+      "explanation": "La reformulación permite detectar dudas y ajustar la explicación.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "777dee40-9ee0-5431-8977-77d36c36f45a",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Prevención",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué incluye la prevención de infecciones asociadas a la atención?",
+      "content": {
+        "options": [
+          "Solo cambiar el color del uniforme",
+          "Confiar únicamente en la apariencia de limpieza",
+          "Omitir formación del personal",
+          "Medidas sobre manos, equipos y ambiente según protocolos"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La prevención combina medidas y formación; una sola acción aislada no cubre todos los riesgos.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "5ed59c8c-2d51-5e45-afd6-ab8b6e63a892",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Calidad",
+      "kind": "multiple_choice",
+      "prompt": "Si dos mediciones difieren, ¿qué análisis es apropiado en este ejercicio de calidad?",
+      "content": {
+        "options": [
+          "Borrar ambas sin dejar registro",
+          "Emitir un diagnóstico solo con la diferencia",
+          "Revisar técnica, instrumento, contexto y registro antes de concluir",
+          "Elegir siempre la cifra más conveniente"
+        ]
+      },
+      "answer": 2,
+      "explanation": "La calidad de la medición requiere considerar su procedimiento y contexto; el juego no diagnostica.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "7b0eceed-3d4c-50bf-8375-bce985a19956",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Confidencialidad",
+      "kind": "multiple_choice",
+      "prompt": "¿Por qué una ficha sin nombre puede seguir siendo identificable?",
+      "content": {
+        "options": [
+          "Porque la edad nunca aporta información",
+          "Porque la combinación de otros datos puede revelar a la persona",
+          "Porque anonimizar consiste solo en cambiar el título",
+          "Porque todas las fichas son públicas"
+        ]
+      },
+      "answer": 1,
+      "explanation": "Eliminar identificadores directos no siempre impide reidentificar mediante combinaciones de datos.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "0b6dc4e5-f27d-5026-8cd2-86834a95f5ba",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Bioseguridad",
+      "kind": "multiple_choice",
+      "prompt": "En prevención, ¿por qué importa el momento de la higiene de manos y no solo la técnica?",
+      "content": {
+        "options": [
+          "Porque el contacto posterior puede introducir una nueva contaminación",
+          "Porque la técnica nunca influye",
+          "Porque solo importa el olor del producto",
+          "Porque la higiene se hace una única vez por jornada"
+        ]
+      },
+      "answer": 0,
+      "explanation": "La protección depende de cuándo se realiza la higiene en relación con los contactos y tareas.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "f8b266fc-7f94-5db8-a15d-61141a4d3814",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Razonamiento",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué distingue una observación de una interpretación clínica?",
+      "content": {
+        "options": [
+          "Son siempre exactamente lo mismo",
+          "La observación debe omitirse",
+          "La interpretación elimina la necesidad de contexto",
+          "La observación describe lo registrado; la interpretación le atribuye significado"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Separar datos e interpretación favorece registros claros y una evaluación profesional responsable.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "ccf6b06b-0150-5f34-9e0d-2a178f41e50d",
+      "subject_id": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+      "unit": "Seguridad educativa",
+      "kind": "multiple_choice",
+      "prompt": "Si se detecta una instrucción institucional contradictoria en una simulación, ¿qué corresponde?",
+      "content": {
+        "options": [
+          "Difundir información del paciente para votar",
+          "Inventar una norma clínica",
+          "Detener la ejecución del ejercicio y consultar al responsable docente",
+          "Elegir al azar y presentarla como protocolo real"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Los ejercicios formativos no sustituyen la supervisión ni los protocolos oficiales.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_enfermeria",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "598aa81a-1ab6-5122-9837-5edfc7b1b339",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Anatomía",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué tejido recubre habitualmente la corona anatómica del diente?",
+      "content": {
+        "options": [
+          "Esmalte",
+          "Encía",
+          "Pulpa",
+          "Ligamento periodontal"
+        ]
+      },
+      "answer": 0,
+      "explanation": "El esmalte recubre la corona anatómica; la raíz posee una cobertura distinta.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "9006544e-f8d6-5e4e-9459-60b56d52b6bb",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Anatomía",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál es una función principal de los incisivos?",
+      "content": {
+        "options": [
+          "Producir saliva",
+          "Formar la lengua",
+          "Transportar oxígeno",
+          "Cortar alimentos"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La forma del borde incisal favorece la función de corte.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "4080fbde-8b3d-5377-a135-7118c4ce8abb",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Anatomía",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué estructura contiene vasos sanguíneos y nervios en el interior dental?",
+      "content": {
+        "options": [
+          "Película de saliva externa",
+          "Cemento superficial solamente",
+          "Pulpa",
+          "Esmalte"
+        ]
+      },
+      "answer": 2,
+      "explanation": "La pulpa es tejido blando del interior del diente y contiene vasos y nervios.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "bfb86126-ec5b-52fa-8cac-58e42cc6b195",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Instrumental",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué instrumento permite visualizar zonas bucales mediante reflexión?",
+      "content": {
+        "options": [
+          "Cronómetro",
+          "Espejo bucal",
+          "Teclado",
+          "Termómetro ambiental"
+        ]
+      },
+      "answer": 1,
+      "explanation": "El espejo bucal ayuda a la visión indirecta durante la exploración profesional.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "d8eb99c4-f3e8-5e51-b429-73436fed1ba2",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Bioseguridad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué práctica forma parte de las precauciones estándar en odontología?",
+      "content": {
+        "options": [
+          "Higiene de manos",
+          "Reutilizar guantes entre pacientes",
+          "Compartir material sin reprocesamiento",
+          "Omitir la limpieza de superficies"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Las precauciones estándar incluyen higiene y otras medidas de protección.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "290841fc-27ff-5c79-a739-d1399603c835",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Anatomía",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué tejido se encuentra bajo el esmalte y también constituye gran parte de la raíz?",
+      "content": {
+        "options": [
+          "Lengua",
+          "Encía libre",
+          "Saliva",
+          "Dentina"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La dentina forma gran parte del diente y se sitúa bajo el esmalte de la corona.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "6469eddb-c427-58dc-8340-e8f846b4f931",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Anatomía",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuántos dientes tiene habitualmente la dentición temporal completa?",
+      "content": {
+        "options": [
+          "28",
+          "32",
+          "20",
+          "16"
+        ]
+      },
+      "answer": 2,
+      "explanation": "La dentición temporal completa se compone habitualmente de veinte dientes.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "ccf8d7d4-382c-5467-a41a-a00ef246b28e",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Terminología",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué significa oclusal al describir un premolar o molar?",
+      "content": {
+        "options": [
+          "Todo el hueso maxilar",
+          "Superficie masticatoria que contacta con la dentición antagonista",
+          "Superficie exclusiva de la raíz",
+          "Interior de la pulpa"
+        ]
+      },
+      "answer": 1,
+      "explanation": "Oclusal designa la superficie masticatoria de los dientes posteriores.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "e5b064e3-614b-5910-9b23-8d450d5b5fb4",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Bioseguridad",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál es la diferencia conceptual entre limpieza y esterilización?",
+      "content": {
+        "options": [
+          "La limpieza retira suciedad; la esterilización busca eliminar microorganismos viables, incluidas esporas",
+          "Son términos idénticos para pintar un objeto",
+          "La limpieza siempre garantiza esterilidad",
+          "La esterilización solo cambia el color"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Son etapas y objetivos distintos del reprocesamiento; se siguen procedimientos validados.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "aefb0e0d-a60f-5b4e-bc6f-7b5dcecae384",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Prevención",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué describe mejor la placa dental?",
+      "content": {
+        "options": [
+          "Un fragmento de esmalte sano",
+          "Un tipo de nervio",
+          "Una prótesis en todos los casos",
+          "Una comunidad microbiana organizada sobre una superficie"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La placa se organiza como una biopelícula; no es simplemente un resto de alimento.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "ac78cc4e-fbed-5acb-a591-f63793818cb7",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Bioseguridad",
+      "kind": "multiple_choice",
+      "prompt": "¿Por qué un instrumento visualmente limpio no puede considerarse estéril solo por su aspecto?",
+      "content": {
+        "options": [
+          "Porque los microorganismos siempre se ven a simple vista",
+          "Porque el color prueba esterilidad",
+          "Porque la observación visual no demuestra ausencia de microorganismos viables",
+          "Porque todos los instrumentos limpios son desechables"
+        ]
+      },
+      "answer": 2,
+      "explanation": "La validación del reprocesamiento requiere controles y procedimientos, no solo apariencia.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "62ecf2ec-75c0-5332-9fc5-2d0831aef9d4",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Terminología",
+      "kind": "multiple_choice",
+      "prompt": "En nomenclatura dental, ¿qué significa mesial?",
+      "content": {
+        "options": [
+          "Lejos de la línea media siempre",
+          "Hacia la línea media de la arcada",
+          "Hacia el ápice exclusivamente",
+          "Hacia cualquier superficie externa sin referencia"
+        ]
+      },
+      "answer": 1,
+      "explanation": "Mesial expresa dirección hacia la línea media de la arcada dental.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "472bea54-4511-5c00-bea9-77c0ff9621fc",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Anatomía",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué asociación entre tejido y función es correcta?",
+      "content": {
+        "options": [
+          "El ligamento periodontal conecta la raíz, a través del cemento, con el hueso alveolar",
+          "El esmalte produce saliva",
+          "La pulpa recubre la encía externamente",
+          "La dentina es un músculo masticatorio"
+        ]
+      },
+      "answer": 0,
+      "explanation": "El ligamento periodontal participa en el soporte del diente entre cemento radicular y hueso.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "157e9617-d120-500a-bbdd-6a3d2f01ab5a",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Prevención",
+      "kind": "multiple_choice",
+      "prompt": "¿Por qué se evalúan varios factores al estudiar riesgo de caries?",
+      "content": {
+        "options": [
+          "Porque un único color del diente determina siempre el diagnóstico",
+          "Porque no intervienen microorganismos",
+          "Porque el juego puede indicar tratamientos personalizados",
+          "Porque intervienen biopelícula, exposición a azúcares, susceptibilidad y tiempo, entre otros factores"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La caries es multifactorial; un ejercicio conceptual no reemplaza evaluación profesional.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "7d6e9b2f-d6bb-556d-9a6f-376ea7020a73",
+      "subject_id": "98e03d19-a8e3-5880-bd55-d50dd53dc787",
+      "unit": "Calidad",
+      "kind": "multiple_choice",
+      "prompt": "Si el envase de material procesado pierde su integridad, ¿qué principio debe aplicarse en este ejercicio?",
+      "content": {
+        "options": [
+          "Reemplazar el envase y declarar esterilidad sin evaluación",
+          "Compartirlo para terminar antes",
+          "No asumir que su condición de almacenamiento sigue garantizada y consultar el protocolo responsable",
+          "Usarlo basándose solo en su olor"
+        ]
+      },
+      "answer": 2,
+      "explanation": "La conservación de la condición procesada depende también de almacenamiento y envase; rigen los protocolos del establecimiento.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "docente_odontologia",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "4e928533-e6f8-52e3-bbf1-115a8d4fd993",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Grammar",
+      "kind": "multiple_choice",
+      "prompt": "Choose the correct sentence.",
+      "content": {
+        "options": [
+          "She is a student.",
+          "She are a student.",
+          "She am a student.",
+          "She be a student yesterday."
+        ]
+      },
+      "answer": 0,
+      "explanation": "Con she, el presente del verbo be es is.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "0747cad5-1dcf-5ab2-b71e-508f53af783f",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Vocabulary",
+      "kind": "multiple_choice",
+      "prompt": "What is the English word for biblioteca?",
+      "content": {
+        "options": [
+          "Factory",
+          "Kitchen",
+          "Airport",
+          "Library"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Library designa una biblioteca.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "70edf2e8-01cf-5fdc-97d8-d5a81195ebba",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Articles",
+      "kind": "multiple_choice",
+      "prompt": "Complete: I have ___ apple.",
+      "content": {
+        "options": [
+          "the a",
+          "two an",
+          "an",
+          "a"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Se utiliza an antes del sonido vocálico inicial de apple.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "ec5eab92-2326-5f18-9934-2c71676e7926",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Grammar",
+      "kind": "multiple_choice",
+      "prompt": "Complete: They ___ in the computer lab now.",
+      "content": {
+        "options": [
+          "was",
+          "are",
+          "is",
+          "am"
+        ]
+      },
+      "answer": 1,
+      "explanation": "They se combina con are en presente.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "ad6a26f7-e697-586d-9625-364f75be07ed",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Technical English",
+      "kind": "multiple_choice",
+      "prompt": "Which word means contraseña?",
+      "content": {
+        "options": [
+          "Password",
+          "Keyboard",
+          "Screen",
+          "Folder"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Password significa contraseña.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "9ad1ec01-781e-537b-8971-3b0e99658a3b",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Past tense",
+      "kind": "multiple_choice",
+      "prompt": "Complete: Yesterday we ___ the network.",
+      "content": {
+        "options": [
+          "test",
+          "testing",
+          "tests",
+          "tested"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Yesterday sitúa la acción en pasado: tested.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "57e5692f-6a4f-51b7-b08b-08fa88797d08",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Continuous tense",
+      "kind": "multiple_choice",
+      "prompt": "Complete: The students are ___ a report.",
+      "content": {
+        "options": [
+          "wrote",
+          "writes",
+          "writing",
+          "write"
+        ]
+      },
+      "answer": 2,
+      "explanation": "El presente continuo se forma con be y la forma terminada en -ing.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "aa9b994b-6328-5ef2-af2b-18456a7fd296",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Communication",
+      "kind": "multiple_choice",
+      "prompt": "Choose a polite academic request.",
+      "content": {
+        "options": [
+          "No explain nothing always.",
+          "Could you explain this example, please?",
+          "Explain this now, you!",
+          "You example yesterday."
+        ]
+      },
+      "answer": 1,
+      "explanation": "Could you... please? formula una petición cortés.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "1d5be2ec-f557-5523-97ca-9577a1ae0606",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Reading",
+      "kind": "multiple_choice",
+      "prompt": "Read: The lab opens at nine and closes at five. When does it open?",
+      "content": {
+        "options": [
+          "At nine",
+          "At five",
+          "At midnight",
+          "It never opens"
+        ]
+      },
+      "answer": 0,
+      "explanation": "La primera parte del texto indica opens at nine.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "41607bb2-a820-5295-9ac4-1b335feeb82d",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Comparatives",
+      "kind": "multiple_choice",
+      "prompt": "Complete: A switch is usually ___ than a large server rack in physical size.",
+      "content": {
+        "options": [
+          "smallest",
+          "small",
+          "more smallest",
+          "smaller"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La comparación entre dos tamaños utiliza el comparativo smaller.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "8c06ff3c-5f43-5f12-a616-4fe4ac993c26",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Conditionals",
+      "kind": "multiple_choice",
+      "prompt": "Complete: If the connection fails, we ___ the configuration.",
+      "content": {
+        "options": [
+          "would checked",
+          "checking will",
+          "will check",
+          "checked yesterday"
+        ]
+      },
+      "answer": 2,
+      "explanation": "En una condición futura posible se usa if + presente y will + verbo base.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "87a85dea-421b-5469-930a-a2267b08e2fc",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Passive voice",
+      "kind": "multiple_choice",
+      "prompt": "Which sentence is in the passive voice?",
+      "content": {
+        "options": [
+          "We will encrypt the data.",
+          "The data is encrypted by the application.",
+          "The application encrypts the data.",
+          "The students encrypt data."
+        ]
+      },
+      "answer": 1,
+      "explanation": "La pasiva usa be + participio; el sujeto recibe la acción.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "ddfd6c71-651d-59ab-8d6c-23b028eb5fe6",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Reading",
+      "kind": "multiple_choice",
+      "prompt": "Read: Although the server is online, users cannot sign in. Which statement follows?",
+      "content": {
+        "options": [
+          "Server availability alone does not guarantee successful sign-in.",
+          "The server is definitely powered off.",
+          "Every user signed in successfully.",
+          "The sentence proves that passwords are public."
+        ]
+      },
+      "answer": 0,
+      "explanation": "Although expresa un contraste: el servidor está disponible, pero el acceso de usuarios falla.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "0e3a8372-83f5-5ef0-9a2b-ec23ae620b22",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Present perfect",
+      "kind": "multiple_choice",
+      "prompt": "Complete: We have used this version ___ March.",
+      "content": {
+        "options": [
+          "for",
+          "during for",
+          "ago since",
+          "since"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Since introduce un punto inicial; for suele introducir una duración.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "66d3d3ed-c312-5fde-8dcc-21c9c63dae9e",
+      "subject_id": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+      "unit": "Agreement",
+      "kind": "multiple_choice",
+      "prompt": "Choose the sentence with correct subject-verb agreement.",
+      "content": {
+        "options": [
+          "Each of the students are an account.",
+          "Each of the students were an account now.",
+          "Each of the students has an account.",
+          "Each of the students have an account."
+        ]
+      },
+      "answer": 2,
+      "explanation": "Each es singular en esta estructura y exige has.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_ingles",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "33f119dc-11d8-5e9e-9bc6-3c15d15a6e11",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Integridad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué conducta expresa integridad académica?",
+      "content": {
+        "options": [
+          "Reconocer las fuentes y realizar el trabajo honestamente",
+          "Presentar un trabajo ajeno como propio",
+          "Inventar resultados de pruebas",
+          "Ocultar errores para obtener una nota"
+        ]
+      },
+      "answer": 0,
+      "explanation": "La integridad exige honestidad sobre autoría y resultados.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "4c39ed85-8425-5aab-92aa-4da105b01b2f",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Confidencialidad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué es información confidencial?",
+      "content": {
+        "options": [
+          "Todo texto que tenga muchos caracteres",
+          "Solo los documentos impresos",
+          "Información que debe publicarse siempre",
+          "Información cuyo acceso está limitado por una obligación o finalidad legítima"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La confidencialidad establece deberes sobre el acceso y la divulgación.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "024df2bf-6cef-5f54-8933-b55d1d784ba9",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Privacidad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué acción respeta la privacidad de otra persona?",
+      "content": {
+        "options": [
+          "Compartir su contraseña",
+          "Publicar sus notas para divertir a otros",
+          "Pedir autorización y usar solo los datos necesarios",
+          "Difundir su dirección sin motivo"
+        ]
+      },
+      "answer": 2,
+      "explanation": "El tratamiento responsable limita datos y respeta finalidad y autorización.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "351882dc-a8ad-5b71-8354-a6f9c49beb03",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Responsabilidad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué debe hacer un profesional cuando descubre un error propio relevante?",
+      "content": {
+        "options": [
+          "Esperar que nadie lo note",
+          "Informarlo por los canales adecuados y colaborar en corregirlo",
+          "Atribuírselo sin evidencia a otro",
+          "Eliminar todos los registros"
+        ]
+      },
+      "answer": 1,
+      "explanation": "La responsabilidad incluye reconocer incidentes y contribuir a su solución.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "84e10f69-b1ce-5cb5-ab19-c56eee616c91",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Colaboración",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué práctica favorece un trabajo de equipo respetuoso?",
+      "content": {
+        "options": [
+          "Escuchar aportes y discutir ideas sin ataques personales",
+          "Excluir sin motivo",
+          "Ridiculizar preguntas",
+          "Ocultar acuerdos a propósito"
+        ]
+      },
+      "answer": 0,
+      "explanation": "El respeto permite deliberar y colaborar sin descalificaciones.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "30800f1b-5b97-51f5-9788-69f5d258919b",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Seguridad",
+      "kind": "multiple_choice",
+      "prompt": "Un compañero pide tu contraseña para terminar rápido. ¿Qué respuesta es responsable?",
+      "content": {
+        "options": [
+          "Entregarle también la clave de todos",
+          "Publicarla en el chat",
+          "Desactivar toda autenticación",
+          "Usar mecanismos de colaboración autorizados sin compartir credenciales"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La colaboración no requiere perder trazabilidad ni compartir credenciales personales.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "3bd8a95a-9a20-5a08-9bd4-fa4baeefc227",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Criterio profesional",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué es un conflicto de interés?",
+      "content": {
+        "options": [
+          "Toda revisión de código",
+          "La existencia de dos asignaturas",
+          "Una situación donde intereses personales pueden influir indebidamente en una decisión profesional",
+          "Cualquier desacuerdo sobre un color"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Un interés personal puede comprometer o aparentar comprometer la imparcialidad.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "0ac1e8ed-a0c4-589e-b007-5f27f0c7236f",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Evidencia",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué debe diferenciarse al informar una prueba de software?",
+      "content": {
+        "options": [
+          "Nada: basta una impresión",
+          "Lo medido de lo supuesto o pendiente",
+          "Lo atractivo de lo que se ocultará",
+          "El resultado deseado del resultado inventado"
+        ]
+      },
+      "answer": 1,
+      "explanation": "Una afirmación verificable identifica evidencias y sus límites.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "72ffc97c-262a-501e-a650-8b3b71a35ff1",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Licencias",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué implica usar software con una licencia de terceros?",
+      "content": {
+        "options": [
+          "Revisar y cumplir las condiciones aplicables",
+          "Suponer que todo lo descargado carece de condiciones",
+          "Cambiar el nombre para borrar obligaciones",
+          "Ignorar siempre la atribución"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Las condiciones de uso y distribución dependen de la licencia concreta.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "063b9742-45eb-5073-a23d-4702e195c8ae",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Honestidad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué conducta evita presentar una propuesta como un hecho?",
+      "content": {
+        "options": [
+          "Anunciar que ya está certificada",
+          "Inventar una institución que la apruebe",
+          "Eliminar la palabra propuesta sin probarla",
+          "Declarar que aún requiere implementación y validación"
+        ]
+      },
+      "answer": 3,
+      "explanation": "El estado real de una solución debe comunicarse con claridad.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "fe7a84cd-83e1-5aa4-b254-c13f06d46570",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Tecnología responsable",
+      "kind": "multiple_choice",
+      "prompt": "Un modelo produce peores resultados para un grupo de usuarios. ¿Qué análisis es pertinente?",
+      "content": {
+        "options": [
+          "Afirmar que todo modelo es neutral",
+          "Medir solo los casos favorables",
+          "Examinar datos, criterios, impacto y posibles sesgos antes de decidir",
+          "Ocultar ese grupo del informe"
+        ]
+      },
+      "answer": 2,
+      "explanation": "La evaluación ética considera impactos y limitaciones, no solo un promedio conveniente.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "f784268e-20ec-586b-bd59-5d7642c19335",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Privacidad",
+      "kind": "multiple_choice",
+      "prompt": "¿Por qué publicar datos aparentemente anónimos puede ser riesgoso?",
+      "content": {
+        "options": [
+          "Porque el formato CSV garantiza privacidad",
+          "Porque al combinarlos con otras fuentes se puede reidentificar a personas",
+          "Porque anonimizar prohíbe toda estadística",
+          "Porque solo los nombres identifican"
+        ]
+      },
+      "answer": 1,
+      "explanation": "La reidentificación puede ocurrir por combinaciones de atributos.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "6949e9eb-73af-5868-a1ac-bed0d454565a",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Dilemas",
+      "kind": "multiple_choice",
+      "prompt": "Si una organización solicita ocultar una falla crítica, ¿qué actuación es más responsable?",
+      "content": {
+        "options": [
+          "Documentar evidencia y escalar mediante canales profesionales apropiados",
+          "Inventar que la falla está resuelta",
+          "Borrar el historial de cambios",
+          "Publicar contraseñas como protesta"
+        ]
+      },
+      "answer": 0,
+      "explanation": "La respuesta responsable protege a afectados y utiliza canales adecuados con evidencia.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "5ae4f104-25c6-5e2e-8afa-efa12b6e59db",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Autorización",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué distingue permiso técnico de autorización ética o institucional?",
+      "content": {
+        "options": [
+          "Son siempre equivalentes",
+          "Todo acceso accidental autoriza copiar datos",
+          "La rapidez de una consulta concede permiso",
+          "Poder ejecutar una acción no implica tener una finalidad o autorización legítima para hacerlo"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Los controles técnicos no reemplazan obligaciones de finalidad, privacidad y autorización.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "7fc4a062-b8e7-53c5-bfc4-c922aa549dd0",
+      "subject_id": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+      "unit": "Uso responsable de IA",
+      "kind": "multiple_choice",
+      "prompt": "Una herramienta generativa ayuda a redactar una entrega. ¿Qué criterio es defendible?",
+      "content": {
+        "options": [
+          "Presentar datos inventados como experimentales",
+          "Suponer que elimina la responsabilidad del equipo",
+          "Verificar el resultado y declarar su uso según las reglas de la evaluación",
+          "Atribuirle todas las fuentes sin revisarlas"
+        ]
+      },
+      "answer": 2,
+      "explanation": "El equipo conserva responsabilidad sobre exactitud, autoría y reglas académicas.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_etica",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "a2dd06ba-ecdd-5251-b991-b2babbeeefb9",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Redacción",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué elemento expresa con mayor claridad el propósito de un correo académico?",
+      "content": {
+        "options": [
+          "Un asunto concreto relacionado con la solicitud",
+          "Un asunto vacío",
+          "Solo signos de exclamación",
+          "Un título sin relación con el contenido"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Un asunto específico permite anticipar el tema y organizar el mensaje.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "f5a5fbae-9845-5581-85d0-b6e58fb7de26",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Comunicación no verbal",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál es un ejemplo de comunicación no verbal?",
+      "content": {
+        "options": [
+          "Un archivo de texto únicamente",
+          "Una ecuación escrita",
+          "Un párrafo de un informe",
+          "El gesto y la postura durante una conversación"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Los gestos y la postura transmiten información sin depender de palabras.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "0b58f0f8-7861-5431-877a-cb001e51fa73",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Presentaciones",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué práctica favorece una presentación comprensible?",
+      "content": {
+        "options": [
+          "Mostrar texto ilegible",
+          "Cambiar de tema sin transiciones",
+          "Organizar introducción, desarrollo y cierre",
+          "Leer diapositivas sin ninguna explicación"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Una estructura ayuda a seguir el propósito y el hilo de la presentación.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "1ac9aa2b-616b-5610-89b2-16e349a8b9f9",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Comprensión",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué es la idea principal de un texto?",
+      "content": {
+        "options": [
+          "Cualquier ejemplo aislado",
+          "La información central que articula su contenido",
+          "Una palabra escogida al azar",
+          "Siempre la última cifra"
+        ]
+      },
+      "answer": 1,
+      "explanation": "La idea principal permite sintetizar el sentido general del texto.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "c4e4b723-3612-58e5-b88e-5f214904c13d",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Escucha",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué conducta demuestra escucha activa?",
+      "content": {
+        "options": [
+          "Reformular lo entendido y permitir aclaraciones",
+          "Preparar una respuesta sin escuchar",
+          "Interrumpir constantemente",
+          "Cambiar siempre de tema"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Reformular permite comprobar si se comprendió el mensaje del interlocutor.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "dfd7908b-373a-5711-bd75-9baf5cbb555b",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Redacción profesional",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué versión de una solicitud es más precisa?",
+      "content": {
+        "options": [
+          "Revise eso pronto.",
+          "Lo de siempre, cuando pueda.",
+          "Necesito algo de ese tema.",
+          "Solicito revisar el informe adjunto antes del viernes a las 15:00."
+        ]
+      },
+      "answer": 3,
+      "explanation": "La solicitud precisa identifica acción, objeto y plazo.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "d7c0a248-dfff-521a-af6f-2d3936c3a069",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Fuentes",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué función cumple una cita bien identificada en un informe?",
+      "content": {
+        "options": [
+          "Garantizar que cualquier afirmación sea verdadera",
+          "Evitar que se revise el origen",
+          "Permitir rastrear el respaldo y reconocer la fuente",
+          "Reemplazar todas las explicaciones propias"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Una cita facilita atribución y trazabilidad; la calidad de la fuente aún debe evaluarse.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "6a5fbc3d-a906-5c60-b03d-478ec9d0d172",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Argumentación",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál es la diferencia entre una afirmación y su evidencia?",
+      "content": {
+        "options": [
+          "La afirmación reemplaza toda medición",
+          "La afirmación plantea algo y la evidencia aporta respaldo verificable",
+          "Son términos idénticos en toda situación",
+          "La evidencia es siempre una opinión"
+        ]
+      },
+      "answer": 1,
+      "explanation": "Una exposición sólida conecta lo que sostiene con lo que permite evaluarlo.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "ceaf3fcc-8102-5797-b011-2828b3340446",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Coherencia",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué revisión mejora la coherencia de un párrafo?",
+      "content": {
+        "options": [
+          "Comprobar que las oraciones desarrollan una misma idea y se conectan",
+          "Añadir palabras largas sin relación",
+          "Eliminar todos los conectores",
+          "Mezclar conclusiones opuestas sin explicarlas"
+        ]
+      },
+      "answer": 0,
+      "explanation": "La coherencia depende de la relación de sentido entre las ideas.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "eed5b1e0-fc19-5182-a7e6-680a27f32fa0",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Presentaciones",
+      "kind": "multiple_choice",
+      "prompt": "Ante una pregunta que no se puede responder con evidencia disponible, ¿qué corresponde?",
+      "content": {
+        "options": [
+          "Inventar una cifra exacta",
+          "Responder una pregunta distinta para ocultarlo",
+          "Afirmar que ya fue probado",
+          "Reconocer el límite y explicar cómo se verificaría"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Reconocer límites mantiene la claridad y la credibilidad de la exposición.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "8e7ef9d8-7a31-567f-ba81-bccee92d2d78",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Lectura crítica",
+      "kind": "multiple_choice",
+      "prompt": "Un estudio observa que dos variables cambian juntas. ¿Qué formulación evita afirmar más de lo demostrado?",
+      "content": {
+        "options": [
+          "La asociación demuestra todos los mecanismos posibles.",
+          "No es necesario analizar otras explicaciones.",
+          "Se observó una asociación; esta evidencia no basta para establecer causalidad.",
+          "Una variable causa necesariamente a la otra."
+        ]
+      },
+      "answer": 2,
+      "explanation": "Una correlación no establece por sí sola una relación causal.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "925fd8df-35b9-50c8-b8bf-c428d70d81a9",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Conclusiones",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué hace defendible una conclusión técnica?",
+      "content": {
+        "options": [
+          "Que repita una promesa comercial",
+          "Que se limite al alcance de las pruebas y exponga condiciones relevantes",
+          "Que ignore las muestras desfavorables",
+          "Que utilice siempre porcentajes sin origen"
+        ]
+      },
+      "answer": 1,
+      "explanation": "La conclusión debe corresponder al tipo, alcance y condiciones de la evidencia.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "8da166e3-cba2-528e-97ba-5410723ec1d8",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Audiencia",
+      "kind": "multiple_choice",
+      "prompt": "¿Cómo conviene adaptar una explicación informática para una audiencia no especialista?",
+      "content": {
+        "options": [
+          "Mantener la precisión y explicar términos mediante ejemplos pertinentes",
+          "Sustituirla por siglas sin definir",
+          "Eliminar cualquier relación con el problema",
+          "Afirmar que el tema no puede comprenderse"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Un ejemplo pertinente conecta conceptos técnicos con situaciones comprensibles sin falsearlos.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "5b897dc4-2b72-5893-befe-1733a2d3ac00",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Comunicación científica",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué distingue una limitación metodológica de una excusa?",
+      "content": {
+        "options": [
+          "La limitación oculta toda información del método",
+          "La excusa siempre presenta un dato medido",
+          "Son necesariamente idénticas",
+          "La limitación identifica cómo una condición restringe la interpretación de los resultados"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Una limitación bien descrita permite valorar qué puede y qué no puede concluirse.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "c0554fa2-b086-51f6-9374-f7bba5cdf9d0",
+      "subject_id": "a341fb38-521c-5209-bc61-ef328634c1fd",
+      "unit": "Defensa de proyecto",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué formulación mantiene una promesa de piloto en su estado real?",
+      "content": {
+        "options": [
+          "Todos los estudiantes mejorarán con certeza.",
+          "La propuesta equivale a un convenio firmado.",
+          "Se propone un piloto sujeto a aprobación institucional y evaluación.",
+          "Duoc UC ya certificó resultados sin haberlos evaluado."
+        ]
+      },
+      "answer": 2,
+      "explanation": "Una propuesta debe diferenciarse de una aprobación o un resultado ya obtenido.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_lenguaje",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "3dc70762-bd7b-56eb-bbb7-a29ddd75d009",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Álgebra",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuánto vale x en x + 5 = 12?",
+      "content": {
+        "options": [
+          "7",
+          "5",
+          "12",
+          "17"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Restar 5 a ambos lados da x = 7.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "2aefbc88-67a3-5cbf-a026-18d4f0406057",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Porcentajes",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál es el 10% de 200?",
+      "content": {
+        "options": [
+          "10",
+          "2",
+          "2000",
+          "20"
+        ]
+      },
+      "answer": 3,
+      "explanation": "0,10 × 200 = 20.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "3b83e3dc-d5f0-5638-8d7e-55f53af50ca8",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Operaciones",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuánto es 3 × (2 + 4)?",
+      "content": {
+        "options": [
+          "14",
+          "24",
+          "18",
+          "10"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Primero se resuelve el paréntesis: 3 × 6 = 18.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "72b26465-7a65-5d31-86c5-0a6f323d5a46",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Funciones",
+      "kind": "multiple_choice",
+      "prompt": "Si f(x)=2x+1, ¿cuánto es f(3)?",
+      "content": {
+        "options": [
+          "5",
+          "7",
+          "6",
+          "9"
+        ]
+      },
+      "answer": 1,
+      "explanation": "Sustituir x por 3 produce 2×3+1 = 7.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "d2b854a0-0cfc-5f30-a30a-642a6726025b",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Probabilidad",
+      "kind": "multiple_choice",
+      "prompt": "En una moneda equilibrada, ¿cuál es la probabilidad de obtener cara en un lanzamiento?",
+      "content": {
+        "options": [
+          "1/2",
+          "1",
+          "1/4",
+          "0"
+        ]
+      },
+      "answer": 0,
+      "explanation": "De los dos resultados equiprobables, uno es cara.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "9e536fd8-1f4b-5c52-8f58-fd101693f5e2",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Ecuaciones",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuánto vale x en 3x − 6 = 12?",
+      "content": {
+        "options": [
+          "2",
+          "4",
+          "18",
+          "6"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Sumar 6 da 3x = 18 y dividir por 3 da x = 6.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "c33c9997-121f-5383-86d3-92a3e21e518e",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Porcentajes",
+      "kind": "multiple_choice",
+      "prompt": "Un producto cuesta 80 y tiene 25% de descuento. ¿Cuál es el precio final?",
+      "content": {
+        "options": [
+          "75",
+          "100",
+          "60",
+          "55"
+        ]
+      },
+      "answer": 2,
+      "explanation": "El descuento es 20; 80 − 20 = 60.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "3d9cef21-4c63-5c7a-95e2-98958260fdf2",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Funciones",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál es la pendiente de la recta y = 4x − 2?",
+      "content": {
+        "options": [
+          "-4",
+          "4",
+          "-2",
+          "2"
+        ]
+      },
+      "answer": 1,
+      "explanation": "En y=mx+b, m es la pendiente.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "534990e9-2505-58bd-8c0c-4ca47440ba5e",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Probabilidad",
+      "kind": "multiple_choice",
+      "prompt": "Una bolsa tiene 3 fichas rojas y 2 azules. Al extraer una al azar, ¿cuál es la probabilidad de roja?",
+      "content": {
+        "options": [
+          "3/5",
+          "2/5",
+          "1/3",
+          "3/2"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Hay tres resultados rojos entre cinco fichas equiprobables.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "4d93df66-92bc-57c7-b1dc-d48360bee63b",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Estadística",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál es la media aritmética de 4, 6 y 8?",
+      "content": {
+        "options": [
+          "18",
+          "4",
+          "8",
+          "6"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La suma 18 dividida por tres datos da 6.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "cbb335b8-db25-5525-9a31-b4289f5c4586",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Porcentajes",
+      "kind": "multiple_choice",
+      "prompt": "Un valor aumenta 20% y luego disminuye 20%. Si empieza en 100, ¿en cuánto termina?",
+      "content": {
+        "options": [
+          "80",
+          "120",
+          "96",
+          "100"
+        ]
+      },
+      "answer": 2,
+      "explanation": "100×1,2×0,8 = 96; los porcentajes se aplican sobre bases diferentes.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "593e617d-af4a-5c73-aa00-3ebf2e11b09c",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Sistemas",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué solución satisface x+y=7 y x−y=1?",
+      "content": {
+        "options": [
+          "x=5, y=2",
+          "x=4, y=3",
+          "x=3, y=4",
+          "x=7, y=1"
+        ]
+      },
+      "answer": 1,
+      "explanation": "Al sumar ambas ecuaciones se obtiene 2x=8; luego y=3.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "dd5c1143-a111-57b3-8981-d1b3c92c9b06",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Probabilidad",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál es la probabilidad de dos caras al lanzar dos monedas equilibradas e independientes?",
+      "content": {
+        "options": [
+          "1/4",
+          "1/2",
+          "3/4",
+          "1"
+        ]
+      },
+      "answer": 0,
+      "explanation": "La independencia permite multiplicar 1/2 por 1/2.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "0cf6cbbd-8539-58a2-af8d-65424e8ecea7",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Lógica",
+      "kind": "multiple_choice",
+      "prompt": "Si A implica B y A es verdadero, ¿qué conclusión es válida?",
+      "content": {
+        "options": [
+          "B es falso",
+          "A es falso",
+          "No puede concluirse B en ningún caso",
+          "B es verdadero"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Esta inferencia corresponde al modus ponens.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "47d94b38-3f33-5f1b-a84e-061d67a0b510",
+      "subject_id": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0",
+      "unit": "Álgebra",
+      "kind": "multiple_choice",
+      "prompt": "Para x distinto de 0, ¿cómo se simplifica (x² + 3x)/x?",
+      "content": {
+        "options": [
+          "3x",
+          "x + 3x",
+          "x + 3",
+          "x² + 3"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Se factoriza x(x+3) y se cancela x, respetando la restricción x≠0.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "profesor_matematicas",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "44c6d07a-5480-5e1e-8e44-e16e2c2bea25",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Banco local anterior",
+      "kind": "multiple_choice",
+      "prompt": "¿Cuál de estos componentes almacena datos aunque el computador esté apagado?",
+      "content": {
+        "options": [
+          "SSD",
+          "RAM",
+          "CPU",
+          "Caché"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Un SSD utiliza almacenamiento no volátil.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "8d10dc40-5d04-563a-8949-7a9fea3c1eb3",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Banco local anterior",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué dispositivo conecta varios equipos dentro de una red local?",
+      "content": {
+        "options": [
+          "Monitor",
+          "Teclado",
+          "Impresora",
+          "Switch"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Un switch conecta equipos dentro de una red local.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "de0b0e55-8a72-5f61-a5c7-b34b47940478",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Banco local anterior",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué lenguaje se utiliza para consultar bases de datos relacionales?",
+      "content": {
+        "options": [
+          "CSS",
+          "PNG",
+          "SQL",
+          "HTML"
+        ]
+      },
+      "answer": 2,
+      "explanation": "SQL permite consultar y gestionar datos relacionales.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "e9b505e5-f672-5b4e-97c0-a8c80c93a083",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Hardware",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué componente ejecuta instrucciones de propósito general?",
+      "content": {
+        "options": [
+          "Bandeja de papel",
+          "CPU",
+          "Mouse pad",
+          "Cable HDMI"
+        ]
+      },
+      "answer": 1,
+      "explanation": "La CPU ejecuta instrucciones del programa.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "b1b77f33-bd56-5e83-9355-d7ecd6c5081b",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Representación",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué representa un bit?",
+      "content": {
+        "options": [
+          "Un dígito binario con dos valores posibles",
+          "Siempre una imagen completa",
+          "Un cable de red",
+          "Una tabla de cien filas"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Un bit representa información binaria, habitualmente 0 o 1.",
+      "difficulty": "easy",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "2e65790a-ea92-5c59-a762-399ab830a1fb",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Memoria",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué caracteriza a la memoria RAM habitual?",
+      "content": {
+        "options": [
+          "Es siempre más permanente que un disco",
+          "No permite lecturas",
+          "Solo almacena archivos PDF",
+          "Su contenido se pierde al interrumpirse la alimentación"
+        ]
+      },
+      "answer": 3,
+      "explanation": "La RAM habitual es volátil y se utiliza como memoria de trabajo.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "00a24650-1c6e-55c1-83b9-f911f8b0d7ca",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Sistemas",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué función cumple un sistema operativo?",
+      "content": {
+        "options": [
+          "Garantizar que no existan errores de programación",
+          "Reemplazar físicamente la CPU",
+          "Administrar recursos y ofrecer servicios para ejecutar aplicaciones",
+          "Sustituir toda base de datos"
+        ]
+      },
+      "answer": 2,
+      "explanation": "El sistema operativo coordina recursos y servicios del equipo.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "1eec5c05-ff82-5061-a561-be9a2b53db50",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Respaldo",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué es una copia de respaldo?",
+      "content": {
+        "options": [
+          "Guardar solo un acceso directo",
+          "Una copia recuperable de información para afrontar pérdida o daño",
+          "Cambiar el nombre del único archivo",
+          "Eliminar el original sin verificar nada"
+        ]
+      },
+      "answer": 1,
+      "explanation": "Un respaldo debe permitir recuperar información; un acceso directo no contiene los datos.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "0fd8c064-b29f-5f6a-b4b7-c5995f8c5e17",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Calidad",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué ayuda a detectar una entrada de datos inválida?",
+      "content": {
+        "options": [
+          "Validarla según el formato y las reglas esperadas",
+          "Confiar en cualquier texto recibido",
+          "Ocultar todos los mensajes",
+          "Desactivar las comprobaciones"
+        ]
+      },
+      "answer": 0,
+      "explanation": "La validación permite rechazar datos incompatibles con el contrato esperado.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "12f58411-cf87-5007-b456-51d50fc055d4",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Herramientas",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué ventaja ofrece el control de versiones?",
+      "content": {
+        "options": [
+          "Garantizar automáticamente que todo cambio sea correcto",
+          "Evitar todo trabajo en equipo",
+          "Eliminar la necesidad de pruebas",
+          "Registrar cambios y recuperar estados del código"
+        ]
+      },
+      "answer": 3,
+      "explanation": "El historial permite revisar y recuperar cambios, pero no sustituye las pruebas.",
+      "difficulty": "medium",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "7d4108f2-5533-5802-98f3-1de1a82b319e",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Seguridad",
+      "kind": "multiple_choice",
+      "prompt": "¿Por qué no debe incorporarse una clave privada de servicio en un cliente distribuido?",
+      "content": {
+        "options": [
+          "Porque toda clave pública es una contraseña de administrador",
+          "Porque solo afecta el tamaño de los iconos",
+          "Porque los usuarios pueden inspeccionar el cliente y extraerla",
+          "Porque impide usar colores"
+        ]
+      },
+      "answer": 2,
+      "explanation": "Un cliente distribuido no puede mantener secretos privilegiados frente a quien lo ejecuta.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "7ad629a0-ed9a-5a37-9175-cb473c9b694e",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Diagnóstico",
+      "kind": "multiple_choice",
+      "prompt": "Una respuesta remota tiene HTTP 403. ¿Qué interpretación es prudente?",
+      "content": {
+        "options": [
+          "La contraseña fue cambiada automáticamente",
+          "El acceso fue rechazado; no se demuestra que el banco esté vacío",
+          "La tabla tiene necesariamente cero filas",
+          "El servidor aprobó la operación"
+        ]
+      },
+      "answer": 1,
+      "explanation": "Un rechazo de permisos no informa por sí mismo la cantidad de registros.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "29e045fd-d781-5aaa-8d94-370422b726be",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Datos",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué hace idempotente una operación de incorporación de datos?",
+      "content": {
+        "options": [
+          "Repetirla con la misma identidad no crea efectos adicionales no deseados",
+          "Que genere un ID nuevo aleatorio en cada repetición",
+          "Que borre primero todos los datos existentes",
+          "Que se ejecute sin comprobar errores"
+        ]
+      },
+      "answer": 0,
+      "explanation": "Una identidad estable y una política de actualización o inserción controlada evitan duplicaciones.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "fd889858-4183-53d3-aaee-32c54231a60b",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Pruebas",
+      "kind": "multiple_choice",
+      "prompt": "¿Qué diferencia una prueba con servidor simulado de una prueba contra producción?",
+      "content": {
+        "options": [
+          "Son pruebas idénticas de conectividad real",
+          "La simulación confirma todas las políticas RLS remotas",
+          "Producción no necesita autenticación",
+          "La primera comprueba contratos controlados, pero no demuestra el despliegue real"
+        ]
+      },
+      "answer": 3,
+      "explanation": "Un doble de prueba permite escenarios reproducibles; el entorno real requiere verificación aparte.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    },
+    {
+      "id": "2bde421b-bae8-5613-a18b-768791957a71",
+      "subject_id": "8c202c84-0114-539c-a33a-850c30a29468",
+      "unit": "Rendimiento",
+      "kind": "multiple_choice",
+      "prompt": "Si 180 muestras producen una mediana de 10 ms por fotograma, ¿qué valor se deriva de 1000/10?",
+      "content": {
+        "options": [
+          "10 FPS máximos de toda la campaña",
+          "Una mejora del 100% sin comparación",
+          "100 FPS derivados de esa mediana",
+          "180 FPS promedio garantizados"
+        ]
+      },
+      "answer": 2,
+      "explanation": "El cálculo da 100 FPS derivados; no representa automáticamente un promedio ni una mejora comparativa.",
+      "difficulty": "hard",
+      "active": true,
+      "access_challenge": false,
+      "mentor_id": "",
+      "retry_delay_seconds": 0,
+      "max_attempts_per_day": 0
+    }
+  ]
+}

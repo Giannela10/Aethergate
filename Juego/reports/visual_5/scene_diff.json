@@ -1,0 +1,187 @@
+{
+  "changed_blocks": 27,
+  "collision_shape_or_body_changes": 0,
+  "persistent_ids_unchanged": true,
+  "changes": [
+    {
+      "header": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso1/Iluminacion\" unique_id=1805640527]",
+      "before": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso1/Iluminacion\" unique_id=1805640527]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, -12.195892, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 1 Norte\"",
+      "after": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso1/Iluminacion\" unique_id=1805640527]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, -12.195892, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 1 Norte\""
+    },
+    {
+      "header": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso2/Iluminacion\" unique_id=1425570684]",
+      "before": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso2/Iluminacion\" unique_id=1425570684]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 2.897709, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 2 Norte\"",
+      "after": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso2/Iluminacion\" unique_id=1425570684]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 2.897709, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 2 Norte\""
+    },
+    {
+      "header": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso2/Iluminacion\" unique_id=1458068513]",
+      "before": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso2/Iluminacion\" unique_id=1458068513]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 2.7057037, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 2 Sur\"",
+      "after": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso2/Iluminacion\" unique_id=1458068513]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 2.7057037, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 2 Sur\""
+    },
+    {
+      "header": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso3/Iluminacion\" unique_id=700311538]",
+      "before": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso3/Iluminacion\" unique_id=700311538]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 17.452396, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 3 Norte\"",
+      "after": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso3/Iluminacion\" unique_id=700311538]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 17.452396, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 3 Norte\""
+    },
+    {
+      "header": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso3/Iluminacion\" unique_id=1721561760]",
+      "before": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso3/Iluminacion\" unique_id=1721561760]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 17.739887, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 3 Sur\"",
+      "after": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso3/Iluminacion\" unique_id=1721561760]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 17.739887, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 3 Sur\""
+    },
+    {
+      "header": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso4/Iluminacion\" unique_id=922009683]",
+      "before": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso4/Iluminacion\" unique_id=922009683]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 19.223583, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 4 Norte\"",
+      "after": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso4/Iluminacion\" unique_id=922009683]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 19.223583, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 4 Norte\""
+    },
+    {
+      "header": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso4/Iluminacion\" unique_id=1713767882]",
+      "before": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso4/Iluminacion\" unique_id=1713767882]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 20.39862, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 4 Sur\"",
+      "after": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso4/Iluminacion\" unique_id=1713767882]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 20.39862, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 4 Sur\""
+    },
+    {
+      "header": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso5/Iluminacion\" unique_id=962145005]",
+      "before": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso5/Iluminacion\" unique_id=962145005]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 46.624825, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 5 Norte\"",
+      "after": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso5/Iluminacion\" unique_id=962145005]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 46.624825, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 5 Norte\""
+    },
+    {
+      "header": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso5/Iluminacion\" unique_id=996091378]",
+      "before": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso5/Iluminacion\" unique_id=996091378]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 47.410168, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 5 Sur\"",
+      "after": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso5/Iluminacion\" unique_id=996091378]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 47.410168, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 5 Sur\""
+    },
+    {
+      "header": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso6/Iluminacion\" unique_id=2079703255]",
+      "before": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso6/Iluminacion\" unique_id=2079703255]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 61.722725, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 6 Norte\"",
+      "after": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso6/Iluminacion\" unique_id=2079703255]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 61.722725, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 6 Norte\""
+    },
+    {
+      "header": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso6/Iluminacion\" unique_id=845690712]",
+      "before": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso6/Iluminacion\" unique_id=845690712]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 62.083492, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 6 Sur\"",
+      "after": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso6/Iluminacion\" unique_id=845690712]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 62.083492, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 6 Sur\""
+    },
+    {
+      "header": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso7/Iluminacion\" unique_id=1551433997]",
+      "before": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso7/Iluminacion\" unique_id=1551433997]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 65.343124, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 7 Norte\"",
+      "after": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso7/Iluminacion\" unique_id=1551433997]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 65.343124, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 7 Norte\""
+    },
+    {
+      "header": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso7/Iluminacion\" unique_id=1898960779]",
+      "before": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso7/Iluminacion\" unique_id=1898960779]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 66.63625, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 7 Sur\"",
+      "after": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso7/Iluminacion\" unique_id=1898960779]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 66.63625, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 7 Sur\""
+    },
+    {
+      "header": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso8/Iluminacion\" unique_id=301501081]",
+      "before": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso8/Iluminacion\" unique_id=301501081]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 69.53145, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 8 Norte\"",
+      "after": "[node name=\"LuzNorte\" type=\"OmniLight3D\" parent=\"Piso8/Iluminacion\" unique_id=301501081]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.007763, 69.53145, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 8 Norte\""
+    },
+    {
+      "header": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso8/Iluminacion\" unique_id=2131999089]",
+      "before": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso8/Iluminacion\" unique_id=2131999089]\r\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 67.714905, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 4096.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 8 Sur\"",
+      "after": "[node name=\"LuzSur\" type=\"OmniLight3D\" parent=\"Piso8/Iluminacion\" unique_id=2131999089]\nvisible = false\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.953217, 67.714905, -131.88966)\r\nlight_energy = 2.0\r\nomni_range = 16.0\r\nmetadata/ruta_antes_de_ordenar = \"Lights/Floor1_Light Piso 8 Sur\""
+    },
+    {
+      "header": "[node name=\"LetreroCafeteria\" type=\"Label3D\" parent=\"PisoMenos1/AmbientacionIndustrial2026/NegocioCafeteria\" unique_id=324327360]",
+      "before": "[node name=\"LetreroCafeteria\" type=\"Label3D\" parent=\"PisoMenos1/AmbientacionIndustrial2026/NegocioCafeteria\" unique_id=324327360]\r\ntransform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -31, -8.808386, -132)\r\nvisibility_range_end = 90.0\r\npixel_size = 0.006\r\nmodulate = Color(0.94509804, 0.7647059, 0.41960785, 1)\r\noutline_modulate = Color(0.08235294, 0.101960786, 0.105882354, 1)\r\ntext = \"CAFETERIA  ·  TALLER 21\"\r\nfont_size = 64\r\noutline_size = 6",
+      "after": "[node name=\"LetreroCafeteria\" type=\"Label3D\" parent=\"PisoMenos1/AmbientacionIndustrial2026/NegocioCafeteria\" unique_id=324327360]\r\ntransform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, -31, -8.808386, -132.025)\r\nvisibility_range_end = 90.0\r\npixel_size = 0.006\r\nmodulate = Color(0.94509804, 0.7647059, 0.41960785, 1)\r\noutline_modulate = Color(0.08235294, 0.101960786, 0.105882354, 1)\r\ntext = \"CAFETERIA  ·  TALLER 21\"\r\nfont_size = 64\r\noutline_size = 6"
+    },
+    {
+      "header": "[ext_resource type=\"Material\" path=\"res://materials/entrance/MAT_Sign_Backplate_5.tres\" id=\"visual5_sign\"]",
+      "before": null,
+      "after": "[ext_resource type=\"Material\" path=\"res://materials/entrance/MAT_Sign_Backplate_5.tres\" id=\"visual5_sign\"]"
+    },
+    {
+      "header": "[sub_resource type=\"BoxMesh\" id=\"BoxMesh_visual5_sign\"]",
+      "before": null,
+      "after": "[sub_resource type=\"BoxMesh\" id=\"BoxMesh_visual5_sign\"]\nsize = Vector3(8.5, 0.68, 0.06)"
+    },
+    {
+      "header": "[sub_resource type=\"BoxMesh\" id=\"BoxMesh_visual5_sign_support\"]",
+      "before": null,
+      "after": "[sub_resource type=\"BoxMesh\" id=\"BoxMesh_visual5_sign_support\"]\nsize = Vector3(0.04, 0.35, 0.04)"
+    },
+    {
+      "header": "[node name=\"PlacaLetreroCafeteria5\" type=\"MeshInstance3D\" parent=\"PisoMenos1/AmbientacionIndustrial2026/NegocioCafeteria\"]",
+      "before": null,
+      "after": "[node name=\"PlacaLetreroCafeteria5\" type=\"MeshInstance3D\" parent=\"PisoMenos1/AmbientacionIndustrial2026/NegocioCafeteria\"]\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31, -8.808386, -131.98)\nmaterial_override = ExtResource(\"visual5_sign\")\nmesh = SubResource(\"BoxMesh_visual5_sign\")"
+    },
+    {
+      "header": "[node name=\"SoporteLetreroCafeteria5Izq\" type=\"MeshInstance3D\" parent=\"PisoMenos1/AmbientacionIndustrial2026/NegocioCafeteria\"]",
+      "before": null,
+      "after": "[node name=\"SoporteLetreroCafeteria5Izq\" type=\"MeshInstance3D\" parent=\"PisoMenos1/AmbientacionIndustrial2026/NegocioCafeteria\"]\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.4, -8.348386, -131.98)\nmaterial_override = ExtResource(\"visual5_sign\")\nmesh = SubResource(\"BoxMesh_visual5_sign_support\")"
+    },
+    {
+      "header": "[node name=\"SoporteLetreroCafeteria5Der\" type=\"MeshInstance3D\" parent=\"PisoMenos1/AmbientacionIndustrial2026/NegocioCafeteria\"]",
+      "before": null,
+      "after": "[node name=\"SoporteLetreroCafeteria5Der\" type=\"MeshInstance3D\" parent=\"PisoMenos1/AmbientacionIndustrial2026/NegocioCafeteria\"]\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.6, -8.348386, -131.98)\nmaterial_override = ExtResource(\"visual5_sign\")\nmesh = SubResource(\"BoxMesh_visual5_sign_support\")"
+    },
+    {
+      "header": "[node name=\"MesaImpresora5\" type=\"CSGBox3D\" parent=\"Piso2/SalaImpresiones\"]",
+      "before": null,
+      "after": "[node name=\"MesaImpresora5\" type=\"CSGBox3D\" parent=\"Piso2/SalaImpresiones\"]\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80.8, 1.85, -115.8)\nsize = Vector3(1.55, 0.1, 1.05)\nmaterial = ExtResource(\"visual5_sign\")"
+    },
+    {
+      "header": "[node name=\"PataMesaImpresora5_0\" type=\"CSGBox3D\" parent=\"Piso2/SalaImpresiones\"]",
+      "before": null,
+      "after": "[node name=\"PataMesaImpresora5_0\" type=\"CSGBox3D\" parent=\"Piso2/SalaImpresiones\"]\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -81.45, 0.9, -116.2)\nsize = Vector3(0.08, 1.8, 0.08)\nmaterial = ExtResource(\"visual5_sign\")"
+    },
+    {
+      "header": "[node name=\"PataMesaImpresora5_1\" type=\"CSGBox3D\" parent=\"Piso2/SalaImpresiones\"]",
+      "before": null,
+      "after": "[node name=\"PataMesaImpresora5_1\" type=\"CSGBox3D\" parent=\"Piso2/SalaImpresiones\"]\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -81.45, 0.9, -115.39999999999999)\nsize = Vector3(0.08, 1.8, 0.08)\nmaterial = ExtResource(\"visual5_sign\")"
+    },
+    {
+      "header": "[node name=\"PataMesaImpresora5_2\" type=\"CSGBox3D\" parent=\"Piso2/SalaImpresiones\"]",
+      "before": null,
+      "after": "[node name=\"PataMesaImpresora5_2\" type=\"CSGBox3D\" parent=\"Piso2/SalaImpresiones\"]\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80.14999999999999, 0.9, -116.2)\nsize = Vector3(0.08, 1.8, 0.08)\nmaterial = ExtResource(\"visual5_sign\")"
+    },
+    {
+      "header": "[node name=\"PataMesaImpresora5_3\" type=\"CSGBox3D\" parent=\"Piso2/SalaImpresiones\"]",
+      "before": null,
+      "after": "[node name=\"PataMesaImpresora5_3\" type=\"CSGBox3D\" parent=\"Piso2/SalaImpresiones\"]\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80.14999999999999, 0.9, -115.39999999999999)\nsize = Vector3(0.08, 1.8, 0.08)\nmaterial = ExtResource(\"visual5_sign\")"
+    }
+  ],
+  "shared_scene": {
+    "changed_blocks": 27,
+    "changes": [
+      "[node name=\"LuzInterior\" type=\"OmniLight3D\" parent=\"Sala807\" unique_id=1279428189]",
+      "[node name=\"LuzInterior_0609\" type=\"OmniLight3D\" parent=\"Sala807\" unique_id=1858727821]",
+      "[node name=\"LuzInterior_0611\" type=\"OmniLight3D\" parent=\"Sala807\" unique_id=401919735]",
+      "[node name=\"LuzInterior_0613\" type=\"OmniLight3D\" parent=\"Sala807\" unique_id=1538397775]",
+      "[node name=\"LuzInterior\" type=\"OmniLight3D\" parent=\"Sala808\" unique_id=605423193]",
+      "[node name=\"LuzInterior_1225\" type=\"OmniLight3D\" parent=\"Sala808\" unique_id=784762975]",
+      "[node name=\"LuzInterior_1227\" type=\"OmniLight3D\" parent=\"Sala808\" unique_id=381750314]",
+      "[node name=\"LuzInterior_1229\" type=\"OmniLight3D\" parent=\"Sala808\" unique_id=50523437]",
+      "[node name=\"LuzInterior\" type=\"OmniLight3D\" parent=\"Sala805\" unique_id=913867511]",
+      "[node name=\"LuzInterior_1841\" type=\"OmniLight3D\" parent=\"Sala805\" unique_id=1614062739]",
+      "[node name=\"LuzInterior_1843\" type=\"OmniLight3D\" parent=\"Sala805\" unique_id=370864721]",
+      "[node name=\"LuzInterior_1845\" type=\"OmniLight3D\" parent=\"Sala805\" unique_id=1498095772]",
+      "[node name=\"LuzInterior\" type=\"OmniLight3D\" parent=\"Sala806\" unique_id=2077033520]",
+      "[node name=\"LuzInterior_2457\" type=\"OmniLight3D\" parent=\"Sala806\" unique_id=311336856]",
+      "[node name=\"LuzInterior_2459\" type=\"OmniLight3D\" parent=\"Sala806\" unique_id=241967817]",
+      "[node name=\"LuzInterior_2461\" type=\"OmniLight3D\" parent=\"Sala806\" unique_id=811279400]",
+      "[node name=\"LuzInterior\" type=\"OmniLight3D\" parent=\"Sala809\" unique_id=1369791618]",
+      "[node name=\"LuzInterior_2753\" type=\"OmniLight3D\" parent=\"Sala809\" unique_id=1282516482]",
+      "[node name=\"LuzInterior_2755\" type=\"OmniLight3D\" parent=\"Sala809\" unique_id=552713705]",
+      "[node name=\"LuzInterior_2757\" type=\"OmniLight3D\" parent=\"Sala809\" unique_id=1987308129]",
+      "[node name=\"PantallaProyeccion\" type=\"MeshInstance3D\" parent=\"Sala810\" unique_id=1293718597]",
+      "[node name=\"ImagenProyector\" type=\"MeshInstance3D\" parent=\"Sala810\" unique_id=68127279]",
+      "[node name=\"LuzInterior\" type=\"OmniLight3D\" parent=\"Sala810\" unique_id=296715306]",
+      "[node name=\"LuzInterior_2917\" type=\"OmniLight3D\" parent=\"Sala810\" unique_id=932019609]",
+      "[node name=\"LuzInterior_2919\" type=\"OmniLight3D\" parent=\"Sala810\" unique_id=553647288]",
+      "[node name=\"LuzInterior_2921\" type=\"OmniLight3D\" parent=\"Sala810\" unique_id=645800214]",
+      "[node name=\"ArmarioMateriales\" type=\"MeshInstance3D\" parent=\"Sala810\" unique_id=1198261016]"
+    ],
+    "collision_changes": 0
+  },
+  "changed_files": [
+    "Juego\\Main.tscn",
+    "Juego\\materials\\entrance\\piso_fotos.gdshader",
+    "Juego\\materials\\entrance\\piso_interior_oscuro.gdshader",
+    "Juego\\materials\\entrance\\vidrio_fachada_duoc.gdshader",
+    "Juego\\scripts\\compartidos\\edicion\\sala_impresiones_y_vidrios.gd",
+    "Juego\\scripts\\pisos\\piso_8\\baldosas_oscuras.gdshader",
+    "Juego\\scripts\\pisos\\piso_8\\PasilloReferencia.tscn",
+    "Juego\\scripts\\pisos\\piso_8\\piso_8_completo.gd",
+    "Juego\\scripts\\pisos\\piso_menos_1\\reconstruccion_visual_2026.gd",
+    "Juego\\tests\\visual_mcp_5.cjs"
+  ]
+}

@@ -169,7 +169,7 @@ func home() -> void:
 		["messages","Mensajes","chat","35b68c"],["contacts","Contactos","person","dc9d4c"],
 		["nexo","NEXO","chip","4bc3d3"],["collectibles","Colección","star","d2ad55"],
 		["stats","Estadísticas","chart","dc737d"],["settings","Ajustes","gear","7f91ab"],
-		["schedule","Horario","list","5cb6a1"]]
+		["schedule","Horario","list","5cb6a1"],["academic_v4","Mi progreso","chart","5cb6a1"],["story_v4","Historia NEXO","chip","a57aea"],["access_v4","Accesibilidad","gear","7f91ab"]]
 	for app in apps:
 		var button := Button.new()
 		button.name = app[0]

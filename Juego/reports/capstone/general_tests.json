@@ -1,0 +1,199 @@
+[
+  {
+    "suite": "learning_activity_v4",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 690,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "LEARNING_ACTIVITY_V4_RESULT {\"checks\":15,\"failures\":[],\"server_sql_executed\":false}"
+    ]
+  },
+  {
+    "suite": "education_1_0",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 662,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "EDUCATION_1_0_RESULT {\"checks\":32,\"failures\":[],\"google_oauth\":\"NOT TESTED: external credentials required\",\"release_export\":\"NOT TESTED: export templates required\",\"supabase_rls\":\"NOT TESTED: deployment required\"}"
+    ]
+  },
+  {
+    "suite": "education_integration",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 12799,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "EDUCATION_INTEGRATION_RESULT {\"checks\":18,\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "gameplay_regression",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 5785,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "GAMEPLAY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}"
+    ]
+  },
+  {
+    "suite": "inventory_regression",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 1684,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "INVENTORY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}"
+    ]
+  },
+  {
+    "suite": "personalizacion",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 14889,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "APPEARANCE_RESULT {\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "campaign_regression",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 21516,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "CAMPAIGN_REGRESSION {\"failures\":[],\"passed\":true}"
+    ]
+  },
+  {
+    "suite": "guardado_lectura",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 647,
+    "errors": [],
+    "warnings": [
+      "WARNING: Guardado inválido en res://tests/guardado_lectura_temporal/partida.json: Unknown error getting token. Se conserva una copia en res://tests/guardado_lectura_temporal/partida.json.invalid-464151.bak; se usarán valores iniciales para este archivo.",
+      "WARNING: Guardado inválido en res://tests/guardado_lectura_temporal/partida.json: Expected key. Se conserva una copia en res://tests/guardado_lectura_temporal/partida.json.invalid-466527.bak; se usarán valores iniciales para este archivo.",
+      "WARNING: Guardado inválido en res://tests/guardado_lectura_temporal/partida.json: Se esperaba un objeto JSON. Se conserva una copia en res://tests/guardado_lectura_temporal/partida.json.invalid-468742.bak; se usarán valores iniciales para este archivo.",
+      "WARNING: Guardado inválido en res://tests/guardado_lectura_temporal/partida.json: Se esperaba un objeto JSON. Se conserva una copia en res://tests/guardado_lectura_temporal/partida.json.invalid-470551.bak; se usarán valores iniciales para este archivo."
+    ],
+    "markers": [
+      "SAVE_READING_RESULT {\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "nueva_partida",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 14191,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "NEW_GAME_RESULT {\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "student_phone",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 6778,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "PHONE_RESULT {\"checks\":31,\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "campus_v4",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 29323,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "CAMPUS_V4_RESULT {\"audio_streams\":13,\"checks\":62,\"escort_position\":\"(38.0, 23.96851, -149.2909)\",\"failures\":[],\"routine_actors\":7}"
+    ]
+  },
+  {
+    "suite": "campus_vivo",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 14377,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "CAMPUS_VIVO_RESULT {\"checks\":52,\"failures\":[],\"qa_review\":[\"Check credential source and physical route: acceso7\",\"Check credential source and physical route: nexo_core\",\"Stairs, door connectivity and arena exits require an in-game traversal; no automatic geometry repair\"]}"
+    ]
+  },
+  {
+    "suite": "organizacion_pisos",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 4966,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "FLOOR_ORGANIZATION_RESULT {\"failures\":[],\"pisos\":[\"Piso −1\",\"Piso 1\",\"Piso 2\",\"Piso 3\",\"Piso 4\",\"Piso 5\",\"Piso 6\",\"Piso 7\",\"Piso 8\"],\"rutas\":596}"
+    ]
+  },
+  {
+    "suite": "director_informatica_boss",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 1123,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "DIRECTOR INFORMATICA: OK (0 fallos)"
+    ]
+  },
+  {
+    "suite": "nexo_final",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 23702,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "NEXO_FINAL_RESULT {\"checks\":111,\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "performance_startup",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "elapsed_ms": 14101,
+    "errors": [],
+    "warnings": [],
+    "markers": [
+      "PERF total_ms=13494"
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "status": "PASS AUTOMÁTICO",
+  "changed_existing_sources": [
+    "Juego/scripts/campaign/appearance_menu.gd",
+    "Juego/scripts/juego/character_activity_visual.gd",
+    "Juego/scripts/juego/character_appearance.gd",
+    "Juego/scripts/juego/character_visual_presets.gd",
+    "Juego/scripts/juego/humanoid.gd",
+    "Juego/scripts/juego/procedural_appearance_adapter.gd",
+    "Juego/scripts/juego/student_visual.gd"
+  ],
+  "missing_sources": [],
+  "unexpected_changes": [],
+  "functional_methods": [
+    {
+      "file": "Juego/scripts/juego/humanoid.gd",
+      "function": "_animate_pose",
+      "identical": true
+    },
+    {
+      "file": "Juego/scripts/juego/humanoid.gd",
+      "function": "start_punch",
+      "identical": true
+    },
+    {
+      "file": "Juego/scripts/juego/humanoid.gd",
+      "function": "is_punching",
+      "identical": true
+    },
+    {
+      "file": "Juego/scripts/juego/humanoid.gd",
+      "function": "_punch_weights",
+      "identical": true
+    },
+    {
+      "file": "Juego/scripts/juego/humanoid.gd",
+      "function": "_swing_pose",
+      "identical": true
+    },
+    {
+      "file": "Juego/scripts/juego/student_visual.gd",
+      "function": "equip",
+      "identical": true
+    },
+    {
+      "file": "Juego/scripts/juego/student_visual.gd",
+      "function": "unequip",
+      "identical": true
+    },
+    {
+      "file": "Juego/scripts/juego/student_visual.gd",
+      "function": "animate",
+      "identical": true
+    }
+  ],
+  "main_and_existing_scenes_unchanged": true,
+  "protected_sources_byte_identical": true,
+  "new_production_source": "Juego/scripts/juego/character_surface_6.gd",
+  "recovery_files": 851
+}

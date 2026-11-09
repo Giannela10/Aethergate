@@ -1,0 +1,227 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6571
+[MCPRegistry] runtime port 6571 registered for c:/users/despacho2-cd/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego
+DETAILED_PLAYTEST_READY rooms=73 lights=517
+SCRIPT ERROR: Parse Error: Cannot infer the type of "floor_hit" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://tests/detailed_walkthrough_extension.gd:84)
+   GDScript backtrace (most recent call first):
+       [0] execute (res://tests/detailed_campus_playtest.gd:137)
+       [1] poll (res://tests/detailed_campus_playtest.gd:111)
+       [2] boot (res://tests/detailed_campus_playtest.gd:50)
+ERROR: Failed to load script "res://tests/detailed_walkthrough_extension.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+   GDScript backtrace (most recent call first):
+       [0] execute (res://tests/detailed_campus_playtest.gd:137)
+       [1] poll (res://tests/detailed_campus_playtest.gd:111)
+       [2] boot (res://tests/detailed_campus_playtest.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function 'new' in base 'GDScript'.
+   at: execute (res://tests/detailed_campus_playtest.gd:137)
+   GDScript backtrace (most recent call first):
+       [0] execute (res://tests/detailed_campus_playtest.gd:137)
+       [1] poll (res://tests/detailed_campus_playtest.gd:111)
+       [2] boot (res://tests/detailed_campus_playtest.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function 'new' in base 'GDScript'.
+   at: execute (res://tests/detailed_campus_playtest.gd:137)
+   GDScript backtrace (most recent call first):
+       [0] execute (res://tests/detailed_campus_playtest.gd:137)
+       [1] poll (res://tests/detailed_campus_playtest.gd:111)
+PLAYTEST_COMMAND 1793029488154_extension extension
+DOOR_TRAVERSAL 0 blocked
+DOOR_TRAVERSAL 1 passed
+DOOR_TRAVERSAL 3 passed
+DOOR_TRAVERSAL 4 passed
+DOOR_TRAVERSAL 7 passed
+DOOR_TRAVERSAL 9 passed
+DOOR_TRAVERSAL 10 passed
+DOOR_TRAVERSAL 12 passed
+DOOR_TRAVERSAL 13 passed
+DOOR_TRAVERSAL 14 passed
+DOOR_TRAVERSAL 15 passed
+DOOR_TRAVERSAL 16 passed
+DOOR_TRAVERSAL 17 blocked
+DOOR_TRAVERSAL 18 passed
+DOOR_TRAVERSAL 19 passed
+DOOR_TRAVERSAL 20 passed
+DOOR_TRAVERSAL 21 passed
+DOOR_TRAVERSAL 22 passed
+DOOR_TRAVERSAL 23 passed
+DOOR_TRAVERSAL 24 passed
+DOOR_TRAVERSAL 25 passed
+DOOR_TRAVERSAL 26 passed
+DOOR_TRAVERSAL 27 passed
+DOOR_TRAVERSAL 28 passed
+DOOR_TRAVERSAL 29 passed
+DOOR_TRAVERSAL 30 passed
+DOOR_TRAVERSAL 31 passed
+DOOR_TRAVERSAL 32 passed
+DOOR_TRAVERSAL 33 passed
+DOOR_TRAVERSAL 34 passed
+DOOR_TRAVERSAL 35 passed
+DOOR_TRAVERSAL 36 passed
+DOOR_TRAVERSAL 37 passed
+DOOR_TRAVERSAL 38 passed
+DOOR_TRAVERSAL 41 passed
+DOOR_TRAVERSAL 42 passed
+DOOR_TRAVERSAL 43 passed
+DOOR_TRAVERSAL 44 passed
+DOOR_TRAVERSAL 45 passed
+DOOR_TRAVERSAL 46 passed
+DOOR_TRAVERSAL 47 passed
+DOOR_TRAVERSAL 48 passed
+DOOR_TRAVERSAL 49 passed
+DOOR_TRAVERSAL 50 passed
+DOOR_TRAVERSAL 51 blocked
+DOOR_TRAVERSAL 52 passed
+DOOR_TRAVERSAL 53 passed
+DOOR_TRAVERSAL 54 passed
+DOOR_TRAVERSAL 55 passed
+DOOR_TRAVERSAL 56 blocked
+DOOR_TRAVERSAL 57 blocked
+DOOR_TRAVERSAL 58 blocked
+DOOR_TRAVERSAL 59 blocked
+DOOR_TRAVERSAL 60 blocked
+DOOR_TRAVERSAL 61 blocked
+DOOR_TRAVERSAL 62 blocked
+DOOR_TRAVERSAL 63 blocked
+DOOR_TRAVERSAL 64 blocked
+PLAYTEST_COMMAND 1793029499681_extension extension
+PLAYTEST_COMMAND 1793029725601_extension extension
+PLAYTEST_COMMAND 1793029749567_extension extension
+PLAYTEST_COMMAND 1793029763294_extension extension
+PLAYTEST_COMMAND 1793029831187_extension extension
+PLAYTEST_COMMAND 1793029831434_extension extension
+PLAYTEST_COMMAND 1793029831675_fresh_campaign fresh_campaign
+DOOR_TRAVERSAL 0 passed
+DOOR_TRAVERSAL 1 passed
+DOOR_TRAVERSAL 3 passed
+DOOR_TRAVERSAL 4 passed
+DOOR_TRAVERSAL 7 passed
+DOOR_TRAVERSAL 9 passed
+DOOR_TRAVERSAL 10 passed
+DOOR_TRAVERSAL 12 passed
+DOOR_TRAVERSAL 13 passed
+DOOR_TRAVERSAL 14 passed
+DOOR_TRAVERSAL 15 passed
+DOOR_TRAVERSAL 16 passed
+DOOR_TRAVERSAL 17 passed
+DOOR_TRAVERSAL 18 passed
+DOOR_TRAVERSAL 19 passed
+DOOR_TRAVERSAL 20 passed
+DOOR_TRAVERSAL 21 passed
+DOOR_TRAVERSAL 22 passed
+DOOR_TRAVERSAL 23 passed
+DOOR_TRAVERSAL 24 passed
+DOOR_TRAVERSAL 25 passed
+DOOR_TRAVERSAL 26 passed
+DOOR_TRAVERSAL 27 passed
+DOOR_TRAVERSAL 28 passed
+DOOR_TRAVERSAL 29 passed
+DOOR_TRAVERSAL 30 passed
+DOOR_TRAVERSAL 31 passed
+DOOR_TRAVERSAL 32 passed
+DOOR_TRAVERSAL 33 passed
+DOOR_TRAVERSAL 34 passed
+DOOR_TRAVERSAL 35 passed
+DOOR_TRAVERSAL 36 passed
+DOOR_TRAVERSAL 37 passed
+DOOR_TRAVERSAL 38 passed
+DOOR_TRAVERSAL 41 passed
+DOOR_TRAVERSAL 42 passed
+DOOR_TRAVERSAL 43 passed
+DOOR_TRAVERSAL 44 passed
+DOOR_TRAVERSAL 45 passed
+DOOR_TRAVERSAL 46 passed
+DOOR_TRAVERSAL 47 passed
+DOOR_TRAVERSAL 48 passed
+DOOR_TRAVERSAL 49 passed
+DOOR_TRAVERSAL 50 passed
+DOOR_TRAVERSAL 52 passed
+DOOR_TRAVERSAL 53 passed
+DOOR_TRAVERSAL 54 passed
+DOOR_TRAVERSAL 55 passed
+DOOR_TRAVERSAL 56 passed
+DOOR_TRAVERSAL 57 passed
+DOOR_TRAVERSAL 58 passed
+DOOR_TRAVERSAL 61 passed
+DOOR_TRAVERSAL 62 passed
+DOOR_TRAVERSAL 63 passed
+DOOR_TRAVERSAL 64 passed
+PLAYTEST_COMMAND 1793029862350_extension extension
+PLAYTEST_COMMAND 1793030041189_extension extension
+PLAYTHROUGH_STEP Fresh isolated campaign {"no_progress_granted":true,"no_real_save_used":true}
+PLAYTHROUGH_STEP Walk to entrance weapon {"navigation_nodes":12,"reached":true,"requested":[-3.0,0.0,-5.5],"route":[{"actual":[-0.668922960758209,0.432598769664764,-0.668922960758209],"blockers":[],"origin":[0.0,0.500225722789764,0.0],"reached":true,"target":[-1.0,0.0,-1.0]},{"actual":[-0.888610482215881,0.262813627719879,-1.03523337841034],"blockers":[],"origin":[-0.668922960758209,0.432598769664764,-0.668922960758209],"reached":true,"target":[-1.0,0.0,-1.5]},{"actual":[-1.22544944286346,0.100184343755245,-1.60711085796356],"blockers":["/root/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"],"origin":[-0.888610482215881,0.262813627719879,-1.03523337841034],"reached":true,"target":[-1.5,0.0,-2.0]},{"actual":[-1.43239653110504,0.100184343755245,-2.53757262229919],"blockers":["/root/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"],"origin":[-1.22544944286346,0.100184343755245,-1.60711085796356],"reached":true,"target":[-1.5,0.0,-3.0]},{"actual":[-2.21763157844543,0.100184343755245,-3.63706278800964],"blockers":["/root/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"],"origin":[-1.43239653110504,0.100184343755245,-2.53757262229919],"reached":true,"target":[-2.5,0.0,-4.0]},{"actual":[-2.36548542976379,0.100184343755245,-4.02660512924194],"blockers":["/root/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"],"origin":[-2.21763157844543,0.100184343755245,-3.63706278800964],"reached":true,"target":[-2.5,0.0,-4.5]},{"actual":[-2.73990964889526,0.100184343755245,-4.619544506073],"blockers":["/root/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"],"origin":[-2.36548542976379,0.100184343755245,-4.02660512924194],"reached":true,"target":[-3.0,0.0,-5.0]},{"actual":[-2.89267730712891,0.100184343755245,-5.05022382736206],"blockers":["/root/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"],"origin":[-2.73990964889526,0.100184343755245,-4.619544506073],"reached":true,"target":[-3.0,0.0,-5.5]}]}
+PLAYTHROUGH_STEP Collect and equip through controls {"inventory":{"entries":[{"data":{"durability":14,"max_durability":14},"item_id":"Palo","quantity":1,"uid":"item_1"}],"equipped":"","quick":["item_1","","",""],"serial":1,"version":1}}
+PLAYTHROUGH_STEP Play initial computer through UI {"completed":true,"computer_results":{"pc_intro":true},"inputs":6}
+PLAYTHROUGH_STEP Walk from plaza to Punto Estudiantil {"goal":"(-81, -285)","reached":false,"reason":"No connected route","start":"(-9, -12)"}
+PLAYTEST_COMMAND 1793030116716_extension extension
+PLAYTEST_COMMAND 1793030258721_route route
+PLAYTEST_COMMAND 1793030371858_tap tap
+PLAYTEST_COMMAND 1793030372093_button button
+PLAYTEST_COMMAND 1793030372330_wait wait
+PLAYTEST_COMMAND 1793030375978_extension extension
+PLAYTEST_COMMAND 1793030471095_capture capture
+PLAYTEST_COMMAND 1793030471489_snapshot snapshot
+PLAYTEST_COMMAND 1793030471877_route route
+PLAYTEST_COMMAND 1793030512198_route route
+PLAYTEST_COMMAND 1793030518983_tap tap
+PLAYTEST_COMMAND 1793030519378_extension extension
+PLAYTEST_COMMAND 1793030543900_extension extension
+PLAYTEST_COMMAND 1793030620302_tap tap
+PLAYTEST_COMMAND 1793030620532_button button
+PLAYTEST_COMMAND 1793030620778_wait wait
+PLAYTEST_COMMAND 1793030624135_extension extension
+PLAYTEST_COMMAND 1793030813404_extension extension
+PLAYTEST_COMMAND 1793030874799_extension extension
+PLAYTEST_COMMAND 1793030953854_capture capture
+PLAYTEST_COMMAND 1793030954079_snapshot snapshot
+PLAYTEST_COMMAND 1793030954308_extension extension
+PLAYTHROUGH_STEP Ride elevator using its menu {"arrived":true,"exit":[{"actual":[-9.99996089935303,12.0592594146729,-146.978332519531],"blockers":["/root/Main/Piso2/LosasYAccesos/LosaRecortada_6_0/Cuerpo"],"origin":[-9.99935817718506,12.0592193603516,-154.562805175781],"reached":true,"target":[-10,12.058385849,-146.5]}],"from":1,"player_y":12.0592594146729,"to":2}
+PLAYTEST_COMMAND 1793031013569_extension extension
+PLAYTEST_COMMAND 1793031117623_extension extension
+PLAYTHROUGH_STEP Collect library book with E {"book":"Mision_LibroBiblioteca_-46_1","collected":false,"count":0}
+PLAYTEST_COMMAND 1793031263185_extension extension
+PLAYTEST_COMMAND 1793031298354_extension extension
+PLAYTEST_COMMAND 1793031372474_extension extension
+PLAYTEST_COMMAND 1793031372738_capture capture
+PLAYTEST_COMMAND 1793031466813_extension extension
+PLAYTEST_COMMAND 1793031473761_tap tap
+PLAYTEST_COMMAND 1793031661760_extension extension
+PLAYTEST_COMMAND 1793031675165_extension extension
+PLAYTEST_COMMAND 1793031694745_extension extension
+PLAYTEST_COMMAND 1793031703315_tap tap
+PLAYTEST_COMMAND 1793031703708_extension extension
+PLAYTEST_COMMAND 1793031706274_tap tap
+PLAYTHROUGH_STEP Collect library book with E {"book":"Mision_LibroBiblioteca_-58_1","collected":true,"count":3}
+PLAYTEST_COMMAND 1793031710852_extension extension
+PLAYTHROUGH_STEP Play literary duel using visible question buttons {"answers":[{"answer":"1. «Creo que la respuesta es: En el Monte del Destino.»","question":"«Hablemos de El señor de los anillos. ¿Dónde debe destruirse el Anillo Único?»"},{"answer":"1. «Creo que la respuesta es: Un cachalote.»","question":"«Hablemos de Moby Dick. ¿Qué clase de animal persigue el capitán Ahab?»"},{"answer":"1. «Creo que la respuesta es: Un zorro.»","question":"«Hablemos de El principito. ¿Qué animal le enseña al principito sobre la amistad?»"},{"answer":"1. «Creo que la respuesta es: Sancho Panza.»","question":"«Hablemos de Don Quijote de la Mancha. ¿Cómo se llama el escudero de Don Quijote?»"},{"answer":"2. «Creo que la respuesta es: Miguel de Cervantes.»","question":"«Hablemos de Don Quijote de la Mancha. ¿Quién escribió esta novela?»"}],"books":3,"won":true}
+PLAYTEST_COMMAND 1793031752198_extension extension
+PLAYTEST_COMMAND 1793031760198_extension extension
+PLAYTEST_COMMAND 1793031775339_extension extension
+PLAYTEST_COMMAND 1793031794487_extension extension
+PLAYTEST_COMMAND 1793031919293_extension extension
+PLAYTEST_COMMAND 1793031945374_extension extension
+PLAYTHROUGH_STEP Ride elevator using its menu {"arrived":true,"exit":[{"actual":[-9.99969100952148,23.967716217041,-146.991622924805],"blockers":["/root/Main/Piso3/LosasYAccesos/LosaRecortada_12_0/Cuerpo"],"origin":[-9.99430274963379,23.9683647155762,-154.568511962891],"reached":true,"target":[-10,23.967668533,-146.5]}],"from":2,"player_y":23.967716217041,"to":3}
+PLAYTEST_COMMAND 1793031967456_extension extension
+PLAYTEST_COMMAND 1793031986114_extension extension
+PLAYTEST_COMMAND 1793031992350_extension extension
+PLAYTEST_COMMAND 1793032014415_extension extension
+PLAYTEST_COMMAND 1793032038039_tap tap
+PLAYTEST_COMMAND 1793032039574_extension extension
+ERROR: Node not found: "Piso3/Estructura/Delantera_piso" (relative to "/root/Main").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/.playtest_runtime_21b60154c911.gd:10)
+       [1] execute (res://tests/detailed_campus_playtest.gd:140)
+       [2] poll (res://tests/detailed_campus_playtest.gd:111)
+SCRIPT ERROR: Attempt to call function 'get_class' in base 'null instance' on a null instance.
+   at: run (res://tests/.playtest_runtime_21b60154c911.gd:11)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/.playtest_runtime_21b60154c911.gd:11)
+       [1] execute (res://tests/detailed_campus_playtest.gd:140)
+       [2] poll (res://tests/detailed_campus_playtest.gd:111)
+PLAYTEST_COMMAND 1793032048213_extension extension
+PLAYTEST_COMMAND 1793032053127_extension extension
+PLAYTEST_COMMAND 1793032054465_extension extension

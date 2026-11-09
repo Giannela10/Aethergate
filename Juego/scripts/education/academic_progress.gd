@@ -16,6 +16,15 @@ static func migrate(raw: Dictionary) -> Dictionary:
 
 static func record(data: Dictionary, question: Dictionary, result: Dictionary, context: String) -> void:
 	var progress: Dictionary = data.academic_progress
+	var source_key := "practice_answers" if result.get("offline",false) or result.get("practice",false) else "verified_answers"
+	progress[source_key]=int(progress.get(source_key,0))+1
+	if not progress.get("completed_activities") is Dictionary: progress["completed_activities"]={}
+	if question.has("kind") and (result.get("correct",false)==true or result.get("reflection",false)):
+		progress.completed_activities[str(question.id)]=true
+	if result.get("reflection",false):
+		progress["reflections"] = int(progress.get("reflections",0))+1
+		progress.subjects[str(question.subject_id)] = true
+		return
 	progress.answered += 1
 	progress["correct" if result.get("correct",false) else "incorrect"] += 1
 	progress.subjects[str(question.subject_id)] = true

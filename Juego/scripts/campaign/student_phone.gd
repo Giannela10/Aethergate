@@ -57,6 +57,11 @@ func open() -> void:
 	view.home()
 
 func app(id: String) -> void:
+	var platform := campaign.get_node_or_null("DuocGames4")
+	if platform != null:
+		if id == "academic_v4": platform.summary.show_progress(); return
+		if id == "story_v4": platform.story.show_chapter(); return
+		if id == "access_v4": platform.accessibility.show_options(); return
 	match id:
 		"schedule":
 			campaign.academics.show_schedule()

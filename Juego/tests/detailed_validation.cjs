@@ -6,6 +6,7 @@ if(!exe)throw Error('Pass the Godot executable path');
 const scripts=['campus_polish_regression','remember_login_check','revision_scripts','resource_reference_check','campaign_regression','inventory_regression','gameplay_regression','guardado_lectura','nueva_partida','student_phone','campus_vivo','director_informatica_boss','nexo_final','organizacion_pisos','education_1_0','education_integration','academic_schedule','balance_regression','chef_supremo_casino','contextual_interactions','personalizacion','chapel_layout_check','library_layout_check','coordinacion_layout_check','coordinacion_meeting_check','salidas_emergencia','piso5_escalera_recorrido','piso8_recorridos'];
 const scenes=['SupabaseAuthCheck','EmailRegistrationCheck','SignupDiagnosticsUnit','UserRolesCheck','AcademicBossesCheck','UpperCampusCheck','BasementAccessCheck','ElevatorBasementCheck','SupabaseConnectionCheck'];
 scripts.push('supabase_response_regression');
+scripts.push('cloud_save_check','cloud_campaign_check');
 scripts.push('primera_mision');
 scripts.push('placement_visual_check','camera_obstruction_check');
 let suites=[...scripts.map(name=>({name,args:['--script',`res://tests/${name}.gd`]})),...scenes.map(name=>({name,args:[`res://tests/${name}.tscn`],scene:true}))];
@@ -21,7 +22,7 @@ async function run(suite){await new Promise(resolve=>{
  const child=spawn(exe,[...(suite.rendered?[]:['--headless']),'--path','.',...timing,...suite.args],{windowsHide:true});
  const timer=setTimeout(()=>{timedOut=true;child.kill();},180000);
  const finalMarker={LibraryAccessCheck:'LIBRARY_ACCESS_RESULT',AuditorioAccessCheck:'AUDITORIO_ACCESS_RESULT'}[suite.name];
- function receive(chunk){output+=chunk.toString();if(/SCRIPT ERROR: Parse Error:|Failed to load script/.test(output)){child.kill();return;}const marker=finalMarker?new RegExp(finalMarker+'\\s+(?:\\{[^\\n]*\\}|\\[[^\\n]*\\])'):/(?:[A-Z_]+RESULT|SUPABASE_CONNECTION_CHECK|SIGNUP_DIAGNOSTICS_UNIT)\s+(?:\{[^\n]*\}|\[[^\n]*\])/;if(suite.scene&&marker.test(output)){finished=true;child.kill();}}
+ function receive(chunk){output+=chunk.toString();if(/SCRIPT ERROR:|Failed to load script/.test(output)){child.kill();return;}const marker=finalMarker?new RegExp(finalMarker+'\\s+(?:\\{[^\\n]*\\}|\\[[^\\n]*\\])'):/(?:[A-Z_]+RESULT|SUPABASE_CONNECTION_CHECK|SIGNUP_DIAGNOSTICS_UNIT)\s+(?:\{[^\n]*\}|\[[^\n]*\])/;if(suite.scene&&marker.test(output)){finished=true;child.kill();}}
  child.stdout.on('data',receive);child.stderr.on('data',receive);
  child.on('error',e=>{output+=String(e);});
  child.on('close',code=>{

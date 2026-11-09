@@ -17,7 +17,7 @@ signal died
 
 const Humanoid = preload("res://scripts/juego/humanoid.gd")
 const SportsProjectile = preload("res://scripts/juego/proyectil_deportivo.gd")
-const StudentVisual = preload("res://scripts/juego/student_visual.gd")
+const StudentVisual = preload("res://scripts/juego/main_character_visual_6_2.gd")
 @export var persist_inventory := true
 var inventory: Node
 var inventory_ui: CanvasLayer
@@ -25,6 +25,7 @@ var speed_multiplier := 1.0
 var speed_boost_time := 0.0
 var attack_multiplier := 1.0
 var progression_damage := 1.0
+var learning_assist := false
 var progression_speed := 1.0
 
 # ---------- Ajustes (cÃƒÆ’Ã‚Â¡mbialos a tu gusto) ----------
@@ -359,6 +360,7 @@ func _use_weapon() -> void:
 
 ## Recibir daÃƒÆ’Ã‚Â±o (lo llaman los enemigos).
 func take_hit(direction: Vector3, damage: float) -> void:
+	if learning_assist: damage = minf(maxf(0,damage)*0.35,maxf(0,health-1.0))
 	var combat := get_node_or_null("CombatExtensions")
 	if combat and combat.dodge_t > 0:
 		return

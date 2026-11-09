@@ -227,7 +227,7 @@ func run() -> void:
 	var restored_chef: Node = reloaded.get_node("Piso1/Casino/ChefSupremoCasino/BossDuelController")
 	while not restored_chef.initialized:
 		await process_frame
-	check(restored_chef.actor.dead and restored_chef.actor.body.death_t == 1.0,"Boss sigue caído al cargar partida")
+	check(restored_chef.defeated and restored_chef.simulation != null and restored_chef.simulation.mentor.visible and not restored_chef.simulation.hologram.visible,"Mentor conserva simulación completada al cargar; no reaparece como enemigo ni caído")
 	check(restored.player.global_position.distance_to(Vector3(saved.position[0],saved.position[1]+0.15,saved.position[2])) < 0.5,"Posición conservada al cargar")
 	check(not restored.get_node("Tarjeta_01").visible,"Tarjeta recogida no reaparece")
 	var chair_restored := false

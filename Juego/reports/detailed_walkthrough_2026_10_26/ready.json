@@ -1,0 +1,250 @@
+{
+	"bosses": {},
+	"busy": false,
+	"buttons": [],
+	"camera": [
+		0.0,
+		5.01893424987793,
+		4.69686365127563
+	],
+	"dead": false,
+	"duels": [
+		{
+			"hp": 200.0,
+			"id": "punto",
+			"position": [
+				-42.0,
+				0.0,
+				-144.0
+			],
+			"state": 0
+		},
+		{
+			"hp": 350.0,
+			"id": "chef",
+			"position": [
+				-73.0,
+				0.119999997317791,
+				-102.5
+			],
+			"state": 0
+		},
+		{
+			"hp": 125.0,
+			"id": "bibliotecaria",
+			"position": [
+				-61.5,
+				12.1083860397339,
+				-115.5
+			],
+			"state": 0
+		},
+		{
+			"hp": 550.0,
+			"id": "profesor_redes",
+			"position": [
+				65.0,
+				24.0076694488525,
+				-145.0
+			],
+			"state": 0
+		},
+		{
+			"hp": 500.0,
+			"id": "profesor_datos",
+			"position": [
+				-45.0,
+				24.0076694488525,
+				-137.0
+			],
+			"state": 0
+		},
+		{
+			"hp": 525.0,
+			"id": "profesor_algoritmos",
+			"position": [
+				30.0,
+				24.0076694488525,
+				-130.0
+			],
+			"state": 0
+		},
+		{
+			"hp": 475.0,
+			"id": "docente_enfermeria",
+			"position": [
+				-60.0,
+				35.7144165039063,
+				-137.0
+			],
+			"state": 0
+		},
+		{
+			"hp": 475.0,
+			"id": "docente_odontologia",
+			"position": [
+				-60.0,
+				35.7144165039063,
+				-156.0
+			],
+			"state": 0
+		},
+		{
+			"hp": 500.0,
+			"id": "coordinador_profesores",
+			"position": [
+				48.0,
+				35.7144165039063,
+				-145.0
+			],
+			"state": 0
+		},
+		{
+			"hp": 450.0,
+			"id": "profesor_ingles",
+			"position": [
+				52.0,
+				60.2249526977539,
+				-132.0
+			],
+			"state": 0
+		},
+		{
+			"hp": 550.0,
+			"id": "profesor_etica",
+			"position": [
+				-52.0,
+				60.2249526977539,
+				-132.0
+			],
+			"state": 0
+		},
+		{
+			"hp": 500.0,
+			"id": "profesor_lenguaje",
+			"position": [
+				52.0,
+				72.0086288452148,
+				-132.0
+			],
+			"state": 0
+		},
+		{
+			"hp": 525.0,
+			"id": "profesor_matematicas",
+			"position": [
+				-35.0,
+				71.9821853637695,
+				-140.0
+			],
+			"state": 0
+		},
+		{
+			"hp": 700.0,
+			"id": "director",
+			"position": [
+				64.0,
+				84.0599975585938,
+				-131.0
+			],
+			"state": 0
+		},
+		{
+			"hp": 1200.0,
+			"id": "nexo",
+			"position": [
+				48.0,
+				-12.018385887146,
+				-100.0
+			],
+			"state": 0
+		}
+	],
+	"events": {
+		"floor:1": 1
+	},
+	"health": 100.0,
+	"inventory": {
+		"entries": [],
+		"equipped": "",
+		"quick": [
+			"",
+			"",
+			"",
+			""
+		],
+		"serial": 0,
+		"version": 1
+	},
+	"minigame": false,
+	"objective": "Primer día\nHabla con Punto Estudiantil (0/1)",
+	"paused": false,
+	"player": [
+		0.0,
+		1.53333330154419,
+		0.0
+	],
+	"quests": {
+		"academico3": {
+			"state": 0
+		},
+		"academico4": {
+			"state": 0
+		},
+		"academico5": {
+			"state": 0
+		},
+		"acceso7": {
+			"state": 0
+		},
+		"biblioteca": {
+			"state": 0
+		},
+		"cargador": {
+			"state": 0
+		},
+		"casino": {
+			"state": 0
+		},
+		"direccion": {
+			"state": 0
+		},
+		"director_task_antivirus": {
+			"state": 0
+		},
+		"director_task_config": {
+			"state": 0
+		},
+		"director_task_network": {
+			"state": 0
+		},
+		"documentos": {
+			"state": 0
+		},
+		"implementos": {
+			"state": 0
+		},
+		"infectado": {
+			"state": 0
+		},
+		"inicio": {
+			"state": 1
+		},
+		"llaves": {
+			"state": 0
+		},
+		"nexo_final": {
+			"state": 0
+		},
+		"postgame": {
+			"state": 0
+		},
+		"seguridad6": {
+			"state": 0
+		},
+		"ubicar_profesores": {
+			"state": 0
+		}
+	},
+	"selected": "<null>"
+}

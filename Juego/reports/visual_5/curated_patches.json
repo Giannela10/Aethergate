@@ -1,0 +1,292 @@
+[
+  {
+    "nodePath": "Piso1/Iluminacion/LuzNorte",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso1/Iluminacion/LuzNorte",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso2/Iluminacion/LuzNorte",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso2/Iluminacion/LuzNorte",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso2/Iluminacion/LuzSur",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso2/Iluminacion/LuzSur",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso3/Iluminacion/LuzNorte",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso3/Iluminacion/LuzNorte",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso3/Iluminacion/LuzSur",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso3/Iluminacion/LuzSur",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso4/Iluminacion/LuzNorte",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso4/Iluminacion/LuzNorte",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso4/Iluminacion/LuzSur",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso4/Iluminacion/LuzSur",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso5/Iluminacion/LuzNorte",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso5/Iluminacion/LuzNorte",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso5/Iluminacion/LuzSur",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso5/Iluminacion/LuzSur",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso6/Iluminacion/LuzNorte",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso6/Iluminacion/LuzNorte",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso6/Iluminacion/LuzSur",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso6/Iluminacion/LuzSur",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso7/Iluminacion/LuzNorte",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso7/Iluminacion/LuzNorte",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso7/Iluminacion/LuzSur",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso7/Iluminacion/LuzSur",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso8/Iluminacion/LuzNorte",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso8/Iluminacion/LuzNorte",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "Piso8/Iluminacion/LuzSur",
+    "property": "visible",
+    "value": "false"
+  },
+  {
+    "nodePath": "Piso8/Iluminacion/LuzSur",
+    "property": "omni_range",
+    "value": "16.0"
+  },
+  {
+    "nodePath": "PisoMenos1/AmbientacionIndustrial2026/NegocioCafeteria/LetreroCafeteria",
+    "property": "transform",
+    "value": "Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, -31, -8.808386, -132.025)"
+  },
+  {
+    "nodePath": "Sala807/LuzInterior",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala807/LuzInterior_0609",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala807/LuzInterior_0611",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala807/LuzInterior_0613",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala808/LuzInterior",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala808/LuzInterior_1225",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala808/LuzInterior_1227",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala808/LuzInterior_1229",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala805/LuzInterior",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala805/LuzInterior_1841",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala805/LuzInterior_1843",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala805/LuzInterior_1845",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala806/LuzInterior",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala806/LuzInterior_2457",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala806/LuzInterior_2459",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala806/LuzInterior_2461",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala809/LuzInterior",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala809/LuzInterior_2753",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala809/LuzInterior_2755",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala809/LuzInterior_2757",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala810/LuzInterior",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala810/LuzInterior_2917",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala810/LuzInterior_2919",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala810/LuzInterior_2921",
+    "property": "light_color",
+    "value": "Color(1, 0.98, 0.95, 1)"
+  },
+  {
+    "nodePath": "Sala810/PantallaProyeccion",
+    "property": "transform",
+    "value": "Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 3.6, -8.08)"
+  },
+  {
+    "nodePath": "Sala810/ImagenProyector",
+    "property": "transform",
+    "value": "Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 3.6, -8.03)"
+  },
+  {
+    "nodePath": "Sala810/ArmarioMateriales",
+    "property": "transform",
+    "value": "Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 2.65, 1, -6.7)"
+  }
+]

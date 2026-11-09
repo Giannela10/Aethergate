@@ -1,0 +1,12 @@
+const fs=require('node:fs'),path=require('node:path');
+const dir=path.resolve(__dirname,'../reports/visual_5');
+const before=JSON.parse(fs.readFileSync(path.join(dir,'before_views.json'),'utf8'));
+const after=JSON.parse(fs.readFileSync(path.join(dir,'after_views.json'),'utf8'));
+const median=a=>{a=[...a].sort((a,b)=>a-b);return a.length%2?a[(a.length-1)/2]:(a[a.length/2-1]+a[a.length/2])/2;};
+const summarize=v=>Object.fromEntries(['fps','frame_ms','draw_calls','primitives'].map(k=>[k,median(v.flatMap(x=>x.samples.map(s=>s[k])))]));
+const pairs=before.map(b=>({before:b,after:after.findLast(a=>a.label===b.label)})).filter(p=>p.after);
+const floors=[-1,1,2,3,4,5,6,7,8].map(f=>{const p=pairs.filter(p=>p.before.label.startsWith(`floor_${f}.0_`));return {floor:f,views:p.length,before:summarize(p.map(x=>x.before)),after:summarize(p.map(x=>x.after))};});
+const bInv=JSON.parse(fs.readFileSync(path.join(dir,'before_inventory.json'),'utf8')),aInv=JSON.parse(fs.readFileSync(path.join(dir,'after_inventory.json'),'utf8'));
+const report={paired_views:pairs.length,resolution:[1152,648],renderer:'GL Compatibility',camera_fov:85,samples_per_view:30,method:'Rendered isolated Main, same camera coordinates and targets; all baseline/final samples retained. Editor and NPC timing may vary; this is not a standardized playable FPS benchmark.',before:summarize(pairs.map(x=>x.before)),after:summarize(pairs.map(x=>x.after)),visible_lights_before:bInv.lights.filter(l=>l.visible&&l.energy>0).length,visible_lights_after:aInv.lights.filter(l=>l.visible&&l.energy>0).length,floors};
+fs.writeFileSync(path.join(dir,'performance_comparison.json'),JSON.stringify(report,null,2));
+console.log(JSON.stringify(report,null,2));

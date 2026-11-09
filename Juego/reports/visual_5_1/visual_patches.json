@@ -1,0 +1,272 @@
+[
+  {
+    "nodePath": "Piso2/AuditorioPiso2e/EntradasAuditorio/LetreroEntrada-118_5",
+    "property": "visible",
+    "before": null,
+    "after": "false"
+  },
+  {
+    "nodePath": "Piso2/AuditorioPiso2e/EntradasAuditorio/LetreroEntrada-118_5",
+    "property": "double_sided",
+    "before": null,
+    "after": "false"
+  },
+  {
+    "nodePath": "Piso2/AuditorioPiso2e/AuditorioAmpliado/LetreroEntrada-118_5",
+    "property": "double_sided",
+    "before": null,
+    "after": "false"
+  },
+  {
+    "nodePath": "Piso2/AuditorioPiso2e/AuditorioAmpliado/LetreroEntrada-118_5",
+    "property": "pixel_size",
+    "before": "pixel_size = 0.008",
+    "after": "0.0042"
+  },
+  {
+    "nodePath": "Piso2/AuditorioPiso2e/AuditorioAmpliado/LetreroEntrada-118_5",
+    "property": "outline_size",
+    "before": null,
+    "after": "0"
+  },
+  {
+    "nodePath": "Piso2/AuditorioPiso2e/AuditorioAmpliado/LetreroEntrada-118_5",
+    "property": "transform",
+    "before": "transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 71.27624, 15.4, -118.5)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 71.26724, 16.25, -118.5)"
+  },
+  {
+    "nodePath": "Piso2/AuditorioPiso2e/EntradasAuditorio/LetreroEntrada-90_5",
+    "property": "visible",
+    "before": null,
+    "after": "false"
+  },
+  {
+    "nodePath": "Piso2/AuditorioPiso2e/EntradasAuditorio/LetreroEntrada-90_5",
+    "property": "double_sided",
+    "before": null,
+    "after": "false"
+  },
+  {
+    "nodePath": "Piso2/AuditorioPiso2e/AuditorioAmpliado/LetreroEntrada-90_5",
+    "property": "double_sided",
+    "before": null,
+    "after": "false"
+  },
+  {
+    "nodePath": "Piso2/AuditorioPiso2e/AuditorioAmpliado/LetreroEntrada-90_5",
+    "property": "pixel_size",
+    "before": "pixel_size = 0.008",
+    "after": "0.0042"
+  },
+  {
+    "nodePath": "Piso2/AuditorioPiso2e/AuditorioAmpliado/LetreroEntrada-90_5",
+    "property": "outline_size",
+    "before": null,
+    "after": "0"
+  },
+  {
+    "nodePath": "Piso2/AuditorioPiso2e/AuditorioAmpliado/LetreroEntrada-90_5",
+    "property": "transform",
+    "before": "transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 71.27624, 15.4, -90.5)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 71.26724, 16.25, -90.5)"
+  },
+  {
+    "nodePath": "Piso2/VestibuloAscensores/PlanoPisos",
+    "property": "text",
+    "before": "text = \"PLANO DE LOS PISOS\r\n\r\n2  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO\"",
+    "after": "\"PLANO DE LOS PISOS\\nPISO 2 · USTED ESTÁ AQUÍ\\n\\nPISO 1\\nCasino · Coordinación\\n\\nPISO 2\\nBiblioteca · Auditorio\""
+  },
+  {
+    "nodePath": "Piso2/VestibuloAscensores/PlanoPisos",
+    "property": "pixel_size",
+    "before": "pixel_size = 0.0028",
+    "after": "0.003"
+  },
+  {
+    "nodePath": "Piso2/VestibuloAscensores/PlanoPisos",
+    "property": "outline_size",
+    "before": null,
+    "after": "0"
+  },
+  {
+    "nodePath": "Piso3/VestibuloAscensores/PlanoPisos",
+    "property": "text",
+    "before": "text = \"PLANO DE LOS PISOS\r\n\r\n3  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO\"",
+    "after": "\"PLANO DE LOS PISOS\\nPISO 3 · USTED ESTÁ AQUÍ\\n\\nPISO 1\\nCasino · Coordinación\\n\\nPISO 2\\nBiblioteca · Auditorio\""
+  },
+  {
+    "nodePath": "Piso3/VestibuloAscensores/PlanoPisos",
+    "property": "pixel_size",
+    "before": "pixel_size = 0.0028",
+    "after": "0.003"
+  },
+  {
+    "nodePath": "Piso3/VestibuloAscensores/PlanoPisos",
+    "property": "outline_size",
+    "before": null,
+    "after": "0"
+  },
+  {
+    "nodePath": "Piso4/VestibuloAscensores/PlanoPisos",
+    "property": "text",
+    "before": "text = \"PLANO DE LOS PISOS\r\n\r\n4  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO\"",
+    "after": "\"PLANO DE LOS PISOS\\nPISO 4 · USTED ESTÁ AQUÍ\\n\\nPISO 1\\nCasino · Coordinación\\n\\nPISO 2\\nBiblioteca · Auditorio\""
+  },
+  {
+    "nodePath": "Piso4/VestibuloAscensores/PlanoPisos",
+    "property": "pixel_size",
+    "before": "pixel_size = 0.0028",
+    "after": "0.003"
+  },
+  {
+    "nodePath": "Piso4/VestibuloAscensores/PlanoPisos",
+    "property": "outline_size",
+    "before": null,
+    "after": "0"
+  },
+  {
+    "nodePath": "Piso5/VestibuloAscensores/PlanoPisos",
+    "property": "text",
+    "before": "text = \"PLANO DE LOS PISOS\r\n\r\n5  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO\"",
+    "after": "\"PLANO DE LOS PISOS\\nPISO 5 · USTED ESTÁ AQUÍ\\n\\nPISO 1\\nCasino · Coordinación\\n\\nPISO 2\\nBiblioteca · Auditorio\""
+  },
+  {
+    "nodePath": "Piso5/VestibuloAscensores/PlanoPisos",
+    "property": "pixel_size",
+    "before": "pixel_size = 0.0028",
+    "after": "0.003"
+  },
+  {
+    "nodePath": "Piso5/VestibuloAscensores/PlanoPisos",
+    "property": "outline_size",
+    "before": null,
+    "after": "0"
+  },
+  {
+    "nodePath": "Piso5/VestibuloAscensores/CartelPlano",
+    "property": "transform",
+    "before": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 2.15, -147.6)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -19.92, 2.15, -143)"
+  },
+  {
+    "nodePath": "Piso5/VestibuloAscensores/CabeceraPlano",
+    "property": "transform",
+    "before": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 3.8, -147.49)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -19.81, 3.8, -143)"
+  },
+  {
+    "nodePath": "Piso5/VestibuloAscensores/PlanoPisos",
+    "property": "transform",
+    "before": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 2.3, -147.49)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -19.835, 2.3, -143)"
+  },
+  {
+    "nodePath": "Piso6/VestibuloAscensores/PlanoPisos",
+    "property": "text",
+    "before": "text = \"PLANO DE LOS PISOS\r\n\r\n6  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO\"",
+    "after": "\"PLANO DE LOS PISOS\\nPISO 6 · USTED ESTÁ AQUÍ\\n\\nPISO 1\\nCasino · Coordinación\\n\\nPISO 2\\nBiblioteca · Auditorio\""
+  },
+  {
+    "nodePath": "Piso6/VestibuloAscensores/PlanoPisos",
+    "property": "pixel_size",
+    "before": "pixel_size = 0.0028",
+    "after": "0.003"
+  },
+  {
+    "nodePath": "Piso6/VestibuloAscensores/PlanoPisos",
+    "property": "outline_size",
+    "before": null,
+    "after": "0"
+  },
+  {
+    "nodePath": "Piso6/VestibuloAscensores/CartelPlano",
+    "property": "transform",
+    "before": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 2.15, -147.6)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -19.92, 2.15, -143)"
+  },
+  {
+    "nodePath": "Piso6/VestibuloAscensores/CabeceraPlano",
+    "property": "transform",
+    "before": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 3.8, -147.49)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -19.81, 3.8, -143)"
+  },
+  {
+    "nodePath": "Piso6/VestibuloAscensores/PlanoPisos",
+    "property": "transform",
+    "before": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 2.3, -147.49)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -19.835, 2.3, -143)"
+  },
+  {
+    "nodePath": "Piso7/VestibuloAscensores/PlanoPisos",
+    "property": "text",
+    "before": "text = \"PLANO DE LOS PISOS\r\n\r\n7  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO\"",
+    "after": "\"PLANO DE LOS PISOS\\nPISO 7 · USTED ESTÁ AQUÍ\\n\\nPISO 1\\nCasino · Coordinación\\n\\nPISO 2\\nBiblioteca · Auditorio\""
+  },
+  {
+    "nodePath": "Piso7/VestibuloAscensores/PlanoPisos",
+    "property": "pixel_size",
+    "before": "pixel_size = 0.0028",
+    "after": "0.003"
+  },
+  {
+    "nodePath": "Piso7/VestibuloAscensores/PlanoPisos",
+    "property": "outline_size",
+    "before": null,
+    "after": "0"
+  },
+  {
+    "nodePath": "Piso7/VestibuloAscensores/CartelPlano",
+    "property": "transform",
+    "before": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 2.15, -147.6)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -19.92, 2.15, -143)"
+  },
+  {
+    "nodePath": "Piso7/VestibuloAscensores/CabeceraPlano",
+    "property": "transform",
+    "before": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 3.8, -147.49)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -19.81, 3.8, -143)"
+  },
+  {
+    "nodePath": "Piso7/VestibuloAscensores/PlanoPisos",
+    "property": "transform",
+    "before": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 2.3, -147.49)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -19.835, 2.3, -143)"
+  },
+  {
+    "nodePath": "Piso8/VestibuloAscensores/PlanoPisos",
+    "property": "text",
+    "before": "text = \"PLANO DE LOS PISOS\r\n\r\n8  USTED ESTÁ AQUÍ\r\n\r\nBIBLIOTECA · CASINO\r\nCOORDINACIÓN · AUDITORIO\"",
+    "after": "\"PLANO DE LOS PISOS\\nPISO 8 · USTED ESTÁ AQUÍ\\n\\nPISO 1\\nCasino · Coordinación\\n\\nPISO 2\\nBiblioteca · Auditorio\""
+  },
+  {
+    "nodePath": "Piso8/VestibuloAscensores/PlanoPisos",
+    "property": "pixel_size",
+    "before": "pixel_size = 0.0028",
+    "after": "0.003"
+  },
+  {
+    "nodePath": "Piso8/VestibuloAscensores/PlanoPisos",
+    "property": "outline_size",
+    "before": null,
+    "after": "0"
+  },
+  {
+    "nodePath": "Piso8/VestibuloAscensores/CartelPlano",
+    "property": "transform",
+    "before": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 2.15, -147.6)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -19.92, 2.15, -143)"
+  },
+  {
+    "nodePath": "Piso8/VestibuloAscensores/CabeceraPlano",
+    "property": "transform",
+    "before": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 3.8, -147.49)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -19.81, 3.8, -143)"
+  },
+  {
+    "nodePath": "Piso8/VestibuloAscensores/PlanoPisos",
+    "property": "transform",
+    "before": "transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 2.3, -147.49)",
+    "after": "Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -19.835, 2.3, -143)"
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "idle",
+      "pass": true
+    },
+    {
+      "test": "walk",
+      "pass": true
+    },
+    {
+      "test": "run",
+      "pass": true
+    },
+    {
+      "test": "land",
+      "pass": true
+    },
+    {
+      "test": "crouch",
+      "pass": true
+    },
+    {
+      "test": "attack",
+      "pass": true
+    },
+    {
+      "test": "live_walk",
+      "pass": true
+    },
+    {
+      "test": "live_run",
+      "pass": true
+    },
+    {
+      "test": "live_land",
+      "pass": true
+    },
+    {
+      "test": "live_crouch",
+      "pass": true
+    },
+    {
+      "test": "live_attack",
+      "pass": true
+    },
+    {
+      "test": "inside_elevator",
+      "pass": true
+    },
+    {
+      "test": "elevator_moving",
+      "pass": true
+    },
+    {
+      "test": "stairs ascent",
+      "pass": true
+    },
+    {
+      "test": "actual elevator displacement",
+      "pass": true
+    }
+  ],
+  "visual_review": [
+    "idle right",
+    "raised marking",
+    "running",
+    "stairs ascent",
+    "inside elevator"
+  ],
+  "limitations": [
+    "Short samples; not a complete foot-sliding certification",
+    "Elevator motion fixture does not change unlocks; request was correctly blocked in fresh campaign"
+  ]
+}

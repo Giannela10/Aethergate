@@ -1,5 +1,7 @@
 # DuocGames: campaña del campus
 
+Actualización vigente 4.0: [informe](DUOCGAMES_4_0_REPORT.md). Hay 26 misiones (diez principales conservadas y dieciséis secundarias), mentores separados de entidades digitales, rescate físico, Bugs y laboratorios. Los IDs y recompensas anteriores se conservan; Chef mantiene 350 HP. Las tablas antiguas siguientes describen fases históricas y no prevalecen sobre el informe vigente.
+
 ## Estado de esta versión
 
 Las diez fases están integradas en `Main.tscn`. Se conservaron los pisos, las losas, las dimensiones del edificio, el rig procedural, los minijuegos y los sistemas anteriores. El contenido nuevo se instancia de forma determinista debajo de `Main/CampusCampaign`; no se regeneró el edificio. Los bosses reciben un hijo `BossDuelController`. Los tres accesos restringidos se añaden a puertas existentes en tiempo de ejecución.

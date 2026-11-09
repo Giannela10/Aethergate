@@ -1,0 +1,9 @@
+{
+  "humanoid.gd": true,
+  "student_visual.gd": true,
+  "procedural_appearance_adapter.gd": true,
+  "character_appearance.gd": true,
+  "Main.tscn": true,
+  "player_only_visual_preload_changed": true,
+  "appearance_confirm_and_cancel_unchanged": true
+}

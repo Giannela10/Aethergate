@@ -1,0 +1,640 @@
+[
+  {
+    "detail": 1.58892822265625,
+    "passed": true,
+    "test": "actual_walk"
+  },
+  {
+    "detail": true,
+    "passed": true,
+    "test": "idle_stable"
+  },
+  {
+    "detail": "ATTACK_LIGHT",
+    "passed": true,
+    "test": "actual_attack_animation"
+  },
+  {
+    "detail": 5.63565587997437,
+    "passed": true,
+    "test": "third_person_camera"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "player_capsule_unchanged"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "interaction_scanner"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "support_dialogue"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "academic_dialogue"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "educational_simulation"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "mentor_height_in_simulation"
+  },
+  {
+    "detail": 1.12314604967833,
+    "passed": true,
+    "test": "actual_stairs"
+  },
+  {
+    "detail": {
+      "floor": 1,
+      "rise": 12.0583854615688
+    },
+    "passed": true,
+    "test": "actual_elevator_trip"
+  },
+  {
+    "detail": 12.0587272644043,
+    "passed": true,
+    "test": "riding_platform"
+  },
+  {
+    "detail": "2",
+    "passed": true,
+    "test": "floor_change"
+  },
+  {
+    "detail": "(0.0, 24.00767, -138.0)",
+    "passed": true,
+    "test": "capsule_clearance_corridor3"
+  },
+  {
+    "detail": "(-58.7, 12.09839, -119.7)",
+    "passed": true,
+    "test": "capsule_clearance_library_door"
+  },
+  {
+    "detail": "(19.0, 83.98, -134.8)",
+    "passed": true,
+    "test": "capsule_clearance_upper_hall"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "procedural_fallback"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "imported_profile_restored"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "inherited_scale_compensated"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "persist_disabled"
+  },
+  {
+    "detail": 2.70872688293457,
+    "passed": true,
+    "test": "human_height_npc_papeleria"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_npc_papeleria"
+  },
+  {
+    "detail": 2.70902919769287,
+    "passed": true,
+    "test": "human_height_BossBibliotecaria"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_BossBibliotecaria"
+  },
+  {
+    "detail": 2.70865821838379,
+    "passed": true,
+    "test": "human_height_Player"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_Player"
+  },
+  {
+    "detail": 2.70868510007858,
+    "passed": true,
+    "test": "human_height_GuardiaRegistro"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_GuardiaRegistro"
+  },
+  {
+    "detail": 2.70866985619068,
+    "passed": true,
+    "test": "human_height_Guardia1"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_Guardia1"
+  },
+  {
+    "detail": 2.70862489938736,
+    "passed": true,
+    "test": "human_height_Guardia2"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_Guardia2"
+  },
+  {
+    "detail": 2.70874295383692,
+    "passed": true,
+    "test": "human_height_Auxiliar"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_Auxiliar"
+  },
+  {
+    "detail": 2.70865917205811,
+    "passed": true,
+    "test": "human_height_Estudiante"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_Estudiante"
+  },
+  {
+    "detail": 2.70885276794434,
+    "passed": true,
+    "test": "human_height_Profesor"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_Profesor"
+  },
+  {
+    "detail": 2.70862197875977,
+    "passed": true,
+    "test": "human_height_Funcionario"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_Funcionario"
+  },
+  {
+    "detail": 2.70880711078644,
+    "passed": true,
+    "test": "human_height_MonitorDeportes"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_MonitorDeportes"
+  },
+  {
+    "detail": 2.70876502990723,
+    "passed": true,
+    "test": "human_height_Tecnico"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_Tecnico"
+  },
+  {
+    "detail": 2.70909281820059,
+    "passed": true,
+    "test": "human_height_EstudiantePerdido"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_EstudiantePerdido"
+  },
+  {
+    "detail": 2.70875480026007,
+    "passed": true,
+    "test": "human_height_AyudanteCasino"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_AyudanteCasino"
+  },
+  {
+    "detail": 2.70909881591797,
+    "passed": true,
+    "test": "human_height_v4_rescued_student"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_v4_rescued_student"
+  },
+  {
+    "detail": 2.70907878875732,
+    "passed": true,
+    "test": "human_height_v4_civilian_-1"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_v4_civilian_-1"
+  },
+  {
+    "detail": 2.70898453518748,
+    "passed": true,
+    "test": "human_height_v4_civilian_1"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_v4_civilian_1"
+  },
+  {
+    "detail": 2.70900249481201,
+    "passed": true,
+    "test": "human_height_v4_civilian_2"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_v4_civilian_2"
+  },
+  {
+    "detail": 2.70881271362305,
+    "passed": true,
+    "test": "human_height_v4_civilian_3"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_v4_civilian_3"
+  },
+  {
+    "detail": 2.70876693725586,
+    "passed": true,
+    "test": "human_height_v4_civilian_4"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_v4_civilian_4"
+  },
+  {
+    "detail": 2.70878982543945,
+    "passed": true,
+    "test": "human_height_v4_civilian_5"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_v4_civilian_5"
+  },
+  {
+    "detail": 2.70877265930176,
+    "passed": true,
+    "test": "human_height_v4_lab_student"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_v4_lab_student"
+  },
+  {
+    "detail": 2.70881271362305,
+    "passed": true,
+    "test": "human_height_profesor_ingles"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_profesor_ingles"
+  },
+  {
+    "detail": 2.70855712890625,
+    "passed": true,
+    "test": "human_height_profesor_lenguaje"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_profesor_lenguaje"
+  },
+  {
+    "detail": 2.70909118652344,
+    "passed": true,
+    "test": "human_height_profesor_etica"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_profesor_etica"
+  },
+  {
+    "detail": 2.70564270019531,
+    "passed": true,
+    "test": "human_height_profesor_datos"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_profesor_datos"
+  },
+  {
+    "detail": 2.70903396606445,
+    "passed": true,
+    "test": "human_height_profesor_algoritmos"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_profesor_algoritmos"
+  },
+  {
+    "detail": 2.70858001708984,
+    "passed": true,
+    "test": "human_height_docente_enfermeria"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_docente_enfermeria"
+  },
+  {
+    "detail": 2.70877075195313,
+    "passed": true,
+    "test": "human_height_docente_odontologia"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_docente_odontologia"
+  },
+  {
+    "detail": 2.70442581176758,
+    "passed": true,
+    "test": "human_height_coordinador_profesores"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_coordinador_profesores"
+  },
+  {
+    "detail": 2.70877838134766,
+    "passed": true,
+    "test": "human_height_profesor_matematicas"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_profesor_matematicas"
+  },
+  {
+    "detail": 2.70864625880495,
+    "passed": true,
+    "test": "human_height_punto"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_punto"
+  },
+  {
+    "detail": 2.70902867615223,
+    "passed": true,
+    "test": "human_height_chef"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_chef"
+  },
+  {
+    "detail": 2.70484352111816,
+    "passed": true,
+    "test": "human_height_profesor_redes"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_profesor_redes"
+  },
+  {
+    "detail": 2.70886993408203,
+    "passed": true,
+    "test": "human_height_director"
+  },
+  {
+    "detail": null,
+    "passed": true,
+    "test": "finite_sockets_director"
+  },
+  {
+    "detail": 0.00415897369384766,
+    "passed": true,
+    "test": "ground_clearance_npc_papeleria"
+  },
+  {
+    "detail": 0.00416469573974609,
+    "passed": true,
+    "test": "ground_clearance_BossBibliotecaria"
+  },
+  {
+    "detail": 0.00415802001953125,
+    "passed": true,
+    "test": "ground_clearance_Player"
+  },
+  {
+    "detail": 0.00415794551372528,
+    "passed": true,
+    "test": "ground_clearance_GuardiaRegistro"
+  },
+  {
+    "detail": 0.00415745377540588,
+    "passed": true,
+    "test": "ground_clearance_Guardia1"
+  },
+  {
+    "detail": 0.00415663421154022,
+    "passed": true,
+    "test": "ground_clearance_Guardia2"
+  },
+  {
+    "detail": 0.0041595920920372,
+    "passed": true,
+    "test": "ground_clearance_Auxiliar"
+  },
+  {
+    "detail": 0.00415802001953125,
+    "passed": true,
+    "test": "ground_clearance_Estudiante"
+  },
+  {
+    "detail": 0.00416183471679688,
+    "passed": true,
+    "test": "ground_clearance_Profesor"
+  },
+  {
+    "detail": 0.00415802001953125,
+    "passed": true,
+    "test": "ground_clearance_Funcionario"
+  },
+  {
+    "detail": 0.00416076183319092,
+    "passed": true,
+    "test": "ground_clearance_MonitorDeportes"
+  },
+  {
+    "detail": 0.00415992736816406,
+    "passed": true,
+    "test": "ground_clearance_Tecnico"
+  },
+  {
+    "detail": 0.00416592508554459,
+    "passed": true,
+    "test": "ground_clearance_EstudiantePerdido"
+  },
+  {
+    "detail": 0.00415972620248795,
+    "passed": true,
+    "test": "ground_clearance_AyudanteCasino"
+  },
+  {
+    "detail": 0.0041656494140625,
+    "passed": true,
+    "test": "ground_clearance_v4_rescued_student"
+  },
+  {
+    "detail": 0.0041656494140625,
+    "passed": true,
+    "test": "ground_clearance_v4_civilian_-1"
+  },
+  {
+    "detail": 0.00416405871510506,
+    "passed": true,
+    "test": "ground_clearance_v4_civilian_1"
+  },
+  {
+    "detail": 0.00416374206542969,
+    "passed": true,
+    "test": "ground_clearance_v4_civilian_2"
+  },
+  {
+    "detail": 0.00416183471679688,
+    "passed": true,
+    "test": "ground_clearance_v4_civilian_3"
+  },
+  {
+    "detail": 0.00415802001953125,
+    "passed": true,
+    "test": "ground_clearance_v4_civilian_4"
+  },
+  {
+    "detail": 0.00416183471679688,
+    "passed": true,
+    "test": "ground_clearance_v4_civilian_5"
+  },
+  {
+    "detail": 0.0159702301025391,
+    "passed": true,
+    "test": "ground_clearance_v4_lab_student"
+  },
+  {
+    "detail": 0.00416183471679688,
+    "passed": true,
+    "test": "ground_clearance_profesor_ingles"
+  },
+  {
+    "detail": 0.0041656494140625,
+    "passed": true,
+    "test": "ground_clearance_profesor_lenguaje"
+  },
+  {
+    "detail": 0.0041656494140625,
+    "passed": true,
+    "test": "ground_clearance_profesor_etica"
+  },
+  {
+    "detail": 0.00416374206542969,
+    "passed": true,
+    "test": "ground_clearance_profesor_datos"
+  },
+  {
+    "detail": 0.00416374206542969,
+    "passed": true,
+    "test": "ground_clearance_profesor_algoritmos"
+  },
+  {
+    "detail": 0.0041656494140625,
+    "passed": true,
+    "test": "ground_clearance_docente_enfermeria"
+  },
+  {
+    "detail": 0.00416183471679688,
+    "passed": true,
+    "test": "ground_clearance_docente_odontologia"
+  },
+  {
+    "detail": 0.00416183471679688,
+    "passed": true,
+    "test": "ground_clearance_coordinador_profesores"
+  },
+  {
+    "detail": 0.0041656494140625,
+    "passed": true,
+    "test": "ground_clearance_profesor_matematicas"
+  },
+  {
+    "detail": 0.00416616490110755,
+    "passed": true,
+    "test": "ground_clearance_punto"
+  },
+  {
+    "detail": -0.0003352090716362,
+    "passed": true,
+    "test": "ground_clearance_chef"
+  },
+  {
+    "detail": 0.00416374206542969,
+    "passed": true,
+    "test": "ground_clearance_profesor_redes"
+  },
+  {
+    "detail": 0.00415802001953125,
+    "passed": true,
+    "test": "ground_clearance_director"
+  },
+  {
+    "detail": "(-53.46112, 12.05874, -115.7351)",
+    "passed": true,
+    "test": "actual_library_door_walk"
+  }
+]

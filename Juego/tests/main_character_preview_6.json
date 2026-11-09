@@ -1,0 +1,5 @@
+{
+    "old_string":  "preview = preload(\"res://scripts/juego/student_visual.gd\").new()",
+    "new_string":  "preview = preload(\"res://scripts/juego/main_character_visual_6.gd\").new()",
+    "file_path":  "res://scripts/campaign/appearance_menu.gd"
+}

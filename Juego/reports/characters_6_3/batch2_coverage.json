@@ -1,0 +1,570 @@
+[
+	{
+		"floor_y": 0.0,
+		"id": "CuerpoBoss",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso1/SalaAyudaEstudiantil/BossAyudaEstudiantil/CuerpoBoss/VisualBoss",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 0.119999997317791,
+		"id": "ChefSupremoCasino",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso1/Casino/ChefSupremoCasino/VisualChef",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 12.058385848999,
+		"id": "npc_papeleria",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso2/SalaImpresiones/EncargadoPapeleria/CharacterVisual",
+		"remodel": {},
+		"role": "VENDEDOR",
+		"visible": true
+	},
+	{
+		"floor_y": 12.1083860397339,
+		"id": "BossBibliotecaria",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso2/Biblioteca/BossBibliotecaria/@Node3D@326",
+		"remodel": {},
+		"role": "",
+		"visible": true
+	},
+	{
+		"floor_y": 24.0076694488525,
+		"id": "ProfesorRedes",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso3/EncuentroProfesorRedes/ProfesorRedes/@Node3D@436",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 24.0076694488525,
+		"id": "profesor_datos",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso3/profesor_datos/CharacterVisual",
+		"remodel": {},
+		"role": "DATOS",
+		"visible": false
+	},
+	{
+		"floor_y": 24.0076694488525,
+		"id": "profesor_algoritmos",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso3/profesor_algoritmos/CharacterVisual",
+		"remodel": {},
+		"role": "ALGORITMOS",
+		"visible": false
+	},
+	{
+		"floor_y": 35.7144165039063,
+		"id": "docente_enfermeria",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso4/docente_enfermeria/CharacterVisual",
+		"remodel": {},
+		"role": "ENFERMERIA",
+		"visible": false
+	},
+	{
+		"floor_y": 35.7144165039063,
+		"id": "docente_odontologia",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso4/docente_odontologia/CharacterVisual",
+		"remodel": {},
+		"role": "ODONTOLOGIA",
+		"visible": false
+	},
+	{
+		"floor_y": 35.7144165039063,
+		"id": "coordinador_profesores",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso4/coordinador_profesores/CharacterVisual",
+		"remodel": {},
+		"role": "COORDINADOR",
+		"visible": false
+	},
+	{
+		"floor_y": 60.2249526977539,
+		"id": "profesor_ingles",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso6/profesor_ingles/CharacterVisual",
+		"remodel": {},
+		"role": "INGLES",
+		"visible": false
+	},
+	{
+		"floor_y": 60.2249526977539,
+		"id": "profesor_etica",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso6/profesor_etica/CharacterVisual",
+		"remodel": {},
+		"role": "ETICA",
+		"visible": false
+	},
+	{
+		"floor_y": 72.0086288452148,
+		"id": "profesor_lenguaje",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso7/profesor_lenguaje/CharacterVisual",
+		"remodel": {},
+		"role": "LENGUAJE",
+		"visible": false
+	},
+	{
+		"floor_y": 71.9821853637695,
+		"id": "profesor_matematicas",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso7/profesor_matematicas/CharacterVisual",
+		"remodel": {},
+		"role": "MATEMATICAS",
+		"visible": false
+	},
+	{
+		"floor_y": 84.0599975585938,
+		"id": "director",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Piso8/EncuentroDirectorInformatica/DirectorInformaticaBoss/VisualDirectorFicticio",
+		"remodel": {},
+		"role": "DIRECTOR",
+		"visible": false
+	},
+	{
+		"floor_y": 0.500225722789764,
+		"id": "Player",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/GameplayManager/Player/CharacterVisual",
+		"remodel": {},
+		"role": "",
+		"visible": true
+	},
+	{
+		"floor_y": 0.100000001490116,
+		"id": "GuardiaRegistro",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Exterior/Caseta/PuestoRegistro/GuardiaRegistro/@Node3D@3978",
+		"remodel": {},
+		"role": "",
+		"visible": true
+	},
+	{
+		"floor_y": 0.100000001490116,
+		"id": "Guardia1",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Exterior/EntradaReferenciaDuoc/GuardiasTorniquetes/Guardia1/@Node3D@4176",
+		"remodel": {},
+		"role": "",
+		"visible": true
+	},
+	{
+		"floor_y": 0.100835986435413,
+		"id": "Guardia2",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/Exterior/EntradaReferenciaDuoc/GuardiasTorniquetes/Guardia2/@Node3D@4255",
+		"remodel": {},
+		"role": "",
+		"visible": true
+	},
+	{
+		"bone_count": 53,
+		"floor_y": 0.100000001490116,
+		"id": "Auxiliar",
+		"interaction": "[E] Hablar con Auxiliar",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Auxiliar/CharacterVisual",
+		"remodel": {
+			"hair": "",
+			"id": "Auxiliar",
+			"rig_bones": 53,
+			"role": "FUNCIONARIO",
+			"traits": {
+				"age_old": 0.153021693229675,
+				"face_cheekbones_incr": 0.272512286901474,
+				"face_chin_incr": 0.27593120932579,
+				"face_ear_size_incr": 0.359039962291718,
+				"face_eye_size_decr": 0.178928166627884,
+				"face_eye_spacing_incr": 0.335381984710693,
+				"face_eye_tilt_decr": 0.356240421533585,
+				"face_forehead_incr": 0.290963292121887,
+				"face_jaw_width_decr": 0.322350949048996,
+				"face_lips_incr": 0.23006609082222,
+				"face_mouth_width_incr": 0.324140787124634,
+				"face_nose_height_decr": 0.279633522033691,
+				"face_nose_length_decr": 0.258690059185028,
+				"face_nose_width_decr": 0.106292501091957,
+				"gender_male": 0.303614735603333,
+				"muscle_max": 0.03824682533741,
+				"weight_max": 0.00322874682024121,
+				"weight_min": 0.0402240082621574
+			},
+			"wardrobe": "clothing_shirt"
+		},
+		"role": "FUNCIONARIO",
+		"visible": true
+	},
+	{
+		"bone_count": 53,
+		"floor_y": 12.1583862304688,
+		"id": "Estudiante",
+		"interaction": "[E] Hablar con Estudiante",
+		"mesh_skin_valid": true,
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Estudiante/CharacterVisual",
+		"remodel": {
+			"hair": "hair_short02",
+			"id": "Estudiante",
+			"rig_bones": 53,
+			"role": "ESTUDIANTE",
+			"traits": {
+				"face_cheekbones_decr": 0.157801032066345,
+				"face_chin_decr": 0.356004297733307,
+				"face_ear_size_decr": 0.126438960433006,
+				"face_eye_size_decr": 0.145488709211349,
+				"face_eye_spacing_incr": 0.118681326508522,
+				"face_eye_tilt_decr": 0.180770874023438,
+				"face_forehead_decr": 0.139421924948692,
+				"face_jaw_width_decr": 0.157840713858604,
+				"face_lips_decr": 0.244195073843002,
+				"face_mouth_width_decr": 0.145244359970093,
+				"face_nose_height_incr": 0.178720161318779,
+				"face_nose_length_incr": 0.312214851379395,
+				"face_nose_width_decr": 0.104885175824165,
+				"gender_male": 0.69189989566803,
+				"muscle_max": 0.042780015617609,
+				"weight_max": 0.0149513557553291,
+				"weight_min": 0.0519033148884773
+			},
+			"wardrobe": "clothing_hoodie"
+		},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": 24.0676689147949,
+		"id": "Profesor",
+		"interaction": "[E] Hablar con Profesor",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Profesor/CharacterVisual",
+		"remodel": {},
+		"role": "PROFESOR",
+		"visible": true
+	},
+	{
+		"floor_y": 48.0748481750488,
+		"id": "Funcionario",
+		"interaction": "[E] Hablar con Funcionario",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Funcionario/CharacterVisual",
+		"remodel": {},
+		"role": "FUNCIONARIO",
+		"visible": true
+	},
+	{
+		"floor_y": 0.100000001490116,
+		"id": "MonitorDeportes",
+		"interaction": "[E] Hablar con MonitorDeportes",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/MonitorDeportes/CharacterVisual",
+		"remodel": {},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": 24.0676689147949,
+		"id": "Tecnico",
+		"interaction": "[E] Hablar con Tecnico",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Tecnico/CharacterVisual",
+		"remodel": {},
+		"role": "TECNICO",
+		"visible": true
+	},
+	{
+		"floor_y": 0.100000001490116,
+		"id": "EstudiantePerdido",
+		"interaction": "[E] Hablar con EstudiantePerdido",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EstudiantePerdido/CharacterVisual",
+		"remodel": {},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": 0.164999961853027,
+		"id": "AyudanteCasino",
+		"interaction": "[E] Hablar con AyudanteCasino",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/AyudanteCasino/CharacterVisual",
+		"remodel": {},
+		"role": "VENDEDOR",
+		"visible": true
+	},
+	{
+		"floor_y": 0.000149736180901527,
+		"id": "EnemigoPiso1",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso1/@Node3D@6015",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 12.0585355758667,
+		"id": "EnemigoPiso2",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso2/@Node3D@6100",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 23.9678192138672,
+		"id": "EnemigoPiso3",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso3/@Node3D@6185",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 35.6745643615723,
+		"id": "EnemigoPiso4",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso4/@Node3D@6270",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 47.9749984741211,
+		"id": "EnemigoPiso5",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso5/@Node3D@6355",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 60.1851005554199,
+		"id": "EnemigoPiso6",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso6/@Node3D@6440",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 71.9687805175781,
+		"id": "EnemigoPiso7",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso7/@Node3D@6525",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 83.9401550292969,
+		"id": "EnemigoPiso8",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso8/@Node3D@6610",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": -12.0582361221313,
+		"id": "EnemigoPiso9",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/EnemigoPiso9/@Node3D@6695",
+		"remodel": {},
+		"role": "",
+		"visible": false
+	},
+	{
+		"floor_y": 24.0100002288818,
+		"id": "v4_rescued_student",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8144/@CharacterBody3D@8159/@Node3D@8161",
+		"remodel": {},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": -12.018385887146,
+		"id": "v4_civilian_-1",
+		"interaction": "[E] Conversar · estudiante",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8299/@Node3D@8301",
+		"remodel": {},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": 0.0399999991059303,
+		"id": "v4_civilian_1",
+		"interaction": "[E] Conversar · estudiante",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8394/@Node3D@8396",
+		"remodel": {},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": 12.0983858108521,
+		"id": "v4_civilian_2",
+		"interaction": "[E] Conversar · estudiante",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8482/@Node3D@8484",
+		"remodel": {},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": 24.0076694488525,
+		"id": "v4_civilian_3",
+		"interaction": "[E] Conversar · estudiante",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8579/@Node3D@8581",
+		"remodel": {},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": 35.7144165039063,
+		"id": "v4_civilian_4",
+		"interaction": "[E] Conversar · estudiante",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8669/@Node3D@8671",
+		"remodel": {},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": 48.0148506164551,
+		"id": "v4_civilian_5",
+		"interaction": "[E] Conversar · estudiante",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8757/@Node3D@8759",
+		"remodel": {},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": 24.1700000762939,
+		"id": "v4_lab_student",
+		"interaction": "[E] Conversar · estudiante",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8298/@CharacterBody3D@8860/@Node3D@8862",
+		"remodel": {},
+		"role": "ESTUDIANTE",
+		"visible": true
+	},
+	{
+		"floor_y": 60.2249526977539,
+		"id": "profesor_ingles",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_ingles/@Node3D@8971",
+		"remodel": {},
+		"role": "INGLES",
+		"visible": true
+	},
+	{
+		"floor_y": 72.0086288452148,
+		"id": "profesor_lenguaje",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_lenguaje/@Node3D@9096",
+		"remodel": {},
+		"role": "LENGUAJE",
+		"visible": true
+	},
+	{
+		"floor_y": 60.2249526977539,
+		"id": "profesor_etica",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_etica/@Node3D@9212",
+		"remodel": {},
+		"role": "ETICA",
+		"visible": true
+	},
+	{
+		"floor_y": 24.0076694488525,
+		"id": "profesor_datos",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_datos/@Node3D@9326",
+		"remodel": {},
+		"role": "PROFESOR",
+		"visible": true
+	},
+	{
+		"floor_y": 24.0076694488525,
+		"id": "profesor_algoritmos",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_algoritmos/@Node3D@9451",
+		"remodel": {},
+		"role": "PROFESOR",
+		"visible": true
+	},
+	{
+		"floor_y": 35.7144165039063,
+		"id": "docente_enfermeria",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_docente_enfermeria/@Node3D@9579",
+		"remodel": {},
+		"role": "ENFERMERIA",
+		"visible": true
+	},
+	{
+		"floor_y": 35.7144165039063,
+		"id": "docente_odontologia",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_docente_odontologia/@Node3D@9684",
+		"remodel": {},
+		"role": "ODONTOLOGIA",
+		"visible": true
+	},
+	{
+		"floor_y": 35.7144165039063,
+		"id": "coordinador_profesores",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_coordinador_profesores/@Node3D@9789",
+		"remodel": {},
+		"role": "PROFESOR",
+		"visible": true
+	},
+	{
+		"floor_y": 71.9821853637695,
+		"id": "profesor_matematicas",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_matematicas/@Node3D@9913",
+		"remodel": {},
+		"role": "PROFESOR",
+		"visible": true
+	},
+	{
+		"floor_y": 0.0,
+		"id": "punto",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_punto/@Node3D@10038",
+		"remodel": {},
+		"role": "FUNCIONARIO",
+		"visible": true
+	},
+	{
+		"floor_y": 0.119999997317791,
+		"id": "chef",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_chef/@Node3D@10150",
+		"remodel": {},
+		"role": "VENDEDOR",
+		"visible": true
+	},
+	{
+		"floor_y": 24.0076694488525,
+		"id": "profesor_redes",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_profesor_redes/@Node3D@10267",
+		"remodel": {},
+		"role": "PROFESOR",
+		"visible": true
+	},
+	{
+		"floor_y": 84.0599975585938,
+		"id": "director",
+		"interaction": "",
+		"path": "/root/NPCValidation63/Main/CampusCampaign/Mentor_director/@Node3D@10381",
+		"remodel": {},
+		"role": "DIRECTOR",
+		"visible": true
+	}
+]

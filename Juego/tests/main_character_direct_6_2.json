@@ -1,0 +1,13 @@
+[
+ {"tool":"game_start","arguments":{"scene_path":"res://Main.tscn"}},
+ {"tool":"game_start","arguments":{"scene_path":"res://Main.tscn","if_running":"return","runtime_poll":true}},
+ {"tool":"execute_code","arguments":{"channel":"runtime","scope_path":"/root/Main/CampusCampaign","code":"set('persist',false)"}},
+ {"tool":"execute_code","arguments":{"channel":"runtime","scope_path":"/root/Main/CampusCampaign","code":"set('persist',false)"}},
+ {"tool":"execute_code","arguments":{"channel":"runtime","scope_path":"/root/Main/CampusCampaign","code":"get('player').get('inventory').set('persist',false)"}},
+ {"tool":"execute_code","arguments":{"channel":"runtime","scope_path":"/root/Main/CampusCampaign","code":"get('player').get('body').get_script().get('resource_path')"}},
+ {"tool":"execute_code","arguments":{"channel":"runtime","scope_path":"/root/Main/CampusCampaign","code":"get('ui').close_modal()"}},
+ {"tool":"execute_code","arguments":{"channel":"runtime","scope_path":"/root/Main/CampusCampaign","code":"get('player').get('body').apply_appearance({'face':0,'skin':0,'hair':0,'hair_color':1,'top':1,'bottom_style':1,'shoe_style':0,'backpack_color':5,'head_accessory':0,'clothes':0,'pants':0,'shoes':6,'backpack':1,'accessory':0,'outfit':0})"}},
+ {"tool":"execute_code","arguments":{"channel":"runtime","scope_path":"/root/Main/CampusCampaign","code":"get('player').get('body').get('human62').get('rig').get_bone_count()"}},
+ {"tool":"execute_code","arguments":{"channel":"runtime","scope_path":"/root/Main","code":"get_viewport().get_texture().get_image().save_png('res://reports/main_character_6_2/main_direct.png')"}},
+ {"tool":"game_stop","arguments":{}}
+]

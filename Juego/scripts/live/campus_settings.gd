@@ -11,7 +11,11 @@ const CHARACTER_QUALITY := {"ALTO":"CHARACTER_HIGH","MEDIO":"CHARACTER_MEDIUM","
 const SHADOW_DISTANCE := {"ALTO":40.0,"MEDIO":30.0,"BAJO":20.0}
 func _ready() -> void:
 	data.telemetry = hub.config.telemetry_enabled
-	if hub.campaign.persist and not hub.campaign.has_meta("test_mode"):
+	if hub.campaign.cloud_mode:
+		var stored = hub.campaign.data.get("settings",{})
+		if stored is Dictionary:
+			for key in data: data[key] = stored.get(key,data[key])
+	elif hub.campaign.persist and not hub.campaign.has_meta("test_mode"):
 		var file := ConfigFile.new()
 		if file.load("user://campus_settings.cfg") == OK:
 			for key in data: data[key] = file.get_value("settings",key,data[key])
@@ -29,6 +33,10 @@ func set_option(key: String, value: Variant) -> void:
 	normalize(); apply(); save()
 func save() -> void:
 	if not hub.campaign.persist or hub.campaign.has_meta("test_mode"): return
+	if hub.campaign.cloud_mode:
+		hub.campaign.data.settings = data.duplicate(true)
+		hub.campaign.save_game()
+		return
 	var file := ConfigFile.new()
 	for key in data: file.set_value("settings",key,data[key])
 	var result := file.save("user://campus_settings.cfg")

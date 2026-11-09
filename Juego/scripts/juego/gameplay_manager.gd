@@ -6,7 +6,6 @@ const MOUSE_SENS := 0.003
 const START_ENEMIES := 3
 const ENEMY_RESPAWN_TIME := 6.0
 const WEAPON_RESPAWN_TIME := 8.0
-const TASKS_TOTAL := 3
 const TASK_HEAL := 25.0          # vida que recuperas al completar una tarea
 
 # Keep the entrance clear for exploring the campus.
@@ -44,14 +43,10 @@ var msg_label: Label
 
 
 func _ready() -> void:
-	#_build_environment()
-	#_build_floor()
-	#_build_obstacles()
-
 	player = CharacterBody3D.new()
 	player.set_script(load("res://scripts/juego/player.gd"))
 	var campaign := get_parent().get_node_or_null("CampusCampaign")
-	if campaign and (not campaign.persist or campaign.has_meta("test_mode")):
+	if campaign and (not campaign.persist or campaign.has_meta("test_mode") or campaign.uses_cloud()):
 		player.persist_inventory = false
 	add_child(player)
 	player.global_position = Vector3(0, 2, 0)
@@ -94,112 +89,6 @@ func _ready() -> void:
 		if enemy.has_signal("died") and not enemy.died.is_connected(_on_enemy_died):
 			enemy.died.connect(_on_enemy_died)
 	_update_counters()
-
-
-# =====================================================================
-#  Ambiente, suelo y obstáculos
-# =====================================================================
-func _build_environment() -> void:
-	var sun := DirectionalLight3D.new()
-	sun.rotation_degrees = Vector3(-50, -30, 0)
-	sun.light_energy = 1.1
-	sun.shadow_enabled = true
-	sun.directional_shadow_max_distance = 40.0
-	add_child(sun)
-
-	var sky_mat := ProceduralSkyMaterial.new()
-	sky_mat.sky_top_color = Color("4f86c6")
-	sky_mat.sky_horizon_color = Color("bcd6ea")
-	sky_mat.ground_horizon_color = Color("bcd6ea")
-	sky_mat.ground_bottom_color = Color("6f8f6a")
-	var sky := Sky.new()
-	sky.sky_material = sky_mat
-
-	var env := Environment.new()
-	env.background_mode = Environment.BG_SKY
-	env.sky = sky
-	env.ambient_light_source = Environment.AMBIENT_SOURCE_SKY
-	env.tonemap_mode = Environment.TONE_MAPPER_FILMIC
-	env.fog_enabled = true
-	env.fog_light_color = Color("bcd6ea")
-	env.fog_density = 0.008
-	var we := WorldEnvironment.new()
-	we.environment = env
-	add_child(we)
-
-
-func _build_floor() -> void:
-	var size := Vector3(300, 1, 300)
-	var body := StaticBody3D.new()
-	body.position = Vector3(0, -0.5, 0)
-
-	var col := CollisionShape3D.new()
-	var shape := BoxShape3D.new()
-	shape.size = size
-	col.shape = shape
-	body.add_child(col)
-
-	# Suelo a cuadros (así se nota el movimiento)
-	var sh := Shader.new()
-	sh.code = """
-shader_type spatial;
-varying vec3 wpos;
-void vertex() { wpos = (MODEL_MATRIX * vec4(VERTEX, 1.0)).xyz; }
-void fragment() {
-	vec2 g = floor(wpos.xz);
-	float c = mod(g.x + g.y, 2.0);
-	ALBEDO = mix(vec3(0.46, 0.58, 0.40), vec3(0.38, 0.50, 0.33), c);
-	ROUGHNESS = 0.95;
-}
-"""
-	var mat := ShaderMaterial.new()
-	mat.shader = sh
-
-	var mi := MeshInstance3D.new()
-	var mesh := BoxMesh.new()
-	mesh.size = size
-	mi.mesh = mesh
-	mi.material_override = mat
-	body.add_child(mi)
-
-	add_child(body)
-
-
-func _add_block(pos: Vector3, size: Vector3, color: Color) -> void:
-	var body := StaticBody3D.new()
-	body.position = pos
-
-	var col := CollisionShape3D.new()
-	var shape := BoxShape3D.new()
-	shape.size = size
-	col.shape = shape
-	body.add_child(col)
-
-	var mi := MeshInstance3D.new()
-	var mesh := BoxMesh.new()
-	mesh.size = size
-	mi.mesh = mesh
-	var mat := StandardMaterial3D.new()
-	mat.albedo_color = color
-	mat.roughness = 0.9
-	mi.material_override = mat
-	body.add_child(mi)
-
-	add_child(body)
-
-
-## Paredes, cajas y pilares: bloquean la vista de los enemigos (para esconderte).
-func _build_obstacles() -> void:
-	var concrete := Color("8d9199")
-	var wood := Color("a47b4c")
-	_add_block(Vector3(0, 1.25, -9), Vector3(8, 2.5, 0.5), concrete)       # pared grande
-	_add_block(Vector3(-8, 1.25, 4), Vector3(0.5, 2.5, 8), concrete)       # pared lateral
-	_add_block(Vector3(12, 1.25, -14), Vector3(0.5, 2.5, 8), concrete)     # pared lejana
-	_add_block(Vector3(5, 0.35, -6), Vector3(1.4, 0.7, 1.4), wood)         # cajas (se pueden saltar)
-	_add_block(Vector3(6.6, 0.35, -6.2), Vector3(1.4, 0.7, 1.4), wood)
-	_add_block(Vector3(10, 1.5, 2), Vector3(0.8, 3, 0.8), concrete)        # pilares
-	_add_block(Vector3(-12, 1.5, -10), Vector3(0.8, 3, 0.8), concrete)
-	_add_block(Vector3(-3, 1.5, 12), Vector3(0.8, 3, 0.8), concrete)
 
 
 # =====================================================================
@@ -293,6 +182,9 @@ func _build_hud() -> void:
 	help.text += "\nQ: lanzar pelota o disco equipado"
 	_style_label(help, 15)
 	box.add_child(help)
+	if get_parent().has_node("CampusCampaign"):
+		# Campaign objectives and pause controls replace the prototype's duplicate HUD.
+		help.hide(); tasks_label.hide(); kills_label.hide()
 
 	msg_label = Label.new()
 	layer.add_child(msg_label)
@@ -428,6 +320,10 @@ func _unhandled_key_input(event: InputEvent) -> void:
 	if minigame.active and k.keycode != KEY_ESCAPE:
 		return
 	if k.keycode == KEY_R:
+		var campaign := get_parent().get_node_or_null("CampusCampaign")
+		if campaign and campaign.cloud_mode:
+			campaign.reload_cloud_scene()
+			return
 		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 		get_tree().reload_current_scene()
 	elif k.keycode == KEY_ESCAPE:

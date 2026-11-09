@@ -60,18 +60,20 @@ func run() -> void:
 	var before_inventory: Dictionary = campaign.player.inventory.snapshot_data()
 	var view: Node = campaign.ui.column.get_child(2)
 	check(view.get_child_count() == 5,"Shared question component has text and four options")
-	view.get_child(4).pressed.emit()
+	var fixture=JSON.parse_string(FileAccess.get_file_as_string("res://resources/education/demo_questions.json"))
+	var first_key: String=fixture.filter(func(row): return row.id==gate.question.id)[0].correct_option
+	view.get_child(1+("ABCD".find(first_key)+1)%4).pressed.emit()
 	await process_frame
 	check(campaign.ui.column.get_child(0).text == "INCORRECTO","Actual gate wrong answer result")
 	check(campaign.player.health == before_health and campaign.player.inventory.snapshot_data() == before_inventory,"Wrong answer no health/item penalty")
 	var previous: String = gate.question.id
 	await gate._fetch()
 	check(gate.question.id != previous,"Actual gate retry changes question")
-	var option := "A" if gate.question.id == "demo-sql" else "B"
+	var option: String=fixture.filter(func(row): return row.id==gate.question.id)[0].correct_option
 	campaign.persist = true
 	campaign.save_path = SAVE
 	view = campaign.ui.column.get_child(2)
-	view.get_child(1 if option == "A" else 2).pressed.emit()
+	view.get_child(1+"ABCD".find(option)).pressed.emit()
 	await process_frame
 	check(campaign.data.academic_floor_unlocks.get("3",false),"Actual gate unlock")
 	check(campaign.last_save_succeeded,"Actual campaign writer persists educational data")

@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "execute_code",
+    "arguments": {
+      "code": "get_node('/root/VisualInspection5').call('view','floor_6.0_room_046_north',Vector3(-23.0, 62.34851, -141.8575),Vector3(-23.0, 62.34851, -151.8575))"
+    }
+  },
+  {
+    "tool": "execute_code",
+    "arguments": {
+      "code": "get_node('/root/VisualInspection5').call('view','floor_6.0_room_046_south',Vector3(-23.0, 62.34851, -141.8575),Vector3(-23.0, 62.34851, -131.8575))"
+    }
+  },
+  {
+    "tool": "execute_code",
+    "arguments": {
+      "code": "get_node('/root/VisualInspection5').call('view','floor_7.0_room_054_north',Vector3(-23.0, 74.13219, -141.8575),Vector3(-23.0, 74.13219, -151.8575))"
+    }
+  },
+  {
+    "tool": "execute_code",
+    "arguments": {
+      "code": "get_node('/root/VisualInspection5').call('view','floor_7.0_room_054_south',Vector3(-23.0, 74.13219, -141.8575),Vector3(-23.0, 74.13219, -131.8575))"
+    }
+  },
+  {
+    "tool": "execute_code",
+    "arguments": {
+      "code": "get_node('/root/VisualInspection5').call('view','floor_8.0_room_062_north',Vector3(-23.0, 86.10355, -141.8575),Vector3(-23.0, 86.10355, -151.8575))"
+    }
+  },
+  {
+    "tool": "execute_code",
+    "arguments": {
+      "code": "get_node('/root/VisualInspection5').call('view','floor_8.0_room_062_south',Vector3(-23.0, 86.10355, -141.8575),Vector3(-23.0, 86.10355, -131.8575))"
+    }
+  }
+]

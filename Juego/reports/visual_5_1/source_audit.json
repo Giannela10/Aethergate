@@ -1,0 +1,45 @@
+{
+  "status": "PASS AUTOMÁTICO",
+  "changed_existing_files": [
+    "Juego/Main.tscn",
+    "Juego/scripts/compartidos/edicion/interiores_referencia_campus.gd",
+    "Juego/scripts/pisos/piso_2/auditorio_piso_2e.gd"
+  ],
+  "missing_files": [],
+  "removed_scene_sections": [],
+  "changed_scene_nodes": [
+    "[node name=\"LetreroEntrada-118_5\" type=\"Label3D\" parent=\"Piso2/AuditorioPiso2e/EntradasAuditorio\" unique_id=1041699127]",
+    "[node name=\"LetreroEntrada-90_5\" type=\"Label3D\" parent=\"Piso2/AuditorioPiso2e/EntradasAuditorio\" unique_id=680927450]",
+    "[node name=\"LetreroEntrada-118_5\" type=\"Label3D\" parent=\"Piso2/AuditorioPiso2e/AuditorioAmpliado\" unique_id=732715543]",
+    "[node name=\"LetreroEntrada-90_5\" type=\"Label3D\" parent=\"Piso2/AuditorioPiso2e/AuditorioAmpliado\" unique_id=2147194735]",
+    "[node name=\"PlanoPisos\" type=\"Label3D\" parent=\"Piso2/VestibuloAscensores\" unique_id=1811528682]",
+    "[node name=\"PlanoPisos\" type=\"Label3D\" parent=\"Piso3/VestibuloAscensores\" unique_id=107427350]",
+    "[node name=\"PlanoPisos\" type=\"Label3D\" parent=\"Piso4/VestibuloAscensores\" unique_id=1760193462]",
+    "[node name=\"CartelPlano\" type=\"MeshInstance3D\" parent=\"Piso5/VestibuloAscensores\" unique_id=1999915688]",
+    "[node name=\"CabeceraPlano\" type=\"MeshInstance3D\" parent=\"Piso5/VestibuloAscensores\" unique_id=1763413388]",
+    "[node name=\"PlanoPisos\" type=\"Label3D\" parent=\"Piso5/VestibuloAscensores\" unique_id=1908100305]",
+    "[node name=\"CartelPlano\" type=\"MeshInstance3D\" parent=\"Piso6/VestibuloAscensores\" unique_id=438743887]",
+    "[node name=\"CabeceraPlano\" type=\"MeshInstance3D\" parent=\"Piso6/VestibuloAscensores\" unique_id=2007867740]",
+    "[node name=\"PlanoPisos\" type=\"Label3D\" parent=\"Piso6/VestibuloAscensores\" unique_id=263223315]",
+    "[node name=\"CartelPlano\" type=\"MeshInstance3D\" parent=\"Piso7/VestibuloAscensores\" unique_id=1619363686]",
+    "[node name=\"CabeceraPlano\" type=\"MeshInstance3D\" parent=\"Piso7/VestibuloAscensores\" unique_id=1489482806]",
+    "[node name=\"PlanoPisos\" type=\"Label3D\" parent=\"Piso7/VestibuloAscensores\" unique_id=1394338523]",
+    "[node name=\"CartelPlano\" type=\"MeshInstance3D\" parent=\"Piso8/VestibuloAscensores\" unique_id=254300971]",
+    "[node name=\"CabeceraPlano\" type=\"MeshInstance3D\" parent=\"Piso8/VestibuloAscensores\" unique_id=88191859]",
+    "[node name=\"PlanoPisos\" type=\"Label3D\" parent=\"Piso8/VestibuloAscensores\" unique_id=1245333949]"
+  ],
+  "added_scene_sections": [
+    "[sub_resource type=\"BoxMesh\" id=\"BoxMesh_visual51_auditorium\"]",
+    "[sub_resource type=\"BoxMesh\" id=\"BoxMesh_visual51_directory_leg\"]",
+    "[sub_resource type=\"BoxMesh\" id=\"BoxMesh_visual51_directory_base\"]",
+    "[node name=\"PlacaEntrada51Norte\" type=\"MeshInstance3D\" parent=\"Piso2/AuditorioPiso2e/AuditorioAmpliado\"]",
+    "[node name=\"PlacaEntrada51Sur\" type=\"MeshInstance3D\" parent=\"Piso2/AuditorioPiso2e/AuditorioAmpliado\"]",
+    "[node name=\"SoporteDirectorio51Norte\" type=\"MeshInstance3D\" parent=\"Piso5/VestibuloAscensores\"]",
+    "[node name=\"SoporteDirectorio51Sur\" type=\"MeshInstance3D\" parent=\"Piso5/VestibuloAscensores\"]",
+    "[node name=\"BaseDirectorio51\" type=\"MeshInstance3D\" parent=\"Piso5/VestibuloAscensores\"]"
+  ],
+  "collision_or_actor_changes": [],
+  "persistent_identifiers_unchanged": true,
+  "protected_sources_byte_identical": true,
+  "notes": "Only two visual builders and reviewed visual nodes in Main may differ. No removed nodes, modified collision bodies/shapes, gameplay scripts or personal saves."
+}

@@ -5,7 +5,6 @@ var boards: Array[Dictionary] = []
 var pulse_remaining := 0.0
 var light_values: Array[Dictionary] = []
 var tick := 0.0
-var room_tick := 0.0
 var effects_enabled := true
 var pulse_sound: AudioStreamPlayer
 var area_sound: AudioStreamPlayer

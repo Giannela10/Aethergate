@@ -1,0 +1,96 @@
+[
+  {
+    "batch": 4,
+    "remodelled": 25,
+    "exceptions": [
+      {
+        "id": "npc_papeleria",
+        "path": "/root/NPCValidation63/Main/Piso2/SalaImpresiones/EncargadoPapeleria/CharacterVisual",
+        "reason": "Unknown/special representation; preserved"
+      },
+      {
+        "id": "BossBibliotecaria",
+        "path": "/root/NPCValidation63/Main/Piso2/Biblioteca/BossBibliotecaria/@Node3D@326",
+        "reason": "Unknown/special representation; preserved"
+      },
+      {
+        "id": "Player",
+        "path": "/root/NPCValidation63/Main/GameplayManager/Player/CharacterVisual",
+        "reason": "Protagonist separate 6.2 integration"
+      },
+      {
+        "id": "GuardiaRegistro",
+        "path": "/root/NPCValidation63/Main/Exterior/Caseta/PuestoRegistro/GuardiaRegistro/@Node3D@3978",
+        "reason": "Unknown/special representation; preserved"
+      },
+      {
+        "id": "Guardia1",
+        "path": "/root/NPCValidation63/Main/Exterior/EntradaReferenciaDuoc/GuardiasTorniquetes/Guardia1/@Node3D@4176",
+        "reason": "Unknown/special representation; preserved"
+      },
+      {
+        "id": "Guardia2",
+        "path": "/root/NPCValidation63/Main/Exterior/EntradaReferenciaDuoc/GuardiasTorniquetes/Guardia2/@Node3D@4255",
+        "reason": "Unknown/special representation; preserved"
+      },
+      {
+        "id": "Funcionario",
+        "path": "/root/NPCValidation63/Main/CampusCampaign/Funcionario/CharacterVisual",
+        "reason": "Unknown/special representation; preserved"
+      },
+      {
+        "id": "Tecnico",
+        "path": "/root/NPCValidation63/Main/CampusCampaign/Tecnico/CharacterVisual",
+        "reason": "Unknown/special representation; preserved"
+      },
+      {
+        "id": "AyudanteCasino",
+        "path": "/root/NPCValidation63/Main/CampusCampaign/AyudanteCasino/CharacterVisual",
+        "reason": "Unknown/special representation; preserved"
+      },
+      {
+        "id": "v4_rescued_student",
+        "path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8144/@CharacterBody3D@8159/@Node3D@8161",
+        "reason": "Unknown/special representation; preserved"
+      }
+    ]
+  },
+  {
+    "batch": 5,
+    "remodelled": 33,
+    "exceptions": [
+      {
+        "id": "Player",
+        "path": "/root/NPCValidation63/Main/GameplayManager/Player/CharacterVisual",
+        "reason": "Protagonist separate 6.2 integration"
+      },
+      {
+        "id": "v4_rescued_student",
+        "path": "/root/NPCValidation63/Main/CampusCampaign/DuocGames4/@Node@8144/@CharacterBody3D@8159/@Node3D@8161",
+        "reason": "Unknown/special representation; preserved"
+      }
+    ]
+  },
+  {
+    "batch": 6,
+    "remodelled": 34,
+    "exceptions": [
+      {
+        "id": "Player",
+        "path": "/root/NPCValidation63/Main/GameplayManager/Player/CharacterVisual",
+        "reason": "Protagonist separate 6.2 integration"
+      }
+    ]
+  },
+  {
+    "batch": 7,
+    "remodelled": 34,
+    "exceptions": [
+      {
+        "id": "Player",
+        "path": "/root/NPCValidation63/Main/GameplayManager/Player/CharacterVisual",
+        "reason": "Protagonist separate 6.2 integration"
+      }
+    ]
+  }
+]

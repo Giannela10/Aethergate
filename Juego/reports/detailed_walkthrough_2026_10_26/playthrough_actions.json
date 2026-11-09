@@ -1,0 +1,3280 @@
+[
+	{
+		"result": {
+			"no_progress_granted": true,
+			"no_real_save_used": true
+		},
+		"state": {
+			"bosses": {},
+			"busy": false,
+			"buttons": [],
+			"camera": [
+				0.0,
+				4.99707126617432,
+				4.69686365127563
+			],
+			"dead": false,
+			"duels": [
+				{
+					"hp": 200.0,
+					"id": "punto",
+					"position": [
+						-42.0,
+						0.0,
+						-144.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 350.0,
+					"id": "chef",
+					"position": [
+						-73.0,
+						0.119999997317791,
+						-102.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 125.0,
+					"id": "bibliotecaria",
+					"position": [
+						-61.5,
+						12.1083860397339,
+						-115.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_redes",
+					"position": [
+						65.0,
+						24.0076694488525,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_datos",
+					"position": [
+						-45.0,
+						24.0076694488525,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_algoritmos",
+					"position": [
+						30.0,
+						24.0076694488525,
+						-130.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_enfermeria",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_odontologia",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-156.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "coordinador_profesores",
+					"position": [
+						48.0,
+						35.7144165039063,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 450.0,
+					"id": "profesor_ingles",
+					"position": [
+						52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_etica",
+					"position": [
+						-52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_lenguaje",
+					"position": [
+						52.0,
+						72.0086288452148,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_matematicas",
+					"position": [
+						-35.0,
+						71.9821853637695,
+						-140.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 700.0,
+					"id": "director",
+					"position": [
+						64.0,
+						84.0599975585938,
+						-131.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 1200.0,
+					"id": "nexo",
+					"position": [
+						48.0,
+						-12.018385887146,
+						-100.0
+					],
+					"state": 0.0
+				}
+			],
+			"events": {
+				"checkpoint:Entrada": 1.0,
+				"collect:Palo": 1.0,
+				"computer:pc_intro": 1.0,
+				"floor:1": 1.0
+			},
+			"health": 100.0,
+			"inventory": {
+				"entries": [],
+				"equipped": "",
+				"quick": [
+					"item_1",
+					"",
+					"",
+					""
+				],
+				"serial": 0.0,
+				"version": 1.0
+			},
+			"minigame": false,
+			"objective": "Primer día\nHabla con Punto Estudiantil (0/1)",
+			"paused": false,
+			"player": [
+				0.0,
+				1.7861111164093,
+				0.0
+			],
+			"quests": {
+				"academico3": {
+					"state": 0.0
+				},
+				"academico4": {
+					"state": 0.0
+				},
+				"academico5": {
+					"state": 0.0
+				},
+				"acceso7": {
+					"state": 0.0
+				},
+				"biblioteca": {
+					"state": 0.0
+				},
+				"cargador": {
+					"state": 0.0
+				},
+				"casino": {
+					"state": 0.0
+				},
+				"direccion": {
+					"state": 0.0
+				},
+				"director_task_antivirus": {
+					"state": 0.0
+				},
+				"director_task_config": {
+					"state": 0.0
+				},
+				"director_task_network": {
+					"state": 0.0
+				},
+				"documentos": {
+					"state": 0.0
+				},
+				"implementos": {
+					"state": 0.0
+				},
+				"infectado": {
+					"state": 0.0
+				},
+				"inicio": {
+					"state": 1.0
+				},
+				"llaves": {
+					"state": 0.0
+				},
+				"nexo_final": {
+					"state": 0.0
+				},
+				"postgame": {
+					"state": 0.0
+				},
+				"seguridad6": {
+					"state": 0.0
+				},
+				"ubicar_profesores": {
+					"state": 0.0
+				}
+			},
+			"selected": "<null>"
+		},
+		"step": "Fresh isolated campaign"
+	},
+	{
+		"result": {
+			"navigation_nodes": 12.0,
+			"reached": true,
+			"requested": [
+				-3.0,
+				0.0,
+				-5.5
+			],
+			"route": [
+				{
+					"actual": [
+						-0.668922960758209,
+						0.432598769664764,
+						-0.668922960758209
+					],
+					"blockers": [],
+					"origin": [
+						0.0,
+						0.500225722789764,
+						0.0
+					],
+					"reached": true,
+					"target": [
+						-1.0,
+						0.0,
+						-1.0
+					]
+				},
+				{
+					"actual": [
+						-0.888610482215881,
+						0.262813627719879,
+						-1.03523337841034
+					],
+					"blockers": [],
+					"origin": [
+						-0.668922960758209,
+						0.432598769664764,
+						-0.668922960758209
+					],
+					"reached": true,
+					"target": [
+						-1.0,
+						0.0,
+						-1.5
+					]
+				},
+				{
+					"actual": [
+						-1.22544944286346,
+						0.100184343755245,
+						-1.60711085796356
+					],
+					"blockers": [
+						"/root/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"
+					],
+					"origin": [
+						-0.888610482215881,
+						0.262813627719879,
+						-1.03523337841034
+					],
+					"reached": true,
+					"target": [
+						-1.5,
+						0.0,
+						-2.0
+					]
+				},
+				{
+					"actual": [
+						-1.43239653110504,
+						0.100184343755245,
+						-2.53757262229919
+					],
+					"blockers": [
+						"/root/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"
+					],
+					"origin": [
+						-1.22544944286346,
+						0.100184343755245,
+						-1.60711085796356
+					],
+					"reached": true,
+					"target": [
+						-1.5,
+						0.0,
+						-3.0
+					]
+				},
+				{
+					"actual": [
+						-2.21763157844543,
+						0.100184343755245,
+						-3.63706278800964
+					],
+					"blockers": [
+						"/root/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"
+					],
+					"origin": [
+						-1.43239653110504,
+						0.100184343755245,
+						-2.53757262229919
+					],
+					"reached": true,
+					"target": [
+						-2.5,
+						0.0,
+						-4.0
+					]
+				},
+				{
+					"actual": [
+						-2.36548542976379,
+						0.100184343755245,
+						-4.02660512924194
+					],
+					"blockers": [
+						"/root/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"
+					],
+					"origin": [
+						-2.21763157844543,
+						0.100184343755245,
+						-3.63706278800964
+					],
+					"reached": true,
+					"target": [
+						-2.5,
+						0.0,
+						-4.5
+					]
+				},
+				{
+					"actual": [
+						-2.73990964889526,
+						0.100184343755245,
+						-4.619544506073
+					],
+					"blockers": [
+						"/root/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"
+					],
+					"origin": [
+						-2.36548542976379,
+						0.100184343755245,
+						-4.02660512924194
+					],
+					"reached": true,
+					"target": [
+						-3.0,
+						0.0,
+						-5.0
+					]
+				},
+				{
+					"actual": [
+						-2.89267730712891,
+						0.100184343755245,
+						-5.05022382736206
+					],
+					"blockers": [
+						"/root/Main/Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles/Suelo3"
+					],
+					"origin": [
+						-2.73990964889526,
+						0.100184343755245,
+						-4.619544506073
+					],
+					"reached": true,
+					"target": [
+						-3.0,
+						0.0,
+						-5.5
+					]
+				}
+			]
+		},
+		"state": {
+			"bosses": {},
+			"busy": false,
+			"buttons": [],
+			"camera": [
+				-1.75358915328979,
+				3.21467351913452,
+				-0.317753791809082
+			],
+			"dead": false,
+			"duels": [
+				{
+					"hp": 200.0,
+					"id": "punto",
+					"position": [
+						-42.0,
+						0.0,
+						-144.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 350.0,
+					"id": "chef",
+					"position": [
+						-73.0,
+						0.119999997317791,
+						-102.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 125.0,
+					"id": "bibliotecaria",
+					"position": [
+						-61.5,
+						12.1083860397339,
+						-115.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_redes",
+					"position": [
+						65.0,
+						24.0076694488525,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_datos",
+					"position": [
+						-45.0,
+						24.0076694488525,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_algoritmos",
+					"position": [
+						30.0,
+						24.0076694488525,
+						-130.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_enfermeria",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_odontologia",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-156.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "coordinador_profesores",
+					"position": [
+						48.0,
+						35.7144165039063,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 450.0,
+					"id": "profesor_ingles",
+					"position": [
+						52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_etica",
+					"position": [
+						-52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_lenguaje",
+					"position": [
+						52.0,
+						72.0086288452148,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_matematicas",
+					"position": [
+						-35.0,
+						71.9821853637695,
+						-140.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 700.0,
+					"id": "director",
+					"position": [
+						64.0,
+						84.0599975585938,
+						-131.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 1200.0,
+					"id": "nexo",
+					"position": [
+						48.0,
+						-12.018385887146,
+						-100.0
+					],
+					"state": 0.0
+				}
+			],
+			"events": {
+				"checkpoint:Entrada": 1.0,
+				"collect:Palo": 1.0,
+				"computer:pc_intro": 1.0,
+				"floor:1": 1.0
+			},
+			"health": 100.0,
+			"inventory": {
+				"entries": [],
+				"equipped": "",
+				"quick": [
+					"item_1",
+					"",
+					"",
+					""
+				],
+				"serial": 0.0,
+				"version": 1.0
+			},
+			"minigame": false,
+			"objective": "Primer día\nHabla con Punto Estudiantil (0/1)",
+			"paused": false,
+			"player": [
+				-2.89267730712891,
+				0.100184343755245,
+				-5.05022382736206
+			],
+			"quests": {
+				"academico3": {
+					"state": 0.0
+				},
+				"academico4": {
+					"state": 0.0
+				},
+				"academico5": {
+					"state": 0.0
+				},
+				"acceso7": {
+					"state": 0.0
+				},
+				"biblioteca": {
+					"state": 0.0
+				},
+				"cargador": {
+					"state": 0.0
+				},
+				"casino": {
+					"state": 0.0
+				},
+				"direccion": {
+					"state": 0.0
+				},
+				"director_task_antivirus": {
+					"state": 0.0
+				},
+				"director_task_config": {
+					"state": 0.0
+				},
+				"director_task_network": {
+					"state": 0.0
+				},
+				"documentos": {
+					"state": 0.0
+				},
+				"implementos": {
+					"state": 0.0
+				},
+				"infectado": {
+					"state": 0.0
+				},
+				"inicio": {
+					"state": 1.0
+				},
+				"llaves": {
+					"state": 0.0
+				},
+				"nexo_final": {
+					"state": 0.0
+				},
+				"postgame": {
+					"state": 0.0
+				},
+				"seguridad6": {
+					"state": 0.0
+				},
+				"ubicar_profesores": {
+					"state": 0.0
+				}
+			},
+			"selected": "Arma_24:<Node3D#8321817964516>"
+		},
+		"step": "Walk to entrance weapon"
+	},
+	{
+		"result": {
+			"inventory": {
+				"entries": [
+					{
+						"data": {
+							"durability": 14.0,
+							"max_durability": 14.0
+						},
+						"item_id": "Palo",
+						"quantity": 1.0,
+						"uid": "item_1"
+					}
+				],
+				"equipped": "",
+				"quick": [
+					"item_1",
+					"",
+					"",
+					""
+				],
+				"serial": 1.0,
+				"version": 1.0
+			}
+		},
+		"state": {
+			"bosses": {},
+			"busy": false,
+			"buttons": [],
+			"camera": [
+				-1.77635169029236,
+				3.21467351913452,
+				-0.411463737487793
+			],
+			"dead": false,
+			"duels": [
+				{
+					"hp": 200.0,
+					"id": "punto",
+					"position": [
+						-42.0,
+						0.0,
+						-144.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 350.0,
+					"id": "chef",
+					"position": [
+						-73.0,
+						0.119999997317791,
+						-102.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 125.0,
+					"id": "bibliotecaria",
+					"position": [
+						-61.5,
+						12.1083860397339,
+						-115.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_redes",
+					"position": [
+						65.0,
+						24.0076694488525,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_datos",
+					"position": [
+						-45.0,
+						24.0076694488525,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_algoritmos",
+					"position": [
+						30.0,
+						24.0076694488525,
+						-130.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_enfermeria",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_odontologia",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-156.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "coordinador_profesores",
+					"position": [
+						48.0,
+						35.7144165039063,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 450.0,
+					"id": "profesor_ingles",
+					"position": [
+						52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_etica",
+					"position": [
+						-52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_lenguaje",
+					"position": [
+						52.0,
+						72.0086288452148,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_matematicas",
+					"position": [
+						-35.0,
+						71.9821853637695,
+						-140.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 700.0,
+					"id": "director",
+					"position": [
+						64.0,
+						84.0599975585938,
+						-131.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 1200.0,
+					"id": "nexo",
+					"position": [
+						48.0,
+						-12.018385887146,
+						-100.0
+					],
+					"state": 0.0
+				}
+			],
+			"events": {
+				"checkpoint:Entrada": 1.0,
+				"collect:Palo": 1.0,
+				"computer:pc_intro": 1.0,
+				"floor:1": 1.0
+			},
+			"health": 100.0,
+			"inventory": {
+				"entries": [
+					{
+						"data": {
+							"durability": 14.0,
+							"max_durability": 14.0
+						},
+						"item_id": "Palo",
+						"quantity": 1.0,
+						"uid": "item_1"
+					}
+				],
+				"equipped": "",
+				"quick": [
+					"item_1",
+					"",
+					"",
+					""
+				],
+				"serial": 1.0,
+				"version": 1.0
+			},
+			"minigame": false,
+			"objective": "Primer día\nHabla con Punto Estudiantil (0/1)",
+			"paused": false,
+			"player": [
+				-2.90035247802734,
+				0.100184343755245,
+				-5.21173000335693
+			],
+			"quests": {
+				"academico3": {
+					"state": 0.0
+				},
+				"academico4": {
+					"state": 0.0
+				},
+				"academico5": {
+					"state": 0.0
+				},
+				"acceso7": {
+					"state": 0.0
+				},
+				"biblioteca": {
+					"state": 0.0
+				},
+				"cargador": {
+					"state": 0.0
+				},
+				"casino": {
+					"state": 0.0
+				},
+				"direccion": {
+					"state": 0.0
+				},
+				"director_task_antivirus": {
+					"state": 0.0
+				},
+				"director_task_config": {
+					"state": 0.0
+				},
+				"director_task_network": {
+					"state": 0.0
+				},
+				"documentos": {
+					"state": 0.0
+				},
+				"implementos": {
+					"state": 0.0
+				},
+				"infectado": {
+					"state": 0.0
+				},
+				"inicio": {
+					"state": 1.0
+				},
+				"llaves": {
+					"state": 0.0
+				},
+				"nexo_final": {
+					"state": 0.0
+				},
+				"postgame": {
+					"state": 0.0
+				},
+				"seguridad6": {
+					"state": 0.0
+				},
+				"ubicar_profesores": {
+					"state": 0.0
+				}
+			},
+			"selected": "Arma_24:<Node3D#8321817964516>"
+		},
+		"step": "Collect and equip through controls"
+	},
+	{
+		"result": {
+			"completed": true,
+			"computer_results": {
+				"pc_intro": true
+			},
+			"inputs": 6.0
+		},
+		"state": {
+			"bosses": {},
+			"busy": false,
+			"buttons": [],
+			"camera": [
+				-0.0189309120178223,
+				3.21467328071594,
+				-4.73344898223877
+			],
+			"dead": false,
+			"duels": [
+				{
+					"hp": 200.0,
+					"id": "punto",
+					"position": [
+						-42.0,
+						0.0,
+						-144.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 350.0,
+					"id": "chef",
+					"position": [
+						-73.0,
+						0.119999997317791,
+						-102.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 125.0,
+					"id": "bibliotecaria",
+					"position": [
+						-61.5,
+						12.1083860397339,
+						-115.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_redes",
+					"position": [
+						65.0,
+						24.0076694488525,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_datos",
+					"position": [
+						-45.0,
+						24.0076694488525,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_algoritmos",
+					"position": [
+						30.0,
+						24.0076694488525,
+						-130.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_enfermeria",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_odontologia",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-156.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "coordinador_profesores",
+					"position": [
+						48.0,
+						35.7144165039063,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 450.0,
+					"id": "profesor_ingles",
+					"position": [
+						52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_etica",
+					"position": [
+						-52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_lenguaje",
+					"position": [
+						52.0,
+						72.0086288452148,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_matematicas",
+					"position": [
+						-35.0,
+						71.9821853637695,
+						-140.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 700.0,
+					"id": "director",
+					"position": [
+						64.0,
+						84.0599975585938,
+						-131.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 1200.0,
+					"id": "nexo",
+					"position": [
+						48.0,
+						-12.018385887146,
+						-100.0
+					],
+					"state": 0.0
+				}
+			],
+			"events": {
+				"checkpoint:Entrada": 1.0,
+				"collect:Palo": 1.0,
+				"computer:pc_intro": 1.0,
+				"floor:1": 1.0
+			},
+			"health": 100.0,
+			"inventory": {
+				"entries": [
+					{
+						"data": {
+							"durability": 14.0,
+							"max_durability": 14.0
+						},
+						"item_id": "Palo",
+						"quantity": 1.0,
+						"uid": "item_1"
+					}
+				],
+				"equipped": "item_1",
+				"quick": [
+					"item_1",
+					"",
+					"",
+					""
+				],
+				"serial": 1.0,
+				"version": 1.0
+			},
+			"minigame": false,
+			"objective": "Primer día\nHabla con Punto Estudiantil (0/1)",
+			"paused": false,
+			"player": [
+				-4.57157850265503,
+				0.100184343755245,
+				-5.88841152191162
+			],
+			"quests": {
+				"academico3": {
+					"state": 0.0
+				},
+				"academico4": {
+					"state": 0.0
+				},
+				"academico5": {
+					"state": 0.0
+				},
+				"acceso7": {
+					"state": 0.0
+				},
+				"biblioteca": {
+					"state": 0.0
+				},
+				"cargador": {
+					"state": 0.0
+				},
+				"casino": {
+					"state": 0.0
+				},
+				"direccion": {
+					"state": 0.0
+				},
+				"director_task_antivirus": {
+					"state": 0.0
+				},
+				"director_task_config": {
+					"state": 0.0
+				},
+				"director_task_network": {
+					"state": 0.0
+				},
+				"documentos": {
+					"state": 0.0
+				},
+				"implementos": {
+					"state": 0.0
+				},
+				"infectado": {
+					"state": 0.0
+				},
+				"inicio": {
+					"state": 1.0
+				},
+				"llaves": {
+					"state": 0.0
+				},
+				"nexo_final": {
+					"state": 0.0
+				},
+				"postgame": {
+					"state": 0.0
+				},
+				"seguridad6": {
+					"state": 0.0
+				},
+				"ubicar_profesores": {
+					"state": 0.0
+				}
+			},
+			"selected": "<null>"
+		},
+		"step": "Play initial computer through UI"
+	},
+	{
+		"result": {
+			"goal": "(-81, -285)",
+			"reached": false,
+			"reason": "No connected route",
+			"start": "(-9, -12)"
+		},
+		"state": {
+			"bosses": {},
+			"busy": false,
+			"buttons": [],
+			"camera": [
+				-0.0189318656921387,
+				3.21467328071594,
+				-4.73344993591309
+			],
+			"dead": false,
+			"duels": [
+				{
+					"hp": 200.0,
+					"id": "punto",
+					"position": [
+						-42.0,
+						0.0,
+						-144.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 350.0,
+					"id": "chef",
+					"position": [
+						-73.0,
+						0.119999997317791,
+						-102.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 125.0,
+					"id": "bibliotecaria",
+					"position": [
+						-61.5,
+						12.1083860397339,
+						-115.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_redes",
+					"position": [
+						65.0,
+						24.0076694488525,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_datos",
+					"position": [
+						-45.0,
+						24.0076694488525,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_algoritmos",
+					"position": [
+						30.0,
+						24.0076694488525,
+						-130.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_enfermeria",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_odontologia",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-156.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "coordinador_profesores",
+					"position": [
+						48.0,
+						35.7144165039063,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 450.0,
+					"id": "profesor_ingles",
+					"position": [
+						52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_etica",
+					"position": [
+						-52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_lenguaje",
+					"position": [
+						52.0,
+						72.0086288452148,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_matematicas",
+					"position": [
+						-35.0,
+						71.9821853637695,
+						-140.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 700.0,
+					"id": "director",
+					"position": [
+						64.0,
+						84.0599975585938,
+						-131.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 1200.0,
+					"id": "nexo",
+					"position": [
+						48.0,
+						-12.018385887146,
+						-100.0
+					],
+					"state": 0.0
+				}
+			],
+			"events": {
+				"checkpoint:Entrada": 1.0,
+				"collect:Palo": 1.0,
+				"computer:pc_intro": 1.0,
+				"floor:1": 1.0
+			},
+			"health": 100.0,
+			"inventory": {
+				"entries": [
+					{
+						"data": {
+							"durability": 14.0,
+							"max_durability": 14.0
+						},
+						"item_id": "Palo",
+						"quantity": 1.0,
+						"uid": "item_1"
+					}
+				],
+				"equipped": "item_1",
+				"quick": [
+					"item_1",
+					"",
+					"",
+					""
+				],
+				"serial": 1.0,
+				"version": 1.0
+			},
+			"minigame": false,
+			"objective": "Primer día\nHabla con Punto Estudiantil (0/1)",
+			"paused": false,
+			"player": [
+				-4.57157850265503,
+				0.100184343755245,
+				-5.88841152191162
+			],
+			"quests": {
+				"academico3": {
+					"state": 0.0
+				},
+				"academico4": {
+					"state": 0.0
+				},
+				"academico5": {
+					"state": 0.0
+				},
+				"acceso7": {
+					"state": 0.0
+				},
+				"biblioteca": {
+					"state": 0.0
+				},
+				"cargador": {
+					"state": 0.0
+				},
+				"casino": {
+					"state": 0.0
+				},
+				"direccion": {
+					"state": 0.0
+				},
+				"director_task_antivirus": {
+					"state": 0.0
+				},
+				"director_task_config": {
+					"state": 0.0
+				},
+				"director_task_network": {
+					"state": 0.0
+				},
+				"documentos": {
+					"state": 0.0
+				},
+				"implementos": {
+					"state": 0.0
+				},
+				"infectado": {
+					"state": 0.0
+				},
+				"inicio": {
+					"state": 1.0
+				},
+				"llaves": {
+					"state": 0.0
+				},
+				"nexo_final": {
+					"state": 0.0
+				},
+				"postgame": {
+					"state": 0.0
+				},
+				"seguridad6": {
+					"state": 0.0
+				},
+				"ubicar_profesores": {
+					"state": 0.0
+				}
+			},
+			"selected": "<null>"
+		},
+		"step": "Walk from plaza to Punto Estudiantil"
+	},
+	{
+		"result": {
+			"arrived": true,
+			"exit": [
+				{
+					"actual": [
+						-9.99996089935303,
+						12.0592594146729,
+						-146.978332519531
+					],
+					"blockers": [
+						"/root/Main/Piso2/LosasYAccesos/LosaRecortada_6_0/Cuerpo"
+					],
+					"origin": [
+						-9.99935817718506,
+						12.0592193603516,
+						-154.562805175781
+					],
+					"reached": true,
+					"target": [
+						-10.0,
+						12.058385849,
+						-146.5
+					]
+				}
+			],
+			"from": 1.0,
+			"player_y": 12.0592594146729,
+			"to": 2.0
+		},
+		"state": {
+			"bosses": {
+				"chef": true,
+				"punto": true
+			},
+			"busy": false,
+			"buttons": [],
+			"camera": [
+				-9.99959945678711,
+				15.0379276275635,
+				-151.46858215332
+			],
+			"dead": false,
+			"duels": [
+				{
+					"hp": 0.0,
+					"id": "punto",
+					"position": [
+						-39.9188766479492,
+						0.00082970946095883,
+						-140.269622802734
+					],
+					"state": 4.0
+				},
+				{
+					"hp": 0.0,
+					"id": "chef",
+					"position": [
+						-77.7830963134766,
+						0.0659435465931892,
+						-101.922897338867
+					],
+					"state": 4.0
+				},
+				{
+					"hp": 125.0,
+					"id": "bibliotecaria",
+					"position": [
+						-61.5,
+						12.1083860397339,
+						-115.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_redes",
+					"position": [
+						65.0,
+						24.0076694488525,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_datos",
+					"position": [
+						-45.0,
+						24.0076694488525,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_algoritmos",
+					"position": [
+						30.0,
+						24.0076694488525,
+						-130.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_enfermeria",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_odontologia",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-156.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "coordinador_profesores",
+					"position": [
+						48.0,
+						35.7144165039063,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 450.0,
+					"id": "profesor_ingles",
+					"position": [
+						52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_etica",
+					"position": [
+						-52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_lenguaje",
+					"position": [
+						52.0,
+						72.0086288452148,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_matematicas",
+					"position": [
+						-35.0,
+						71.9821853637695,
+						-140.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 700.0,
+					"id": "director",
+					"position": [
+						64.0,
+						84.0599975585938,
+						-131.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 1200.0,
+					"id": "nexo",
+					"position": [
+						48.0,
+						-12.018385887146,
+						-100.0
+					],
+					"state": 0.0
+				}
+			],
+			"events": {
+				"area:biblioteca": 2.0,
+				"area:casino": 3.0,
+				"area:punto": 1.0,
+				"boss:chef": 1.0,
+				"boss:punto": 1.0,
+				"checkpoint:Entrada": 1.0,
+				"collect:BandejaDelChef": 1.0,
+				"collect:Escoba": 1.0,
+				"collect:LlaveCasino": 1.0,
+				"collect:PaletaProfesional": 1.0,
+				"collect:Palo": 1.0,
+				"computer:pc_intro": 1.0,
+				"duel_started:chef": 3.0,
+				"duel_started:punto": 1.0,
+				"floor:1": 1.0,
+				"floor:2": 1.0,
+				"talk:chef": 3.0,
+				"talk:punto": 1.0
+			},
+			"health": 110.0,
+			"inventory": {
+				"entries": [
+					{
+						"data": {
+							"durability": 4.0,
+							"max_durability": 14.0
+						},
+						"item_id": "Palo",
+						"quantity": 1.0,
+						"uid": "item_1"
+					},
+					{
+						"data": {
+							"durability": 45.0,
+							"max_durability": 54.0
+						},
+						"item_id": "PaletaProfesional",
+						"quantity": 1.0,
+						"uid": "item_2"
+					},
+					{
+						"data": {
+							"durability": 30.0,
+							"max_durability": 30.0
+						},
+						"item_id": "Escoba",
+						"quantity": 1.0,
+						"uid": "item_3"
+					},
+					{
+						"data": {
+							"durability": 56.0,
+							"max_durability": 56.0
+						},
+						"item_id": "BandejaDelChef",
+						"quantity": 1.0,
+						"uid": "item_4"
+					},
+					{
+						"data": {},
+						"item_id": "LlaveCasino",
+						"quantity": 1.0,
+						"uid": "item_5"
+					}
+				],
+				"equipped": "item_2",
+				"quick": [
+					"item_1",
+					"item_2",
+					"item_3",
+					"item_4"
+				],
+				"serial": 5.0,
+				"version": 1.0
+			},
+			"minigame": false,
+			"objective": "La guardiana del conocimiento\nBusca tres libros (0/3)",
+			"paused": false,
+			"player": [
+				-9.99996089935303,
+				12.0592594146729,
+				-146.978332519531
+			],
+			"quests": {
+				"academico3": {
+					"state": 0.0
+				},
+				"academico4": {
+					"state": 0.0
+				},
+				"academico5": {
+					"state": 0.0
+				},
+				"acceso7": {
+					"state": 0.0
+				},
+				"biblioteca": {
+					"state": 1.0
+				},
+				"cargador": {
+					"state": 0.0
+				},
+				"casino": {
+					"state": 0.0
+				},
+				"direccion": {
+					"state": 0.0
+				},
+				"director_task_antivirus": {
+					"state": 0.0
+				},
+				"director_task_config": {
+					"state": 0.0
+				},
+				"director_task_network": {
+					"state": 0.0
+				},
+				"documentos": {
+					"state": 0.0
+				},
+				"implementos": {
+					"state": 0.0
+				},
+				"infectado": {
+					"state": 0.0
+				},
+				"inicio": {
+					"state": 2.0
+				},
+				"llaves": {
+					"state": 0.0
+				},
+				"nexo_final": {
+					"state": 0.0
+				},
+				"postgame": {
+					"state": 0.0
+				},
+				"seguridad6": {
+					"state": 0.0
+				},
+				"ubicar_profesores": {
+					"state": 0.0
+				}
+			},
+			"selected": "CampaignCall1:<Node3D#8396812079982>"
+		},
+		"step": "Ride elevator using its menu"
+	},
+	{
+		"result": {
+			"book": "Mision_LibroBiblioteca_-46_1",
+			"collected": false,
+			"count": 0.0
+		},
+		"state": {
+			"bosses": {
+				"chef": true,
+				"punto": true
+			},
+			"busy": false,
+			"buttons": [],
+			"camera": [
+				-50.1730461120605,
+				14.8872051239014,
+				-105.057678222656
+			],
+			"dead": false,
+			"duels": [
+				{
+					"hp": 0.0,
+					"id": "punto",
+					"position": [
+						-39.9188766479492,
+						0.00082970946095883,
+						-140.269622802734
+					],
+					"state": 4.0
+				},
+				{
+					"hp": 0.0,
+					"id": "chef",
+					"position": [
+						-77.7830963134766,
+						0.0659435465931892,
+						-101.922897338867
+					],
+					"state": 4.0
+				},
+				{
+					"hp": 125.0,
+					"id": "bibliotecaria",
+					"position": [
+						-61.5,
+						12.1083860397339,
+						-115.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_redes",
+					"position": [
+						65.0,
+						24.0076694488525,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_datos",
+					"position": [
+						-45.0,
+						24.0076694488525,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_algoritmos",
+					"position": [
+						30.0,
+						24.0076694488525,
+						-130.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_enfermeria",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_odontologia",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-156.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "coordinador_profesores",
+					"position": [
+						48.0,
+						35.7144165039063,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 450.0,
+					"id": "profesor_ingles",
+					"position": [
+						52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_etica",
+					"position": [
+						-52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_lenguaje",
+					"position": [
+						52.0,
+						72.0086288452148,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_matematicas",
+					"position": [
+						-35.0,
+						71.9821853637695,
+						-140.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 700.0,
+					"id": "director",
+					"position": [
+						64.0,
+						84.0599975585938,
+						-131.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 1200.0,
+					"id": "nexo",
+					"position": [
+						48.0,
+						-12.018385887146,
+						-100.0
+					],
+					"state": 0.0
+				}
+			],
+			"events": {
+				"area:biblioteca": 3.0,
+				"area:casino": 4.0,
+				"area:punto": 1.0,
+				"boss:chef": 1.0,
+				"boss:punto": 1.0,
+				"checkpoint:Entrada": 1.0,
+				"collect:BandejaDelChef": 1.0,
+				"collect:Escoba": 1.0,
+				"collect:LlaveCasino": 1.0,
+				"collect:PaletaProfesional": 1.0,
+				"collect:Palo": 1.0,
+				"computer:pc_intro": 1.0,
+				"duel_started:chef": 3.0,
+				"duel_started:punto": 1.0,
+				"floor:1": 1.0,
+				"floor:2": 1.0,
+				"talk:chef": 3.0,
+				"talk:punto": 1.0
+			},
+			"health": 110.0,
+			"inventory": {
+				"entries": [
+					{
+						"data": {
+							"durability": 4.0,
+							"max_durability": 14.0
+						},
+						"item_id": "Palo",
+						"quantity": 1.0,
+						"uid": "item_1"
+					},
+					{
+						"data": {
+							"durability": 45.0,
+							"max_durability": 54.0
+						},
+						"item_id": "PaletaProfesional",
+						"quantity": 1.0,
+						"uid": "item_2"
+					},
+					{
+						"data": {
+							"durability": 30.0,
+							"max_durability": 30.0
+						},
+						"item_id": "Escoba",
+						"quantity": 1.0,
+						"uid": "item_3"
+					},
+					{
+						"data": {
+							"durability": 56.0,
+							"max_durability": 56.0
+						},
+						"item_id": "BandejaDelChef",
+						"quantity": 1.0,
+						"uid": "item_4"
+					},
+					{
+						"data": {},
+						"item_id": "LlaveCasino",
+						"quantity": 1.0,
+						"uid": "item_5"
+					}
+				],
+				"equipped": "item_2",
+				"quick": [
+					"item_1",
+					"item_2",
+					"item_3",
+					"item_4"
+				],
+				"serial": 5.0,
+				"version": 1.0
+			},
+			"minigame": false,
+			"objective": "La guardiana del conocimiento\nBusca tres libros (0/3)",
+			"paused": false,
+			"player": [
+				-46.2373504638672,
+				12.0592241287231,
+				-106.426246643066
+			],
+			"quests": {
+				"academico3": {
+					"state": 0.0
+				},
+				"academico4": {
+					"state": 0.0
+				},
+				"academico5": {
+					"state": 0.0
+				},
+				"acceso7": {
+					"state": 0.0
+				},
+				"biblioteca": {
+					"state": 1.0
+				},
+				"cargador": {
+					"state": 0.0
+				},
+				"casino": {
+					"state": 0.0
+				},
+				"direccion": {
+					"state": 0.0
+				},
+				"director_task_antivirus": {
+					"state": 0.0
+				},
+				"director_task_config": {
+					"state": 0.0
+				},
+				"director_task_network": {
+					"state": 0.0
+				},
+				"documentos": {
+					"state": 0.0
+				},
+				"implementos": {
+					"state": 0.0
+				},
+				"infectado": {
+					"state": 0.0
+				},
+				"inicio": {
+					"state": 2.0
+				},
+				"llaves": {
+					"state": 0.0
+				},
+				"nexo_final": {
+					"state": 0.0
+				},
+				"postgame": {
+					"state": 0.0
+				},
+				"seguridad6": {
+					"state": 0.0
+				},
+				"ubicar_profesores": {
+					"state": 0.0
+				}
+			},
+			"selected": "<null>"
+		},
+		"step": "Collect library book with E"
+	},
+	{
+		"result": {
+			"book": "Mision_LibroBiblioteca_-58_1",
+			"collected": true,
+			"count": 3.0
+		},
+		"state": {
+			"bosses": {
+				"chef": true,
+				"punto": true
+			},
+			"busy": false,
+			"buttons": [],
+			"camera": [
+				-52.1755409240723,
+				15.1738166809082,
+				-110.058654785156
+			],
+			"dead": false,
+			"duels": [
+				{
+					"hp": 0.0,
+					"id": "punto",
+					"position": [
+						-39.9188766479492,
+						0.00082970946095883,
+						-140.269622802734
+					],
+					"state": 4.0
+				},
+				{
+					"hp": 0.0,
+					"id": "chef",
+					"position": [
+						-77.7830963134766,
+						0.0659435465931892,
+						-101.922897338867
+					],
+					"state": 4.0
+				},
+				{
+					"hp": 125.0,
+					"id": "bibliotecaria",
+					"position": [
+						-61.5,
+						12.1083860397339,
+						-115.5
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_redes",
+					"position": [
+						65.0,
+						24.0076694488525,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_datos",
+					"position": [
+						-45.0,
+						24.0076694488525,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_algoritmos",
+					"position": [
+						30.0,
+						24.0076694488525,
+						-130.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_enfermeria",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_odontologia",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-156.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "coordinador_profesores",
+					"position": [
+						48.0,
+						35.7144165039063,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 450.0,
+					"id": "profesor_ingles",
+					"position": [
+						52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_etica",
+					"position": [
+						-52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_lenguaje",
+					"position": [
+						52.0,
+						72.0086288452148,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_matematicas",
+					"position": [
+						-35.0,
+						71.9821853637695,
+						-140.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 700.0,
+					"id": "director",
+					"position": [
+						64.0,
+						84.0599975585938,
+						-131.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 1200.0,
+					"id": "nexo",
+					"position": [
+						48.0,
+						-12.018385887146,
+						-100.0
+					],
+					"state": 0.0
+				}
+			],
+			"events": {
+				"area:biblioteca": 3.0,
+				"area:casino": 4.0,
+				"area:punto": 1.0,
+				"boss:chef": 1.0,
+				"boss:punto": 1.0,
+				"checkpoint:Entrada": 1.0,
+				"collect:BandejaDelChef": 1.0,
+				"collect:Escoba": 1.0,
+				"collect:LibroBiblioteca": 3.0,
+				"collect:LlaveCasino": 1.0,
+				"collect:PaletaProfesional": 1.0,
+				"collect:Palo": 1.0,
+				"collect:Silla": 1.0,
+				"computer:pc_intro": 1.0,
+				"duel_started:chef": 3.0,
+				"duel_started:punto": 1.0,
+				"floor:1": 1.0,
+				"floor:2": 1.0,
+				"talk:chef": 3.0,
+				"talk:punto": 1.0
+			},
+			"health": 110.0,
+			"inventory": {
+				"entries": [
+					{
+						"data": {
+							"durability": 4.0,
+							"max_durability": 14.0
+						},
+						"item_id": "Palo",
+						"quantity": 1.0,
+						"uid": "item_1"
+					},
+					{
+						"data": {
+							"durability": 45.0,
+							"max_durability": 54.0
+						},
+						"item_id": "PaletaProfesional",
+						"quantity": 1.0,
+						"uid": "item_2"
+					},
+					{
+						"data": {
+							"durability": 30.0,
+							"max_durability": 30.0
+						},
+						"item_id": "Escoba",
+						"quantity": 1.0,
+						"uid": "item_3"
+					},
+					{
+						"data": {
+							"durability": 56.0,
+							"max_durability": 56.0
+						},
+						"item_id": "BandejaDelChef",
+						"quantity": 1.0,
+						"uid": "item_4"
+					},
+					{
+						"data": {},
+						"item_id": "LlaveCasino",
+						"quantity": 1.0,
+						"uid": "item_5"
+					},
+					{
+						"data": {
+							"durability": 4.0,
+							"max_durability": 4.0
+						},
+						"item_id": "Silla",
+						"quantity": 1.0,
+						"uid": "item_6"
+					},
+					{
+						"data": {},
+						"item_id": "LibroBiblioteca",
+						"quantity": 3.0,
+						"uid": "item_7"
+					}
+				],
+				"equipped": "item_6",
+				"quick": [
+					"item_1",
+					"item_2",
+					"item_3",
+					"item_4"
+				],
+				"serial": 7.0,
+				"version": 1.0
+			},
+			"minigame": false,
+			"objective": "La guardiana del conocimiento\nSupera el duelo de preguntas (0/1)",
+			"paused": false,
+			"player": [
+				-56.7552604675293,
+				12.0593280792236,
+				-108.100456237793
+			],
+			"quests": {
+				"academico3": {
+					"state": 0.0
+				},
+				"academico4": {
+					"state": 0.0
+				},
+				"academico5": {
+					"state": 0.0
+				},
+				"acceso7": {
+					"state": 0.0
+				},
+				"biblioteca": {
+					"state": 1.0
+				},
+				"cargador": {
+					"state": 0.0
+				},
+				"casino": {
+					"state": 0.0
+				},
+				"direccion": {
+					"state": 0.0
+				},
+				"director_task_antivirus": {
+					"state": 0.0
+				},
+				"director_task_config": {
+					"state": 0.0
+				},
+				"director_task_network": {
+					"state": 0.0
+				},
+				"documentos": {
+					"state": 0.0
+				},
+				"implementos": {
+					"state": 0.0
+				},
+				"infectado": {
+					"state": 0.0
+				},
+				"inicio": {
+					"state": 2.0
+				},
+				"llaves": {
+					"state": 0.0
+				},
+				"nexo_final": {
+					"state": 0.0
+				},
+				"postgame": {
+					"state": 0.0
+				},
+				"seguridad6": {
+					"state": 0.0
+				},
+				"ubicar_profesores": {
+					"state": 0.0
+				}
+			},
+			"selected": "Mision_LibroBiblioteca_-58_1:<Node3D#8394765303465>"
+		},
+		"step": "Collect library book with E"
+	},
+	{
+		"result": {
+			"answers": [
+				{
+					"answer": "1. «Creo que la respuesta es: En el Monte del Destino.»",
+					"question": "«Hablemos de El señor de los anillos. ¿Dónde debe destruirse el Anillo Único?»"
+				},
+				{
+					"answer": "1. «Creo que la respuesta es: Un cachalote.»",
+					"question": "«Hablemos de Moby Dick. ¿Qué clase de animal persigue el capitán Ahab?»"
+				},
+				{
+					"answer": "1. «Creo que la respuesta es: Un zorro.»",
+					"question": "«Hablemos de El principito. ¿Qué animal le enseña al principito sobre la amistad?»"
+				},
+				{
+					"answer": "1. «Creo que la respuesta es: Sancho Panza.»",
+					"question": "«Hablemos de Don Quijote de la Mancha. ¿Cómo se llama el escudero de Don Quijote?»"
+				},
+				{
+					"answer": "2. «Creo que la respuesta es: Miguel de Cervantes.»",
+					"question": "«Hablemos de Don Quijote de la Mancha. ¿Quién escribió esta novela?»"
+				}
+			],
+			"books": 3.0,
+			"won": true
+		},
+		"state": {
+			"bosses": {
+				"bibliotecaria": true,
+				"chef": true,
+				"punto": true
+			},
+			"busy": false,
+			"buttons": [],
+			"camera": [
+				-62.8644332885742,
+				15.1738166809082,
+				-110.724662780762
+			],
+			"dead": false,
+			"duels": [
+				{
+					"hp": 0.0,
+					"id": "punto",
+					"position": [
+						-39.9188766479492,
+						0.00082970946095883,
+						-140.269622802734
+					],
+					"state": 4.0
+				},
+				{
+					"hp": 0.0,
+					"id": "chef",
+					"position": [
+						-77.7830963134766,
+						0.0659435465931892,
+						-101.922897338867
+					],
+					"state": 4.0
+				},
+				{
+					"hp": 0.0,
+					"id": "bibliotecaria",
+					"position": [
+						-61.5,
+						12.1083860397339,
+						-115.5
+					],
+					"state": 4.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_redes",
+					"position": [
+						65.0,
+						24.0076694488525,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_datos",
+					"position": [
+						-45.0,
+						24.0076694488525,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_algoritmos",
+					"position": [
+						30.0,
+						24.0076694488525,
+						-130.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_enfermeria",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-137.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_odontologia",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-156.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "coordinador_profesores",
+					"position": [
+						48.0,
+						35.7144165039063,
+						-145.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 450.0,
+					"id": "profesor_ingles",
+					"position": [
+						52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_etica",
+					"position": [
+						-52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_lenguaje",
+					"position": [
+						52.0,
+						72.0086288452148,
+						-132.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_matematicas",
+					"position": [
+						-35.0,
+						71.9821853637695,
+						-140.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 700.0,
+					"id": "director",
+					"position": [
+						64.0,
+						84.0599975585938,
+						-131.0
+					],
+					"state": 0.0
+				},
+				{
+					"hp": 1200.0,
+					"id": "nexo",
+					"position": [
+						48.0,
+						-12.018385887146,
+						-100.0
+					],
+					"state": 0.0
+				}
+			],
+			"events": {
+				"answer:bibliotecaria": 5.0,
+				"area:biblioteca": 3.0,
+				"area:casino": 4.0,
+				"area:punto": 1.0,
+				"boss:bibliotecaria": 1.0,
+				"boss:chef": 1.0,
+				"boss:punto": 1.0,
+				"checkpoint:Entrada": 1.0,
+				"collect:BandejaDelChef": 1.0,
+				"collect:Escoba": 1.0,
+				"collect:LibroBiblioteca": 3.0,
+				"collect:LibroEspecial": 1.0,
+				"collect:LlaveCasino": 1.0,
+				"collect:PaletaProfesional": 1.0,
+				"collect:Palo": 1.0,
+				"collect:Silla": 1.0,
+				"computer:pc_intro": 1.0,
+				"duel_started:bibliotecaria": 1.0,
+				"duel_started:chef": 3.0,
+				"duel_started:punto": 1.0,
+				"floor:1": 1.0,
+				"floor:2": 1.0,
+				"secret:rincon_biblioteca": 1.0,
+				"talk:bibliotecaria": 1.0,
+				"talk:chef": 3.0,
+				"talk:punto": 1.0
+			},
+			"health": 120.0,
+			"inventory": {
+				"entries": [
+					{
+						"data": {
+							"durability": 4.0,
+							"max_durability": 14.0
+						},
+						"item_id": "Palo",
+						"quantity": 1.0,
+						"uid": "item_1"
+					},
+					{
+						"data": {
+							"durability": 45.0,
+							"max_durability": 54.0
+						},
+						"item_id": "PaletaProfesional",
+						"quantity": 1.0,
+						"uid": "item_2"
+					},
+					{
+						"data": {
+							"durability": 30.0,
+							"max_durability": 30.0
+						},
+						"item_id": "Escoba",
+						"quantity": 1.0,
+						"uid": "item_3"
+					},
+					{
+						"data": {
+							"durability": 56.0,
+							"max_durability": 56.0
+						},
+						"item_id": "BandejaDelChef",
+						"quantity": 1.0,
+						"uid": "item_4"
+					},
+					{
+						"data": {},
+						"item_id": "LlaveCasino",
+						"quantity": 1.0,
+						"uid": "item_5"
+					},
+					{
+						"data": {
+							"durability": 4.0,
+							"max_durability": 4.0
+						},
+						"item_id": "Silla",
+						"quantity": 1.0,
+						"uid": "item_6"
+					},
+					{
+						"data": {},
+						"item_id": "LibroBiblioteca",
+						"quantity": 3.0,
+						"uid": "item_7"
+					},
+					{
+						"data": {},
+						"item_id": "LibroEspecial",
+						"quantity": 1.0,
+						"uid": "item_8"
+					}
+				],
+				"equipped": "item_6",
+				"quick": [
+					"item_1",
+					"item_2",
+					"item_3",
+					"item_4"
+				],
+				"serial": 8.0,
+				"version": 1.0
+			},
+			"minigame": false,
+			"objective": "Etapa académica · Piso 3\nLlega al piso 3 (0/1)",
+			"paused": false,
+			"player": [
+				-60.1864356994629,
+				12.0593280792236,
+				-114.583282470703
+			],
+			"quests": {
+				"academico3": {
+					"state": 1.0
+				},
+				"academico4": {
+					"state": 0.0
+				},
+				"academico5": {
+					"state": 0.0
+				},
+				"acceso7": {
+					"state": 0.0
+				},
+				"biblioteca": {
+					"state": 2.0
+				},
+				"cargador": {
+					"state": 0.0
+				},
+				"casino": {
+					"state": 0.0
+				},
+				"direccion": {
+					"state": 0.0
+				},
+				"director_task_antivirus": {
+					"state": 0.0
+				},
+				"director_task_config": {
+					"state": 0.0
+				},
+				"director_task_network": {
+					"state": 0.0
+				},
+				"documentos": {
+					"state": 0.0
+				},
+				"implementos": {
+					"state": 0.0
+				},
+				"infectado": {
+					"state": 0.0
+				},
+				"inicio": {
+					"state": 2.0
+				},
+				"llaves": {
+					"state": 0.0
+				},
+				"nexo_final": {
+					"state": 0.0
+				},
+				"postgame": {
+					"state": 0.0
+				},
+				"seguridad6": {
+					"state": 0.0
+				},
+				"ubicar_profesores": {
+					"state": 0.0
+				}
+			},
+			"selected": "RecogerSilla:<Node3D#8444996244791>"
+		},
+		"step": "Play literary duel using visible question buttons"
+	},
+	{
+		"result": {
+			"arrived": true,
+			"exit": [
+				{
+					"actual": [
+						-9.99969100952148,
+						23.967716217041,
+						-146.991622924805
+					],
+					"blockers": [
+						"/root/Main/Piso3/LosasYAccesos/LosaRecortada_12_0/Cuerpo"
+					],
+					"origin": [
+						-9.99430274963379,
+						23.9683647155762,
+						-154.568511962891
+					],
+					"reached": true,
+					"target": [
+						-10,
+						23.967668533,
+						-146.5
+					]
+				}
+			],
+			"from": 2,
+			"player_y": 23.967716217041,
+			"to": 3
+		},
+		"state": {
+			"bosses": {
+				"bibliotecaria": true,
+				"chef": true,
+				"punto": true
+			},
+			"busy": false,
+			"buttons": [],
+			"camera": [
+				-9.99685764312744,
+				26.9463863372803,
+				-151.497329711914
+			],
+			"dead": false,
+			"duels": [
+				{
+					"hp": 0.0,
+					"id": "punto",
+					"position": [
+						-39.9188766479492,
+						0.000829709460958838,
+						-140.269622802734
+					],
+					"state": 4
+				},
+				{
+					"hp": 0.0,
+					"id": "chef",
+					"position": [
+						-77.7830963134766,
+						0.0659435465931892,
+						-101.922897338867
+					],
+					"state": 4
+				},
+				{
+					"hp": 0.0,
+					"id": "bibliotecaria",
+					"position": [
+						-61.5,
+						12.1083860397339,
+						-115.5
+					],
+					"state": 4
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_redes",
+					"position": [
+						65.0,
+						24.0076694488525,
+						-145.0
+					],
+					"state": 0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_datos",
+					"position": [
+						-45.0,
+						24.0076694488525,
+						-137.0
+					],
+					"state": 0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_algoritmos",
+					"position": [
+						30.0,
+						24.0076694488525,
+						-130.0
+					],
+					"state": 0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_enfermeria",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-137.0
+					],
+					"state": 0
+				},
+				{
+					"hp": 475.0,
+					"id": "docente_odontologia",
+					"position": [
+						-60.0,
+						35.7144165039063,
+						-156.0
+					],
+					"state": 0
+				},
+				{
+					"hp": 500.0,
+					"id": "coordinador_profesores",
+					"position": [
+						48.0,
+						35.7144165039063,
+						-145.0
+					],
+					"state": 0
+				},
+				{
+					"hp": 450.0,
+					"id": "profesor_ingles",
+					"position": [
+						52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0
+				},
+				{
+					"hp": 550.0,
+					"id": "profesor_etica",
+					"position": [
+						-52.0,
+						60.2249526977539,
+						-132.0
+					],
+					"state": 0
+				},
+				{
+					"hp": 500.0,
+					"id": "profesor_lenguaje",
+					"position": [
+						52.0,
+						72.0086288452148,
+						-132.0
+					],
+					"state": 0
+				},
+				{
+					"hp": 525.0,
+					"id": "profesor_matematicas",
+					"position": [
+						-35.0,
+						71.9821853637695,
+						-140.0
+					],
+					"state": 0
+				},
+				{
+					"hp": 700.0,
+					"id": "director",
+					"position": [
+						64.0,
+						84.0599975585938,
+						-131.0
+					],
+					"state": 0
+				},
+				{
+					"hp": 1200.0,
+					"id": "nexo",
+					"position": [
+						48.0,
+						-12.018385887146,
+						-100.0
+					],
+					"state": 0
+				}
+			],
+			"events": {
+				"answer:bibliotecaria": 5,
+				"area:biblioteca": 5,
+				"area:casino": 4,
+				"area:punto": 1,
+				"boss:bibliotecaria": 1,
+				"boss:chef": 1,
+				"boss:punto": 1,
+				"checkpoint:Entrada": 1,
+				"collect:BandejaDelChef": 1,
+				"collect:Escoba": 1,
+				"collect:LibroBiblioteca": 3,
+				"collect:LibroEspecial": 1,
+				"collect:LlaveCasino": 1,
+				"collect:PaletaProfesional": 1,
+				"collect:Palo": 1,
+				"collect:Silla": 1,
+				"computer:pc_intro": 1,
+				"duel_started:bibliotecaria": 1,
+				"duel_started:chef": 3,
+				"duel_started:punto": 1,
+				"floor:1": 1,
+				"floor:2": 1,
+				"floor:3": 1,
+				"secret:rincon_biblioteca": 1,
+				"talk:bibliotecaria": 1,
+				"talk:chef": 3,
+				"talk:punto": 1
+			},
+			"health": 120.0,
+			"inventory": {
+				"entries": [
+					{
+						"data": {
+							"durability": 4,
+							"max_durability": 14
+						},
+						"item_id": "Palo",
+						"quantity": 1,
+						"uid": "item_1"
+					},
+					{
+						"data": {
+							"durability": 45,
+							"max_durability": 54
+						},
+						"item_id": "PaletaProfesional",
+						"quantity": 1,
+						"uid": "item_2"
+					},
+					{
+						"data": {
+							"durability": 30,
+							"max_durability": 30
+						},
+						"item_id": "Escoba",
+						"quantity": 1,
+						"uid": "item_3"
+					},
+					{
+						"data": {
+							"durability": 56,
+							"max_durability": 56
+						},
+						"item_id": "BandejaDelChef",
+						"quantity": 1,
+						"uid": "item_4"
+					},
+					{
+						"data": {},
+						"item_id": "LlaveCasino",
+						"quantity": 1,
+						"uid": "item_5"
+					},
+					{
+						"data": {
+							"durability": 4,
+							"max_durability": 4
+						},
+						"item_id": "Silla",
+						"quantity": 1,
+						"uid": "item_6"
+					},
+					{
+						"data": {},
+						"item_id": "LibroBiblioteca",
+						"quantity": 3,
+						"uid": "item_7"
+					},
+					{
+						"data": {},
+						"item_id": "LibroEspecial",
+						"quantity": 1,
+						"uid": "item_8"
+					}
+				],
+				"equipped": "item_6",
+				"quick": [
+					"item_1",
+					"item_2",
+					"item_3",
+					"item_4"
+				],
+				"serial": 8,
+				"version": 1
+			},
+			"minigame": false,
+			"objective": "Etapa académica · Piso 3\nResuelve el desafío académico (0/1)",
+			"paused": false,
+			"player": [
+				-9.99969100952148,
+				23.967716217041,
+				-146.991622924805
+			],
+			"quests": {
+				"academico3": {
+					"state": 1
+				},
+				"academico4": {
+					"state": 0
+				},
+				"academico5": {
+					"state": 0
+				},
+				"acceso7": {
+					"state": 0
+				},
+				"biblioteca": {
+					"state": 2
+				},
+				"cargador": {
+					"state": 0
+				},
+				"casino": {
+					"state": 0
+				},
+				"direccion": {
+					"state": 0
+				},
+				"director_task_antivirus": {
+					"state": 0
+				},
+				"director_task_config": {
+					"state": 0
+				},
+				"director_task_network": {
+					"state": 0
+				},
+				"documentos": {
+					"state": 0
+				},
+				"implementos": {
+					"state": 0
+				},
+				"infectado": {
+					"state": 0
+				},
+				"inicio": {
+					"state": 2
+				},
+				"llaves": {
+					"state": 0
+				},
+				"nexo_final": {
+					"state": 0
+				},
+				"postgame": {
+					"state": 0
+				},
+				"seguridad6": {
+					"state": 0
+				},
+				"ubicar_profesores": {
+					"state": 0
+				}
+			},
+			"selected": "CampaignCall2:<Node3D#8396845678284>"
+		},
+		"step": "Ride elevator using its menu"
+	}
+]

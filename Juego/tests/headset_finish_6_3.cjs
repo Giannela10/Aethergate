@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path'),cp=require('child_process');
+let code=fs.readFileSync('Juego/scripts/juego/npc_visual_6_3.gd','utf8');
+code=code.replace('var headgear: Array[MeshInstance3D]=[]','var headgear: Array[MeshInstance3D]=[]\nvar headset63: MeshInstance3D');
+code=code.replace('\thost.set_meta("remodel63",','\tif int(profile.get("head_accessory",0))==1:\n\t\tfor part in headgear: part.hide();hidden.append(part)\n\t\theadgear.clear()\n\t\theadset63=MeshInstance3D.new();headset63.name="Headset63"\n\t\theadset63.mesh=preload("res://scripts/juego/character_headset_6_3.gd").geometry()\n\t\theadset63.material_override=preload("res://scripts/juego/character_headset_6_3.gd").finish()\n\t\tadd_child(headset63);headgear.append(headset63)\n\thost.set_meta("remodel63",');
+code=code.replace('func reapply(_profile: Dictionary) -> void:\n','func reapply(_profile: Dictionary) -> void:\n\tif is_instance_valid(headset63): headset63.free();headset63=null\n');
+code=code.replace('func align_headgear() -> void:\n','func align_headgear() -> void:\n\tif is_instance_valid(headset63): headset63.global_basis=host.head_pivot.global_basis\n');
+code=code.replace('eyes.y+0.035*unit-bounds.get_center().y','eyes.y+0.020*unit-bounds.get_center().y');
+const jobs=[{tool:'script_write',arguments:{file_path:'res://scripts/juego/character_headset_6_3.gd',content:fs.readFileSync('Juego/scripts/juego/character_headset_6_3.gd','utf8')}},{tool:'script_write',arguments:{file_path:'res://scripts/juego/npc_visual_6_3.gd',content:code}}];
+const file=path.join(__dirname,'headset_finish_jobs63.json');fs.writeFileSync(file,JSON.stringify(jobs));
+cp.execFileSync(process.execPath,[path.join(__dirname,'visual_mcp_5.cjs'),'run',file],{stdio:'inherit'});

@@ -1,4 +1,10 @@
-# Revisión de compatibilidad y consumo — 12 de octubre de 2026
+# Revisión de compatibilidad y consumo
+
+## Estado 4.0 — 2 de noviembre de 2026
+
+La comparación vigente está en `reports/v4_performance.json` y [DUOCGAMES_4_0_REPORT.md](DUOCGAMES_4_0_REPORT.md). Incluye medición gráfica a 1152×648 con el mismo punto de observación, variante MultiMesh sobre 127 mallas fijas y recursos compartidos de laboratorios. Las llamadas de dibujo bajan, pero los tiempos de CPU variaron entre ejecuciones: la variante queda desactivada por defecto hasta una prueba prolongada. No se garantiza 60 FPS. Se conservan LOD/SLEEP y geometría/colisiones originales.
+
+## Revisión histórica — 12 de octubre de 2026
 
 ## Cambio aplicado
 

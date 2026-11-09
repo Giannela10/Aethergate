@@ -124,7 +124,20 @@ func build_elevator_lobbies() -> void:
 		# La salida de emergencia en X=-20.7 queda libre de carteles y paneles.
 		box(lobby,"CartelPlano",Vector3(-24,2.15,-147.6),Vector3(2.5,3.6,0.14),mats["white"])
 		box(lobby,"CabeceraPlano",Vector3(-24,3.8,-147.49),Vector3(2.5,0.3,0.06),mats["blue"])
-		label(lobby,"PlanoPisos","PLANO DE LOS PISOS\n\n"+str(floor_index+1)+"  USTED ESTÁ AQUÍ\n\nBIBLIOTECA · CASINO\nCOORDINACIÓN · AUDITORIO",Vector3(-24,2.3,-147.49),0,0.0028)
+		var directory := label(lobby,"PlanoPisos","PLANO DE LOS PISOS\nPISO "+str(floor_index+1)+" · USTED ESTÁ AQUÍ\n\nPISO 1\nCasino · Coordinación\n\nPISO 2\nBiblioteca · Auditorio",Vector3(-24,2.3,-147.49),0,0.003)
+		directory.outline_size = 0
+		if floor_index >= 4:
+			# The kiosk and newer classrooms hide the former west-facing approach.
+			var board = lobby.get_node("CartelPlano")
+			var heading = lobby.get_node("CabeceraPlano")
+			board.position = Vector3(-19.92,2.15,-143)
+			heading.position = Vector3(-19.81,3.8,-143)
+			directory.position = Vector3(-19.835,2.3,-143)
+			for panel in [board,heading,directory]: panel.rotation.y = PI*0.5
+			if floor_index == 4:
+				for dz in [-0.8,0.8]:
+					box(lobby,"SoporteDirectorio51"+str(dz),Vector3(-19.92,0.175,-143+dz),Vector3(0.08,0.35,0.08),mats["black"])
+				box(lobby,"BaseDirectorio51",Vector3(-19.92,0.03,-143),Vector3(0.55,0.06,2.9),mats["black"])
 		for x in [-16.0,0.0,16.0]:
 			box(lobby,"LuminariaPasillo",Vector3(x,5.6,-143),Vector3(3.4,0.06,0.12),mats["lamp"])
 			light(lobby,Vector3(x,5.3,-142),11)

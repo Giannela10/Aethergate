@@ -39,8 +39,10 @@ static func create(id: String, role: String = "ESTUDIANTE") -> Dictionary:
 		raw.shoe_style = 1
 	elif role == "TALLER":
 		raw.top = 6; raw.shoe_style = 2; raw.bottom_style = 3
+	raw["face"] = absi((id+"face").hash())%4
 	raw["body_variant"] = rng.randi_range(0,2)
 	raw["role"] = role
+	raw["visual_id"] = id
 	raw["wardrobe_version"] = 2
 	return raw
 
@@ -48,7 +50,7 @@ static func upgrade(id: String, stored: Dictionary) -> Dictionary:
 	var result := stored.duplicate(true)
 	var role: String = str(stored.get("role",role_for(id)))
 	var added := create(id,role)
-	for key in ["bottom_style","shoe_style","backpack_color","head_accessory"]:
+	for key in ["face","bottom_style","shoe_style","backpack_color","head_accessory"]:
 		if not result.has(key): result[key] = added[key]
 	if not stored.has("wardrobe_version") and role != "ESTUDIANTE": result.top = added.top
 	result.wardrobe_version = 2
@@ -71,8 +73,24 @@ static func apply(model: Node3D, preset: Dictionary) -> void:
 	var unlocks := {}
 	for key in Profile.LOCKS.values():
 		unlocks[key] = true
-	model.apply_appearance(Profile.normalize(preset,unlocks))
+	var id: String = str(preset.get("visual_id",model.get_parent().name))
+	var resolved := preset.duplicate(true)
+	if not resolved.has("face"): resolved.face=absi(id.hash())%4
+	if "chef" in id.to_lower():
+		resolved.top=2
+		resolved.clothes=6
+		resolved.outfit=1
+		resolved.backpack=0
+	model.apply_appearance(Profile.normalize(resolved,unlocks))
 	model.set_meta("visual_preset",preset.duplicate(true))
 	var width: float = [0.95,1.0,1.07][clampi(int(preset.get("body_variant",1)),0,2)]
 	model.chest.scale.x = width
 	model.hips.scale.x = width
+	# Visual work props only; existing actors retain navigation/dialogue/mentor ownership.
+	if model.has_method("set_visual_activity") and not id.is_empty():
+		var kind := ""
+		var prop := "NONE"
+		if "director" in id or "coordinador" in id: kind="READ"; prop="FOLDER"
+		elif "etica" in id or "lenguaje" in id or "bibliotec" in id: kind="READ"; prop="BOOK"
+		elif "profesor" in id or "docente" in id: kind="EXPLAIN"; prop="TABLET"
+		model.set_visual_activity(kind,prop)

@@ -1,0 +1,7 @@
+recovery/
+Juego/build/
+.godot/
+config/auth_config.json
+*.auth-session.json
+__pycache__/
+*.py[cod]

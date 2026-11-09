@@ -1,0 +1,54 @@
+[
+	{
+		"args": [
+			{
+				"class_name": "ArrayMesh",
+				"hint": 17,
+				"hint_string": "ArrayMesh",
+				"name": "existing",
+				"type": 24,
+				"usage": 6
+			}
+		],
+		"default_args": [
+			"<Object#null>"
+		],
+		"flags": 1,
+		"id": 8181,
+		"name": "bake_mesh_from_current_blend_shape_mix",
+		"return": {
+			"class_name": "ArrayMesh",
+			"hint": 17,
+			"hint_string": "ArrayMesh",
+			"name": "",
+			"type": 24,
+			"usage": 6
+		}
+	},
+	{
+		"args": [
+			{
+				"class_name": "ArrayMesh",
+				"hint": 17,
+				"hint_string": "ArrayMesh",
+				"name": "existing",
+				"type": 24,
+				"usage": 6
+			}
+		],
+		"default_args": [
+			"<Object#null>"
+		],
+		"flags": 1,
+		"id": 8182,
+		"name": "bake_mesh_from_current_skeleton_pose",
+		"return": {
+			"class_name": "ArrayMesh",
+			"hint": 17,
+			"hint_string": "ArrayMesh",
+			"name": "",
+			"type": 24,
+			"usage": 6
+		}
+	}
+]

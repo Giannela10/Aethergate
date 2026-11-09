@@ -1,4 +1,10 @@
-# Piso 3 · plan educativo (sin construcción)
+# Piso 3 · plan educativo y evolución
+
+## Implementación 4.0 — 2 de noviembre de 2026
+
+Se construyeron 301 Programación, 302 Bases de Datos, 304-B Ciberseguridad, 305 Hardware y Soporte, 306 Laboratorio General y TÉCNICA Servidores; 303 Redes conserva su sala existente. El sufijo 304-B evita duplicar el 304 previamente señalizado. Son ampliaciones de ejecución bajo CampusCampaign/DuocGames4, sin reconstruir Main.tscn. Se probaron las puertas con cápsula física. Las actividades se publican mediante el panel docente y requieren el backend 008–009. Ver [informe vigente](DUOCGAMES_4_0_REPORT.md).
+
+Las secciones siguientes conservan el levantamiento y las propuestas históricas anteriores a esta construcción.
 
 La temática vinculante es Informática y Telecomunicaciones. No se infiere otra
 facultad por nombres históricos de nodos ni por el local existente.

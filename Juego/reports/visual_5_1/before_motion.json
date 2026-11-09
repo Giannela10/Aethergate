@@ -1,0 +1,42 @@
+[
+	{
+		"camera": [
+			-12.0,
+			2.20000004768372,
+			25.0
+		],
+		"capture": "before_continuous_lattice_0000.png",
+		"elapsed_ms": 279,
+		"frame": 0
+	},
+	{
+		"camera": [
+			-5.08799982070923,
+			2.20000004768372,
+			25.0
+		],
+		"capture": "before_continuous_lattice_0010.png",
+		"elapsed_ms": 1208,
+		"frame": 10
+	},
+	{
+		"camera": [
+			1.38514280319214,
+			2.20000004768372,
+			25.0
+		],
+		"capture": "before_continuous_lattice_0020.png",
+		"elapsed_ms": 2149,
+		"frame": 20
+	},
+	{
+		"camera": [
+			7.67999982833862,
+			2.20000004768372,
+			25.0
+		],
+		"capture": "before_continuous_lattice_0030.png",
+		"elapsed_ms": 3070,
+		"frame": 30
+	}
+]

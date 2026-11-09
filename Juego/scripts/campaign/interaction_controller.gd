@@ -28,12 +28,15 @@ func scan() -> void:
 			if not node is Node3D or node.is_queued_for_deletion():
 				continue
 			var delta_pos: Vector3 = node.global_position-player.global_position
+			if node.has_method("interaction_target"):
+				var visible_target=node.interaction_target()
+				if is_instance_valid(visible_target) and visible_target.is_in_group("educational_mentor"): delta_pos=visible_target.global_position-player.global_position
 			if absf(delta_pos.y) > 2.8: continue
 			var priority: float = {"campus_interactable":0,"stationery_vendor":0,"inventory_pickup":1,"weapon_pickup":1,"computer":3}[group]
 			if node.has_method("interaction_priority"):
 				priority = node.interaction_priority()
 			var limit: float = node.interaction_range if node.get("interaction_range") != null else (4.5 if priority == 0 else (2.2 if group == "computer" else 1.8))
-			if delta_pos.length_squared() > limit*limit or not player._can_reach(node.interaction_target() if node.has_method("interaction_target") else node):
+			if delta_pos.length_squared() > limit*limit or not can_reach_target(node):
 				continue
 			var distance := delta_pos.length()
 			var text := ""
@@ -83,3 +86,19 @@ func interact_selected() -> bool:
 		"weapon_pickup": campaign.player.inventory.collect_weapon(node,false)
 		"computer": campaign.player._use_computer(node)
 	return true
+
+func can_reach_target(node: Node3D) -> bool:
+	var player=campaign.player
+	var target: Node3D=node.interaction_target() if node.has_method("interaction_target") else node
+	if player._can_reach(target): return true
+	# A mentor and its simulation collider are separate actors. Only ignore the
+	# paired simulation body; walls and other scene colliders still block sight.
+	if not target.is_in_group("educational_mentor"): return false
+	var actor=node.get("actor")
+	if not actor is CollisionObject3D: return false
+	var query=PhysicsRayQueryParameters3D.create(player.global_position+Vector3.UP*1.2,target.global_position+Vector3.UP*1.2)
+	query.exclude=[player.get_rid(),actor.get_rid()]
+	var hit=player.get_world_3d().direct_space_state.intersect_ray(query)
+	if hit.is_empty(): return true
+	var collider=hit.get("collider") as Node
+	return collider==target or collider!=null and target.is_ancestor_of(collider)

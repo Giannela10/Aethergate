@@ -1,5 +1,7 @@
 # Auditoría de limpieza de DuocGames
 
+> Informe histórico de la auditoría inicial. La limpieza y validación posterior están en [REVISION_Y_LIMPIEZA_2026_10_26.md](REVISION_Y_LIMPIEZA_2026_10_26.md). Ese informe registra las eliminaciones efectivas, incluido el prototipo HumanPilot cuyo GLB ya no está presente; las clasificaciones KEEP de abajo describen el estado anterior.
+
 Fecha: 2026-10-20. Auditoría inicial: no se eliminó ningún archivo.
 
 Se buscaron rutas res://, rutas relativas, nombres de archivo, nombres de suites entre comillas y UID de scripts en .tscn, .tres, .gd, project.godot, autoloads, tests y documentación. Incluye preload(), load() y ResourceLoader cuando usan cadenas literales. Las cargas construidas dinámicamente, class_name y ejecuciones manuales impiden considerar la ausencia de una referencia como prueba de inutilidad. Se excluyen cachés internos, addons y contenido de configuración privada.

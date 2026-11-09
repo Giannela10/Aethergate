@@ -1,0 +1,1 @@
+[{"tool":"script_edit","arguments":{"file_path":"res://scripts/education/local_practice_service.gd","old_string":"if question.subject_id==subject.id: ids.append(question.id)","new_string":"if question is Dictionary and question.get(\"subject_id\",\"\")==subject.id and question.get(\"id\") is String: ids.append(question.id)"}}]

@@ -1,0 +1,484 @@
+{
+  "scope": "Project-owned source and resources; excludes private config, addons, reports and caches.",
+  "source_files": 412,
+  "production_scripts": 190,
+  "production_functions": 1522,
+  "duplicate_production_scripts": [],
+  "missing_literal_resources": [],
+  "absent_storage_destinations": [
+    {
+      "file": "scripts/pisos/piso_3/test_profesor_redes.gd",
+      "resource": "scripts/pisos/piso_3/redes_test_temporal.json"
+    },
+    {
+      "file": "tests/academic_bosses_check.gd",
+      "resource": "tests/academic_expansion_temporary.json"
+    },
+    {
+      "file": "tests/academic_schedule.gd",
+      "resource": "tests/academic_temporary.json"
+    },
+    {
+      "file": "tests/balance_audit.gd",
+      "resource": ".godot/balance_audit_initial.json"
+    },
+    {
+      "file": "tests/campaign_regression.gd",
+      "resource": "tests/campaign_temporal.json"
+    },
+    {
+      "file": "tests/campus_fixes.gd",
+      "resource": ".godot/campus_fixes_save.json"
+    },
+    {
+      "file": "tests/campus_fixes.gd",
+      "resource": ".godot/campus_fixes_save.json"
+    },
+    {
+      "file": "tests/campus_fixes.gd",
+      "resource": ".godot/campus_fixes_failure.json"
+    },
+    {
+      "file": "tests/campus_fixes.gd",
+      "resource": ".godot/campus_fixes_missing_parent/save.json"
+    },
+    {
+      "file": "tests/contextual_interactions.gd",
+      "resource": "tests/contextual_save_temporary.json"
+    },
+    {
+      "file": "tests/education_integration.gd",
+      "resource": "tests/education_integration_fixture.json"
+    },
+    {
+      "file": "tests/inventory_regression.gd",
+      "resource": "tests/inventario_temporal.json"
+    },
+    {
+      "file": "tests/nueva_partida.gd",
+      "resource": "tests/nueva_partida_temporal.json"
+    },
+    {
+      "file": "tests/nueva_partida.gd",
+      "resource": "tests/nueva_partida_temporal.tscn"
+    },
+    {
+      "file": "tests/student_phone.gd",
+      "resource": "tests/phone_temporary.json"
+    }
+  ],
+  "single_reference_members_for_review": [],
+  "single_reference_public_functions_for_review": [
+    {
+      "file": "scripts/auth/auth_manager.gd",
+      "line": 403,
+      "name": "session_storage_summary"
+    },
+    {
+      "file": "scripts/campaign/quest_manager.gd",
+      "line": 152,
+      "name": "fail_quest"
+    },
+    {
+      "file": "scripts/compartidos/edicion/acabados_escalera_principal.gd",
+      "line": 87,
+      "name": "vista_escalera"
+    },
+    {
+      "file": "scripts/compartidos/edicion/barandas_pasillos.gd",
+      "line": 223,
+      "name": "probar_colisiones"
+    },
+    {
+      "file": "scripts/compartidos/edicion/elevar_base_auditorio.gd",
+      "line": 27,
+      "name": "close_to_building_ceiling"
+    },
+    {
+      "file": "scripts/compartidos/edicion/piso_menos_uno_y_emergencia.gd",
+      "line": 432,
+      "name": "view_atrium"
+    },
+    {
+      "file": "scripts/compartidos/edicion/piso_menos_uno_y_emergencia.gd",
+      "line": 437,
+      "name": "view_emergency"
+    },
+    {
+      "file": "scripts/compartidos/edicion/piso_menos_uno_y_emergencia.gd",
+      "line": 442,
+      "name": "preview_atrium"
+    },
+    {
+      "file": "scripts/compartidos/edicion/piso_menos_uno_y_emergencia.gd",
+      "line": 450,
+      "name": "preview_emergency"
+    },
+    {
+      "file": "scripts/compartidos/edicion/reparar_continuidad_pisos.gd",
+      "line": 70,
+      "name": "unify_elevator_floors"
+    },
+    {
+      "file": "scripts/compartidos/edicion/sala_impresiones_y_vidrios.gd",
+      "line": 101,
+      "name": "vista_piso_dos"
+    },
+    {
+      "file": "scripts/compartidos/edicion/unificar_piso_negro.gd",
+      "line": 41,
+      "name": "apply_reference"
+    },
+    {
+      "file": "scripts/education/admin_service.gd",
+      "line": 27,
+      "name": "diagnose_role_connection"
+    },
+    {
+      "file": "scripts/education/education_shell.gd",
+      "line": 37,
+      "name": "layout_diagnostics"
+    },
+    {
+      "file": "scripts/exterior/aplicar_materiales_entrada.gd",
+      "line": 5,
+      "name": "apply_materials"
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "line": 328,
+      "name": "finish_pass"
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "line": 353,
+      "name": "spatial_details"
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "line": 426,
+      "name": "compare_editor"
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "line": 448,
+      "name": "optimize_new_details"
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "line": 488,
+      "name": "remove_panel_flicker"
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "line": 497,
+      "name": "fix_garden_and_visibility"
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "line": 517,
+      "name": "classroom_computers"
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "line": 539,
+      "name": "orient_stair_signs"
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "line": 551,
+      "name": "final_geometry_fixes"
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "line": 568,
+      "name": "entrance_column_details"
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "line": 586,
+      "name": "ceiling_and_stair_materials"
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "line": 607,
+      "name": "finish_front_paving"
+    },
+    {
+      "file": "scripts/exterior/costados_referencia_fotos.gd",
+      "line": 23,
+      "name": "wall_census"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 212,
+      "name": "vista_terraza_cercana"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 217,
+      "name": "vista_orillas_referencia"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 338,
+      "name": "vista_terraza"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 344,
+      "name": "vista_aerea"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 350,
+      "name": "alinear_acceso"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 375,
+      "name": "vista_acceso"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 383,
+      "name": "ajustar_posterior_referencia"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 517,
+      "name": "ajustar_torniquetes"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 528,
+      "name": "vista_posterior_general"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 534,
+      "name": "corregir_suelo_visible"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 549,
+      "name": "revestir_franjas_amarillas"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 561,
+      "name": "agregar_npc_papeleria"
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "line": 572,
+      "name": "corregir_niveles_sede_y_patio"
+    },
+    {
+      "file": "scripts/exterior/fachada_referencia_duoc.gd",
+      "line": 11,
+      "name": "refine_casino_side"
+    },
+    {
+      "file": "scripts/exterior/fachada_referencia_duoc.gd",
+      "line": 103,
+      "name": "build_reference"
+    },
+    {
+      "file": "scripts/exterior/fachada_referencia_duoc.gd",
+      "line": 205,
+      "name": "complete_entrance"
+    },
+    {
+      "file": "scripts/exterior/fachada_referencia_duoc.gd",
+      "line": 227,
+      "name": "adaptar_explanada_frontal"
+    },
+    {
+      "file": "scripts/exterior/fachada_referencia_duoc.gd",
+      "line": 334,
+      "name": "vista_explanada_frontal"
+    },
+    {
+      "file": "scripts/exterior/fachada_referencia_duoc.gd",
+      "line": 340,
+      "name": "agregar_guardias_torniquetes"
+    },
+    {
+      "file": "scripts/exterior/fachada_referencia_duoc.gd",
+      "line": 354,
+      "name": "agregar_guardia_caseta"
+    },
+    {
+      "file": "scripts/live/content_helpers.gd",
+      "line": 21,
+      "name": "create_npc"
+    },
+    {
+      "file": "scripts/live/content_helpers.gd",
+      "line": 32,
+      "name": "create_boss"
+    },
+    {
+      "file": "scripts/live/content_helpers.gd",
+      "line": 44,
+      "name": "create_pickup"
+    },
+    {
+      "file": "scripts/live/content_helpers.gd",
+      "line": 49,
+      "name": "create_quest"
+    },
+    {
+      "file": "scripts/live/content_helpers.gd",
+      "line": 56,
+      "name": "create_event"
+    },
+    {
+      "file": "scripts/live/story_moments.gd",
+      "line": 68,
+      "name": "offer_resource"
+    },
+    {
+      "file": "scripts/organizacion/informacion_campus.gd",
+      "line": 109,
+      "name": "asignar_elemento"
+    },
+    {
+      "file": "scripts/pisos/piso_1/casino_referencia.gd",
+      "line": 7,
+      "name": "guardar_interior"
+    },
+    {
+      "file": "scripts/pisos/piso_2/auditorio_piso_2e.gd",
+      "line": 464,
+      "name": "correct_seat_pivots"
+    },
+    {
+      "file": "scripts/pisos/piso_2/auditorio_piso_2e.gd",
+      "line": 481,
+      "name": "ampliar_recinto_y_despejar_entradas"
+    },
+    {
+      "file": "scripts/pisos/piso_2/auditorio_piso_2e.gd",
+      "line": 705,
+      "name": "vista_auditorio_ampliado"
+    },
+    {
+      "file": "scripts/pisos/piso_2/auditorio_piso_2e.gd",
+      "line": 711,
+      "name": "vista_lateral_auditorio"
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_borrar_losa_morada.gd",
+      "line": 30,
+      "name": "audit_cut"
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_correccion_central.gd",
+      "line": 30,
+      "name": "audit_floor"
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_docentes.gd",
+      "line": 131,
+      "name": "audit_void"
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_docentes.gd",
+      "line": 160,
+      "name": "check_fence_walking"
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_docentes.gd",
+      "line": 200,
+      "name": "preview_docentes"
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_fila_frontal.gd",
+      "line": 129,
+      "name": "preview_front"
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_referencia.gd",
+      "line": 164,
+      "name": "side_room"
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_referencia.gd",
+      "line": 201,
+      "name": "overview"
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_referencia.gd",
+      "line": 209,
+      "name": "preview_runtime"
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_referencia.gd",
+      "line": 243,
+      "name": "validate_rooms"
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_referencia.gd",
+      "line": 268,
+      "name": "preview_sector"
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_referencia.gd",
+      "line": 294,
+      "name": "check_walk_access"
+    },
+    {
+      "file": "scripts/pisos/piso_5/ajuste_tienda_foto_octubre.gd",
+      "line": 3,
+      "name": "apply_photo"
+    },
+    {
+      "file": "scripts/pisos/piso_5/ajuste_tienda_foto_octubre.gd",
+      "line": 84,
+      "name": "align_wall"
+    },
+    {
+      "file": "scripts/pisos/piso_5/ajuste_tienda_foto_octubre.gd",
+      "line": 101,
+      "name": "finish_equipment"
+    },
+    {
+      "file": "scripts/pisos/piso_5/ajuste_tienda_foto_octubre.gd",
+      "line": 124,
+      "name": "move_to_emergency"
+    },
+    {
+      "file": "scripts/pisos/piso_5/ajuste_tienda_foto_octubre.gd",
+      "line": 170,
+      "name": "enlarge_and_close"
+    },
+    {
+      "file": "scripts/pisos/piso_5/ajuste_tienda_foto_octubre.gd",
+      "line": 196,
+      "name": "trim_installations"
+    },
+    {
+      "file": "scripts/pisos/piso_5/tienda_esquina_piso5.gd",
+      "line": 115,
+      "name": "preview_reference"
+    },
+    {
+      "file": "scripts/pisos/piso_8/piso_8_completo.gd",
+      "line": 211,
+      "name": "build_corridor"
+    },
+    {
+      "file": "scripts/pisos/piso_8/piso_8_completo.gd",
+      "line": 534,
+      "name": "build_end_lounge"
+    },
+    {
+      "file": "scripts/pisos/piso_menos_1/reconstruccion_visual_2026.gd",
+      "line": 535,
+      "name": "rebuild_all"
+    }
+  ],
+  "limitations": "Literal analysis cannot resolve constructed paths, inherited calls, signals, editor commands or arbitrary reflection. Public candidates are retained for review; absence alone never triggers deletion."
+}

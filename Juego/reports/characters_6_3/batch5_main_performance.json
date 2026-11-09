@@ -1,0 +1,8 @@
+{
+	"draw_calls": 2203.0,
+	"fps": 114.103149246919,
+	"median_ms": 8.764,
+	"method": "Actual Main, same entry camera, player walking in place, NPC idle animation calls; actor physics frozen, vsync off.",
+	"p95_ms": 17.695,
+	"samples": 180
+}

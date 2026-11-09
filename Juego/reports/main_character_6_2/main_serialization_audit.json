@@ -1,0 +1,6 @@
+{
+  "method": "Compare all section/property multisets, ignoring order, generated editor UIDs, regenerated anonymous physics node suffixes, and escaped versus literal newlines. Retains named node paths and property values.",
+  "before_sections": 50030,
+  "after_sections": 50030,
+  "changed_blocks": []
+}

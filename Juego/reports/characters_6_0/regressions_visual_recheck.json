@@ -1,0 +1,100 @@
+[
+  {
+    "suite": "characters_regression_6_0",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 748,
+    "summary": [
+      "CHARACTERS60_RESULT {\"failures\":[],\"personal_saves_used\":false}"
+    ]
+  },
+  {
+    "suite": "personajes2",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 5951,
+    "summary": [
+      "PERSONAJES2_RESULT {\"checks\":70,\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "characters3",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 758,
+    "summary": [
+      "CHARACTERS3_RESULT {\"checks\":23,\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "personalizacion",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 6520,
+    "summary": [
+      "APPEARANCE_RESULT {\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "nueva_partida",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 13362,
+    "summary": [
+      "NEW_GAME_RESULT {\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "inventory_regression",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 936,
+    "summary": [
+      "INVENTORY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}"
+    ]
+  },
+  {
+    "suite": "rendered_gameplay_check",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": true,
+    "timeout": false,
+    "elapsed_ms": 26736,
+    "summary": [
+      "RENDERED_GAMEPLAY_RESULT {\"captures\":[\"res://reports/detail_gameplay_walking.png\",\"res://reports/detail_gameplay_inventory.png\",\"res://reports/detail_gameplay_pause.png\",\"res://reports/detail_gameplay_map.png\",\"res://reports/detail_gameplay_phone.png\"],\"checks\":14,\"failures\":[],\"personal_saves_used\":false}"
+    ]
+  }
+]

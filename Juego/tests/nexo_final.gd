@@ -26,7 +26,7 @@ func run() -> void:
 	var duel = boss.duel
 	check(area.placement_valid,"Existing basement points allow capsule")
 	check(get_nodes_in_group("boss_duel").size() == 15,"Six previous bosses plus three academic action bosses")
-	check(c.quests.definitions.size() == 20,"One principal finale, no duplicate quests")
+	check(c.quests.definitions.size() == 26 and c.quests.definitions.values().filter(func(q): return q.main_quest).size() == 10,"Six additive educational missions; one unchanged principal finale")
 	check(not area.can_access() and not c.live.completed(),"New game access and completion locked")
 	area.enter_core(); check(not c.data.unlocks.get("door:nexo_core",false),"Unauthorized access cannot unlock core")
 	var original_hp: float = boss.health

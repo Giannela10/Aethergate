@@ -1,0 +1,796 @@
+﻿{
+    "batch":  [
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala807/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala807/LuzInterior_0609",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala807/LuzInterior_0611",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala807/LuzInterior_0613",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala808/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala808/LuzInterior_1225",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala808/LuzInterior_1227",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala808/LuzInterior_1229",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala805/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala805/LuzInterior_1841",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala805/LuzInterior_1843",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala805/LuzInterior_1845",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala806/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala806/LuzInterior_2457",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala806/LuzInterior_2459",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala806/LuzInterior_2461",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala809/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala809/LuzInterior_2753",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala809/LuzInterior_2755",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala809/LuzInterior_2757",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala810/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala810/LuzInterior_2917",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala810/LuzInterior_2919",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso6/PasilloReferencia/Sala810/LuzInterior_2921",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala807/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala807/LuzInterior_0609",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala807/LuzInterior_0611",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala807/LuzInterior_0613",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala808/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala808/LuzInterior_1225",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala808/LuzInterior_1227",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala808/LuzInterior_1229",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala805/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala805/LuzInterior_1841",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala805/LuzInterior_1843",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala805/LuzInterior_1845",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala806/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala806/LuzInterior_2457",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala806/LuzInterior_2459",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala806/LuzInterior_2461",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala809/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala809/LuzInterior_2753",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala809/LuzInterior_2755",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala809/LuzInterior_2757",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala810/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala810/LuzInterior_2917",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala810/LuzInterior_2919",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso7/PasilloReferencia/Sala810/LuzInterior_2921",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala807/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala807/LuzInterior_0609",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala807/LuzInterior_0611",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala807/LuzInterior_0613",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala808/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala808/LuzInterior_1225",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala808/LuzInterior_1227",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala808/LuzInterior_1229",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala805/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala805/LuzInterior_1841",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala805/LuzInterior_1843",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala805/LuzInterior_1845",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala806/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala806/LuzInterior_2457",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala806/LuzInterior_2459",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala806/LuzInterior_2461",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala809/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala809/LuzInterior_2753",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala809/LuzInterior_2755",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala809/LuzInterior_2757",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala810/LuzInterior",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala810/LuzInterior_2917",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala810/LuzInterior_2919",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  },
+                  {
+                      "property":  "light_color",
+                      "node_path":  "Piso8/PasilloReferencia/Sala810/LuzInterior_2921",
+                      "value":  {
+                                    "g":  0.98,
+                                    "r":  1,
+                                    "b":  0.95,
+                                    "type":  "Color",
+                                    "a":  1
+                                }
+                  }
+              ]
+}

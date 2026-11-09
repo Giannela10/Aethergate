@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Member "owner" redefined (original in native class 'Node')
+   at: GDScript::reload (res://scripts/education/cloud_save.gd:5)
+ERROR: Failed to load script "res://scripts/education/cloud_save.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+ERROR: Failed to instantiate an autoload, script 'res://scripts/education/cloud_save.gd' does not inherit from 'Node'.
+   at: start (main/main.cpp:4539)
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6571
+[MCPRegistry] runtime port 6571 registered for c:/users/despacho2-cd/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego
+SCRIPT_REVIEW {"checked":263,"failures":["res://scripts/education/cloud_save.gd"]}

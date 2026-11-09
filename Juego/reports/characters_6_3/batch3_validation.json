@@ -1,0 +1,20 @@
+{
+  "batch": 3,
+  "representations": 57,
+  "remodelled": 16,
+  "failures": [],
+  "dialogue": {
+    "mission_not_accepted": true,
+    "text": "[E] Hablar con Auxiliar",
+    "ui_busy": true
+  },
+  "performance": {
+    "draw_calls": 2378,
+    "fps": 127.730233746328,
+    "median_ms": 7.829,
+    "method": "Actual Main, same entry camera, player walking in place, NPC idle animation calls; actor physics frozen, vsync off.",
+    "p95_ms": 12.829,
+    "samples": 180
+  },
+  "completed_at": "2026-11-06T15:47:50.878Z"
+}

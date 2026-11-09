@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://tests/profile_npc_6_3.gd" id="1"]
+[node name="ProfileNPC63" type="Node3D"]
+script = ExtResource("1")

@@ -1,0 +1,7 @@
+{
+	"backend": "in-memory policy model plus SQL static checks; remote RLS NOT TESTED",
+	"checks": 63,
+	"failures": [],
+	"real_users_created": 0,
+	"real_users_modified": 0
+}

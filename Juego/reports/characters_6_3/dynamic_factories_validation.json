@@ -1,0 +1,79 @@
+{
+	"distinct_body_geometries": 9,
+	"failures": [],
+	"note": "Production factory invoked in an isolated fixture on all nine floor heights; these are not additional campaign actors.",
+	"rows": [
+		{
+			"factory": "ambient_presentation._body",
+			"floor": -1,
+			"geometry_hash": 1786907855,
+			"instances": 1,
+			"profile_roundtrip_stable": true,
+			"rig": 53
+		},
+		{
+			"factory": "ambient_presentation._body",
+			"floor": 1,
+			"geometry_hash": 2794438617,
+			"instances": 1,
+			"profile_roundtrip_stable": true,
+			"rig": 53
+		},
+		{
+			"factory": "ambient_presentation._body",
+			"floor": 2,
+			"geometry_hash": 873350537,
+			"instances": 1,
+			"profile_roundtrip_stable": true,
+			"rig": 53
+		},
+		{
+			"factory": "ambient_presentation._body",
+			"floor": 3,
+			"geometry_hash": 2077713891,
+			"instances": 1,
+			"profile_roundtrip_stable": true,
+			"rig": 53
+		},
+		{
+			"factory": "ambient_presentation._body",
+			"floor": 4,
+			"geometry_hash": 3226940533,
+			"instances": 1,
+			"profile_roundtrip_stable": true,
+			"rig": 53
+		},
+		{
+			"factory": "ambient_presentation._body",
+			"floor": 5,
+			"geometry_hash": 59573026,
+			"instances": 1,
+			"profile_roundtrip_stable": true,
+			"rig": 53
+		},
+		{
+			"factory": "ambient_presentation._body",
+			"floor": 6,
+			"geometry_hash": 656154361,
+			"instances": 1,
+			"profile_roundtrip_stable": true,
+			"rig": 53
+		},
+		{
+			"factory": "ambient_presentation._body",
+			"floor": 7,
+			"geometry_hash": 2424876327,
+			"instances": 1,
+			"profile_roundtrip_stable": true,
+			"rig": 53
+		},
+		{
+			"factory": "ambient_presentation._body",
+			"floor": 8,
+			"geometry_hash": 1207760783,
+			"instances": 1,
+			"profile_roundtrip_stable": true,
+			"rig": 53
+		}
+	]
+}

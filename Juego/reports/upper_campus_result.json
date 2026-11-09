@@ -1,0 +1,12 @@
+{
+	"arena_samples": {
+		"profesor_etica": 9,
+		"profesor_ingles": 9,
+		"profesor_lenguaje": 9
+	},
+	"bosses": 3,
+	"checks": 122,
+	"failures": [],
+	"memory_mib": 475.964173316956,
+	"render_fps_sample": 1.0
+}

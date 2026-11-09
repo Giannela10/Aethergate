@@ -1,0 +1,8 @@
+{
+    "paths":  [
+                  "res://scripts/juego/human_npc_6_3.gd",
+                  "res://scripts/juego/npc_visual_6_3.gd",
+                  "res://scripts/juego/humanoid.gd",
+                  "res://scripts/juego/student_visual.gd"
+              ]
+}

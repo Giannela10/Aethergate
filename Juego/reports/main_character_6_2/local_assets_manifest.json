@@ -1,0 +1,82 @@
+[
+  {
+    "file": "source/base_body_anim.glb",
+    "bytes": 11668008,
+    "sha256": "25163289e0b0fb90677b122bec11019fc01a04e52355e7289014b03151bda86e"
+  },
+  {
+    "file": "source/clothing_hoodie.glb",
+    "bytes": 831748,
+    "sha256": "171469fa2e41a14543bb56be5e5791836e69416b33a60ee56be01b0567a17832"
+  },
+  {
+    "file": "source/clothing_jeans.glb",
+    "bytes": 504992,
+    "sha256": "e8363e8784e618e04058ae451d965306a920f7926b4f400d4491b7bb5724b552"
+  },
+  {
+    "file": "source/clothing_shoes.glb",
+    "bytes": 999236,
+    "sha256": "78b0feda894a2e3b2f40a5b377d707c71135472181ee90345c5de708c2f70160"
+  },
+  {
+    "file": "source/clothing_tshirt.glb",
+    "bytes": 460364,
+    "sha256": "0a309f36d69c30734f92410752fd99c4d9780c50670b74dee228860944466f78"
+  },
+  {
+    "file": "source/hair_long01.glb",
+    "bytes": 1819868,
+    "sha256": "667c7da43063b152d53a654296ec45faf630d544cfce98127daeed6794cf922f"
+  },
+  {
+    "file": "source/hair_short02.glb",
+    "bytes": 1250168,
+    "sha256": "03ef9f39af1872791e59721ac5429538f2daefe00be160d7a19ead2cdb49df60"
+  },
+  {
+    "file": "source/hair_short04.glb",
+    "bytes": 1211580,
+    "sha256": "d969b405d30e976e93e4d0c30d036cda31af8c55b31260415ebc352f5da7212f"
+  },
+  {
+    "file": "native/base_body_anim.scn",
+    "bytes": 14022589,
+    "sha256": "76d566f736079266a83dff7b113ecd3f470c8e4b7b53c1537d27aca0b9a23ed8"
+  },
+  {
+    "file": "native/clothing_hoodie.scn",
+    "bytes": 792622,
+    "sha256": "82c24826243fcdbeb4be0c5af588b603ce5622ef9bc38f8d2a50058dca5be807"
+  },
+  {
+    "file": "native/clothing_jeans.scn",
+    "bytes": 1076786,
+    "sha256": "a3ab3366aa3b1bbb3b3548f87ff8755c31fb4469bff97bdf2650f04622feebe4"
+  },
+  {
+    "file": "native/clothing_shoes.scn",
+    "bytes": 2578785,
+    "sha256": "0119278857038318ef4cb241c73478fa79e8d4849d2445d34df460e626e8fc14"
+  },
+  {
+    "file": "native/clothing_tshirt.scn",
+    "bytes": 458104,
+    "sha256": "2be7ac7bdac462a1864168e8c0f99bb5ceef2888cc4cfb9864e4db2d9a0349ff"
+  },
+  {
+    "file": "native/hair_long01.scn",
+    "bytes": 2186745,
+    "sha256": "d17a0e1d0faf1b5e8c48f1bfdc194d9691e1c6af03a00b934b50aa0097dc66fd"
+  },
+  {
+    "file": "native/hair_short02.scn",
+    "bytes": 1452185,
+    "sha256": "655b60d7916cee91fe9d4990e542538f68e8114671718a8044ce2e618a44768f"
+  },
+  {
+    "file": "native/hair_short04.scn",
+    "bytes": 1809847,
+    "sha256": "218f4fbc6ad4caf06bfd6f25da166577a4bb631547b37c6322c5a2cbc6395d5f"
+  }
+]

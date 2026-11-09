@@ -1,0 +1,449 @@
+[
+  {
+    "suite": "characters_regression_6_0",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 759,
+    "summary": [
+      "CHARACTERS60_RESULT {\"failures\":[],\"personal_saves_used\":false}"
+    ]
+  },
+  {
+    "suite": "personajes2",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 5943,
+    "summary": [
+      "PERSONAJES2_RESULT {\"checks\":70,\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "characters3",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 752,
+    "summary": [
+      "CHARACTERS3_RESULT {\"checks\":23,\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "personalizacion",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 6687,
+    "summary": [
+      "APPEARANCE_RESULT {\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "nueva_partida",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 13195,
+    "summary": [
+      "NEW_GAME_RESULT {\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "performance_regression",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 660,
+    "summary": [
+      "PERFORMANCE_REGRESSION_RESULT {\"after_fps_mean\":65.0,\"before_fps_mean\":39.5,\"captured_windows_only\":true,\"checks\":6,\"draw_calls_after\":8357.0,\"draw_calls_before\":22055.5,\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "gameplay_regression",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 4547,
+    "summary": [
+      "GAMEPLAY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}"
+    ]
+  },
+  {
+    "suite": "inventory_regression",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 935,
+    "summary": [
+      "INVENTORY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}"
+    ]
+  },
+  {
+    "suite": "organizacion_pisos",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 4926,
+    "summary": [
+      "FLOOR_ORGANIZATION_RESULT {\"failures\":[],\"pisos\":[\"Piso −1\",\"Piso 1\",\"Piso 2\",\"Piso 3\",\"Piso 4\",\"Piso 5\",\"Piso 6\",\"Piso 7\",\"Piso 8\"],\"rutas\":596}"
+    ]
+  },
+  {
+    "suite": "placement_visual_check",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 5938,
+    "summary": [
+      "PLACEMENT_VISUAL_RESULT {\"checked\":92,\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "library_layout_check",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 5297,
+    "summary": [
+      "LIBRARY_LAYOUT_CHECK PCs=13 rooms=6 routes=21 floor_samples=231 failures=0"
+    ]
+  },
+  {
+    "suite": "campaign_regression",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 9365,
+    "summary": [
+      "CAMPAIGN_REGRESSION {\"failures\":[],\"passed\":true}"
+    ]
+  },
+  {
+    "suite": "piso8_recorridos",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 23341,
+    "summary": [
+      "PISO8_ROUTES_RESULT {\"failures\":[],\"floor\":8,\"tested\":27}"
+    ]
+  },
+  {
+    "suite": "piso8_recorridos_floor6",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 23534,
+    "summary": [
+      "PISO8_ROUTES_RESULT {\"failures\":[],\"floor\":6,\"tested\":27}"
+    ]
+  },
+  {
+    "suite": "piso8_recorridos_floor7",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 23613,
+    "summary": [
+      "PISO8_ROUTES_RESULT {\"failures\":[],\"floor\":7,\"tested\":27}"
+    ]
+  },
+  {
+    "suite": "salidas_emergencia",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 6311,
+    "summary": []
+  },
+  {
+    "suite": "guardado_lectura",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 652,
+    "summary": [
+      "SAVE_READING_RESULT {\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "cloud_save_check",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 651,
+    "summary": [
+      "CLOUD_SAVE_RESULT {\"checks\":21,\"failures\":[],\"remote_database_tested\":false}"
+    ]
+  },
+  {
+    "suite": "persistent_queue_v4",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 747,
+    "summary": [
+      "PERSISTENT_QUEUE_V4_RESULT {\"checks\":22,\"failures\":[],\"remote_database_tested\":false}"
+    ]
+  },
+  {
+    "suite": "resource_reference_check",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 9825,
+    "summary": [
+      "SCENE_REFERENCE_RESULT {\"checked_scenes\":45,\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "remember_login_check",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 747,
+    "summary": [
+      "REMEMBER_LOGIN_RESULT {\"checks\":15,\"failures\":[],\"real_accounts_modified\":0}"
+    ]
+  },
+  {
+    "suite": "education_integration",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 5934,
+    "summary": [
+      "EDUCATION_INTEGRATION_RESULT {\"checks\":18,\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "director_informatica_boss",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 738,
+    "summary": [
+      "DIRECTOR INFORMATICA: OK (0 fallos)"
+    ]
+  },
+  {
+    "suite": "nexo_final",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 9641,
+    "summary": [
+      "NEXO_FINAL_RESULT {\"checks\":111,\"failures\":[]}"
+    ]
+  },
+  {
+    "suite": "tests/BasementAccessCheck.tscn",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 20652,
+    "summary": [
+      "BASEMENT_ACCESS_RESULT {\"aperture_open\":true,\"doors\":9,\"failed\":[],\"tested\":20}"
+    ]
+  },
+  {
+    "suite": "tests/ElevatorBasementCheck.tscn",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 10472,
+    "summary": [
+      "ELEVATOR_BASEMENT_RESULT {\"failed\":[],\"tested\":3}"
+    ]
+  },
+  {
+    "suite": "LibraryAccessCheck.tscn",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 15652,
+    "summary": [
+      "FLOOR_REPAIR_RESULT {\"failures\":[],\"tested\":15}",
+      "LIBRARY_ACCESS_RESULT [{\"blockers\":[],\"box\":1,\"passed\":true,\"position\":\"(-48.08684, 12.05853, -118.76)\"},{\"blockers\":[],\"box\":2,\"passed\":true,\"position\":\"(-48.08684, 12.05857, -111.08)\"},{\"blockers\":[],\"box\":3,\"passed\":true,\"position\":\"(-48.08684, 12.05723, -103.4)\"},{\"blockers\":[],\"box\":4,\"passed\":true,\"position\":\"(-48.08684, 12.05857, -95.72)\"},{\"blockers\":[],\"box\":5,\"passed\":true,\"position\":\"(-48.08684, 12.05857, -88.04)\"},{\"blockers\":[],\"box\":6,\"passed\":true,\"position\":\"(-48.08684, 12.05857, -80.36)\"},{\"blockers\":[],\"box\":7,\"passed\":true,\"position\":\"(-53.5, 12.05857, -115.4795)\"}]"
+    ]
+  },
+  {
+    "suite": "AuditorioAccessCheck.tscn",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 16685,
+    "summary": [
+      "AUDITORIO_ACCESS_RESULT [{\"passed\":true,\"position\":\"(65.90809, 11.85745, -104.5)\",\"route\":\"Probe2\"},{\"passed\":true,\"position\":\"(48.11357, 8.642898, -118.5)\",\"route\":\"Probe0\"},{\"passed\":true,\"position\":\"(48.11357, 8.642898, -90.5)\",\"route\":\"Probe1\"}]"
+    ]
+  },
+  {
+    "suite": "tests/UserRolesCheck.tscn",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 851,
+    "summary": [
+      "USER_ROLES_RESULT {\"backend\":\"in-memory policy model plus SQL static checks; remote RLS NOT TESTED\",\"checks\":63,\"failures\":[],\"real_users_created\":0,\"real_users_modified\":0}"
+    ]
+  },
+  {
+    "suite": "tests/AcademicBossesCheck.tscn",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": false,
+    "timeout": false,
+    "elapsed_ms": 33196,
+    "summary": [
+      "ACADEMIC_BOSSES_RESULT {\"actors\":[\"profesor_datos\",\"profesor_algoritmos\",\"docente_enfermeria\",\"docente_odontologia\",\"coordinador_profesores\",\"profesor_matematicas\",\"profesor_ingles\",\"profesor_lenguaje\",\"profesor_etica\"],\"checks\":320,\"expansion_failures\":[],\"failures\":[],\"stage\":11}"
+    ]
+  },
+  {
+    "suite": "placement_stairs_visual_check",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": true,
+    "timeout": false,
+    "elapsed_ms": 24953,
+    "summary": [
+      "PLACEMENT_STAIRS_RESULT {\"camera_states\":[{\"angle\":0,\"body_visible\":true,\"camera_distance\":5.00000476837158},{\"angle\":1,\"body_visible\":true,\"camera_distance\":3.45156264305115},{\"angle\":2,\"body_visible\":true,\"camera_distance\":5.00000476837158}],\"captures\":[\"res://reports/placement_stairs_view_0.png\",\"res://reports/placement_stairs_view_1.png\",\"res://reports/placement_stairs_view_2.png\",\"res://reports/placement_grounded_stick.png\",\"res://reports/placement_grounded_chair.png\"],\"failures\":[],\"personal_saves_used\":false}"
+    ]
+  },
+  {
+    "suite": "rendered_gameplay_check",
+    "status": "PASS AUTOMÁTICO",
+    "exit_code": 0,
+    "completed": true,
+    "engine_errors": 0,
+    "reportedFailures": false,
+    "rendered": true,
+    "timeout": false,
+    "elapsed_ms": 26416,
+    "summary": [
+      "RENDERED_GAMEPLAY_RESULT {\"captures\":[\"res://reports/detail_gameplay_walking.png\",\"res://reports/detail_gameplay_inventory.png\",\"res://reports/detail_gameplay_pause.png\",\"res://reports/detail_gameplay_map.png\",\"res://reports/detail_gameplay_phone.png\"],\"checks\":14,\"failures\":[],\"personal_saves_used\":false}"
+    ]
+  }
+]

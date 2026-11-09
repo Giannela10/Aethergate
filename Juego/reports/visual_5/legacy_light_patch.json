@@ -1,0 +1,154 @@
+﻿{
+    "batch":  [
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso1/Iluminacion/LuzNorte",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso1/Iluminacion/LuzNorte",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso2/Iluminacion/LuzNorte",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso2/Iluminacion/LuzNorte",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso2/Iluminacion/LuzSur",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso2/Iluminacion/LuzSur",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso3/Iluminacion/LuzNorte",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso3/Iluminacion/LuzNorte",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso3/Iluminacion/LuzSur",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso3/Iluminacion/LuzSur",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso4/Iluminacion/LuzNorte",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso4/Iluminacion/LuzNorte",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso4/Iluminacion/LuzSur",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso4/Iluminacion/LuzSur",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso5/Iluminacion/LuzNorte",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso5/Iluminacion/LuzNorte",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso5/Iluminacion/LuzSur",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso5/Iluminacion/LuzSur",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso6/Iluminacion/LuzNorte",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso6/Iluminacion/LuzNorte",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso6/Iluminacion/LuzSur",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso6/Iluminacion/LuzSur",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso7/Iluminacion/LuzNorte",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso7/Iluminacion/LuzNorte",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso7/Iluminacion/LuzSur",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso7/Iluminacion/LuzSur",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso8/Iluminacion/LuzNorte",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso8/Iluminacion/LuzNorte",
+                      "value":  16
+                  },
+                  {
+                      "property":  "visible",
+                      "node_path":  "Piso8/Iluminacion/LuzSur",
+                      "value":  false
+                  },
+                  {
+                      "property":  "omni_range",
+                      "node_path":  "Piso8/Iluminacion/LuzSur",
+                      "value":  16
+                  }
+              ]
+}

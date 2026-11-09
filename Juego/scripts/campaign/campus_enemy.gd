@@ -9,6 +9,9 @@ var minions: Array = []
 
 func _ready() -> void:
 	super._ready()
+	body.hide()
+	add_child(preload("res://scripts/campaign/simulation_visual_v4.gd").digital_model())
+	set_meta("simulation_enemy",true)
 	hp_max = 60+floor_number*8
 	speed_factor = 0.8+floor_number*0.04
 	melee_damage = 5+floor_number

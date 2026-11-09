@@ -203,7 +203,7 @@ func linear_light(parent: Node3D, center: Vector3, length_value: float = 3.4, an
 	var light := OmniLight3D.new()
 	light.name = "LuzInterior"
 	light.position = center + Vector3.DOWN * 0.25
-	light.light_color = Color(1.0, 0.93, 0.83)
+	light.light_color = Color(1.0, 0.98, 0.95)
 	light.light_energy = 1.0
 	light.omni_range = 8.5
 	owned(light, parent)
@@ -355,8 +355,10 @@ func classroom(number: int, x: float, width: float, entry_z: float, depth: float
 	box("Pizarra", Vector3(0, 1.95, -depth + 0.10), Vector3(5.0, 1.6, 0.08), materials.ceramic, false, room)
 	box("MarcoPizarra", Vector3(0, 1.09, -depth + 0.15), Vector3(5.1, 0.05, 0.10), materials.steel, false, room)
 	label_on(room, "TextoPizarra", "Duoc UC\nSala %d" % number, Vector3(0, 1.95, -depth + 0.155), 0, Color(0.08, 0.12, 0.16), 0.004)
-	box("PantallaProyeccion", Vector3(width * 0.5 - 2.0, 2.45, -depth + 0.12), Vector3(2.3, 1.3, 0.08), materials.black, false, room)
-	box("ImagenProyector", Vector3(width * 0.5 - 2.0, 2.45, -depth + 0.17), Vector3(2.15, 1.15, 0.015), materials.blue, false, room)
+	# Narrow rooms need the screen above the board, outside its writing area.
+	var projection_height := 3.6 if width <= 6.5 else 2.45
+	box("PantallaProyeccion", Vector3(width * 0.5 - 2.0, projection_height, -depth + 0.12), Vector3(2.3, 1.3, 0.08), materials.black, false, room)
+	box("ImagenProyector", Vector3(width * 0.5 - 2.0, projection_height, -depth + 0.17), Vector3(2.15, 1.15, 0.015), materials.blue, false, room)
 	desk(room, Vector3(0, 0, -depth + 2.1), true)
 	chair(room, Vector3(0, 0, -depth + 1.25), PI)
 	var rows_count := mini(6, maxi(1, int((depth - 5.0) / 2.0)))
@@ -370,7 +372,11 @@ func classroom(number: int, x: float, width: float, entry_z: float, depth: float
 	for px in [-width * 0.25, width * 0.25]:
 		for pz in [-depth * 0.25, -depth * 0.70]:
 			linear_light(room, Vector3(px, 3.65, pz), 2.8)
-	box("ArmarioMateriales", Vector3(width * 0.5 - 0.7, 1.0, -depth + 1.0), Vector3(1.0, 2.0, 0.55), materials.wood, true, room)
+	var cupboard := box("ArmarioMateriales", Vector3(width * 0.5 - 0.7, 1.0, -depth + 1.0), Vector3(1.0, 2.0, 0.55), materials.wood, true, room)
+	if width <= 6.5:
+		# Side-wall storage clears the board and stays beyond the teaching aisle.
+		cupboard.position = Vector3(width * 0.5 - 0.35, 1.0, -depth + 1.5)
+		cupboard.rotation.y = PI * 0.5
 	rooms.append({"numero": number, "entrada": Vector3(x, 0, entry_z), "ancho": width, "profundidad": depth, "frontal": front, "lado": "sur" if south else "norte"})
 
 func build_south_corridor() -> void:

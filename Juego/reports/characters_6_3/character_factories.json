@@ -1,0 +1,212 @@
+[
+  {
+    "file": ".codex/check_auditorium.gd",
+    "line": 6,
+    "source": "var actor := CharacterBody3D.new()"
+  },
+  {
+    "file": ".codex/check_rear_and_gates.gd",
+    "line": 38,
+    "source": "actor = CharacterBody3D.new()"
+  },
+  {
+    "file": ".codex/check_terrace_access.gd",
+    "line": 7,
+    "source": "var actor := CharacterBody3D.new()"
+  },
+  {
+    "file": ".codex/check_uniform_corridors.gd",
+    "line": 6,
+    "source": "var actor := CharacterBody3D.new()"
+  },
+  {
+    "file": ".codex/walk_side_stairs.gd",
+    "line": 10,
+    "source": "var actor := CharacterBody3D.new()"
+  },
+  {
+    "file": ".codex/walk_stairs.gd",
+    "line": 10,
+    "source": "var actor := CharacterBody3D.new()"
+  },
+  {
+    "file": "scripts/campaign/academic_boss.gd",
+    "line": 29,
+    "source": "return preload(\"res://scripts/juego/student_visual.gd\").new()"
+  },
+  {
+    "file": "scripts/campaign/academic_boss.gd",
+    "line": 253,
+    "source": "if npc.get_script() != preload(\"res://scripts/campaign/npc.gd\") or not inside_arena(npc.global_position): continue"
+  },
+  {
+    "file": "scripts/campaign/campus_content.gd",
+    "line": 49,
+    "source": "var npc = load(\"res://scripts/campaign/npc.gd\").new()"
+  },
+  {
+    "file": "scripts/campaign/campus_content.gd",
+    "line": 145,
+    "source": "var enemy = load(\"res://scripts/campaign/campus_enemy.gd\").new()"
+  },
+  {
+    "file": "scripts/campaign/campus_enemy.gd",
+    "line": 13,
+    "source": "add_child(preload(\"res://scripts/campaign/simulation_visual_v4.gd\").digital_model())"
+  },
+  {
+    "file": "scripts/campaign/interaction_controller.gd",
+    "line": 70,
+    "source": "return {\"npc.gd\":\"talk\",\"campus_vendor.gd\":\"vending\",\"furniture_pickup.gd\":\"pickup\",\"world_item.gd\":\"pickup\",\"locked_access.gd\":\"door\",\"elevator_interaction.gd\":\"elevator\",\"network_router_interactable.gd\":\"button\"}.get(file,\"\")"
+  },
+  {
+    "file": "scripts/campaign/npc.gd",
+    "line": 17,
+    "source": "model = load(\"res://scripts/juego/student_visual.gd\").new()"
+  },
+  {
+    "file": "scripts/campaign/simulation_visual_v4.gd",
+    "line": 12,
+    "source": "static func digital_model() -> Node3D:"
+  },
+  {
+    "file": "scripts/campaign/simulation_visual_v4.gd",
+    "line": 38,
+    "source": "hologram = digital_model()"
+  },
+  {
+    "file": "scripts/campaign/simulation_visual_v4.gd",
+    "line": 46,
+    "source": "var visual := preload(\"res://scripts/juego/student_visual.gd\").new()"
+  },
+  {
+    "file": "scripts/campaign/student_phone.gd",
+    "line": 179,
+    "source": "if npc and npc.get_script() == preload(\"res://scripts/campaign/npc.gd\"):"
+  },
+  {
+    "file": "scripts/education/escort_student_v4.gd",
+    "line": 8,
+    "source": "visual=preload(\"res://scripts/juego/student_visual.gd\").new(); add_child(visual)"
+  },
+  {
+    "file": "scripts/education/mission_bug_v4.gd",
+    "line": 12,
+    "source": "body=preload(\"res://scripts/campaign/simulation_visual_v4.gd\").digital_model(); body.scale=Vector3.ONE*0.45; body.position.y=0.3; add_child(body)"
+  },
+  {
+    "file": "scripts/education/routine_civilian_v4.gd",
+    "line": 15,
+    "source": "visual = preload(\"res://scripts/juego/student_visual.gd\").new()"
+  },
+  {
+    "file": "scripts/exterior/fachada_referencia_duoc.gd",
+    "line": 345,
+    "source": "var guard := CharacterBody3D.new()"
+  },
+  {
+    "file": "scripts/exterior/fachada_referencia_duoc.gd",
+    "line": 387,
+    "source": "var guard := CharacterBody3D.new()"
+  },
+  {
+    "file": "scripts/exterior/guardia_torniquetes.gd",
+    "line": 23,
+    "source": "model = load(\"res://scripts/juego/humanoid.gd\").new()"
+  },
+  {
+    "file": "scripts/juego/enemy.gd",
+    "line": 15,
+    "source": "const Humanoid = preload(\"res://scripts/juego/humanoid.gd\")"
+  },
+  {
+    "file": "scripts/juego/gameplay_manager.gd",
+    "line": 46,
+    "source": "player = CharacterBody3D.new()"
+  },
+  {
+    "file": "scripts/juego/gameplay_manager.gd",
+    "line": 107,
+    "source": "var e := CharacterBody3D.new()"
+  },
+  {
+    "file": "scripts/juego/main_character_visual_6.gd",
+    "line": 1,
+    "source": "extends \"res://scripts/juego/student_visual.gd\""
+  },
+  {
+    "file": "scripts/juego/player.gd",
+    "line": 2,
+    "source": "## Jugador. Usa humanoid.gd para el cuerpo y las animaciones."
+  },
+  {
+    "file": "scripts/juego/player.gd",
+    "line": 18,
+    "source": "const Humanoid = preload(\"res://scripts/juego/humanoid.gd\")"
+  },
+  {
+    "file": "scripts/juego/student_visual.gd",
+    "line": 1,
+    "source": "extends \"res://scripts/juego/humanoid.gd\""
+  },
+  {
+    "file": "scripts/live/ambient_events.gd",
+    "line": 59,
+    "source": "if node.get_script() == preload(\"res://scripts/campaign/npc.gd\"): candidates.append(node)"
+  },
+  {
+    "file": "scripts/live/ambient_presentation.gd",
+    "line": 51,
+    "source": "var body := preload(\"res://scripts/juego/student_visual.gd\").new()"
+  },
+  {
+    "file": "scripts/live/content_helpers.gd",
+    "line": 26,
+    "source": "var npc := preload(\"res://scripts/campaign/npc.gd\").new()"
+  },
+  {
+    "file": "scripts/live/floor_activity_manager.gd",
+    "line": 33,
+    "source": "if actor.get_script() != null and str(actor.get_script().resource_path) == \"res://scripts/campaign/campus_enemy.gd\":"
+  },
+  {
+    "file": "scripts/live/qa_tools.gd",
+    "line": 16,
+    "source": "if node.get_script() == preload(\"res://scripts/campaign/npc.gd\"):"
+  },
+  {
+    "file": "scripts/pisos/piso_1/boss_ayuda_estudiantil.gd",
+    "line": 5,
+    "source": "const Humanoid = preload(\"res://scripts/juego/humanoid.gd\")"
+  },
+  {
+    "file": "scripts/pisos/piso_1/boss_ayuda_estudiantil.gd",
+    "line": 68,
+    "source": "_mover = CharacterBody3D.new()"
+  },
+  {
+    "file": "scripts/pisos/piso_1/npc_papeleria.gd",
+    "line": 16,
+    "source": "model = load(\"res://scripts/juego/student_visual.gd\").new()"
+  },
+  {
+    "file": "scripts/pisos/piso_2/boss_bibliotecaria.gd",
+    "line": 3,
+    "source": "const Humanoid = preload(\"res://scripts/juego/humanoid.gd\")"
+  },
+  {
+    "file": "scripts/pisos/piso_4/piso_4_docentes.gd",
+    "line": 163,
+    "source": "var actor := CharacterBody3D.new()"
+  },
+  {
+    "file": "scripts/pisos/piso_4/piso_4_referencia.gd",
+    "line": 297,
+    "source": "var actor := CharacterBody3D.new()"
+  },
+  {
+    "file": "scripts/pisos/piso_8/director_informatica_boss.gd",
+    "line": 23,
+    "source": "return preload(\"res://scripts/juego/student_visual.gd\").new()"
+  }
+]

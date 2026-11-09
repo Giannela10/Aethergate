@@ -1,0 +1,5 @@
+{
+    "old_string":  "const StudentVisual = preload(\"res://scripts/juego/student_visual.gd\")",
+    "new_string":  "const StudentVisual = preload(\"res://scripts/juego/main_character_visual_6.gd\")",
+    "file_path":  "res://scripts/juego/player.gd"
+}

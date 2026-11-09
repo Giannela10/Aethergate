@@ -1,0 +1,5 @@
+{
+    "old_string":  "working = Profile.normalize({} if starting else campaign.data.appearance,allowed)",
+    "new_string":  "working = Profile.normalize({} if starting else campaign.data.appearance,allowed)\n\tif starting:\n\t\tworking.merge({\"top\":1,\"bottom_style\":1,\"pants\":5,\"shoes\":5,\"backpack\":1,\"backpack_color\":5},true)",
+    "file_path":  "res://scripts/campaign/appearance_menu.gd"
+}

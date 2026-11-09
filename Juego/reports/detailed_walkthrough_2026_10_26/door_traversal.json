@@ -1,0 +1,2845 @@
+[
+	{
+		"door": "Piso1/SalaAyudaEstudiantil/EntradaVidrio/PuertaVidrio",
+		"id": 0,
+		"path": "Piso1/SalaAyudaEstudiantil",
+		"route": [
+			{
+				"actual": [
+					-37.5087280273438,
+					0.000205196440219879,
+					-137.084777832031
+				],
+				"blockers": [
+					"/root/Main/Piso1/LosasYAccesos/LosaRecortada_1_2/Cuerpo"
+				],
+				"origin": [
+					-37.5087280273438,
+					0.000205196440219879,
+					-133.162094116211
+				],
+				"reached": true,
+				"target": [
+					-37.5087280273438,
+					0.100000001490116,
+					-137.562088012695
+				]
+			},
+			{
+				"actual": [
+					-37.5087280273438,
+					0.000205196440219879,
+					-133.644348144531
+				],
+				"blockers": [
+					"/root/Main/Piso1/LosasYAccesos/LosaRecortada_1_2/Cuerpo"
+				],
+				"origin": [
+					-37.5087280273438,
+					0.000205196440219879,
+					-137.084777832031
+				],
+				"reached": true,
+				"target": [
+					-37.5087280273438,
+					0.0400001183152199,
+					-133.162094116211
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso1/Casino/EntradaVidrio",
+		"id": 1,
+		"path": "Piso1/Casino",
+		"route": [
+			{
+				"actual": [
+					-34.0761489868164,
+					0.0651358291506767,
+					-116.499626159668
+				],
+				"blockers": [
+					"/root/Main/Piso1/Casino/InteriorFotografico/PisoBaldosas/@StaticBody3D@24096"
+				],
+				"origin": [
+					-30.1380004882813,
+					0.00620505958795547,
+					-116.5
+				],
+				"reached": true,
+				"target": [
+					-34.5380020141602,
+					0.100000001490116,
+					-116.5
+				]
+			},
+			{
+				"actual": [
+					-30.6354579925537,
+					0.00609748205170035,
+					-116.499954223633
+				],
+				"blockers": [
+					"/root/Main/Piso1/LosasYAccesos/LosaRecortada_0_1/Cuerpo"
+				],
+				"origin": [
+					-34.0761489868164,
+					0.0651358291506767,
+					-116.499626159668
+				],
+				"reached": true,
+				"target": [
+					-30.1380004882813,
+					0.0459999814629555,
+					-116.5
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"id": 2,
+		"path": "Piso1/PasilloDerechoYCapilla/Capilla",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"door": "Piso1/InteriorCoordinacion/SalaReuniones/PuertaVidrio",
+		"id": 3,
+		"path": "Piso1/InteriorCoordinacion",
+		"route": [
+			{
+				"actual": [
+					73.1003952026367,
+					0.120205104351044,
+					-107.922035217285
+				],
+				"blockers": [
+					"/root/Main/Piso1/InteriorCoordinacion/PisoCoordinacion/@StaticBody3D@212642"
+				],
+				"origin": [
+					73.0999984741211,
+					0.120205104351044,
+					-104.0
+				],
+				"reached": true,
+				"target": [
+					73.0999984741211,
+					0.100000001490116,
+					-108.399993896484
+				]
+			},
+			{
+				"actual": [
+					73.1000442504883,
+					0.120205104351044,
+					-104.482246398926
+				],
+				"blockers": [
+					"/root/Main/Piso1/InteriorCoordinacion/PisoCoordinacion/@StaticBody3D@212642"
+				],
+				"origin": [
+					73.1003952026367,
+					0.120205104351044,
+					-107.922035217285
+				],
+				"reached": true,
+				"target": [
+					73.0999984741211,
+					0.160000026226044,
+					-104.0
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso1/InteriorCoordinacion/SalaReuniones/PuertaVidrio",
+		"id": 4,
+		"path": "Piso1/InteriorCoordinacion/SalaReuniones",
+		"route": [
+			{
+				"actual": [
+					73.0999908447266,
+					0.120205104351044,
+					-104.477996826172
+				],
+				"blockers": [
+					"/root/Main/Piso1/InteriorCoordinacion/PisoCoordinacion/@StaticBody3D@212642"
+				],
+				"origin": [
+					73.0999984741211,
+					0.120205104351044,
+					-108.399993896484
+				],
+				"reached": true,
+				"target": [
+					73.0999984741211,
+					0.100000001490116,
+					-104.0
+				]
+			},
+			{
+				"actual": [
+					73.0999908447266,
+					0.120205104351044,
+					-107.917785644531
+				],
+				"blockers": [
+					"/root/Main/Piso1/InteriorCoordinacion/PisoCoordinacion/@StaticBody3D@212642"
+				],
+				"origin": [
+					73.0999908447266,
+					0.120205104351044,
+					-104.477996826172
+				],
+				"reached": true,
+				"target": [
+					73.0999984741211,
+					0.160000026226044,
+					-108.399993896484
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"id": 5,
+		"path": "Piso2/AuditorioPiso2e",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"id": 6,
+		"path": "Piso2/SalaImpresiones",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"door": "Piso2/Biblioteca/EntradaVidrio",
+		"id": 7,
+		"path": "Piso2/Biblioteca",
+		"route": [
+			{
+				"actual": [
+					-53.5,
+					12.0585908889771,
+					-120.981895446777
+				],
+				"blockers": [
+					"/root/Main/Piso2/Losas/LosaOriginal10/StaticBody3D"
+				],
+				"origin": [
+					-53.5,
+					12.0585908889771,
+					-124.899993896484
+				],
+				"reached": true,
+				"target": [
+					-53.5,
+					12.1583862304688,
+					-120.5
+				]
+			},
+			{
+				"actual": [
+					-53.5,
+					12.0585908889771,
+					-124.421684265137
+				],
+				"blockers": [
+					"/root/Main/Piso2/Losas/LosaOriginal01/StaticBody3D"
+				],
+				"origin": [
+					-53.5,
+					12.0585908889771,
+					-120.981895446777
+				],
+				"reached": true,
+				"target": [
+					-53.5,
+					12.0983858108521,
+					-124.899993896484
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"id": 8,
+		"path": "Piso3/LocalComidaReferencia",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"door": "Piso3/SalaDetrasLocal/Sala303/PuertaSala",
+		"id": 9,
+		"path": "Piso3/SalaDetrasLocal",
+		"route": [
+			{
+				"actual": [
+					27.9498882293701,
+					23.9738597869873,
+					-120.332664489746
+				],
+				"blockers": [
+					"/root/Main/Piso3/AcabadosPasillos/PasilloEste/Cuerpo"
+				],
+				"origin": [
+					27.9498882293701,
+					23.9678745269775,
+					-124.25
+				],
+				"reached": true,
+				"target": [
+					27.9498882293701,
+					24.0676689147949,
+					-119.850006103516
+				]
+			},
+			{
+				"actual": [
+					27.9498882293701,
+					23.9677562713623,
+					-123.753059387207
+				],
+				"blockers": [
+					"/root/Main/Piso3/Losas/LosaOriginal08/LosaPasoEscalera1"
+				],
+				"origin": [
+					27.9498882293701,
+					23.9738597869873,
+					-120.332664489746
+				],
+				"reached": true,
+				"target": [
+					27.9498882293701,
+					24.0076694488525,
+					-124.25
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso3/SalaDetrasLocal/Sala303/PuertaSala",
+		"id": 10,
+		"path": "Piso3/SalaDetrasLocal/Sala303",
+		"route": [
+			{
+				"actual": [
+					27.9498882293701,
+					23.9738597869873,
+					-120.332664489746
+				],
+				"blockers": [
+					"/root/Main/Piso3/AcabadosPasillos/PasilloEste/Cuerpo"
+				],
+				"origin": [
+					27.9498882293701,
+					23.9678745269775,
+					-124.25
+				],
+				"reached": true,
+				"target": [
+					27.9498882293701,
+					24.0676689147949,
+					-119.850006103516
+				]
+			},
+			{
+				"actual": [
+					27.9498882293701,
+					23.9677562713623,
+					-123.753059387207
+				],
+				"blockers": [
+					"/root/Main/Piso3/Losas/LosaOriginal08/LosaPasoEscalera1"
+				],
+				"origin": [
+					27.9498882293701,
+					23.9738597869873,
+					-120.332664489746
+				],
+				"reached": true,
+				"target": [
+					27.9498882293701,
+					24.0076694488525,
+					-124.25
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"id": 11,
+		"path": "Piso3/SalaDetrasLocal/Sala303/LaboratorioInformaticaFotos",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"door": "Piso4/DistribucionPlanoPiso4/411/Puerta",
+		"id": 12,
+		"path": "Piso4/DistribucionPlanoPiso4/411",
+		"route": [
+			{
+				"actual": [
+					-66.3999938964844,
+					35.6746215820313,
+					-141.722686767578
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41574/@StaticBody3D@41575"
+				],
+				"origin": [
+					-66.3999938964844,
+					35.6746215820313,
+					-137.800003051758
+				],
+				"reached": true,
+				"target": [
+					-66.3999938964844,
+					35.7744140625,
+					-142.199996948242
+				]
+			},
+			{
+				"actual": [
+					-66.3999938964844,
+					35.6746215820313,
+					-138.282257080078
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41574/@StaticBody3D@41575"
+				],
+				"origin": [
+					-66.3999938964844,
+					35.6746215820313,
+					-141.722686767578
+				],
+				"reached": true,
+				"target": [
+					-66.3999938964844,
+					35.7144165039063,
+					-137.800003051758
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/DistribucionPlanoPiso4/412/Puerta",
+		"id": 13,
+		"path": "Piso4/DistribucionPlanoPiso4/412",
+		"route": [
+			{
+				"actual": [
+					-56.7999992370605,
+					35.6743774414063,
+					-141.707122802734
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41574/@StaticBody3D@41575"
+				],
+				"origin": [
+					-56.7999992370605,
+					35.6743774414063,
+					-137.800003051758
+				],
+				"reached": true,
+				"target": [
+					-56.7999992370605,
+					35.7744140625,
+					-142.199996948242
+				]
+			},
+			{
+				"actual": [
+					-56.7999992370605,
+					35.6743774414063,
+					-138.266693115234
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41574/@StaticBody3D@41575"
+				],
+				"origin": [
+					-56.7999992370605,
+					35.6743774414063,
+					-141.707122802734
+				],
+				"reached": true,
+				"target": [
+					-56.7999992370605,
+					35.7144165039063,
+					-137.800003051758
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/DistribucionPlanoPiso4/413/Puerta",
+		"id": 14,
+		"path": "Piso4/DistribucionPlanoPiso4/413",
+		"route": [
+			{
+				"actual": [
+					-47.7000007629395,
+					35.6746215820313,
+					-141.718795776367
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41574/@StaticBody3D@41575"
+				],
+				"origin": [
+					-47.7000007629395,
+					35.6746215820313,
+					-137.800003051758
+				],
+				"reached": true,
+				"target": [
+					-47.7000007629395,
+					35.7744140625,
+					-142.199996948242
+				]
+			},
+			{
+				"actual": [
+					-47.7000007629395,
+					35.6746215820313,
+					-138.278366088867
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41574/@StaticBody3D@41575"
+				],
+				"origin": [
+					-47.7000007629395,
+					35.6746215820313,
+					-141.718795776367
+				],
+				"reached": true,
+				"target": [
+					-47.7000007629395,
+					35.7144165039063,
+					-137.800003051758
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/DistribucionPlanoPiso4/BAÑO MUJERES/Puerta",
+		"id": 15,
+		"path": "Piso4/DistribucionPlanoPiso4/BAÑO MUJERES",
+		"route": [
+			{
+				"actual": [
+					-39.3000030517578,
+					35.6746215820313,
+					-141.718795776367
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41574/@StaticBody3D@41575"
+				],
+				"origin": [
+					-39.3000030517578,
+					35.6746215820313,
+					-137.800003051758
+				],
+				"reached": true,
+				"target": [
+					-39.3000030517578,
+					35.7744140625,
+					-142.199996948242
+				]
+			},
+			{
+				"actual": [
+					-39.3000030517578,
+					35.6746215820313,
+					-138.278366088867
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41574/@StaticBody3D@41575"
+				],
+				"origin": [
+					-39.3000030517578,
+					35.6746215820313,
+					-141.718795776367
+				],
+				"reached": true,
+				"target": [
+					-39.3000030517578,
+					35.7144165039063,
+					-137.800003051758
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/DistribucionPlanoPiso4/416/Puerta",
+		"id": 16,
+		"path": "Piso4/DistribucionPlanoPiso4/416",
+		"route": [
+			{
+				"actual": [
+					-30.7045001983643,
+					35.6746215820313,
+					-141.707122802734
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41574/@StaticBody3D@41575"
+				],
+				"origin": [
+					-30.7045001983643,
+					35.6746215820313,
+					-137.800003051758
+				],
+				"reached": true,
+				"target": [
+					-30.7045001983643,
+					35.7744140625,
+					-142.199996948242
+				]
+			},
+			{
+				"actual": [
+					-30.7045001983643,
+					35.6746215820313,
+					-138.266693115234
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41574/@StaticBody3D@41575"
+				],
+				"origin": [
+					-30.7045001983643,
+					35.6746215820313,
+					-141.707122802734
+				],
+				"reached": true,
+				"target": [
+					-30.7045001983643,
+					35.7144165039063,
+					-137.800003051758
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/SectorDocentesPiso4/BanosDocentes/Puerta",
+		"id": 17,
+		"path": "Piso4/SectorDocentesPiso4/BanosDocentes",
+		"route": [
+			{
+				"actual": [
+					37.0499992370605,
+					35.6743774414063,
+					-141.718795776367
+				],
+				"blockers": [
+					"/root/Main/Piso4/Losas/LosaOriginal02/LosaPasoEscalera1"
+				],
+				"origin": [
+					37.0499992370605,
+					35.6743774414063,
+					-137.800003051758
+				],
+				"reached": true,
+				"target": [
+					37.0499992370605,
+					35.7744140625,
+					-142.199996948242
+				]
+			},
+			{
+				"actual": [
+					37.0499992370605,
+					35.6743774414063,
+					-138.278366088867
+				],
+				"blockers": [
+					"/root/Main/Piso4/Losas/LosaOriginal02/LosaPasoEscalera1"
+				],
+				"origin": [
+					37.0499992370605,
+					35.6743774414063,
+					-141.718795776367
+				],
+				"reached": true,
+				"target": [
+					37.0499992370605,
+					35.7144165039063,
+					-137.800003051758
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/SectorDocentesPiso4/ProfesoresCoordDocente/Puerta",
+		"id": 18,
+		"path": "Piso4/SectorDocentesPiso4/ProfesoresCoordDocente",
+		"route": [
+			{
+				"actual": [
+					51.8499984741211,
+					35.6746215820313,
+					-141.729339599609
+				],
+				"blockers": [
+					"/root/Main/Piso4/Losas/LosaOriginal02/LosaPasoEscalera1"
+				],
+				"origin": [
+					51.8499984741211,
+					35.6746215820313,
+					-137.800003051758
+				],
+				"reached": true,
+				"target": [
+					51.8499984741211,
+					35.7744140625,
+					-142.199996948242
+				]
+			},
+			{
+				"actual": [
+					51.8499984741211,
+					35.6746215820313,
+					-138.288909912109
+				],
+				"blockers": [
+					"/root/Main/Piso4/Losas/LosaOriginal02/LosaPasoEscalera1"
+				],
+				"origin": [
+					51.8499984741211,
+					35.6746215820313,
+					-141.729339599609
+				],
+				"reached": true,
+				"target": [
+					51.8499984741211,
+					35.7144165039063,
+					-137.800003051758
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/SectorDocentesPiso4/ED/Puerta",
+		"id": 19,
+		"path": "Piso4/SectorDocentesPiso4/ED",
+		"route": [
+			{
+				"actual": [
+					66.1100006103516,
+					35.6746215820313,
+					-141.718795776367
+				],
+				"blockers": [
+					"/root/Main/Piso4/Losas/LosaOriginal02/LosaPasoEscalera1"
+				],
+				"origin": [
+					66.1100006103516,
+					35.6746215820313,
+					-137.800003051758
+				],
+				"reached": true,
+				"target": [
+					66.1100006103516,
+					35.7744140625,
+					-142.199996948242
+				]
+			},
+			{
+				"actual": [
+					66.1100006103516,
+					35.6746215820313,
+					-138.278366088867
+				],
+				"blockers": [
+					"/root/Main/Piso4/Losas/LosaOriginal02/LosaPasoEscalera1"
+				],
+				"origin": [
+					66.1100006103516,
+					35.6746215820313,
+					-141.718795776367
+				],
+				"reached": true,
+				"target": [
+					66.1100006103516,
+					35.7144165039063,
+					-137.800003051758
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/410/Puerta",
+		"id": 20,
+		"path": "Piso4/FilaFrontalPiso4/410",
+		"route": [
+			{
+				"actual": [
+					-79.9243850708008,
+					35.6746215820313,
+					-85.6878356933594
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-79.9243850708008,
+					35.6746215820313,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					-79.9243850708008,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					-79.9243850708008,
+					35.6746215820313,
+					-89.1276245117188
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-79.9243850708008,
+					35.6746215820313,
+					-85.6878356933594
+				],
+				"reached": true,
+				"target": [
+					-79.9243850708008,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/409/Puerta",
+		"id": 21,
+		"path": "Piso4/FilaFrontalPiso4/409",
+		"route": [
+			{
+				"actual": [
+					-70.970573425293,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-70.970573425293,
+					35.6746215820313,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					-70.970573425293,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					-70.970573425293,
+					35.6746215820313,
+					-89.143180847168
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-70.970573425293,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"reached": true,
+				"target": [
+					-70.970573425293,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/408/Puerta",
+		"id": 22,
+		"path": "Piso4/FilaFrontalPiso4/408",
+		"route": [
+			{
+				"actual": [
+					-62.5141983032227,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-62.5141983032227,
+					35.6746215820313,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					-62.5141983032227,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					-62.5141983032227,
+					35.6746215820313,
+					-89.143180847168
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-62.5141983032227,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"reached": true,
+				"target": [
+					-62.5141983032227,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/PanolSalud/Puerta",
+		"id": 23,
+		"path": "Piso4/FilaFrontalPiso4/PanolSalud",
+		"route": [
+			{
+				"actual": [
+					-56.0475654602051,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-56.0475654602051,
+					35.6746215820313,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					-56.0475654602051,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					-56.0475654602051,
+					35.6746215820313,
+					-89.143180847168
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-56.0475654602051,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"reached": true,
+				"target": [
+					-56.0475654602051,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/407/Puerta",
+		"id": 24,
+		"path": "Piso4/FilaFrontalPiso4/407",
+		"route": [
+			{
+				"actual": [
+					-48.337345123291,
+					35.6743774414063,
+					-85.7033920288086
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-48.337345123291,
+					35.6743774414063,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					-48.337345123291,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					-48.337345123291,
+					35.6743774414063,
+					-89.143180847168
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-48.337345123291,
+					35.6743774414063,
+					-85.7033920288086
+				],
+				"reached": true,
+				"target": [
+					-48.337345123291,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/406/Puerta",
+		"id": 25,
+		"path": "Piso4/FilaFrontalPiso4/406",
+		"route": [
+			{
+				"actual": [
+					-38.6373901367188,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-38.6373901367188,
+					35.6746215820313,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					-38.6373901367188,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					-38.6373901367188,
+					35.6746215820313,
+					-89.143180847168
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-38.6373901367188,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"reached": true,
+				"target": [
+					-38.6373901367188,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/405/Puerta",
+		"id": 26,
+		"path": "Piso4/FilaFrontalPiso4/405",
+		"route": [
+			{
+				"actual": [
+					-30.1810169219971,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-30.1810169219971,
+					35.6746215820313,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					-30.1810169219971,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					-30.1810169219971,
+					35.6746215820313,
+					-89.143180847168
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-30.1810169219971,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"reached": true,
+				"target": [
+					-30.1810169219971,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/404/Puerta",
+		"id": 27,
+		"path": "Piso4/FilaFrontalPiso4/404",
+		"route": [
+			{
+				"actual": [
+					-20.7297782897949,
+					35.6748886108398,
+					-85.6917266845703
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-20.7297782897949,
+					35.6748886108398,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					-20.7297782897949,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					-20.7297782897949,
+					35.6748886108398,
+					-89.1315155029297
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-20.7297782897949,
+					35.6748886108398,
+					-85.6917266845703
+				],
+				"reached": true,
+				"target": [
+					-20.7297782897949,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/CoworkDocente/Puerta",
+		"id": 28,
+		"path": "Piso4/FilaFrontalPiso4/CoworkDocente",
+		"route": [
+			{
+				"actual": [
+					-10.2836723327637,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-10.2836723327637,
+					35.6746215820313,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					-10.2836723327637,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					-10.2836723327637,
+					35.6746215820313,
+					-89.143180847168
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-10.2836723327637,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"reached": true,
+				"target": [
+					-10.2836723327637,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/402/Puerta",
+		"id": 29,
+		"path": "Piso4/FilaFrontalPiso4/402",
+		"route": [
+			{
+				"actual": [
+					0.411150515079498,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					0.411149978637695,
+					35.6746215820313,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					0.411150634288788,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					0.411150127649307,
+					35.6746215820313,
+					-89.143180847168
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					0.411150515079498,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"reached": true,
+				"target": [
+					0.411149978637695,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/401/Puerta",
+		"id": 30,
+		"path": "Piso4/FilaFrontalPiso4/401",
+		"route": [
+			{
+				"actual": [
+					11.3546905517578,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					11.3546905517578,
+					35.6746215820313,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					11.3546905517578,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					11.3546905517578,
+					35.6746215820313,
+					-89.143180847168
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					11.3546905517578,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"reached": true,
+				"target": [
+					11.3546905517578,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/AdmisionComunicacionExtension/Puerta",
+		"id": 31,
+		"path": "Piso4/FilaFrontalPiso4/AdmisionComunicacionExtension",
+		"route": [
+			{
+				"actual": [
+					24.2879638671875,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					24.2879638671875,
+					35.6746215820313,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					24.2879638671875,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					24.2879638671875,
+					35.6746215820313,
+					-89.143180847168
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					24.2879638671875,
+					35.6746215820313,
+					-85.7033920288086
+				],
+				"reached": true,
+				"target": [
+					24.2879638671875,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/ContabilidadAdministracion/Puerta",
+		"id": 32,
+		"path": "Piso4/FilaFrontalPiso4/ContabilidadAdministracion",
+		"route": [
+			{
+				"actual": [
+					37.2212409973145,
+					35.6743774414063,
+					-85.7033920288086
+				],
+				"blockers": [
+					"/root/Main/Piso4/FilaFrontalPiso4/LosaFilaFrontal/@StaticBody3D@36117"
+				],
+				"origin": [
+					37.2212409973145,
+					35.6743774414063,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					37.2212409973145,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					37.2212409973145,
+					35.6743774414063,
+					-89.1431732177734
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte2/Cuerpo"
+				],
+				"origin": [
+					37.2212409973145,
+					35.6743774414063,
+					-85.7033920288086
+				],
+				"reached": true,
+				"target": [
+					37.2212409973145,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/Cafeteria/Puerta",
+		"id": 33,
+		"path": "Piso4/FilaFrontalPiso4/Cafeteria",
+		"route": [
+			{
+				"actual": [
+					45.4288940429688,
+					35.6746215820313,
+					-85.6917190551758
+				],
+				"blockers": [
+					"/root/Main/Piso4/FilaFrontalPiso4/LosaFilaFrontal/@StaticBody3D@36117"
+				],
+				"origin": [
+					45.4288940429688,
+					35.6746215820313,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					45.4288940429688,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					45.4288940429688,
+					35.6746215820313,
+					-89.1315078735352
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte2/Cuerpo"
+				],
+				"origin": [
+					45.4288940429688,
+					35.6746215820313,
+					-85.6917190551758
+				],
+				"reached": true,
+				"target": [
+					45.4288940429688,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/DireccionSede/Puerta",
+		"id": 34,
+		"path": "Piso4/FilaFrontalPiso4/DireccionSede",
+		"route": [
+			{
+				"actual": [
+					57.6160202026367,
+					35.6743774414063,
+					-85.7033920288086
+				],
+				"blockers": [
+					"/root/Main/Piso4/FilaFrontalPiso4/LosaFilaFrontal/@StaticBody3D@36117"
+				],
+				"origin": [
+					57.6160202026367,
+					35.6743774414063,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					57.6160202026367,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					57.6160202026367,
+					35.6743774414063,
+					-89.1431732177734
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte2/Cuerpo"
+				],
+				"origin": [
+					57.6160202026367,
+					35.6743774414063,
+					-85.7033920288086
+				],
+				"reached": true,
+				"target": [
+					57.6160202026367,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/FilaFrontalPiso4/SalaReunionesDireccion/Puerta",
+		"id": 35,
+		"path": "Piso4/FilaFrontalPiso4/SalaReunionesDireccion",
+		"route": [
+			{
+				"actual": [
+					75.5236206054688,
+					35.6746215820313,
+					-85.6917266845703
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte1/Cuerpo"
+				],
+				"origin": [
+					75.5236206054688,
+					35.6746215820313,
+					-89.6098327636719
+				],
+				"reached": true,
+				"target": [
+					75.5236206054688,
+					35.7744140625,
+					-85.2098388671875
+				]
+			},
+			{
+				"actual": [
+					75.5236206054688,
+					35.6746215820313,
+					-89.1315155029297
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte1/Cuerpo"
+				],
+				"origin": [
+					75.5236206054688,
+					35.6746215820313,
+					-85.6917266845703
+				],
+				"reached": true,
+				"target": [
+					75.5236206054688,
+					35.7144165039063,
+					-89.6098327636719
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/SalasCentralesPiso4/418/Puerta",
+		"id": 36,
+		"path": "Piso4/SalasCentralesPiso4/418",
+		"route": [
+			{
+				"actual": [
+					-63.8869972229004,
+					35.6752700805664,
+					-99.0300903320313
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41571/@StaticBody3D@41572"
+				],
+				"origin": [
+					-63.8869972229004,
+					35.6746215820313,
+					-95.1080932617188
+				],
+				"reached": true,
+				"target": [
+					-63.8869972229004,
+					35.7744140625,
+					-99.5080871582031
+				]
+			},
+			{
+				"actual": [
+					-63.8869972229004,
+					35.6752700805664,
+					-95.5903015136719
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-63.8869972229004,
+					35.6752700805664,
+					-99.0300903320313
+				],
+				"reached": true,
+				"target": [
+					-63.8869972229004,
+					35.7144165039063,
+					-95.1080932617188
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/SalasCentralesPiso4/417/Puerta",
+		"id": 37,
+		"path": "Piso4/SalasCentralesPiso4/417",
+		"route": [
+			{
+				"actual": [
+					-51.4160003662109,
+					35.6746215820313,
+					-99.0262069702148
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41571/@StaticBody3D@41572"
+				],
+				"origin": [
+					-51.4160003662109,
+					35.6746215820313,
+					-95.1080932617188
+				],
+				"reached": true,
+				"target": [
+					-51.4160003662109,
+					35.7744140625,
+					-99.5080871582031
+				]
+			},
+			{
+				"actual": [
+					-51.4160003662109,
+					35.6746215820313,
+					-95.5864181518555
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-51.4160003662109,
+					35.6746215820313,
+					-99.0262069702148
+				],
+				"reached": true,
+				"target": [
+					-51.4160003662109,
+					35.7144165039063,
+					-95.1080932617188
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso4/SalasCentralesPiso4/415/Puerta",
+		"id": 38,
+		"path": "Piso4/SalasCentralesPiso4/415",
+		"route": [
+			{
+				"actual": [
+					-38.8009986877441,
+					35.6746215820313,
+					-99.0300979614258
+				],
+				"blockers": [
+					"/root/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41571/@StaticBody3D@41572"
+				],
+				"origin": [
+					-38.8009986877441,
+					35.6746215820313,
+					-95.1080932617188
+				],
+				"reached": true,
+				"target": [
+					-38.8009986877441,
+					35.7744140625,
+					-99.5080871582031
+				]
+			},
+			{
+				"actual": [
+					-38.8009986877441,
+					35.6746215820313,
+					-95.5903091430664
+				],
+				"blockers": [
+					"/root/Main/Piso2/AuditorioPiso2e/AuditorioAmpliado/LosaRecortadaPiso4Parte0/Cuerpo"
+				],
+				"origin": [
+					-38.8009986877441,
+					35.6746215820313,
+					-99.0300979614258
+				],
+				"reached": true,
+				"target": [
+					-38.8009986877441,
+					35.7144165039063,
+					-95.1080932617188
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"id": 39,
+		"path": "Piso5/TerrazaPicnic",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"id": 40,
+		"path": "Piso5/TiendaEsquinaPiso5",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"door": "Piso6/PasilloReferencia/Sala807/PuertaSala",
+		"id": 41,
+		"path": "Piso6/PasilloReferencia/Sala807",
+		"route": [
+			{
+				"actual": [
+					-50.0,
+					60.1584663391113,
+					-139.519943237305
+				],
+				"blockers": [
+					"/root/Main/Piso6/Losas/LosaOriginal04/LosaPasoEscalera1"
+				],
+				"origin": [
+					-50.0,
+					60.1851577758789,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					-50.0,
+					60.2585029602051,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					-50.0,
+					60.1858139038086,
+					-136.063613891602
+				],
+				"blockers": [
+					"/root/Main/Piso6/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+				],
+				"origin": [
+					-50.0,
+					60.1584663391113,
+					-139.519943237305
+				],
+				"reached": true,
+				"target": [
+					-50.0,
+					60.2249526977539,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso6/PasilloReferencia/Sala808/PuertaSala",
+		"id": 42,
+		"path": "Piso6/PasilloReferencia/Sala808",
+		"route": [
+			{
+				"actual": [
+					-34.0,
+					60.1586647033691,
+					-139.508102416992
+				],
+				"blockers": [
+					"/root/Main/Piso6/Losas/LosaOriginal04/LosaPasoEscalera1"
+				],
+				"origin": [
+					-34.0,
+					60.1851577758789,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					-34.0,
+					60.2585029602051,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					-34.0,
+					60.1856269836426,
+					-136.066192626953
+				],
+				"blockers": [
+					"/root/Main/Piso6/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+				],
+				"origin": [
+					-34.0,
+					60.1586647033691,
+					-139.508102416992
+				],
+				"reached": true,
+				"target": [
+					-34.0,
+					60.2249526977539,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso6/PasilloReferencia/Sala805/PuertaSala",
+		"id": 43,
+		"path": "Piso6/PasilloReferencia/Sala805",
+		"route": [
+			{
+				"actual": [
+					39.25,
+					60.1589241027832,
+					-139.509674072266
+				],
+				"blockers": [
+					"/root/Main/Piso6/Losas/LosaOriginal01/LosaPasoEscalera1"
+				],
+				"origin": [
+					39.25,
+					60.1851577758789,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					39.25,
+					60.2585029602051,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					39.25,
+					60.1856231689453,
+					-136.067489624023
+				],
+				"blockers": [
+					"/root/Main/Piso6/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur_3672/Cuerpo"
+				],
+				"origin": [
+					39.25,
+					60.1589241027832,
+					-139.509674072266
+				],
+				"reached": true,
+				"target": [
+					39.25,
+					60.2249526977539,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso6/PasilloReferencia/Sala806/PuertaSala",
+		"id": 44,
+		"path": "Piso6/PasilloReferencia/Sala806",
+		"route": [
+			{
+				"actual": [
+					51.75,
+					60.158863067627,
+					-139.519836425781
+				],
+				"blockers": [
+					"/root/Main/Piso6/Losas/LosaOriginal01/LosaPasoEscalera1"
+				],
+				"origin": [
+					51.75,
+					60.1851577758789,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					51.75,
+					60.2585029602051,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					51.75,
+					60.1849708557129,
+					-136.06315612793
+				],
+				"blockers": [
+					"/root/Main/Piso6/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur_3672/Cuerpo"
+				],
+				"origin": [
+					51.75,
+					60.158863067627,
+					-139.519836425781
+				],
+				"reached": true,
+				"target": [
+					51.75,
+					60.2249526977539,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso6/PasilloReferencia/Sala809/PuertaSala",
+		"id": 45,
+		"path": "Piso6/PasilloReferencia/Sala809",
+		"route": [
+			{
+				"actual": [
+					26.5,
+					60.1586380004883,
+					-139.519790649414
+				],
+				"blockers": [
+					"/root/Main/Piso6/Losas/LosaOriginal01/LosaPasoEscalera1"
+				],
+				"origin": [
+					26.5,
+					60.1849136352539,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					26.5,
+					60.2585029602051,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					26.5,
+					60.1855926513672,
+					-136.063262939453
+				],
+				"blockers": [
+					"/root/Main/Piso6/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur_3672/Cuerpo"
+				],
+				"origin": [
+					26.5,
+					60.1586380004883,
+					-139.519790649414
+				],
+				"reached": true,
+				"target": [
+					26.5,
+					60.2249526977539,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso6/PasilloReferencia/Sala810/PuertaSala",
+		"id": 46,
+		"path": "Piso6/PasilloReferencia/Sala810",
+		"route": [
+			{
+				"actual": [
+					-23.0,
+					60.1588478088379,
+					-139.509704589844
+				],
+				"blockers": [
+					"/root/Main/Piso6/Losas/LosaOriginal04/LosaPasoEscalera1"
+				],
+				"origin": [
+					-23.0,
+					60.1851577758789,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					-23.0,
+					60.2585029602051,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					-23.0,
+					60.1852264404297,
+					-136.075698852539
+				],
+				"blockers": [
+					"/root/Main/Piso6/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+				],
+				"origin": [
+					-23.0,
+					60.1588478088379,
+					-139.509704589844
+				],
+				"reached": true,
+				"target": [
+					-23.0,
+					60.2249526977539,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso6/PasilloReferencia/BanosMujeres/PuertaBano",
+		"id": 47,
+		"path": "Piso6/PasilloReferencia/BanosMujeres",
+		"route": [
+			{
+				"actual": [
+					-64.0,
+					60.1587944030762,
+					-139.521026611328
+				],
+				"blockers": [
+					"/root/Main/Piso6/Losas/LosaOriginal04/LosaPasoEscalera1"
+				],
+				"origin": [
+					-64.0,
+					60.1851577758789,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					-64.0,
+					60.2585029602051,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					-64.0,
+					60.1854934692383,
+					-136.086318969727
+				],
+				"blockers": [
+					"/root/Main/Piso6/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+				],
+				"origin": [
+					-64.0,
+					60.1587944030762,
+					-139.521026611328
+				],
+				"reached": true,
+				"target": [
+					-64.0,
+					60.2249526977539,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso6/PasilloReferencia/BanosHombres/PuertaBano",
+		"id": 48,
+		"path": "Piso6/PasilloReferencia/BanosHombres",
+		"route": [
+			{
+				"actual": [
+					64.0,
+					60.158618927002,
+					-139.521392822266
+				],
+				"blockers": [
+					"/root/Main/Piso6/Losas/LosaOriginal01/LosaPasoEscalera1"
+				],
+				"origin": [
+					64.0,
+					60.1851577758789,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					64.0,
+					60.2585029602051,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					64.0,
+					60.185245513916,
+					-136.087265014648
+				],
+				"blockers": [
+					"/root/Main/Piso6/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur_3672/Cuerpo"
+				],
+				"origin": [
+					64.0,
+					60.158618927002,
+					-139.521392822266
+				],
+				"reached": true,
+				"target": [
+					64.0,
+					60.2249526977539,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso7/PasilloReferencia/Sala807/PuertaSala",
+		"id": 49,
+		"path": "Piso7/PasilloReferencia/Sala807",
+		"route": [
+			{
+				"actual": [
+					-50.0,
+					71.9427947998047,
+					-139.507919311523
+				],
+				"blockers": [
+					"/root/Main/Piso7/Losas/LosaOriginal05/LosaPasoEscalera1"
+				],
+				"origin": [
+					-50.0,
+					71.9688339233398,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					-50.0,
+					72.0421829223633,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					-50.0,
+					71.9693450927734,
+					-136.065444946289
+				],
+				"blockers": [
+					"/root/Main/Piso7/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+				],
+				"origin": [
+					-50.0,
+					71.9427947998047,
+					-139.507919311523
+				],
+				"reached": true,
+				"target": [
+					-50.0,
+					72.0086288452148,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso7/PasilloReferencia/Sala808/PuertaSala",
+		"id": 50,
+		"path": "Piso7/PasilloReferencia/Sala808",
+		"route": [
+			{
+				"actual": [
+					-34.0,
+					71.9423522949219,
+					-139.520080566406
+				],
+				"blockers": [
+					"/root/Main/Piso7/Losas/LosaOriginal05/LosaPasoEscalera1"
+				],
+				"origin": [
+					-34.0,
+					71.9688339233398,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					-34.0,
+					72.0421829223633,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					-34.0,
+					71.968635559082,
+					-136.063949584961
+				],
+				"blockers": [
+					"/root/Main/Piso7/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+				],
+				"origin": [
+					-34.0,
+					71.9423522949219,
+					-139.520080566406
+				],
+				"reached": true,
+				"target": [
+					-34.0,
+					72.0086288452148,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"id": 51,
+		"path": "Piso7/PasilloReferencia/Sala805",
+		"required_item": "TarjetaAcceso",
+		"status": "locked_as_designed"
+	},
+	{
+		"door": "Piso7/PasilloReferencia/Sala806/PuertaSala",
+		"id": 52,
+		"path": "Piso7/PasilloReferencia/Sala806",
+		"route": [
+			{
+				"actual": [
+					51.75,
+					71.9427108764648,
+					-139.519500732422
+				],
+				"blockers": [
+					"/root/Main/Piso7/Losas/LosaOriginal01/LosaPasoEscalera1"
+				],
+				"origin": [
+					51.75,
+					71.9688339233398,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					51.75,
+					72.0421829223633,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					51.75,
+					71.9686126708984,
+					-136.062973022461
+				],
+				"blockers": [
+					"/root/Main/Piso7/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur_3672/Cuerpo"
+				],
+				"origin": [
+					51.75,
+					71.9427108764648,
+					-139.519500732422
+				],
+				"reached": true,
+				"target": [
+					51.75,
+					72.0086288452148,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso7/PasilloReferencia/Sala809/PuertaSala",
+		"id": 53,
+		"path": "Piso7/PasilloReferencia/Sala809",
+		"route": [
+			{
+				"actual": [
+					26.5,
+					71.9425201416016,
+					-139.520797729492
+				],
+				"blockers": [
+					"/root/Main/Piso7/Losas/LosaOriginal01/LosaPasoEscalera1"
+				],
+				"origin": [
+					26.5,
+					71.9685897827148,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					26.5,
+					72.0421829223633,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					26.5,
+					71.9692611694336,
+					-136.064453125
+				],
+				"blockers": [
+					"/root/Main/Piso7/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur_3672/Cuerpo"
+				],
+				"origin": [
+					26.5,
+					71.9425201416016,
+					-139.520797729492
+				],
+				"reached": true,
+				"target": [
+					26.5,
+					72.0086288452148,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso7/PasilloReferencia/Sala810/PuertaSala",
+		"id": 54,
+		"path": "Piso7/PasilloReferencia/Sala810",
+		"route": [
+			{
+				"actual": [
+					-23.0,
+					71.942985534668,
+					-139.511856079102
+				],
+				"blockers": [
+					"/root/Main/Piso7/Losas/LosaOriginal05/LosaPasoEscalera1"
+				],
+				"origin": [
+					-23.0,
+					71.9688339233398,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					-23.0,
+					72.0421829223633,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					-23.0,
+					71.9693450927734,
+					-136.076553344727
+				],
+				"blockers": [
+					"/root/Main/Piso7/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+				],
+				"origin": [
+					-23.0,
+					71.942985534668,
+					-139.511856079102
+				],
+				"reached": true,
+				"target": [
+					-23.0,
+					72.0086288452148,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso7/PasilloReferencia/BanosMujeres/PuertaBano",
+		"id": 55,
+		"path": "Piso7/PasilloReferencia/BanosMujeres",
+		"route": [
+			{
+				"actual": [
+					-64.0,
+					71.9425506591797,
+					-139.520568847656
+				],
+				"blockers": [
+					"/root/Main/Piso7/Losas/LosaOriginal05/LosaPasoEscalera1"
+				],
+				"origin": [
+					-64.0,
+					71.9688339233398,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					-64.0,
+					72.0421829223633,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					-64.0,
+					71.9689102172852,
+					-136.086151123047
+				],
+				"blockers": [
+					"/root/Main/Piso7/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+				],
+				"origin": [
+					-64.0,
+					71.9425506591797,
+					-139.520568847656
+				],
+				"reached": true,
+				"target": [
+					-64.0,
+					72.0086288452148,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso7/PasilloReferencia/BanosHombres/PuertaBano",
+		"id": 56,
+		"path": "Piso7/PasilloReferencia/BanosHombres",
+		"route": [
+			{
+				"actual": [
+					64.0,
+					71.9427108764648,
+					-139.519088745117
+				],
+				"blockers": [
+					"/root/Main/Piso7/Losas/LosaOriginal01/LosaPasoEscalera1"
+				],
+				"origin": [
+					64.0,
+					71.9688339233398,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					64.0,
+					72.0421829223633,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					64.0,
+					71.9690093994141,
+					-136.085357666016
+				],
+				"blockers": [
+					"/root/Main/Piso7/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur_3672/Cuerpo"
+				],
+				"origin": [
+					64.0,
+					71.9427108764648,
+					-139.519088745117
+				],
+				"reached": true,
+				"target": [
+					64.0,
+					72.0086288452148,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso8/PasilloReferencia/Sala807/PuertaSala",
+		"id": 57,
+		"path": "Piso8/PasilloReferencia/Sala807",
+		"route": [
+			{
+				"actual": [
+					-50.0,
+					83.9136428833008,
+					-139.521926879883
+				],
+				"blockers": [
+					"/root/Main/Piso8/Losas/LosaOriginal06/LosaPasoEscalera1"
+				],
+				"origin": [
+					-50.0,
+					83.9402084350586,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					-50.0,
+					84.0135498046875,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					-50.0,
+					83.9407958984375,
+					-136.065322875977
+				],
+				"blockers": [
+					"/root/Main/Piso8/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+				],
+				"origin": [
+					-50.0,
+					83.9136428833008,
+					-139.521926879883
+				],
+				"reached": true,
+				"target": [
+					-50.0,
+					83.9800033569336,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso8/PasilloReferencia/Sala808/PuertaSala",
+		"id": 58,
+		"path": "Piso8/PasilloReferencia/Sala808",
+		"route": [
+			{
+				"actual": [
+					-34.0,
+					83.9140853881836,
+					-139.507431030273
+				],
+				"blockers": [
+					"/root/Main/Piso8/Losas/LosaOriginal06/LosaPasoEscalera1"
+				],
+				"origin": [
+					-34.0,
+					83.9402084350586,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					-34.0,
+					84.0135498046875,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					-34.0,
+					83.9399795532227,
+					-136.064682006836
+				],
+				"blockers": [
+					"/root/Main/Piso8/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+				],
+				"origin": [
+					-34.0,
+					83.9140853881836,
+					-139.507431030273
+				],
+				"reached": true,
+				"target": [
+					-34.0,
+					83.9800033569336,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"id": 59,
+		"path": "Piso8/PasilloReferencia/Sala805",
+		"required_item": "TarjetaAcceso",
+		"status": "locked_as_designed"
+	},
+	{
+		"id": 60,
+		"path": "Piso8/PasilloReferencia/Sala806",
+		"required_item": "CredencialDirector",
+		"status": "locked_as_designed"
+	},
+	{
+		"door": "Piso8/PasilloReferencia/Sala809/PuertaSala",
+		"id": 61,
+		"path": "Piso8/PasilloReferencia/Sala809",
+		"route": [
+			{
+				"actual": [
+					26.5,
+					83.9138870239258,
+					-139.520797729492
+				],
+				"blockers": [
+					"/root/Main/Piso8/Losas/LosaOriginal01/LosaPasoEscalera1"
+				],
+				"origin": [
+					26.5,
+					83.9399642944336,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					26.5,
+					84.0135498046875,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					26.5,
+					83.9406356811523,
+					-136.064071655273
+				],
+				"blockers": [
+					"/root/Main/Piso8/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur_3672/Cuerpo"
+				],
+				"origin": [
+					26.5,
+					83.9138870239258,
+					-139.520797729492
+				],
+				"reached": true,
+				"target": [
+					26.5,
+					83.9800033569336,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso8/PasilloReferencia/Sala810/PuertaSala",
+		"id": 62,
+		"path": "Piso8/PasilloReferencia/Sala810",
+		"route": [
+			{
+				"actual": [
+					-23.0,
+					83.9143676757813,
+					-139.511840820313
+				],
+				"blockers": [
+					"/root/Main/Piso8/Losas/LosaOriginal06/LosaPasoEscalera1"
+				],
+				"origin": [
+					-23.0,
+					83.9402084350586,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					-23.0,
+					84.0135498046875,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					-23.0,
+					83.9406661987305,
+					-136.076553344727
+				],
+				"blockers": [
+					"/root/Main/Piso8/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+				],
+				"origin": [
+					-23.0,
+					83.9143676757813,
+					-139.511840820313
+				],
+				"reached": true,
+				"target": [
+					-23.0,
+					83.9800033569336,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso8/PasilloReferencia/BanosMujeres/PuertaBano",
+		"id": 63,
+		"path": "Piso8/PasilloReferencia/BanosMujeres",
+		"route": [
+			{
+				"actual": [
+					-64.0,
+					83.9140396118164,
+					-139.508087158203
+				],
+				"blockers": [
+					"/root/Main/Piso8/Losas/LosaOriginal06/LosaPasoEscalera1"
+				],
+				"origin": [
+					-64.0,
+					83.9402084350586,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					-64.0,
+					84.0135498046875,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					-64.0,
+					83.9404449462891,
+					-136.074127197266
+				],
+				"blockers": [
+					"/root/Main/Piso8/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+				],
+				"origin": [
+					-64.0,
+					83.9140396118164,
+					-139.508087158203
+				],
+				"reached": true,
+				"target": [
+					-64.0,
+					83.9800033569336,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"door": "Piso8/PasilloReferencia/BanosHombres/PuertaBano",
+		"id": 64,
+		"path": "Piso8/PasilloReferencia/BanosHombres",
+		"route": [
+			{
+				"actual": [
+					64.0,
+					83.9140853881836,
+					-139.519088745117
+				],
+				"blockers": [
+					"/root/Main/Piso8/Losas/LosaOriginal01/LosaPasoEscalera1"
+				],
+				"origin": [
+					64.0,
+					83.9402084350586,
+					-135.600006103516
+				],
+				"reached": true,
+				"target": [
+					64.0,
+					84.0135498046875,
+					-140.0
+				]
+			},
+			{
+				"actual": [
+					64.0,
+					83.9403991699219,
+					-136.085006713867
+				],
+				"blockers": [
+					"/root/Main/Piso8/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur_3672/Cuerpo"
+				],
+				"origin": [
+					64.0,
+					83.9140853881836,
+					-139.519088745117
+				],
+				"reached": true,
+				"target": [
+					64.0,
+					83.9800033569336,
+					-135.600006103516
+				]
+			}
+		],
+		"status": "passed"
+	},
+	{
+		"id": 65,
+		"path": "PisoMenos1/AmbientacionIndustrial2026/NegocioCafeteria",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"id": 66,
+		"path": "PisoMenos1/AmbientacionIndustrial2026/AreaCentralEstudiantes",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"id": 67,
+		"path": "PisoMenos1/AmbientacionIndustrial2026/PasilloSalasTecnicas",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"id": 68,
+		"path": "PisoMenos1/AmbientacionIndustrial2026/MecanicaAutomotriz",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"id": 69,
+		"path": "PisoMenos1/AmbientacionIndustrial2026/SoldaduraYEstructurasMetalicas",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"id": 70,
+		"path": "PisoMenos1/AmbientacionIndustrial2026/MaquinariaIndustrial",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"id": 71,
+		"path": "PisoMenos1/NexoFinalArea",
+		"status": "No automatic door: open space or manual route required"
+	},
+	{
+		"id": 72,
+		"path": "Exterior/EntradaReferenciaDuoc/ExplanadaFrontalReferenciaAerea/PabellonCentral",
+		"status": "No automatic door: open space or manual route required"
+	}
+]

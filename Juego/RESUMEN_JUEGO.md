@@ -1,5 +1,13 @@
 # DuocGames: contenido y recorrido actual
 
+## Estado prioritario: implementación 4.0 — 2 de noviembre de 2026
+
+Consultar [DUOCGAMES_4_0_REPORT.md](DUOCGAMES_4_0_REPORT.md): las secciones históricas siguientes no describen por sí solas el estado vigente.
+
+Se agregaron cola persistente de guardado por cuenta, mentores y simulaciones digitales con IDs anteriores, seis misiones secundarias (26 en total), rescate con puerta y escolta, Bugs de misión, seis laboratorios y sala técnica del piso 3 (304-B conserva la numeración 304 previa), banco de actividades y panel docente ampliado, administración de asignaturas/auditoría, progreso y credenciales en el celular, accesibilidad, audio propio y pruebas nuevas.
+
+Las migraciones 008 y 009 están preparadas y NO se aplicaron al servidor. El diagnóstico Supabase actual falla por DNS; roles y guardado con fixtures no prueban cuentas reales. La exportación Windows se intentó y falló por plantillas 4.7.2 ausentes. Continúan el fallback procedural y los pendientes de validación humana, contenido docente autorizado y presentación final. No se declara finalizada toda la especificación 4.0.
+
 ## DUOCGAMES EDUCATIVO 1.0 — 20-10-2026
 
 F5 abre Login y carga el menú STUDENT/TEACHER/ADMIN según el perfil. Google está

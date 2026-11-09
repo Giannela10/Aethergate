@@ -1,7 +1,7 @@
 class_name AppearanceMenu
 extends Node
 const Profile = preload("res://scripts/juego/character_appearance.gd")
-const LABELS = {"skin":"Tono de piel","hair":"Cabello","hair_color":"Color de cabello","top":"Prenda superior","bottom_style":"Tipo de pantalón","shoe_style":"Tipo de calzado","backpack_color":"Color de mochila","head_accessory":"Accesorio de cabeza","clothes":"Color de ropa","pants":"Color de pantalón","shoes":"Color de calzado","backpack":"Mochila","accessory":"Accesorio","outfit":"Cosmético"}
+const LABELS = {"face":"Forma del rostro","skin":"Tono de piel","hair":"Cabello","hair_color":"Color de cabello","top":"Prenda superior","bottom_style":"Tipo de pantalón","shoe_style":"Tipo de calzado","backpack_color":"Color de mochila","head_accessory":"Accesorio de cabeza","clothes":"Color de ropa","pants":"Color de pantalón","shoes":"Color de calzado","backpack":"Mochila","accessory":"Accesorio","outfit":"Cosmético"}
 var campaign: Node
 var working := {}
 var allowed := {}
@@ -14,6 +14,8 @@ func open(new_game: bool = false) -> void:
 	Profile.unlock_from_progress(campaign.data.bosses,campaign.data.cosmetics)
 	allowed = {} if starting else campaign.data.cosmetics.duplicate()
 	working = Profile.normalize({} if starting else campaign.data.appearance,allowed)
+	if starting:
+		working.merge({"top":1,"bottom_style":1,"clothes":0,"pants":0,"shoes":6,"hair_color":1,"backpack":1,"backpack_color":5},true)
 	campaign.ui.dialog("PERSONALIZACIÓN","Solo apariencia: no cambia estadísticas. Arrastra el control para rotar.",["Confirmar apariencia","Cancelar"],[_confirm,_cancel],true)
 	var column: VBoxContainer = campaign.ui.column
 	var container := SubViewportContainer.new()
@@ -26,7 +28,7 @@ func open(new_game: bool = false) -> void:
 	viewport.own_world_3d = true
 	viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
 	container.add_child(viewport)
-	preview = preload("res://scripts/juego/student_visual.gd").new()
+	preview = preload("res://scripts/juego/main_character_visual_6_2.gd").new()
 	viewport.add_child(preview)
 	preview.rotation.y = PI
 	var camera := Camera3D.new()

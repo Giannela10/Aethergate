@@ -1,0 +1,69 @@
+{
+  "method": "Isolated rendered studio, same scene/camera/FOV45/resolution/seed600; 1.5s warm-up and 90 frame-post-draw intervals. Existing idle animation and LOD logic; no campus or shadows. 75 FPS plateau, no evidence of higher FPS. Native primitives counter, not independent triangle capture.",
+  "pairs": [
+    {
+      "npc": 0,
+      "actors": 1,
+      "before": {
+        "ms": 13.33,
+        "fps": 75,
+        "draw_calls": 61,
+        "primitives": 18144
+      },
+      "after": {
+        "ms": 13.328,
+        "fps": 75,
+        "draw_calls": 53,
+        "primitives": 20012
+      }
+    },
+    {
+      "npc": 5,
+      "actors": 6,
+      "before": {
+        "ms": 13.334,
+        "fps": 75,
+        "draw_calls": 422,
+        "primitives": 140820
+      },
+      "after": {
+        "ms": 13.33,
+        "fps": 75,
+        "draw_calls": 375,
+        "primitives": 137660
+      }
+    },
+    {
+      "npc": 15,
+      "actors": 16,
+      "before": {
+        "ms": 13.334,
+        "fps": 75,
+        "draw_calls": 1107,
+        "primitives": 370512
+      },
+      "after": {
+        "ms": 13.3325,
+        "fps": 75,
+        "draw_calls": 994,
+        "primitives": 360032
+      }
+    },
+    {
+      "npc": 30,
+      "actors": 31,
+      "before": {
+        "ms": 13.3315,
+        "fps": 75,
+        "draw_calls": 2139,
+        "primitives": 710640
+      },
+      "after": {
+        "ms": 13.332,
+        "fps": 75,
+        "draw_calls": 1939,
+        "primitives": 691652
+      }
+    }
+  ]
+}

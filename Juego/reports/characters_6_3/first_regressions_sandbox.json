@@ -1,0 +1,116 @@
+[
+  {
+    "suite": "gameplay_regression",
+    "pass": false,
+    "exit_code": 0,
+    "timeout": false,
+    "markers": [
+      "GAMEPLAY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}"
+    ],
+    "errors": [
+      "ERROR: Failed to open 'user://logs/godot2026-11-06T13.01.05.log'.",
+      "ERROR: Failed to open log file for writing: user://logs/godot.log",
+      "ERROR: Failed to read the root certificate store."
+    ]
+  },
+  {
+    "suite": "inventory_regression",
+    "pass": false,
+    "exit_code": 0,
+    "timeout": false,
+    "markers": [
+      "INVENTORY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}"
+    ],
+    "errors": [
+      "ERROR: Failed to open 'user://logs/godot2026-11-06T13.01.18.log'.",
+      "ERROR: Failed to open log file for writing: user://logs/godot.log",
+      "ERROR: Failed to read the root certificate store."
+    ]
+  },
+  {
+    "suite": "personalizacion",
+    "pass": false,
+    "exit_code": 0,
+    "timeout": false,
+    "markers": [
+      "APPEARANCE_RESULT {\"failures\":[]}"
+    ],
+    "errors": [
+      "ERROR: Failed to open 'user://logs/godot2026-11-06T13.01.27.log'.",
+      "ERROR: Failed to open log file for writing: user://logs/godot.log",
+      "ERROR: Failed to read the root certificate store.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'."
+    ]
+  },
+  {
+    "suite": "guardado_lectura",
+    "pass": false,
+    "exit_code": 0,
+    "timeout": false,
+    "markers": [
+      "SAVE_READING_RESULT {\"failures\":[]}"
+    ],
+    "errors": [
+      "ERROR: Failed to open 'user://logs/godot2026-11-06T13.01.48.log'.",
+      "ERROR: Failed to open log file for writing: user://logs/godot.log",
+      "ERROR: Failed to read the root certificate store."
+    ]
+  },
+  {
+    "suite": "nueva_partida",
+    "pass": false,
+    "exit_code": 0,
+    "timeout": false,
+    "markers": [
+      "NEW_GAME_RESULT {\"failures\":[]}"
+    ],
+    "errors": [
+      "ERROR: Failed to open 'user://logs/godot2026-11-06T13.01.56.log'.",
+      "ERROR: Failed to open log file for writing: user://logs/godot.log",
+      "ERROR: Failed to read the root certificate store.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'.",
+      "ERROR: Parameter \"data.tree\" is null.",
+      "SCRIPT ERROR: Invalid access to property or key 'process_frame' on a base object of type 'null instance'."
+    ]
+  },
+  {
+    "suite": "campaign_regression",
+    "pass": false,
+    "exit_code": 0,
+    "timeout": false,
+    "markers": [
+      "CAMPAIGN_REGRESSION {\"failures\":[],\"passed\":true}"
+    ],
+    "errors": [
+      "ERROR: Failed to open 'user://logs/godot2026-11-06T13.02.18.log'.",
+      "ERROR: Failed to open log file for writing: user://logs/godot.log",
+      "ERROR: Failed to read the root certificate store."
+    ]
+  }
+]

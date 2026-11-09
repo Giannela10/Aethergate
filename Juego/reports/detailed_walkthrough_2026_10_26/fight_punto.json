@@ -1,0 +1,9 @@
+{
+	"attack_inputs": 50,
+	"boss": "punto",
+	"boss_health": 0.0,
+	"health_after": 105.0,
+	"health_before": 80.0,
+	"player_dead": false,
+	"won": true
+}

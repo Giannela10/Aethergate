@@ -1,0 +1,42 @@
+[
+	{
+		"all_lights_capture": "res://reports/detailed_walkthrough_2026_10_26/lighting_003_all.png",
+		"hidden_foreign_floor_lights": 457,
+		"id": 3,
+		"mean_absolute_rgb_difference": 0.0318211218718249,
+		"own_floor_capture": "res://reports/detailed_walkthrough_2026_10_26/lighting_003_own_floor.png",
+		"path": "Piso1/InteriorCoordinacion"
+	},
+	{
+		"all_lights_capture": "res://reports/detailed_walkthrough_2026_10_26/lighting_014_all.png",
+		"hidden_foreign_floor_lights": 467,
+		"id": 14,
+		"mean_absolute_rgb_difference": 0.109805686653361,
+		"own_floor_capture": "res://reports/detailed_walkthrough_2026_10_26/lighting_014_own_floor.png",
+		"path": "Piso4/DistribucionPlanoPiso4/413"
+	},
+	{
+		"all_lights_capture": "res://reports/detailed_walkthrough_2026_10_26/lighting_043_all.png",
+		"hidden_foreign_floor_lights": 388,
+		"id": 43,
+		"mean_absolute_rgb_difference": 0.0541536090349742,
+		"own_floor_capture": "res://reports/detailed_walkthrough_2026_10_26/lighting_043_own_floor.png",
+		"path": "Piso6/PasilloReferencia/Sala805"
+	},
+	{
+		"all_lights_capture": "res://reports/detailed_walkthrough_2026_10_26/lighting_059_all.png",
+		"hidden_foreign_floor_lights": 388,
+		"id": 59,
+		"mean_absolute_rgb_difference": 0.0700347219349741,
+		"own_floor_capture": "res://reports/detailed_walkthrough_2026_10_26/lighting_059_own_floor.png",
+		"path": "Piso8/PasilloReferencia/Sala805"
+	},
+	{
+		"all_lights_capture": "res://reports/detailed_walkthrough_2026_10_26/lighting_068_all.png",
+		"hidden_foreign_floor_lights": 479,
+		"id": 68,
+		"mean_absolute_rgb_difference": 0.0243964430597606,
+		"own_floor_capture": "res://reports/detailed_walkthrough_2026_10_26/lighting_068_own_floor.png",
+		"path": "PisoMenos1/AmbientacionIndustrial2026/MecanicaAutomotriz"
+	}
+]

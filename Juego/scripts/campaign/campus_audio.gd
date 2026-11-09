@@ -27,16 +27,3 @@ func _process(delta: float) -> void:
 	if event_timer <= 0:
 		event_timer = randf_range(300,600)
 		campaign.ui.notify("Evento: computador infectado. Consulta el registro.")
-func power_cut(lights: Array) -> void:
-	var values: Array = []
-	for light in lights:
-		if light is Light3D:
-			values.append([light,light.light_energy])
-	for i in 6:
-		for value in values:
-			if is_instance_valid(value[0]):
-				value[0].light_energy = 0.1 if i%2 == 0 else value[1]
-		await get_tree().create_timer(0.25).timeout
-	for value in values:
-		if is_instance_valid(value[0]):
-			value[0].light_energy = value[1]

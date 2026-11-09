@@ -1,0 +1,8 @@
+[
+ {"tool":"game_start","arguments":{"scene_path":"res://Main.tscn"}},
+ {"tool":"execute_code","arguments":{"channel":"runtime","scope_path":"/root/Main/CampusCampaign","code":"set('persist',false)"}},
+ {"tool":"execute_code","arguments":{"channel":"runtime","scope_path":"/root/Main/CampusCampaign","code":"get('player').get('inventory').set('persist',false)"}},
+ {"tool":"execute_code","arguments":{"channel":"runtime","scope_path":"/root/Main/CampusCampaign","code":"get('player').get('body').get_script().get('resource_path')"}},
+ {"tool":"execute_code","arguments":{"channel":"runtime","scope_path":"/root/Main","code":"get_viewport().get_texture().get_image().save_png('res://reports/main_character_6_0/main_direct.png')"}},
+ {"tool":"game_stop","arguments":{}}
+]

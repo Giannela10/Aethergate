@@ -1,0 +1,171 @@
+{
+  "paired_views": 148,
+  "resolution": [
+    1152,
+    648
+  ],
+  "renderer": "GL Compatibility",
+  "camera_fov": 85,
+  "samples_per_view": 30,
+  "method": "Rendered isolated Main, same camera coordinates and targets; all baseline/final samples retained. Editor and NPC timing may vary; this is not a standardized playable FPS benchmark.",
+  "before": {
+    "fps": 41,
+    "frame_ms": 19.9215,
+    "draw_calls": 8791.5,
+    "primitives": 446223
+  },
+  "after": {
+    "fps": 42,
+    "frame_ms": 18.4825,
+    "draw_calls": 8808,
+    "primitives": 446217
+  },
+  "visible_lights_before": 517,
+  "visible_lights_after": 502,
+  "floors": [
+    {
+      "floor": -1,
+      "views": 14,
+      "before": {
+        "fps": 39,
+        "frame_ms": 22.2222222222222,
+        "draw_calls": 10006.5,
+        "primitives": 549284
+      },
+      "after": {
+        "fps": 48,
+        "frame_ms": 18.603090909090902,
+        "draw_calls": 10006.5,
+        "primitives": 549380
+      }
+    },
+    {
+      "floor": 1,
+      "views": 12,
+      "before": {
+        "fps": 32,
+        "frame_ms": 24.258499999999998,
+        "draw_calls": 11079.5,
+        "primitives": 597911
+      },
+      "after": {
+        "fps": 31,
+        "frame_ms": 25.9259259259259,
+        "draw_calls": 11080,
+        "primitives": 598043
+      }
+    },
+    {
+      "floor": 2,
+      "views": 6,
+      "before": {
+        "fps": 44,
+        "frame_ms": 22.9166666666667,
+        "draw_calls": 8405,
+        "primitives": 460771
+      },
+      "after": {
+        "fps": 39,
+        "frame_ms": 26.1904761904762,
+        "draw_calls": 8412,
+        "primitives": 460855
+      }
+    },
+    {
+      "floor": 3,
+      "views": 8,
+      "before": {
+        "fps": 44,
+        "frame_ms": 21.8245,
+        "draw_calls": 8625.5,
+        "primitives": 619744
+      },
+      "after": {
+        "fps": 28,
+        "frame_ms": 22.51562962962945,
+        "draw_calls": 8625.5,
+        "primitives": 619744
+      }
+    },
+    {
+      "floor": 4,
+      "views": 54,
+      "before": {
+        "fps": 33,
+        "frame_ms": 27.2546111111111,
+        "draw_calls": 11247.5,
+        "primitives": 446746
+      },
+      "after": {
+        "fps": 33,
+        "frame_ms": 25.9259259259259,
+        "draw_calls": 11252.5,
+        "primitives": 446746
+      }
+    },
+    {
+      "floor": 5,
+      "views": 4,
+      "before": {
+        "fps": 29,
+        "frame_ms": 32.5015,
+        "draw_calls": 11070,
+        "primitives": 414655
+      },
+      "after": {
+        "fps": 44.5,
+        "frame_ms": 21.0470000000006,
+        "draw_calls": 11069,
+        "primitives": 414643
+      }
+    },
+    {
+      "floor": 6,
+      "views": 16,
+      "before": {
+        "fps": 45,
+        "frame_ms": 21.328000000000003,
+        "draw_calls": 9341,
+        "primitives": 354339
+      },
+      "after": {
+        "fps": 40,
+        "frame_ms": 21.2915,
+        "draw_calls": 9341,
+        "primitives": 354339
+      }
+    },
+    {
+      "floor": 7,
+      "views": 16,
+      "before": {
+        "fps": 50,
+        "frame_ms": 17.4045,
+        "draw_calls": 7018.5,
+        "primitives": 292105
+      },
+      "after": {
+        "fps": 54,
+        "frame_ms": 15.4761904761905,
+        "draw_calls": 7018.5,
+        "primitives": 292105
+      }
+    },
+    {
+      "floor": 8,
+      "views": 16,
+      "before": {
+        "fps": 53,
+        "frame_ms": 17.467,
+        "draw_calls": 4391.5,
+        "primitives": 190200
+      },
+      "after": {
+        "fps": 58,
+        "frame_ms": 14.2226818181818,
+        "draw_calls": 4391.5,
+        "primitives": 190200
+      }
+    }
+  ]
+}

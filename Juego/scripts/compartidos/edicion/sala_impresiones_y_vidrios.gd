@@ -47,6 +47,11 @@ func build() -> Dictionary:
 	sign_label.position = Vector3(-79,3.65,-122.82)
 	box(room,"Mostrador",Vector3(-78.8,0.9,-115.8),Vector3(7.8,1.8,1.2),cream)
 	box(room,"CubiertaMostrador",Vector3(-78.8,1.85,-115.8),Vector3(8,0.12,1.35),wood)
+	# Visual support meets the existing printer bottom at y=1.9; preserve its collision.
+	box(room,"MesaImpresora5",Vector3(-80.8,1.85,-115.8),Vector3(1.55,0.1,1.05),dark,false)
+	for dx in [-0.65,0.65]:
+		for dz in [-0.4,0.4]:
+			box(room,"PataMesaImpresora5",Vector3(-80.8+dx,0.9,-115.8+dz),Vector3(0.08,1.8,0.08),dark,false)
 	box(room,"Impresora",Vector3(-80.8,2.3,-115.8),Vector3(1.4,0.8,0.9),white)
 	box(room,"BandejaImpresora",Vector3(-80.8,2.75,-115.8),Vector3(1,0.08,0.65),dark,false)
 	box(room,"PantallaImpresora",Vector3(-80.8,2.4,-116.27),Vector3(0.5,0.22,0.04),dark,false)

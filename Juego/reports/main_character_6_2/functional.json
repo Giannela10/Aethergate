@@ -1,0 +1,77 @@
+{
+	"campaign_save_flow": "not tested; unchanged",
+	"computer_integration": {
+		"completed_task": false,
+		"computer": "/root/MainCharacterRemodel62/Main/CampusCampaign/pc_intro",
+		"human_active": true,
+		"minigame_open": true,
+		"player_busy": true,
+		"trigger": "existing _use_computer method and signal; not keyboard selection"
+	},
+	"computer_lab": {
+		"note": "Diagnostic teleport; no walked route",
+		"position": "(27.93, 24.5225, -111.58)"
+	},
+	"corridor": {
+		"note": "Diagnostic teleport; no walked route",
+		"position": "(-20.0, 0.046, -100.0)"
+	},
+	"entrance": {
+		"note": "Diagnostic teleport; no walked route",
+		"position": "(0.0, 0.14, -65.0)"
+	},
+	"equipped_real_pickup": true,
+	"exterior": {
+		"note": "Diagnostic teleport; no walked route",
+		"position": "(8.0, 0.14, -45.0)"
+	},
+	"failures": [],
+	"isolated_appearance_disk_roundtrip": true,
+	"library": {
+		"note": "Diagnostic teleport; no walked route",
+		"position": "(-58.7, 12.09839, -119.7)"
+	},
+	"live_input": {
+		"attack": {
+			"displacement": "(0.0, -0.039795, 0.0)",
+			"human_active": true,
+			"moved": false,
+			"velocity": "(0.0, 0.0, 0.0)",
+			"visual_state": "ATTACK_LIGHT"
+		},
+		"crouch": {
+			"displacement": "(0.0, -0.038889, 0.0)",
+			"human_active": true,
+			"moved": false,
+			"velocity": "(0.0, 0.0, 0.0)",
+			"visual_state": "CROUCH"
+		},
+		"jump": {
+			"displacement": "(0.0, 0.663631, 0.0)",
+			"human_active": true,
+			"moved": true,
+			"velocity": "(0.0, 2.666667, 0.0)",
+			"visual_state": "JUMP"
+		},
+		"run": {
+			"displacement": "(0.0, -0.039795, -1.806667)",
+			"human_active": true,
+			"moved": true,
+			"velocity": "(0.0, 0.0, -5.5)",
+			"visual_state": "RUN"
+		},
+		"walk": {
+			"displacement": "(0.0, -0.038889, -1.047245)",
+			"human_active": true,
+			"moved": true,
+			"velocity": "(0.0, 0.0, -2.5)",
+			"visual_state": "WALK"
+		}
+	},
+	"mesh_reapply_count": 100,
+	"new_game_default_hoodie": true,
+	"one_punch_event": true,
+	"personal_saves_used": false,
+	"preview_script": "res://scripts/juego/main_character_visual_6_2.gd",
+	"socket_identity": true
+}

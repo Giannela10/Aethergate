@@ -1,0 +1,62 @@
+[
+  {
+    "suite": "gameplay_regression",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "markers": [
+      "GAMEPLAY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}"
+    ],
+    "errors": []
+  },
+  {
+    "suite": "inventory_regression",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "markers": [
+      "INVENTORY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}"
+    ],
+    "errors": []
+  },
+  {
+    "suite": "personalizacion",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "markers": [
+      "APPEARANCE_RESULT {\"failures\":[]}"
+    ],
+    "errors": []
+  },
+  {
+    "suite": "guardado_lectura",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "markers": [
+      "SAVE_READING_RESULT {\"failures\":[]}"
+    ],
+    "errors": []
+  },
+  {
+    "suite": "nueva_partida",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "markers": [
+      "NEW_GAME_RESULT {\"failures\":[]}"
+    ],
+    "errors": []
+  },
+  {
+    "suite": "campaign_regression",
+    "pass": true,
+    "exit_code": 0,
+    "timeout": false,
+    "markers": [
+      "CAMPAIGN_REGRESSION {\"failures\":[],\"passed\":true}"
+    ],
+    "errors": []
+  }
+]

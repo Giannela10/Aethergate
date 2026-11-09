@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-11-06T16:21:30.747Z",
+  "batch": 7,
+  "main_representations": 57,
+  "human_npcs": 34,
+  "unique_human_ids": 34,
+  "active_unclassified": [],
+  "integrity": [
+    {
+      "file": "Juego/Main.tscn",
+      "unchanged": true
+    },
+    {
+      "file": "Juego/scripts/juego/player.gd",
+      "unchanged": true
+    },
+    {
+      "file": "Juego/scripts/juego/gameplay_manager.gd",
+      "unchanged": true
+    }
+  ],
+  "regressions_passed": 6,
+  "dynamic_floors": 9,
+  "distinct_test_geometries": 9,
+  "performance_gate": true,
+  "failures": []
+}

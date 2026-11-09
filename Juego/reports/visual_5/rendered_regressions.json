@@ -1,0 +1,24 @@
+[
+  {
+    "suite": "placement_stairs_visual_check",
+    "exit_code": 0,
+    "status": "PASS AUTOMÁTICO",
+    "elapsed_ms": 20943,
+    "engine_errors": 0,
+    "timeout": false,
+    "summary": [
+      "PLACEMENT_STAIRS_RESULT {\"camera_states\":[{\"angle\":0,\"body_visible\":true,\"camera_distance\":5.00000476837158},{\"angle\":1,\"body_visible\":true,\"camera_distance\":3.45156264305115},{\"angle\":2,\"body_visible\":true,\"camera_distance\":5.00000476837158}],\"captures\":[\"res://reports/placement_stairs_view_0.png\",\"res://reports/placement_stairs_view_1.png\",\"res://reports/placement_stairs_view_2.png\",\"res://reports/placement_grounded_stick.png\",\"res://reports/placement_grounded_chair.png\"],\"failures\":[],\"personal_saves_used\":false}"
+    ]
+  },
+  {
+    "suite": "rendered_gameplay_check",
+    "exit_code": 0,
+    "status": "PASS AUTOMÁTICO",
+    "elapsed_ms": 23274,
+    "engine_errors": 0,
+    "timeout": false,
+    "summary": [
+      "RENDERED_GAMEPLAY_RESULT {\"captures\":[\"res://reports/detail_gameplay_walking.png\",\"res://reports/detail_gameplay_inventory.png\",\"res://reports/detail_gameplay_pause.png\",\"res://reports/detail_gameplay_map.png\",\"res://reports/detail_gameplay_phone.png\"],\"checks\":14,\"failures\":[],\"personal_saves_used\":false}"
+    ]
+  }
+]

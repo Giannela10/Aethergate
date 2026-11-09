@@ -34,7 +34,7 @@ func run() -> void:
 	key.pressed = true
 	campaign._input(key)
 	check(campaign.ui.page == "phone:home" and paused,"P abre y pausa celular")
-	check(campaign.ui.column.get_node("AppGrid").get_child_count() == 9,"Nueve aplicaciones en pantalla de teléfono")
+	check(campaign.ui.column.get_node("AppGrid").get_child_count() == 12 and campaign.ui.column.get_node("AppGrid").has_node("academic_v4"),"Doce aplicaciones con progreso, historia y accesibilidad")
 	check(phone.view.root.visible and not campaign.ui.panel.visible,"Carcasa visible y menú convencional oculto")
 	phone.app("map")
 	check(campaign.ui.page == "phone:map","Reutilizar mapa existente")

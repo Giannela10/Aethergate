@@ -1,0 +1,50 @@
+[
+  {
+    "f": "base_body_anim.glb",
+    "bytes": 8212156,
+    "git_blob_sha": "bdbdab04eb85903e46c56ff56c7a1ea0cbe9c78b",
+    "matches": true
+  },
+  {
+    "f": "clothing_hoodie.glb",
+    "bytes": 684848,
+    "git_blob_sha": "85999d3584078c11e9e4637ea53d88b150a775c3",
+    "matches": true
+  },
+  {
+    "f": "clothing_jeans.glb",
+    "bytes": 428704,
+    "git_blob_sha": "10b38785efef7196bc9903c9d8cdf236d28dc584",
+    "matches": true
+  },
+  {
+    "f": "clothing_shoes.glb",
+    "bytes": 847684,
+    "git_blob_sha": "aab06a01a235242c7e8aac4fda83278c6e0b42f4",
+    "matches": true
+  },
+  {
+    "f": "clothing_tshirt.glb",
+    "bytes": 388104,
+    "git_blob_sha": "ce7966dfd52c4bc6158e1e3b21969e6a63b066da",
+    "matches": true
+  },
+  {
+    "f": "hair_long01.glb",
+    "bytes": 1545168,
+    "git_blob_sha": "3a898bb098bd81ff45b24422890a47320a5d922d",
+    "matches": true
+  },
+  {
+    "f": "hair_short02.glb",
+    "bytes": 1103288,
+    "git_blob_sha": "55243e1eb018ca44bd890f9acacb8c874eeb96f8",
+    "matches": true
+  },
+  {
+    "f": "hair_short04.glb",
+    "bytes": 1132824,
+    "git_blob_sha": "2be20f473553de135a73c04bcfaaa4b66ccca674",
+    "matches": true
+  }
+]

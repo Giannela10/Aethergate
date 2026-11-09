@@ -1,0 +1,109 @@
+{
+	"attack_inputs": 12,
+	"boss": "chef",
+	"boss_health": 0.0,
+	"dodge_inputs": 5,
+	"health_after": 110.0,
+	"health_before": 105.0,
+	"minimum_boss_health": 36.4000000000001,
+	"player_dead": false,
+	"trace": [
+		{
+			"boss_health": 350.0,
+			"distance": 2.07713651657104,
+			"player_health": 105.0,
+			"reachable": true,
+			"stun": 0.0,
+			"weapon": "PaletaProfesional"
+		},
+		{
+			"boss_health": 350.0,
+			"distance": 1.49252712726593,
+			"player_health": 105.0,
+			"reachable": true,
+			"stun": 0.0,
+			"weapon": "PaletaProfesional"
+		},
+		{
+			"boss_health": 310.8,
+			"distance": 1.51133418083191,
+			"player_health": 105.0,
+			"reachable": true,
+			"stun": 0.0,
+			"weapon": "PaletaProfesional"
+		},
+		{
+			"boss_health": 271.6,
+			"distance": 1.25878322124481,
+			"player_health": 105.0,
+			"reachable": true,
+			"stun": 0.0,
+			"weapon": "PaletaProfesional"
+		},
+		{
+			"boss_health": 232.4,
+			"distance": 1.53850603103638,
+			"player_health": 105.0,
+			"reachable": true,
+			"stun": 0.0,
+			"weapon": "PaletaProfesional"
+		},
+		{
+			"boss_health": 193.2,
+			"distance": 1.89420652389526,
+			"player_health": 105.0,
+			"reachable": true,
+			"stun": 0.0,
+			"weapon": "PaletaProfesional"
+		},
+		{
+			"boss_health": 154.0,
+			"distance": 1.16790020465851,
+			"player_health": 105.0,
+			"reachable": true,
+			"stun": 0.0,
+			"weapon": "PaletaProfesional"
+		},
+		{
+			"boss_health": 114.8,
+			"distance": 1.16790020465851,
+			"player_health": 105.0,
+			"reachable": true,
+			"stun": 0.0,
+			"weapon": "PaletaProfesional"
+		},
+		{
+			"boss_health": 75.6000000000001,
+			"distance": 4.28809261322021,
+			"player_health": 105.0,
+			"reachable": true,
+			"stun": 0.0,
+			"weapon": "PaletaProfesional"
+		},
+		{
+			"boss_health": 75.6000000000001,
+			"distance": 3.72508764266968,
+			"player_health": 105.0,
+			"reachable": true,
+			"stun": 0.0,
+			"weapon": "PaletaProfesional"
+		},
+		{
+			"boss_health": 75.6000000000001,
+			"distance": 0.870079934597015,
+			"player_health": 105.0,
+			"reachable": true,
+			"stun": 0.0,
+			"weapon": "PaletaProfesional"
+		},
+		{
+			"boss_health": 36.4000000000001,
+			"distance": 1.37444365024567,
+			"player_health": 105.0,
+			"reachable": true,
+			"stun": 0.0,
+			"weapon": "PaletaProfesional"
+		}
+	],
+	"won": true
+}

@@ -1,0 +1,9 @@
+const fs=require('fs'),crypto=require('crypto');
+const normalize=s=>s.replace(/ unique_id=\d+/g,'').replace(/@(StaticBody3D|CollisionShape3D)@\d+/g,'@$1@GENERATED').replace(/\\n/g,'\n').replace(/-?\d+\.\d+(?:e[-+]?\d+)?/gi,n=>String(Number(Number(n).toFixed(10))));
+function parse(file){const lines=fs.readFileSync(file,'utf8').replace(/\r/g,'').split('\n');const blocks=[];let block=null,key=null;for(const line of lines){if(/^\[(?:gd_scene|ext_resource|sub_resource|node|connection|editable) /.test(line)){block={header:normalize(line),props:{}};blocks.push(block);key=null;}else if(block){const m=/^([A-Za-z0-9_/:.-]+) = (.*)/.exec(line);if(m){key=m[1];block.props[key]=m[2];}else if(key)block.props[key]+='\n'+line;}}return blocks.map(b=>JSON.stringify({header:b.header,props:Object.fromEntries(Object.keys(b.props).sort().map(k=>[k,normalize(b.props[k].trimEnd())]))})).sort();}
+const before=parse('recovery/main_character_6_2/Juego/Main.tscn'),after=parse('Juego/Main.tscn');
+function multiset(a){const m=new Map;for(const x of a)m.set(x,(m.get(x)||0)+1);return m;}
+const b=multiset(before),a=multiset(after),changed=[];
+for(const k of new Set([...b.keys(),...a.keys()]))if((b.get(k)||0)!==(a.get(k)||0))changed.push({block:k.slice(0,700),before:b.get(k)||0,after:a.get(k)||0});
+const result={method:'Compare all section/property multisets, ignoring order, generated editor UIDs, regenerated anonymous physics node suffixes, escaped versus literal newlines, and numeric formatting rounded to 10 decimal places. Retains named node paths and property values within that tolerance.',before_sections:before.length,after_sections:after.length,changed_blocks:changed};
+fs.writeFileSync('Juego/reports/main_character_6_2/main_serialization_audit.json',JSON.stringify(result,null,2));console.log(JSON.stringify({...result,changed_blocks:changed.slice(0,12),count:changed.length},null,2));

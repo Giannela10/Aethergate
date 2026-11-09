@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="EducationalIncidentCatalogV4" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/education/incident_catalog_v4.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+entries = Array[Dictionary]([{
+"id":"v4_rescue", "title":"Estudiante encerrado · Sala 306", "floor":3, "x":38, "z":-143,
+"steps":["Localizar al estudiante en sala 306","Hablar mediante la puerta","Inspeccionar el panel","Resolver el acceso informático","Restablecer el sistema","Abrir la sala","Acompañar a zona segura"], "academic":3
+}, {
+"id":"v4_network", "title":"Laboratorio sin conexión", "floor":3, "x":-45, "z":-137,
+"steps":["Inspeccionar PC","Revisar cableado","Identificar dispositivo","Restaurar la red"], "academic":2
+}, {
+"id":"v4_bugs", "title":"Programa infectado", "floor":3, "x":30, "z":-137,
+"steps":["Detectar Bugs","Inspeccionar algoritmo","Corregir la secuencia","Verificar programa"], "academic":2
+}, {
+"id":"v4_emergency", "title":"Emergencia simulada", "floor":4, "x":-45, "z":-137,
+"steps":["Entrar al entrenamiento ficticio","Identificar prioridades educativas","Organizar recursos","Cerrar simulación"], "academic":1
+}, {
+"id":"v4_presentation", "title":"Presentación interrumpida", "floor":2, "x":65.9, "z":-104.5,
+"steps":["Revisar proyector","Restaurar conexión","Organizar el mensaje","Recuperar exposición"], "academic":2
+}, {
+"id":"v4_workshop", "title":"Taller descontrolado", "floor":-1, "x":-30, "z":-137,
+"steps":["Inspeccionar simulación industrial","Identificar error técnico","Detener máquina virtual","Verificar taller"], "academic":1
+}])
+requests = Array[Dictionary]([{
+"kind":"Objeto perdido", "quest_id":"llaves"
+}, {
+"kind":"Computador dañado", "quest_id":"v4_network"
+}, {
+"kind":"Puerta bloqueada", "quest_id":"v4_rescue"
+}, {
+"kind":"Estudiante necesita ayuda", "quest_id":"cargador"
+}, {
+"kind":"Equipo requiere revisión", "quest_id":"v4_workshop"
+}, {
+"kind":"Solicitud de un profesor", "quest_id":"v4_presentation"
+}])

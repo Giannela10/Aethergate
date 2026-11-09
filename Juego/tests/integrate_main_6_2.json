@@ -1,0 +1,26 @@
+[
+    {
+        "arguments":  {
+                          "old_string":  "const StudentVisual = preload(\"res://scripts/juego/main_character_visual_6.gd\")",
+                          "new_string":  "const StudentVisual = preload(\"res://scripts/juego/main_character_visual_6_2.gd\")",
+                          "file_path":  "res://scripts/juego/player.gd"
+                      },
+        "tool":  "script_edit"
+    },
+    {
+        "arguments":  {
+                          "old_string":  "preview = preload(\"res://scripts/juego/main_character_visual_6.gd\").new()",
+                          "new_string":  "preview = preload(\"res://scripts/juego/main_character_visual_6_2.gd\").new()",
+                          "file_path":  "res://scripts/campaign/appearance_menu.gd"
+                      },
+        "tool":  "script_edit"
+    },
+    {
+        "arguments":  {
+                          "old_string":  "working.merge({\"top\":1,\"bottom_style\":1,\"pants\":5,\"shoes\":5,\"backpack\":1,\"backpack_color\":5},true)",
+                          "new_string":  "working.merge({\"top\":1,\"bottom_style\":1,\"clothes\":0,\"pants\":0,\"shoes\":6,\"backpack\":1,\"backpack_color\":5},true)",
+                          "file_path":  "res://scripts/campaign/appearance_menu.gd"
+                      },
+        "tool":  "script_edit"
+    }
+]

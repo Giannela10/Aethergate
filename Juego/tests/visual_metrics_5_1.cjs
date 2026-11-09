@@ -1,0 +1,13 @@
+const fs=require('node:fs'),path=require('node:path');
+const dir=path.resolve(__dirname,'../reports/visual_5_1');
+const read=n=>JSON.parse(fs.readFileSync(path.join(dir,n),'utf8'));
+const before=read('before_views.json'),after=read('after_views.json');
+const median=a=>{if(!a.length)return null;a=[...a].sort((a,b)=>a-b);return a.length%2?a[(a.length-1)/2]:(a[a.length/2-1]+a[a.length/2])/2;};
+const summary=v=>{const samples=v.flatMap(r=>r.samples);return {frame_ms:median(samples.map(s=>s.frame_ms)),engine_fps:median(samples.map(s=>s.engine_fps)),draw_calls:median(samples.map(s=>s.draw_calls)),primitives:median(samples.map(s=>s.primitives))};};
+const views=before.filter(b=>b.profile&&b.label!=='lattice_trial_fxaa').map(b=>({before:b,after:after.find(a=>a.label===b.label)})).filter(p=>p.after);
+const pairs=views.map(p=>({label:p.before.label,identical_camera:JSON.stringify(p.before.camera)===JSON.stringify(p.after.camera)&&JSON.stringify(p.before.target)===JSON.stringify(p.after.target),before:summary([p.before]),after:summary([p.after])}));
+const valid=views.filter((p,i)=>pairs[i].identical_camera);
+const bInv=read('before_inventory.json'),aInv=read('after_inventory.json');
+const fxaa=before.find(b=>b.label==='lattice_trial_fxaa'),far=before.find(b=>b.label==='lattice_far');
+const report={matched_profiled_views:valid.length,samples_per_view:90,resolution:aInv.resolution,fov:aInv.fov,before:summary(valid.map(p=>p.before)),after:summary(valid.map(p=>p.after)),enabled_lights_before:bInv.lights.filter(l=>l.visible&&l.energy>0).length,enabled_lights_after:aInv.lights.filter(l=>l.visible&&l.energy>0).length,screen_space_aa_before:bInv.screen_space_aa,screen_space_aa_after:aInv.screen_space_aa,fxaa_runtime_trial:fxaa?{aa_off:summary([far]),fxaa:summary([fxaa]),persisted:false}:null,pairs,method:'Same editor inspection tab, 1152x648, native game FOV, fixed seed, same frozen actor policy, same camera/target and preserved production sector/LOD processing. 1.5s warm-up and 90 actual frame-post-draw intervals. Not a playable campaign benchmark; caches, OS load and timers may still vary. Primitives are the native Godot counter, not an independent GPU triangle capture.'};
+fs.writeFileSync(path.join(dir,'performance_comparison.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

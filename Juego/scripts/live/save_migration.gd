@@ -26,4 +26,7 @@ static func migrate(raw: Dictionary) -> Dictionary:
 	result = preload("res://scripts/campaign/academic_expansion_data.gd").migrate(result)
 	return preload("res://scripts/education/academic_progress.gd").migrate(result)
 static func supported(raw: Dictionary) -> bool:
-	return int(raw.get("version",-1)) in [1,2] and int(raw.get("save_version",1)) in range(1,CURRENT+1)
+	var version = raw.get("version",-1)
+	var saved = raw.get("save_version",1)
+	if not (version is int or version is float) or not (saved is int or saved is float): return false
+	return float(version) in [1.0,2.0] and float(saved)>=1 and float(saved)<=CURRENT and float(saved)==floorf(float(saved))

@@ -1,0 +1,17 @@
+{
+	"actors": [
+		"profesor_datos",
+		"profesor_algoritmos",
+		"docente_enfermeria",
+		"docente_odontologia",
+		"coordinador_profesores",
+		"profesor_matematicas",
+		"profesor_ingles",
+		"profesor_lenguaje",
+		"profesor_etica"
+	],
+	"checks": 320,
+	"expansion_failures": [],
+	"failures": [],
+	"stage": 11
+}

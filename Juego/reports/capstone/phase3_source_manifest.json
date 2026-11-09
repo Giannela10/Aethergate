@@ -1,0 +1,1357 @@
+{
+  "closed_at": "2026-11-06T17:42:17.040Z",
+  "checkpoint": {
+    "path": "recovery/capstone_2026-11-06T162611510Z",
+    "head": "b8c93566cf1869c399c74255728918ff058e7a48",
+    "files": 266
+  },
+  "files": [
+    {
+      "file": "scripts/auth/auth_manager.gd",
+      "sha256": "789ccdfaf9b9331a509f16011ca8d9e04e2b2d211b5b1bdabb8830f46a063978",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/auth/oauth_loopback.gd",
+      "sha256": "4bc2c3bd806969524976c30bc58282f7433f6418a3957c7bc8afb6b01833e022",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/auth/supabase_client.gd",
+      "sha256": "9230b417fe677a51d301ecedc54bcdcdd73a36efd1a0e50efae53dab99b932a9",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/academic_action_boss.gd",
+      "sha256": "a750de3d37165fde33657a280cc0e62dbb98925820c8ea77120419988e75a6d2",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/academic_boss.gd",
+      "sha256": "013083e6e58f6c61960b713b94bf6d464c06564189aabcb343f9e07035c32335",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/academic_boss_config.gd",
+      "sha256": "e13adb06c5e725ce01d278affdf4aa0851d733bb68e42f13f6260579509b9379",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/academic_boss_duel.gd",
+      "sha256": "cc0047366f0b689472b08eb2e69f970c2e94509c0338a119a70a783efa9cd144",
+      "changed_from_recovery": true
+    },
+    {
+      "file": "scripts/campaign/academic_boss_projectile.gd",
+      "sha256": "9100fde0278d6bc25a1c20fbb206a0558b094d66593602a769b5a8b9bbdf631b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/academic_boss_zone.gd",
+      "sha256": "7f26e745e71d2b8f329349fb85afa6e9daa4e4d4fdf5df4eda30235f101b947b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/academic_class_point.gd",
+      "sha256": "4f0dd37908888117c7ab2b4f008e4aa1d0f1f1b346031a30fd4bba8633e95913",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/academic_expansion.gd",
+      "sha256": "691a30da8fabbd7a3630644cf03130ee797a873f04c8784bb31002078cbf3d31",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/academic_expansion_data.gd",
+      "sha256": "cfd4a1bc74cf0c34104f667bc29adb82b444233f4fded1b53547e21de94fb491",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/academic_objective.gd",
+      "sha256": "6ffe1b19bd87cc52fa445f5692d4e091638e39562a9f29589b5330b99d2ca4c7",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/academic_schedule.gd",
+      "sha256": "9eea49d2ad750f5a65f407423912df398b63e5af4d74e7501d1a4ec30e06400e",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/appearance_menu.gd",
+      "sha256": "75b270c65d9f25f2a9caa8f0ad8c3bfd82d0d99f715d8fd08ac057872970d17b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/appearance_station.gd",
+      "sha256": "56d0ba8ece659c23363f43a18b22890c5d6732a6e2a95852072c27ac5898ea31",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/area_marker.gd",
+      "sha256": "4b30e4f96be64b9d012d0b89c7156741d56130739c12c0bd8bce4c962d712548",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/boss_duel_controller.gd",
+      "sha256": "c62d9660523c880359940ca9df74e5f901b6eacb7e408df47d03d9fcdc2e2d0c",
+      "changed_from_recovery": true
+    },
+    {
+      "file": "scripts/campaign/boss_visual_pass.gd",
+      "sha256": "bfc94a62a1f8ed473d948e9c5708001e34e1f76c1b44332241f4ad6b1bb2fd44",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/campaign_ui.gd",
+      "sha256": "484a2fa84c470bec8ccf40310b009d491624ef3c842f3f14ae3eb886a1721e8d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/campus_audio.gd",
+      "sha256": "97cc420490720ab6fbf1f34befcd7d9bc2323974ba3448edf61b86cf850c28af",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/campus_campaign.gd",
+      "sha256": "e49aeea95ae4c89d52d95a122a40b3611beefc7620884a3547a9dba816e4ca76",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/campus_content.gd",
+      "sha256": "fef42c3585bfe7f5bdbe4321cd41754500c402698a015442a4836e7faec84eeb",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/campus_enemy.gd",
+      "sha256": "66ba671aef2fe34075832147e8269c19369af7bc4068b40dabea6f712196f0b6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/campus_polish.gd",
+      "sha256": "fcefe0a60e07f6826b46ddfa328adb60d06721c341bc1ddce96305abca72caad",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/campus_vendor.gd",
+      "sha256": "27d2ea639b2c8b369c43bd5344afdbde3957f4cafa4750889ad291832368299c",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/campus_weapon.gd",
+      "sha256": "188fcc3921a086d4e99f388d79e6e8a5964fb598762e27e010d99a7c316fbcb8",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/checkpoint.gd",
+      "sha256": "92b6b8d11c02ec7fd42b79403d11d0d85c9b51e6fab3f5d4249f815896bb4e94",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/dialogue_camera_controller.gd",
+      "sha256": "9463ac922973d70096e7af96f40bd94d53fb4574f6be1003e0029847aa8328c8",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/director_task_point.gd",
+      "sha256": "de291831b0d636ad07b423f68aa74a94cef1c9c017bab9a4654aeeab5f9a7350",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/distraction.gd",
+      "sha256": "54f8423eac14bc14027dbb3b7ee0fbda43f000ba8d30935ea8f468a1bcd0efb7",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/elevator_interaction.gd",
+      "sha256": "8c20e7b769dcc9d6187205bb5fba0c5f8bcf05805e19a249a1765d140ac689a6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/furniture_pickup.gd",
+      "sha256": "8ecaa7e616e8fcc3db1db3fcb7f8198d1151e5c82f4809b400748bbecdab5dcf",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/health_station.gd",
+      "sha256": "c29676d031f61668285366bb3fc3bbcc73e57b5f34e10ba366325d3cf992e462",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/interaction_controller.gd",
+      "sha256": "43c7706e7931a0506095adc83d823f199dbdbad121f2a9fa8ddc147a304def56",
+      "changed_from_recovery": true
+    },
+    {
+      "file": "scripts/campaign/locked_access.gd",
+      "sha256": "8d9210437dd7fe6c06598b7cb9c84d0919dcd7671ff54327ad98a6cd8334ca0b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/mission_guidance.gd",
+      "sha256": "7f2324075c5e56fccc1413ea2515a10235384cf446140ee89c93961bb6f88aa6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/npc.gd",
+      "sha256": "c94b241f266a3dd5658ad06746bad751a1adecccfcaaf96bd91760acf6d0b9b6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/phone_view.gd",
+      "sha256": "f2b2dd74ccb2dabfeb77a0c6f2e59c37d7bae12592e0218aa87dcdd989ee808d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/player_combat.gd",
+      "sha256": "cc6f16f74ef8a7d7198c59093b31e7478c4524b72e3feb9b85f4cc5aa7bd9127",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/quest.gd",
+      "sha256": "576d9a82830bce20942ffe23320e24e7d401cfe64cc0a967e2d5aab876c92eb6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/quest_manager.gd",
+      "sha256": "e7a1f3d7121a013bebeb0b7e158db32e68ffd5644a7e4b7095b01861680f2c3c",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/quest_ui.gd",
+      "sha256": "c213f77f46850bdbaa43d4c3ae20cd452ab665653d6737300b698061e3fe5be6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/seat_interactable.gd",
+      "sha256": "4f997e64a6dcc4965985942e18f45f38bb4dd61a14ad8b62680b497232893eef",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/simulation_visual_v4.gd",
+      "sha256": "5df515671552a772b376837bc1ed26cfdee070233004a8ea21f0c4bdb5c39896",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/student_phone.gd",
+      "sha256": "fc3dee2a038ec4d4328ac2517b462444e7f3142f2f846ea7065797437cd28bc6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/upper_campus_bosses.gd",
+      "sha256": "301184899f85c5cb9a90e9a5233163ae01e2f20d4674f0acc6490d71398c218c",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/weapon_pickup.gd",
+      "sha256": "aaee57393701fb2759f55565f44ab97b9c3acf117da9e5be929f8e5541dcb181",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/campaign/world_item.gd",
+      "sha256": "b88a865216abe9e1c5af3da40fbc19ea72a9c6c8fd777fc987c897f6a95d6f80",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/ascensor_estudiantil.gd",
+      "sha256": "560e156e31b444e60210e9ff6039997581490d5e9091577d53e7ec7f2dc8c1f0",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/edicion/acabados_ascensores.gd",
+      "sha256": "6176ce44b969558953074185fa91670641c7092964fb8e2c0ce24c34b48c0e0d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/edicion/acabados_escalera_principal.gd",
+      "sha256": "070c650d277de8ee7b8c236df936dd3410de59e85021af481121a9e31ed1cda6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/edicion/barandas_pasillos.gd",
+      "sha256": "983d9f8a573c602fdefdacadd734d82f70df2b0af6668bcf1f804e09d910b2d6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/edicion/elevar_base_auditorio.gd",
+      "sha256": "e9f3f267638644b5779d4267a0a7ee790708d13f99fef6916dfaff4617a9f18a",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/edicion/interiores_referencia_campus.gd",
+      "sha256": "18417b69bb2c2eb0436b115d2eb8d2918b9488e8b07b63f57298ddb42adbe3cc",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/edicion/piso_menos_uno_y_emergencia.gd",
+      "sha256": "76575111b641ac7a60a80b98a073d9122e6bf250d2ab3d601c0e186005767dcb",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/edicion/reparar_continuidad_pisos.gd",
+      "sha256": "e7bc777af7dc1aed5912cc8576eb0fdf5753e5f7f0cbf5846d94a2cd149e3298",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/edicion/sala_impresiones_y_vidrios.gd",
+      "sha256": "5b81e2206f120114ed2d942f87fd1707981ae8c881153dcd1105f1acc06406c7",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/edicion/unificar_piso_negro.gd",
+      "sha256": "4795f93685900c1e86642c3520e449911e8edb24406868a346aa0ccccf65cb5a",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/lectura_guardado.gd",
+      "sha256": "182a30876c44344be067169dea4dc52f18ece2c74b96d1390608539c96c71130",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/puerta_emergencia.gd",
+      "sha256": "965d6e55810b9d8690687a57e3c7e7b2cd7ed1d1ce0c112719c58e2e3823b812",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/compartidos/puerta_vidrio_salas.gd",
+      "sha256": "e377b968786226eafd9c5745f961907ee2b524dd3eb2dcb98294f5ea879b0aa2",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/academic_floor_gate.gd",
+      "sha256": "c401159d969a17e4389d125d91bccf16ffd858d34c2200612a519a41cba7a736",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/academic_progress.gd",
+      "sha256": "89f14ae09052a50f7ef0d7264436206d7ce86176fcffc549b68e2d76838895bb",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/academic_summary_v4.gd",
+      "sha256": "07a23c1f0188f4d23cd6042a6375433ed43c382bd794448c1064d2179932d3e4",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/accessibility_v4.gd",
+      "sha256": "5c875c03ffb49b6dd66285138f892d03be58d9bca247608d176bd56bd2eb670f",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/admin_service.gd",
+      "sha256": "248dc82498fb59bf810d2f7b618c5f872278589909e68c691385b5b125290714",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/campus_audio_v4.gd",
+      "sha256": "f934695a61a12f1a10fdd29f63aa0ac6348ea5d3c964d3cbcd2db27c4deb702a",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/campus_point_v4.gd",
+      "sha256": "4df8b082ced9d823116c8daf3a0206916861a66ad5cebc21d6cad0ef727fcb35",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/campus_routines_v4.gd",
+      "sha256": "2c32fb99bab8517a1f44f93c386464eb9157577ed21f0e358fdca70470aa7da6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/cloud_save.gd",
+      "sha256": "22f65b7613f1f3d5e7437496b782f9f354a46ee1dcdf9013cb68ccb5da2e9058",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/combat_feedback_v4.gd",
+      "sha256": "96bbfd0a430139fe2e41efbd99db8beb7e7a948142cdfd1d63ca078928ce15e1",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/duocgames_v4.gd",
+      "sha256": "f87f7e2a4c406240a21dbd38ab57c980a101ec3ab4dda5bdc20f31f2e91eb53d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/educational_missions_v4.gd",
+      "sha256": "7cb6c7dc3e5ece5993dee68fe91bec2d3e42264b2149ac6ff83569ff22a92f76",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/education_shell.gd",
+      "sha256": "faac8a5d09475ef7e5575c372e2d1a607b2017554042597f79f2beb5a7d6099f",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/escort_student_v4.gd",
+      "sha256": "40af7cd3aa13df2dea310c95fbfc8f87090f8b9ad8e4ae83ddfd4e73b57fb158",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/incident_catalog_v4.gd",
+      "sha256": "990466d6a96739e0a9d6d930699a246dad7bca2089bc555f97122f2f812ea9a2",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/lab_routine_civilian_v4.gd",
+      "sha256": "cb7e43500e94e1339033f7f74fd454a1e63f5f0af4fba75ed2cea00069178709",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/learning_activity_service.gd",
+      "sha256": "cf6cb30a63c6cd18c1da1d0f3e1dba33e8f9e2fccbe5f56e4158afb3bb27e2ea",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/learning_activity_view.gd",
+      "sha256": "53ed4f26360d003d764e4c80f40de633d15457d01f79895097ac2b3b4ee4ab71",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/learning_staff_panel.gd",
+      "sha256": "829f1183197073cc65a93fad5c2a07aafafbf331e57f0c35abfd0a1d55753c35",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/learning_zones_v4.gd",
+      "sha256": "08f741d1385c99c4da7b048e5cf10187d9fd512b20923f92a55215af055d6c32",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/mentor_activity_v4.gd",
+      "sha256": "0e40b45f69a4ed166fb97fc7d4f8bbae8e9e3624c506fedddc168e5496f27854",
+      "changed_from_recovery": true
+    },
+    {
+      "file": "scripts/education/mission_bug_v4.gd",
+      "sha256": "cca5182b8ac66db6cae3c06325a73c0b6fd06ab94dda8848c0dc6c297b8af0ef",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/nexo_story_v4.gd",
+      "sha256": "1020a2e6948e9a025a554b938137c7be0662f1075aa7ff171971bbf24478992a",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/pending_save_journal.gd",
+      "sha256": "7b1c2325b8b4994c91e9983bb5d98fc6eeea5c6a0ae89badcfae8e2b2ca4edc8",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/question_service.gd",
+      "sha256": "d477949a56b49b928d37c0b2aff7b81d51910f7abdc174ee5371c247c4355667",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/question_view.gd",
+      "sha256": "226dd6e1f0874b3418218a135bf2c54cc98d10fc3fd32a930151423e590418e1",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/routine_civilian_v4.gd",
+      "sha256": "2b2bdf1d2369d4e471e70face318534c11613c8a763275d410a961e1b2ac4453",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/sector_performance_v4.gd",
+      "sha256": "78a82e6081af630ba62f49d91161a64dab05b2b1fee5cc3d5ac390ec2b8fe55c",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/education/teaching_lab_v4.gd",
+      "sha256": "8034bae56c02d5a92b94440edbbc757bc1e02311c8a108c42c5dac8a090835c1",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/exterior/aplicar_materiales_entrada.gd",
+      "sha256": "085a93081a707922225326772f89c96329fb5a85efd762f8245af4857b57889b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/exterior/arquitectura_fotos_octubre.gd",
+      "sha256": "e2220e7ed62f1d77b065425d76c40dd88b7b7d8605e6626a1c4d07452699164d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/exterior/costados_referencia_fotos.gd",
+      "sha256": "b0cbd80b6f0ed53acb67fa417e8c5eedcaf6400b30fbca8e5b632bbf1fbe0568",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/exterior/estructura_y_acceso_posterior.gd",
+      "sha256": "b32eb438ad0044d748cebcefd2d1d57ec5a031c0b82ea4bbbb9d91bcf2b81fed",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/exterior/fachada_referencia_duoc.gd",
+      "sha256": "f2d3bee9f688bc74acdbcbcaeaffdf288ada069213bffe1a2c3560b20baa1335",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/exterior/guardia_torniquetes.gd",
+      "sha256": "f461e07c15add53283c1fe76dd4c976035c5fa8887eb8687f1950750fe12363d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/exterior/patio_posterior_duoc.gd",
+      "sha256": "a4a2f98912291db58608817a0858317d124aa7232a30278284408db4ba15f417",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/exterior/reja.gd",
+      "sha256": "b51fb6acc912c74e4215b8040f6ed2380052dd6336988e3d68d2cb2aae2f7ee2",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/exterior/Torniquete.gd",
+      "sha256": "4d37e4179d770994769090c3504f0aad1d697ebc5b5614dc96f7a3440c0517a1",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/inventory/inventory.gd",
+      "sha256": "9c23d867b005d5c59ce67024b3d3b38b13021b7e34cabebdcb1988f4f9312b70",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/inventory/InventoryPickup.tscn",
+      "sha256": "e3e031d296027c1c875f26a346fbfb7ebd1e7e8898699bc5d6c03502767ca21d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/inventory/inventory_item.gd",
+      "sha256": "71c1e81cb1697eba1050ff29700055800f849257f86a0923fc369c19ff068a0c",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/inventory/inventory_pickup.gd",
+      "sha256": "337c827e2c08fff98e7f42dcaa54a2c805142df37c186d9514d8a057ab6a72d5",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/inventory/inventory_ui.gd",
+      "sha256": "32191bfb8ef97aedd81ce395dc79a518db1ccf0b0cdea64b1cf866bf8b319669",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/inventory/item_catalog.gd",
+      "sha256": "efc09a337cffd54bd86fc0880f70b0274fc595f58e611087482dcddb6debb3d5",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/inventory/item_effect_receiver.gd",
+      "sha256": "bf9e37418a7f2a708c04c21dc9769a6cc53c90d88fcbd257ecea4a67fd20076d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/inventory/key_access.gd",
+      "sha256": "5cfd46033377fb450ce716d04e87418b0c621a1093c774772b9307bc1e483c4c",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/inventory/paleta_ping_pong.gd",
+      "sha256": "d096ce76037206c6fbd653f2f68e5b0da69d394e980feceba9ed45a506fcd7f7",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/camera_obstruction.gd",
+      "sha256": "eab9a2ec4029a4e4cab88720feda4c57767e4553e7e0bbf3b131f815859d079c",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/campus_activity.gd",
+      "sha256": "97192abac5907b7d66b9a18a0eadc3051527829d7b268a8eac545ca505ae34d6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/character.gd",
+      "sha256": "5493d659dacfddc190cc72a04bc010f8e09c6f6d33e8d16298a6df7b8856018f",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/characters_6_3_rollout.json",
+      "sha256": "c7a5354a3dd185affee606d45194bbb5840040f3bca683ded486d1abc2f87b59",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/character_activity_visual.gd",
+      "sha256": "72b89b053422c8ccd80d650bbf5ea267a7c9aba89369185a481e4bed7a29d10b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/character_appearance.gd",
+      "sha256": "2043312a1ba88e412a7e57a6a89963378b4693113226b1758fad8a01219e6cd6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/character_body_3d.gd",
+      "sha256": "05597a30518a03c8cedb4378bd37000012a2286bb7e40a01eae0d681013800c5",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/character_footwear_6_3.gd",
+      "sha256": "ce4f7ce3ff87efb923b7e5a24a89b055bb12505f2e645fee47d2c4d8fc03f98d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/character_ground_6_3.gd",
+      "sha256": "1f6d926acdd7860ca77a442b3661e521f31cdf585c9c1e147e40744cbf61a510",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/character_headset_6_3.gd",
+      "sha256": "6e5489e02428492efa24110187b54b849bba0f64ac10b7ff519c15321e4fcab5",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/character_surface_6.gd",
+      "sha256": "b14bbd2ede41530162c75ffac1ec07aa3a14444da8457a6ad17a2d13e5b1bfc0",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/character_visual_presets.gd",
+      "sha256": "9d8db8b680989ef57f8f161bbd9feec2934bd54946a3da12da56f2ab1d350167",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/computer.gd",
+      "sha256": "689e05e5efde6c8e42253150df4a2242fd9156b68204c64d39a860c7b5c00666",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/contextual_pose.gd",
+      "sha256": "6e9b717d382e7e4bc267a7b08e07d21f2f9324a354cafce0b6a77cc05e850efd",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/enemy.gd",
+      "sha256": "b3786d69a6327b61f6c00593dd5f5b08499b5ac48deebe3e09e95ac9f143b00e",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/gameplay_manager.gd",
+      "sha256": "80f9868d00b8d2b7750534e9e4ece969dcbafe674c0fea60c6da68382989e945",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/game_files.gd",
+      "sha256": "15b257acd9820e3c6c6ffd523d7be8e3e563063c7f6a84ef4cfdd13a0b9eea3b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/game_password.gd",
+      "sha256": "febd526f8be49c72d542f4cd80050f5a9d9f1f38fa5823e551e9bbe301cf922d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/game_virus.gd",
+      "sha256": "4985246562c343de22f51ff10aabad9754d9bd81e2838d85219248b646f57844",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/humanoid.gd",
+      "sha256": "2a26be84522cb545cd335b238d134c8006d0e39e27b3d9ca4a03641dd5610460",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/human_npc_6_3.gd",
+      "sha256": "f081302c0a9c824d0c3c9fd9dce48a62e635f176e43bafc375034385ada60cc6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/human_student_6_2.gd",
+      "sha256": "4747ee0afcf68556b44450251f3eaf6f482693e9fefa80ccf69376f5caab4443",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/implemento_deportivo.gd",
+      "sha256": "9f2c59cfa0ebb381a041f62e2dd1f93e866da789e57e94ed655f4d86210f9af6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/imported_character_visual.gd",
+      "sha256": "0598229a0ba94a877fc1621b53b9e696876f047538b84429ef008e6cf976c972",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/look_at_controller.gd",
+      "sha256": "34ddf399b8b6cbe8dadd3a7a11304fc83b51d32714a3febd9cca1bd735959a85",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/main_character_visual_6.gd",
+      "sha256": "42f9ec559cb1d3081cd112e09abbd2f8d5ed6a827d3a7eb92e70eba3db743d93",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/main_character_visual_6_2.gd",
+      "sha256": "01fc396f43c3235878d5b88ea2e0a87cb0edd2143cf1608a41b0b1d7be89b5bf",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/minigame_ui.gd",
+      "sha256": "2d00c81afaf2ecd68b0919ea922066d5a020d4a1499c191aa529104452d97b73",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/Muro.gd",
+      "sha256": "0250ab67d1bc0d0ef7b76d8eccea6dc8113701007f75c6ed0a6530e39d3505d4",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/npc_visual_6_3.gd",
+      "sha256": "21694f8ec8b07fe0fb0de68e06d35088575405076f2f17235119b903ba30a3a7",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/player.gd",
+      "sha256": "43d925c9d2bc1ff5641a263f67fa3e7e477bf27666205207efae3af66170bb73",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/player_seating.gd",
+      "sha256": "8261a922aa5d0c16b6192337f128052bf4e102f27c94730b0e97cbbae0a4a376",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/procedural_appearance_adapter.gd",
+      "sha256": "da556d88f9e9f2faf657e334bee5259d0c075fcedfbcd6458492ec6c33b96911",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/proyectil_deportivo.gd",
+      "sha256": "4875734e25b51e858d411f7149530f7410df6cace6102212e313cceb80cd8e09",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/student_visual.gd",
+      "sha256": "083bc8b4f81ee2bd632891f7dcae729abc32192f0305485f98d6b61decc37189",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/juego/weapon.gd",
+      "sha256": "e56e0d5128b414b7f5fdad1d9c8dfa7e0eda62f3536fb94d0a71785269e57df7",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/ambient_events.gd",
+      "sha256": "9e76f9d41db9ea79a97249d477c37b9183cab05f2bbf21d7955e38c5d2e993db",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/ambient_presentation.gd",
+      "sha256": "040324151141d5bc3bb76d936cf823d2a4c84e9cb92e9acff38b20d02954d1f4",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/ambient_situation.gd",
+      "sha256": "6beb054061b29b1eb0598403c7304b237a6698da5b991a2a7b0a42605fe1eb38",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/arena_return.gd",
+      "sha256": "3b205ededec33ed3d4f0e022b1d81527f65cf0db36bc6d3c61e538635fef7e14",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/balance_tools.gd",
+      "sha256": "7d9e8f5c702962547e3014af3559e607070410e00244757bb328b7badcedeb37",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/boss_data.gd",
+      "sha256": "40c02e588556ca152ea453e1d8ce6910789231e728b242ef81b15e847dd5e15b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/boss_retry.gd",
+      "sha256": "671eef4ffce50e4060842b998d39959d1011f4fe86bddd9a5526703dd6940464",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/campus_display.gd",
+      "sha256": "0852aa9cd78e4d279008f789309282b258b3cccc9a3800cc7067fc354ce8e73e",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/campus_live.gd",
+      "sha256": "f88e6cf3e7e61e5dbec88ad39a9b3f0d0e625f839033bb6e462c307558c1a3bb",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/campus_localization.gd",
+      "sha256": "9239402ad3decbbf69df5b53f87758c3c64c260cad6279dfd510f61d7bc18bbd",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/campus_qol.gd",
+      "sha256": "868dd549c022bcedaf53ef1996659dc1d26d54f2837f40648c29d61987f1ece3",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/campus_settings.gd",
+      "sha256": "15378237fcc8aa5bed0e265f9f246357f757033b3543b2eb98b7cb413c9d6ec7",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/campus_state.gd",
+      "sha256": "0464c6d3e14f3d19fb1eb9801ee1755444ff2854cede565ba6404e1dfda22bd8",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/content_helpers.gd",
+      "sha256": "4e7bd35708a17aef57c37d5001072d278148ae2bfd6a95a9d47eda5daaabb02e",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/event_catalog.gd",
+      "sha256": "de8b7f048ec89a6116eaa856d41580e25a51ed6f26c9e710fd55c721b8ce539a",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/event_data.gd",
+      "sha256": "c2ceff33640e80e6f7a4799d9fcb50ef462e61cf0f27199222cd7bfb16d612e6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/floor_activity_manager.gd",
+      "sha256": "f441cdb202ddb584ceddb8fe453324562c8ddbf13916f3bcc6a125b74a61fb2d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/gameplay_director.gd",
+      "sha256": "63cda39cfae599255595db318f3167563b7dcdc05517881c1eb718dbbd583db8",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/id_registry.gd",
+      "sha256": "6274cd8d78cfd46da87a49addb3af6df5dd85cfa015ddbc9ff8709761216c81d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/live_config.gd",
+      "sha256": "20e69cc7b9d209ea294b6b83f9942a6ccaafd80d4d40489984b959ba65db5a35",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/npc_data.gd",
+      "sha256": "fe220259f64f9dca0708ff2a9d52433c3f2d15253829c5b9623076cac364a83f",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/qa_tools.gd",
+      "sha256": "bc0ba4531edbedabee93c6e3c8158c4680d0bc9cd370a598f111f75e020a04c2",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/reactive_world.gd",
+      "sha256": "9b2ee7abc708c7ccc349ca44c359a65e661f3b2d142fd858b5f26fec216712ec",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/save_migration.gd",
+      "sha256": "3ee6365afd3690fa73aa3cbe70a0a31cbf0fef1524318c3bd520ea2aae331e67",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/story_moment.gd",
+      "sha256": "b2f2e88372bd9a0728434479f44e8862c545790a924012bb041395d83e3e1f1d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/live/story_moments.gd",
+      "sha256": "f9b4c97042f5efe02d6fd7bb30fc6129d73588443c14740aad75f714a1070782",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/organizacion/informacion_campus.gd",
+      "sha256": "3c1d59d2dd3215b8eaedaf21482a3e337cf3720866681fb737a4b5905adb8b0f",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/organizacion/informacion_piso.gd",
+      "sha256": "523c2808b0ad9b99b06500a5eb5497117bc387b1b50b71a6fbc575667148cda0",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/organizacion/nodos_campus.gd",
+      "sha256": "e25cd14fd7d0b86771511c89b6298485d7cb5c1593e73cc7eecffd7799e227f9",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_1/arma_ayuda_estudiantil.gd",
+      "sha256": "0cb26ff2d291acb4e4f0d1661f7471d34c34624c59f90a0f3335deeb65b98977",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_1/bandeja_chef_casino.gd",
+      "sha256": "e1abbedf1b77a4ec1da63c86baafe70071ea6e734446994929d3987aca5f8804",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_1/boss_ayuda_estudiantil.gd",
+      "sha256": "3e2f448ca168d5ec0df684bcb3303b4bf4fde476e7e19320f4e796147c5f7f99",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_1/casino_referencia.gd",
+      "sha256": "78252599e2923adf6ce4624a2d9f26bf8b0a96b4452cd9f5ae0aebaeb043787f",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_1/chef_supremo_casino.gd",
+      "sha256": "8d260e1f7b4b3cbb45787204aba15e3d4acf473e4f4c4b28bb875522dacd2849",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_1/INFORMACION.md",
+      "sha256": "d5eeb3d2c52dc56eff655519816b628d640933094984f738cb87353019ea3454",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_1/interior_coordinacion.gd",
+      "sha256": "d5f92cdbcd12fd1ec936052432149b0736efda5fae80d79f766232f6e495c6c7",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_1/inventario_papeleria.gd",
+      "sha256": "68aef6ef34febc8fd81de365c60c1e4ccf320d98051f673374a49b6fb3832d83",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_1/npc_papeleria.gd",
+      "sha256": "ac1df05a33b5be49f3395916702f6021e23da177744142900ab6290c9e75a3f7",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_1/puerta_vidrio_ayuda.gd",
+      "sha256": "bd200e82398a583dba338465dfb9a399724a7251895dc2f7c120ae8fa7dc5f81",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_2/acabados_piso_dos.gd",
+      "sha256": "430f07b5e605f49899a9d9c594cd6a8ad0929f0fbd3bdcd5d4f3afe30b947444",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_2/auditorio_piso_2e.gd",
+      "sha256": "b9de13d56ce8468a67d0368ef1cb430bf51198029b15084eecb28bf4e6481281",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_2/boss_bibliotecaria.gd",
+      "sha256": "182e98a7c772cc4a2f1e04b5807a839afe24db54e6452292e6528efcf7313061",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_2/INFORMACION.md",
+      "sha256": "4d85c232006cab361cd575ad90074c01a43c80413ff9def1aab85a2cce39339d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/encuentro_profesor_redes.gd",
+      "sha256": "3d4698e758ef473c36d1f6e2b838bbe78ec709aef21c24722ced11228feb3c41",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/INFORMACION.md",
+      "sha256": "e93cced326f0e084e9149480d028bf18d683276c610ca9db2a6197289cbb565d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/LocalComidaReferencia.tscn",
+      "sha256": "c9f50d50d026e7c68f6dcd4a1059e0346371c64458153d08ddc40a13d4455118",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/local_comida_referencia.gd",
+      "sha256": "293b808fef67ddc04b7f3c37653354886a383d4481309db5848837cb7bfe3484",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/network_data_packet.gd",
+      "sha256": "b8a6dbd23ce97995557c12b1fc0ae83c3e85997492cb9d20bdcce8ff20d33223",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/network_interference_zone.gd",
+      "sha256": "b5ebe21ea108a71c5cd95310bc684f06e6be36354a6c740530bd419a75f915f1",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/network_router_interactable.gd",
+      "sha256": "e2c4a3542219a3277c016926d026515fbd332f661ecc7b8765eaf1407c78b222",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/network_slow_status.gd",
+      "sha256": "29c03a247ca5d0afe0510ad07eed8b660f7d1a46130e251b803dc617fd9ab57b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/ProfesorRedesCheck.tscn",
+      "sha256": "3d1c45e02fffb49b57cbf7aa2a9651491908ecea6e76fdd0ce5bc628a44c967b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/ProfesorRedesPreview.tscn",
+      "sha256": "facae3aa25ba533b0da99be1492de3e86250437fed819ff6ca673df6c6688daf",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/PROFESOR_REDES.md",
+      "sha256": "9c8c2f9d83e0573d01129e35ef70baed0400c00c57441192af0d70ef86ef4434",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/profesor_redes_boss.gd",
+      "sha256": "8715cdbcc67c28244469e417062119ac81747f32bed36b54d94f1b751b628f7f",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/profesor_redes_duel.gd",
+      "sha256": "89dd1c339690ea1011f25073178fb001d0b8b4e3af499446ea35f786dacce701",
+      "changed_from_recovery": true
+    },
+    {
+      "file": "scripts/pisos/piso_3/router_portatil_item.gd",
+      "sha256": "bc6da51bd8a85db1c7100c578eb08e025649c2a0dbeb0c02d020fc42bfce4502",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/SalaDetrasLocal.tscn",
+      "sha256": "8d8f0a27ba128b8b74de8e28c9c5504ad2986910ca41bc1a53ad37d0b5fc891c",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/sala_detras_local.gd",
+      "sha256": "01e1f4d8148ef66de213bd111ed4c56fd127ee7ab3a2b2e80f493707ec165d30",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_3/test_profesor_redes.gd",
+      "sha256": "bbcbd82629c9689d4d211b1f0d2a519762389cadd7cd8688ba853ddbc6da2c44",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_4/INFORMACION.md",
+      "sha256": "f3f258a9d618c3795ed6781e11bd6c4253f790136b68c2fe0cdb60c15ddbb994",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_borrar_losa_morada.gd",
+      "sha256": "274c28f39846f3653cbfc7a297916fe71932798320fe3280ff8d2b4f9b5c338f",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_correccion_central.gd",
+      "sha256": "b5ad2f5495273e3894287cdd77b6d3e947b62c5c5bd1bdc14f2583b1bbbcfe7a",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_docentes.gd",
+      "sha256": "0608991482afc33a72a0b4e9f8e4edf810237fc9b769b3111efdfb693f871bfc",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_fila_frontal.gd",
+      "sha256": "9d6e84a0c7ba9791bf2575488fa0de8c4a62175ecb1ffcd8f45b436a9a89bb0a",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_referencia.gd",
+      "sha256": "b1d846417c579adf91b7a4dd8479556799d741f3e61b33bae01dbb517f185b25",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_retirar_tramo_marcado.gd",
+      "sha256": "c24019a52363220ae65d666f992d74a1805b4b6a96b68452a0454719869d4272",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_salas_centrales.gd",
+      "sha256": "e832d86aa4d721fddf8cf94889a7d6f2b7eb9198d7594febdce39e13f557e2f7",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_4/piso_4_salas_centrales_restauradas.gd",
+      "sha256": "da63418c78de4e69bc18f632b182b2d8879410e68d9a900d15319760d1edaf17",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_5/adaptar_desembarco_tienda.gd",
+      "sha256": "65d55e8713273252283f59181d0dce500badf4d3e73a13036cccd32c40f55d9b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_5/ajuste_tienda_foto_octubre.gd",
+      "sha256": "297da230491a67e4244f58cbad09dc6aef4740e78343381b10d770f3ce7601bf",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_5/INFORMACION.md",
+      "sha256": "9fccaeb12da5641272b708ed19a7aefa982f79f80835536481e32ffd34a4b5ad",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_5/terraza_piso_5_referencia.gd",
+      "sha256": "e2398232819def562f107b8ae14021ce1663bdc93c56452324ea131649181cae",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_5/TiendaEsquinaPiso5.tscn",
+      "sha256": "f2e8126ce9ec84cdbe7803cd1fee57a5c53ef4524ce91fe729f1173bbedeb98a",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_5/tienda_esquina_piso5.gd",
+      "sha256": "d8d09b08af4e03c530156db4d8784606adb6a72ffeda748f3e143cfa91c4dc25",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_6/INFORMACION.md",
+      "sha256": "f6355a48a34c66398c905712a956815065d0ec5552d1222d80e17556ba613b59",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_7/INFORMACION.md",
+      "sha256": "c6956300ad00e36606fc7d847801b994d5af453fd6a4de79a42da86f3cb3163f",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_8/credencial_director.gd",
+      "sha256": "fdead295855cb2b0c2ec3082bf44f6d14ed0aaba093f18c044872a6c563723ba",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_8/director_informatica_boss.gd",
+      "sha256": "38a97258a946063938e2145d0635cec369a971d73ac4f7c1fa68b3bde16f32e6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_8/INFORMACION.md",
+      "sha256": "f72a9677156c9b217275d5c54e0775cbe6781ecbbf68f8102295c324edf8c7ef",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_8/PasilloReferencia.tscn",
+      "sha256": "1911318c4568f0bab47824ab793697cda74d587cda0ab2c4030b84252392d802",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_8/pasillo_referencia.gd",
+      "sha256": "a12d68fb4401df893973fdccf1b42c9587e00d06a9776ca17fad32a5066e5c4a",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_8/piso_8_completo.gd",
+      "sha256": "fb5186b03e14b269cb390416ef4c3952b180763987bf0a8fb7e988f6b469a8bb",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_8/proyectil_error_sistema.gd",
+      "sha256": "b5cfc218a201f625f3cc624011b93c241d054ece471b43a941520646d1d3782e",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_8/virus_director.gd",
+      "sha256": "41c2b5873fff460e0cd67f219c8dcbe068a881f67c7f320d9d43a6e2fbf5e499",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_menos_1/INFORMACION.md",
+      "sha256": "5b4951b6c9e5d165b725ded7d72218c9063556408af9db5e639b83c9374778e6",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_menos_1/nexo_boss.gd",
+      "sha256": "8832c6b888dc4efd0238f05808f530c28577baa30853608c44e81ed0146f02bb",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_menos_1/nexo_config.gd",
+      "sha256": "3003a2d8743bda9987cf89fb05244d3e1b614630f9e530677d18f34ef3a56aac",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_menos_1/nexo_duel.gd",
+      "sha256": "170de9b5eb647bf50364221726fde576003fd75a35470030ebadfa5aeb0a6ca9",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_menos_1/nexo_final_area.gd",
+      "sha256": "fdbf8f6ea096ac70e4dd6624c8cf1f24bfc077af1c336405ae043b56d889006d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_menos_1/nexo_terminal.gd",
+      "sha256": "35b3282204a48cc505886208ed2b89fecf8a3bc958169a46e84267610980b400",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_menos_1/nexo_zone.gd",
+      "sha256": "5577e98acfdd9d01f335dceb0c63ce9a08d86f4f7a1268b46b746b4a17ee268c",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/piso_menos_1/reconstruccion_visual_2026.gd",
+      "sha256": "b4f3b1fb26e99536331d5822013c1028d57ee54a66a398fd5c2da6b1ea1a8bbc",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scripts/pisos/README.md",
+      "sha256": "4138b7a82e48f5b15e72425d32bba5b4e74ac8f2d8dd15969d2372fa1b3782ef",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "resources/education/demo_questions.json",
+      "sha256": "7fbd087eb3039681d43b0fc8fcc3bffa3bb37630be890622afdb3b6b426a42eb",
+      "changed_from_recovery": true
+    },
+    {
+      "file": "resources/education/incidents_v4.tres",
+      "sha256": "0d5458699f3d1cfb4605d164afe277d0b0d8ccb3f379c78ee0730e169faab17c",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scenes/education/AdminDashboard.tscn",
+      "sha256": "1f89c233e400c1a9a256232a05bde95f1328d22f952d0a7dac3f7b8f584125c4",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scenes/education/Login.tscn",
+      "sha256": "d2438e737046aaa979dc795c451589a038da896d0fa3378e9efa12704af8f890",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scenes/education/PendingAccountScreen.tscn",
+      "sha256": "148c3b4b928a4d6fb6bd7998fba384a3896e9a3d41de6c9e790da939d29e8452",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scenes/education/StudentMainMenu.tscn",
+      "sha256": "d53447f3b7a781741ee0fbbf2cd72b8ce14562d7500616dadc382c748968751c",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scenes/education/TeacherDashboard.tscn",
+      "sha256": "6d9671622e70984880a959f7111177f95ea1ec3221f7a37012b0ff28dd70d04d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "scenes/education/TeachingLab.tscn",
+      "sha256": "c7797197893fa0843bfff74224fc174fec711f6cd000a3fcb080f162fad0d3ca",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/bootstrap/SET_FIRST_ADMIN.sql",
+      "sha256": "024eb358f351ff5bc1fbd8697d81b3080ce23eefd72242dcbb57e79fb0fad8f9",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/diagnostics/CHECK_ADMIN_ROLE_RPC.sql",
+      "sha256": "da7298f139ebfa74484c730b8243bbae6b8c62d3441b3805493747ef66cd296d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/migrations/001_education_auth.sql",
+      "sha256": "3c16d21bc08156241663ab6ee81548309144711d3a5563c8062335ab941967d3",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/migrations/002_profile_display_name.sql",
+      "sha256": "d95f15f0f762b27d7b8d3b21bf33613c1a92597ffb081235cde8ce5220fc259d",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/migrations/003_recover_missing_profiles.sql",
+      "sha256": "62ce4dd05674a9cf6f16284527bad8866eb812e7b38f9cc4880aa078496afef1",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/migrations/004_user_roles_admin.sql",
+      "sha256": "82b4fcde3b259b5915396e3fc33d15b6bd34af8f0da9715abaf35185c4f09984",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/migrations/005_fix_admin_roles.sql",
+      "sha256": "82b5ac4ea5af856fc62d003fb00ba0eb4b66de89e29c4a03922503a531da6619",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/migrations/006_fix_admin_rpc_signature.sql",
+      "sha256": "b045faf991968e742c7dead9e41e7998f29d8943c716adc85fdb11c884e29d79",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/migrations/007_cloud_campaign.sql",
+      "sha256": "415067bc4b01638b305de4f75200a83e2d0faeeee37d8ef2789841f6ea98dc6b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/migrations/008_education_activities_v4.sql",
+      "sha256": "f877b7b4f545d8e74b9239f3ee9b73a28afc5cd4b4692d21ee59acba5bc3a0f9",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/migrations/009_learning_audit_v4.sql",
+      "sha256": "821e2bf8f13d427a39fe6250198b93da19eb57d45864991e1ee0f6220d72ac29",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/seeds/001_subjects.sql",
+      "sha256": "3cb48e3492663222ad6d52dcda146406901f232c21ee7b9331f3a93801057478",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/seeds/002_demo_questions.sql",
+      "sha256": "4b018f51fc906a74cd9e94d3b584b7ede7d1e22656cc27ddd1556fc26ed2cb89",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/verify_cloud_campaign.sql",
+      "sha256": "7cf6628eb8937bd1e4e6e7a90bf7c39edf1fb972325acb0dcf8187ce61239cb9",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/verify_education_auth.sql",
+      "sha256": "348c9b37e86e46ec481f0875f5ba68fa7fcc4b15234d4019df165c6d2f8f7d3a",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/verify_education_v4.sql",
+      "sha256": "e2e1fb0b880783fe7c36ba3b1b9fb802c08be63d4da33a5ca9bfb6841f44759b",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "supabase/verify_user_roles_admin.sql",
+      "sha256": "93468941ef6d774260a170bdf581da1ab86e43c82f44fffdf6f4ec5203f08dc1",
+      "changed_from_recovery": false
+    },
+    {
+      "file": "Main.tscn",
+      "sha256": "1b3b0e011b2c97963cc537757291114f9f64d3192387848bc3ab565c819c7a71",
+      "changed_from_recovery": true
+    },
+    {
+      "file": "project.godot",
+      "sha256": "2658479bfe119473e1e3cf2b2b8aebf54f49a7866b4056cb373c32ffc60062cd",
+      "changed_from_recovery": false
+    }
+  ],
+  "changed_existing_files": [
+    "scripts/campaign/academic_boss_duel.gd",
+    "scripts/campaign/boss_duel_controller.gd",
+    "scripts/campaign/interaction_controller.gd",
+    "scripts/education/mentor_activity_v4.gd",
+    "scripts/pisos/piso_3/profesor_redes_duel.gd",
+    "resources/education/demo_questions.json",
+    "Main.tscn"
+  ],
+  "new_production_files": [
+    "scripts/education/local_practice_service.gd",
+    "resources/education/capstone_practice_bank.json",
+    "resources/education/capstone_authoring_informatica.json",
+    "resources/education/capstone_authoring_salud_matematicas.json",
+    "resources/education/capstone_authoring_ingles_etica.json",
+    "resources/education/capstone_authoring_comunicacion_general.json"
+  ]
+}

@@ -11,6 +11,6 @@ void fragment(){
  float veins=pow(1.0-abs(v),48.0)*0.065;
  float grain=sin(wp.x*137.0+wp.z*89.0)*0.004;
  vec3 base=mix(vec3(0.073+veins+grain),vec3(0.023),joint);
- ALBEDO=base; EMISSION=base*0.65; ROUGHNESS=0.28; SPECULAR=0.55;
+ ALBEDO=base; EMISSION=base*0.65; ROUGHNESS=mix(0.64,0.90,joint); SPECULAR=0.25;
  if(wn.y<0.7){ALBEDO=vec3(0.30+grain);EMISSION=vec3(0.10);ROUGHNESS=0.90;SPECULAR=0.18;}
 }

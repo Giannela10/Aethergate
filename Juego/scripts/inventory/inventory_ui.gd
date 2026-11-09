@@ -17,6 +17,8 @@ var selected_uid := ""
 var previous_mouse := Input.MOUSE_MODE_CAPTURED
 var toast: Label
 var toast_time := 0.0
+var preview: TextureRect
+var durability: ProgressBar
 
 func _ready() -> void:
 	player = get_parent()
@@ -46,6 +48,11 @@ func _ready() -> void:
 	heading.text = "MOCHILA DEL ESTUDIANTE"
 	heading.add_theme_font_size_override("font_size",22)
 	column.add_child(heading)
+	_button(column,"CREDENCIALES ACADÉMICAS",func():
+		var campaign := get_tree().get_first_node_in_group("campus_campaign")
+		if campaign != null and campaign.has_node("DuocGames4"):
+			close_inventory()
+			campaign.get_node("DuocGames4").summary.show_credentials())
 	filter = OptionButton.new()
 	for title in ["Todas las categorías","Consumibles","Armas","Objetos clave","Objetos especiales","Papelería"]:
 		filter.add_item(title)
@@ -60,6 +67,8 @@ func _ready() -> void:
 	description = Label.new()
 	description.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	column.add_child(description)
+	preview=TextureRect.new(); preview.custom_minimum_size=Vector2(64,64); preview.expand_mode=TextureRect.EXPAND_IGNORE_SIZE; preview.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_CENTERED; column.add_child(preview)
+	durability=ProgressBar.new(); durability.custom_minimum_size.y=24; column.add_child(durability); durability.hide()
 	var actions := HBoxContainer.new()
 	column.add_child(actions)
 	_button(actions,"Usar",_use_selected)
@@ -251,12 +260,17 @@ func _select(index: int) -> void:
 
 func _show_details() -> void:
 	var entry: Dictionary = inventory.entry_for(selected_uid)
+	preview.hide(); durability.hide()
 	notes.hide()
 	save_note.hide()
 	if entry.is_empty():
 		description.text = "Mochila vacía. Acércate a un objeto y pulsa E."
 		return
 	var item = Catalog.get_item(entry.item_id)
+	preview.texture=item.icon; preview.show()
+	if inventory.weapon_nodes.has(entry.uid):
+		var weapon: Node=inventory.weapon_nodes[entry.uid]
+		durability.max_value=maxf(1,float(weapon.get_meta("max_durability",weapon.durability))); durability.value=weapon.durability; durability.show()
 	description.text = item.display_name + " · " + item.category_name() + "\n" + item.description
 	description.text += "\n★ Favorito" if entry.get("favorite",false) else ""
 	description.text += inventory.describe_comparison(selected_uid)

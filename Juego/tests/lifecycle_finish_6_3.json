@@ -1,0 +1,4 @@
+[
+ {"tool":"script_edit","arguments":{"file_path":"res://scripts/juego/humanoid.gd","old_string":"await get_tree().process_frame","new_string":"if not is_inside_tree(): return\n\tawait get_tree().process_frame","replace_all":true}},
+ {"tool":"script_edit","arguments":{"file_path":"res://scripts/juego/humanoid.gd","old_string":"human_visual63=load(\"res://scripts/juego/npc_visual_6_3.gd\").install(self)","new_string":"if not is_inside_tree(): return\n\thuman_visual63=load(\"res://scripts/juego/npc_visual_6_3.gd\").install(self)"}}
+]

@@ -45,11 +45,13 @@ func apply_appearance(profile: Dictionary) -> void:
 			color = Color(Profile.COLORS[profile.shoes])
 		elif original.is_equal_approx(Color("332a25")):
 			color = Color(Profile.HAIR[profile.hair_color])
-			if mesh.mesh is SphereMesh:
+			if mesh.mesh is SphereMesh or str(mesh.name)=="HairCap6":
 				mesh.visible = profile.hair != 2
-				if profile.hair == 1:
-					mesh.scale.y *= 1.6
-					mesh.scale.z *= 1.12
+				if str(mesh.name)=="HairCap6":
+					mesh.scale *= [Vector3.ONE,Vector3(1.08,0.97,1),Vector3(0.95,1.02,1),Vector3(1.04,1,1.03)][clampi(int(profile.get("face",0)),0,3)]
+				elif profile.hair == 1:
+					mesh.scale.y *= 1.05
+					mesh.scale.z *= 1.04
 				elif profile.hair == 3:
 					mesh.scale.x *= 0.85
 				elif profile.hair == 4:
@@ -61,10 +63,24 @@ func apply_appearance(profile: Dictionary) -> void:
 			if original.is_equal_approx(Color("bb874e")):
 				color = Color(Profile.COLORS[profile.get("backpack_color",4)])
 				if profile.backpack == 2: color = color.lightened(0.1)
-		mesh.material_override = body._mat(color,float(part.roughness))
+			elif original.is_equal_approx(Color("926437")):
+				color = Color(Profile.COLORS[profile.get("backpack_color",4)]).darkened(0.14)
+		var rough: float = float(part.roughness)
+		if original.is_equal_approx(source_skin) or original.is_equal_approx(source_skin.darkened(0.06)): rough = 0.82
+		if profile.top==6 and (body.hand_l.is_ancestor_of(mesh) or body.hand_r.is_ancestor_of(mesh)):
+			color=Color("b89452")
+			rough=0.9
+		if original.is_equal_approx(Color("315e78")): rough = 0.94 if profile.top == 3 else 0.87
+		if original.is_equal_approx(Color("28394a")): rough = 0.88 if profile.get("bottom_style",0) == 1 else 0.8
+		if original.is_equal_approx(Color("2a2d33")): rough = 0.62 if profile.get("shoe_style",0) == 1 else 0.78
+		if str(mesh.name) == "FaceContour6":
+			mesh.scale *= [Vector3.ONE,Vector3(1.08,0.97,1),Vector3(0.95,1.02,1),Vector3(1.04,1,1.03)][clampi(int(profile.get("face",0)),0,3)]
+		mesh.material_override = body._mat(color,rough)
+		if original.is_equal_approx(Color("315e78")) or original.is_equal_approx(Color("28394a")):
+			mesh.material_override.roughness_texture=body.Surface6.fabric()
 	var cloth := Color(Profile.COLORS[profile.clothes])
 	if profile.top == 1 or profile.outfit in [2,4,5,6]:
-		extras.append(body._ball(body.chest,0.16,Vector3(0,0.27,0.04),cloth,Vector3(1,0.55,0.8)))
+		_piece(body._ball(body.chest,0.13,Vector3(0,0.25,0.09),cloth,Vector3(0.95,0.45,0.65)),"TOP")
 	if profile.outfit == 1:
 		extras.append(body._box(body.chest,Vector3(0.28,0.42,0.025),Vector3(0,-0.04,-0.16),Color("ede3ce")))
 	elif profile.outfit == 2:
@@ -82,7 +98,11 @@ func apply_appearance(profile: Dictionary) -> void:
 	match profile.accessory:
 		1:
 			for side in [-1,1]:
-				extras.append(body._box(body.head_pivot,Vector3(0.055,0.033,0.012),Vector3(side*0.035,0.11,-0.102),Color("253747")))
+				for y in [0.100,0.122]:
+					_piece(body._box(body.head_pivot,Vector3(0.043,0.003,0.004),Vector3(side*0.035,y,-0.091),Color("253747")),"ACCESSORY")
+				for x in [-0.021,0.021]:
+					_piece(body._box(body.head_pivot,Vector3(0.003,0.023,0.004),Vector3(side*0.035+x,0.111,-0.091),Color("253747")),"ACCESSORY")
+			_piece(body._box(body.head_pivot,Vector3(0.027,0.003,0.004),Vector3(0,0.114,-0.091),Color("253747")),"ACCESSORY")
 		2:
 			extras.append(body._box(body.head_pivot,Vector3(0.035,0.06,0.07),Vector3(0.105,0.08,0),Color("41cbdd")))
 		3:
@@ -99,6 +119,8 @@ func apply_appearance(profile: Dictionary) -> void:
 		8:
 			_piece(body._box(body.chest,Vector3(0.07,0.11,0.016),Vector3(0.08,0.02,-0.18),Color("5eacb8")),"ACCESSORY")
 	_modular_clothing(profile,cloth)
+	_finish_clothing6(profile,cloth)
+	_batch_extras6()
 	body.lod_meshes.clear()
 	body._capture_modules()
 
@@ -121,8 +143,7 @@ func _modular_clothing(profile: Dictionary, cloth: Color) -> void:
 			_piece(lapel,"TOP")
 		_piece(body._box(body.chest,Vector3(0.012,0.29,0.012),Vector3(0,0.075,-0.15),Color("d4d7d9")),"TOP")
 	if top == 4:
-		for side in [-1,1]:
-			_piece(body._cyl(body.chest,0.07,0.08,0.31,Vector3(side*0.1,0.06,0),cloth.darkened(0.15),Vector3(1,1,1.7)),"TOP")
+		_piece(body._node(body.chest,body.Surface6.contour("jacket6",[Vector2(-0.04,0),Vector2(-0.03,0.14),Vector2(0.10,0.16),Vector2(0.23,0.18),Vector2(0.275,0.12),Vector2(0.29,0)],0.79),Vector3.ZERO,cloth,Vector3.ONE,0.86),"TOP")
 	if top == 5:
 		_piece(body._box(body.chest,Vector3(0.08,0.07,0.015),Vector3(0.09,0.1,-0.15),cloth.lightened(0.12)),"TOP")
 	if top == 6:
@@ -143,3 +164,71 @@ func _modular_clothing(profile: Dictionary, cloth: Color) -> void:
 		for index in 5:
 			var angle := float(index)*TAU/5
 			_piece(body._ball(body.head_pivot,0.035,Vector3(sin(angle)*0.07,0.19,cos(angle)*0.06),Color(Profile.HAIR[profile.hair_color])),"HAIR")
+
+func _finish_clothing6(profile: Dictionary, cloth: Color) -> void:
+	var top: int = profile.top
+	var trim := cloth.darkened(0.22)
+	# Hems, pockets and cuffs follow existing articulated pivots.
+	_piece(body._cyl(body.spine,0.137,0.137,0.018,Vector3(0,0.025,0),trim,Vector3(1,1,0.78)),"TOP")
+	for side in [-1.0,1.0]:
+		if top in [2,4,5,6]:
+			_piece(body._box(body.chest,Vector3(0.061,0.052,0.006),Vector3(side*0.088,0.115,-0.13),cloth.lightened(0.05)),"TOP")
+		if top>0:
+			var elbow: Node3D = body.elbow_l if side<0 else body.elbow_r
+			_piece(body._cyl(elbow,0.036,0.036,0.025,Vector3(0,-0.215,0),trim),"TOP")
+		if profile.backpack>0:
+			# Straps now exist only when a backpack is equipped.
+			var strap: MeshInstance3D = body._box(body.chest,Vector3(0.024,0.32,0.015),Vector3(side*0.123,0.115,-0.132),Color(Profile.COLORS[profile.get("backpack_color",0)]).darkened(0.22))
+			strap.rotation.z = side*0.08
+			_piece(strap,"BACKPACK")
+		var ankle: Node3D = body.ankle_l if side<0 else body.ankle_r
+		if profile.get("shoe_style",0)==0:
+			for i in 3:
+				_piece(body._box(ankle,Vector3(0.065,0.004,0.008),Vector3(0,-0.019,-0.07-i*0.019),Color("d8dbdc")),"SHOES")
+	if top in [2,4]:
+		for i in 4:
+			_piece(body._ball(body.chest,0.004,Vector3(0,0.03+i*0.045,-0.14),Color("bac0c5")),"TOP")
+	if top==1:
+		for side in [-1,1]:
+			_piece(body._box(body.chest,Vector3(0.003,0.10,0.004),Vector3(side*0.035,0.18,-0.14),cloth.lightened(0.3)),"TOP")
+	if profile.get("bottom_style",0)==4:
+		for hip in [body.hip_l,body.hip_r]:
+			_piece(body._box(hip,Vector3(0.009,0.38,0.009),Vector3(0.075,-0.20,0),Color("bfc6cf")),"BOTTOM")
+	if profile.get("head_accessory",0)==2:
+		_piece(body._ball(body.head_pivot,0.105,Vector3(0,0.163,0.01),cloth,Vector3(0.96,0.62,0.93)),"HEAD_ACCESSORY")
+	if profile.outfit==1:
+		_piece(body._cyl(body.head_pivot,0.102,0.102,0.04,Vector3(0,0.19,0),Color("eee9dc"),Vector3(1,1,0.95)),"HEAD_ACCESSORY")
+		_piece(body._ball(body.head_pivot,0.11,Vector3(0,0.235,0),Color("eee9dc"),Vector3(1,0.65,0.95)),"HEAD_ACCESSORY")
+	if profile.hair==1:
+		_piece(body._ball(body.head_pivot,0.085,Vector3(0,0.05,0.057),Color(Profile.HAIR[profile.hair_color]),Vector3(0.95,1.5,0.58)),"HAIR")
+	elif profile.hair in [3,4]:
+		for side in [-1,1]:
+			_piece(body._ball(body.head_pivot,0.024,Vector3(side*0.083,0.142,0.005),Color(Profile.HAIR[profile.hair_color]),Vector3(0.48,1.4 if profile.hair==4 else 0.8,1.5)),"HAIR")
+
+func _batch_extras6() -> void:
+	# One draw surface per parent/material/module; no merging across animated joints.
+	var groups := {}
+	for mesh in extras:
+		if not is_instance_valid(mesh) or not mesh is MeshInstance3D: continue
+		var key := str(mesh.get_parent().get_instance_id())+":"+str(mesh.material_override.get_instance_id())+":"+str(mesh.get_meta("visual_module","ACCESSORY"))
+		if not groups.has(key): groups[key]=[]
+		groups[key].append(mesh)
+	var combined: Array[Node3D] = []
+	for group in groups.values():
+		if group.size()<2:
+			combined.append(group[0])
+			continue
+		var tool := SurfaceTool.new()
+		tool.begin(Mesh.PRIMITIVE_TRIANGLES)
+		for mesh in group: tool.append_from(mesh.mesh,0,mesh.transform)
+		var merged := MeshInstance3D.new()
+		merged.name="Wardrobe6"
+		merged.mesh=tool.commit()
+		merged.material_override=group[0].material_override
+		merged.set_meta("visual_module",group[0].get_meta("visual_module","ACCESSORY"))
+		group[0].get_parent().add_child(merged)
+		combined.append(merged)
+		for mesh in group:
+			mesh.get_parent().remove_child(mesh)
+			mesh.free()
+	extras=combined

@@ -2,9 +2,6 @@
 extends Node3D
 ## Ajuste manual guardado en Main: nicho, ancho de escalera y protecciones bajas.
 
-func _ready() -> void:
-	pass
-
 func box(title: String, bounds: AABB, surface: Material, solid: bool = true) -> void:
 	var n := MeshInstance3D.new()
 	n.name = title
