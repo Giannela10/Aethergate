@@ -1,0 +1,57 @@
+[
+	{
+		"detail": null,
+		"status": "PASS",
+		"test": "entrance_material_loads"
+	},
+	{
+		"detail": null,
+		"status": "PASS",
+		"test": "entrance_shader_loads"
+	},
+	{
+		"detail": null,
+		"status": "PASS",
+		"test": "Login_scene_loads"
+	},
+	{
+		"detail": null,
+		"status": "PASS",
+		"test": "local_bank_150"
+	},
+	{
+		"detail": null,
+		"status": "PASS",
+		"test": "Main_ready"
+	},
+	{
+		"detail": null,
+		"status": "PASS",
+		"test": "saves_isolated"
+	},
+	{
+		"detail": 24,
+		"status": "PASS",
+		"test": "monitor_bases_24"
+	},
+	{
+		"detail": 22,
+		"status": "PASS",
+		"test": "terrace_guards_22"
+	},
+	{
+		"detail": null,
+		"status": "PASS",
+		"test": "optional_computer_captions"
+	},
+	{
+		"detail": "Private configuration and authorized session required on the destination PC; no network write tested",
+		"status": "BLOCKED",
+		"test": "remote_login"
+	},
+	{
+		"detail": null,
+		"status": "PASS",
+		"test": "AuthManager_autoload_resolved"
+	}
+]

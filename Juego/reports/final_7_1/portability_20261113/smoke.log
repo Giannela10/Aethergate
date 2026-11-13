@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6570
+[MCPRegistry] runtime port 6570 registered for c:/users/despac~1/appdata/local/temp/dg71_164012/juego
+PORTABILITY71_RESULT {"checks":[{"detail":null,"status":"PASS","test":"entrance_material_loads"},{"detail":null,"status":"PASS","test":"entrance_shader_loads"},{"detail":null,"status":"PASS","test":"Login_scene_loads"},{"detail":null,"status":"PASS","test":"local_bank_150"},{"detail":null,"status":"PASS","test":"Main_ready"},{"detail":null,"status":"PASS","test":"saves_isolated"},{"detail":24,"status":"PASS","test":"monitor_bases_24"},{"detail":22,"status":"PASS","test":"terrace_guards_22"},{"detail":null,"status":"PASS","test":"optional_computer_captions"},{"detail":"Private configuration and authorized session required on the destination PC; no network write tested","status":"BLOCKED","test":"remote_login"},{"detail":null,"status":"PASS","test":"AuthManager_autoload_resolved"}],"failures":0}
