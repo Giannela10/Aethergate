@@ -33,6 +33,10 @@ func _ready() -> void:
 		for z in [-1.5,1.0]:
 			box("Mesa",Vector3(x,0.75,z),Vector3(2.2,0.1,0.85),Color("a5916b"),true)
 			box("Monitor",Vector3(x,1.25,z+0.2),Vector3(0.7,0.45,0.07),Color("142c3f"))
+			# The screen bottom is 1.025 and the desktop is 0.8: give the
+			# display a real stand rather than leaving a 22.5 cm air gap.
+			box("BaseMonitor",Vector3(x,0.815,z+0.2),Vector3(0.36,0.03,0.24),Color("24252b"))
+			box("SoporteMonitor",Vector3(x,0.92,z+0.2),Vector3(0.055,0.21,0.055),Color("24252b"))
 			box("Teclado",Vector3(x,0.85,z-0.15),Vector3(0.6,0.04,0.2),Color("24252b"))
 			box("Gabinete",Vector3(x+0.85,0.4,z),Vector3(0.3,0.65,0.5),Color("24252b"))
 			box("Silla",Vector3(x,0.42,z-0.85),Vector3(0.6,0.1,0.6),Color("e49a30"))

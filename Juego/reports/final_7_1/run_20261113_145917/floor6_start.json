@@ -1,0 +1,4 @@
+{
+    "code":  "get_tree().current_scene.call_deferred(\"inspect_floor\",6)",
+    "channel":  "runtime"
+}

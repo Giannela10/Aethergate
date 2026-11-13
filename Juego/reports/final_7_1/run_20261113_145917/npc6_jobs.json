@@ -1,0 +1,16 @@
+[
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.extension(\"res://tests/final_npc_7_1.gd\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_node(\"NPCInspect71\").call_deferred(\"inspect\",6)",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    }
+]

@@ -1,0 +1,600 @@
+[
+	{
+		"detail": {
+			"bounds": "[P: (-84.5, 60.12495, -161.29), S: (169.0, 11.78, 38.87)]",
+			"clear_samples": 6,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_PasilloReferencia"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-58.09, 60.12495, -161.29), S: (16.18, 11.29, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_Sala807"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-42.09, 60.12495, -161.29), S: (16.18, 11.29, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_Sala808"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (32.91, 60.12495, -161.29), S: (12.68, 11.29, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_Sala805"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (45.41, 60.12495, -161.29), S: (12.68, 11.29, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_Sala806"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (19.91, 60.12495, -148.49), S: (13.18, 11.29, 10.86501)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_Sala809"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.09, 60.12495, -146.09), S: (6.18, 11.29, 8.464996)]",
+			"clear_samples": 4,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_Sala810"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-70.075, 60.15495, -161.275), S: (12.15, 11.25, 23.59999)]",
+			"clear_samples": 6,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_BanosMujeres"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (57.925, 60.15495, -161.275), S: (12.15, 11.25, 23.59999)]",
+			"clear_samples": 6,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_BanosHombres"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-19.0, 60.15495, -147.0), S: (38.0, 11.27, 10.0)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_ZonaEncuentroDuoc"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-83.09, 60.15495, -144.09), S: (12.17999, 11.26, 6.410004)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_SalaEstudioExtremoSur"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (70.91, 60.15495, -144.09), S: (12.17999, 11.26, 6.410004)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_SalaEstudioExtremoSur_4187"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.25, 60.1585, -149.505), S: (48.75, 5.630001, 7.75499)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_VestibuloAscensores"
+	},
+	{
+		"detail": {
+			"text": "PLANO DE LOS PISOS\nPISO 6 · USTED ESTÁ AQUÍ\n\nPISO 1\nCasino · Coordinación\n\nPISO 2\nBiblioteca · Auditorio"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "directory_destinations"
+	},
+	{
+		"detail": {
+			"actor": "(52.0, 60.22495, -132.0)",
+			"selected": "/root/FinalCampus71/Main/Piso6/profesor_ingles/BossDuelController",
+			"simulation": true
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "E_selection_profesor_ingles"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "dialogue_profesor_ingles"
+	},
+	{
+		"detail": {
+			"id": "4e928533-e6f8-52e3-bbf1-115a8d4fd993",
+			"prompt": "Choose the correct sentence.",
+			"subject": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "question_options_profesor_ingles_0"
+	},
+	{
+		"detail": {
+			"explanation": "Con she, el presente del verbo be es is.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "feedback_profesor_ingles_0"
+	},
+	{
+		"detail": {
+			"id": "0747cad5-1dcf-5ab2-b71e-508f53af783f",
+			"prompt": "What is the English word for biblioteca?",
+			"subject": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "question_options_profesor_ingles_1"
+	},
+	{
+		"detail": {
+			"explanation": "Library designa una biblioteca.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "feedback_profesor_ingles_1"
+	},
+	{
+		"detail": {
+			"id": "70edf2e8-01cf-5fdc-97d8-d5a81195ebba",
+			"prompt": "Complete: I have ___ apple.",
+			"subject": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "question_options_profesor_ingles_2"
+	},
+	{
+		"detail": {
+			"explanation": "Se utiliza an antes del sonido vocálico inicial de apple.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "feedback_profesor_ingles_2"
+	},
+	{
+		"detail": [
+			"4e928533-e6f8-52e3-bbf1-115a8d4fd993",
+			"0747cad5-1dcf-5ab2-b71e-508f53af783f",
+			"70edf2e8-01cf-5fdc-97d8-d5a81195ebba"
+		],
+		"floor": 6,
+		"status": "PASS",
+		"test": "no_early_repeat_profesor_ingles"
+	},
+	{
+		"detail": null,
+		"floor": 6,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_profesor_ingles"
+	},
+	{
+		"detail": {
+			"actor": "(-52.0, 60.22495, -132.0)",
+			"selected": "/root/FinalCampus71/Main/Piso6/profesor_etica/BossDuelController",
+			"simulation": true
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "E_selection_profesor_etica"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "dialogue_profesor_etica"
+	},
+	{
+		"detail": {
+			"id": "33f119dc-11d8-5e9e-9bc6-3c15d15a6e11",
+			"prompt": "¿Qué conducta expresa integridad académica?",
+			"subject": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "question_options_profesor_etica_0"
+	},
+	{
+		"detail": {
+			"explanation": "La integridad exige honestidad sobre autoría y resultados.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "feedback_profesor_etica_0"
+	},
+	{
+		"detail": {
+			"id": "4c39ed85-8425-5aab-92aa-4da105b01b2f",
+			"prompt": "¿Qué es información confidencial?",
+			"subject": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "question_options_profesor_etica_1"
+	},
+	{
+		"detail": {
+			"explanation": "La confidencialidad establece deberes sobre el acceso y la divulgación.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "feedback_profesor_etica_1"
+	},
+	{
+		"detail": {
+			"id": "024df2bf-6cef-5f54-8933-b55d1d784ba9",
+			"prompt": "¿Qué acción respeta la privacidad de otra persona?",
+			"subject": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "question_options_profesor_etica_2"
+	},
+	{
+		"detail": {
+			"explanation": "El tratamiento responsable limita datos y respeta finalidad y autorización.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "feedback_profesor_etica_2"
+	},
+	{
+		"detail": [
+			"33f119dc-11d8-5e9e-9bc6-3c15d15a6e11",
+			"4c39ed85-8425-5aab-92aa-4da105b01b2f",
+			"024df2bf-6cef-5f54-8933-b55d1d784ba9"
+		],
+		"floor": 6,
+		"status": "PASS",
+		"test": "no_early_repeat_profesor_etica"
+	},
+	{
+		"detail": null,
+		"floor": 6,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_profesor_etica"
+	},
+	{
+		"detail": {
+			"scope": "Diagnostic relocation for inspection; no campaign authorization injected",
+			"unlocks": {
+				"ENGLISH_PREPARED": false,
+				"LECTURA_PREPARADA": false,
+				"NEXO_INFORMATION": false,
+				"REFLEXION_PREVIA": false,
+				"provided:documentos": true,
+				"reward:quest:documentos": true,
+				"reward:welcome": true
+			}
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "campaign_gates_not_bypassed"
+	},
+	{
+		"detail": {
+			"scope": "Display text only; IDs, optional flags, amounts and requirement kinds unchanged"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "computer_captions_only"
+	},
+	{
+		"detail": {
+			"reason": "No safe start",
+			"start": "(-30.0, 60.2785, -140.0)"
+		},
+		"floor": 6,
+		"status": "NOT RUN",
+		"test": "hall_walk_6"
+	},
+	{
+		"detail": {
+			"blockers": [
+				"/root/FinalCampus71/Main/Piso7/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur_3672/Cuerpo"
+			],
+			"end": "(19.76793, 71.96899, -127.8)",
+			"expected": "(20.4, 71.94218, -127.8)",
+			"scope": "Real input/controller; diagnostic relocation to start",
+			"start": "(-21.8, 60.22495, -127.8)",
+			"trace": [
+				"(-21.46111, 60.18516, -127.8)",
+				"(-20.91945, 60.18516, -127.8)",
+				"(-20.2528, 60.18516, -127.8)",
+				"(-19.71114, 60.18516, -127.8)",
+				"(-19.16948, 60.18516, -127.8)",
+				"(-18.65767, 60.36564, -127.8)",
+				"(-18.18972, 60.55132, -127.8)",
+				"(-17.72175, 60.737, -127.8)",
+				"(-17.25377, 60.92268, -127.8)",
+				"(-16.82179, 61.09409, -127.8)",
+				"(-16.3178, 61.29405, -127.8)",
+				"(-15.88582, 61.46546, -127.8)",
+				"(-15.41784, 61.65115, -127.8)",
+				"(-14.91385, 61.85112, -127.8)",
+				"(-14.44585, 62.0368, -127.8)",
+				"(-13.97786, 62.2225, -127.8)",
+				"(-13.47387, 62.42246, -127.8)",
+				"(-12.96988, 62.62243, -127.8)",
+				"(-12.50189, 62.80814, -127.8)",
+				"(-11.99788, 63.00809, -127.8)",
+				"(-11.52989, 63.19379, -127.8)",
+				"(-11.02591, 63.39376, -127.8)",
+				"(-10.55792, 63.57946, -127.8)",
+				"(-10.08993, 63.76514, -127.8)",
+				"(-9.621929, 63.95084, -127.8)",
+				"(-9.189935, 64.12225, -127.8)",
+				"(-8.721943, 64.30793, -127.8)",
+				"(-8.253944, 64.49364, -127.8)",
+				"(-7.821951, 64.66503, -127.8)",
+				"(-7.353965, 64.8507, -127.8)",
+				"(-6.921986, 65.0221, -127.8)",
+				"(-6.490004, 65.19353, -127.8)",
+				"(-6.057995, 65.36491, -127.8)",
+				"(-5.572649, 65.51538, -127.8)",
+				"(-5.072651, 65.51538, -127.8)",
+				"(-4.572653, 65.51538, -127.8)",
+				"(-4.072655, 65.51538, -127.8)",
+				"(-3.489321, 65.51538, -127.8)",
+				"(-2.98932, 65.51538, -127.8)",
+				"(-2.489319, 65.51538, -127.8)",
+				"(-1.989318, 65.51538, -127.8)",
+				"(-1.447652, 65.51538, -127.8)",
+				"(-0.864319, 65.51538, -127.8)",
+				"(-0.322652, 65.51538, -127.8)",
+				"(0.16064, 65.65678, -127.8)",
+				"(0.623263, 65.84801, -127.8)",
+				"(1.085903, 66.03925, -127.8)",
+				"(1.548533, 66.23048, -127.8)",
+				"(2.011162, 66.42172, -127.8)",
+				"(2.4738, 66.61296, -127.8)",
+				"(2.936442, 66.80419, -127.8)",
+				"(3.399069, 66.99545, -127.8)",
+				"(3.826111, 67.17196, -127.8)",
+				"(4.288729, 67.36319, -127.8)",
+				"(4.715768, 67.53972, -127.8)",
+				"(5.178396, 67.73095, -127.8)",
+				"(5.676613, 67.9369, -127.8)",
+				"(6.103652, 68.1134, -127.8)",
+				"(6.530676, 68.28992, -127.8)",
+				"(6.95771, 68.46645, -127.8)",
+				"(7.420333, 68.65769, -127.8)",
+				"(7.882957, 68.84892, -127.8)",
+				"(8.31, 69.0254, -127.8)",
+				"(8.772635, 69.21664, -127.8)",
+				"(9.199678, 69.39318, -127.8)",
+				"(9.626722, 69.56968, -127.8)",
+				"(10.08932, 69.76096, -127.8)",
+				"(10.58754, 69.96687, -127.8)",
+				"(11.05016, 70.1581, -127.8)",
+				"(11.51278, 70.34933, -127.8)",
+				"(11.93981, 70.52584, -127.8)",
+				"(12.36685, 70.70237, -127.8)",
+				"(12.82946, 70.8936, -127.8)",
+				"(13.29209, 71.08485, -127.8)",
+				"(13.75471, 71.27607, -127.8)",
+				"(14.18176, 71.45259, -127.8)",
+				"(14.64436, 71.64383, -127.8)",
+				"(15.07137, 71.82034, -127.8)",
+				"(15.56644, 71.94337, -127.8)",
+				"(16.1081, 71.94311, -127.8)",
+				"(16.64976, 71.94311, -127.8)",
+				"(17.19142, 71.94311, -127.8)",
+				"(17.69141, 71.94311, -127.8)",
+				"(18.22629, 71.96899, -127.8)",
+				"(18.72628, 71.96899, -127.8)",
+				"(19.26794, 71.96899, -127.8)",
+				"(19.76793, 71.96899, -127.8)"
+			]
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "stairs_6_up"
+	},
+	{
+		"detail": {
+			"blockers": [
+				"/root/FinalCampus71/Main/Piso6/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+			],
+			"end": "(-21.43512, 60.18562, -127.8)",
+			"expected": "(-21.8, 60.1585, -127.8)",
+			"scope": "Real input/controller; diagnostic relocation to start",
+			"start": "(20.4, 72.00863, -127.8)",
+			"trace": [
+				"(20.10278, 71.96914, -127.8)",
+				"(19.51945, 71.96914, -127.8)",
+				"(18.89446, 71.96914, -127.8)",
+				"(18.35281, 71.96914, -127.8)",
+				"(17.76911, 71.94228, -127.8)",
+				"(17.22746, 71.94228, -127.8)",
+				"(16.64413, 71.94228, -127.8)",
+				"(16.10247, 71.94228, -127.8)",
+				"(15.60246, 71.94228, -127.8)",
+				"(15.05953, 71.81557, -127.8)",
+				"(14.47408, 71.5729, -127.8)",
+				"(13.92987, 71.34829, -127.8)",
+				"(13.38701, 71.12368, -127.8)",
+				"(12.84335, 70.89907, -127.8)",
+				"(12.2993, 70.67446, -127.8)",
+				"(11.71424, 70.43179, -127.8)",
+				"(11.21241, 70.22524, -127.8)",
+				"(10.66877, 70.00063, -127.8)",
+				"(10.08404, 69.75796, -127.8)",
+				"(9.539584, 69.53335, -127.8)",
+				"(9.038378, 69.32681, -127.8)",
+				"(8.536638, 69.1188, -127.8)",
+				"(7.949512, 68.87677, -127.8)",
+				"(7.364945, 68.63409, -127.8)",
+				"(6.738189, 68.37628, -127.8)",
+				"(6.237285, 68.16827, -127.8)",
+				"(5.65079, 67.9256, -127.8)",
+				"(5.064251, 67.68146, -127.8)",
+				"(4.47816, 67.44171, -127.8)",
+				"(3.933063, 67.21555, -127.8)",
+				"(3.347608, 66.97361, -127.8)",
+				"(2.803473, 66.74985, -127.8)",
+				"(2.218115, 66.50717, -127.8)",
+				"(1.673857, 66.28256, -127.8)",
+				"(1.130846, 66.05795, -127.8)",
+				"(0.586382, 65.83334, -127.8)",
+				"(0.04345, 65.60873, -127.8)",
+				"(-0.498868, 65.51498, -127.8)",
+				"(-1.040534, 65.51498, -127.8)",
+				"(-1.540534, 65.51498, -127.8)",
+				"(-2.040534, 65.51498, -127.8)",
+				"(-2.540534, 65.51498, -127.8)",
+				"(-3.082202, 65.51498, -127.8)",
+				"(-3.582203, 65.51498, -127.8)",
+				"(-4.165537, 65.51498, -127.8)",
+				"(-4.707201, 65.51498, -127.8)",
+				"(-5.290533, 65.51498, -127.8)",
+				"(-5.832508, 65.45419, -127.8)",
+				"(-6.375943, 65.23837, -127.8)",
+				"(-6.919775, 65.02255, -127.8)",
+				"(-7.463688, 64.80673, -127.8)",
+				"(-8.049453, 64.57431, -127.8)",
+				"(-8.593387, 64.35849, -127.8)",
+				"(-9.137314, 64.14267, -127.8)",
+				"(-9.639401, 63.94345, -127.8)",
+				"(-10.18333, 63.72763, -127.8)",
+				"(-10.76909, 63.49521, -127.8)",
+				"(-11.31303, 63.27939, -127.8)",
+				"(-11.85695, 63.06357, -127.8)",
+				"(-12.44272, 62.82968, -127.8)",
+				"(-12.98675, 62.61533, -127.8)",
+				"(-13.53061, 62.39951, -127.8)",
+				"(-14.0333, 62.19882, -127.8)",
+				"(-14.57693, 61.98447, -127.8)",
+				"(-15.07988, 61.78485, -127.8)",
+				"(-15.62752, 61.56772, -127.8)",
+				"(-16.13101, 61.36774, -127.8)",
+				"(-16.63303, 61.16853, -127.8)",
+				"(-17.17693, 60.95271, -127.8)",
+				"(-17.72159, 60.73689, -127.8)",
+				"(-18.2654, 60.52106, -127.8)",
+				"(-18.80884, 60.30524, -127.8)",
+				"(-19.35182, 60.18562, -127.8)",
+				"(-19.85181, 60.18562, -127.8)",
+				"(-20.39347, 60.18562, -127.8)",
+				"(-20.89347, 60.18562, -127.8)",
+				"(-21.43512, 60.18562, -127.8)"
+			]
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "stairs_6_down"
+	},
+	{
+		"detail": {
+			"scope": "Negative authorization test; authorized inter-floor ride BLOCKED by unmet campaign, no unlock injection",
+			"unlocked": false
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "elevator_campaign_gate"
+	},
+	{
+		"detail": "Current isolated new campaign has not earned upper-floor destinations",
+		"floor": 6,
+		"status": "BLOCKED",
+		"test": "authorized_elevator_trip"
+	},
+	{
+		"detail": {
+			"cloud": false,
+			"path": "res://reports/final_7_1/run_20261113_145917/floor_6/isolated_save.json"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "isolated_save_read"
+	},
+	{
+		"detail": {
+			"policy_height": 2.7,
+			"scale": "(1.506537, 1.506537, 1.506537)",
+			"scope": "Actual imported mentor, one second of idle animation; not all movement states"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "human_imported_profesor_ingles"
+	},
+	{
+		"detail": {
+			"policy_height": 2.7,
+			"scale": "(1.554017, 1.554017, 1.554017)",
+			"scope": "Actual imported mentor, one second of idle animation; not all movement states"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "human_imported_profesor_etica"
+	}
+]

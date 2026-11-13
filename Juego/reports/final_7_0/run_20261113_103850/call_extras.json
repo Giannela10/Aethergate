@@ -1,0 +1,4 @@
+{
+    "code":  "get_tree().current_scene.call(\"start_extras\")",
+    "channel":  "runtime"
+}

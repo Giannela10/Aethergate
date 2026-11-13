@@ -1,0 +1,667 @@
+[
+  {
+    "detail": {
+      "bounds": "[P: (-71.19999, 35.61441, -162.44), S: (45.09099, 12.01, 22.79501)]",
+      "clear_samples": 7,
+      "scope": "Placement samples, not a walked route"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "capsule_sample_DistribucionPlanoPiso4"
+  },
+  {
+    "detail": {
+      "bounds": "[P: (41.85, 35.67442, -162.44), S: (20.1, 11.95, 22.79501)]",
+      "clear_samples": 5,
+      "scope": "Placement samples, not a walked route"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "capsule_sample_SectorDocentesPiso4_ProfesoresCoordDocente"
+  },
+  {
+    "detail": {
+      "bounds": "[P: (-15.50673, 35.67442, -87.76484), S: (10.54611, 11.95, 10.96484)]",
+      "clear_samples": 5,
+      "scope": "Placement samples, not a walked route"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "capsule_sample_FilaFrontalPiso4_CoworkDocente"
+  },
+  {
+    "detail": {
+      "bounds": "[P: (-45.271, 35.61441, -117.6743), S: (26.37522, 12.01, 20.72118)]",
+      "clear_samples": 8,
+      "scope": "Placement samples, not a walked route"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "capsule_sample_SalasCentralesPiso4_415"
+  },
+  {
+    "detail": {
+      "bounds": "[P: (-57.561, 35.61441, -117.6743), S: (12.29, 12.01, 20.72118)]",
+      "clear_samples": 3,
+      "scope": "Placement samples, not a walked route"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "capsule_sample_SalasCentralesPiso4_417"
+  },
+  {
+    "detail": {
+      "bounds": "[P: (-70.213, 35.61441, -117.6743), S: (12.652, 12.01, 20.72118)]",
+      "clear_samples": 3,
+      "scope": "Placement samples, not a walked route"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "capsule_sample_SalasCentralesPiso4_418"
+  },
+  {
+    "detail": {
+      "bounds": "[P: (-58.28601, 35.67442, -87.76484), S: (4.5769, 11.95, 10.96484)]",
+      "clear_samples": 9,
+      "scope": "Placement samples, not a walked route"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "capsule_sample_FilaFrontalPiso4_PanolSalud"
+  },
+  {
+    "detail": {
+      "bounds": "[P: (-26.25, 35.67442, -149.505), S: (48.75, 5.629997, 6.564987)]",
+      "clear_samples": 9,
+      "scope": "Placement samples, not a walked route"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "capsule_sample_VestibuloAscensores"
+  },
+  {
+    "detail": {
+      "text": "PLANO DE LOS PISOS\nPISO 4 · USTED ESTÁ AQUÍ\n\nPISO 1\nCasino · Coordinación\n\nPISO 2\nBiblioteca · Auditorio"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "directory_destinations"
+  },
+  {
+    "detail": {
+      "actor": "(-60.0, 35.71442, -137.0)",
+      "selected": "/root/FinalCampus71/Main/Piso4/docente_enfermeria/BossDuelController",
+      "simulation": true
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "E_selection_docente_enfermeria"
+  },
+  {
+    "detail": {
+      "missing": "",
+      "scope": "Direct method fallback if E selection failed",
+      "state": 1
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "dialogue_docente_enfermeria"
+  },
+  {
+    "detail": {
+      "id": "2dbc9922-9b7e-5b50-a415-e353a0fc899e",
+      "prompt": "¿Cuál es el propósito general de la higiene de manos en atención de salud?",
+      "subject": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "question_options_docente_enfermeria_0"
+  },
+  {
+    "detail": {
+      "explanation": "La higiene de manos es una medida básica de prevención de infecciones.",
+      "scope": "Real local view button signal; not a remote grade"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "feedback_docente_enfermeria_0"
+  },
+  {
+    "detail": {
+      "id": "63ceeb5e-296e-539f-adfe-5b3c7cabe895",
+      "prompt": "¿Qué conducta favorece una comunicación respetuosa con un paciente?",
+      "subject": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "question_options_docente_enfermeria_1"
+  },
+  {
+    "detail": {
+      "explanation": "Escuchar y adaptar el lenguaje facilita la comprensión y el trato digno.",
+      "scope": "Real local view button signal; not a remote grade"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "feedback_docente_enfermeria_1"
+  },
+  {
+    "detail": {
+      "id": "9aa7f9e7-cdfb-5ceb-9a01-dbe6714a0927",
+      "prompt": "¿Cuál de estas mediciones es un signo vital?",
+      "subject": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "question_options_docente_enfermeria_2"
+  },
+  {
+    "detail": {
+      "explanation": "La frecuencia respiratoria es una medición fisiológica; no determina por sí sola un diagnóstico.",
+      "scope": "Real local view button signal; not a remote grade"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "feedback_docente_enfermeria_2"
+  },
+  {
+    "detail": [
+      "2dbc9922-9b7e-5b50-a415-e353a0fc899e",
+      "63ceeb5e-296e-539f-adfe-5b3c7cabe895",
+      "9aa7f9e7-cdfb-5ceb-9a01-dbe6714a0927"
+    ],
+    "floor": 4,
+    "status": "PASS",
+    "test": "no_early_repeat_docente_enfermeria"
+  },
+  {
+    "detail": null,
+    "floor": 4,
+    "status": "PASS",
+    "test": "local_practice_no_official_pass_docente_enfermeria"
+  },
+  {
+    "detail": {
+      "actor": "(-60.0, 35.71442, -156.0)",
+      "selected": "/root/FinalCampus71/Main/Piso4/docente_odontologia/BossDuelController",
+      "simulation": true
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "E_selection_docente_odontologia"
+  },
+  {
+    "detail": {
+      "missing": "",
+      "scope": "Direct method fallback if E selection failed",
+      "state": 1
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "dialogue_docente_odontologia"
+  },
+  {
+    "detail": {
+      "id": "598aa81a-1ab6-5122-9837-5edfc7b1b339",
+      "prompt": "¿Qué tejido recubre habitualmente la corona anatómica del diente?",
+      "subject": "98e03d19-a8e3-5880-bd55-d50dd53dc787"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "question_options_docente_odontologia_0"
+  },
+  {
+    "detail": {
+      "explanation": "El esmalte recubre la corona anatómica; la raíz posee una cobertura distinta.",
+      "scope": "Real local view button signal; not a remote grade"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "feedback_docente_odontologia_0"
+  },
+  {
+    "detail": {
+      "id": "9006544e-f8d6-5e4e-9459-60b56d52b6bb",
+      "prompt": "¿Cuál es una función principal de los incisivos?",
+      "subject": "98e03d19-a8e3-5880-bd55-d50dd53dc787"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "question_options_docente_odontologia_1"
+  },
+  {
+    "detail": {
+      "explanation": "La forma del borde incisal favorece la función de corte.",
+      "scope": "Real local view button signal; not a remote grade"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "feedback_docente_odontologia_1"
+  },
+  {
+    "detail": {
+      "id": "4080fbde-8b3d-5377-a135-7118c4ce8abb",
+      "prompt": "¿Qué estructura contiene vasos sanguíneos y nervios en el interior dental?",
+      "subject": "98e03d19-a8e3-5880-bd55-d50dd53dc787"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "question_options_docente_odontologia_2"
+  },
+  {
+    "detail": {
+      "explanation": "La pulpa es tejido blando del interior del diente y contiene vasos y nervios.",
+      "scope": "Real local view button signal; not a remote grade"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "feedback_docente_odontologia_2"
+  },
+  {
+    "detail": [
+      "598aa81a-1ab6-5122-9837-5edfc7b1b339",
+      "9006544e-f8d6-5e4e-9459-60b56d52b6bb",
+      "4080fbde-8b3d-5377-a135-7118c4ce8abb"
+    ],
+    "floor": 4,
+    "status": "PASS",
+    "test": "no_early_repeat_docente_odontologia"
+  },
+  {
+    "detail": null,
+    "floor": 4,
+    "status": "PASS",
+    "test": "local_practice_no_official_pass_docente_odontologia"
+  },
+  {
+    "detail": {
+      "actor": "(48.0, 35.71442, -145.0)",
+      "selected": "/root/FinalCampus71/Main/Piso4/coordinador_profesores/BossDuelController",
+      "simulation": true
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "E_selection_coordinador_profesores"
+  },
+  {
+    "detail": {
+      "missing": "Antes del duelo, ubica a estos docentes:\nInglés · piso 6 · formación general\nMatemáticas · piso 7 · formación general",
+      "scope": "Direct method fallback if E selection failed",
+      "state": 0
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "dialogue_coordinador_profesores"
+  },
+  {
+    "detail": {
+      "id": "358945cd-2bf8-5a8d-a5d1-30c1a7294f0b",
+      "prompt": "¿Qué instrucción SQL consulta filas de una tabla?",
+      "subject": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "question_options_coordinador_profesores_0"
+  },
+  {
+    "detail": {
+      "explanation": "SELECT recupera datos de una relación.",
+      "scope": "Real local view button signal; not a remote grade"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "feedback_coordinador_profesores_0"
+  },
+  {
+    "detail": {
+      "id": "c2ec7a81-a405-5487-9da9-73b3c6260cdb",
+      "prompt": "¿Qué estructura selecciona una acción según una condición?",
+      "subject": "702a0166-82e3-5a7e-9004-8de48d1cecf7"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "question_options_coordinador_profesores_1"
+  },
+  {
+    "detail": {
+      "explanation": "Una estructura if/else permite ejecutar ramas según una condición lógica.",
+      "scope": "Real local view button signal; not a remote grade"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "feedback_coordinador_profesores_1"
+  },
+  {
+    "detail": {
+      "id": "ab6cf4ec-b5b9-589e-bd86-08eb437f05e8",
+      "prompt": "¿Qué dispositivo reenvía tramas Ethernet entre puertos de una LAN usando direcciones MAC?",
+      "subject": "d607df1e-af8d-594a-9f2e-d46186d0b3a6"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "question_options_coordinador_profesores_2"
+  },
+  {
+    "detail": {
+      "explanation": "Un switch Ethernet utiliza su tabla de direcciones MAC para reenviar tramas.",
+      "scope": "Real local view button signal; not a remote grade"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "feedback_coordinador_profesores_2"
+  },
+  {
+    "detail": [
+      "358945cd-2bf8-5a8d-a5d1-30c1a7294f0b",
+      "c2ec7a81-a405-5487-9da9-73b3c6260cdb",
+      "ab6cf4ec-b5b9-589e-bd86-08eb437f05e8"
+    ],
+    "floor": 4,
+    "status": "PASS",
+    "test": "no_early_repeat_coordinador_profesores"
+  },
+  {
+    "detail": null,
+    "floor": 4,
+    "status": "PASS",
+    "test": "local_practice_no_official_pass_coordinador_profesores"
+  },
+  {
+    "detail": {
+      "scope": "Diagnostic relocation for inspection; no campaign authorization injected",
+      "unlocks": {
+        "ENGLISH_PREPARED": false,
+        "LECTURA_PREPARADA": false,
+        "NEXO_INFORMATION": false,
+        "REFLEXION_PREVIA": false,
+        "door:acceso7": true,
+        "provided:documentos": true,
+        "reward:computer:director_antivirus": true,
+        "reward:quest:director_task_antivirus": true,
+        "reward:quest:director_task_config": true,
+        "reward:quest:director_task_network": true,
+        "reward:quest:documentos": true,
+        "reward:quest:ubicar_profesores": true,
+        "reward:welcome": true
+      }
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "campaign_gates_not_bypassed"
+  },
+  {
+    "detail": {
+      "reason": "Anonymous read-only probes return PGRST205 for V4 resources; no verified remote result fabricated",
+      "steps": [
+        "Entrar al entrenamiento ficticio",
+        "Identificar prioridades educativas",
+        "Organizar recursos",
+        "Cerrar simulación"
+      ]
+    },
+    "floor": 4,
+    "status": "BLOCKED",
+    "test": "published_incident_v4_emergency"
+  },
+  {
+    "detail": {
+      "reason": "No safe start",
+      "start": "(-30.0, 35.79441, -140.0)"
+    },
+    "floor": 4,
+    "status": "NOT RUN",
+    "test": "hall_walk_4"
+  },
+  {
+    "detail": {
+      "blockers": [
+        "/root/FinalCampus71/Main/Piso5/Losas/LosaOriginal02/LosaPasoEscalera1"
+      ],
+      "end": "(19.75125, 47.97569, -127.8)",
+      "expected": "(20.4, 47.97485, -127.8)",
+      "scope": "Real input/controller; diagnostic relocation to start",
+      "start": "(-21.8, 35.71442, -127.8)",
+      "trace": [
+        "(-21.46111, 35.67462, -127.8)",
+        "(-20.96112, 35.67462, -127.8)",
+        "(-20.46113, 35.67462, -127.8)",
+        "(-19.96114, 35.67462, -127.8)",
+        "(-19.46114, 35.67462, -127.8)",
+        "(-18.95804, 35.76782, -127.8)",
+        "(-18.49569, 35.95931, -127.8)",
+        "(-18.03335, 36.1508, -127.8)",
+        "(-17.60657, 36.32756, -127.8)",
+        "(-17.10865, 36.53378, -127.8)",
+        "(-16.68188, 36.71054, -127.8)",
+        "(-16.21953, 36.90202, -127.8)",
+        "(-15.79275, 37.07878, -127.8)",
+        "(-15.33039, 37.27028, -127.8)",
+        "(-14.86803, 37.46177, -127.8)",
+        "(-14.33454, 37.68272, -127.8)",
+        "(-13.87218, 37.87422, -127.8)",
+        "(-13.40982, 38.06571, -127.8)",
+        "(-12.91189, 38.27194, -127.8)",
+        "(-12.44953, 38.46343, -127.8)",
+        "(-11.98717, 38.65491, -127.8)",
+        "(-11.52481, 38.84642, -127.8)",
+        "(-11.06244, 39.0379, -127.8)",
+        "(-10.63566, 39.21466, -127.8)",
+        "(-10.1733, 39.40616, -127.8)",
+        "(-9.710941, 39.59764, -127.8)",
+        "(-9.248598, 39.78915, -127.8)",
+        "(-8.786236, 39.98063, -127.8)",
+        "(-8.323883, 40.17213, -127.8)",
+        "(-7.861517, 40.36361, -127.8)",
+        "(-7.399174, 40.55512, -127.8)",
+        "(-6.936822, 40.7466, -127.8)",
+        "(-6.474463, 40.93807, -127.8)",
+        "(-6.047668, 41.11485, -127.8)",
+        "(-5.481561, 41.26644, -127.8)",
+        "(-4.981563, 41.26644, -127.8)",
+        "(-4.481565, 41.26644, -127.8)",
+        "(-3.9399, 41.26644, -127.8)",
+        "(-3.439899, 41.26644, -127.8)",
+        "(-2.856565, 41.26644, -127.8)",
+        "(-2.314897, 41.26644, -127.8)",
+        "(-1.77323, 41.26644, -127.8)",
+        "(-1.231564, 41.26644, -127.8)",
+        "(-0.689897, 41.26644, -127.8)",
+        "(-0.118657, 41.29446, -127.8)",
+        "(0.337976, 41.49151, -127.8)",
+        "(0.794623, 41.68856, -127.8)",
+        "(1.286399, 41.90077, -127.8)",
+        "(1.743037, 42.09782, -127.8)",
+        "(2.199681, 42.29487, -127.8)",
+        "(2.65633, 42.49192, -127.8)",
+        "(3.112976, 42.68896, -127.8)",
+        "(3.569618, 42.88601, -127.8)",
+        "(4.026268, 43.08307, -127.8)",
+        "(4.48291, 43.28012, -127.8)",
+        "(4.939558, 43.47717, -127.8)",
+        "(5.361075, 43.65906, -127.8)",
+        "(5.817722, 43.85611, -127.8)",
+        "(6.274369, 44.05315, -127.8)",
+        "(6.695875, 44.23504, -127.8)",
+        "(7.15251, 44.43209, -127.8)",
+        "(7.609156, 44.62914, -127.8)",
+        "(8.065827, 44.82611, -127.8)",
+        "(8.522448, 45.02324, -127.8)",
+        "(8.979102, 45.22025, -127.8)",
+        "(9.43574, 45.4173, -127.8)",
+        "(9.857261, 45.59918, -127.8)",
+        "(10.27878, 45.78108, -127.8)",
+        "(10.73541, 45.97813, -127.8)",
+        "(11.15692, 46.16002, -127.8)",
+        "(11.57844, 46.34192, -127.8)",
+        "(11.99994, 46.52381, -127.8)",
+        "(12.42146, 46.70569, -127.8)",
+        "(12.84296, 46.8876, -127.8)",
+        "(13.29961, 47.08464, -127.8)",
+        "(13.72114, 47.26653, -127.8)",
+        "(14.17776, 47.4636, -127.8)",
+        "(14.63443, 47.66058, -127.8)",
+        "(15.09105, 47.85767, -127.8)",
+        "(15.54297, 47.97569, -127.8)",
+        "(16.08464, 47.97569, -127.8)",
+        "(16.58463, 47.97569, -127.8)",
+        "(17.08462, 47.97569, -127.8)",
+        "(17.62628, 47.97569, -127.8)",
+        "(18.16794, 47.97569, -127.8)",
+        "(18.7096, 47.97569, -127.8)",
+        "(19.25126, 47.97569, -127.8)",
+        "(19.75125, 47.97569, -127.8)"
+      ]
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "stairs_4_up"
+  },
+  {
+    "detail": {
+      "blockers": [
+        "/root/FinalCampus71/Main/Piso4/VacioFranjaMorada/@MeshInstance3D@41574/@StaticBody3D@41575"
+      ],
+      "end": "(-21.18413, 35.67472, -127.8)",
+      "expected": "(-21.8, 35.67442, -127.8)",
+      "scope": "Real input/controller; diagnostic relocation to start",
+      "start": "(20.4, 48.01485, -127.8)",
+      "trace": [
+        "(20.10278, 47.97506, -127.8)",
+        "(19.51945, 47.97506, -127.8)",
+        "(18.9778, 47.97506, -127.8)",
+        "(18.39447, 47.97506, -127.8)",
+        "(17.85281, 47.97506, -127.8)",
+        "(17.31116, 47.97506, -127.8)",
+        "(16.72783, 47.97506, -127.8)",
+        "(16.18617, 47.97506, -127.8)",
+        "(15.6445, 47.97506, -127.8)",
+        "(15.14318, 47.87935, -127.8)",
+        "(14.64015, 47.66256, -127.8)",
+        "(14.0539, 47.40963, -127.8)",
+        "(13.46774, 47.1567, -127.8)",
+        "(12.96532, 46.9399, -127.8)",
+        "(12.46292, 46.7231, -127.8)",
+        "(11.91864, 46.48824, -127.8)",
+        "(11.41623, 46.27144, -127.8)",
+        "(10.83009, 46.01851, -127.8)",
+        "(10.32768, 45.80172, -127.8)",
+        "(9.741541, 45.54879, -127.8)",
+        "(9.1554, 45.29586, -127.8)",
+        "(8.569258, 45.04293, -127.8)",
+        "(8.02408, 44.8066, -127.8)",
+        "(7.480498, 44.5732, -127.8)",
+        "(6.936405, 44.33834, -127.8)",
+        "(6.392152, 44.10347, -127.8)",
+        "(5.847879, 43.86861, -127.8)",
+        "(5.302909, 43.63228, -127.8)",
+        "(4.759149, 43.39888, -127.8)",
+        "(4.215034, 43.16402, -127.8)",
+        "(3.670777, 42.92916, -127.8)",
+        "(3.16837, 42.71236, -127.8)",
+        "(2.624096, 42.4775, -127.8)",
+        "(2.121691, 42.2607, -127.8)",
+        "(1.618926, 42.04244, -127.8)",
+        "(1.116168, 41.82711, -127.8)",
+        "(0.614242, 41.61031, -127.8)",
+        "(0.112022, 41.39351, -127.8)",
+        "(-0.47289, 41.26583, -127.8)",
+        "(-1.014556, 41.26583, -127.8)",
+        "(-1.556223, 41.26583, -127.8)",
+        "(-2.097889, 41.26583, -127.8)",
+        "(-2.59789, 41.26583, -127.8)",
+        "(-3.139558, 41.26583, -127.8)",
+        "(-3.681225, 41.26583, -127.8)",
+        "(-4.222892, 41.26583, -127.8)",
+        "(-4.72289, 41.26583, -127.8)",
+        "(-5.264555, 41.26583, -127.8)",
+        "(-5.765145, 41.23158, -127.8)",
+        "(-6.266499, 41.02357, -127.8)",
+        "(-6.80973, 40.79897, -127.8)",
+        "(-7.352814, 40.57436, -127.8)",
+        "(-7.896523, 40.34975, -127.8)",
+        "(-8.481143, 40.10707, -127.8)",
+        "(-8.98307, 39.89906, -127.8)",
+        "(-9.568637, 39.65639, -127.8)",
+        "(-10.06969, 39.44838, -127.8)",
+        "(-10.57159, 39.24037, -127.8)",
+        "(-11.11543, 39.01576, -127.8)",
+        "(-11.6584, 38.79115, -127.8)",
+        "(-12.20191, 38.56508, -127.8)",
+        "(-12.74498, 38.34047, -127.8)",
+        "(-13.24668, 38.13393, -127.8)",
+        "(-13.74792, 37.92592, -127.8)",
+        "(-14.29148, 37.69838, -127.8)",
+        "(-14.83608, 37.47457, -127.8)",
+        "(-15.38012, 37.24913, -127.8)",
+        "(-15.88236, 37.04096, -127.8)",
+        "(-16.42545, 36.81635, -127.8)",
+        "(-16.96914, 36.59098, -127.8)",
+        "(-17.51275, 36.36637, -127.8)",
+        "(-18.0139, 36.15837, -127.8)",
+        "(-18.55734, 35.93376, -127.8)",
+        "(-19.10067, 35.70915, -127.8)",
+        "(-19.60082, 35.67472, -127.8)",
+        "(-20.14248, 35.67472, -127.8)",
+        "(-20.68414, 35.67472, -127.8)",
+        "(-21.18413, 35.67472, -127.8)"
+      ]
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "stairs_4_down"
+  },
+  {
+    "detail": {
+      "scope": "Negative authorization test; authorized inter-floor ride BLOCKED by unmet campaign, no unlock injection",
+      "unlocked": false
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "elevator_campaign_gate"
+  },
+  {
+    "detail": "Current isolated new campaign has not earned upper-floor destinations",
+    "floor": 4,
+    "status": "BLOCKED",
+    "test": "authorized_elevator_trip"
+  },
+  {
+    "detail": {
+      "cloud": false,
+      "path": "res://reports/final_7_1/run_20261113_145917/floor_4/isolated_save.json"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "isolated_save_read"
+  },
+  {
+    "detail": {
+      "policy_height": 2.7,
+      "scale": "(1.544945, 1.544945, 1.544945)",
+      "scope": "Actual imported mentor, one second of idle animation; not all movement states"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "human_imported_docente_enfermeria"
+  },
+  {
+    "detail": {
+      "policy_height": 2.7,
+      "scale": "(1.499683, 1.499683, 1.499683)",
+      "scope": "Actual imported mentor, one second of idle animation; not all movement states"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "human_imported_docente_odontologia"
+  },
+  {
+    "detail": {
+      "policy_height": 2.7,
+      "scale": "(1.495061, 1.495061, 1.495061)",
+      "scope": "Actual imported mentor, one second of idle animation; not all movement states"
+    },
+    "floor": 4,
+    "status": "PASS",
+    "test": "human_imported_coordinador_profesores"
+  }
+]

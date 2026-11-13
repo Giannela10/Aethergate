@@ -1,0 +1,92 @@
+[
+	{
+		"actor": "/root/FinalCampus71/Main/Piso1/SalaAyudaEstudiantil/BossAyudaEstudiantil",
+		"id": "punto",
+		"position": "(-42.0, 0.0, -144.0)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso1/Casino/ChefSupremoCasino",
+		"id": "chef",
+		"position": "(-73.0, 0.12, -102.5)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso2/Biblioteca/BossBibliotecaria",
+		"id": "bibliotecaria",
+		"position": "(-61.5, 12.10839, -115.5)",
+		"type": 1
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso3/EncuentroProfesorRedes/ProfesorRedes",
+		"id": "profesor_redes",
+		"position": "(65.0, 24.00767, -145.0)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso3/profesor_datos",
+		"id": "profesor_datos",
+		"position": "(-45.0, 24.00767, -137.0)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso3/profesor_algoritmos",
+		"id": "profesor_algoritmos",
+		"position": "(30.0, 24.00767, -130.0)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso4/docente_enfermeria",
+		"id": "docente_enfermeria",
+		"position": "(-60.0, 35.71442, -137.0)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso4/docente_odontologia",
+		"id": "docente_odontologia",
+		"position": "(-60.0, 35.71442, -156.0)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso4/coordinador_profesores",
+		"id": "coordinador_profesores",
+		"position": "(48.0, 35.71442, -145.0)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso6/profesor_ingles",
+		"id": "profesor_ingles",
+		"position": "(52.0, 60.22495, -132.0)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso6/profesor_etica",
+		"id": "profesor_etica",
+		"position": "(-52.0, 60.22495, -132.0)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso7/profesor_lenguaje",
+		"id": "profesor_lenguaje",
+		"position": "(52.0, 72.00863, -132.0)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso7/profesor_matematicas",
+		"id": "profesor_matematicas",
+		"position": "(-35.0, 71.98219, -140.0)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/Piso8/EncuentroDirectorInformatica/DirectorInformaticaBoss",
+		"id": "director",
+		"position": "(64.0, 84.06, -131.0)",
+		"type": 0
+	},
+	{
+		"actor": "/root/FinalCampus71/Main/PisoMenos1/NexoFinalArea/NEXO",
+		"id": "nexo",
+		"position": "(48.0, -12.01839, -100.0)",
+		"type": 0
+	}
+]

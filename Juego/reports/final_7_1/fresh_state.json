@@ -1,0 +1,4 @@
+﻿{
+    "code":  "get_tree().current_scene.get_child_count()",
+    "channel":  "runtime"
+}

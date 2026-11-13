@@ -1,0 +1,18 @@
+{
+	"checks": 22,
+	"failures": [
+		{
+			"detail": {
+				"reason": "No capsule-clear starting point",
+				"start": "(24.37, -11.9, -124.0)"
+			},
+			"passed": false,
+			"test": "basement_ramp_up"
+		},
+		{
+			"detail": null,
+			"passed": false,
+			"test": "save_quests_rewards_persistent_ids"
+		}
+	]
+}

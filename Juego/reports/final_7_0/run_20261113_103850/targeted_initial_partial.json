@@ -1,0 +1,14 @@
+[
+	{
+		"detail": "/root/FinalCampus70/Main/PisoMenos1/NexoFinalArea",
+		"passed": true,
+		"test": "nexo_actual_reference"
+	},
+	{
+		"detail": {
+			"placement_valid": true
+		},
+		"passed": true,
+		"test": "nexo_prerequisites_preserved"
+	}
+]

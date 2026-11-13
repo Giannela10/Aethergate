@@ -1,0 +1,3519 @@
+[
+	{
+		"detail": {
+			"events": 3,
+			"note": "Requirement saturates at 1; repeat conversations may increment raw events"
+		},
+		"passed": true,
+		"test": "talk_requirement_satisfied"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "paired_capsule_does_not_block_mentor"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "solid_wall_still_blocks_mentor"
+	},
+	{
+		"detail": {
+			"collider": "/root/FinalCampus70/Main/Piso1/LosasYAccesos/LosaRecortada_1_3/Cuerpo",
+			"position": "(24.37, 0.0, -124.0)"
+		},
+		"passed": true,
+		"test": "ramp_surface_found"
+	},
+	{
+		"detail": {
+			"blockers": [
+				"/root/FinalCampus70/Main/Piso1/LosasYAccesos/LosaRecortada_1_3/Cuerpo"
+			],
+			"end": "(24.37, 0.000205, -137.4648)",
+			"note": "Input-driven segment; vertical target is diagnostic, horizontal reach is assertion",
+			"start": "(24.37, 0.04, -124.0)",
+			"target": "(24.37, -6.0, -138.0)",
+			"trace": [
+				"(24.37, 0.000205, -124.2972)",
+				"(24.37, 0.000205, -124.8389)",
+				"(24.37, 0.000205, -125.3805)",
+				"(24.37, 0.000205, -125.8805)",
+				"(24.37, 0.000205, -126.4221)",
+				"(24.37, 0.000205, -126.9221)",
+				"(24.37, 0.000205, -127.422)",
+				"(24.37, 0.000205, -127.922)",
+				"(24.37, 0.000205, -128.5054)",
+				"(24.37, 0.000205, -129.0471)",
+				"(24.37, 0.000205, -129.5889)",
+				"(24.37, 0.000205, -130.1306)",
+				"(24.37, 0.000205, -130.6306)",
+				"(24.37, 0.000205, -131.1724)",
+				"(24.37, 0.000205, -131.7141)",
+				"(24.37, 0.000205, -132.2558)",
+				"(24.37, 0.000205, -132.7559)",
+				"(24.37, 0.000205, -133.2976)",
+				"(24.37, 0.000205, -133.8394)",
+				"(24.37, 0.000205, -134.3811)",
+				"(24.37, 0.000205, -134.8812)",
+				"(24.37, 0.000205, -135.4229)",
+				"(24.37, 0.000205, -135.923)",
+				"(24.37, 0.000205, -136.423)",
+				"(24.37, 0.000205, -136.9648)",
+				"(24.37, 0.000205, -137.4648)"
+			]
+		},
+		"passed": true,
+		"test": "ramp_actual_walk"
+	},
+	{
+		"detail": {
+			"equipped": true
+		},
+		"passed": true,
+		"test": "inventory_socket_identity"
+	},
+	{
+		"detail": {
+			"note": "Real controller; finite sockets asserted. Sole clearance separately measured, not blanket approved.",
+			"samples": [
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999179601669,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154154375195503,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -48.08167)",
+					"socket_finite": true,
+					"speed": 1.39999997615814,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154152482748032,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.279468536376953,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154152482748032,
+					"position": "(4.0, 0.100205, -48.29722)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154157683253288,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.28290855884552,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154157683253288,
+					"position": "(4.0, 0.100205, -48.5889)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.154149264097214,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -48.88057)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.260308623313904,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -49.17225)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.297575324773788,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.154157489538193,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.154157489538193,
+					"position": "(4.0, 0.100205, -49.42226)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999194502831,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.154151171445847,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999194502831,
+					"position": "(4.0, 0.100205, -49.71393)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.2120720744133,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -50.00561)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.154157027602196,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.315286874771118,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154157027602196,
+					"position": "(4.0, 0.100205, -50.29728)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.154151052236557,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -50.63063)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999046325684,
+							"sole_y": 0.251656532287598,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.154150322079659,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154150322079659,
+					"position": "(4.0, 0.100205, -50.96397)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.283050656318665,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.154157489538193,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154157489538193,
+					"position": "(4.0, 0.100205, -51.25565)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999149799347,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154149264097214,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.153999149799347,
+					"position": "(4.0, 0.100205, -51.58899)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.262074083089828,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -51.88066)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154157772660255,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.299259841442108,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154157772660255,
+					"position": "(4.0, 0.100205, -52.13067)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999164700508,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999164700508,
+					"position": "(4.0, 0.100205, -52.38068)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999164700508,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999164700508,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999164700508,
+					"position": "(4.0, 0.100205, -52.63069)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.319238543510437,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -52.92236)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999179601669,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999164700508,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999164700508,
+					"position": "(4.0, 0.100205, -53.21404)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104148499667645,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999164700508,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104148499667645,
+					"position": "(4.0, 0.100205, -53.50571)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104156158864498,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.265852332115173,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104156158864498,
+					"position": "(4.0, 0.100205, -53.79739)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104157388210297,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.165831744670868,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104157388210297,
+					"position": "(4.0, 0.100205, -54.0474)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104148432612419,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.0802962779998779,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.0802962779998779,
+					"position": "(4.0, 0.100205, -54.33907)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.255427598953247,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104154378175735,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104154378175735,
+					"position": "(4.0, 0.100205, -54.63075)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.171331495046616,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104156449437141,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104156449437141,
+					"position": "(4.0, 0.100205, -54.96409)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.0959822088479996,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104149185121059,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.0959822088479996,
+					"position": "(4.0, 0.100205, -55.25577)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104154571890831,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.250866562128067,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104154571890831,
+					"position": "(4.0, 0.100205, -55.50578)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104157015681267,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.176334232091904,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104157015681267,
+					"position": "(4.0, 0.100205, -55.83912)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.104147665202618,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.0872047021985054,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.0872047021985054,
+					"position": "(4.0, 0.100205, -56.13079)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.255909323692322,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104154840111732,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104154840111732,
+					"position": "(4.0, 0.100205, -56.42247)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.171066731214523,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104156725108624,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104156725108624,
+					"position": "(4.0, 0.100205, -56.75581)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.0888348519802094,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104148037731647,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.0888348519802094,
+					"position": "(4.0, 0.100205, -57.04749)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.10415493696928,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.261423289775848,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10415493696928,
+					"position": "(4.0, 0.100205, -57.33916)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104158140718937,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.190903663635254,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104158140718937,
+					"position": "(4.0, 0.100205, -57.63084)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104149736464024,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.0730873793363571,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.0730873793363571,
+					"position": "(4.0, 0.100205, -57.88085)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.232552632689476,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104152843356133,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104152843356133,
+					"position": "(4.0, 0.100205, -58.17252)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.207075297832489,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.10415805876255,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10415805876255,
+					"position": "(4.0, 0.100205, -58.50587)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.0749428570270538,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104150228202343,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.0749428570270538,
+					"position": "(4.0, 0.100205, -58.79754)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.104153044521809,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.241761296987534,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104153044521809,
+					"position": "(4.0, 0.100205, -59.08922)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.104157865047455,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.199371248483658,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104157865047455,
+					"position": "(4.0, 0.100205, -59.38089)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				}
+			]
+		},
+		"passed": true,
+		"test": "continuous_4s_walk"
+	},
+	{
+		"detail": {
+			"note": "Real controller; finite sockets asserted. Sole clearance separately measured, not blanket approved.",
+			"samples": [
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104154273867607,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.0924909934401512,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.0924909934401512,
+					"position": "(4.0, 0.100205, -59.69256)",
+					"socket_finite": true,
+					"speed": 1.63333332538605,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.264371424913406,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104138240218163,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104138240218163,
+					"position": "(4.0, 0.100205, -59.992)",
+					"socket_finite": true,
+					"speed": 3.26666665077209,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.250172793865204,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104000009596348,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104000009596348,
+					"position": "(4.0, 0.100205, -60.40034)",
+					"socket_finite": true,
+					"speed": 4.66666603088379,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.10400003194809,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.438815236091614,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10400003194809,
+					"position": "(4.0, 0.100205, -61.02367)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.10400003939867,
+							"swing": false
+						},
+						"r": {
+							"floor_y": null,
+							"sole_y": 0.870451629161835,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10400003939867,
+					"position": "(4.0, 0.100205, -61.66534)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.10400003194809,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.119156807661057,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000143051147,
+					"lowest_sole_y": 0.10400003194809,
+					"position": "(4.0, 0.100205, -62.30701)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.705649971961975,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.10400003194809,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10400003194809,
+					"position": "(4.0, 0.100205, -62.94868)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.712880432605743,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104000002145767,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000002145767,
+					"position": "(4.0, 0.100205, -63.49868)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.147607922554016,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104000009596348,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000009596348,
+					"position": "(4.0, 0.100205, -64.14035)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104000009596348,
+							"swing": false
+						},
+						"r": {
+							"floor_y": null,
+							"sole_y": 0.816105008125305,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000009596348,
+					"position": "(4.0, 0.100205, -64.78202)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104000061750412,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999046325684,
+							"sole_y": 0.639505445957184,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000061750412,
+					"position": "(4.0, 0.100205, -65.33202)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.0993909761309624,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.0993909761309624,
+					"position": "(4.0, 0.100205, -65.97369)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": null,
+							"sole_y": 0.924831569194794,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -66.5237)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.528579235076904,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -67.16537)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.252451241016388,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -67.80704)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999164700508,
+							"swing": false
+						},
+						"r": {
+							"floor_y": null,
+							"sole_y": 0.962828993797302,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999164700508,
+					"position": "(4.0, 0.100205, -68.35704)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.366468906402588,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -68.99871)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.418584823608398,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999209403992,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999209403992,
+					"position": "(4.0, 0.100205, -69.64038)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": null,
+							"sole_y": 0.965106129646301,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -70.19038)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.348109364509583,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -70.74039)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.386476039886475,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -71.29039)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						},
+						"r": {
+							"floor_y": null,
+							"sole_y": 0.965183198451996,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -71.84039)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.313401490449905,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -72.48206)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999046325684,
+							"sole_y": 0.415315628051758,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.103999942541122,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.103999942541122,
+					"position": "(4.0, 0.100205, -73.03207)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": null,
+							"sole_y": 0.903752624988556,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.1039999127388,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.1039999127388,
+					"position": "(4.0, 0.100205, -73.67374)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.123678311705589,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.10400003939867,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10400003939867,
+					"position": "(4.0, 0.100205, -74.31541)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.10400003194809,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000143051147,
+							"sole_y": 0.628824770450592,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10400003194809,
+					"position": "(4.0, 0.100205, -74.95708)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.103999920189381,
+							"swing": false
+						},
+						"r": {
+							"floor_y": null,
+							"sole_y": 0.844018995761871,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.103999920189381,
+					"position": "(4.0, 0.100205, -75.50708)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.103999644517899,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.12697958946228,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.103999644517899,
+					"position": "(4.0, 0.080763, -76.05729)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.487477600574493,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399993266910315,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399993266910315,
+					"position": "(4.0, 0.000685, -76.60729)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": null,
+							"sole_y": 0.768877327442169,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399993592873216,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399993592873216,
+					"position": "(4.0, 0.000685, -77.24896)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.0588983558118343,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00400002207607031,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00400002207607031,
+					"position": "(4.0, 0.000685, -77.79897)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.00400003418326378,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.416930973529816,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00400003418326378,
+					"position": "(4.0, 0.000685, -78.34897)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.0039999159052968,
+							"swing": false
+						},
+						"r": {
+							"floor_y": null,
+							"sole_y": 0.735026061534882,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.0039999159052968,
+					"position": "(4.0, 0.000685, -78.99064)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399991823360324,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.027635607868433,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399991823360324,
+					"position": "(4.0, 0.000685, -79.54064)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.476172029972076,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00400001229718328,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00400001229718328,
+					"position": "(4.0, 0.000685, -80.09064)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": null,
+							"sole_y": 0.77780157327652,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399992894381285,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399992894381285,
+					"position": "(4.0, 0.000685, -80.64065)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0000000596046447753906,
+							"sole_y": 0.0817255899310112,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399993406608701,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399993406608701,
+					"position": "(4.0, 0.000685, -81.19065)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.00400001648813486,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.359654366970062,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00400001648813486,
+					"position": "(4.0, 0.000685, -81.74065)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.00400000344961882,
+							"swing": false
+						},
+						"r": {
+							"floor_y": null,
+							"sole_y": 0.809068083763123,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00400000344961882,
+					"position": "(4.0, 0.000685, -82.29066)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				}
+			]
+		},
+		"passed": true,
+		"test": "continuous_4s_run"
+	},
+	{
+		"detail": {
+			"count": 15,
+			"note": "Visible runtime instances only; no exhaustive dialogue or floor contact assertion"
+		},
+		"passed": true,
+		"test": "npc_inventory_scoped"
+	},
+	{
+		"detail": {
+			"actual": {
+				"collected": {
+					"Arma_00": true,
+					"Mision_LibroBiblioteca_-46_1": true,
+					"Mision_LibroBiblioteca_-52_1": true,
+					"Mision_LibroBiblioteca_-58_1": true
+				},
+				"credits": 395.0,
+				"quests": {
+					"academico3": {
+						"state": 1.0
+					},
+					"academico4": {
+						"state": 0.0
+					},
+					"academico5": {
+						"state": 0.0
+					},
+					"acceso7": {
+						"state": 0.0
+					},
+					"biblioteca": {
+						"state": 2.0
+					},
+					"cargador": {
+						"state": 0.0
+					},
+					"casino": {
+						"state": 0.0
+					},
+					"direccion": {
+						"state": 0.0
+					},
+					"director_task_antivirus": {
+						"state": 0.0
+					},
+					"director_task_config": {
+						"state": 0.0
+					},
+					"director_task_network": {
+						"state": 0.0
+					},
+					"documentos": {
+						"state": 0.0
+					},
+					"implementos": {
+						"state": 0.0
+					},
+					"infectado": {
+						"state": 0.0
+					},
+					"inicio": {
+						"state": 2.0
+					},
+					"llaves": {
+						"state": 0.0
+					},
+					"nexo_final": {
+						"state": 0.0
+					},
+					"postgame": {
+						"state": 0.0
+					},
+					"seguridad6": {
+						"state": 0.0
+					},
+					"ubicar_profesores": {
+						"state": 0.0
+					},
+					"v4_bugs": {
+						"state": 0.0
+					},
+					"v4_emergency": {
+						"state": 0.0
+					},
+					"v4_network": {
+						"state": 0.0
+					},
+					"v4_presentation": {
+						"state": 0.0
+					},
+					"v4_rescue": {
+						"state": 0.0
+					},
+					"v4_workshop": {
+						"state": 0.0
+					}
+				},
+				"xp": 695.0
+			},
+			"expected": {
+				"collected": {
+					"Arma_00": true,
+					"Mision_LibroBiblioteca_-46_1": true,
+					"Mision_LibroBiblioteca_-52_1": true,
+					"Mision_LibroBiblioteca_-58_1": true
+				},
+				"credits": 395.0,
+				"quests": {
+					"academico3": {
+						"state": 1.0
+					},
+					"academico4": {
+						"state": 0.0
+					},
+					"academico5": {
+						"state": 0.0
+					},
+					"acceso7": {
+						"state": 0.0
+					},
+					"biblioteca": {
+						"state": 2.0
+					},
+					"cargador": {
+						"state": 0.0
+					},
+					"casino": {
+						"state": 0.0
+					},
+					"direccion": {
+						"state": 0.0
+					},
+					"director_task_antivirus": {
+						"state": 0.0
+					},
+					"director_task_config": {
+						"state": 0.0
+					},
+					"director_task_network": {
+						"state": 0.0
+					},
+					"documentos": {
+						"state": 0.0
+					},
+					"implementos": {
+						"state": 0.0
+					},
+					"infectado": {
+						"state": 0.0
+					},
+					"inicio": {
+						"state": 2.0
+					},
+					"llaves": {
+						"state": 0.0
+					},
+					"nexo_final": {
+						"state": 0.0
+					},
+					"postgame": {
+						"state": 0.0
+					},
+					"seguridad6": {
+						"state": 0.0
+					},
+					"ubicar_profesores": {
+						"state": 0.0
+					},
+					"v4_bugs": {
+						"state": 0.0
+					},
+					"v4_emergency": {
+						"state": 0.0
+					},
+					"v4_network": {
+						"state": 0.0
+					},
+					"v4_presentation": {
+						"state": 0.0
+					},
+					"v4_rescue": {
+						"state": 0.0
+					},
+					"v4_workshop": {
+						"state": 0.0
+					}
+				},
+				"xp": 695.0
+			},
+			"note": "Compare JSON values, allowing numeric deserialization; real local save writer, reader and migration"
+		},
+		"passed": true,
+		"test": "save_semantic_roundtrip"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "reload_no_duplicate_rewards"
+	},
+	{
+		"detail": {
+			"equipped": true
+		},
+		"passed": true,
+		"test": "inventory_socket_identity"
+	},
+	{
+		"detail": {
+			"note": "Real controller; finite sockets asserted. Sole clearance separately measured, not blanket approved.",
+			"samples": [
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.200486212968826,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.154157400131226,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.154157400131226,
+					"position": "(4.0, 0.100205, -48.10889)",
+					"socket_finite": true,
+					"speed": 1.63333332538605,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999164700508,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154148727655411,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999164700508,
+					"position": "(4.0, 0.100205, -48.46389)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154152765870094,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.290919065475464,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154152765870094,
+					"position": "(4.0, 0.100205, -48.7139)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.15415646135807,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.227314487099648,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.15415646135807,
+					"position": "(4.0, 0.100205, -49.04725)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.15414759516716,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999164700508,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999164700508,
+					"position": "(4.0, 0.100205, -49.38059)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.31984281539917,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154155224561691,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154155224561691,
+					"position": "(4.0, 0.100205, -49.71393)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.163895323872566,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.154153525829315,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154153525829315,
+					"position": "(4.0, 0.100205, -50.04728)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154148131608963,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.164724573493004,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.154148131608963,
+					"position": "(4.0, 0.100205, -50.33895)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154154777526855,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.312364757061005,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154154777526855,
+					"position": "(4.0, 0.100205, -50.58896)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154156073927879,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.216317534446716,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154156073927879,
+					"position": "(4.0, 0.100205, -50.88063)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.15414834022522,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -51.13064)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999046325684,
+							"sole_y": 0.306841850280762,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.154154002666473,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154154002666473,
+					"position": "(4.0, 0.100205, -51.46399)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.202315598726273,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.15415558218956,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.15415558218956,
+					"position": "(4.0, 0.100205, -51.79733)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.15414822101593,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.156942948698998,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.15414822101593,
+					"position": "(4.0, 0.100205, -52.089)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154155030846596,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.319586545228958,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154155030846596,
+					"position": "(4.0, 0.100205, -52.42235)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154154747724533,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.166170969605446,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154154747724533,
+					"position": "(4.0, 0.100205, -52.75569)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.194410756230354,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154147952795029,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154147952795029,
+					"position": "(4.0, 0.100205, -53.04737)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.308158040046692,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.154157489538193,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.154157489538193,
+					"position": "(4.0, 0.100205, -53.42238)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.126030460000038,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.154150798916817,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.126030460000038,
+					"position": "(4.0, 0.100205, -53.75572)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.104150868952274,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.191358715295792,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104150868952274,
+					"position": "(4.0, 0.100205, -54.0474)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104158252477646,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.2551109790802,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104158252477646,
+					"position": "(4.0, 0.100205, -54.29741)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104154363274574,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.10400003194809,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10400003194809,
+					"position": "(4.0, 0.100205, -54.58908)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.134069591760635,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104149110615253,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104149110615253,
+					"position": "(4.0, 0.100205, -54.83909)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.267593026161194,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.104157589375973,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104157589375973,
+					"position": "(4.0, 0.100205, -55.17243)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.103999994695187,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104153253138065,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.103999994695187,
+					"position": "(4.0, 0.100205, -55.46411)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.104147657752037,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.144807398319244,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104147657752037,
+					"position": "(4.0, 0.100205, -55.75578)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104158230125904,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.266923248767853,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104158230125904,
+					"position": "(4.0, 0.100205, -56.04746)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.104153990745544,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.111381880939007,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104153990745544,
+					"position": "(4.0, 0.100205, -56.33913)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.138983443379402,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104149922728539,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104149922728539,
+					"position": "(4.0, 0.100205, -56.63081)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.267333567142487,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104157760739326,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000143051147,
+					"lowest_sole_y": 0.104157760739326,
+					"position": "(4.0, 0.100205, -56.96415)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104000024497509,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104153424501419,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000024497509,
+					"position": "(4.0, 0.100205, -57.25583)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104148790240288,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.120713494718075,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104148790240288,
+					"position": "(4.0, 0.100205, -57.50584)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104157656431198,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.270486295223236,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104157656431198,
+					"position": "(4.0, 0.100205, -57.83918)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.104153610765934,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104000017046928,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000017046928,
+					"position": "(4.0, 0.100205, -58.17252)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.151986166834831,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104149170219898,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104149170219898,
+					"position": "(4.0, 0.100205, -58.4642)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.269047141075134,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104157768189907,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104157768189907,
+					"position": "(4.0, 0.100205, -58.75587)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.120352648198605,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104154273867607,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104154273867607,
+					"position": "(4.0, 0.100205, -59.00588)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104150034487247,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.110858097672462,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104150034487247,
+					"position": "(4.0, 0.100205, -59.29756)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104156255722046,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.265523821115494,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104156255722046,
+					"position": "(4.0, 0.100205, -59.54757)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104157581925392,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.171434432268143,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104157581925392,
+					"position": "(4.0, 0.100205, -59.83924)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				}
+			]
+		},
+		"passed": true,
+		"test": "continuous_4s_walk"
+	},
+	{
+		"detail": {
+			"note": "Real controller; finite sockets asserted. Sole clearance separately measured, not blanket approved.",
+			"samples": [
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.104153610765934,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104000024497509,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000024497509,
+					"position": "(4.0, 0.100205, -60.15091)",
+					"socket_finite": true,
+					"speed": 1.63333332538605,
+					"state": "WALK"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.323862612247467,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.1039999127388,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.1039999127388,
+					"position": "(4.0, 0.100205, -60.50868)",
+					"socket_finite": true,
+					"speed": 3.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.150547057390213,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.103999935090542,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.103999935090542,
+					"position": "(4.0, 0.100205, -60.94035)",
+					"socket_finite": true,
+					"speed": 4.89999914169312,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104000017046928,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.687038123607636,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000017046928,
+					"position": "(4.0, 0.100205, -61.57368)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.10400003194809,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.715210795402527,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10400003194809,
+					"position": "(4.0, 0.100205, -62.21535)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.103999935090542,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.151444688439369,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.103999935090542,
+					"position": "(4.0, 0.100205, -62.85703)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": null,
+							"sole_y": 0.876330375671387,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.103999935090542,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.103999935090542,
+					"position": "(4.0, 0.100205, -63.4987)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.426191031932831,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.103999927639961,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.103999927639961,
+					"position": "(4.0, 0.100205, -64.14037)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.1039999127388,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.308626145124435,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.1039999127388,
+					"position": "(4.0, 0.100205, -64.78204)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104000017046928,
+							"swing": false
+						},
+						"r": {
+							"floor_y": null,
+							"sole_y": 0.915493667125702,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104000017046928,
+					"position": "(4.0, 0.100205, -65.42371)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104000009596348,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.192618817090988,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104000009596348,
+					"position": "(4.0, 0.100205, -66.06538)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0999999046325684,
+							"sole_y": 0.596841394901276,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -66.70705)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": null,
+							"sole_y": 0.88183856010437,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999194502831,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.153999194502831,
+					"position": "(4.0, 0.100205, -67.34872)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.157121196389198,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -67.89872)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999164700508,
+							"swing": false
+						},
+						"r": {
+							"floor_y": null,
+							"sole_y": 0.850359320640564,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999164700508,
+					"position": "(4.0, 0.100205, -68.63206)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999149799347,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999046325684,
+							"sole_y": 0.73277086019516,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.153999149799347,
+					"position": "(4.0, 0.100205, -69.18206)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999164700508,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.193127304315567,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999164700508,
+					"position": "(4.0, 0.100205, -69.73206)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": null,
+							"sole_y": 0.921535968780518,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -70.4654)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.577402293682098,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -71.0154)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.190364763140678,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -71.56541)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999164700508,
+							"swing": false
+						},
+						"r": {
+							"floor_y": null,
+							"sole_y": 0.898476481437683,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.153999164700508,
+					"position": "(4.0, 0.100205, -72.20708)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.153999179601669,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999046325684,
+							"sole_y": 0.482051849365234,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -72.75708)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.282578557729721,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.10400003939867,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10400003939867,
+					"position": "(4.0, 0.100205, -73.39875)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": null,
+							"sole_y": 0.915075659751892,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.103999920189381,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.103999920189381,
+					"position": "(4.0, 0.100205, -74.04042)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000083446503,
+							"sole_y": 0.320840120315552,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.104000017046928,
+							"swing": false
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000017046928,
+					"position": "(4.0, 0.100205, -74.59042)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.10400003194809,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0999999642372131,
+							"sole_y": 0.341320067644119,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.10400003194809,
+					"position": "(4.0, 0.100205, -75.23209)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.00400006026029587,
+							"swing": false
+						},
+						"r": {
+							"floor_y": null,
+							"sole_y": 0.815498471260071,
+							"swing": true
+						}
+					},
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.00400006026029587,
+					"position": "(4.0, 0.100205, -75.7821)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.100000023841858,
+							"sole_y": 0.103998385369778,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0000000596046447753906,
+							"sole_y": 0.222990214824677,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.103998385369778,
+					"position": "(4.0, 0.000107, -76.42386)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.313715815544128,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399997178465128,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399997178465128,
+					"position": "(4.0, 0.000107, -76.97386)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": null,
+							"sole_y": 0.81006133556366,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399998296052217,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399998296052217,
+					"position": "(4.0, 0.000107, -77.52386)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.0276187025010586,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399999646469951,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399999646469951,
+					"position": "(4.0, 0.000107, -78.2572)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399997178465128,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.610999584197998,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399997178465128,
+					"position": "(4.0, 0.000107, -78.89887)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399996992200613,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.632120370864868,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399996992200613,
+					"position": "(4.0, 0.000107, -79.54054)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.00400001229718328,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399999646469951,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399999646469951,
+					"position": "(4.0, 0.000107, -80.18221)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": null,
+							"sole_y": 0.784981250762939,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399999134242535,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399999134242535,
+					"position": "(4.0, 0.000107, -80.82388)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.367353558540344,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399997970089316,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399997970089316,
+					"position": "(4.0, 0.000107, -81.37389)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.0039999894797802,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0000000596046447753906,
+							"sole_y": 0.104061216115952,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.0039999894797802,
+					"position": "(4.0, 0.000107, -82.01556)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399999227374792,
+							"swing": false
+						},
+						"r": {
+							"floor_y": null,
+							"sole_y": 0.809552192687988,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399999227374792,
+					"position": "(4.0, 0.000107, -82.56556)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399998389184475,
+							"swing": false
+						},
+						"r": {
+							"floor_y": 0.0000000596046447753906,
+							"sole_y": 0.242391094565392,
+							"swing": true
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399998389184475,
+					"position": "(4.0, 0.000107, -83.20723)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"feet": {
+						"l": {
+							"floor_y": 0.0000000596046447753906,
+							"sole_y": 0.249473139643669,
+							"swing": true
+						},
+						"r": {
+							"floor_y": 0.0,
+							"sole_y": 0.00399999227374792,
+							"swing": false
+						}
+					},
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399999227374792,
+					"position": "(4.0, 0.000107, -83.8489)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				}
+			]
+		},
+		"passed": true,
+		"test": "continuous_4s_run"
+	}
+]

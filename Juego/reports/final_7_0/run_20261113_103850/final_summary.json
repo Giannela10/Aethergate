@@ -1,0 +1,271 @@
+{
+  "version": "7.0",
+  "date": "2026-11-13",
+  "project": "Juego/project.godot",
+  "bones_preserved": 53,
+  "cadence": [
+    {
+      "expected": 8.75,
+      "passed": true,
+      "rad_per_second": 8.75,
+      "speed": 2.5
+    },
+    {
+      "expected": 10,
+      "passed": true,
+      "rad_per_second": 9.99999999999999,
+      "speed": 5.5
+    },
+    {
+      "expected": 12,
+      "passed": true,
+      "rad_per_second": 11.9999998266047,
+      "speed": 6.6
+    },
+    {
+      "expected": 0,
+      "passed": true,
+      "rad_per_second": 0,
+      "speed": 0
+    }
+  ],
+  "contact": [
+    {
+      "state": "continuous_4s_walk",
+      "all_feet_clearance_m": {
+        "count": 80,
+        "min": 0.0039991736412050005,
+        "max": 0.16948151588439897,
+        "mean": 0.03933042604476221
+      },
+      "stance_clearance_m": {
+        "count": 40,
+        "min": 0.004147917032242002,
+        "max": 0.004158414900303012,
+        "mean": 0.004153097793459912
+      }
+    },
+    {
+      "state": "continuous_4s_run",
+      "all_feet_clearance_m": {
+        "count": 68,
+        "min": 0.003999158740044001,
+        "max": 0.608051836490632,
+        "mean": 0.10112482095685078
+      },
+      "stance_clearance_m": {
+        "count": 40,
+        "min": 0.003999158740044001,
+        "max": 0.0208913013339043,
+        "mean": 0.0044299038592725765
+      }
+    }
+  ],
+  "floors": [
+    {
+      "floor": "PisoMenos1",
+      "nodes_in_inventory": 1095,
+      "mesh_instances": 712,
+      "lights": 21,
+      "visible_lights_in_tree": 21,
+      "labels": 41,
+      "note": "Tree visibility is not renderer-active light count. Inventory is not per-instance visual approval."
+    },
+    {
+      "floor": "Piso1",
+      "nodes_in_inventory": 3911,
+      "mesh_instances": 2812,
+      "lights": 43,
+      "visible_lights_in_tree": 42,
+      "labels": 49,
+      "note": "Tree visibility is not renderer-active light count. Inventory is not per-instance visual approval."
+    },
+    {
+      "floor": "Piso2",
+      "nodes_in_inventory": 6789,
+      "mesh_instances": 2767,
+      "lights": 43,
+      "visible_lights_in_tree": 41,
+      "labels": 62,
+      "note": "Tree visibility is not renderer-active light count. Inventory is not per-instance visual approval."
+    }
+  ],
+  "regression_suites": [
+    {
+      "suite": "inventory_regression",
+      "passed": true
+    },
+    {
+      "suite": "gameplay_regression",
+      "passed": true
+    },
+    {
+      "suite": "guardado_lectura",
+      "passed": true
+    },
+    {
+      "suite": "main_character_regression_6",
+      "passed": true
+    }
+  ],
+  "changed_scene_blocks": [
+    "[sub_resource type=\"BoxMesh\" id=\"BoxMesh_co32k\"]",
+    "[sub_resource type=\"BoxShape3D\" id=\"BoxShape3D_vcqyj\"]",
+    "[node name=\"LosaInclinada\" type=\"MeshInstance3D\" parent=\"PisoMenos1/AmbientacionIndustrial2026/RampaVehicularExterior\" unique_id=768084790]"
+  ],
+  "transitions": [
+    {
+      "test": "stairs_minus1_to_1_arrival_height",
+      "passed": true,
+      "end": "(20.20591, 0.000811, -127.8)"
+    },
+    {
+      "test": "stairs_1_to_2_arrival_height",
+      "passed": true,
+      "end": "(20.06839, 12.05928, -127.8)"
+    },
+    {
+      "test": "stairs_2_to_1_arrival_height",
+      "passed": true,
+      "end": "(-21.28202, 0.000792, -127.8)"
+    },
+    {
+      "test": "ramp_full_exit_arrival_height",
+      "passed": false,
+      "end": "(24.37, -12.05818, -115.9638)"
+    }
+  ],
+  "ramp_persisted": {
+    "note": "Fresh PackedScene read from disk, without instantiating campaign or using saves. Confirms persisted geometry, not upper exit approval.",
+    "passed": true,
+    "rows": [
+      {
+        "center_y": -6.24601078033447,
+        "length": 49.0640907287598,
+        "path": "PisoMenos1/AmbientacionIndustrial2026/RampaVehicularExterior/LosaInclinada",
+        "size": "(5.0, 0.42, 49.06409)",
+        "transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.968552, 0.248811), Z: (0.0, -0.248811, 0.968552), O: (24.37, -6.246011, -139.47)]"
+      },
+      {
+        "length": 49.0640907287598,
+        "path": "PisoMenos1/AmbientacionIndustrial2026/RampaVehicularExterior/LosaInclinada/ColisionEstatica/Forma",
+        "size": "(5.0, 0.42, 49.06409)"
+      }
+    ]
+  },
+  "critical_pending": [
+    {
+      "id": "M1-02",
+      "floor": -1,
+      "node": "Piso1/LosasYAccesos/LosaRecortada_46_1/Cuerpo",
+      "description": "Upper ramp head clearance blocked; structural opening and fall protection not changed."
+    }
+  ],
+  "performance": {
+    "before": [
+      {
+        "state": "idle",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "walk",
+        "fps": 70,
+        "draw_calls": 23
+      },
+      {
+        "state": "run",
+        "fps": 71,
+        "draw_calls": 23
+      },
+      {
+        "state": "lateral",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "backward",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "jump",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "land",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "crouch",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "attack",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "pickup",
+        "fps": 75,
+        "draw_calls": 23
+      }
+    ],
+    "after": [
+      {
+        "state": "idle",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "walk",
+        "fps": 71,
+        "draw_calls": 23
+      },
+      {
+        "state": "run",
+        "fps": 71,
+        "draw_calls": 23
+      },
+      {
+        "state": "lateral",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "backward",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "jump",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "land",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "crouch",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "attack",
+        "fps": 75,
+        "draw_calls": 23
+      },
+      {
+        "state": "pickup",
+        "fps": 75,
+        "draw_calls": 23
+      }
+    ],
+    "claim": "No FPS improvement claimed; short isolated samples, not a sustained campus benchmark."
+  }
+}

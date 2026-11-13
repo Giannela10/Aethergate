@@ -1,0 +1,5 @@
+{
+	"note": "Fresh PackedScene read from disk, without instantiating campaign or using saves. Confirms persisted geometry, not upper exit approval.",
+	"passed": false,
+	"rows": []
+}

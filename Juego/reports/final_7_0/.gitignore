@@ -1,0 +1,7 @@
+# Local recovery copies remain on disk; do not accidentally commit a full archive.
+**/head_tracked.zip
+**/untracked_before/
+
+# Keep source recovery snapshots local.
+**/*.before.*
+**/*_before.patch

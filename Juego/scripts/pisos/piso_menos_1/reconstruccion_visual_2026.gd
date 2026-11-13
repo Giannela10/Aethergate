@@ -433,7 +433,10 @@ func _ramp(parent: Node3D) -> void:
 	var rise := -BASE_Y
 	var angle := atan(rise / run)
 	var center_y := BASE_Y * 0.5
-	var deck := _box(ramp, "LosaInclinada", Vector3(24.37, center_y, center_z), Vector3(5.0, 0.42, run + 0.6), m["concrete"], true, true)
+	# The slope length is the hypotenuse. Offset the box center so its TOP
+	# surface meets the authored floor heights, avoiding a vertical entrance lip.
+	var deck_length := sqrt(run*run+rise*rise)+0.6
+	var deck := _box(ramp, "LosaInclinada", Vector3(24.37, center_y-0.21/cos(angle), center_z), Vector3(5.0, 0.42, deck_length), m["concrete"], true, true)
 	deck.rotation.x = angle
 	# Muros altos y baranda/reja de contención a ambos lados, todos siguen la pendiente.
 	for side in [-1.0, 1.0]:

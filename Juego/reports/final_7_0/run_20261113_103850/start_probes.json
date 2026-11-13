@@ -1,0 +1,4 @@
+{
+    "code":  "load(\"res://tests/final_probe_7_0.gd\").new().install(get_tree().current_scene)",
+    "channel":  "runtime"
+}

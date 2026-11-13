@@ -1,0 +1,4 @@
+{
+    "code":  "[get_tree().current_scene.campaign.final_area.name, get_tree().current_scene.campaign.player.global_position, get_tree().current_scene.campaign.player.busy]",
+    "channel":  "runtime"
+}

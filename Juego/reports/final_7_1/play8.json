@@ -1,0 +1,4 @@
+{
+    "code":  "get_tree().current_scene.extension(\"res://tests/final_director_play_7_1.gd\")",
+    "channel":  "runtime"
+}

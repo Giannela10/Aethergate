@@ -1,0 +1,23 @@
+[
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_child(-1).get_script().set_source_code(\"extends Node\\nvar f: Node\\nfunc install(parent: Node) -\\u003e String:\\n\\tf=parent;parent.add_child(self);run.call_deferred();return \\\"DIRECTOR_SIMULATION_CHECK_STARTED\\\"\\nfunc run() -\\u003e void:\\n\\tf.active_floor=8;f.phase=\\\"director_simulation\\\"\\n\\tvar c=f.campaign;var d=get_tree().get_nodes_in_group(\\\"boss_duel\\\").filter(func(duel): return duel.boss_id==\\\"director\\\")[0]\\n\\tc.ui.show();c.ui.close_modal();f.player.busy=false\\n\\tf.player.global_position=d.interaction_target().global_position+Vector3(0,0,2.5)\\n\\tawait get_tree().physics_frame;await get_tree().physics_frame\\n\\tvar scanner=f.player.get_node(\\\"InteractionController\\\");scanner.scan()\\n\\tf.record(\\\"director_E_after_tasks\\\",\\\"PASS\\\" if scanner.selected==d else \\\"FAIL\\\")\\n\\tif scanner.selected==d: scanner.interact_selected()\\n\\telse: d.interact(f.player)\\n\\tfor button in c.ui.column.find_children(\\\"*\\\",\\\"Button\\\",true,false):\\n\\t\\tif button.text==\\\"INICIAR SIMULACIÓN\\\": button.pressed.emit();break\\n\\tvar began=Time.get_ticks_msec()\\n\\twhile d.state==d.DuelState.INTRO and Time.get_ticks_msec()-began\\u003c12000: await get_tree().process_frame\\n\\tf.record(\\\"director_digital_simulation_start\\\",\\\"PASS\\\" if d.state==d.DuelState.COMBAT and d.simulation.active and d.simulation.hologram.visible and d.simulation.mentor.visible and not d.simulation.original_visual.visible else \\\"BLOCKED\\\",{\\\"state\\\":d.state,\\\"published_profile_present\\\":c.get_node(\\\"DuocGames4\\\").published_mentors.has(\\\"director\\\"),\\\"scope\\\":\\\"Actual simulation button after three earned tasks; isolated unauthenticated catalog. Does not certify a published evaluation\\\"})\\n\\tawait f.shot(\\\"digital_entity_and_mentor\\\",d.spawn_position+Vector3(2,3,8),d.spawn_position+Vector3.UP*1.4)\\n\\td.reset_duel();d.actor.set_physics_process(false)\\n\\tf.record(\\\"director_simulation_reset_no_reward\\\",\\\"PASS\\\" if not c.data.bosses.get(\\\"director\\\",false) and not f.player.has_key_item(\\\"CredencialDirector\\\") and not d.simulation.active else \\\"FAIL\\\")\\n\\tf.write(\\\"floor_8/simulation_done\\\",{\\\"state\\\":d.state})\\n\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_child(-1).get_script().reload(true)",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.extension(\"res://tests/final_director_sim_7_1.gd\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    }
+]

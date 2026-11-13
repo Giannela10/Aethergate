@@ -1,0 +1,8 @@
+﻿warning: in the working copy of 'Juego/DUOCGAMES_4_0_REPORT.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Juego/Main.tscn', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Juego/project.godot', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Juego/scripts/campaign/interaction_controller.gd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Juego/scripts/education/teaching_lab_v4.gd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Juego/scripts/juego/character_footwear_6_3.gd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Juego/scripts/juego/human_student_6_2.gd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Juego/scripts/juego/humanoid.gd', LF will be replaced by CRLF the next time Git touches it

@@ -1,0 +1,5 @@
+{
+    "text_filter":  "error",
+    "limit":  35,
+    "source":  "buffer"
+}

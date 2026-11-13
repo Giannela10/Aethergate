@@ -1,0 +1,384 @@
+[
+	{
+		"detail": {
+			"bounds": "[P: (-71.19999, 35.61441, -162.44), S: (45.09099, 12.01, 22.79501)]",
+			"clear_samples": 7,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "capsule_sample_DistribucionPlanoPiso4"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (41.85, 35.67442, -162.44), S: (20.1, 11.95, 22.79501)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "capsule_sample_SectorDocentesPiso4_ProfesoresCoordDocente"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-15.50673, 35.67442, -87.76484), S: (10.54611, 11.95, 10.96484)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "capsule_sample_FilaFrontalPiso4_CoworkDocente"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-45.271, 35.61441, -117.6743), S: (26.37522, 12.01, 20.72118)]",
+			"clear_samples": 8,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "capsule_sample_SalasCentralesPiso4_415"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-57.561, 35.61441, -117.6743), S: (12.29, 12.01, 20.72118)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "capsule_sample_SalasCentralesPiso4_417"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-70.213, 35.61441, -117.6743), S: (12.652, 12.01, 20.72118)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "capsule_sample_SalasCentralesPiso4_418"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-58.28601, 35.67442, -87.76484), S: (4.5769, 11.95, 10.96484)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "capsule_sample_FilaFrontalPiso4_PanolSalud"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.25, 35.67442, -149.505), S: (48.75, 5.629997, 6.564987)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "capsule_sample_VestibuloAscensores"
+	},
+	{
+		"detail": {
+			"text": "PLANO DE LOS PISOS\nPISO 4 · USTED ESTÁ AQUÍ\n\nPISO 1\nCasino · Coordinación\n\nPISO 2\nBiblioteca · Auditorio"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "directory_destinations"
+	},
+	{
+		"detail": {
+			"actor": "(-60.0, 35.71442, -137.0)",
+			"selected": "/root/FinalCampus71/Main/Piso4/docente_enfermeria/BossDuelController",
+			"simulation": true
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "E_selection_docente_enfermeria"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "dialogue_docente_enfermeria"
+	},
+	{
+		"detail": {
+			"id": "2dbc9922-9b7e-5b50-a415-e353a0fc899e",
+			"prompt": "¿Cuál es el propósito general de la higiene de manos en atención de salud?",
+			"subject": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "question_options_docente_enfermeria_0"
+	},
+	{
+		"detail": {
+			"explanation": "La higiene de manos es una medida básica de prevención de infecciones.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "feedback_docente_enfermeria_0"
+	},
+	{
+		"detail": {
+			"id": "63ceeb5e-296e-539f-adfe-5b3c7cabe895",
+			"prompt": "¿Qué conducta favorece una comunicación respetuosa con un paciente?",
+			"subject": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "question_options_docente_enfermeria_1"
+	},
+	{
+		"detail": {
+			"explanation": "Escuchar y adaptar el lenguaje facilita la comprensión y el trato digno.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "feedback_docente_enfermeria_1"
+	},
+	{
+		"detail": {
+			"id": "9aa7f9e7-cdfb-5ceb-9a01-dbe6714a0927",
+			"prompt": "¿Cuál de estas mediciones es un signo vital?",
+			"subject": "b1d6de42-ae8c-5f14-8e39-6175edd15fb5"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "question_options_docente_enfermeria_2"
+	},
+	{
+		"detail": {
+			"explanation": "La frecuencia respiratoria es una medición fisiológica; no determina por sí sola un diagnóstico.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "feedback_docente_enfermeria_2"
+	},
+	{
+		"detail": [
+			"2dbc9922-9b7e-5b50-a415-e353a0fc899e",
+			"63ceeb5e-296e-539f-adfe-5b3c7cabe895",
+			"9aa7f9e7-cdfb-5ceb-9a01-dbe6714a0927"
+		],
+		"floor": 4,
+		"status": "PASS",
+		"test": "no_early_repeat_docente_enfermeria"
+	},
+	{
+		"detail": null,
+		"floor": 4,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_docente_enfermeria"
+	},
+	{
+		"detail": {
+			"actor": "(-60.0, 35.71442, -156.0)",
+			"selected": "/root/FinalCampus71/Main/Piso4/docente_odontologia/BossDuelController",
+			"simulation": true
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "E_selection_docente_odontologia"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "dialogue_docente_odontologia"
+	},
+	{
+		"detail": {
+			"id": "598aa81a-1ab6-5122-9837-5edfc7b1b339",
+			"prompt": "¿Qué tejido recubre habitualmente la corona anatómica del diente?",
+			"subject": "98e03d19-a8e3-5880-bd55-d50dd53dc787"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "question_options_docente_odontologia_0"
+	},
+	{
+		"detail": {
+			"explanation": "El esmalte recubre la corona anatómica; la raíz posee una cobertura distinta.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "feedback_docente_odontologia_0"
+	},
+	{
+		"detail": {
+			"id": "9006544e-f8d6-5e4e-9459-60b56d52b6bb",
+			"prompt": "¿Cuál es una función principal de los incisivos?",
+			"subject": "98e03d19-a8e3-5880-bd55-d50dd53dc787"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "question_options_docente_odontologia_1"
+	},
+	{
+		"detail": {
+			"explanation": "La forma del borde incisal favorece la función de corte.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "feedback_docente_odontologia_1"
+	},
+	{
+		"detail": {
+			"id": "4080fbde-8b3d-5377-a135-7118c4ce8abb",
+			"prompt": "¿Qué estructura contiene vasos sanguíneos y nervios en el interior dental?",
+			"subject": "98e03d19-a8e3-5880-bd55-d50dd53dc787"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "question_options_docente_odontologia_2"
+	},
+	{
+		"detail": {
+			"explanation": "La pulpa es tejido blando del interior del diente y contiene vasos y nervios.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "feedback_docente_odontologia_2"
+	},
+	{
+		"detail": [
+			"598aa81a-1ab6-5122-9837-5edfc7b1b339",
+			"9006544e-f8d6-5e4e-9459-60b56d52b6bb",
+			"4080fbde-8b3d-5377-a135-7118c4ce8abb"
+		],
+		"floor": 4,
+		"status": "PASS",
+		"test": "no_early_repeat_docente_odontologia"
+	},
+	{
+		"detail": null,
+		"floor": 4,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_docente_odontologia"
+	},
+	{
+		"detail": {
+			"actor": "(48.0, 35.71442, -145.0)",
+			"selected": "/root/FinalCampus71/Main/Piso4/coordinador_profesores/BossDuelController",
+			"simulation": true
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "E_selection_coordinador_profesores"
+	},
+	{
+		"detail": {
+			"missing": "Antes del duelo, ubica a estos docentes:\nInglés · piso 6 · formación general\nMatemáticas · piso 7 · formación general",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 0
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "dialogue_coordinador_profesores"
+	},
+	{
+		"detail": {
+			"id": "358945cd-2bf8-5a8d-a5d1-30c1a7294f0b",
+			"prompt": "¿Qué instrucción SQL consulta filas de una tabla?",
+			"subject": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "question_options_coordinador_profesores_0"
+	},
+	{
+		"detail": {
+			"explanation": "SELECT recupera datos de una relación.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "feedback_coordinador_profesores_0"
+	},
+	{
+		"detail": {
+			"id": "c2ec7a81-a405-5487-9da9-73b3c6260cdb",
+			"prompt": "¿Qué estructura selecciona una acción según una condición?",
+			"subject": "702a0166-82e3-5a7e-9004-8de48d1cecf7"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "question_options_coordinador_profesores_1"
+	},
+	{
+		"detail": {
+			"explanation": "Una estructura if/else permite ejecutar ramas según una condición lógica.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "feedback_coordinador_profesores_1"
+	},
+	{
+		"detail": {
+			"id": "ab6cf4ec-b5b9-589e-bd86-08eb437f05e8",
+			"prompt": "¿Qué dispositivo reenvía tramas Ethernet entre puertos de una LAN usando direcciones MAC?",
+			"subject": "d607df1e-af8d-594a-9f2e-d46186d0b3a6"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "question_options_coordinador_profesores_2"
+	},
+	{
+		"detail": {
+			"explanation": "Un switch Ethernet utiliza su tabla de direcciones MAC para reenviar tramas.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "feedback_coordinador_profesores_2"
+	},
+	{
+		"detail": [
+			"358945cd-2bf8-5a8d-a5d1-30c1a7294f0b",
+			"c2ec7a81-a405-5487-9da9-73b3c6260cdb",
+			"ab6cf4ec-b5b9-589e-bd86-08eb437f05e8"
+		],
+		"floor": 4,
+		"status": "PASS",
+		"test": "no_early_repeat_coordinador_profesores"
+	},
+	{
+		"detail": null,
+		"floor": 4,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_coordinador_profesores"
+	},
+	{
+		"detail": {
+			"scope": "Diagnostic relocation for inspection; no campaign authorization injected",
+			"unlocks": {
+				"ENGLISH_PREPARED": false,
+				"LECTURA_PREPARADA": false,
+				"NEXO_INFORMATION": false,
+				"REFLEXION_PREVIA": false,
+				"reward:welcome": true
+			}
+		},
+		"floor": 4,
+		"status": "PASS",
+		"test": "campaign_gates_not_bypassed"
+	}
+]

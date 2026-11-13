@@ -1,0 +1,4 @@
+{
+    "code":  "get_tree().current_scene.campus.get_node(\"Piso5/TerrazaPicnic/CercaVidrio/Frente/Panel01\").use_collision",
+    "channel":  "runtime"
+}

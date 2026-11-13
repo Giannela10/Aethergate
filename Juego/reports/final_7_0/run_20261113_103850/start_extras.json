@@ -1,0 +1,16 @@
+[
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_script().reload(true)",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.start_extras()",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    }
+]

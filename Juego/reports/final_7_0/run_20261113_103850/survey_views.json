@@ -1,0 +1,8482 @@
+[
+	{
+		"at": "(37.6075, -9.818386, -139.4162)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_MecanicaAutomotriz_(1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_MecanicaAutomotriz_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 6128.0,
+				"fps": 35.0,
+				"ms": 9.626,
+				"primitives": 339596.0
+			},
+			{
+				"draw_calls": 6128.0,
+				"fps": 45.0,
+				"ms": 13.382,
+				"primitives": 339596.0
+			},
+			{
+				"draw_calls": 6128.0,
+				"fps": 45.0,
+				"ms": 13.284,
+				"primitives": 339596.0
+			},
+			{
+				"draw_calls": 6128.0,
+				"fps": 45.0,
+				"ms": 13.338,
+				"primitives": 339596.0
+			},
+			{
+				"draw_calls": 6128.0,
+				"fps": 45.0,
+				"ms": 13.344,
+				"primitives": 339596.0
+			},
+			{
+				"draw_calls": 6128.0,
+				"fps": 45.0,
+				"ms": 13.333,
+				"primitives": 339596.0
+			},
+			{
+				"draw_calls": 6128.0,
+				"fps": 45.0,
+				"ms": 13.328,
+				"primitives": 339596.0
+			},
+			{
+				"draw_calls": 6128.0,
+				"fps": 45.0,
+				"ms": 13.302,
+				"primitives": 339596.0
+			},
+			{
+				"draw_calls": 6128.0,
+				"fps": 45.0,
+				"ms": 26.723,
+				"primitives": 339596.0
+			},
+			{
+				"draw_calls": 6128.0,
+				"fps": 45.0,
+				"ms": 11.898,
+				"primitives": 339596.0
+			},
+			{
+				"draw_calls": 6128.0,
+				"fps": 45.0,
+				"ms": 11.978,
+				"primitives": 339596.0
+			},
+			{
+				"draw_calls": 6128.0,
+				"fps": 45.0,
+				"ms": 12.319,
+				"primitives": 339596.0
+			}
+		],
+		"target": "(45.6075, -9.818386, -139.4162)"
+	},
+	{
+		"at": "(37.6075, -9.818386, -139.4162)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_MecanicaAutomotriz_(-1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_MecanicaAutomotriz_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 11082.0,
+				"fps": 45.0,
+				"ms": 33.581,
+				"primitives": 495970.0
+			},
+			{
+				"draw_calls": 11082.0,
+				"fps": 45.0,
+				"ms": 38.686,
+				"primitives": 495970.0
+			},
+			{
+				"draw_calls": 11082.0,
+				"fps": 45.0,
+				"ms": 37.903,
+				"primitives": 495970.0
+			},
+			{
+				"draw_calls": 11082.0,
+				"fps": 45.0,
+				"ms": 37.0,
+				"primitives": 495970.0
+			},
+			{
+				"draw_calls": 11082.0,
+				"fps": 45.0,
+				"ms": 38.022,
+				"primitives": 495970.0
+			},
+			{
+				"draw_calls": 11082.0,
+				"fps": 45.0,
+				"ms": 38.093,
+				"primitives": 495970.0
+			},
+			{
+				"draw_calls": 11082.0,
+				"fps": 45.0,
+				"ms": 38.863,
+				"primitives": 495970.0
+			},
+			{
+				"draw_calls": 11082.0,
+				"fps": 45.0,
+				"ms": 36.767,
+				"primitives": 495970.0
+			},
+			{
+				"draw_calls": 11082.0,
+				"fps": 45.0,
+				"ms": 38.71,
+				"primitives": 495970.0
+			},
+			{
+				"draw_calls": 11082.0,
+				"fps": 45.0,
+				"ms": 38.667,
+				"primitives": 495970.0
+			},
+			{
+				"draw_calls": 11082.0,
+				"fps": 45.0,
+				"ms": 35.733,
+				"primitives": 495970.0
+			},
+			{
+				"draw_calls": 11082.0,
+				"fps": 45.0,
+				"ms": 37.748,
+				"primitives": 495970.0
+			}
+		],
+		"target": "(29.6075, -9.818386, -139.4162)"
+	},
+	{
+		"at": "(37.6075, -9.818386, -139.4162)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_MecanicaAutomotriz_(0.0, 0.0, -1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_MecanicaAutomotriz_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 7414.0,
+				"fps": 45.0,
+				"ms": 12.161,
+				"primitives": 422206.0
+			},
+			{
+				"draw_calls": 7414.0,
+				"fps": 45.0,
+				"ms": 14.669,
+				"primitives": 422206.0
+			},
+			{
+				"draw_calls": 7414.0,
+				"fps": 32.0,
+				"ms": 14.32,
+				"primitives": 422206.0
+			},
+			{
+				"draw_calls": 7414.0,
+				"fps": 32.0,
+				"ms": 15.577,
+				"primitives": 422206.0
+			},
+			{
+				"draw_calls": 7414.0,
+				"fps": 32.0,
+				"ms": 14.99,
+				"primitives": 422206.0
+			},
+			{
+				"draw_calls": 7414.0,
+				"fps": 32.0,
+				"ms": 16.795,
+				"primitives": 422206.0
+			},
+			{
+				"draw_calls": 7414.0,
+				"fps": 32.0,
+				"ms": 13.135,
+				"primitives": 422206.0
+			},
+			{
+				"draw_calls": 7414.0,
+				"fps": 32.0,
+				"ms": 12.675,
+				"primitives": 422206.0
+			},
+			{
+				"draw_calls": 7414.0,
+				"fps": 32.0,
+				"ms": 12.816,
+				"primitives": 422206.0
+			},
+			{
+				"draw_calls": 7414.0,
+				"fps": 32.0,
+				"ms": 13.527,
+				"primitives": 422206.0
+			},
+			{
+				"draw_calls": 7414.0,
+				"fps": 32.0,
+				"ms": 12.548,
+				"primitives": 422206.0
+			},
+			{
+				"draw_calls": 7414.0,
+				"fps": 32.0,
+				"ms": 15.544,
+				"primitives": 422206.0
+			}
+		],
+		"target": "(37.6075, -9.818386, -147.4162)"
+	},
+	{
+		"at": "(37.6075, -9.818386, -139.4162)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_MecanicaAutomotriz_(0.0, 0.0, 1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_MecanicaAutomotriz_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 6855.0,
+				"fps": 32.0,
+				"ms": 15.415,
+				"primitives": 450520.0
+			},
+			{
+				"draw_calls": 6855.0,
+				"fps": 32.0,
+				"ms": 18.147,
+				"primitives": 450520.0
+			},
+			{
+				"draw_calls": 6855.0,
+				"fps": 32.0,
+				"ms": 17.498,
+				"primitives": 450520.0
+			},
+			{
+				"draw_calls": 6855.0,
+				"fps": 32.0,
+				"ms": 18.358,
+				"primitives": 450520.0
+			},
+			{
+				"draw_calls": 6855.0,
+				"fps": 32.0,
+				"ms": 21.21,
+				"primitives": 450520.0
+			},
+			{
+				"draw_calls": 6855.0,
+				"fps": 32.0,
+				"ms": 18.688,
+				"primitives": 450520.0
+			},
+			{
+				"draw_calls": 6855.0,
+				"fps": 32.0,
+				"ms": 17.42,
+				"primitives": 450520.0
+			},
+			{
+				"draw_calls": 6855.0,
+				"fps": 32.0,
+				"ms": 17.594,
+				"primitives": 450520.0
+			},
+			{
+				"draw_calls": 6855.0,
+				"fps": 32.0,
+				"ms": 18.18,
+				"primitives": 450520.0
+			},
+			{
+				"draw_calls": 6855.0,
+				"fps": 32.0,
+				"ms": 21.424,
+				"primitives": 450520.0
+			},
+			{
+				"draw_calls": 6855.0,
+				"fps": 32.0,
+				"ms": 17.46,
+				"primitives": 450520.0
+			},
+			{
+				"draw_calls": 6855.0,
+				"fps": 32.0,
+				"ms": 19.892,
+				"primitives": 450520.0
+			}
+		],
+		"target": "(37.6075, -9.818386, -131.4162)"
+	},
+	{
+		"at": "(62.0, -9.818386, -146.6788)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_SoldaduraYEstructurasMetalicas_(1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_SoldaduraYEstructurasMetalicas_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 3685.0,
+				"fps": 32.0,
+				"ms": 8.662,
+				"primitives": 155976.0
+			},
+			{
+				"draw_calls": 3685.0,
+				"fps": 32.0,
+				"ms": 13.349,
+				"primitives": 155976.0
+			},
+			{
+				"draw_calls": 3685.0,
+				"fps": 32.0,
+				"ms": 13.281,
+				"primitives": 155976.0
+			},
+			{
+				"draw_calls": 3685.0,
+				"fps": 32.0,
+				"ms": 13.563,
+				"primitives": 155976.0
+			},
+			{
+				"draw_calls": 3685.0,
+				"fps": 32.0,
+				"ms": 13.1,
+				"primitives": 155976.0
+			},
+			{
+				"draw_calls": 3685.0,
+				"fps": 32.0,
+				"ms": 13.398,
+				"primitives": 155976.0
+			},
+			{
+				"draw_calls": 3685.0,
+				"fps": 32.0,
+				"ms": 13.4,
+				"primitives": 155976.0
+			},
+			{
+				"draw_calls": 3685.0,
+				"fps": 32.0,
+				"ms": 13.215,
+				"primitives": 155976.0
+			},
+			{
+				"draw_calls": 3685.0,
+				"fps": 32.0,
+				"ms": 13.323,
+				"primitives": 155976.0
+			},
+			{
+				"draw_calls": 3685.0,
+				"fps": 32.0,
+				"ms": 13.332,
+				"primitives": 155976.0
+			},
+			{
+				"draw_calls": 3685.0,
+				"fps": 32.0,
+				"ms": 13.391,
+				"primitives": 155976.0
+			},
+			{
+				"draw_calls": 3685.0,
+				"fps": 32.0,
+				"ms": 13.283,
+				"primitives": 155976.0
+			}
+		],
+		"target": "(70.0, -9.818386, -146.6788)"
+	},
+	{
+		"at": "(62.0, -9.818386, -146.6788)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_SoldaduraYEstructurasMetalicas_(-1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_SoldaduraYEstructurasMetalicas_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 14839.0,
+				"fps": 54.0,
+				"ms": 40.051,
+				"primitives": 706754.0
+			},
+			{
+				"draw_calls": 14839.0,
+				"fps": 54.0,
+				"ms": 45.423,
+				"primitives": 706754.0
+			},
+			{
+				"draw_calls": 14839.0,
+				"fps": 54.0,
+				"ms": 44.308,
+				"primitives": 706754.0
+			},
+			{
+				"draw_calls": 14839.0,
+				"fps": 54.0,
+				"ms": 46.46,
+				"primitives": 706754.0
+			},
+			{
+				"draw_calls": 14839.0,
+				"fps": 54.0,
+				"ms": 43.746,
+				"primitives": 706754.0
+			},
+			{
+				"draw_calls": 14839.0,
+				"fps": 54.0,
+				"ms": 44.897,
+				"primitives": 706754.0
+			},
+			{
+				"draw_calls": 14839.0,
+				"fps": 54.0,
+				"ms": 42.676,
+				"primitives": 706754.0
+			},
+			{
+				"draw_calls": 14839.0,
+				"fps": 54.0,
+				"ms": 44.155,
+				"primitives": 706754.0
+			},
+			{
+				"draw_calls": 14839.0,
+				"fps": 54.0,
+				"ms": 43.938,
+				"primitives": 706754.0
+			},
+			{
+				"draw_calls": 14839.0,
+				"fps": 54.0,
+				"ms": 45.944,
+				"primitives": 706754.0
+			},
+			{
+				"draw_calls": 14839.0,
+				"fps": 54.0,
+				"ms": 44.209,
+				"primitives": 706754.0
+			},
+			{
+				"draw_calls": 14839.0,
+				"fps": 54.0,
+				"ms": 46.393,
+				"primitives": 706754.0
+			}
+		],
+		"target": "(54.0, -9.818386, -146.6788)"
+	},
+	{
+		"at": "(62.0, -9.818386, -146.6788)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_SoldaduraYEstructurasMetalicas_(0.0, 0.0, -1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_SoldaduraYEstructurasMetalicas_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 6438.0,
+				"fps": 54.0,
+				"ms": 12.104,
+				"primitives": 453216.0
+			},
+			{
+				"draw_calls": 6438.0,
+				"fps": 54.0,
+				"ms": 13.327,
+				"primitives": 453216.0
+			},
+			{
+				"draw_calls": 6438.0,
+				"fps": 54.0,
+				"ms": 13.341,
+				"primitives": 453216.0
+			},
+			{
+				"draw_calls": 6438.0,
+				"fps": 54.0,
+				"ms": 13.309,
+				"primitives": 453216.0
+			},
+			{
+				"draw_calls": 6438.0,
+				"fps": 54.0,
+				"ms": 13.337,
+				"primitives": 453216.0
+			},
+			{
+				"draw_calls": 6438.0,
+				"fps": 54.0,
+				"ms": 26.723,
+				"primitives": 453216.0
+			},
+			{
+				"draw_calls": 6438.0,
+				"fps": 54.0,
+				"ms": 10.921,
+				"primitives": 453216.0
+			},
+			{
+				"draw_calls": 6438.0,
+				"fps": 54.0,
+				"ms": 10.902,
+				"primitives": 453216.0
+			},
+			{
+				"draw_calls": 6438.0,
+				"fps": 54.0,
+				"ms": 9.229,
+				"primitives": 453216.0
+			},
+			{
+				"draw_calls": 6438.0,
+				"fps": 54.0,
+				"ms": 10.511,
+				"primitives": 453216.0
+			},
+			{
+				"draw_calls": 6438.0,
+				"fps": 54.0,
+				"ms": 11.699,
+				"primitives": 453216.0
+			},
+			{
+				"draw_calls": 6438.0,
+				"fps": 54.0,
+				"ms": 13.345,
+				"primitives": 453216.0
+			}
+		],
+		"target": "(62.0, -9.818386, -154.6788)"
+	},
+	{
+		"at": "(62.0, -9.818386, -146.6788)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_SoldaduraYEstructurasMetalicas_(0.0, 0.0, 1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_SoldaduraYEstructurasMetalicas_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 9947.0,
+				"fps": 36.0,
+				"ms": 20.24,
+				"primitives": 538064.0
+			},
+			{
+				"draw_calls": 9947.0,
+				"fps": 36.0,
+				"ms": 23.124,
+				"primitives": 538064.0
+			},
+			{
+				"draw_calls": 9947.0,
+				"fps": 36.0,
+				"ms": 22.305,
+				"primitives": 538064.0
+			},
+			{
+				"draw_calls": 9947.0,
+				"fps": 36.0,
+				"ms": 23.576,
+				"primitives": 538064.0
+			},
+			{
+				"draw_calls": 9947.0,
+				"fps": 36.0,
+				"ms": 23.89,
+				"primitives": 538064.0
+			},
+			{
+				"draw_calls": 9947.0,
+				"fps": 36.0,
+				"ms": 21.702,
+				"primitives": 538064.0
+			},
+			{
+				"draw_calls": 9947.0,
+				"fps": 36.0,
+				"ms": 23.074,
+				"primitives": 538064.0
+			},
+			{
+				"draw_calls": 9947.0,
+				"fps": 36.0,
+				"ms": 22.448,
+				"primitives": 538064.0
+			},
+			{
+				"draw_calls": 9947.0,
+				"fps": 36.0,
+				"ms": 23.374,
+				"primitives": 538064.0
+			},
+			{
+				"draw_calls": 9947.0,
+				"fps": 36.0,
+				"ms": 23.928,
+				"primitives": 538064.0
+			},
+			{
+				"draw_calls": 9947.0,
+				"fps": 36.0,
+				"ms": 23.176,
+				"primitives": 538064.0
+			},
+			{
+				"draw_calls": 9947.0,
+				"fps": 36.0,
+				"ms": 23.662,
+				"primitives": 538064.0
+			}
+		],
+		"target": "(62.0, -9.818386, -138.6788)"
+	},
+	{
+		"at": "(46.47875, -9.818386, -118.285)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_MaquinariaIndustrial_(1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_MaquinariaIndustrial_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 5287.0,
+				"fps": 36.0,
+				"ms": 10.113,
+				"primitives": 240872.0
+			},
+			{
+				"draw_calls": 5287.0,
+				"fps": 36.0,
+				"ms": 13.446,
+				"primitives": 240872.0
+			},
+			{
+				"draw_calls": 5287.0,
+				"fps": 36.0,
+				"ms": 16.271,
+				"primitives": 240872.0
+			},
+			{
+				"draw_calls": 5287.0,
+				"fps": 36.0,
+				"ms": 13.649,
+				"primitives": 240872.0
+			},
+			{
+				"draw_calls": 5287.0,
+				"fps": 36.0,
+				"ms": 12.926,
+				"primitives": 240872.0
+			},
+			{
+				"draw_calls": 5287.0,
+				"fps": 36.0,
+				"ms": 13.765,
+				"primitives": 240872.0
+			},
+			{
+				"draw_calls": 5287.0,
+				"fps": 36.0,
+				"ms": 13.172,
+				"primitives": 240872.0
+			},
+			{
+				"draw_calls": 5287.0,
+				"fps": 36.0,
+				"ms": 14.444,
+				"primitives": 240872.0
+			},
+			{
+				"draw_calls": 5287.0,
+				"fps": 36.0,
+				"ms": 17.044,
+				"primitives": 240872.0
+			},
+			{
+				"draw_calls": 5287.0,
+				"fps": 36.0,
+				"ms": 14.286,
+				"primitives": 240872.0
+			},
+			{
+				"draw_calls": 5287.0,
+				"fps": 36.0,
+				"ms": 11.846,
+				"primitives": 240872.0
+			},
+			{
+				"draw_calls": 5287.0,
+				"fps": 36.0,
+				"ms": 10.774,
+				"primitives": 240872.0
+			}
+		],
+		"target": "(54.47875, -9.818386, -118.285)"
+	},
+	{
+		"at": "(46.47875, -9.818386, -118.285)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_MaquinariaIndustrial_(-1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_MaquinariaIndustrial_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 10622.0,
+				"fps": 44.0,
+				"ms": 39.615,
+				"primitives": 482040.0
+			},
+			{
+				"draw_calls": 10622.0,
+				"fps": 44.0,
+				"ms": 45.709,
+				"primitives": 482040.0
+			},
+			{
+				"draw_calls": 10622.0,
+				"fps": 44.0,
+				"ms": 40.597,
+				"primitives": 482040.0
+			},
+			{
+				"draw_calls": 10622.0,
+				"fps": 44.0,
+				"ms": 45.346,
+				"primitives": 482040.0
+			},
+			{
+				"draw_calls": 10622.0,
+				"fps": 44.0,
+				"ms": 43.37,
+				"primitives": 482040.0
+			},
+			{
+				"draw_calls": 10622.0,
+				"fps": 44.0,
+				"ms": 41.424,
+				"primitives": 482040.0
+			},
+			{
+				"draw_calls": 10622.0,
+				"fps": 44.0,
+				"ms": 40.926,
+				"primitives": 482040.0
+			},
+			{
+				"draw_calls": 10622.0,
+				"fps": 44.0,
+				"ms": 41.353,
+				"primitives": 482040.0
+			},
+			{
+				"draw_calls": 10622.0,
+				"fps": 44.0,
+				"ms": 42.888,
+				"primitives": 482040.0
+			},
+			{
+				"draw_calls": 10622.0,
+				"fps": 44.0,
+				"ms": 48.889,
+				"primitives": 482040.0
+			},
+			{
+				"draw_calls": 10622.0,
+				"fps": 44.0,
+				"ms": 46.963,
+				"primitives": 482040.0
+			},
+			{
+				"draw_calls": 10622.0,
+				"fps": 44.0,
+				"ms": 47.66,
+				"primitives": 482040.0
+			}
+		],
+		"target": "(38.47875, -9.818386, -118.285)"
+	},
+	{
+		"at": "(46.47875, -9.818386, -118.285)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_MaquinariaIndustrial_(0.0, 0.0, -1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_MaquinariaIndustrial_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 8036.0,
+				"fps": 44.0,
+				"ms": 13.745,
+				"primitives": 451832.0
+			},
+			{
+				"draw_calls": 8036.0,
+				"fps": 44.0,
+				"ms": 17.421,
+				"primitives": 451832.0
+			},
+			{
+				"draw_calls": 8036.0,
+				"fps": 44.0,
+				"ms": 16.743,
+				"primitives": 451832.0
+			},
+			{
+				"draw_calls": 8036.0,
+				"fps": 44.0,
+				"ms": 15.866,
+				"primitives": 451832.0
+			},
+			{
+				"draw_calls": 8036.0,
+				"fps": 44.0,
+				"ms": 19.873,
+				"primitives": 451832.0
+			},
+			{
+				"draw_calls": 8036.0,
+				"fps": 44.0,
+				"ms": 15.583,
+				"primitives": 451832.0
+			},
+			{
+				"draw_calls": 8036.0,
+				"fps": 44.0,
+				"ms": 15.22,
+				"primitives": 451832.0
+			},
+			{
+				"draw_calls": 8036.0,
+				"fps": 44.0,
+				"ms": 15.945,
+				"primitives": 451832.0
+			},
+			{
+				"draw_calls": 8036.0,
+				"fps": 44.0,
+				"ms": 15.145,
+				"primitives": 451832.0
+			},
+			{
+				"draw_calls": 8036.0,
+				"fps": 44.0,
+				"ms": 17.89,
+				"primitives": 451832.0
+			},
+			{
+				"draw_calls": 8036.0,
+				"fps": 44.0,
+				"ms": 15.312,
+				"primitives": 451832.0
+			},
+			{
+				"draw_calls": 8036.0,
+				"fps": 44.0,
+				"ms": 14.935,
+				"primitives": 451832.0
+			}
+		],
+		"target": "(46.47875, -9.818386, -126.285)"
+	},
+	{
+		"at": "(46.47875, -9.818386, -118.285)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_MaquinariaIndustrial_(0.0, 0.0, 1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_MaquinariaIndustrial_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 3672.0,
+				"fps": 31.0,
+				"ms": 11.849,
+				"primitives": 326444.0
+			},
+			{
+				"draw_calls": 3672.0,
+				"fps": 31.0,
+				"ms": 13.339,
+				"primitives": 326444.0
+			},
+			{
+				"draw_calls": 3672.0,
+				"fps": 31.0,
+				"ms": 13.334,
+				"primitives": 326444.0
+			},
+			{
+				"draw_calls": 3672.0,
+				"fps": 31.0,
+				"ms": 13.334,
+				"primitives": 326444.0
+			},
+			{
+				"draw_calls": 3672.0,
+				"fps": 31.0,
+				"ms": 13.327,
+				"primitives": 326444.0
+			},
+			{
+				"draw_calls": 3672.0,
+				"fps": 31.0,
+				"ms": 13.378,
+				"primitives": 326444.0
+			},
+			{
+				"draw_calls": 3672.0,
+				"fps": 31.0,
+				"ms": 13.293,
+				"primitives": 326444.0
+			},
+			{
+				"draw_calls": 3672.0,
+				"fps": 31.0,
+				"ms": 13.464,
+				"primitives": 326444.0
+			},
+			{
+				"draw_calls": 3672.0,
+				"fps": 31.0,
+				"ms": 13.185,
+				"primitives": 326444.0
+			},
+			{
+				"draw_calls": 3672.0,
+				"fps": 31.0,
+				"ms": 13.319,
+				"primitives": 326444.0
+			},
+			{
+				"draw_calls": 3672.0,
+				"fps": 31.0,
+				"ms": 13.354,
+				"primitives": 326444.0
+			},
+			{
+				"draw_calls": 3672.0,
+				"fps": 31.0,
+				"ms": 13.334,
+				"primitives": 326444.0
+			}
+		],
+		"target": "(46.47875, -9.818386, -110.285)"
+	},
+	{
+		"at": "(-9.5525, -9.818386, -106.705)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_AreaCentralEstudiantes_(1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_AreaCentralEstudiantes_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 5700.0,
+				"fps": 31.0,
+				"ms": 17.064,
+				"primitives": 371962.0
+			},
+			{
+				"draw_calls": 5700.0,
+				"fps": 31.0,
+				"ms": 21.051,
+				"primitives": 371962.0
+			},
+			{
+				"draw_calls": 5700.0,
+				"fps": 31.0,
+				"ms": 19.746,
+				"primitives": 371962.0
+			},
+			{
+				"draw_calls": 5700.0,
+				"fps": 31.0,
+				"ms": 19.921,
+				"primitives": 371962.0
+			},
+			{
+				"draw_calls": 5700.0,
+				"fps": 31.0,
+				"ms": 20.655,
+				"primitives": 371962.0
+			},
+			{
+				"draw_calls": 5700.0,
+				"fps": 31.0,
+				"ms": 21.628,
+				"primitives": 371962.0
+			},
+			{
+				"draw_calls": 5700.0,
+				"fps": 31.0,
+				"ms": 19.699,
+				"primitives": 371962.0
+			},
+			{
+				"draw_calls": 5700.0,
+				"fps": 31.0,
+				"ms": 19.879,
+				"primitives": 371962.0
+			},
+			{
+				"draw_calls": 5700.0,
+				"fps": 31.0,
+				"ms": 19.424,
+				"primitives": 371962.0
+			},
+			{
+				"draw_calls": 5700.0,
+				"fps": 31.0,
+				"ms": 21.054,
+				"primitives": 371962.0
+			},
+			{
+				"draw_calls": 5700.0,
+				"fps": 31.0,
+				"ms": 19.173,
+				"primitives": 371962.0
+			},
+			{
+				"draw_calls": 5700.0,
+				"fps": 31.0,
+				"ms": 21.538,
+				"primitives": 371962.0
+			}
+		],
+		"target": "(-1.5525, -9.818386, -106.705)"
+	},
+	{
+		"at": "(-9.5525, -9.818386, -106.705)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_AreaCentralEstudiantes_(-1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_AreaCentralEstudiantes_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 7477.0,
+				"fps": 31.0,
+				"ms": 16.173,
+				"primitives": 384748.0
+			},
+			{
+				"draw_calls": 7477.0,
+				"fps": 31.0,
+				"ms": 20.957,
+				"primitives": 384748.0
+			},
+			{
+				"draw_calls": 7477.0,
+				"fps": 31.0,
+				"ms": 20.647,
+				"primitives": 384748.0
+			},
+			{
+				"draw_calls": 7477.0,
+				"fps": 31.0,
+				"ms": 19.24,
+				"primitives": 384748.0
+			},
+			{
+				"draw_calls": 7477.0,
+				"fps": 31.0,
+				"ms": 19.146,
+				"primitives": 384748.0
+			},
+			{
+				"draw_calls": 7477.0,
+				"fps": 49.0,
+				"ms": 20.121,
+				"primitives": 384748.0
+			},
+			{
+				"draw_calls": 7477.0,
+				"fps": 49.0,
+				"ms": 22.061,
+				"primitives": 384748.0
+			},
+			{
+				"draw_calls": 7477.0,
+				"fps": 49.0,
+				"ms": 18.967,
+				"primitives": 384748.0
+			},
+			{
+				"draw_calls": 7477.0,
+				"fps": 49.0,
+				"ms": 20.305,
+				"primitives": 384748.0
+			},
+			{
+				"draw_calls": 7477.0,
+				"fps": 49.0,
+				"ms": 18.5,
+				"primitives": 384748.0
+			},
+			{
+				"draw_calls": 7477.0,
+				"fps": 49.0,
+				"ms": 21.059,
+				"primitives": 384748.0
+			},
+			{
+				"draw_calls": 7477.0,
+				"fps": 49.0,
+				"ms": 21.685,
+				"primitives": 384748.0
+			}
+		],
+		"target": "(-17.5525, -9.818386, -106.705)"
+	},
+	{
+		"at": "(-9.5525, -9.818386, -106.705)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_AreaCentralEstudiantes_(0.0, 0.0, -1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_AreaCentralEstudiantes_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 7752.0,
+				"fps": 49.0,
+				"ms": 16.385,
+				"primitives": 415674.0
+			},
+			{
+				"draw_calls": 7752.0,
+				"fps": 49.0,
+				"ms": 18.398,
+				"primitives": 415674.0
+			},
+			{
+				"draw_calls": 7752.0,
+				"fps": 49.0,
+				"ms": 18.924,
+				"primitives": 415674.0
+			},
+			{
+				"draw_calls": 7752.0,
+				"fps": 49.0,
+				"ms": 18.345,
+				"primitives": 415674.0
+			},
+			{
+				"draw_calls": 7752.0,
+				"fps": 49.0,
+				"ms": 20.494,
+				"primitives": 415674.0
+			},
+			{
+				"draw_calls": 7752.0,
+				"fps": 49.0,
+				"ms": 17.892,
+				"primitives": 415674.0
+			},
+			{
+				"draw_calls": 7752.0,
+				"fps": 49.0,
+				"ms": 18.781,
+				"primitives": 415674.0
+			},
+			{
+				"draw_calls": 7752.0,
+				"fps": 49.0,
+				"ms": 18.672,
+				"primitives": 415674.0
+			},
+			{
+				"draw_calls": 7752.0,
+				"fps": 49.0,
+				"ms": 18.384,
+				"primitives": 415674.0
+			},
+			{
+				"draw_calls": 7752.0,
+				"fps": 49.0,
+				"ms": 20.319,
+				"primitives": 415674.0
+			},
+			{
+				"draw_calls": 7752.0,
+				"fps": 49.0,
+				"ms": 18.773,
+				"primitives": 415674.0
+			},
+			{
+				"draw_calls": 7752.0,
+				"fps": 49.0,
+				"ms": 20.709,
+				"primitives": 415674.0
+			}
+		],
+		"target": "(-9.5525, -9.818386, -114.705)"
+	},
+	{
+		"at": "(-9.5525, -9.818386, -106.705)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_AreaCentralEstudiantes_(0.0, 0.0, 1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_AreaCentralEstudiantes_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 2424.0,
+				"fps": 49.0,
+				"ms": 9.019,
+				"primitives": 257776.0
+			},
+			{
+				"draw_calls": 2424.0,
+				"fps": 49.0,
+				"ms": 17.707,
+				"primitives": 257776.0
+			},
+			{
+				"draw_calls": 2424.0,
+				"fps": 49.0,
+				"ms": 11.633,
+				"primitives": 257776.0
+			},
+			{
+				"draw_calls": 2424.0,
+				"fps": 49.0,
+				"ms": 15.375,
+				"primitives": 257776.0
+			},
+			{
+				"draw_calls": 2424.0,
+				"fps": 49.0,
+				"ms": 21.878,
+				"primitives": 257776.0
+			},
+			{
+				"draw_calls": 2424.0,
+				"fps": 49.0,
+				"ms": 9.45,
+				"primitives": 257776.0
+			},
+			{
+				"draw_calls": 2424.0,
+				"fps": 49.0,
+				"ms": 8.625,
+				"primitives": 257776.0
+			},
+			{
+				"draw_calls": 2424.0,
+				"fps": 49.0,
+				"ms": 8.518,
+				"primitives": 257776.0
+			},
+			{
+				"draw_calls": 2424.0,
+				"fps": 49.0,
+				"ms": 13.362,
+				"primitives": 257776.0
+			},
+			{
+				"draw_calls": 2424.0,
+				"fps": 49.0,
+				"ms": 13.307,
+				"primitives": 257776.0
+			},
+			{
+				"draw_calls": 2424.0,
+				"fps": 49.0,
+				"ms": 13.341,
+				"primitives": 257776.0
+			},
+			{
+				"draw_calls": 2424.0,
+				"fps": 49.0,
+				"ms": 13.325,
+				"primitives": 257776.0
+			}
+		],
+		"target": "(-9.5525, -9.818386, -98.705)"
+	},
+	{
+		"at": "(-33.8875, -9.818386, -129.935)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_NegocioCafeteria_(1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_NegocioCafeteria_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 9133.0,
+				"fps": 51.0,
+				"ms": 30.058,
+				"primitives": 484126.0
+			},
+			{
+				"draw_calls": 9133.0,
+				"fps": 51.0,
+				"ms": 40.103,
+				"primitives": 484126.0
+			},
+			{
+				"draw_calls": 9133.0,
+				"fps": 51.0,
+				"ms": 37.392,
+				"primitives": 484126.0
+			},
+			{
+				"draw_calls": 9133.0,
+				"fps": 51.0,
+				"ms": 35.071,
+				"primitives": 484126.0
+			},
+			{
+				"draw_calls": 9133.0,
+				"fps": 51.0,
+				"ms": 36.074,
+				"primitives": 484126.0
+			},
+			{
+				"draw_calls": 9133.0,
+				"fps": 51.0,
+				"ms": 42.881,
+				"primitives": 484126.0
+			},
+			{
+				"draw_calls": 9133.0,
+				"fps": 51.0,
+				"ms": 43.069,
+				"primitives": 484126.0
+			},
+			{
+				"draw_calls": 9133.0,
+				"fps": 51.0,
+				"ms": 44.294,
+				"primitives": 484126.0
+			},
+			{
+				"draw_calls": 9133.0,
+				"fps": 51.0,
+				"ms": 32.845,
+				"primitives": 484126.0
+			},
+			{
+				"draw_calls": 9133.0,
+				"fps": 51.0,
+				"ms": 30.872,
+				"primitives": 484126.0
+			},
+			{
+				"draw_calls": 9133.0,
+				"fps": 51.0,
+				"ms": 32.866,
+				"primitives": 484126.0
+			},
+			{
+				"draw_calls": 9133.0,
+				"fps": 51.0,
+				"ms": 32.84,
+				"primitives": 484126.0
+			}
+		],
+		"target": "(-25.8875, -9.818386, -129.935)"
+	},
+	{
+		"at": "(-33.8875, -9.818386, -129.935)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_NegocioCafeteria_(-1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_NegocioCafeteria_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 5803.0,
+				"fps": 51.0,
+				"ms": 14.879,
+				"primitives": 201948.0
+			},
+			{
+				"draw_calls": 5803.0,
+				"fps": 51.0,
+				"ms": 17.673,
+				"primitives": 201948.0
+			},
+			{
+				"draw_calls": 5803.0,
+				"fps": 51.0,
+				"ms": 19.497,
+				"primitives": 201948.0
+			},
+			{
+				"draw_calls": 5803.0,
+				"fps": 51.0,
+				"ms": 21.205,
+				"primitives": 201948.0
+			},
+			{
+				"draw_calls": 5803.0,
+				"fps": 51.0,
+				"ms": 17.0,
+				"primitives": 201948.0
+			},
+			{
+				"draw_calls": 5803.0,
+				"fps": 51.0,
+				"ms": 14.042,
+				"primitives": 201948.0
+			},
+			{
+				"draw_calls": 5803.0,
+				"fps": 51.0,
+				"ms": 14.569,
+				"primitives": 201948.0
+			},
+			{
+				"draw_calls": 5803.0,
+				"fps": 51.0,
+				"ms": 16.149,
+				"primitives": 201948.0
+			},
+			{
+				"draw_calls": 5803.0,
+				"fps": 51.0,
+				"ms": 14.738,
+				"primitives": 201948.0
+			},
+			{
+				"draw_calls": 5803.0,
+				"fps": 51.0,
+				"ms": 14.534,
+				"primitives": 201948.0
+			},
+			{
+				"draw_calls": 5803.0,
+				"fps": 51.0,
+				"ms": 13.823,
+				"primitives": 201948.0
+			},
+			{
+				"draw_calls": 5803.0,
+				"fps": 51.0,
+				"ms": 14.269,
+				"primitives": 201948.0
+			}
+		],
+		"target": "(-41.8875, -9.818386, -129.935)"
+	},
+	{
+		"at": "(-33.8875, -9.818386, -129.935)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_NegocioCafeteria_(0.0, 0.0, -1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_NegocioCafeteria_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 6073.0,
+				"fps": 33.0,
+				"ms": 13.003,
+				"primitives": 367488.0
+			},
+			{
+				"draw_calls": 6073.0,
+				"fps": 33.0,
+				"ms": 14.221,
+				"primitives": 367488.0
+			},
+			{
+				"draw_calls": 6073.0,
+				"fps": 33.0,
+				"ms": 12.691,
+				"primitives": 367488.0
+			},
+			{
+				"draw_calls": 6073.0,
+				"fps": 33.0,
+				"ms": 15.496,
+				"primitives": 367488.0
+			},
+			{
+				"draw_calls": 6073.0,
+				"fps": 33.0,
+				"ms": 15.981,
+				"primitives": 367488.0
+			},
+			{
+				"draw_calls": 6073.0,
+				"fps": 33.0,
+				"ms": 14.645,
+				"primitives": 367488.0
+			},
+			{
+				"draw_calls": 6073.0,
+				"fps": 33.0,
+				"ms": 17.744,
+				"primitives": 367488.0
+			},
+			{
+				"draw_calls": 6073.0,
+				"fps": 33.0,
+				"ms": 14.576,
+				"primitives": 367488.0
+			},
+			{
+				"draw_calls": 6073.0,
+				"fps": 33.0,
+				"ms": 15.18,
+				"primitives": 367488.0
+			},
+			{
+				"draw_calls": 6073.0,
+				"fps": 33.0,
+				"ms": 14.206,
+				"primitives": 367488.0
+			},
+			{
+				"draw_calls": 6073.0,
+				"fps": 33.0,
+				"ms": 13.716,
+				"primitives": 367488.0
+			},
+			{
+				"draw_calls": 6073.0,
+				"fps": 33.0,
+				"ms": 13.944,
+				"primitives": 367488.0
+			}
+		],
+		"target": "(-33.8875, -9.818386, -137.935)"
+	},
+	{
+		"at": "(-33.8875, -9.818386, -129.935)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_NegocioCafeteria_(0.0, 0.0, 1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_NegocioCafeteria_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 7789.0,
+				"fps": 33.0,
+				"ms": 20.063,
+				"primitives": 455190.0
+			},
+			{
+				"draw_calls": 7789.0,
+				"fps": 33.0,
+				"ms": 21.042,
+				"primitives": 455190.0
+			},
+			{
+				"draw_calls": 7789.0,
+				"fps": 33.0,
+				"ms": 19.992,
+				"primitives": 455190.0
+			},
+			{
+				"draw_calls": 7789.0,
+				"fps": 33.0,
+				"ms": 19.992,
+				"primitives": 455190.0
+			},
+			{
+				"draw_calls": 7789.0,
+				"fps": 33.0,
+				"ms": 19.347,
+				"primitives": 455190.0
+			},
+			{
+				"draw_calls": 7789.0,
+				"fps": 33.0,
+				"ms": 19.179,
+				"primitives": 455190.0
+			},
+			{
+				"draw_calls": 7789.0,
+				"fps": 33.0,
+				"ms": 18.022,
+				"primitives": 455190.0
+			},
+			{
+				"draw_calls": 7789.0,
+				"fps": 33.0,
+				"ms": 18.226,
+				"primitives": 455190.0
+			},
+			{
+				"draw_calls": 7789.0,
+				"fps": 33.0,
+				"ms": 19.018,
+				"primitives": 455190.0
+			},
+			{
+				"draw_calls": 7789.0,
+				"fps": 33.0,
+				"ms": 18.266,
+				"primitives": 455190.0
+			},
+			{
+				"draw_calls": 7789.0,
+				"fps": 33.0,
+				"ms": 19.861,
+				"primitives": 455190.0
+			},
+			{
+				"draw_calls": 7789.0,
+				"fps": 33.0,
+				"ms": 17.677,
+				"primitives": 455190.0
+			}
+		],
+		"target": "(-33.8875, -9.818386, -121.935)"
+	},
+	{
+		"at": "(-70.44875, -9.818386, -116.475)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_PasilloSalasTecnicas_(1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_PasilloSalasTecnicas_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 17259.0,
+				"fps": 33.0,
+				"ms": 42.8,
+				"primitives": 914492.0
+			},
+			{
+				"draw_calls": 17259.0,
+				"fps": 33.0,
+				"ms": 45.795,
+				"primitives": 914492.0
+			},
+			{
+				"draw_calls": 17259.0,
+				"fps": 45.0,
+				"ms": 44.282,
+				"primitives": 914492.0
+			},
+			{
+				"draw_calls": 17259.0,
+				"fps": 45.0,
+				"ms": 46.922,
+				"primitives": 914492.0
+			},
+			{
+				"draw_calls": 17259.0,
+				"fps": 45.0,
+				"ms": 44.895,
+				"primitives": 914492.0
+			},
+			{
+				"draw_calls": 17259.0,
+				"fps": 45.0,
+				"ms": 47.004,
+				"primitives": 914492.0
+			},
+			{
+				"draw_calls": 17259.0,
+				"fps": 45.0,
+				"ms": 44.67,
+				"primitives": 914492.0
+			},
+			{
+				"draw_calls": 17259.0,
+				"fps": 45.0,
+				"ms": 47.833,
+				"primitives": 914492.0
+			},
+			{
+				"draw_calls": 17259.0,
+				"fps": 45.0,
+				"ms": 45.032,
+				"primitives": 914492.0
+			},
+			{
+				"draw_calls": 17259.0,
+				"fps": 45.0,
+				"ms": 47.565,
+				"primitives": 914492.0
+			},
+			{
+				"draw_calls": 17259.0,
+				"fps": 45.0,
+				"ms": 44.419,
+				"primitives": 914492.0
+			},
+			{
+				"draw_calls": 17259.0,
+				"fps": 45.0,
+				"ms": 46.64,
+				"primitives": 914492.0
+			}
+		],
+		"target": "(-62.44875, -9.818386, -116.475)"
+	},
+	{
+		"at": "(-70.44875, -9.818386, -116.475)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_PasilloSalasTecnicas_(-1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_PasilloSalasTecnicas_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 297.0,
+				"fps": 45.0,
+				"ms": 9.692,
+				"primitives": 4104.0
+			},
+			{
+				"draw_calls": 297.0,
+				"fps": 45.0,
+				"ms": 13.359,
+				"primitives": 4104.0
+			},
+			{
+				"draw_calls": 297.0,
+				"fps": 45.0,
+				"ms": 13.378,
+				"primitives": 4104.0
+			},
+			{
+				"draw_calls": 297.0,
+				"fps": 45.0,
+				"ms": 13.276,
+				"primitives": 4104.0
+			},
+			{
+				"draw_calls": 297.0,
+				"fps": 45.0,
+				"ms": 13.398,
+				"primitives": 4104.0
+			},
+			{
+				"draw_calls": 297.0,
+				"fps": 45.0,
+				"ms": 13.29,
+				"primitives": 4104.0
+			},
+			{
+				"draw_calls": 297.0,
+				"fps": 45.0,
+				"ms": 13.31,
+				"primitives": 4104.0
+			},
+			{
+				"draw_calls": 297.0,
+				"fps": 45.0,
+				"ms": 13.368,
+				"primitives": 4104.0
+			},
+			{
+				"draw_calls": 297.0,
+				"fps": 45.0,
+				"ms": 13.334,
+				"primitives": 4104.0
+			},
+			{
+				"draw_calls": 297.0,
+				"fps": 45.0,
+				"ms": 13.373,
+				"primitives": 4104.0
+			},
+			{
+				"draw_calls": 297.0,
+				"fps": 45.0,
+				"ms": 13.254,
+				"primitives": 4104.0
+			},
+			{
+				"draw_calls": 297.0,
+				"fps": 45.0,
+				"ms": 13.342,
+				"primitives": 4104.0
+			}
+		],
+		"target": "(-78.44875, -9.818386, -116.475)"
+	},
+	{
+		"at": "(-70.44875, -9.818386, -116.475)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_PasilloSalasTecnicas_(0.0, 0.0, -1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_PasilloSalasTecnicas_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 5093.0,
+				"fps": 41.0,
+				"ms": 9.94,
+				"primitives": 324444.0
+			},
+			{
+				"draw_calls": 5093.0,
+				"fps": 41.0,
+				"ms": 13.321,
+				"primitives": 324444.0
+			},
+			{
+				"draw_calls": 5093.0,
+				"fps": 41.0,
+				"ms": 13.373,
+				"primitives": 324444.0
+			},
+			{
+				"draw_calls": 5093.0,
+				"fps": 41.0,
+				"ms": 13.302,
+				"primitives": 324444.0
+			},
+			{
+				"draw_calls": 5093.0,
+				"fps": 41.0,
+				"ms": 13.877,
+				"primitives": 324444.0
+			},
+			{
+				"draw_calls": 5093.0,
+				"fps": 41.0,
+				"ms": 12.803,
+				"primitives": 324444.0
+			},
+			{
+				"draw_calls": 5093.0,
+				"fps": 41.0,
+				"ms": 13.428,
+				"primitives": 324444.0
+			},
+			{
+				"draw_calls": 5093.0,
+				"fps": 41.0,
+				"ms": 13.229,
+				"primitives": 324444.0
+			},
+			{
+				"draw_calls": 5093.0,
+				"fps": 41.0,
+				"ms": 13.372,
+				"primitives": 324444.0
+			},
+			{
+				"draw_calls": 5093.0,
+				"fps": 41.0,
+				"ms": 13.574,
+				"primitives": 324444.0
+			},
+			{
+				"draw_calls": 5093.0,
+				"fps": 41.0,
+				"ms": 13.072,
+				"primitives": 324444.0
+			},
+			{
+				"draw_calls": 5093.0,
+				"fps": 41.0,
+				"ms": 16.505,
+				"primitives": 324444.0
+			}
+		],
+		"target": "(-70.44875, -9.818386, -124.475)"
+	},
+	{
+		"at": "(-70.44875, -9.818386, -116.475)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_PasilloSalasTecnicas_(0.0, 0.0, 1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_PasilloSalasTecnicas_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 5055.0,
+				"fps": 41.0,
+				"ms": 10.331,
+				"primitives": 337540.0
+			},
+			{
+				"draw_calls": 5055.0,
+				"fps": 41.0,
+				"ms": 13.359,
+				"primitives": 337540.0
+			},
+			{
+				"draw_calls": 5055.0,
+				"fps": 41.0,
+				"ms": 13.294,
+				"primitives": 337540.0
+			},
+			{
+				"draw_calls": 5055.0,
+				"fps": 41.0,
+				"ms": 16.706,
+				"primitives": 337540.0
+			},
+			{
+				"draw_calls": 5055.0,
+				"fps": 41.0,
+				"ms": 14.676,
+				"primitives": 337540.0
+			},
+			{
+				"draw_calls": 5055.0,
+				"fps": 41.0,
+				"ms": 12.433,
+				"primitives": 337540.0
+			},
+			{
+				"draw_calls": 5055.0,
+				"fps": 41.0,
+				"ms": 10.676,
+				"primitives": 337540.0
+			},
+			{
+				"draw_calls": 5055.0,
+				"fps": 41.0,
+				"ms": 14.168,
+				"primitives": 337540.0
+			},
+			{
+				"draw_calls": 5055.0,
+				"fps": 41.0,
+				"ms": 11.757,
+				"primitives": 337540.0
+			},
+			{
+				"draw_calls": 5055.0,
+				"fps": 41.0,
+				"ms": 12.982,
+				"primitives": 337540.0
+			},
+			{
+				"draw_calls": 5055.0,
+				"fps": 41.0,
+				"ms": 13.299,
+				"primitives": 337540.0
+			},
+			{
+				"draw_calls": 5055.0,
+				"fps": 41.0,
+				"ms": 14.906,
+				"primitives": 337540.0
+			}
+		],
+		"target": "(-70.44875, -9.818386, -108.475)"
+	},
+	{
+		"at": "(22.95, -9.818386, -151.3045)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_RampaVehicularExterior_(1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_RampaVehicularExterior_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 6891.0,
+				"fps": 41.0,
+				"ms": 12.684,
+				"primitives": 401148.0
+			},
+			{
+				"draw_calls": 6891.0,
+				"fps": 41.0,
+				"ms": 14.293,
+				"primitives": 401148.0
+			},
+			{
+				"draw_calls": 6891.0,
+				"fps": 41.0,
+				"ms": 13.044,
+				"primitives": 401148.0
+			},
+			{
+				"draw_calls": 6891.0,
+				"fps": 41.0,
+				"ms": 13.424,
+				"primitives": 401148.0
+			},
+			{
+				"draw_calls": 6891.0,
+				"fps": 41.0,
+				"ms": 15.72,
+				"primitives": 401148.0
+			},
+			{
+				"draw_calls": 6891.0,
+				"fps": 41.0,
+				"ms": 16.969,
+				"primitives": 401148.0
+			},
+			{
+				"draw_calls": 6891.0,
+				"fps": 41.0,
+				"ms": 14.392,
+				"primitives": 401148.0
+			},
+			{
+				"draw_calls": 6891.0,
+				"fps": 41.0,
+				"ms": 16.969,
+				"primitives": 401148.0
+			},
+			{
+				"draw_calls": 6891.0,
+				"fps": 41.0,
+				"ms": 13.618,
+				"primitives": 401148.0
+			},
+			{
+				"draw_calls": 6891.0,
+				"fps": 41.0,
+				"ms": 14.118,
+				"primitives": 401148.0
+			},
+			{
+				"draw_calls": 6891.0,
+				"fps": 41.0,
+				"ms": 14.541,
+				"primitives": 401148.0
+			},
+			{
+				"draw_calls": 6891.0,
+				"fps": 41.0,
+				"ms": 14.665,
+				"primitives": 401148.0
+			}
+		],
+		"target": "(30.95, -9.818386, -151.3045)"
+	},
+	{
+		"at": "(22.95, -9.818386, -151.3045)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_RampaVehicularExterior_(-1.0, 0.0, 0.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_RampaVehicularExterior_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 10852.0,
+				"fps": 59.0,
+				"ms": 27.627,
+				"primitives": 462778.0
+			},
+			{
+				"draw_calls": 10852.0,
+				"fps": 59.0,
+				"ms": 31.023,
+				"primitives": 462778.0
+			},
+			{
+				"draw_calls": 10852.0,
+				"fps": 59.0,
+				"ms": 33.104,
+				"primitives": 462778.0
+			},
+			{
+				"draw_calls": 10852.0,
+				"fps": 59.0,
+				"ms": 31.18,
+				"primitives": 462778.0
+			},
+			{
+				"draw_calls": 10852.0,
+				"fps": 59.0,
+				"ms": 31.557,
+				"primitives": 462778.0
+			},
+			{
+				"draw_calls": 10852.0,
+				"fps": 59.0,
+				"ms": 32.948,
+				"primitives": 462778.0
+			},
+			{
+				"draw_calls": 10852.0,
+				"fps": 59.0,
+				"ms": 30.894,
+				"primitives": 462778.0
+			},
+			{
+				"draw_calls": 10852.0,
+				"fps": 59.0,
+				"ms": 32.581,
+				"primitives": 462778.0
+			},
+			{
+				"draw_calls": 10852.0,
+				"fps": 59.0,
+				"ms": 33.215,
+				"primitives": 462778.0
+			},
+			{
+				"draw_calls": 10852.0,
+				"fps": 59.0,
+				"ms": 32.091,
+				"primitives": 462778.0
+			},
+			{
+				"draw_calls": 10852.0,
+				"fps": 59.0,
+				"ms": 31.051,
+				"primitives": 462778.0
+			},
+			{
+				"draw_calls": 10852.0,
+				"fps": 59.0,
+				"ms": 31.911,
+				"primitives": 462778.0
+			}
+		],
+		"target": "(14.95, -9.818386, -151.3045)"
+	},
+	{
+		"at": "(22.95, -9.818386, -151.3045)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_RampaVehicularExterior_(0.0, 0.0, -1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_RampaVehicularExterior_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 7336.0,
+				"fps": 59.0,
+				"ms": 23.532,
+				"primitives": 398942.0
+			},
+			{
+				"draw_calls": 7336.0,
+				"fps": 59.0,
+				"ms": 12.242,
+				"primitives": 398942.0
+			},
+			{
+				"draw_calls": 7336.0,
+				"fps": 59.0,
+				"ms": 11.74,
+				"primitives": 398942.0
+			},
+			{
+				"draw_calls": 7336.0,
+				"fps": 59.0,
+				"ms": 14.533,
+				"primitives": 398942.0
+			},
+			{
+				"draw_calls": 7336.0,
+				"fps": 59.0,
+				"ms": 12.869,
+				"primitives": 398942.0
+			},
+			{
+				"draw_calls": 7336.0,
+				"fps": 59.0,
+				"ms": 13.594,
+				"primitives": 398942.0
+			},
+			{
+				"draw_calls": 7336.0,
+				"fps": 59.0,
+				"ms": 11.863,
+				"primitives": 398942.0
+			},
+			{
+				"draw_calls": 7336.0,
+				"fps": 59.0,
+				"ms": 13.719,
+				"primitives": 398942.0
+			},
+			{
+				"draw_calls": 7336.0,
+				"fps": 59.0,
+				"ms": 15.647,
+				"primitives": 398942.0
+			},
+			{
+				"draw_calls": 7336.0,
+				"fps": 59.0,
+				"ms": 19.181,
+				"primitives": 398942.0
+			},
+			{
+				"draw_calls": 7336.0,
+				"fps": 59.0,
+				"ms": 12.94,
+				"primitives": 398942.0
+			},
+			{
+				"draw_calls": 7336.0,
+				"fps": 59.0,
+				"ms": 13.079,
+				"primitives": 398942.0
+			}
+		],
+		"target": "(22.95, -9.818386, -159.3045)"
+	},
+	{
+		"at": "(22.95, -9.818386, -151.3045)",
+		"file": "survey_PisoMenos1_AmbientacionIndustrial2026_RampaVehicularExterior_(0.0, 0.0, 1.0).png",
+		"label": "PisoMenos1_AmbientacionIndustrial2026_RampaVehicularExterior_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 9304.0,
+				"fps": 40.0,
+				"ms": 24.986,
+				"primitives": 535178.0
+			},
+			{
+				"draw_calls": 9304.0,
+				"fps": 40.0,
+				"ms": 30.979,
+				"primitives": 535178.0
+			},
+			{
+				"draw_calls": 9304.0,
+				"fps": 40.0,
+				"ms": 30.697,
+				"primitives": 535178.0
+			},
+			{
+				"draw_calls": 9304.0,
+				"fps": 40.0,
+				"ms": 34.024,
+				"primitives": 535178.0
+			},
+			{
+				"draw_calls": 9304.0,
+				"fps": 40.0,
+				"ms": 32.818,
+				"primitives": 535178.0
+			},
+			{
+				"draw_calls": 9304.0,
+				"fps": 40.0,
+				"ms": 31.072,
+				"primitives": 535178.0
+			},
+			{
+				"draw_calls": 9304.0,
+				"fps": 40.0,
+				"ms": 28.753,
+				"primitives": 535178.0
+			},
+			{
+				"draw_calls": 9304.0,
+				"fps": 40.0,
+				"ms": 32.464,
+				"primitives": 535178.0
+			},
+			{
+				"draw_calls": 9304.0,
+				"fps": 40.0,
+				"ms": 29.743,
+				"primitives": 535178.0
+			},
+			{
+				"draw_calls": 9304.0,
+				"fps": 40.0,
+				"ms": 28.705,
+				"primitives": 535178.0
+			},
+			{
+				"draw_calls": 9304.0,
+				"fps": 40.0,
+				"ms": 36.683,
+				"primitives": 535178.0
+			},
+			{
+				"draw_calls": 9304.0,
+				"fps": 40.0,
+				"ms": 32.014,
+				"primitives": 535178.0
+			}
+		],
+		"target": "(22.95, -9.818386, -143.3045)"
+	},
+	{
+		"at": "(24.37, -9.8, -124.0)",
+		"file": "survey_ramp_lower.png",
+		"label": "ramp_lower",
+		"samples": [
+			{
+				"draw_calls": 7135.0,
+				"fps": 40.0,
+				"ms": 14.806,
+				"primitives": 355006.0
+			},
+			{
+				"draw_calls": 7135.0,
+				"fps": 40.0,
+				"ms": 17.026,
+				"primitives": 355006.0
+			},
+			{
+				"draw_calls": 7135.0,
+				"fps": 40.0,
+				"ms": 15.542,
+				"primitives": 355006.0
+			},
+			{
+				"draw_calls": 7135.0,
+				"fps": 40.0,
+				"ms": 15.889,
+				"primitives": 355006.0
+			},
+			{
+				"draw_calls": 7135.0,
+				"fps": 40.0,
+				"ms": 16.921,
+				"primitives": 355006.0
+			},
+			{
+				"draw_calls": 7135.0,
+				"fps": 40.0,
+				"ms": 16.576,
+				"primitives": 355006.0
+			},
+			{
+				"draw_calls": 7135.0,
+				"fps": 40.0,
+				"ms": 15.749,
+				"primitives": 355006.0
+			},
+			{
+				"draw_calls": 7135.0,
+				"fps": 40.0,
+				"ms": 15.478,
+				"primitives": 355006.0
+			},
+			{
+				"draw_calls": 7135.0,
+				"fps": 40.0,
+				"ms": 15.726,
+				"primitives": 355006.0
+			},
+			{
+				"draw_calls": 7135.0,
+				"fps": 40.0,
+				"ms": 16.965,
+				"primitives": 355006.0
+			},
+			{
+				"draw_calls": 7135.0,
+				"fps": 40.0,
+				"ms": 15.712,
+				"primitives": 355006.0
+			},
+			{
+				"draw_calls": 7135.0,
+				"fps": 40.0,
+				"ms": 17.059,
+				"primitives": 355006.0
+			}
+		],
+		"target": "(24.37, -6.0, -144.0)"
+	},
+	{
+		"at": "(24.37, 2.2, -166.0)",
+		"file": "survey_ramp_exit.png",
+		"label": "ramp_exit",
+		"samples": [
+			{
+				"draw_calls": 11044.0,
+				"fps": 40.0,
+				"ms": 25.581,
+				"primitives": 593516.0
+			},
+			{
+				"draw_calls": 11044.0,
+				"fps": 34.0,
+				"ms": 32.928,
+				"primitives": 593516.0
+			},
+			{
+				"draw_calls": 11044.0,
+				"fps": 34.0,
+				"ms": 31.053,
+				"primitives": 593516.0
+			},
+			{
+				"draw_calls": 11044.0,
+				"fps": 34.0,
+				"ms": 27.598,
+				"primitives": 593516.0
+			},
+			{
+				"draw_calls": 11044.0,
+				"fps": 34.0,
+				"ms": 47.133,
+				"primitives": 593516.0
+			},
+			{
+				"draw_calls": 11044.0,
+				"fps": 34.0,
+				"ms": 36.598,
+				"primitives": 593516.0
+			},
+			{
+				"draw_calls": 11044.0,
+				"fps": 34.0,
+				"ms": 30.507,
+				"primitives": 593516.0
+			},
+			{
+				"draw_calls": 11044.0,
+				"fps": 34.0,
+				"ms": 30.542,
+				"primitives": 593516.0
+			},
+			{
+				"draw_calls": 11044.0,
+				"fps": 34.0,
+				"ms": 29.21,
+				"primitives": 593516.0
+			},
+			{
+				"draw_calls": 11044.0,
+				"fps": 34.0,
+				"ms": 29.919,
+				"primitives": 593516.0
+			},
+			{
+				"draw_calls": 11044.0,
+				"fps": 34.0,
+				"ms": 29.493,
+				"primitives": 593516.0
+			},
+			{
+				"draw_calls": 11044.0,
+				"fps": 34.0,
+				"ms": 29.356,
+				"primitives": 593516.0
+			}
+		],
+		"target": "(24.37, -5.0, -143.0)"
+	},
+	{
+		"at": "(-61.79178, 2.24, -149.0278)",
+		"file": "survey_Piso1_SalaAyudaEstudiantil_(1.0, 0.0, 0.0).png",
+		"label": "Piso1_SalaAyudaEstudiantil_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 16555.0,
+				"fps": 34.0,
+				"ms": 43.241,
+				"primitives": 921138.0
+			},
+			{
+				"draw_calls": 16555.0,
+				"fps": 34.0,
+				"ms": 48.81,
+				"primitives": 921138.0
+			},
+			{
+				"draw_calls": 16555.0,
+				"fps": 34.0,
+				"ms": 49.274,
+				"primitives": 921138.0
+			},
+			{
+				"draw_calls": 16555.0,
+				"fps": 34.0,
+				"ms": 49.456,
+				"primitives": 921138.0
+			},
+			{
+				"draw_calls": 16555.0,
+				"fps": 34.0,
+				"ms": 48.187,
+				"primitives": 921138.0
+			},
+			{
+				"draw_calls": 16555.0,
+				"fps": 34.0,
+				"ms": 46.074,
+				"primitives": 921138.0
+			},
+			{
+				"draw_calls": 16555.0,
+				"fps": 34.0,
+				"ms": 47.767,
+				"primitives": 921138.0
+			},
+			{
+				"draw_calls": 16555.0,
+				"fps": 34.0,
+				"ms": 45.196,
+				"primitives": 921138.0
+			},
+			{
+				"draw_calls": 16555.0,
+				"fps": 34.0,
+				"ms": 45.905,
+				"primitives": 921138.0
+			},
+			{
+				"draw_calls": 16555.0,
+				"fps": 22.0,
+				"ms": 45.98,
+				"primitives": 921138.0
+			},
+			{
+				"draw_calls": 16555.0,
+				"fps": 22.0,
+				"ms": 48.485,
+				"primitives": 921138.0
+			},
+			{
+				"draw_calls": 16583.0,
+				"fps": 22.0,
+				"ms": 46.307,
+				"primitives": 933626.0
+			}
+		],
+		"target": "(-53.79178, 2.24, -149.0278)"
+	},
+	{
+		"at": "(-61.79178, 2.24, -149.0278)",
+		"file": "survey_Piso1_SalaAyudaEstudiantil_(-1.0, 0.0, 0.0).png",
+		"label": "Piso1_SalaAyudaEstudiantil_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 504.0,
+				"fps": 22.0,
+				"ms": 10.099,
+				"primitives": 16392.0
+			},
+			{
+				"draw_calls": 504.0,
+				"fps": 22.0,
+				"ms": 13.372,
+				"primitives": 16392.0
+			},
+			{
+				"draw_calls": 504.0,
+				"fps": 22.0,
+				"ms": 13.323,
+				"primitives": 16392.0
+			},
+			{
+				"draw_calls": 504.0,
+				"fps": 22.0,
+				"ms": 13.324,
+				"primitives": 16392.0
+			},
+			{
+				"draw_calls": 504.0,
+				"fps": 22.0,
+				"ms": 13.386,
+				"primitives": 16392.0
+			},
+			{
+				"draw_calls": 504.0,
+				"fps": 22.0,
+				"ms": 13.299,
+				"primitives": 16392.0
+			},
+			{
+				"draw_calls": 504.0,
+				"fps": 22.0,
+				"ms": 13.315,
+				"primitives": 16392.0
+			},
+			{
+				"draw_calls": 504.0,
+				"fps": 22.0,
+				"ms": 13.358,
+				"primitives": 16392.0
+			},
+			{
+				"draw_calls": 504.0,
+				"fps": 22.0,
+				"ms": 13.335,
+				"primitives": 16392.0
+			},
+			{
+				"draw_calls": 504.0,
+				"fps": 22.0,
+				"ms": 13.317,
+				"primitives": 16392.0
+			},
+			{
+				"draw_calls": 504.0,
+				"fps": 22.0,
+				"ms": 13.353,
+				"primitives": 16392.0
+			},
+			{
+				"draw_calls": 504.0,
+				"fps": 22.0,
+				"ms": 13.373,
+				"primitives": 16392.0
+			}
+		],
+		"target": "(-69.79178, 2.24, -149.0278)"
+	},
+	{
+		"at": "(-61.79178, 2.24, -149.0278)",
+		"file": "survey_Piso1_SalaAyudaEstudiantil_(0.0, 0.0, -1.0).png",
+		"label": "Piso1_SalaAyudaEstudiantil_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 4352.0,
+				"fps": 22.0,
+				"ms": 11.997,
+				"primitives": 169664.0
+			},
+			{
+				"draw_calls": 4352.0,
+				"fps": 22.0,
+				"ms": 13.33,
+				"primitives": 169664.0
+			},
+			{
+				"draw_calls": 4352.0,
+				"fps": 22.0,
+				"ms": 13.347,
+				"primitives": 169664.0
+			},
+			{
+				"draw_calls": 4352.0,
+				"fps": 22.0,
+				"ms": 13.31,
+				"primitives": 169664.0
+			},
+			{
+				"draw_calls": 4352.0,
+				"fps": 22.0,
+				"ms": 13.338,
+				"primitives": 169664.0
+			},
+			{
+				"draw_calls": 4352.0,
+				"fps": 22.0,
+				"ms": 13.372,
+				"primitives": 169664.0
+			},
+			{
+				"draw_calls": 4352.0,
+				"fps": 22.0,
+				"ms": 13.296,
+				"primitives": 169664.0
+			},
+			{
+				"draw_calls": 4352.0,
+				"fps": 22.0,
+				"ms": 13.353,
+				"primitives": 169664.0
+			},
+			{
+				"draw_calls": 4352.0,
+				"fps": 22.0,
+				"ms": 13.324,
+				"primitives": 169664.0
+			},
+			{
+				"draw_calls": 4352.0,
+				"fps": 22.0,
+				"ms": 13.341,
+				"primitives": 169664.0
+			},
+			{
+				"draw_calls": 4352.0,
+				"fps": 22.0,
+				"ms": 13.341,
+				"primitives": 169664.0
+			},
+			{
+				"draw_calls": 4352.0,
+				"fps": 22.0,
+				"ms": 13.312,
+				"primitives": 169664.0
+			}
+		],
+		"target": "(-61.79178, 2.24, -157.0278)"
+	},
+	{
+		"at": "(-61.79178, 2.24, -149.0278)",
+		"file": "survey_Piso1_SalaAyudaEstudiantil_(0.0, 0.0, 1.0).png",
+		"label": "Piso1_SalaAyudaEstudiantil_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 10882.0,
+				"fps": 54.0,
+				"ms": 23.782,
+				"primitives": 453868.0
+			},
+			{
+				"draw_calls": 10882.0,
+				"fps": 54.0,
+				"ms": 30.056,
+				"primitives": 453868.0
+			},
+			{
+				"draw_calls": 10882.0,
+				"fps": 54.0,
+				"ms": 28.739,
+				"primitives": 453868.0
+			},
+			{
+				"draw_calls": 10882.0,
+				"fps": 54.0,
+				"ms": 29.452,
+				"primitives": 453868.0
+			},
+			{
+				"draw_calls": 10882.0,
+				"fps": 54.0,
+				"ms": 30.62,
+				"primitives": 453868.0
+			},
+			{
+				"draw_calls": 10882.0,
+				"fps": 54.0,
+				"ms": 28.426,
+				"primitives": 453868.0
+			},
+			{
+				"draw_calls": 10882.0,
+				"fps": 54.0,
+				"ms": 30.058,
+				"primitives": 453868.0
+			},
+			{
+				"draw_calls": 10882.0,
+				"fps": 54.0,
+				"ms": 30.199,
+				"primitives": 453868.0
+			},
+			{
+				"draw_calls": 10882.0,
+				"fps": 54.0,
+				"ms": 28.611,
+				"primitives": 453868.0
+			},
+			{
+				"draw_calls": 10882.0,
+				"fps": 54.0,
+				"ms": 28.872,
+				"primitives": 453868.0
+			},
+			{
+				"draw_calls": 10882.0,
+				"fps": 54.0,
+				"ms": 30.912,
+				"primitives": 453868.0
+			},
+			{
+				"draw_calls": 10882.0,
+				"fps": 54.0,
+				"ms": 29.809,
+				"primitives": 453868.0
+			}
+		],
+		"target": "(-61.79178, 2.24, -141.0278)"
+	},
+	{
+		"at": "(-71.71525, 2.305, -98.1125)",
+		"file": "survey_Piso1_Casino_(1.0, 0.0, 0.0).png",
+		"label": "Piso1_Casino_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 19157.0,
+				"fps": 54.0,
+				"ms": 46.221,
+				"primitives": 895904.0
+			},
+			{
+				"draw_calls": 19157.0,
+				"fps": 54.0,
+				"ms": 53.745,
+				"primitives": 895904.0
+			},
+			{
+				"draw_calls": 19157.0,
+				"fps": 54.0,
+				"ms": 52.503,
+				"primitives": 895904.0
+			},
+			{
+				"draw_calls": 19143.0,
+				"fps": 54.0,
+				"ms": 55.169,
+				"primitives": 890002.0
+			},
+			{
+				"draw_calls": 19143.0,
+				"fps": 54.0,
+				"ms": 52.056,
+				"primitives": 890002.0
+			},
+			{
+				"draw_calls": 19143.0,
+				"fps": 54.0,
+				"ms": 54.464,
+				"primitives": 890002.0
+			},
+			{
+				"draw_calls": 19143.0,
+				"fps": 54.0,
+				"ms": 53.835,
+				"primitives": 890002.0
+			},
+			{
+				"draw_calls": 19143.0,
+				"fps": 54.0,
+				"ms": 52.811,
+				"primitives": 890002.0
+			},
+			{
+				"draw_calls": 19143.0,
+				"fps": 25.0,
+				"ms": 50.608,
+				"primitives": 890002.0
+			},
+			{
+				"draw_calls": 19129.0,
+				"fps": 25.0,
+				"ms": 54.356,
+				"primitives": 883072.0
+			},
+			{
+				"draw_calls": 19129.0,
+				"fps": 25.0,
+				"ms": 53.382,
+				"primitives": 883072.0
+			},
+			{
+				"draw_calls": 19129.0,
+				"fps": 25.0,
+				"ms": 54.224,
+				"primitives": 883072.0
+			}
+		],
+		"target": "(-63.71525, 2.305, -98.1125)"
+	},
+	{
+		"at": "(-71.71525, 2.305, -98.1125)",
+		"file": "survey_Piso1_Casino_(-1.0, 0.0, 0.0).png",
+		"label": "Piso1_Casino_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 988.0,
+				"fps": 25.0,
+				"ms": 9.827,
+				"primitives": 15204.0
+			},
+			{
+				"draw_calls": 988.0,
+				"fps": 25.0,
+				"ms": 13.357,
+				"primitives": 15204.0
+			},
+			{
+				"draw_calls": 988.0,
+				"fps": 25.0,
+				"ms": 13.318,
+				"primitives": 15204.0
+			},
+			{
+				"draw_calls": 988.0,
+				"fps": 25.0,
+				"ms": 13.368,
+				"primitives": 15204.0
+			},
+			{
+				"draw_calls": 988.0,
+				"fps": 25.0,
+				"ms": 13.342,
+				"primitives": 15204.0
+			},
+			{
+				"draw_calls": 988.0,
+				"fps": 25.0,
+				"ms": 13.306,
+				"primitives": 15204.0
+			},
+			{
+				"draw_calls": 988.0,
+				"fps": 25.0,
+				"ms": 13.357,
+				"primitives": 15204.0
+			},
+			{
+				"draw_calls": 988.0,
+				"fps": 25.0,
+				"ms": 13.289,
+				"primitives": 15204.0
+			},
+			{
+				"draw_calls": 988.0,
+				"fps": 25.0,
+				"ms": 13.316,
+				"primitives": 15204.0
+			},
+			{
+				"draw_calls": 988.0,
+				"fps": 25.0,
+				"ms": 13.342,
+				"primitives": 15204.0
+			},
+			{
+				"draw_calls": 988.0,
+				"fps": 25.0,
+				"ms": 13.407,
+				"primitives": 15204.0
+			},
+			{
+				"draw_calls": 988.0,
+				"fps": 25.0,
+				"ms": 13.274,
+				"primitives": 15204.0
+			}
+		],
+		"target": "(-79.71525, 2.305, -98.1125)"
+	},
+	{
+		"at": "(-71.71525, 2.305, -98.1125)",
+		"file": "survey_Piso1_Casino_(0.0, 0.0, -1.0).png",
+		"label": "Piso1_Casino_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 8115.0,
+				"fps": 25.0,
+				"ms": 19.906,
+				"primitives": 377836.0
+			},
+			{
+				"draw_calls": 8115.0,
+				"fps": 25.0,
+				"ms": 21.596,
+				"primitives": 377836.0
+			},
+			{
+				"draw_calls": 8115.0,
+				"fps": 25.0,
+				"ms": 21.612,
+				"primitives": 377836.0
+			},
+			{
+				"draw_calls": 8115.0,
+				"fps": 25.0,
+				"ms": 22.924,
+				"primitives": 377836.0
+			},
+			{
+				"draw_calls": 8115.0,
+				"fps": 25.0,
+				"ms": 22.815,
+				"primitives": 377836.0
+			},
+			{
+				"draw_calls": 8115.0,
+				"fps": 25.0,
+				"ms": 21.994,
+				"primitives": 377836.0
+			},
+			{
+				"draw_calls": 8115.0,
+				"fps": 25.0,
+				"ms": 20.153,
+				"primitives": 377836.0
+			},
+			{
+				"draw_calls": 8115.0,
+				"fps": 25.0,
+				"ms": 23.005,
+				"primitives": 377836.0
+			},
+			{
+				"draw_calls": 8115.0,
+				"fps": 25.0,
+				"ms": 20.91,
+				"primitives": 377836.0
+			},
+			{
+				"draw_calls": 8115.0,
+				"fps": 25.0,
+				"ms": 19.952,
+				"primitives": 377836.0
+			},
+			{
+				"draw_calls": 8115.0,
+				"fps": 25.0,
+				"ms": 21.452,
+				"primitives": 377836.0
+			},
+			{
+				"draw_calls": 8115.0,
+				"fps": 38.0,
+				"ms": 24.724,
+				"primitives": 377836.0
+			}
+		],
+		"target": "(-71.71525, 2.305, -106.1125)"
+	},
+	{
+		"at": "(-71.71525, 2.305, -98.1125)",
+		"file": "survey_Piso1_Casino_(0.0, 0.0, 1.0).png",
+		"label": "Piso1_Casino_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 2837.0,
+				"fps": 38.0,
+				"ms": 12.057,
+				"primitives": 283724.0
+			},
+			{
+				"draw_calls": 2837.0,
+				"fps": 38.0,
+				"ms": 13.0,
+				"primitives": 283724.0
+			},
+			{
+				"draw_calls": 2837.0,
+				"fps": 38.0,
+				"ms": 13.314,
+				"primitives": 283724.0
+			},
+			{
+				"draw_calls": 2837.0,
+				"fps": 38.0,
+				"ms": 13.388,
+				"primitives": 283724.0
+			},
+			{
+				"draw_calls": 2837.0,
+				"fps": 38.0,
+				"ms": 13.279,
+				"primitives": 283724.0
+			},
+			{
+				"draw_calls": 2837.0,
+				"fps": 38.0,
+				"ms": 13.308,
+				"primitives": 283724.0
+			},
+			{
+				"draw_calls": 2837.0,
+				"fps": 38.0,
+				"ms": 13.356,
+				"primitives": 283724.0
+			},
+			{
+				"draw_calls": 2837.0,
+				"fps": 38.0,
+				"ms": 13.314,
+				"primitives": 283724.0
+			},
+			{
+				"draw_calls": 2837.0,
+				"fps": 38.0,
+				"ms": 13.322,
+				"primitives": 283724.0
+			},
+			{
+				"draw_calls": 2837.0,
+				"fps": 38.0,
+				"ms": 13.354,
+				"primitives": 283724.0
+			},
+			{
+				"draw_calls": 2837.0,
+				"fps": 38.0,
+				"ms": 13.361,
+				"primitives": 283724.0
+			},
+			{
+				"draw_calls": 2837.0,
+				"fps": 38.0,
+				"ms": 13.375,
+				"primitives": 283724.0
+			}
+		],
+		"target": "(-71.71525, 2.305, -90.1125)"
+	},
+	{
+		"at": "(45.64875, 2.36, -115.1019)",
+		"file": "survey_Piso1_InteriorCoordinacion_(1.0, 0.0, 0.0).png",
+		"label": "Piso1_InteriorCoordinacion_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 5779.0,
+				"fps": 38.0,
+				"ms": 12.132,
+				"primitives": 238732.0
+			},
+			{
+				"draw_calls": 5779.0,
+				"fps": 38.0,
+				"ms": 13.285,
+				"primitives": 238732.0
+			},
+			{
+				"draw_calls": 5779.0,
+				"fps": 38.0,
+				"ms": 13.335,
+				"primitives": 238732.0
+			},
+			{
+				"draw_calls": 5779.0,
+				"fps": 38.0,
+				"ms": 13.714,
+				"primitives": 238732.0
+			},
+			{
+				"draw_calls": 5779.0,
+				"fps": 38.0,
+				"ms": 12.936,
+				"primitives": 238732.0
+			},
+			{
+				"draw_calls": 5779.0,
+				"fps": 38.0,
+				"ms": 13.336,
+				"primitives": 238732.0
+			},
+			{
+				"draw_calls": 5779.0,
+				"fps": 38.0,
+				"ms": 13.335,
+				"primitives": 238732.0
+			},
+			{
+				"draw_calls": 5779.0,
+				"fps": 38.0,
+				"ms": 13.34,
+				"primitives": 238732.0
+			},
+			{
+				"draw_calls": 5779.0,
+				"fps": 38.0,
+				"ms": 13.325,
+				"primitives": 238732.0
+			},
+			{
+				"draw_calls": 5779.0,
+				"fps": 38.0,
+				"ms": 13.33,
+				"primitives": 238732.0
+			},
+			{
+				"draw_calls": 5779.0,
+				"fps": 38.0,
+				"ms": 13.333,
+				"primitives": 238732.0
+			},
+			{
+				"draw_calls": 5779.0,
+				"fps": 38.0,
+				"ms": 13.508,
+				"primitives": 238732.0
+			}
+		],
+		"target": "(53.64875, 2.36, -115.1019)"
+	},
+	{
+		"at": "(45.64875, 2.36, -115.1019)",
+		"file": "survey_Piso1_InteriorCoordinacion_(-1.0, 0.0, 0.0).png",
+		"label": "Piso1_InteriorCoordinacion_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 12607.0,
+				"fps": 38.0,
+				"ms": 35.293,
+				"primitives": 522126.0
+			},
+			{
+				"draw_calls": 12607.0,
+				"fps": 38.0,
+				"ms": 42.091,
+				"primitives": 522126.0
+			},
+			{
+				"draw_calls": 12607.0,
+				"fps": 52.0,
+				"ms": 39.587,
+				"primitives": 522126.0
+			},
+			{
+				"draw_calls": 12607.0,
+				"fps": 52.0,
+				"ms": 41.567,
+				"primitives": 522126.0
+			},
+			{
+				"draw_calls": 12607.0,
+				"fps": 52.0,
+				"ms": 41.851,
+				"primitives": 522126.0
+			},
+			{
+				"draw_calls": 12607.0,
+				"fps": 52.0,
+				"ms": 47.326,
+				"primitives": 522126.0
+			},
+			{
+				"draw_calls": 12607.0,
+				"fps": 52.0,
+				"ms": 64.191,
+				"primitives": 522126.0
+			},
+			{
+				"draw_calls": 12607.0,
+				"fps": 52.0,
+				"ms": 43.54,
+				"primitives": 522126.0
+			},
+			{
+				"draw_calls": 12607.0,
+				"fps": 52.0,
+				"ms": 41.464,
+				"primitives": 522126.0
+			},
+			{
+				"draw_calls": 12607.0,
+				"fps": 52.0,
+				"ms": 43.964,
+				"primitives": 522126.0
+			},
+			{
+				"draw_calls": 12607.0,
+				"fps": 52.0,
+				"ms": 41.432,
+				"primitives": 522126.0
+			},
+			{
+				"draw_calls": 12607.0,
+				"fps": 52.0,
+				"ms": 42.079,
+				"primitives": 522126.0
+			}
+		],
+		"target": "(37.64875, 2.36, -115.1019)"
+	},
+	{
+		"at": "(45.64875, 2.36, -115.1019)",
+		"file": "survey_Piso1_InteriorCoordinacion_(0.0, 0.0, -1.0).png",
+		"label": "Piso1_InteriorCoordinacion_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 8371.0,
+				"fps": 52.0,
+				"ms": 13.812,
+				"primitives": 466144.0
+			},
+			{
+				"draw_calls": 8371.0,
+				"fps": 52.0,
+				"ms": 17.494,
+				"primitives": 466144.0
+			},
+			{
+				"draw_calls": 8371.0,
+				"fps": 52.0,
+				"ms": 16.466,
+				"primitives": 466144.0
+			},
+			{
+				"draw_calls": 8371.0,
+				"fps": 52.0,
+				"ms": 17.385,
+				"primitives": 466144.0
+			},
+			{
+				"draw_calls": 8371.0,
+				"fps": 52.0,
+				"ms": 17.861,
+				"primitives": 466144.0
+			},
+			{
+				"draw_calls": 8371.0,
+				"fps": 52.0,
+				"ms": 16.682,
+				"primitives": 466144.0
+			},
+			{
+				"draw_calls": 8371.0,
+				"fps": 52.0,
+				"ms": 17.611,
+				"primitives": 466144.0
+			},
+			{
+				"draw_calls": 8371.0,
+				"fps": 52.0,
+				"ms": 16.552,
+				"primitives": 466144.0
+			},
+			{
+				"draw_calls": 8371.0,
+				"fps": 52.0,
+				"ms": 17.962,
+				"primitives": 466144.0
+			},
+			{
+				"draw_calls": 8371.0,
+				"fps": 52.0,
+				"ms": 19.368,
+				"primitives": 466144.0
+			},
+			{
+				"draw_calls": 8371.0,
+				"fps": 52.0,
+				"ms": 17.113,
+				"primitives": 466144.0
+			},
+			{
+				"draw_calls": 8371.0,
+				"fps": 52.0,
+				"ms": 17.43,
+				"primitives": 466144.0
+			}
+		],
+		"target": "(45.64875, 2.36, -123.1019)"
+	},
+	{
+		"at": "(45.64875, 2.36, -115.1019)",
+		"file": "survey_Piso1_InteriorCoordinacion_(0.0, 0.0, 1.0).png",
+		"label": "Piso1_InteriorCoordinacion_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 4670.0,
+				"fps": 34.0,
+				"ms": 11.541,
+				"primitives": 338946.0
+			},
+			{
+				"draw_calls": 4670.0,
+				"fps": 34.0,
+				"ms": 13.282,
+				"primitives": 338946.0
+			},
+			{
+				"draw_calls": 4670.0,
+				"fps": 34.0,
+				"ms": 13.336,
+				"primitives": 338946.0
+			},
+			{
+				"draw_calls": 4670.0,
+				"fps": 34.0,
+				"ms": 13.33,
+				"primitives": 338946.0
+			},
+			{
+				"draw_calls": 4670.0,
+				"fps": 34.0,
+				"ms": 14.785,
+				"primitives": 338946.0
+			},
+			{
+				"draw_calls": 4670.0,
+				"fps": 34.0,
+				"ms": 12.115,
+				"primitives": 338946.0
+			},
+			{
+				"draw_calls": 4670.0,
+				"fps": 34.0,
+				"ms": 13.099,
+				"primitives": 338946.0
+			},
+			{
+				"draw_calls": 4670.0,
+				"fps": 34.0,
+				"ms": 13.377,
+				"primitives": 338946.0
+			},
+			{
+				"draw_calls": 4670.0,
+				"fps": 34.0,
+				"ms": 13.319,
+				"primitives": 338946.0
+			},
+			{
+				"draw_calls": 4670.0,
+				"fps": 34.0,
+				"ms": 13.304,
+				"primitives": 338946.0
+			},
+			{
+				"draw_calls": 4670.0,
+				"fps": 34.0,
+				"ms": 13.366,
+				"primitives": 338946.0
+			},
+			{
+				"draw_calls": 4670.0,
+				"fps": 34.0,
+				"ms": 14.641,
+				"primitives": 338946.0
+			}
+		],
+		"target": "(45.64875, 2.36, -107.1019)"
+	},
+	{
+		"at": "(42.675, 2.24, -152.4)",
+		"file": "survey_Piso1_PasilloDerechoYCapilla_(1.0, 0.0, 0.0).png",
+		"label": "Piso1_PasilloDerechoYCapilla_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 6114.0,
+				"fps": 34.0,
+				"ms": 9.853,
+				"primitives": 312332.0
+			},
+			{
+				"draw_calls": 6114.0,
+				"fps": 34.0,
+				"ms": 13.341,
+				"primitives": 312332.0
+			},
+			{
+				"draw_calls": 6114.0,
+				"fps": 34.0,
+				"ms": 13.376,
+				"primitives": 312332.0
+			},
+			{
+				"draw_calls": 6114.0,
+				"fps": 34.0,
+				"ms": 13.281,
+				"primitives": 312332.0
+			},
+			{
+				"draw_calls": 6114.0,
+				"fps": 34.0,
+				"ms": 13.342,
+				"primitives": 312332.0
+			},
+			{
+				"draw_calls": 6114.0,
+				"fps": 34.0,
+				"ms": 13.325,
+				"primitives": 312332.0
+			},
+			{
+				"draw_calls": 6114.0,
+				"fps": 34.0,
+				"ms": 13.339,
+				"primitives": 312332.0
+			},
+			{
+				"draw_calls": 6114.0,
+				"fps": 34.0,
+				"ms": 13.338,
+				"primitives": 312332.0
+			},
+			{
+				"draw_calls": 6114.0,
+				"fps": 34.0,
+				"ms": 13.329,
+				"primitives": 312332.0
+			},
+			{
+				"draw_calls": 6114.0,
+				"fps": 34.0,
+				"ms": 13.346,
+				"primitives": 312332.0
+			},
+			{
+				"draw_calls": 6114.0,
+				"fps": 34.0,
+				"ms": 13.339,
+				"primitives": 312332.0
+			},
+			{
+				"draw_calls": 6114.0,
+				"fps": 34.0,
+				"ms": 13.314,
+				"primitives": 312332.0
+			}
+		],
+		"target": "(50.675, 2.24, -152.4)"
+	},
+	{
+		"at": "(42.675, 2.24, -152.4)",
+		"file": "survey_Piso1_PasilloDerechoYCapilla_(-1.0, 0.0, 0.0).png",
+		"label": "Piso1_PasilloDerechoYCapilla_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 14201.0,
+				"fps": 34.0,
+				"ms": 40.809,
+				"primitives": 609678.0
+			},
+			{
+				"draw_calls": 14201.0,
+				"fps": 34.0,
+				"ms": 47.834,
+				"primitives": 609678.0
+			},
+			{
+				"draw_calls": 14201.0,
+				"fps": 34.0,
+				"ms": 45.803,
+				"primitives": 609678.0
+			},
+			{
+				"draw_calls": 14201.0,
+				"fps": 34.0,
+				"ms": 43.354,
+				"primitives": 609678.0
+			},
+			{
+				"draw_calls": 14201.0,
+				"fps": 34.0,
+				"ms": 57.136,
+				"primitives": 609678.0
+			},
+			{
+				"draw_calls": 14201.0,
+				"fps": 34.0,
+				"ms": 50.182,
+				"primitives": 609678.0
+			},
+			{
+				"draw_calls": 14201.0,
+				"fps": 48.0,
+				"ms": 52.086,
+				"primitives": 609678.0
+			},
+			{
+				"draw_calls": 14201.0,
+				"fps": 48.0,
+				"ms": 47.365,
+				"primitives": 609678.0
+			},
+			{
+				"draw_calls": 14201.0,
+				"fps": 48.0,
+				"ms": 52.702,
+				"primitives": 609678.0
+			},
+			{
+				"draw_calls": 14201.0,
+				"fps": 48.0,
+				"ms": 52.183,
+				"primitives": 609678.0
+			},
+			{
+				"draw_calls": 14201.0,
+				"fps": 48.0,
+				"ms": 53.734,
+				"primitives": 609678.0
+			},
+			{
+				"draw_calls": 14201.0,
+				"fps": 48.0,
+				"ms": 51.393,
+				"primitives": 609678.0
+			}
+		],
+		"target": "(34.675, 2.24, -152.4)"
+	},
+	{
+		"at": "(42.675, 2.24, -152.4)",
+		"file": "survey_Piso1_PasilloDerechoYCapilla_(0.0, 0.0, -1.0).png",
+		"label": "Piso1_PasilloDerechoYCapilla_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 8035.0,
+				"fps": 48.0,
+				"ms": 11.279,
+				"primitives": 382966.0
+			},
+			{
+				"draw_calls": 8035.0,
+				"fps": 48.0,
+				"ms": 15.001,
+				"primitives": 382966.0
+			},
+			{
+				"draw_calls": 8035.0,
+				"fps": 48.0,
+				"ms": 14.895,
+				"primitives": 382966.0
+			},
+			{
+				"draw_calls": 8035.0,
+				"fps": 48.0,
+				"ms": 16.349,
+				"primitives": 382966.0
+			},
+			{
+				"draw_calls": 8035.0,
+				"fps": 48.0,
+				"ms": 19.727,
+				"primitives": 382966.0
+			},
+			{
+				"draw_calls": 8035.0,
+				"fps": 48.0,
+				"ms": 16.815,
+				"primitives": 382966.0
+			},
+			{
+				"draw_calls": 8035.0,
+				"fps": 48.0,
+				"ms": 20.6,
+				"primitives": 382966.0
+			},
+			{
+				"draw_calls": 8035.0,
+				"fps": 48.0,
+				"ms": 20.662,
+				"primitives": 382966.0
+			},
+			{
+				"draw_calls": 8035.0,
+				"fps": 48.0,
+				"ms": 20.949,
+				"primitives": 382966.0
+			},
+			{
+				"draw_calls": 8035.0,
+				"fps": 48.0,
+				"ms": 19.515,
+				"primitives": 382966.0
+			},
+			{
+				"draw_calls": 8035.0,
+				"fps": 48.0,
+				"ms": 17.194,
+				"primitives": 382966.0
+			},
+			{
+				"draw_calls": 8035.0,
+				"fps": 48.0,
+				"ms": 16.612,
+				"primitives": 382966.0
+			}
+		],
+		"target": "(42.675, 2.24, -160.4)"
+	},
+	{
+		"at": "(42.675, 2.24, -152.4)",
+		"file": "survey_Piso1_PasilloDerechoYCapilla_(0.0, 0.0, 1.0).png",
+		"label": "Piso1_PasilloDerechoYCapilla_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 13272.0,
+				"fps": 48.0,
+				"ms": 31.216,
+				"primitives": 677618.0
+			},
+			{
+				"draw_calls": 13272.0,
+				"fps": 48.0,
+				"ms": 32.819,
+				"primitives": 677618.0
+			},
+			{
+				"draw_calls": 13272.0,
+				"fps": 48.0,
+				"ms": 33.019,
+				"primitives": 677618.0
+			},
+			{
+				"draw_calls": 13272.0,
+				"fps": 48.0,
+				"ms": 35.088,
+				"primitives": 677618.0
+			},
+			{
+				"draw_calls": 13272.0,
+				"fps": 31.0,
+				"ms": 32.065,
+				"primitives": 677618.0
+			},
+			{
+				"draw_calls": 13272.0,
+				"fps": 31.0,
+				"ms": 33.013,
+				"primitives": 677618.0
+			},
+			{
+				"draw_calls": 13272.0,
+				"fps": 31.0,
+				"ms": 33.742,
+				"primitives": 677618.0
+			},
+			{
+				"draw_calls": 13272.0,
+				"fps": 31.0,
+				"ms": 32.98,
+				"primitives": 677618.0
+			},
+			{
+				"draw_calls": 13272.0,
+				"fps": 31.0,
+				"ms": 32.771,
+				"primitives": 677618.0
+			},
+			{
+				"draw_calls": 13272.0,
+				"fps": 31.0,
+				"ms": 33.123,
+				"primitives": 677618.0
+			},
+			{
+				"draw_calls": 13272.0,
+				"fps": 31.0,
+				"ms": 33.72,
+				"primitives": 677618.0
+			},
+			{
+				"draw_calls": 13272.0,
+				"fps": 31.0,
+				"ms": 32.267,
+				"primitives": 677618.0
+			}
+		],
+		"target": "(42.675, 2.24, -144.4)"
+	},
+	{
+		"at": "(-15.2625, 2.24, -147.8637)",
+		"file": "survey_Piso1_VestibuloAscensores_(1.0, 0.0, 0.0).png",
+		"label": "Piso1_VestibuloAscensores_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 8923.0,
+				"fps": 31.0,
+				"ms": 24.849,
+				"primitives": 455640.0
+			},
+			{
+				"draw_calls": 8923.0,
+				"fps": 31.0,
+				"ms": 29.989,
+				"primitives": 455640.0
+			},
+			{
+				"draw_calls": 8923.0,
+				"fps": 31.0,
+				"ms": 32.504,
+				"primitives": 455640.0
+			},
+			{
+				"draw_calls": 8923.0,
+				"fps": 31.0,
+				"ms": 26.801,
+				"primitives": 455640.0
+			},
+			{
+				"draw_calls": 8923.0,
+				"fps": 31.0,
+				"ms": 29.193,
+				"primitives": 455640.0
+			},
+			{
+				"draw_calls": 8923.0,
+				"fps": 31.0,
+				"ms": 29.772,
+				"primitives": 455640.0
+			},
+			{
+				"draw_calls": 8923.0,
+				"fps": 31.0,
+				"ms": 26.495,
+				"primitives": 455640.0
+			},
+			{
+				"draw_calls": 8923.0,
+				"fps": 31.0,
+				"ms": 27.409,
+				"primitives": 455640.0
+			},
+			{
+				"draw_calls": 8923.0,
+				"fps": 31.0,
+				"ms": 28.902,
+				"primitives": 455640.0
+			},
+			{
+				"draw_calls": 8923.0,
+				"fps": 31.0,
+				"ms": 27.226,
+				"primitives": 455640.0
+			},
+			{
+				"draw_calls": 8923.0,
+				"fps": 31.0,
+				"ms": 27.774,
+				"primitives": 455640.0
+			},
+			{
+				"draw_calls": 8923.0,
+				"fps": 31.0,
+				"ms": 32.159,
+				"primitives": 455640.0
+			}
+		],
+		"target": "(-7.2625, 2.24, -147.8637)"
+	},
+	{
+		"at": "(-15.2625, 2.24, -147.8637)",
+		"file": "survey_Piso1_VestibuloAscensores_(-1.0, 0.0, 0.0).png",
+		"label": "Piso1_VestibuloAscensores_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 8359.0,
+				"fps": 31.0,
+				"ms": 17.928,
+				"primitives": 460628.0
+			},
+			{
+				"draw_calls": 8359.0,
+				"fps": 29.0,
+				"ms": 20.914,
+				"primitives": 460628.0
+			},
+			{
+				"draw_calls": 8359.0,
+				"fps": 29.0,
+				"ms": 23.465,
+				"primitives": 460628.0
+			},
+			{
+				"draw_calls": 8359.0,
+				"fps": 29.0,
+				"ms": 21.904,
+				"primitives": 460628.0
+			},
+			{
+				"draw_calls": 8376.0,
+				"fps": 29.0,
+				"ms": 24.248,
+				"primitives": 467452.0
+			},
+			{
+				"draw_calls": 8376.0,
+				"fps": 29.0,
+				"ms": 22.101,
+				"primitives": 467452.0
+			},
+			{
+				"draw_calls": 8376.0,
+				"fps": 29.0,
+				"ms": 21.175,
+				"primitives": 467452.0
+			},
+			{
+				"draw_calls": 8376.0,
+				"fps": 29.0,
+				"ms": 21.529,
+				"primitives": 467452.0
+			},
+			{
+				"draw_calls": 8376.0,
+				"fps": 29.0,
+				"ms": 22.923,
+				"primitives": 467452.0
+			},
+			{
+				"draw_calls": 8376.0,
+				"fps": 29.0,
+				"ms": 21.079,
+				"primitives": 467452.0
+			},
+			{
+				"draw_calls": 8376.0,
+				"fps": 29.0,
+				"ms": 22.345,
+				"primitives": 467452.0
+			},
+			{
+				"draw_calls": 8376.0,
+				"fps": 29.0,
+				"ms": 23.356,
+				"primitives": 467452.0
+			}
+		],
+		"target": "(-23.2625, 2.24, -147.8637)"
+	},
+	{
+		"at": "(-15.2625, 2.24, -147.8637)",
+		"file": "survey_Piso1_VestibuloAscensores_(0.0, 0.0, -1.0).png",
+		"label": "Piso1_VestibuloAscensores_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 8483.0,
+				"fps": 29.0,
+				"ms": 18.656,
+				"primitives": 277146.0
+			},
+			{
+				"draw_calls": 8483.0,
+				"fps": 29.0,
+				"ms": 21.474,
+				"primitives": 277146.0
+			},
+			{
+				"draw_calls": 8483.0,
+				"fps": 29.0,
+				"ms": 13.26,
+				"primitives": 277146.0
+			},
+			{
+				"draw_calls": 8483.0,
+				"fps": 29.0,
+				"ms": 13.853,
+				"primitives": 277146.0
+			},
+			{
+				"draw_calls": 8483.0,
+				"fps": 29.0,
+				"ms": 13.634,
+				"primitives": 277146.0
+			},
+			{
+				"draw_calls": 8483.0,
+				"fps": 29.0,
+				"ms": 17.184,
+				"primitives": 277146.0
+			},
+			{
+				"draw_calls": 8483.0,
+				"fps": 29.0,
+				"ms": 16.531,
+				"primitives": 277146.0
+			},
+			{
+				"draw_calls": 8483.0,
+				"fps": 29.0,
+				"ms": 15.18,
+				"primitives": 277146.0
+			},
+			{
+				"draw_calls": 8483.0,
+				"fps": 29.0,
+				"ms": 14.869,
+				"primitives": 277146.0
+			},
+			{
+				"draw_calls": 8483.0,
+				"fps": 29.0,
+				"ms": 14.538,
+				"primitives": 277146.0
+			},
+			{
+				"draw_calls": 8483.0,
+				"fps": 29.0,
+				"ms": 16.031,
+				"primitives": 277146.0
+			},
+			{
+				"draw_calls": 8483.0,
+				"fps": 29.0,
+				"ms": 15.306,
+				"primitives": 277146.0
+			}
+		],
+		"target": "(-15.2625, 2.24, -155.8637)"
+	},
+	{
+		"at": "(-15.2625, 2.24, -147.8637)",
+		"file": "survey_Piso1_VestibuloAscensores_(0.0, 0.0, 1.0).png",
+		"label": "Piso1_VestibuloAscensores_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 11638.0,
+				"fps": 29.0,
+				"ms": 27.915,
+				"primitives": 505894.0
+			},
+			{
+				"draw_calls": 11638.0,
+				"fps": 29.0,
+				"ms": 31.961,
+				"primitives": 505894.0
+			},
+			{
+				"draw_calls": 11638.0,
+				"fps": 29.0,
+				"ms": 31.853,
+				"primitives": 505894.0
+			},
+			{
+				"draw_calls": 11638.0,
+				"fps": 29.0,
+				"ms": 33.38,
+				"primitives": 505894.0
+			},
+			{
+				"draw_calls": 11638.0,
+				"fps": 29.0,
+				"ms": 33.776,
+				"primitives": 505894.0
+			},
+			{
+				"draw_calls": 11638.0,
+				"fps": 29.0,
+				"ms": 36.842,
+				"primitives": 505894.0
+			},
+			{
+				"draw_calls": 11638.0,
+				"fps": 44.0,
+				"ms": 34.899,
+				"primitives": 505894.0
+			},
+			{
+				"draw_calls": 11638.0,
+				"fps": 44.0,
+				"ms": 31.304,
+				"primitives": 505894.0
+			},
+			{
+				"draw_calls": 11638.0,
+				"fps": 44.0,
+				"ms": 32.71,
+				"primitives": 505894.0
+			},
+			{
+				"draw_calls": 11638.0,
+				"fps": 44.0,
+				"ms": 31.99,
+				"primitives": 505894.0
+			},
+			{
+				"draw_calls": 11638.0,
+				"fps": 44.0,
+				"ms": 34.271,
+				"primitives": 505894.0
+			},
+			{
+				"draw_calls": 11638.0,
+				"fps": 44.0,
+				"ms": 32.532,
+				"primitives": 505894.0
+			}
+		],
+		"target": "(-15.2625, 2.24, -139.8637)"
+	},
+	{
+		"at": "(-16.0325, 2.24, -103.8875)",
+		"file": "survey_Piso1_AcabadosPasillos_(1.0, 0.0, 0.0).png",
+		"label": "Piso1_AcabadosPasillos_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 7311.0,
+				"fps": 44.0,
+				"ms": 22.546,
+				"primitives": 447714.0
+			},
+			{
+				"draw_calls": 7311.0,
+				"fps": 44.0,
+				"ms": 26.414,
+				"primitives": 447714.0
+			},
+			{
+				"draw_calls": 7311.0,
+				"fps": 44.0,
+				"ms": 26.79,
+				"primitives": 447714.0
+			},
+			{
+				"draw_calls": 7311.0,
+				"fps": 44.0,
+				"ms": 26.365,
+				"primitives": 447714.0
+			},
+			{
+				"draw_calls": 7311.0,
+				"fps": 44.0,
+				"ms": 26.164,
+				"primitives": 447714.0
+			},
+			{
+				"draw_calls": 7311.0,
+				"fps": 44.0,
+				"ms": 26.297,
+				"primitives": 447714.0
+			},
+			{
+				"draw_calls": 7311.0,
+				"fps": 44.0,
+				"ms": 27.59,
+				"primitives": 447714.0
+			},
+			{
+				"draw_calls": 7311.0,
+				"fps": 44.0,
+				"ms": 25.29,
+				"primitives": 447714.0
+			},
+			{
+				"draw_calls": 7311.0,
+				"fps": 44.0,
+				"ms": 26.333,
+				"primitives": 447714.0
+			},
+			{
+				"draw_calls": 7311.0,
+				"fps": 44.0,
+				"ms": 24.529,
+				"primitives": 447714.0
+			},
+			{
+				"draw_calls": 7311.0,
+				"fps": 44.0,
+				"ms": 28.212,
+				"primitives": 447714.0
+			},
+			{
+				"draw_calls": 7311.0,
+				"fps": 44.0,
+				"ms": 28.594,
+				"primitives": 447714.0
+			}
+		],
+		"target": "(-8.032499, 2.24, -103.8875)"
+	},
+	{
+		"at": "(-16.0325, 2.24, -103.8875)",
+		"file": "survey_Piso1_AcabadosPasillos_(-1.0, 0.0, 0.0).png",
+		"label": "Piso1_AcabadosPasillos_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 7819.0,
+				"fps": 44.0,
+				"ms": 18.498,
+				"primitives": 350854.0
+			},
+			{
+				"draw_calls": 7819.0,
+				"fps": 44.0,
+				"ms": 21.901,
+				"primitives": 350854.0
+			},
+			{
+				"draw_calls": 7819.0,
+				"fps": 44.0,
+				"ms": 25.838,
+				"primitives": 350854.0
+			},
+			{
+				"draw_calls": 7819.0,
+				"fps": 31.0,
+				"ms": 22.707,
+				"primitives": 350854.0
+			},
+			{
+				"draw_calls": 7819.0,
+				"fps": 31.0,
+				"ms": 22.709,
+				"primitives": 350854.0
+			},
+			{
+				"draw_calls": 7819.0,
+				"fps": 31.0,
+				"ms": 21.428,
+				"primitives": 350854.0
+			},
+			{
+				"draw_calls": 7819.0,
+				"fps": 31.0,
+				"ms": 21.641,
+				"primitives": 350854.0
+			},
+			{
+				"draw_calls": 7819.0,
+				"fps": 31.0,
+				"ms": 25.717,
+				"primitives": 350854.0
+			},
+			{
+				"draw_calls": 7819.0,
+				"fps": 31.0,
+				"ms": 20.654,
+				"primitives": 350854.0
+			},
+			{
+				"draw_calls": 7819.0,
+				"fps": 31.0,
+				"ms": 21.27,
+				"primitives": 350854.0
+			},
+			{
+				"draw_calls": 7819.0,
+				"fps": 31.0,
+				"ms": 22.723,
+				"primitives": 350854.0
+			},
+			{
+				"draw_calls": 7819.0,
+				"fps": 31.0,
+				"ms": 20.368,
+				"primitives": 350854.0
+			}
+		],
+		"target": "(-24.0325, 2.24, -103.8875)"
+	},
+	{
+		"at": "(-16.0325, 2.24, -103.8875)",
+		"file": "survey_Piso1_AcabadosPasillos_(0.0, 0.0, -1.0).png",
+		"label": "Piso1_AcabadosPasillos_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 8347.0,
+				"fps": 31.0,
+				"ms": 19.636,
+				"primitives": 447572.0
+			},
+			{
+				"draw_calls": 8347.0,
+				"fps": 31.0,
+				"ms": 22.41,
+				"primitives": 447572.0
+			},
+			{
+				"draw_calls": 8347.0,
+				"fps": 31.0,
+				"ms": 21.346,
+				"primitives": 447572.0
+			},
+			{
+				"draw_calls": 8347.0,
+				"fps": 31.0,
+				"ms": 24.296,
+				"primitives": 447572.0
+			},
+			{
+				"draw_calls": 8347.0,
+				"fps": 31.0,
+				"ms": 23.021,
+				"primitives": 447572.0
+			},
+			{
+				"draw_calls": 8347.0,
+				"fps": 31.0,
+				"ms": 24.27,
+				"primitives": 447572.0
+			},
+			{
+				"draw_calls": 8347.0,
+				"fps": 31.0,
+				"ms": 24.105,
+				"primitives": 447572.0
+			},
+			{
+				"draw_calls": 8347.0,
+				"fps": 31.0,
+				"ms": 23.793,
+				"primitives": 447572.0
+			},
+			{
+				"draw_calls": 8347.0,
+				"fps": 31.0,
+				"ms": 21.976,
+				"primitives": 447572.0
+			},
+			{
+				"draw_calls": 8347.0,
+				"fps": 31.0,
+				"ms": 21.402,
+				"primitives": 447572.0
+			},
+			{
+				"draw_calls": 8347.0,
+				"fps": 31.0,
+				"ms": 22.069,
+				"primitives": 447572.0
+			},
+			{
+				"draw_calls": 8347.0,
+				"fps": 31.0,
+				"ms": 24.456,
+				"primitives": 447572.0
+			}
+		],
+		"target": "(-16.0325, 2.24, -111.8875)"
+	},
+	{
+		"at": "(-16.0325, 2.24, -103.8875)",
+		"file": "survey_Piso1_AcabadosPasillos_(0.0, 0.0, 1.0).png",
+		"label": "Piso1_AcabadosPasillos_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 2419.0,
+				"fps": 31.0,
+				"ms": 10.219,
+				"primitives": 279052.0
+			},
+			{
+				"draw_calls": 2419.0,
+				"fps": 31.0,
+				"ms": 13.526,
+				"primitives": 279052.0
+			},
+			{
+				"draw_calls": 2419.0,
+				"fps": 31.0,
+				"ms": 13.117,
+				"primitives": 279052.0
+			},
+			{
+				"draw_calls": 2419.0,
+				"fps": 31.0,
+				"ms": 13.349,
+				"primitives": 279052.0
+			},
+			{
+				"draw_calls": 2419.0,
+				"fps": 31.0,
+				"ms": 13.321,
+				"primitives": 279052.0
+			},
+			{
+				"draw_calls": 2419.0,
+				"fps": 31.0,
+				"ms": 13.335,
+				"primitives": 279052.0
+			},
+			{
+				"draw_calls": 2419.0,
+				"fps": 31.0,
+				"ms": 13.335,
+				"primitives": 279052.0
+			},
+			{
+				"draw_calls": 2419.0,
+				"fps": 31.0,
+				"ms": 13.331,
+				"primitives": 279052.0
+			},
+			{
+				"draw_calls": 2419.0,
+				"fps": 31.0,
+				"ms": 13.343,
+				"primitives": 279052.0
+			},
+			{
+				"draw_calls": 2419.0,
+				"fps": 31.0,
+				"ms": 13.358,
+				"primitives": 279052.0
+			},
+			{
+				"draw_calls": 2419.0,
+				"fps": 31.0,
+				"ms": 13.303,
+				"primitives": 279052.0
+			},
+			{
+				"draw_calls": 2419.0,
+				"fps": 45.0,
+				"ms": 13.33,
+				"primitives": 279052.0
+			}
+		],
+		"target": "(-16.0325, 2.24, -95.8875)"
+	},
+	{
+		"at": "(-71.94275, 14.29839, -119.7021)",
+		"file": "survey_Piso2_Biblioteca_(1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 20303.0,
+				"fps": 69.0,
+				"ms": 57.154,
+				"primitives": 989906.0
+			},
+			{
+				"draw_calls": 20275.0,
+				"fps": 69.0,
+				"ms": 67.243,
+				"primitives": 974158.0
+			},
+			{
+				"draw_calls": 20275.0,
+				"fps": 69.0,
+				"ms": 66.268,
+				"primitives": 974158.0
+			},
+			{
+				"draw_calls": 20275.0,
+				"fps": 69.0,
+				"ms": 66.584,
+				"primitives": 974158.0
+			},
+			{
+				"draw_calls": 20275.0,
+				"fps": 69.0,
+				"ms": 63.976,
+				"primitives": 974158.0
+			},
+			{
+				"draw_calls": 20275.0,
+				"fps": 69.0,
+				"ms": 63.36,
+				"primitives": 974158.0
+			},
+			{
+				"draw_calls": 20275.0,
+				"fps": 69.0,
+				"ms": 105.789,
+				"primitives": 974158.0
+			},
+			{
+				"draw_calls": 20275.0,
+				"fps": 69.0,
+				"ms": 107.943,
+				"primitives": 974158.0
+			},
+			{
+				"draw_calls": 20275.0,
+				"fps": 69.0,
+				"ms": 144.785,
+				"primitives": 974158.0
+			},
+			{
+				"draw_calls": 20275.0,
+				"fps": 18.0,
+				"ms": 123.08,
+				"primitives": 974158.0
+			},
+			{
+				"draw_calls": 20275.0,
+				"fps": 18.0,
+				"ms": 154.694,
+				"primitives": 974158.0
+			},
+			{
+				"draw_calls": 20275.0,
+				"fps": 18.0,
+				"ms": 155.881,
+				"primitives": 974158.0
+			}
+		],
+		"target": "(-63.94275, 14.29839, -119.7021)"
+	},
+	{
+		"at": "(-71.94275, 14.29839, -119.7021)",
+		"file": "survey_Piso2_Biblioteca_(-1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 280.0,
+				"fps": 18.0,
+				"ms": 6.963,
+				"primitives": 30694.0
+			},
+			{
+				"draw_calls": 280.0,
+				"fps": 18.0,
+				"ms": 13.296,
+				"primitives": 30694.0
+			},
+			{
+				"draw_calls": 280.0,
+				"fps": 18.0,
+				"ms": 13.419,
+				"primitives": 30694.0
+			},
+			{
+				"draw_calls": 280.0,
+				"fps": 18.0,
+				"ms": 13.266,
+				"primitives": 30694.0
+			},
+			{
+				"draw_calls": 280.0,
+				"fps": 18.0,
+				"ms": 13.387,
+				"primitives": 30694.0
+			},
+			{
+				"draw_calls": 280.0,
+				"fps": 18.0,
+				"ms": 13.392,
+				"primitives": 30694.0
+			},
+			{
+				"draw_calls": 280.0,
+				"fps": 18.0,
+				"ms": 13.251,
+				"primitives": 30694.0
+			},
+			{
+				"draw_calls": 280.0,
+				"fps": 18.0,
+				"ms": 13.316,
+				"primitives": 30694.0
+			},
+			{
+				"draw_calls": 280.0,
+				"fps": 18.0,
+				"ms": 13.343,
+				"primitives": 30694.0
+			},
+			{
+				"draw_calls": 280.0,
+				"fps": 18.0,
+				"ms": 13.375,
+				"primitives": 30694.0
+			},
+			{
+				"draw_calls": 280.0,
+				"fps": 18.0,
+				"ms": 13.24,
+				"primitives": 30694.0
+			},
+			{
+				"draw_calls": 280.0,
+				"fps": 18.0,
+				"ms": 13.439,
+				"primitives": 30694.0
+			}
+		],
+		"target": "(-79.94275, 14.29839, -119.7021)"
+	},
+	{
+		"at": "(-71.94275, 14.29839, -119.7021)",
+		"file": "survey_Piso2_Biblioteca_(0.0, 0.0, -1.0).png",
+		"label": "Piso2_Biblioteca_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 3859.0,
+				"fps": 20.0,
+				"ms": 27.075,
+				"primitives": 282982.0
+			},
+			{
+				"draw_calls": 3859.0,
+				"fps": 20.0,
+				"ms": 36.239,
+				"primitives": 282982.0
+			},
+			{
+				"draw_calls": 3859.0,
+				"fps": 20.0,
+				"ms": 32.92,
+				"primitives": 282982.0
+			},
+			{
+				"draw_calls": 3859.0,
+				"fps": 20.0,
+				"ms": 29.8,
+				"primitives": 282982.0
+			},
+			{
+				"draw_calls": 3859.0,
+				"fps": 20.0,
+				"ms": 26.603,
+				"primitives": 282982.0
+			},
+			{
+				"draw_calls": 3859.0,
+				"fps": 20.0,
+				"ms": 29.722,
+				"primitives": 282982.0
+			},
+			{
+				"draw_calls": 3859.0,
+				"fps": 20.0,
+				"ms": 32.058,
+				"primitives": 282982.0
+			},
+			{
+				"draw_calls": 3859.0,
+				"fps": 20.0,
+				"ms": 39.38,
+				"primitives": 282982.0
+			},
+			{
+				"draw_calls": 3859.0,
+				"fps": 20.0,
+				"ms": 39.777,
+				"primitives": 282982.0
+			},
+			{
+				"draw_calls": 3859.0,
+				"fps": 20.0,
+				"ms": 39.922,
+				"primitives": 282982.0
+			},
+			{
+				"draw_calls": 3859.0,
+				"fps": 20.0,
+				"ms": 26.649,
+				"primitives": 282982.0
+			},
+			{
+				"draw_calls": 3859.0,
+				"fps": 20.0,
+				"ms": 31.552,
+				"primitives": 282982.0
+			}
+		],
+		"target": "(-71.94275, 14.29839, -127.7021)"
+	},
+	{
+		"at": "(-71.94275, 14.29839, -119.7021)",
+		"file": "survey_Piso2_Biblioteca_(0.0, 0.0, 1.0).png",
+		"label": "Piso2_Biblioteca_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 8342.0,
+				"fps": 20.0,
+				"ms": 42.852,
+				"primitives": 338776.0
+			},
+			{
+				"draw_calls": 8342.0,
+				"fps": 20.0,
+				"ms": 46.57,
+				"primitives": 338776.0
+			},
+			{
+				"draw_calls": 8342.0,
+				"fps": 20.0,
+				"ms": 47.699,
+				"primitives": 338776.0
+			},
+			{
+				"draw_calls": 8342.0,
+				"fps": 20.0,
+				"ms": 49.993,
+				"primitives": 338776.0
+			},
+			{
+				"draw_calls": 8342.0,
+				"fps": 20.0,
+				"ms": 65.245,
+				"primitives": 338776.0
+			},
+			{
+				"draw_calls": 8342.0,
+				"fps": 20.0,
+				"ms": 54.608,
+				"primitives": 338776.0
+			},
+			{
+				"draw_calls": 8342.0,
+				"fps": 25.0,
+				"ms": 59.778,
+				"primitives": 338776.0
+			},
+			{
+				"draw_calls": 8342.0,
+				"fps": 25.0,
+				"ms": 42.804,
+				"primitives": 338776.0
+			},
+			{
+				"draw_calls": 8342.0,
+				"fps": 25.0,
+				"ms": 53.513,
+				"primitives": 338776.0
+			},
+			{
+				"draw_calls": 8342.0,
+				"fps": 25.0,
+				"ms": 58.027,
+				"primitives": 338776.0
+			},
+			{
+				"draw_calls": 8342.0,
+				"fps": 25.0,
+				"ms": 56.925,
+				"primitives": 338776.0
+			},
+			{
+				"draw_calls": 8342.0,
+				"fps": 25.0,
+				"ms": 51.845,
+				"primitives": 338776.0
+			}
+		],
+		"target": "(-71.94275, 14.29839, -111.7021)"
+	},
+	{
+		"at": "(-81.7925, 14.29839, -119.9737)",
+		"file": "survey_Piso2_SalaImpresiones_(1.0, 0.0, 0.0).png",
+		"label": "Piso2_SalaImpresiones_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 22679.0,
+				"fps": 25.0,
+				"ms": 62.701,
+				"primitives": 1087686.0
+			},
+			{
+				"draw_calls": 22679.0,
+				"fps": 25.0,
+				"ms": 69.847,
+				"primitives": 1087686.0
+			},
+			{
+				"draw_calls": 22679.0,
+				"fps": 25.0,
+				"ms": 70.207,
+				"primitives": 1087686.0
+			},
+			{
+				"draw_calls": 22679.0,
+				"fps": 25.0,
+				"ms": 69.001,
+				"primitives": 1087686.0
+			},
+			{
+				"draw_calls": 22679.0,
+				"fps": 25.0,
+				"ms": 74.631,
+				"primitives": 1087686.0
+			},
+			{
+				"draw_calls": 22679.0,
+				"fps": 25.0,
+				"ms": 75.745,
+				"primitives": 1087686.0
+			},
+			{
+				"draw_calls": 22679.0,
+				"fps": 25.0,
+				"ms": 70.414,
+				"primitives": 1087686.0
+			},
+			{
+				"draw_calls": 22679.0,
+				"fps": 14.0,
+				"ms": 68.184,
+				"primitives": 1087686.0
+			},
+			{
+				"draw_calls": 22679.0,
+				"fps": 14.0,
+				"ms": 68.939,
+				"primitives": 1087686.0
+			},
+			{
+				"draw_calls": 22679.0,
+				"fps": 14.0,
+				"ms": 68.466,
+				"primitives": 1087686.0
+			},
+			{
+				"draw_calls": 22679.0,
+				"fps": 14.0,
+				"ms": 75.769,
+				"primitives": 1087686.0
+			},
+			{
+				"draw_calls": 22679.0,
+				"fps": 14.0,
+				"ms": 69.907,
+				"primitives": 1087686.0
+			}
+		],
+		"target": "(-73.7925, 14.29839, -119.9737)"
+	},
+	{
+		"at": "(-81.7925, 14.29839, -119.9737)",
+		"file": "survey_Piso2_SalaImpresiones_(-1.0, 0.0, 0.0).png",
+		"label": "Piso2_SalaImpresiones_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 27.0,
+				"fps": 14.0,
+				"ms": 8.909,
+				"primitives": 324.0
+			},
+			{
+				"draw_calls": 27.0,
+				"fps": 14.0,
+				"ms": 13.387,
+				"primitives": 324.0
+			},
+			{
+				"draw_calls": 27.0,
+				"fps": 14.0,
+				"ms": 13.273,
+				"primitives": 324.0
+			},
+			{
+				"draw_calls": 27.0,
+				"fps": 14.0,
+				"ms": 13.312,
+				"primitives": 324.0
+			},
+			{
+				"draw_calls": 27.0,
+				"fps": 14.0,
+				"ms": 13.337,
+				"primitives": 324.0
+			},
+			{
+				"draw_calls": 27.0,
+				"fps": 14.0,
+				"ms": 13.354,
+				"primitives": 324.0
+			},
+			{
+				"draw_calls": 27.0,
+				"fps": 14.0,
+				"ms": 13.334,
+				"primitives": 324.0
+			},
+			{
+				"draw_calls": 27.0,
+				"fps": 14.0,
+				"ms": 13.314,
+				"primitives": 324.0
+			},
+			{
+				"draw_calls": 27.0,
+				"fps": 14.0,
+				"ms": 13.365,
+				"primitives": 324.0
+			},
+			{
+				"draw_calls": 27.0,
+				"fps": 14.0,
+				"ms": 13.402,
+				"primitives": 324.0
+			},
+			{
+				"draw_calls": 27.0,
+				"fps": 14.0,
+				"ms": 13.257,
+				"primitives": 324.0
+			},
+			{
+				"draw_calls": 27.0,
+				"fps": 14.0,
+				"ms": 13.304,
+				"primitives": 324.0
+			}
+		],
+		"target": "(-89.7925, 14.29839, -119.9737)"
+	},
+	{
+		"at": "(-81.7925, 14.29839, -119.9737)",
+		"file": "survey_Piso2_SalaImpresiones_(0.0, 0.0, -1.0).png",
+		"label": "Piso2_SalaImpresiones_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 3058.0,
+				"fps": 14.0,
+				"ms": 8.653,
+				"primitives": 227032.0
+			},
+			{
+				"draw_calls": 3058.0,
+				"fps": 14.0,
+				"ms": 12.798,
+				"primitives": 227032.0
+			},
+			{
+				"draw_calls": 3058.0,
+				"fps": 14.0,
+				"ms": 13.328,
+				"primitives": 227032.0
+			},
+			{
+				"draw_calls": 3058.0,
+				"fps": 35.0,
+				"ms": 16.346,
+				"primitives": 227032.0
+			},
+			{
+				"draw_calls": 3058.0,
+				"fps": 35.0,
+				"ms": 11.9,
+				"primitives": 227032.0
+			},
+			{
+				"draw_calls": 3058.0,
+				"fps": 35.0,
+				"ms": 12.375,
+				"primitives": 227032.0
+			},
+			{
+				"draw_calls": 3058.0,
+				"fps": 35.0,
+				"ms": 12.717,
+				"primitives": 227032.0
+			},
+			{
+				"draw_calls": 3058.0,
+				"fps": 35.0,
+				"ms": 13.352,
+				"primitives": 227032.0
+			},
+			{
+				"draw_calls": 3058.0,
+				"fps": 35.0,
+				"ms": 13.319,
+				"primitives": 227032.0
+			},
+			{
+				"draw_calls": 3058.0,
+				"fps": 35.0,
+				"ms": 14.632,
+				"primitives": 227032.0
+			},
+			{
+				"draw_calls": 3058.0,
+				"fps": 35.0,
+				"ms": 12.027,
+				"primitives": 227032.0
+			},
+			{
+				"draw_calls": 3058.0,
+				"fps": 35.0,
+				"ms": 13.36,
+				"primitives": 227032.0
+			}
+		],
+		"target": "(-81.7925, 14.29839, -127.9737)"
+	},
+	{
+		"at": "(-81.7925, 14.29839, -119.9737)",
+		"file": "survey_Piso2_SalaImpresiones_(0.0, 0.0, 1.0).png",
+		"label": "Piso2_SalaImpresiones_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 7402.0,
+				"fps": 35.0,
+				"ms": 19.81,
+				"primitives": 299424.0
+			},
+			{
+				"draw_calls": 7402.0,
+				"fps": 35.0,
+				"ms": 24.326,
+				"primitives": 299424.0
+			},
+			{
+				"draw_calls": 7402.0,
+				"fps": 35.0,
+				"ms": 25.092,
+				"primitives": 299424.0
+			},
+			{
+				"draw_calls": 7402.0,
+				"fps": 35.0,
+				"ms": 25.039,
+				"primitives": 299424.0
+			},
+			{
+				"draw_calls": 7402.0,
+				"fps": 35.0,
+				"ms": 21.8,
+				"primitives": 299424.0
+			},
+			{
+				"draw_calls": 7402.0,
+				"fps": 35.0,
+				"ms": 23.661,
+				"primitives": 299424.0
+			},
+			{
+				"draw_calls": 7402.0,
+				"fps": 35.0,
+				"ms": 25.991,
+				"primitives": 299424.0
+			},
+			{
+				"draw_calls": 7402.0,
+				"fps": 35.0,
+				"ms": 26.471,
+				"primitives": 299424.0
+			},
+			{
+				"draw_calls": 7402.0,
+				"fps": 35.0,
+				"ms": 26.354,
+				"primitives": 299424.0
+			},
+			{
+				"draw_calls": 7402.0,
+				"fps": 35.0,
+				"ms": 27.045,
+				"primitives": 299424.0
+			},
+			{
+				"draw_calls": 7402.0,
+				"fps": 35.0,
+				"ms": 26.667,
+				"primitives": 299424.0
+			},
+			{
+				"draw_calls": 7402.0,
+				"fps": 35.0,
+				"ms": 25.736,
+				"primitives": 299424.0
+			}
+		],
+		"target": "(-81.7925, 14.29839, -111.9737)"
+	},
+	{
+		"at": "(-0.358498, 14.37839, -99.04637)",
+		"file": "survey_Piso2_AuditorioPiso2e_(1.0, 0.0, 0.0).png",
+		"label": "Piso2_AuditorioPiso2e_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 7254.0,
+				"fps": 35.0,
+				"ms": 26.358,
+				"primitives": 438142.0
+			},
+			{
+				"draw_calls": 7254.0,
+				"fps": 35.0,
+				"ms": 30.745,
+				"primitives": 438142.0
+			},
+			{
+				"draw_calls": 7254.0,
+				"fps": 35.0,
+				"ms": 33.15,
+				"primitives": 438142.0
+			},
+			{
+				"draw_calls": 7254.0,
+				"fps": 35.0,
+				"ms": 35.218,
+				"primitives": 438142.0
+			},
+			{
+				"draw_calls": 7254.0,
+				"fps": 35.0,
+				"ms": 33.237,
+				"primitives": 438142.0
+			},
+			{
+				"draw_calls": 7254.0,
+				"fps": 35.0,
+				"ms": 31.322,
+				"primitives": 438142.0
+			},
+			{
+				"draw_calls": 7254.0,
+				"fps": 35.0,
+				"ms": 32.121,
+				"primitives": 438142.0
+			},
+			{
+				"draw_calls": 7254.0,
+				"fps": 37.0,
+				"ms": 29.385,
+				"primitives": 438142.0
+			},
+			{
+				"draw_calls": 7254.0,
+				"fps": 37.0,
+				"ms": 27.69,
+				"primitives": 438142.0
+			},
+			{
+				"draw_calls": 7254.0,
+				"fps": 37.0,
+				"ms": 32.35,
+				"primitives": 438142.0
+			},
+			{
+				"draw_calls": 7254.0,
+				"fps": 37.0,
+				"ms": 30.093,
+				"primitives": 438142.0
+			},
+			{
+				"draw_calls": 7254.0,
+				"fps": 37.0,
+				"ms": 30.595,
+				"primitives": 438142.0
+			}
+		],
+		"target": "(7.641502, 14.37839, -99.04637)"
+	},
+	{
+		"at": "(-0.358498, 14.37839, -99.04637)",
+		"file": "survey_Piso2_AuditorioPiso2e_(-1.0, 0.0, 0.0).png",
+		"label": "Piso2_AuditorioPiso2e_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 7761.0,
+				"fps": 37.0,
+				"ms": 30.241,
+				"primitives": 375954.0
+			},
+			{
+				"draw_calls": 7761.0,
+				"fps": 37.0,
+				"ms": 35.669,
+				"primitives": 375954.0
+			},
+			{
+				"draw_calls": 7761.0,
+				"fps": 37.0,
+				"ms": 31.776,
+				"primitives": 375954.0
+			},
+			{
+				"draw_calls": 7761.0,
+				"fps": 37.0,
+				"ms": 32.776,
+				"primitives": 375954.0
+			},
+			{
+				"draw_calls": 7761.0,
+				"fps": 37.0,
+				"ms": 34.872,
+				"primitives": 375954.0
+			},
+			{
+				"draw_calls": 7761.0,
+				"fps": 37.0,
+				"ms": 34.029,
+				"primitives": 375954.0
+			},
+			{
+				"draw_calls": 7761.0,
+				"fps": 37.0,
+				"ms": 34.66,
+				"primitives": 375954.0
+			},
+			{
+				"draw_calls": 7761.0,
+				"fps": 37.0,
+				"ms": 34.797,
+				"primitives": 375954.0
+			},
+			{
+				"draw_calls": 7761.0,
+				"fps": 37.0,
+				"ms": 35.326,
+				"primitives": 375954.0
+			},
+			{
+				"draw_calls": 7761.0,
+				"fps": 37.0,
+				"ms": 33.495,
+				"primitives": 375954.0
+			},
+			{
+				"draw_calls": 7761.0,
+				"fps": 37.0,
+				"ms": 35.151,
+				"primitives": 375954.0
+			},
+			{
+				"draw_calls": 7761.0,
+				"fps": 37.0,
+				"ms": 32.7,
+				"primitives": 375954.0
+			}
+		],
+		"target": "(-8.358498, 14.37839, -99.04637)"
+	},
+	{
+		"at": "(-0.358498, 14.37839, -99.04637)",
+		"file": "survey_Piso2_AuditorioPiso2e_(0.0, 0.0, -1.0).png",
+		"label": "Piso2_AuditorioPiso2e_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 8610.0,
+				"fps": 37.0,
+				"ms": 24.257,
+				"primitives": 451940.0
+			},
+			{
+				"draw_calls": 8610.0,
+				"fps": 26.0,
+				"ms": 31.758,
+				"primitives": 451940.0
+			},
+			{
+				"draw_calls": 8610.0,
+				"fps": 26.0,
+				"ms": 29.205,
+				"primitives": 451940.0
+			},
+			{
+				"draw_calls": 8610.0,
+				"fps": 26.0,
+				"ms": 29.655,
+				"primitives": 451940.0
+			},
+			{
+				"draw_calls": 8610.0,
+				"fps": 26.0,
+				"ms": 31.101,
+				"primitives": 451940.0
+			},
+			{
+				"draw_calls": 8610.0,
+				"fps": 26.0,
+				"ms": 28.181,
+				"primitives": 451940.0
+			},
+			{
+				"draw_calls": 8610.0,
+				"fps": 26.0,
+				"ms": 29.177,
+				"primitives": 451940.0
+			},
+			{
+				"draw_calls": 8610.0,
+				"fps": 26.0,
+				"ms": 29.315,
+				"primitives": 451940.0
+			},
+			{
+				"draw_calls": 8610.0,
+				"fps": 26.0,
+				"ms": 26.595,
+				"primitives": 451940.0
+			},
+			{
+				"draw_calls": 8610.0,
+				"fps": 26.0,
+				"ms": 30.142,
+				"primitives": 451940.0
+			},
+			{
+				"draw_calls": 8610.0,
+				"fps": 26.0,
+				"ms": 29.849,
+				"primitives": 451940.0
+			},
+			{
+				"draw_calls": 8610.0,
+				"fps": 26.0,
+				"ms": 27.061,
+				"primitives": 451940.0
+			}
+		],
+		"target": "(-0.358498, 14.37839, -107.0464)"
+	},
+	{
+		"at": "(-0.358498, 14.37839, -99.04637)",
+		"file": "survey_Piso2_AuditorioPiso2e_(0.0, 0.0, 1.0).png",
+		"label": "Piso2_AuditorioPiso2e_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 1968.0,
+				"fps": 26.0,
+				"ms": 9.513,
+				"primitives": 215544.0
+			},
+			{
+				"draw_calls": 1968.0,
+				"fps": 26.0,
+				"ms": 22.494,
+				"primitives": 215544.0
+			},
+			{
+				"draw_calls": 1968.0,
+				"fps": 26.0,
+				"ms": 11.841,
+				"primitives": 215544.0
+			},
+			{
+				"draw_calls": 1968.0,
+				"fps": 26.0,
+				"ms": 5.929,
+				"primitives": 215544.0
+			},
+			{
+				"draw_calls": 1968.0,
+				"fps": 26.0,
+				"ms": 13.045,
+				"primitives": 215544.0
+			},
+			{
+				"draw_calls": 1968.0,
+				"fps": 26.0,
+				"ms": 13.319,
+				"primitives": 215544.0
+			},
+			{
+				"draw_calls": 1968.0,
+				"fps": 26.0,
+				"ms": 13.366,
+				"primitives": 215544.0
+			},
+			{
+				"draw_calls": 1968.0,
+				"fps": 26.0,
+				"ms": 13.381,
+				"primitives": 215544.0
+			},
+			{
+				"draw_calls": 1968.0,
+				"fps": 26.0,
+				"ms": 13.319,
+				"primitives": 215544.0
+			},
+			{
+				"draw_calls": 1968.0,
+				"fps": 26.0,
+				"ms": 13.27,
+				"primitives": 215544.0
+			},
+			{
+				"draw_calls": 1968.0,
+				"fps": 26.0,
+				"ms": 13.348,
+				"primitives": 215544.0
+			},
+			{
+				"draw_calls": 1968.0,
+				"fps": 26.0,
+				"ms": 13.314,
+				"primitives": 215544.0
+			}
+		],
+		"target": "(-0.358498, 14.37839, -91.04637)"
+	},
+	{
+		"at": "(-14.0625, 14.29839, -147.8637)",
+		"file": "survey_Piso2_VestibuloAscensores_(1.0, 0.0, 0.0).png",
+		"label": "Piso2_VestibuloAscensores_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 9583.0,
+				"fps": 26.0,
+				"ms": 27.917,
+				"primitives": 505508.0
+			},
+			{
+				"draw_calls": 9583.0,
+				"fps": 26.0,
+				"ms": 30.442,
+				"primitives": 505508.0
+			},
+			{
+				"draw_calls": 9583.0,
+				"fps": 26.0,
+				"ms": 32.426,
+				"primitives": 505508.0
+			},
+			{
+				"draw_calls": 9583.0,
+				"fps": 26.0,
+				"ms": 30.376,
+				"primitives": 505508.0
+			},
+			{
+				"draw_calls": 9583.0,
+				"fps": 41.0,
+				"ms": 30.04,
+				"primitives": 505508.0
+			},
+			{
+				"draw_calls": 9583.0,
+				"fps": 41.0,
+				"ms": 31.513,
+				"primitives": 505508.0
+			},
+			{
+				"draw_calls": 9583.0,
+				"fps": 41.0,
+				"ms": 29.248,
+				"primitives": 505508.0
+			},
+			{
+				"draw_calls": 9583.0,
+				"fps": 41.0,
+				"ms": 28.61,
+				"primitives": 505508.0
+			},
+			{
+				"draw_calls": 9583.0,
+				"fps": 41.0,
+				"ms": 33.141,
+				"primitives": 505508.0
+			},
+			{
+				"draw_calls": 9583.0,
+				"fps": 41.0,
+				"ms": 32.875,
+				"primitives": 505508.0
+			},
+			{
+				"draw_calls": 9583.0,
+				"fps": 41.0,
+				"ms": 31.825,
+				"primitives": 505508.0
+			},
+			{
+				"draw_calls": 9583.0,
+				"fps": 41.0,
+				"ms": 31.807,
+				"primitives": 505508.0
+			}
+		],
+		"target": "(-6.0625, 14.29839, -147.8637)"
+	},
+	{
+		"at": "(-14.0625, 14.29839, -147.8637)",
+		"file": "survey_Piso2_VestibuloAscensores_(-1.0, 0.0, 0.0).png",
+		"label": "Piso2_VestibuloAscensores_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 8655.0,
+				"fps": 41.0,
+				"ms": 20.958,
+				"primitives": 402242.0
+			},
+			{
+				"draw_calls": 8655.0,
+				"fps": 41.0,
+				"ms": 23.241,
+				"primitives": 402242.0
+			},
+			{
+				"draw_calls": 8655.0,
+				"fps": 41.0,
+				"ms": 21.837,
+				"primitives": 402242.0
+			},
+			{
+				"draw_calls": 8655.0,
+				"fps": 41.0,
+				"ms": 23.528,
+				"primitives": 402242.0
+			},
+			{
+				"draw_calls": 8655.0,
+				"fps": 41.0,
+				"ms": 25.182,
+				"primitives": 402242.0
+			},
+			{
+				"draw_calls": 8655.0,
+				"fps": 41.0,
+				"ms": 24.782,
+				"primitives": 402242.0
+			},
+			{
+				"draw_calls": 8655.0,
+				"fps": 41.0,
+				"ms": 23.162,
+				"primitives": 402242.0
+			},
+			{
+				"draw_calls": 8655.0,
+				"fps": 41.0,
+				"ms": 22.595,
+				"primitives": 402242.0
+			},
+			{
+				"draw_calls": 8655.0,
+				"fps": 41.0,
+				"ms": 25.19,
+				"primitives": 402242.0
+			},
+			{
+				"draw_calls": 8655.0,
+				"fps": 41.0,
+				"ms": 38.631,
+				"primitives": 402242.0
+			},
+			{
+				"draw_calls": 8655.0,
+				"fps": 41.0,
+				"ms": 23.68,
+				"primitives": 402242.0
+			},
+			{
+				"draw_calls": 8655.0,
+				"fps": 41.0,
+				"ms": 28.798,
+				"primitives": 402242.0
+			}
+		],
+		"target": "(-22.0625, 14.29839, -147.8637)"
+	},
+	{
+		"at": "(-14.0625, 14.29839, -147.8637)",
+		"file": "survey_Piso2_VestibuloAscensores_(0.0, 0.0, -1.0).png",
+		"label": "Piso2_VestibuloAscensores_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 9498.0,
+				"fps": 41.0,
+				"ms": 16.215,
+				"primitives": 306546.0
+			},
+			{
+				"draw_calls": 9498.0,
+				"fps": 41.0,
+				"ms": 18.465,
+				"primitives": 306546.0
+			},
+			{
+				"draw_calls": 9498.0,
+				"fps": 41.0,
+				"ms": 17.154,
+				"primitives": 306546.0
+			},
+			{
+				"draw_calls": 9498.0,
+				"fps": 41.0,
+				"ms": 17.352,
+				"primitives": 306546.0
+			},
+			{
+				"draw_calls": 9498.0,
+				"fps": 31.0,
+				"ms": 20.624,
+				"primitives": 306546.0
+			},
+			{
+				"draw_calls": 9498.0,
+				"fps": 31.0,
+				"ms": 21.618,
+				"primitives": 306546.0
+			},
+			{
+				"draw_calls": 9498.0,
+				"fps": 31.0,
+				"ms": 29.049,
+				"primitives": 306546.0
+			},
+			{
+				"draw_calls": 9498.0,
+				"fps": 31.0,
+				"ms": 28.223,
+				"primitives": 306546.0
+			},
+			{
+				"draw_calls": 9498.0,
+				"fps": 31.0,
+				"ms": 24.224,
+				"primitives": 306546.0
+			},
+			{
+				"draw_calls": 9498.0,
+				"fps": 31.0,
+				"ms": 18.555,
+				"primitives": 306546.0
+			},
+			{
+				"draw_calls": 9498.0,
+				"fps": 31.0,
+				"ms": 19.808,
+				"primitives": 306546.0
+			},
+			{
+				"draw_calls": 9498.0,
+				"fps": 31.0,
+				"ms": 18.853,
+				"primitives": 306546.0
+			}
+		],
+		"target": "(-14.0625, 14.29839, -155.8637)"
+	},
+	{
+		"at": "(-14.0625, 14.29839, -147.8637)",
+		"file": "survey_Piso2_VestibuloAscensores_(0.0, 0.0, 1.0).png",
+		"label": "Piso2_VestibuloAscensores_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 11618.0,
+				"fps": 31.0,
+				"ms": 31.225,
+				"primitives": 517952.0
+			},
+			{
+				"draw_calls": 11618.0,
+				"fps": 31.0,
+				"ms": 38.218,
+				"primitives": 517952.0
+			},
+			{
+				"draw_calls": 11618.0,
+				"fps": 31.0,
+				"ms": 38.859,
+				"primitives": 517952.0
+			},
+			{
+				"draw_calls": 11618.0,
+				"fps": 31.0,
+				"ms": 38.361,
+				"primitives": 517952.0
+			},
+			{
+				"draw_calls": 11618.0,
+				"fps": 31.0,
+				"ms": 36.32,
+				"primitives": 517952.0
+			},
+			{
+				"draw_calls": 11618.0,
+				"fps": 31.0,
+				"ms": 37.765,
+				"primitives": 517952.0
+			},
+			{
+				"draw_calls": 11618.0,
+				"fps": 31.0,
+				"ms": 37.345,
+				"primitives": 517952.0
+			},
+			{
+				"draw_calls": 11618.0,
+				"fps": 31.0,
+				"ms": 35.918,
+				"primitives": 517952.0
+			},
+			{
+				"draw_calls": 11618.0,
+				"fps": 31.0,
+				"ms": 40.016,
+				"primitives": 517952.0
+			},
+			{
+				"draw_calls": 11618.0,
+				"fps": 31.0,
+				"ms": 34.844,
+				"primitives": 517952.0
+			},
+			{
+				"draw_calls": 11618.0,
+				"fps": 31.0,
+				"ms": 35.271,
+				"primitives": 517952.0
+			},
+			{
+				"draw_calls": 11618.0,
+				"fps": 31.0,
+				"ms": 38.028,
+				"primitives": 517952.0
+			}
+		],
+		"target": "(-14.0625, 14.29839, -139.8637)"
+	},
+	{
+		"at": "(20.11192, 14.37839, -105.3479)",
+		"file": "survey_Piso2_AcabadosPasillos_(1.0, 0.0, 0.0).png",
+		"label": "Piso2_AcabadosPasillos_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 6995.0,
+				"fps": 27.0,
+				"ms": 19.863,
+				"primitives": 409090.0
+			},
+			{
+				"draw_calls": 6995.0,
+				"fps": 27.0,
+				"ms": 20.699,
+				"primitives": 409090.0
+			},
+			{
+				"draw_calls": 6995.0,
+				"fps": 27.0,
+				"ms": 21.936,
+				"primitives": 409090.0
+			},
+			{
+				"draw_calls": 6995.0,
+				"fps": 27.0,
+				"ms": 25.645,
+				"primitives": 409090.0
+			},
+			{
+				"draw_calls": 6995.0,
+				"fps": 27.0,
+				"ms": 34.329,
+				"primitives": 409090.0
+			},
+			{
+				"draw_calls": 6995.0,
+				"fps": 27.0,
+				"ms": 35.893,
+				"primitives": 409090.0
+			},
+			{
+				"draw_calls": 6995.0,
+				"fps": 27.0,
+				"ms": 53.818,
+				"primitives": 409090.0
+			},
+			{
+				"draw_calls": 6995.0,
+				"fps": 27.0,
+				"ms": 51.871,
+				"primitives": 409090.0
+			},
+			{
+				"draw_calls": 6995.0,
+				"fps": 27.0,
+				"ms": 29.489,
+				"primitives": 409090.0
+			},
+			{
+				"draw_calls": 6995.0,
+				"fps": 27.0,
+				"ms": 30.253,
+				"primitives": 409090.0
+			},
+			{
+				"draw_calls": 6995.0,
+				"fps": 27.0,
+				"ms": 31.464,
+				"primitives": 409090.0
+			},
+			{
+				"draw_calls": 6995.0,
+				"fps": 27.0,
+				"ms": 36.957,
+				"primitives": 409090.0
+			}
+		],
+		"target": "(28.11192, 14.37839, -105.3479)"
+	},
+	{
+		"at": "(20.11192, 14.37839, -105.3479)",
+		"file": "survey_Piso2_AcabadosPasillos_(-1.0, 0.0, 0.0).png",
+		"label": "Piso2_AcabadosPasillos_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 10076.0,
+				"fps": 27.0,
+				"ms": 37.941,
+				"primitives": 450986.0
+			},
+			{
+				"draw_calls": 10076.0,
+				"fps": 27.0,
+				"ms": 47.18,
+				"primitives": 450986.0
+			},
+			{
+				"draw_calls": 10076.0,
+				"fps": 27.0,
+				"ms": 41.485,
+				"primitives": 450986.0
+			},
+			{
+				"draw_calls": 10076.0,
+				"fps": 27.0,
+				"ms": 48.407,
+				"primitives": 450986.0
+			},
+			{
+				"draw_calls": 10076.0,
+				"fps": 27.0,
+				"ms": 51.068,
+				"primitives": 450986.0
+			},
+			{
+				"draw_calls": 10076.0,
+				"fps": 27.0,
+				"ms": 53.107,
+				"primitives": 450986.0
+			},
+			{
+				"draw_calls": 10076.0,
+				"fps": 27.0,
+				"ms": 42.187,
+				"primitives": 450986.0
+			},
+			{
+				"draw_calls": 10076.0,
+				"fps": 27.0,
+				"ms": 41.166,
+				"primitives": 450986.0
+			},
+			{
+				"draw_calls": 10076.0,
+				"fps": 27.0,
+				"ms": 41.874,
+				"primitives": 450986.0
+			},
+			{
+				"draw_calls": 10076.0,
+				"fps": 25.0,
+				"ms": 42.306,
+				"primitives": 450986.0
+			},
+			{
+				"draw_calls": 10076.0,
+				"fps": 25.0,
+				"ms": 37.692,
+				"primitives": 450986.0
+			},
+			{
+				"draw_calls": 10076.0,
+				"fps": 25.0,
+				"ms": 37.361,
+				"primitives": 450986.0
+			}
+		],
+		"target": "(12.11192, 14.37839, -105.3479)"
+	},
+	{
+		"at": "(20.11192, 14.37839, -105.3479)",
+		"file": "survey_Piso2_AcabadosPasillos_(0.0, 0.0, -1.0).png",
+		"label": "Piso2_AcabadosPasillos_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 8632.0,
+				"fps": 25.0,
+				"ms": 23.177,
+				"primitives": 469620.0
+			},
+			{
+				"draw_calls": 8632.0,
+				"fps": 25.0,
+				"ms": 27.856,
+				"primitives": 469620.0
+			},
+			{
+				"draw_calls": 8632.0,
+				"fps": 25.0,
+				"ms": 27.528,
+				"primitives": 469620.0
+			},
+			{
+				"draw_calls": 8632.0,
+				"fps": 25.0,
+				"ms": 26.144,
+				"primitives": 469620.0
+			},
+			{
+				"draw_calls": 8632.0,
+				"fps": 25.0,
+				"ms": 29.294,
+				"primitives": 469620.0
+			},
+			{
+				"draw_calls": 8632.0,
+				"fps": 25.0,
+				"ms": 24.942,
+				"primitives": 469620.0
+			},
+			{
+				"draw_calls": 8632.0,
+				"fps": 25.0,
+				"ms": 27.872,
+				"primitives": 469620.0
+			},
+			{
+				"draw_calls": 8632.0,
+				"fps": 25.0,
+				"ms": 28.847,
+				"primitives": 469620.0
+			},
+			{
+				"draw_calls": 8632.0,
+				"fps": 25.0,
+				"ms": 24.925,
+				"primitives": 469620.0
+			},
+			{
+				"draw_calls": 8632.0,
+				"fps": 25.0,
+				"ms": 26.604,
+				"primitives": 469620.0
+			},
+			{
+				"draw_calls": 8632.0,
+				"fps": 25.0,
+				"ms": 26.682,
+				"primitives": 469620.0
+			},
+			{
+				"draw_calls": 8632.0,
+				"fps": 25.0,
+				"ms": 27.032,
+				"primitives": 469620.0
+			}
+		],
+		"target": "(20.11192, 14.37839, -113.3479)"
+	},
+	{
+		"at": "(20.11192, 14.37839, -105.3479)",
+		"file": "survey_Piso2_AcabadosPasillos_(0.0, 0.0, 1.0).png",
+		"label": "Piso2_AcabadosPasillos_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 2330.0,
+				"fps": 25.0,
+				"ms": 9.894,
+				"primitives": 259346.0
+			},
+			{
+				"draw_calls": 2330.0,
+				"fps": 25.0,
+				"ms": 13.329,
+				"primitives": 259346.0
+			},
+			{
+				"draw_calls": 2330.0,
+				"fps": 25.0,
+				"ms": 13.343,
+				"primitives": 259346.0
+			},
+			{
+				"draw_calls": 2330.0,
+				"fps": 25.0,
+				"ms": 13.329,
+				"primitives": 259346.0
+			},
+			{
+				"draw_calls": 2330.0,
+				"fps": 25.0,
+				"ms": 13.327,
+				"primitives": 259346.0
+			},
+			{
+				"draw_calls": 2330.0,
+				"fps": 25.0,
+				"ms": 13.331,
+				"primitives": 259346.0
+			},
+			{
+				"draw_calls": 2330.0,
+				"fps": 25.0,
+				"ms": 13.349,
+				"primitives": 259346.0
+			},
+			{
+				"draw_calls": 2330.0,
+				"fps": 25.0,
+				"ms": 13.316,
+				"primitives": 259346.0
+			},
+			{
+				"draw_calls": 2330.0,
+				"fps": 25.0,
+				"ms": 13.354,
+				"primitives": 259346.0
+			},
+			{
+				"draw_calls": 2330.0,
+				"fps": 38.0,
+				"ms": 13.309,
+				"primitives": 259346.0
+			},
+			{
+				"draw_calls": 2330.0,
+				"fps": 38.0,
+				"ms": 13.326,
+				"primitives": 259346.0
+			},
+			{
+				"draw_calls": 2330.0,
+				"fps": 38.0,
+				"ms": 13.386,
+				"primitives": 259346.0
+			}
+		],
+		"target": "(20.11192, 14.37839, -97.34787)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -120.7294)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio1_(1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio1_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 14119.0,
+				"fps": 38.0,
+				"ms": 36.671,
+				"primitives": 634754.0
+			},
+			{
+				"draw_calls": 14119.0,
+				"fps": 38.0,
+				"ms": 44.439,
+				"primitives": 634754.0
+			},
+			{
+				"draw_calls": 14119.0,
+				"fps": 38.0,
+				"ms": 42.414,
+				"primitives": 634754.0
+			},
+			{
+				"draw_calls": 14119.0,
+				"fps": 38.0,
+				"ms": 43.414,
+				"primitives": 634754.0
+			},
+			{
+				"draw_calls": 14119.0,
+				"fps": 38.0,
+				"ms": 42.141,
+				"primitives": 634754.0
+			},
+			{
+				"draw_calls": 14119.0,
+				"fps": 38.0,
+				"ms": 43.049,
+				"primitives": 634754.0
+			},
+			{
+				"draw_calls": 14119.0,
+				"fps": 38.0,
+				"ms": 41.892,
+				"primitives": 634754.0
+			},
+			{
+				"draw_calls": 14119.0,
+				"fps": 38.0,
+				"ms": 45.593,
+				"primitives": 634754.0
+			},
+			{
+				"draw_calls": 14119.0,
+				"fps": 38.0,
+				"ms": 42.423,
+				"primitives": 634754.0
+			},
+			{
+				"draw_calls": 14119.0,
+				"fps": 38.0,
+				"ms": 42.984,
+				"primitives": 634754.0
+			},
+			{
+				"draw_calls": 14119.0,
+				"fps": 38.0,
+				"ms": 44.216,
+				"primitives": 634754.0
+			},
+			{
+				"draw_calls": 14119.0,
+				"fps": 38.0,
+				"ms": 40.517,
+				"primitives": 634754.0
+			}
+		],
+		"target": "(-38.0005, 14.29839, -120.7294)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -120.7294)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio1_(-1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio1_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 3729.0,
+				"fps": 38.0,
+				"ms": 7.239,
+				"primitives": 125380.0
+			},
+			{
+				"draw_calls": 3729.0,
+				"fps": 38.0,
+				"ms": 12.907,
+				"primitives": 125380.0
+			},
+			{
+				"draw_calls": 3729.0,
+				"fps": 38.0,
+				"ms": 13.331,
+				"primitives": 125380.0
+			},
+			{
+				"draw_calls": 3729.0,
+				"fps": 38.0,
+				"ms": 13.335,
+				"primitives": 125380.0
+			},
+			{
+				"draw_calls": 3729.0,
+				"fps": 38.0,
+				"ms": 13.341,
+				"primitives": 125380.0
+			},
+			{
+				"draw_calls": 3729.0,
+				"fps": 38.0,
+				"ms": 13.367,
+				"primitives": 125380.0
+			},
+			{
+				"draw_calls": 3729.0,
+				"fps": 38.0,
+				"ms": 13.469,
+				"primitives": 125380.0
+			},
+			{
+				"draw_calls": 3729.0,
+				"fps": 32.0,
+				"ms": 13.147,
+				"primitives": 125380.0
+			},
+			{
+				"draw_calls": 3729.0,
+				"fps": 32.0,
+				"ms": 13.334,
+				"primitives": 125380.0
+			},
+			{
+				"draw_calls": 3729.0,
+				"fps": 32.0,
+				"ms": 13.35,
+				"primitives": 125380.0
+			},
+			{
+				"draw_calls": 3729.0,
+				"fps": 32.0,
+				"ms": 13.341,
+				"primitives": 125380.0
+			},
+			{
+				"draw_calls": 3729.0,
+				"fps": 32.0,
+				"ms": 13.333,
+				"primitives": 125380.0
+			}
+		],
+		"target": "(-54.0005, 14.29839, -120.7294)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -120.7294)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio1_(0.0, 0.0, -1.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio1_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 6819.0,
+				"fps": 32.0,
+				"ms": 14.123,
+				"primitives": 336386.0
+			},
+			{
+				"draw_calls": 6819.0,
+				"fps": 32.0,
+				"ms": 16.487,
+				"primitives": 336386.0
+			},
+			{
+				"draw_calls": 6819.0,
+				"fps": 32.0,
+				"ms": 16.945,
+				"primitives": 336386.0
+			},
+			{
+				"draw_calls": 6819.0,
+				"fps": 32.0,
+				"ms": 17.947,
+				"primitives": 336386.0
+			},
+			{
+				"draw_calls": 6819.0,
+				"fps": 32.0,
+				"ms": 15.404,
+				"primitives": 336386.0
+			},
+			{
+				"draw_calls": 6819.0,
+				"fps": 32.0,
+				"ms": 18.317,
+				"primitives": 336386.0
+			},
+			{
+				"draw_calls": 6819.0,
+				"fps": 32.0,
+				"ms": 16.528,
+				"primitives": 336386.0
+			},
+			{
+				"draw_calls": 6819.0,
+				"fps": 32.0,
+				"ms": 16.939,
+				"primitives": 336386.0
+			},
+			{
+				"draw_calls": 6819.0,
+				"fps": 32.0,
+				"ms": 15.628,
+				"primitives": 336386.0
+			},
+			{
+				"draw_calls": 6819.0,
+				"fps": 32.0,
+				"ms": 17.05,
+				"primitives": 336386.0
+			},
+			{
+				"draw_calls": 6819.0,
+				"fps": 32.0,
+				"ms": 18.062,
+				"primitives": 336386.0
+			},
+			{
+				"draw_calls": 6819.0,
+				"fps": 32.0,
+				"ms": 18.104,
+				"primitives": 336386.0
+			}
+		],
+		"target": "(-46.0005, 14.29839, -128.7294)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -120.7294)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio1_(0.0, 0.0, 1.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio1_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 8752.0,
+				"fps": 32.0,
+				"ms": 18.931,
+				"primitives": 377030.0
+			},
+			{
+				"draw_calls": 8752.0,
+				"fps": 32.0,
+				"ms": 23.187,
+				"primitives": 377030.0
+			},
+			{
+				"draw_calls": 8752.0,
+				"fps": 32.0,
+				"ms": 23.467,
+				"primitives": 377030.0
+			},
+			{
+				"draw_calls": 8752.0,
+				"fps": 32.0,
+				"ms": 26.552,
+				"primitives": 377030.0
+			},
+			{
+				"draw_calls": 8752.0,
+				"fps": 32.0,
+				"ms": 22.472,
+				"primitives": 377030.0
+			},
+			{
+				"draw_calls": 8752.0,
+				"fps": 32.0,
+				"ms": 22.989,
+				"primitives": 377030.0
+			},
+			{
+				"draw_calls": 8752.0,
+				"fps": 32.0,
+				"ms": 22.134,
+				"primitives": 377030.0
+			},
+			{
+				"draw_calls": 8752.0,
+				"fps": 32.0,
+				"ms": 25.954,
+				"primitives": 377030.0
+			},
+			{
+				"draw_calls": 8752.0,
+				"fps": 32.0,
+				"ms": 24.129,
+				"primitives": 377030.0
+			},
+			{
+				"draw_calls": 8752.0,
+				"fps": 32.0,
+				"ms": 21.729,
+				"primitives": 377030.0
+			},
+			{
+				"draw_calls": 8752.0,
+				"fps": 32.0,
+				"ms": 22.323,
+				"primitives": 377030.0
+			},
+			{
+				"draw_calls": 8752.0,
+				"fps": 32.0,
+				"ms": 25.924,
+				"primitives": 377030.0
+			}
+		],
+		"target": "(-46.0005, 14.29839, -112.7294)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -113.0494)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio2_(1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio2_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 13522.0,
+				"fps": 41.0,
+				"ms": 36.595,
+				"primitives": 611910.0
+			},
+			{
+				"draw_calls": 13522.0,
+				"fps": 41.0,
+				"ms": 42.76,
+				"primitives": 611910.0
+			},
+			{
+				"draw_calls": 13522.0,
+				"fps": 41.0,
+				"ms": 41.548,
+				"primitives": 611910.0
+			},
+			{
+				"draw_calls": 13522.0,
+				"fps": 41.0,
+				"ms": 45.409,
+				"primitives": 611910.0
+			},
+			{
+				"draw_calls": 13522.0,
+				"fps": 41.0,
+				"ms": 46.912,
+				"primitives": 611910.0
+			},
+			{
+				"draw_calls": 13522.0,
+				"fps": 41.0,
+				"ms": 39.603,
+				"primitives": 611910.0
+			},
+			{
+				"draw_calls": 13522.0,
+				"fps": 41.0,
+				"ms": 42.295,
+				"primitives": 611910.0
+			},
+			{
+				"draw_calls": 13522.0,
+				"fps": 41.0,
+				"ms": 39.345,
+				"primitives": 611910.0
+			},
+			{
+				"draw_calls": 13522.0,
+				"fps": 41.0,
+				"ms": 43.238,
+				"primitives": 611910.0
+			},
+			{
+				"draw_calls": 13522.0,
+				"fps": 41.0,
+				"ms": 39.831,
+				"primitives": 611910.0
+			},
+			{
+				"draw_calls": 13522.0,
+				"fps": 41.0,
+				"ms": 41.179,
+				"primitives": 611910.0
+			},
+			{
+				"draw_calls": 13522.0,
+				"fps": 41.0,
+				"ms": 39.55,
+				"primitives": 611910.0
+			}
+		],
+		"target": "(-38.0005, 14.29839, -113.0494)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -113.0494)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio2_(-1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio2_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 4468.0,
+				"fps": 41.0,
+				"ms": 12.193,
+				"primitives": 145948.0
+			},
+			{
+				"draw_calls": 4468.0,
+				"fps": 41.0,
+				"ms": 12.962,
+				"primitives": 145948.0
+			},
+			{
+				"draw_calls": 4468.0,
+				"fps": 41.0,
+				"ms": 11.154,
+				"primitives": 145948.0
+			},
+			{
+				"draw_calls": 4468.0,
+				"fps": 41.0,
+				"ms": 12.496,
+				"primitives": 145948.0
+			},
+			{
+				"draw_calls": 4468.0,
+				"fps": 41.0,
+				"ms": 13.981,
+				"primitives": 145948.0
+			},
+			{
+				"draw_calls": 4468.0,
+				"fps": 41.0,
+				"ms": 12.766,
+				"primitives": 145948.0
+			},
+			{
+				"draw_calls": 4468.0,
+				"fps": 41.0,
+				"ms": 10.21,
+				"primitives": 145948.0
+			},
+			{
+				"draw_calls": 4468.0,
+				"fps": 41.0,
+				"ms": 14.327,
+				"primitives": 145948.0
+			},
+			{
+				"draw_calls": 4468.0,
+				"fps": 41.0,
+				"ms": 11.215,
+				"primitives": 145948.0
+			},
+			{
+				"draw_calls": 4468.0,
+				"fps": 41.0,
+				"ms": 10.393,
+				"primitives": 145948.0
+			},
+			{
+				"draw_calls": 4468.0,
+				"fps": 41.0,
+				"ms": 13.323,
+				"primitives": 145948.0
+			},
+			{
+				"draw_calls": 4468.0,
+				"fps": 41.0,
+				"ms": 13.367,
+				"primitives": 145948.0
+			}
+		],
+		"target": "(-54.0005, 14.29839, -113.0494)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -113.0494)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio2_(0.0, 0.0, -1.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio2_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 6378.0,
+				"fps": 32.0,
+				"ms": 15.176,
+				"primitives": 366874.0
+			},
+			{
+				"draw_calls": 6375.0,
+				"fps": 32.0,
+				"ms": 19.308,
+				"primitives": 366838.0
+			},
+			{
+				"draw_calls": 6378.0,
+				"fps": 32.0,
+				"ms": 17.891,
+				"primitives": 366874.0
+			},
+			{
+				"draw_calls": 6378.0,
+				"fps": 32.0,
+				"ms": 18.049,
+				"primitives": 366874.0
+			},
+			{
+				"draw_calls": 6378.0,
+				"fps": 32.0,
+				"ms": 21.954,
+				"primitives": 366874.0
+			},
+			{
+				"draw_calls": 6378.0,
+				"fps": 32.0,
+				"ms": 18.708,
+				"primitives": 366874.0
+			},
+			{
+				"draw_calls": 6378.0,
+				"fps": 32.0,
+				"ms": 18.548,
+				"primitives": 366874.0
+			},
+			{
+				"draw_calls": 6378.0,
+				"fps": 32.0,
+				"ms": 18.577,
+				"primitives": 366874.0
+			},
+			{
+				"draw_calls": 6375.0,
+				"fps": 32.0,
+				"ms": 19.575,
+				"primitives": 366838.0
+			},
+			{
+				"draw_calls": 6375.0,
+				"fps": 32.0,
+				"ms": 19.547,
+				"primitives": 366838.0
+			},
+			{
+				"draw_calls": 6378.0,
+				"fps": 32.0,
+				"ms": 18.555,
+				"primitives": 366874.0
+			},
+			{
+				"draw_calls": 6378.0,
+				"fps": 32.0,
+				"ms": 18.991,
+				"primitives": 366874.0
+			}
+		],
+		"target": "(-46.0005, 14.29839, -121.0494)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -113.0494)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio2_(0.0, 0.0, 1.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio2_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 6586.0,
+				"fps": 32.0,
+				"ms": 14.578,
+				"primitives": 326088.0
+			},
+			{
+				"draw_calls": 6586.0,
+				"fps": 32.0,
+				"ms": 19.037,
+				"primitives": 326088.0
+			},
+			{
+				"draw_calls": 6586.0,
+				"fps": 32.0,
+				"ms": 16.763,
+				"primitives": 326088.0
+			},
+			{
+				"draw_calls": 6586.0,
+				"fps": 32.0,
+				"ms": 16.446,
+				"primitives": 326088.0
+			},
+			{
+				"draw_calls": 6586.0,
+				"fps": 32.0,
+				"ms": 18.312,
+				"primitives": 326088.0
+			},
+			{
+				"draw_calls": 6586.0,
+				"fps": 32.0,
+				"ms": 17.292,
+				"primitives": 326088.0
+			},
+			{
+				"draw_calls": 6586.0,
+				"fps": 32.0,
+				"ms": 19.983,
+				"primitives": 326088.0
+			},
+			{
+				"draw_calls": 6586.0,
+				"fps": 32.0,
+				"ms": 17.54,
+				"primitives": 326088.0
+			},
+			{
+				"draw_calls": 6586.0,
+				"fps": 32.0,
+				"ms": 17.002,
+				"primitives": 326088.0
+			},
+			{
+				"draw_calls": 6586.0,
+				"fps": 32.0,
+				"ms": 17.774,
+				"primitives": 326088.0
+			},
+			{
+				"draw_calls": 6586.0,
+				"fps": 32.0,
+				"ms": 16.133,
+				"primitives": 326088.0
+			},
+			{
+				"draw_calls": 6586.0,
+				"fps": 32.0,
+				"ms": 18.342,
+				"primitives": 326088.0
+			}
+		],
+		"target": "(-46.0005, 14.29839, -105.0494)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -105.3694)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio3_(1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio3_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 13203.0,
+				"fps": 32.0,
+				"ms": 38.174,
+				"primitives": 600298.0
+			},
+			{
+				"draw_calls": 13203.0,
+				"fps": 40.0,
+				"ms": 41.089,
+				"primitives": 600298.0
+			},
+			{
+				"draw_calls": 13203.0,
+				"fps": 40.0,
+				"ms": 39.149,
+				"primitives": 600298.0
+			},
+			{
+				"draw_calls": 13203.0,
+				"fps": 40.0,
+				"ms": 40.267,
+				"primitives": 600298.0
+			},
+			{
+				"draw_calls": 13203.0,
+				"fps": 40.0,
+				"ms": 39.875,
+				"primitives": 600298.0
+			},
+			{
+				"draw_calls": 13203.0,
+				"fps": 40.0,
+				"ms": 46.407,
+				"primitives": 600298.0
+			},
+			{
+				"draw_calls": 13203.0,
+				"fps": 40.0,
+				"ms": 40.947,
+				"primitives": 600298.0
+			},
+			{
+				"draw_calls": 13203.0,
+				"fps": 40.0,
+				"ms": 44.562,
+				"primitives": 600298.0
+			},
+			{
+				"draw_calls": 13203.0,
+				"fps": 40.0,
+				"ms": 39.364,
+				"primitives": 600298.0
+			},
+			{
+				"draw_calls": 13203.0,
+				"fps": 40.0,
+				"ms": 41.492,
+				"primitives": 600298.0
+			},
+			{
+				"draw_calls": 13203.0,
+				"fps": 40.0,
+				"ms": 40.224,
+				"primitives": 600298.0
+			},
+			{
+				"draw_calls": 13203.0,
+				"fps": 40.0,
+				"ms": 40.17,
+				"primitives": 600298.0
+			}
+		],
+		"target": "(-38.0005, 14.29839, -105.3694)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -105.3694)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio3_(-1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio3_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 4898.0,
+				"fps": 40.0,
+				"ms": 9.566,
+				"primitives": 165688.0
+			},
+			{
+				"draw_calls": 4898.0,
+				"fps": 40.0,
+				"ms": 15.068,
+				"primitives": 165688.0
+			},
+			{
+				"draw_calls": 4898.0,
+				"fps": 40.0,
+				"ms": 9.822,
+				"primitives": 165688.0
+			},
+			{
+				"draw_calls": 4898.0,
+				"fps": 40.0,
+				"ms": 11.269,
+				"primitives": 165688.0
+			},
+			{
+				"draw_calls": 4898.0,
+				"fps": 40.0,
+				"ms": 13.401,
+				"primitives": 165688.0
+			},
+			{
+				"draw_calls": 4898.0,
+				"fps": 40.0,
+				"ms": 13.143,
+				"primitives": 165688.0
+			},
+			{
+				"draw_calls": 4898.0,
+				"fps": 40.0,
+				"ms": 13.333,
+				"primitives": 165688.0
+			},
+			{
+				"draw_calls": 4898.0,
+				"fps": 40.0,
+				"ms": 13.319,
+				"primitives": 165688.0
+			},
+			{
+				"draw_calls": 4898.0,
+				"fps": 40.0,
+				"ms": 16.004,
+				"primitives": 165688.0
+			},
+			{
+				"draw_calls": 4898.0,
+				"fps": 40.0,
+				"ms": 10.873,
+				"primitives": 165688.0
+			},
+			{
+				"draw_calls": 4898.0,
+				"fps": 40.0,
+				"ms": 13.194,
+				"primitives": 165688.0
+			},
+			{
+				"draw_calls": 4898.0,
+				"fps": 40.0,
+				"ms": 13.317,
+				"primitives": 165688.0
+			}
+		],
+		"target": "(-54.0005, 14.29839, -105.3694)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -105.3694)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio3_(0.0, 0.0, -1.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio3_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 6529.0,
+				"fps": 40.0,
+				"ms": 16.429,
+				"primitives": 325172.0
+			},
+			{
+				"draw_calls": 6529.0,
+				"fps": 33.0,
+				"ms": 19.205,
+				"primitives": 325172.0
+			},
+			{
+				"draw_calls": 6529.0,
+				"fps": 33.0,
+				"ms": 21.163,
+				"primitives": 325172.0
+			},
+			{
+				"draw_calls": 6529.0,
+				"fps": 33.0,
+				"ms": 20.317,
+				"primitives": 325172.0
+			},
+			{
+				"draw_calls": 6529.0,
+				"fps": 33.0,
+				"ms": 21.81,
+				"primitives": 325172.0
+			},
+			{
+				"draw_calls": 6529.0,
+				"fps": 33.0,
+				"ms": 19.04,
+				"primitives": 325172.0
+			},
+			{
+				"draw_calls": 6529.0,
+				"fps": 33.0,
+				"ms": 19.129,
+				"primitives": 325172.0
+			},
+			{
+				"draw_calls": 6529.0,
+				"fps": 33.0,
+				"ms": 20.294,
+				"primitives": 325172.0
+			},
+			{
+				"draw_calls": 6529.0,
+				"fps": 33.0,
+				"ms": 21.387,
+				"primitives": 325172.0
+			},
+			{
+				"draw_calls": 6529.0,
+				"fps": 33.0,
+				"ms": 19.958,
+				"primitives": 325172.0
+			},
+			{
+				"draw_calls": 6529.0,
+				"fps": 33.0,
+				"ms": 19.103,
+				"primitives": 325172.0
+			},
+			{
+				"draw_calls": 6529.0,
+				"fps": 33.0,
+				"ms": 19.927,
+				"primitives": 325172.0
+			}
+		],
+		"target": "(-46.0005, 14.29839, -113.3694)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -105.3694)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio3_(0.0, 0.0, 1.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio3_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 4042.0,
+				"fps": 33.0,
+				"ms": 9.743,
+				"primitives": 286856.0
+			},
+			{
+				"draw_calls": 4042.0,
+				"fps": 33.0,
+				"ms": 13.344,
+				"primitives": 286856.0
+			},
+			{
+				"draw_calls": 4042.0,
+				"fps": 33.0,
+				"ms": 13.343,
+				"primitives": 286856.0
+			},
+			{
+				"draw_calls": 4042.0,
+				"fps": 33.0,
+				"ms": 13.318,
+				"primitives": 286856.0
+			},
+			{
+				"draw_calls": 4042.0,
+				"fps": 33.0,
+				"ms": 13.329,
+				"primitives": 286856.0
+			},
+			{
+				"draw_calls": 4042.0,
+				"fps": 33.0,
+				"ms": 13.352,
+				"primitives": 286856.0
+			},
+			{
+				"draw_calls": 4042.0,
+				"fps": 33.0,
+				"ms": 13.331,
+				"primitives": 286856.0
+			},
+			{
+				"draw_calls": 4042.0,
+				"fps": 33.0,
+				"ms": 13.32,
+				"primitives": 286856.0
+			},
+			{
+				"draw_calls": 4042.0,
+				"fps": 33.0,
+				"ms": 13.343,
+				"primitives": 286856.0
+			},
+			{
+				"draw_calls": 4042.0,
+				"fps": 33.0,
+				"ms": 13.302,
+				"primitives": 286856.0
+			},
+			{
+				"draw_calls": 4042.0,
+				"fps": 33.0,
+				"ms": 13.366,
+				"primitives": 286856.0
+			},
+			{
+				"draw_calls": 4042.0,
+				"fps": 33.0,
+				"ms": 13.3,
+				"primitives": 286856.0
+			}
+		],
+		"target": "(-46.0005, 14.29839, -97.36937)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -97.68938)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio4_(1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio4_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 12815.0,
+				"fps": 33.0,
+				"ms": 35.143,
+				"primitives": 599852.0
+			},
+			{
+				"draw_calls": 12815.0,
+				"fps": 33.0,
+				"ms": 37.964,
+				"primitives": 599852.0
+			},
+			{
+				"draw_calls": 12815.0,
+				"fps": 33.0,
+				"ms": 39.333,
+				"primitives": 599852.0
+			},
+			{
+				"draw_calls": 12815.0,
+				"fps": 33.0,
+				"ms": 37.295,
+				"primitives": 599852.0
+			},
+			{
+				"draw_calls": 12815.0,
+				"fps": 33.0,
+				"ms": 37.457,
+				"primitives": 599852.0
+			},
+			{
+				"draw_calls": 12815.0,
+				"fps": 33.0,
+				"ms": 39.014,
+				"primitives": 599852.0
+			},
+			{
+				"draw_calls": 12815.0,
+				"fps": 33.0,
+				"ms": 37.081,
+				"primitives": 599852.0
+			},
+			{
+				"draw_calls": 12815.0,
+				"fps": 44.0,
+				"ms": 53.432,
+				"primitives": 599852.0
+			},
+			{
+				"draw_calls": 12815.0,
+				"fps": 44.0,
+				"ms": 42.166,
+				"primitives": 599852.0
+			},
+			{
+				"draw_calls": 12815.0,
+				"fps": 44.0,
+				"ms": 38.811,
+				"primitives": 599852.0
+			},
+			{
+				"draw_calls": 12815.0,
+				"fps": 44.0,
+				"ms": 39.663,
+				"primitives": 599852.0
+			},
+			{
+				"draw_calls": 12815.0,
+				"fps": 44.0,
+				"ms": 39.149,
+				"primitives": 599852.0
+			}
+		],
+		"target": "(-38.0005, 14.29839, -97.68938)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -97.68938)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio4_(-1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio4_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 4773.0,
+				"fps": 44.0,
+				"ms": 9.933,
+				"primitives": 156996.0
+			},
+			{
+				"draw_calls": 4773.0,
+				"fps": 44.0,
+				"ms": 16.145,
+				"primitives": 156996.0
+			},
+			{
+				"draw_calls": 4773.0,
+				"fps": 44.0,
+				"ms": 12.478,
+				"primitives": 156996.0
+			},
+			{
+				"draw_calls": 4773.0,
+				"fps": 44.0,
+				"ms": 12.16,
+				"primitives": 156996.0
+			},
+			{
+				"draw_calls": 4773.0,
+				"fps": 44.0,
+				"ms": 10.816,
+				"primitives": 156996.0
+			},
+			{
+				"draw_calls": 4773.0,
+				"fps": 44.0,
+				"ms": 11.532,
+				"primitives": 156996.0
+			},
+			{
+				"draw_calls": 4773.0,
+				"fps": 44.0,
+				"ms": 11.669,
+				"primitives": 156996.0
+			},
+			{
+				"draw_calls": 4773.0,
+				"fps": 44.0,
+				"ms": 13.386,
+				"primitives": 156996.0
+			},
+			{
+				"draw_calls": 4773.0,
+				"fps": 44.0,
+				"ms": 13.271,
+				"primitives": 156996.0
+			},
+			{
+				"draw_calls": 4773.0,
+				"fps": 44.0,
+				"ms": 13.338,
+				"primitives": 156996.0
+			},
+			{
+				"draw_calls": 4773.0,
+				"fps": 44.0,
+				"ms": 13.364,
+				"primitives": 156996.0
+			},
+			{
+				"draw_calls": 4773.0,
+				"fps": 44.0,
+				"ms": 13.335,
+				"primitives": 156996.0
+			}
+		],
+		"target": "(-54.0005, 14.29839, -97.68938)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -97.68938)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio4_(0.0, 0.0, -1.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio4_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 8141.0,
+				"fps": 44.0,
+				"ms": 20.205,
+				"primitives": 330356.0
+			},
+			{
+				"draw_calls": 8141.0,
+				"fps": 44.0,
+				"ms": 24.521,
+				"primitives": 330356.0
+			},
+			{
+				"draw_calls": 8141.0,
+				"fps": 44.0,
+				"ms": 24.631,
+				"primitives": 330356.0
+			},
+			{
+				"draw_calls": 8141.0,
+				"fps": 44.0,
+				"ms": 24.381,
+				"primitives": 330356.0
+			},
+			{
+				"draw_calls": 8141.0,
+				"fps": 44.0,
+				"ms": 22.947,
+				"primitives": 330356.0
+			},
+			{
+				"draw_calls": 8141.0,
+				"fps": 44.0,
+				"ms": 23.697,
+				"primitives": 330356.0
+			},
+			{
+				"draw_calls": 8141.0,
+				"fps": 44.0,
+				"ms": 25.311,
+				"primitives": 330356.0
+			},
+			{
+				"draw_calls": 8141.0,
+				"fps": 44.0,
+				"ms": 25.999,
+				"primitives": 330356.0
+			},
+			{
+				"draw_calls": 8141.0,
+				"fps": 44.0,
+				"ms": 22.883,
+				"primitives": 330356.0
+			},
+			{
+				"draw_calls": 8141.0,
+				"fps": 44.0,
+				"ms": 24.692,
+				"primitives": 330356.0
+			},
+			{
+				"draw_calls": 8141.0,
+				"fps": 44.0,
+				"ms": 24.632,
+				"primitives": 330356.0
+			},
+			{
+				"draw_calls": 8141.0,
+				"fps": 36.0,
+				"ms": 26.332,
+				"primitives": 330356.0
+			}
+		],
+		"target": "(-46.0005, 14.29839, -105.6894)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -97.68938)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio4_(0.0, 0.0, 1.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio4_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 2378.0,
+				"fps": 36.0,
+				"ms": 10.358,
+				"primitives": 232564.0
+			},
+			{
+				"draw_calls": 2378.0,
+				"fps": 36.0,
+				"ms": 13.333,
+				"primitives": 232564.0
+			},
+			{
+				"draw_calls": 2378.0,
+				"fps": 36.0,
+				"ms": 13.347,
+				"primitives": 232564.0
+			},
+			{
+				"draw_calls": 2378.0,
+				"fps": 36.0,
+				"ms": 13.299,
+				"primitives": 232564.0
+			},
+			{
+				"draw_calls": 2378.0,
+				"fps": 36.0,
+				"ms": 13.635,
+				"primitives": 232564.0
+			},
+			{
+				"draw_calls": 2378.0,
+				"fps": 36.0,
+				"ms": 13.046,
+				"primitives": 232564.0
+			},
+			{
+				"draw_calls": 2378.0,
+				"fps": 36.0,
+				"ms": 13.341,
+				"primitives": 232564.0
+			},
+			{
+				"draw_calls": 2378.0,
+				"fps": 36.0,
+				"ms": 13.333,
+				"primitives": 232564.0
+			},
+			{
+				"draw_calls": 2378.0,
+				"fps": 36.0,
+				"ms": 13.314,
+				"primitives": 232564.0
+			},
+			{
+				"draw_calls": 2378.0,
+				"fps": 36.0,
+				"ms": 13.347,
+				"primitives": 232564.0
+			},
+			{
+				"draw_calls": 2378.0,
+				"fps": 36.0,
+				"ms": 13.336,
+				"primitives": 232564.0
+			},
+			{
+				"draw_calls": 2378.0,
+				"fps": 36.0,
+				"ms": 13.333,
+				"primitives": 232564.0
+			}
+		],
+		"target": "(-46.0005, 14.29839, -89.68938)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -90.00938)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio5_(1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio5_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 12588.0,
+				"fps": 36.0,
+				"ms": 33.212,
+				"primitives": 600800.0
+			},
+			{
+				"draw_calls": 12588.0,
+				"fps": 36.0,
+				"ms": 37.005,
+				"primitives": 600800.0
+			},
+			{
+				"draw_calls": 12588.0,
+				"fps": 36.0,
+				"ms": 39.391,
+				"primitives": 600800.0
+			},
+			{
+				"draw_calls": 12588.0,
+				"fps": 36.0,
+				"ms": 36.931,
+				"primitives": 600800.0
+			},
+			{
+				"draw_calls": 12588.0,
+				"fps": 36.0,
+				"ms": 37.072,
+				"primitives": 600800.0
+			},
+			{
+				"draw_calls": 12588.0,
+				"fps": 36.0,
+				"ms": 38.669,
+				"primitives": 600800.0
+			},
+			{
+				"draw_calls": 12588.0,
+				"fps": 36.0,
+				"ms": 36.966,
+				"primitives": 600800.0
+			},
+			{
+				"draw_calls": 12588.0,
+				"fps": 36.0,
+				"ms": 36.842,
+				"primitives": 600800.0
+			},
+			{
+				"draw_calls": 12588.0,
+				"fps": 36.0,
+				"ms": 39.519,
+				"primitives": 600800.0
+			},
+			{
+				"draw_calls": 12588.0,
+				"fps": 36.0,
+				"ms": 37.183,
+				"primitives": 600800.0
+			},
+			{
+				"draw_calls": 12588.0,
+				"fps": 36.0,
+				"ms": 37.457,
+				"primitives": 600800.0
+			},
+			{
+				"draw_calls": 12588.0,
+				"fps": 39.0,
+				"ms": 39.294,
+				"primitives": 600800.0
+			}
+		],
+		"target": "(-38.0005, 14.29839, -90.00938)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -90.00938)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio5_(-1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio5_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 4590.0,
+				"fps": 39.0,
+				"ms": 8.739,
+				"primitives": 152168.0
+			},
+			{
+				"draw_calls": 4590.0,
+				"fps": 39.0,
+				"ms": 13.16,
+				"primitives": 152168.0
+			},
+			{
+				"draw_calls": 4590.0,
+				"fps": 39.0,
+				"ms": 13.297,
+				"primitives": 152168.0
+			},
+			{
+				"draw_calls": 4590.0,
+				"fps": 39.0,
+				"ms": 13.337,
+				"primitives": 152168.0
+			},
+			{
+				"draw_calls": 4590.0,
+				"fps": 39.0,
+				"ms": 26.713,
+				"primitives": 152168.0
+			},
+			{
+				"draw_calls": 4590.0,
+				"fps": 39.0,
+				"ms": 11.623,
+				"primitives": 152168.0
+			},
+			{
+				"draw_calls": 4590.0,
+				"fps": 39.0,
+				"ms": 13.227,
+				"primitives": 152168.0
+			},
+			{
+				"draw_calls": 4590.0,
+				"fps": 39.0,
+				"ms": 11.11,
+				"primitives": 152168.0
+			},
+			{
+				"draw_calls": 4590.0,
+				"fps": 39.0,
+				"ms": 13.882,
+				"primitives": 152168.0
+			},
+			{
+				"draw_calls": 4590.0,
+				"fps": 39.0,
+				"ms": 11.456,
+				"primitives": 152168.0
+			},
+			{
+				"draw_calls": 4590.0,
+				"fps": 39.0,
+				"ms": 9.481,
+				"primitives": 152168.0
+			},
+			{
+				"draw_calls": 4590.0,
+				"fps": 39.0,
+				"ms": 12.16,
+				"primitives": 152168.0
+			}
+		],
+		"target": "(-54.0005, 14.29839, -90.00938)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -90.00938)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio5_(0.0, 0.0, -1.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio5_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 10047.0,
+				"fps": 39.0,
+				"ms": 26.433,
+				"primitives": 395630.0
+			},
+			{
+				"draw_calls": 10047.0,
+				"fps": 39.0,
+				"ms": 30.213,
+				"primitives": 395630.0
+			},
+			{
+				"draw_calls": 10047.0,
+				"fps": 39.0,
+				"ms": 27.065,
+				"primitives": 395630.0
+			},
+			{
+				"draw_calls": 10047.0,
+				"fps": 39.0,
+				"ms": 29.488,
+				"primitives": 395630.0
+			},
+			{
+				"draw_calls": 10047.0,
+				"fps": 39.0,
+				"ms": 29.475,
+				"primitives": 395630.0
+			},
+			{
+				"draw_calls": 10047.0,
+				"fps": 39.0,
+				"ms": 28.479,
+				"primitives": 395630.0
+			},
+			{
+				"draw_calls": 10047.0,
+				"fps": 39.0,
+				"ms": 29.514,
+				"primitives": 395630.0
+			},
+			{
+				"draw_calls": 10047.0,
+				"fps": 39.0,
+				"ms": 29.267,
+				"primitives": 395630.0
+			},
+			{
+				"draw_calls": 10047.0,
+				"fps": 39.0,
+				"ms": 28.575,
+				"primitives": 395630.0
+			},
+			{
+				"draw_calls": 10047.0,
+				"fps": 39.0,
+				"ms": 29.367,
+				"primitives": 395630.0
+			},
+			{
+				"draw_calls": 10047.0,
+				"fps": 39.0,
+				"ms": 26.494,
+				"primitives": 395630.0
+			},
+			{
+				"draw_calls": 10047.0,
+				"fps": 39.0,
+				"ms": 29.146,
+				"primitives": 395630.0
+			}
+		],
+		"target": "(-46.0005, 14.29839, -98.00938)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -90.00938)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio5_(0.0, 0.0, 1.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio5_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 1937.0,
+				"fps": 36.0,
+				"ms": 10.26,
+				"primitives": 260000.0
+			},
+			{
+				"draw_calls": 1937.0,
+				"fps": 36.0,
+				"ms": 13.332,
+				"primitives": 260000.0
+			},
+			{
+				"draw_calls": 1937.0,
+				"fps": 36.0,
+				"ms": 13.333,
+				"primitives": 260000.0
+			},
+			{
+				"draw_calls": 1937.0,
+				"fps": 36.0,
+				"ms": 13.347,
+				"primitives": 260000.0
+			},
+			{
+				"draw_calls": 1937.0,
+				"fps": 36.0,
+				"ms": 13.338,
+				"primitives": 260000.0
+			},
+			{
+				"draw_calls": 1937.0,
+				"fps": 36.0,
+				"ms": 13.306,
+				"primitives": 260000.0
+			},
+			{
+				"draw_calls": 1937.0,
+				"fps": 36.0,
+				"ms": 13.354,
+				"primitives": 260000.0
+			},
+			{
+				"draw_calls": 1937.0,
+				"fps": 36.0,
+				"ms": 13.311,
+				"primitives": 260000.0
+			},
+			{
+				"draw_calls": 1937.0,
+				"fps": 36.0,
+				"ms": 13.347,
+				"primitives": 260000.0
+			},
+			{
+				"draw_calls": 1937.0,
+				"fps": 36.0,
+				"ms": 13.326,
+				"primitives": 260000.0
+			},
+			{
+				"draw_calls": 1937.0,
+				"fps": 36.0,
+				"ms": 13.342,
+				"primitives": 260000.0
+			},
+			{
+				"draw_calls": 1937.0,
+				"fps": 36.0,
+				"ms": 13.337,
+				"primitives": 260000.0
+			}
+		],
+		"target": "(-46.0005, 14.29839, -82.00938)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -82.31291)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio6_(1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio6_(1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 12267.0,
+				"fps": 36.0,
+				"ms": 32.286,
+				"primitives": 606656.0
+			},
+			{
+				"draw_calls": 12267.0,
+				"fps": 36.0,
+				"ms": 36.617,
+				"primitives": 606656.0
+			},
+			{
+				"draw_calls": 12267.0,
+				"fps": 36.0,
+				"ms": 37.99,
+				"primitives": 606656.0
+			},
+			{
+				"draw_calls": 12267.0,
+				"fps": 36.0,
+				"ms": 35.262,
+				"primitives": 606656.0
+			},
+			{
+				"draw_calls": 12267.0,
+				"fps": 36.0,
+				"ms": 35.439,
+				"primitives": 606656.0
+			},
+			{
+				"draw_calls": 12267.0,
+				"fps": 36.0,
+				"ms": 36.844,
+				"primitives": 606656.0
+			},
+			{
+				"draw_calls": 12267.0,
+				"fps": 36.0,
+				"ms": 36.391,
+				"primitives": 606656.0
+			},
+			{
+				"draw_calls": 12267.0,
+				"fps": 36.0,
+				"ms": 37.573,
+				"primitives": 606656.0
+			},
+			{
+				"draw_calls": 12267.0,
+				"fps": 36.0,
+				"ms": 41.26,
+				"primitives": 606656.0
+			},
+			{
+				"draw_calls": 12267.0,
+				"fps": 36.0,
+				"ms": 39.842,
+				"primitives": 606656.0
+			},
+			{
+				"draw_calls": 12267.0,
+				"fps": 36.0,
+				"ms": 37.542,
+				"primitives": 606656.0
+			},
+			{
+				"draw_calls": 12267.0,
+				"fps": 36.0,
+				"ms": 37.413,
+				"primitives": 606656.0
+			}
+		],
+		"target": "(-38.0005, 14.29839, -82.31291)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -82.31291)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio6_(-1.0, 0.0, 0.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio6_(-1.0, 0.0, 0.0)",
+		"samples": [
+			{
+				"draw_calls": 4054.0,
+				"fps": 37.0,
+				"ms": 10.382,
+				"primitives": 150779.0
+			},
+			{
+				"draw_calls": 4054.0,
+				"fps": 37.0,
+				"ms": 13.177,
+				"primitives": 150779.0
+			},
+			{
+				"draw_calls": 4054.0,
+				"fps": 37.0,
+				"ms": 13.304,
+				"primitives": 150779.0
+			},
+			{
+				"draw_calls": 4054.0,
+				"fps": 37.0,
+				"ms": 13.342,
+				"primitives": 150779.0
+			},
+			{
+				"draw_calls": 4054.0,
+				"fps": 37.0,
+				"ms": 13.362,
+				"primitives": 150779.0
+			},
+			{
+				"draw_calls": 4054.0,
+				"fps": 37.0,
+				"ms": 13.286,
+				"primitives": 150779.0
+			},
+			{
+				"draw_calls": 4054.0,
+				"fps": 37.0,
+				"ms": 13.342,
+				"primitives": 150779.0
+			},
+			{
+				"draw_calls": 4054.0,
+				"fps": 37.0,
+				"ms": 13.447,
+				"primitives": 150779.0
+			},
+			{
+				"draw_calls": 4054.0,
+				"fps": 37.0,
+				"ms": 13.231,
+				"primitives": 150779.0
+			},
+			{
+				"draw_calls": 4054.0,
+				"fps": 37.0,
+				"ms": 13.335,
+				"primitives": 150779.0
+			},
+			{
+				"draw_calls": 4054.0,
+				"fps": 37.0,
+				"ms": 13.322,
+				"primitives": 150779.0
+			},
+			{
+				"draw_calls": 4054.0,
+				"fps": 37.0,
+				"ms": 13.33,
+				"primitives": 150779.0
+			}
+		],
+		"target": "(-54.0005, 14.29839, -82.31291)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -82.31291)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio6_(0.0, 0.0, -1.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio6_(0.0, 0.0, -1.0)",
+		"samples": [
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 30.969,
+				"primitives": 443163.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 37.143,
+				"primitives": 443163.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 37.422,
+				"primitives": 443163.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 36.367,
+				"primitives": 443163.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 34.715,
+				"primitives": 443163.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 41.351,
+				"primitives": 443163.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 34.821,
+				"primitives": 443163.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 34.728,
+				"primitives": 443163.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 39.297,
+				"primitives": 443163.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 37.141,
+				"primitives": 443163.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 35.569,
+				"primitives": 443163.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 38.697,
+				"primitives": 443163.0
+			}
+		],
+		"target": "(-46.0005, 14.29839, -90.31291)"
+	},
+	{
+		"at": "(-46.0005, 14.29839, -82.31291)",
+		"file": "survey_Piso2_Biblioteca_SalasEstudio_SalaEstudio6_(0.0, 0.0, 1.0).png",
+		"label": "Piso2_Biblioteca_SalasEstudio_SalaEstudio6_(0.0, 0.0, 1.0)",
+		"samples": [
+			{
+				"draw_calls": 1683.0,
+				"fps": 39.0,
+				"ms": 12.095,
+				"primitives": 221652.0
+			},
+			{
+				"draw_calls": 1683.0,
+				"fps": 39.0,
+				"ms": 13.327,
+				"primitives": 221652.0
+			},
+			{
+				"draw_calls": 1683.0,
+				"fps": 39.0,
+				"ms": 13.324,
+				"primitives": 221652.0
+			},
+			{
+				"draw_calls": 1683.0,
+				"fps": 39.0,
+				"ms": 13.336,
+				"primitives": 221652.0
+			},
+			{
+				"draw_calls": 1683.0,
+				"fps": 39.0,
+				"ms": 13.314,
+				"primitives": 221652.0
+			},
+			{
+				"draw_calls": 1683.0,
+				"fps": 39.0,
+				"ms": 13.351,
+				"primitives": 221652.0
+			},
+			{
+				"draw_calls": 1683.0,
+				"fps": 39.0,
+				"ms": 13.349,
+				"primitives": 221652.0
+			},
+			{
+				"draw_calls": 1683.0,
+				"fps": 39.0,
+				"ms": 13.331,
+				"primitives": 221652.0
+			},
+			{
+				"draw_calls": 1683.0,
+				"fps": 39.0,
+				"ms": 13.335,
+				"primitives": 221652.0
+			},
+			{
+				"draw_calls": 1683.0,
+				"fps": 39.0,
+				"ms": 13.327,
+				"primitives": 221652.0
+			},
+			{
+				"draw_calls": 1683.0,
+				"fps": 39.0,
+				"ms": 13.371,
+				"primitives": 221652.0
+			},
+			{
+				"draw_calls": 1683.0,
+				"fps": 39.0,
+				"ms": 13.305,
+				"primitives": 221652.0
+			}
+		],
+		"target": "(-46.0005, 14.29839, -74.31291)"
+	},
+	{
+		"at": "(72.18, 14.2, -118.5)",
+		"file": "survey_EntradasAuditorio-118_5_side_1.png",
+		"label": "EntradasAuditorio-118_5_side_1",
+		"samples": [
+			{
+				"draw_calls": 24417.0,
+				"fps": 39.0,
+				"ms": 60.184,
+				"primitives": 1027860.0
+			},
+			{
+				"draw_calls": 24389.0,
+				"fps": 39.0,
+				"ms": 68.269,
+				"primitives": 1015332.0
+			},
+			{
+				"draw_calls": 24389.0,
+				"fps": 39.0,
+				"ms": 70.539,
+				"primitives": 1015332.0
+			},
+			{
+				"draw_calls": 24389.0,
+				"fps": 39.0,
+				"ms": 66.321,
+				"primitives": 1015332.0
+			},
+			{
+				"draw_calls": 24389.0,
+				"fps": 39.0,
+				"ms": 87.961,
+				"primitives": 1015332.0
+			},
+			{
+				"draw_calls": 24389.0,
+				"fps": 39.0,
+				"ms": 65.82,
+				"primitives": 1015332.0
+			},
+			{
+				"draw_calls": 24389.0,
+				"fps": 39.0,
+				"ms": 68.067,
+				"primitives": 1015332.0
+			},
+			{
+				"draw_calls": 24389.0,
+				"fps": 39.0,
+				"ms": 66.27,
+				"primitives": 1015332.0
+			},
+			{
+				"draw_calls": 24389.0,
+				"fps": 39.0,
+				"ms": 66.15,
+				"primitives": 1015332.0
+			},
+			{
+				"draw_calls": 24389.0,
+				"fps": 30.0,
+				"ms": 66.179,
+				"primitives": 1015332.0
+			},
+			{
+				"draw_calls": 24389.0,
+				"fps": 30.0,
+				"ms": 68.309,
+				"primitives": 1015332.0
+			},
+			{
+				"draw_calls": 24389.0,
+				"fps": 30.0,
+				"ms": 66.299,
+				"primitives": 1015332.0
+			}
+		],
+		"target": "(68.18, 15.2, -118.5)"
+	},
+	{
+		"at": "(64.18, 14.2, -118.5)",
+		"file": "survey_EntradasAuditorio-118_5_side_-1.png",
+		"label": "EntradasAuditorio-118_5_side_-1",
+		"samples": [
+			{
+				"draw_calls": 1174.0,
+				"fps": 30.0,
+				"ms": 10.406,
+				"primitives": 40980.0
+			},
+			{
+				"draw_calls": 1174.0,
+				"fps": 30.0,
+				"ms": 13.353,
+				"primitives": 40980.0
+			},
+			{
+				"draw_calls": 1174.0,
+				"fps": 30.0,
+				"ms": 13.339,
+				"primitives": 40980.0
+			},
+			{
+				"draw_calls": 1174.0,
+				"fps": 30.0,
+				"ms": 13.335,
+				"primitives": 40980.0
+			},
+			{
+				"draw_calls": 1174.0,
+				"fps": 30.0,
+				"ms": 13.299,
+				"primitives": 40980.0
+			},
+			{
+				"draw_calls": 1174.0,
+				"fps": 30.0,
+				"ms": 13.352,
+				"primitives": 40980.0
+			},
+			{
+				"draw_calls": 1174.0,
+				"fps": 30.0,
+				"ms": 13.358,
+				"primitives": 40980.0
+			},
+			{
+				"draw_calls": 1174.0,
+				"fps": 30.0,
+				"ms": 13.296,
+				"primitives": 40980.0
+			},
+			{
+				"draw_calls": 1174.0,
+				"fps": 30.0,
+				"ms": 13.35,
+				"primitives": 40980.0
+			},
+			{
+				"draw_calls": 1174.0,
+				"fps": 30.0,
+				"ms": 13.314,
+				"primitives": 40980.0
+			},
+			{
+				"draw_calls": 1174.0,
+				"fps": 30.0,
+				"ms": 13.332,
+				"primitives": 40980.0
+			},
+			{
+				"draw_calls": 1174.0,
+				"fps": 30.0,
+				"ms": 13.327,
+				"primitives": 40980.0
+			}
+		],
+		"target": "(68.18, 15.2, -118.5)"
+	},
+	{
+		"at": "(72.18, 14.2, -90.5)",
+		"file": "survey_EntradasAuditorio-90_5_side_1.png",
+		"label": "EntradasAuditorio-90_5_side_1",
+		"samples": [
+			{
+				"draw_calls": 22391.0,
+				"fps": 30.0,
+				"ms": 58.097,
+				"primitives": 922512.0
+			},
+			{
+				"draw_calls": 22391.0,
+				"fps": 30.0,
+				"ms": 62.042,
+				"primitives": 922512.0
+			},
+			{
+				"draw_calls": 22391.0,
+				"fps": 30.0,
+				"ms": 62.411,
+				"primitives": 922512.0
+			},
+			{
+				"draw_calls": 22391.0,
+				"fps": 29.0,
+				"ms": 64.807,
+				"primitives": 922512.0
+			},
+			{
+				"draw_calls": 22391.0,
+				"fps": 29.0,
+				"ms": 65.581,
+				"primitives": 922512.0
+			},
+			{
+				"draw_calls": 22391.0,
+				"fps": 29.0,
+				"ms": 64.704,
+				"primitives": 922512.0
+			},
+			{
+				"draw_calls": 22391.0,
+				"fps": 29.0,
+				"ms": 66.735,
+				"primitives": 922512.0
+			},
+			{
+				"draw_calls": 22391.0,
+				"fps": 29.0,
+				"ms": 63.18,
+				"primitives": 922512.0
+			},
+			{
+				"draw_calls": 22391.0,
+				"fps": 29.0,
+				"ms": 63.681,
+				"primitives": 922512.0
+			},
+			{
+				"draw_calls": 22391.0,
+				"fps": 29.0,
+				"ms": 64.633,
+				"primitives": 922512.0
+			},
+			{
+				"draw_calls": 22391.0,
+				"fps": 29.0,
+				"ms": 66.595,
+				"primitives": 922512.0
+			},
+			{
+				"draw_calls": 22391.0,
+				"fps": 29.0,
+				"ms": 63.241,
+				"primitives": 922512.0
+			}
+		],
+		"target": "(68.18, 15.2, -90.5)"
+	},
+	{
+		"at": "(64.18, 14.2, -90.5)",
+		"file": "survey_EntradasAuditorio-90_5_side_-1.png",
+		"label": "EntradasAuditorio-90_5_side_-1",
+		"samples": [
+			{
+				"draw_calls": 570.0,
+				"fps": 29.0,
+				"ms": 10.61,
+				"primitives": 25236.0
+			},
+			{
+				"draw_calls": 570.0,
+				"fps": 29.0,
+				"ms": 13.288,
+				"primitives": 25236.0
+			},
+			{
+				"draw_calls": 570.0,
+				"fps": 29.0,
+				"ms": 13.344,
+				"primitives": 25236.0
+			},
+			{
+				"draw_calls": 570.0,
+				"fps": 29.0,
+				"ms": 13.346,
+				"primitives": 25236.0
+			},
+			{
+				"draw_calls": 570.0,
+				"fps": 29.0,
+				"ms": 13.341,
+				"primitives": 25236.0
+			},
+			{
+				"draw_calls": 570.0,
+				"fps": 29.0,
+				"ms": 13.348,
+				"primitives": 25236.0
+			},
+			{
+				"draw_calls": 570.0,
+				"fps": 29.0,
+				"ms": 13.305,
+				"primitives": 25236.0
+			},
+			{
+				"draw_calls": 570.0,
+				"fps": 29.0,
+				"ms": 13.342,
+				"primitives": 25236.0
+			},
+			{
+				"draw_calls": 570.0,
+				"fps": 29.0,
+				"ms": 13.301,
+				"primitives": 25236.0
+			},
+			{
+				"draw_calls": 570.0,
+				"fps": 29.0,
+				"ms": 13.361,
+				"primitives": 25236.0
+			},
+			{
+				"draw_calls": 570.0,
+				"fps": 29.0,
+				"ms": 13.358,
+				"primitives": 25236.0
+			},
+			{
+				"draw_calls": 570.0,
+				"fps": 29.0,
+				"ms": 13.294,
+				"primitives": 25236.0
+			}
+		],
+		"target": "(68.18, 15.2, -90.5)"
+	},
+	{
+		"at": "(75.26724, 15.25, -118.5)",
+		"file": "survey_AuditorioAmpliado-118_5_side_1.png",
+		"label": "AuditorioAmpliado-118_5_side_1",
+		"samples": [
+			{
+				"draw_calls": 25329.0,
+				"fps": 29.0,
+				"ms": 62.151,
+				"primitives": 1058358.0
+			},
+			{
+				"draw_calls": 25329.0,
+				"fps": 29.0,
+				"ms": 67.645,
+				"primitives": 1058358.0
+			},
+			{
+				"draw_calls": 25329.0,
+				"fps": 29.0,
+				"ms": 70.766,
+				"primitives": 1058358.0
+			},
+			{
+				"draw_calls": 25329.0,
+				"fps": 29.0,
+				"ms": 67.444,
+				"primitives": 1058358.0
+			},
+			{
+				"draw_calls": 25329.0,
+				"fps": 29.0,
+				"ms": 69.019,
+				"primitives": 1058358.0
+			},
+			{
+				"draw_calls": 25329.0,
+				"fps": 29.0,
+				"ms": 67.098,
+				"primitives": 1058358.0
+			},
+			{
+				"draw_calls": 25329.0,
+				"fps": 29.0,
+				"ms": 72.157,
+				"primitives": 1058358.0
+			},
+			{
+				"draw_calls": 25329.0,
+				"fps": 29.0,
+				"ms": 68.471,
+				"primitives": 1058358.0
+			},
+			{
+				"draw_calls": 25329.0,
+				"fps": 29.0,
+				"ms": 70.88,
+				"primitives": 1058358.0
+			},
+			{
+				"draw_calls": 25329.0,
+				"fps": 29.0,
+				"ms": 71.812,
+				"primitives": 1058358.0
+			},
+			{
+				"draw_calls": 25329.0,
+				"fps": 29.0,
+				"ms": 71.266,
+				"primitives": 1058358.0
+			},
+			{
+				"draw_calls": 25329.0,
+				"fps": 29.0,
+				"ms": 67.909,
+				"primitives": 1058358.0
+			}
+		],
+		"target": "(71.26724, 16.25, -118.5)"
+	},
+	{
+		"at": "(67.26724, 15.25, -118.5)",
+		"file": "survey_AuditorioAmpliado-118_5_side_-1.png",
+		"label": "AuditorioAmpliado-118_5_side_-1",
+		"samples": [
+			{
+				"draw_calls": 905.0,
+				"fps": 14.0,
+				"ms": 8.773,
+				"primitives": 28260.0
+			},
+			{
+				"draw_calls": 905.0,
+				"fps": 14.0,
+				"ms": 13.394,
+				"primitives": 28260.0
+			},
+			{
+				"draw_calls": 905.0,
+				"fps": 14.0,
+				"ms": 13.292,
+				"primitives": 28260.0
+			},
+			{
+				"draw_calls": 905.0,
+				"fps": 14.0,
+				"ms": 13.321,
+				"primitives": 28260.0
+			},
+			{
+				"draw_calls": 905.0,
+				"fps": 14.0,
+				"ms": 13.342,
+				"primitives": 28260.0
+			},
+			{
+				"draw_calls": 905.0,
+				"fps": 14.0,
+				"ms": 13.319,
+				"primitives": 28260.0
+			},
+			{
+				"draw_calls": 905.0,
+				"fps": 14.0,
+				"ms": 13.335,
+				"primitives": 28260.0
+			},
+			{
+				"draw_calls": 905.0,
+				"fps": 14.0,
+				"ms": 13.35,
+				"primitives": 28260.0
+			},
+			{
+				"draw_calls": 905.0,
+				"fps": 14.0,
+				"ms": 13.306,
+				"primitives": 28260.0
+			},
+			{
+				"draw_calls": 905.0,
+				"fps": 14.0,
+				"ms": 13.33,
+				"primitives": 28260.0
+			},
+			{
+				"draw_calls": 905.0,
+				"fps": 14.0,
+				"ms": 13.364,
+				"primitives": 28260.0
+			},
+			{
+				"draw_calls": 905.0,
+				"fps": 14.0,
+				"ms": 13.36,
+				"primitives": 28260.0
+			}
+		],
+		"target": "(71.26724, 16.25, -118.5)"
+	},
+	{
+		"at": "(75.26724, 15.25, -90.5)",
+		"file": "survey_AuditorioAmpliado-90_5_side_1.png",
+		"label": "AuditorioAmpliado-90_5_side_1",
+		"samples": [
+			{
+				"draw_calls": 23249.0,
+				"fps": 14.0,
+				"ms": 62.15,
+				"primitives": 977106.0
+			},
+			{
+				"draw_calls": 23249.0,
+				"fps": 14.0,
+				"ms": 68.09,
+				"primitives": 977106.0
+			},
+			{
+				"draw_calls": 23249.0,
+				"fps": 14.0,
+				"ms": 63.12,
+				"primitives": 977106.0
+			},
+			{
+				"draw_calls": 23249.0,
+				"fps": 14.0,
+				"ms": 66.757,
+				"primitives": 977106.0
+			},
+			{
+				"draw_calls": 23249.0,
+				"fps": 14.0,
+				"ms": 91.161,
+				"primitives": 977106.0
+			},
+			{
+				"draw_calls": 23249.0,
+				"fps": 14.0,
+				"ms": 70.058,
+				"primitives": 977106.0
+			},
+			{
+				"draw_calls": 23249.0,
+				"fps": 14.0,
+				"ms": 63.744,
+				"primitives": 977106.0
+			},
+			{
+				"draw_calls": 23249.0,
+				"fps": 14.0,
+				"ms": 65.516,
+				"primitives": 977106.0
+			},
+			{
+				"draw_calls": 23249.0,
+				"fps": 29.0,
+				"ms": 62.932,
+				"primitives": 977106.0
+			},
+			{
+				"draw_calls": 23249.0,
+				"fps": 29.0,
+				"ms": 65.055,
+				"primitives": 977106.0
+			},
+			{
+				"draw_calls": 23249.0,
+				"fps": 29.0,
+				"ms": 61.962,
+				"primitives": 977106.0
+			},
+			{
+				"draw_calls": 23249.0,
+				"fps": 29.0,
+				"ms": 64.778,
+				"primitives": 977106.0
+			}
+		],
+		"target": "(71.26724, 16.25, -90.5)"
+	},
+	{
+		"at": "(67.26724, 15.25, -90.5)",
+		"file": "survey_AuditorioAmpliado-90_5_side_-1.png",
+		"label": "AuditorioAmpliado-90_5_side_-1",
+		"samples": [
+			{
+				"draw_calls": 359.0,
+				"fps": 29.0,
+				"ms": 10.319,
+				"primitives": 16624.0
+			},
+			{
+				"draw_calls": 359.0,
+				"fps": 29.0,
+				"ms": 13.33,
+				"primitives": 16624.0
+			},
+			{
+				"draw_calls": 359.0,
+				"fps": 29.0,
+				"ms": 13.324,
+				"primitives": 16624.0
+			},
+			{
+				"draw_calls": 359.0,
+				"fps": 29.0,
+				"ms": 13.449,
+				"primitives": 16624.0
+			},
+			{
+				"draw_calls": 359.0,
+				"fps": 29.0,
+				"ms": 13.227,
+				"primitives": 16624.0
+			},
+			{
+				"draw_calls": 359.0,
+				"fps": 29.0,
+				"ms": 13.341,
+				"primitives": 16624.0
+			},
+			{
+				"draw_calls": 359.0,
+				"fps": 29.0,
+				"ms": 13.395,
+				"primitives": 16624.0
+			},
+			{
+				"draw_calls": 359.0,
+				"fps": 29.0,
+				"ms": 13.303,
+				"primitives": 16624.0
+			},
+			{
+				"draw_calls": 359.0,
+				"fps": 29.0,
+				"ms": 13.338,
+				"primitives": 16624.0
+			},
+			{
+				"draw_calls": 359.0,
+				"fps": 29.0,
+				"ms": 13.287,
+				"primitives": 16624.0
+			},
+			{
+				"draw_calls": 359.0,
+				"fps": 29.0,
+				"ms": 13.318,
+				"primitives": 16624.0
+			},
+			{
+				"draw_calls": 359.0,
+				"fps": 29.0,
+				"ms": 13.333,
+				"primitives": 16624.0
+			}
+		],
+		"target": "(71.26724, 16.25, -90.5)"
+	}
+]

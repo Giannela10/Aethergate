@@ -1,0 +1,23 @@
+[
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_child(-1).get_script().set_source_code(\"extends Node\\nfunc install(parent: Node) -\\u003e String:\\n\\tparent.add_child(self);run.call_deferred();return \\\"RAMP_RESOURCE_CHECK_STARTED\\\"\\nfunc run() -\\u003e void:\\n\\tvar packed=ResourceLoader.load(\\\"res://Main.tscn\\\",\\\"PackedScene\\\",ResourceLoader.CACHE_MODE_IGNORE) as PackedScene\\n\\tvar rows=[]\\n\\tif packed!=null:\\n\\t\\tvar state=packed.get_state()\\n\\t\\tfor i in state.get_node_count():\\n\\t\\t\\tvar path=str(state.get_node_path(i)).trim_prefix(\\\"./\\\")\\n\\t\\t\\tif path!=\\\"PisoMenos1/AmbientacionIndustrial2026/RampaVehicularExterior/LosaInclinada\\\" and path!=\\\"PisoMenos1/AmbientacionIndustrial2026/RampaVehicularExterior/LosaInclinada/ColisionEstatica/Forma\\\": continue\\n\\t\\t\\tvar row={\\\"path\\\":path}\\n\\t\\t\\tfor property in state.get_node_property_count(i):\\n\\t\\t\\t\\tvar key=state.get_node_property_name(i,property);var value=state.get_node_property_value(i,property)\\n\\t\\t\\t\\tif key==\\\"transform\\\": row[\\\"transform\\\"]=str(value);row[\\\"center_y\\\"]=value.origin.y\\n\\t\\t\\t\\tif key==\\\"mesh\\\" or key==\\\"shape\\\": row[\\\"size\\\"]=str(value.size);row[\\\"length\\\"]=value.size.z\\n\\t\\t\\trows.append(row)\\n\\tvar ok=rows.size()==2 and rows.all(func(r): return is_equal_approx(r.length,49.06409)) and absf(rows[0].center_y+6.246011)\\u003c0.0001\\n\\tvar out=\\\"res://\\\"+FileAccess.get_file_as_string(\\\"res://reports/final_7_0/active_run.txt\\\").strip_edges().trim_prefix(\\\"Juego/\\\")+\\\"/\\\"\\n\\tvar file=FileAccess.open(out+\\\"ramp_persisted_resource_check.json\\\",FileAccess.WRITE);file.store_string(JSON.stringify({\\\"passed\\\":ok,\\\"rows\\\":rows,\\\"note\\\":\\\"Fresh PackedScene read from disk, without instantiating campaign or using saves. Confirms persisted geometry, not upper exit approval.\\\"},\\\"\\\\t\\\"))\\n\\tprint(\\\"RAMP_PERSISTED_RESOURCE_CHECK \\\",ok)\\n\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_child(-1).get_script().reload(true)",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_child(-1).call_deferred(\"run\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    }
+]

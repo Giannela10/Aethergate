@@ -1,0 +1,60 @@
+{
+	"floor": 5,
+	"results": [
+		{
+			"detail": {
+				"bounds": "[P: (-85.30031, 47.47485, -125.4), S: (169.9336, 12.3, 49.4777)]",
+				"clear_samples": 8,
+				"scope": "Placement samples, not a walked route"
+			},
+			"floor": 5,
+			"status": "PASS",
+			"test": "capsule_sample_TerrazaPicnic"
+		},
+		{
+			"detail": {
+				"bounds": "[P: (-34.30288, 47.9522, -149.8978), S: (11.01938, 6.630047, 8.227554)]",
+				"clear_samples": 2,
+				"scope": "Placement samples, not a walked route"
+			},
+			"floor": 5,
+			"status": "PASS",
+			"test": "capsule_sample_TiendaEsquinaPiso5"
+		},
+		{
+			"detail": {
+				"bounds": "[P: (-26.25, 47.97485, -149.505), S: (48.75, 5.629997, 7.954987)]",
+				"clear_samples": 9,
+				"scope": "Placement samples, not a walked route"
+			},
+			"floor": 5,
+			"status": "PASS",
+			"test": "capsule_sample_VestibuloAscensores"
+		},
+		{
+			"detail": {
+				"text": "PLANO DE LOS PISOS\nPISO 5 · USTED ESTÁ AQUÍ\n\nPISO 1\nCasino · Coordinación\n\nPISO 2\nBiblioteca · Auditorio"
+			},
+			"floor": 5,
+			"status": "PASS",
+			"test": "directory_destinations"
+		},
+		{
+			"detail": {
+				"scope": "Diagnostic relocation for inspection; no campaign authorization injected",
+				"unlocks": {
+					"ENGLISH_PREPARED": false,
+					"LECTURA_PREPARADA": false,
+					"NEXO_INFORMATION": false,
+					"REFLEXION_PREVIA": false,
+					"provided:documentos": true,
+					"reward:welcome": true
+				}
+			},
+			"floor": 5,
+			"status": "PASS",
+			"test": "campaign_gates_not_bypassed"
+		}
+	],
+	"views": 13
+}

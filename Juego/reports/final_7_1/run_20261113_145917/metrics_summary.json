@@ -1,0 +1,110 @@
+[
+  {
+    "floor": 3,
+    "counts": {
+      "PASS": 52,
+      "FAIL": 0,
+      "BLOCKED": 4,
+      "NOT RUN": 1
+    },
+    "inventory_nodes": 3043,
+    "lights": 16,
+    "actors": 3,
+    "views": 41,
+    "samples": 820,
+    "mean_ms": 22.898584146341463,
+    "mean_reported_fps": 41.1609756097561,
+    "mean_draw_calls": 7737.506097560976,
+    "mean_primitives": 334649.01463414636
+  },
+  {
+    "floor": 4,
+    "counts": {
+      "PASS": 47,
+      "FAIL": 0,
+      "BLOCKED": 2,
+      "NOT RUN": 1
+    },
+    "inventory_nodes": 5191,
+    "lights": 33,
+    "actors": 3,
+    "views": 33,
+    "samples": 660,
+    "mean_ms": 21.820803030303033,
+    "mean_reported_fps": 43.627272727272725,
+    "mean_draw_calls": 6898.357575757575,
+    "mean_primitives": 274999.48787878786
+  },
+  {
+    "floor": 5,
+    "counts": {
+      "PASS": 15,
+      "FAIL": 0,
+      "BLOCKED": 1,
+      "NOT RUN": 0
+    },
+    "inventory_nodes": 1805,
+    "lights": 8,
+    "actors": 0,
+    "views": 13,
+    "samples": 260,
+    "mean_ms": 19.142815384615382,
+    "mean_reported_fps": 46.15384615384615,
+    "mean_draw_calls": 7360.6,
+    "mean_primitives": 262279.0307692308
+  },
+  {
+    "floor": 6,
+    "counts": {
+      "PASS": 42,
+      "FAIL": 0,
+      "BLOCKED": 1,
+      "NOT RUN": 1
+    },
+    "inventory_nodes": 5727,
+    "lights": 112,
+    "actors": 2,
+    "views": 53,
+    "samples": 1060,
+    "mean_ms": 20.104330188679253,
+    "mean_reported_fps": 45.95377358490566,
+    "mean_draw_calls": 7343.547169811321,
+    "mean_primitives": 219737.16981132075
+  },
+  {
+    "floor": 7,
+    "counts": {
+      "PASS": 46,
+      "FAIL": 0,
+      "BLOCKED": 1,
+      "NOT RUN": 1
+    },
+    "inventory_nodes": 5715,
+    "lights": 112,
+    "actors": 2,
+    "views": 53,
+    "samples": 1060,
+    "mean_ms": 17.819582075471725,
+    "mean_reported_fps": 51.72547169811321,
+    "mean_draw_calls": 6176.392452830189,
+    "mean_primitives": 169517.0283018868
+  },
+  {
+    "floor": 8,
+    "counts": {
+      "PASS": 39,
+      "FAIL": 0,
+      "BLOCKED": 2,
+      "NOT RUN": 2
+    },
+    "inventory_nodes": 5267,
+    "lights": 112,
+    "actors": 1,
+    "views": 53,
+    "samples": 1060,
+    "mean_ms": 16.56728490566038,
+    "mean_reported_fps": 54.80566037735849,
+    "mean_draw_calls": 4229.169811320755,
+    "mean_primitives": 107545.03773584905
+  }
+]

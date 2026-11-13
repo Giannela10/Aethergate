@@ -1,0 +1,934 @@
+[
+	{
+		"detail": {
+			"events": 3,
+			"note": "Requirement saturates at 1; repeat conversations may increment raw events"
+		},
+		"passed": true,
+		"test": "talk_requirement_satisfied"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "paired_capsule_does_not_block_mentor"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "solid_wall_still_blocks_mentor"
+	},
+	{
+		"detail": {
+			"collider": "/root/FinalCampus70/Main/Piso1/LosasYAccesos/LosaRecortada_1_3/Cuerpo",
+			"position": "(24.37, 0.0, -124.0)"
+		},
+		"passed": true,
+		"test": "ramp_surface_found"
+	},
+	{
+		"detail": {
+			"blockers": [
+				"/root/FinalCampus70/Main/Piso1/LosasYAccesos/LosaRecortada_1_3/Cuerpo"
+			],
+			"end": "(24.37, 0.000205, -137.4648)",
+			"note": "Input-driven segment; vertical target is diagnostic, horizontal reach is assertion",
+			"start": "(24.37, 0.04, -124.0)",
+			"target": "(24.37, -6.0, -138.0)",
+			"trace": [
+				"(24.37, 0.000205, -124.2972)",
+				"(24.37, 0.000205, -124.8389)",
+				"(24.37, 0.000205, -125.3388)",
+				"(24.37, 0.000205, -125.8805)",
+				"(24.37, 0.000205, -126.4221)",
+				"(24.37, 0.000205, -126.9221)",
+				"(24.37, 0.000205, -127.422)",
+				"(24.37, 0.000205, -127.9637)",
+				"(24.37, 0.000205, -128.5054)",
+				"(24.37, 0.000205, -129.0888)",
+				"(24.37, 0.000205, -129.6305)",
+				"(24.37, 0.000205, -130.1723)",
+				"(24.37, 0.000205, -130.714)",
+				"(24.37, 0.000205, -131.2141)",
+				"(24.37, 0.000205, -131.7558)",
+				"(24.37, 0.000205, -132.2975)",
+				"(24.37, 0.000205, -132.7976)",
+				"(24.37, 0.000205, -133.2976)",
+				"(24.37, 0.000205, -133.8394)",
+				"(24.37, 0.000205, -134.3394)",
+				"(24.37, 0.000205, -134.8812)",
+				"(24.37, 0.000205, -135.3812)",
+				"(24.37, 0.000205, -135.923)",
+				"(24.37, 0.000205, -136.423)",
+				"(24.37, 0.000205, -136.9648)",
+				"(24.37, 0.000205, -137.4648)"
+			]
+		},
+		"passed": true,
+		"test": "ramp_actual_walk"
+	},
+	{
+		"detail": {
+			"equipped": true
+		},
+		"passed": true,
+		"test": "inventory_socket_identity"
+	},
+	{
+		"detail": {
+			"note": "Real controller; finite sockets asserted. Sole clearance separately measured, not blanket approved.",
+			"samples": [
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154157564043999,
+					"position": "(4.0, 0.100205, -48.14)",
+					"socket_finite": true,
+					"speed": 1.86666667461395,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.12284330278635,
+					"position": "(4.0, 0.100205, -48.46389)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.15415059030056,
+					"position": "(4.0, 0.100205, -48.7139)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154157489538193,
+					"position": "(4.0, 0.100205, -48.96391)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.122481569647789,
+					"position": "(4.0, 0.100205, -49.29725)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154152303934097,
+					"position": "(4.0, 0.100205, -49.6306)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154157400131226,
+					"position": "(4.0, 0.100205, -49.92227)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.122139155864716,
+					"position": "(4.0, 0.100205, -50.21395)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154151082038879,
+					"position": "(4.0, 0.100205, -50.50562)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154157117009163,
+					"position": "(4.0, 0.100205, -50.83897)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.124095246195793,
+					"position": "(4.0, 0.100205, -51.13064)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154150992631912,
+					"position": "(4.0, 0.100205, -51.42232)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154157683253288,
+					"position": "(4.0, 0.100205, -51.71399)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.123718857765198,
+					"position": "(4.0, 0.100205, -52.00567)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154149159789085,
+					"position": "(4.0, 0.100205, -52.25568)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154157489538193,
+					"position": "(4.0, 0.100205, -52.58902)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.122415795922279,
+					"position": "(4.0, 0.100205, -52.8807)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000143051147,
+					"lowest_sole_y": 0.104151628911495,
+					"position": "(4.0, 0.100205, -53.21404)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.154157683253288,
+					"position": "(4.0, 0.100205, -53.50571)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.131144195795059,
+					"position": "(4.0, 0.100205, -53.75572)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104149647057056,
+					"position": "(4.0, 0.100205, -54.0474)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104158319532871,
+					"position": "(4.0, 0.100205, -54.38074)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.0737764164805412,
+					"position": "(4.0, 0.100205, -54.67242)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104151904582977,
+					"position": "(4.0, 0.100205, -54.96409)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104158528149128,
+					"position": "(4.0, 0.100205, -55.29744)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.0720538198947906,
+					"position": "(4.0, 0.100205, -55.58911)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000143051147,
+					"lowest_sole_y": 0.104150034487247,
+					"position": "(4.0, 0.100205, -55.83912)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104158155620098,
+					"position": "(4.0, 0.100205, -56.13079)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10398980230093,
+					"position": "(4.0, 0.100205, -56.3808)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104150116443634,
+					"position": "(4.0, 0.100205, -56.67248)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104157596826553,
+					"position": "(4.0, 0.100205, -57.00582)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10375489294529,
+					"position": "(4.0, 0.100205, -57.2975)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104148805141449,
+					"position": "(4.0, 0.100205, -57.58917)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10415767878294,
+					"position": "(4.0, 0.100205, -57.88085)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.0974103286862373,
+					"position": "(4.0, 0.100205, -58.21419)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.104149095714092,
+					"position": "(4.0, 0.100205, -58.50587)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10415793210268,
+					"position": "(4.0, 0.100205, -58.79754)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.0867135599255562,
+					"position": "(4.0, 0.100205, -59.13089)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104150116443634,
+					"position": "(4.0, 0.100205, -59.38089)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104157477617264,
+					"position": "(4.0, 0.100205, -59.6309)",
+					"socket_finite": true,
+					"speed": 2.5,
+					"state": "WALK"
+				}
+			]
+		},
+		"passed": true,
+		"test": "continuous_4s_walk"
+	},
+	{
+		"detail": {
+			"note": "Real controller; finite sockets asserted. Sole clearance separately measured, not blanket approved.",
+			"samples": [
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104157015681267,
+					"position": "(4.0, 0.100205, -59.94257)",
+					"socket_finite": true,
+					"speed": 1.63333332538605,
+					"state": "WALK"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10400003194809,
+					"position": "(4.0, 0.100205, -60.30034)",
+					"socket_finite": true,
+					"speed": 3.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000009596348,
+					"position": "(4.0, 0.100205, -60.73201)",
+					"socket_finite": true,
+					"speed": 4.89999914169312,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000054299831,
+					"position": "(4.0, 0.100205, -61.36535)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000017046928,
+					"position": "(4.0, 0.100205, -62.00702)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.103999927639961,
+					"position": "(4.0, 0.100205, -62.64869)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000009596348,
+					"position": "(4.0, 0.100205, -63.29036)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000009596348,
+					"position": "(4.0, 0.100205, -63.93203)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000024497509,
+					"position": "(4.0, 0.100205, -64.57369)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10400003194809,
+					"position": "(4.0, 0.100205, -65.21536)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000024497509,
+					"position": "(4.0, 0.100205, -65.76537)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.103999935090542,
+					"position": "(4.0, 0.100205, -66.40704)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -66.95704)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -67.59871)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -68.14871)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -68.69872)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.153999194502831,
+					"position": "(4.0, 0.100205, -69.34039)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -69.98206)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -70.53206)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -71.08206)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.153999179601669,
+					"position": "(4.0, 0.100205, -71.72373)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.10400003939867,
+					"position": "(4.0, 0.100205, -72.27374)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.104000024497509,
+					"position": "(4.0, 0.100205, -72.91541)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.1039999127388,
+					"position": "(4.0, 0.100205, -73.46541)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.103999927639961,
+					"position": "(4.0, 0.100205, -74.01541)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0999999046325684,
+					"lowest_sole_y": 0.103999942541122,
+					"position": "(4.0, 0.100205, -74.65708)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.0491324998438358,
+					"position": "(4.0, 0.100205, -75.29875)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.100000023841858,
+					"lowest_sole_y": 0.00400006026029587,
+					"position": "(4.0, 0.100205, -75.84875)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00400002300739288,
+					"position": "(4.0, 0.000596, -76.58269)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399999739602208,
+					"position": "(4.0, 0.000596, -77.22436)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.0040000076405704,
+					"position": "(4.0, 0.000596, -77.86603)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399989914149046,
+					"position": "(4.0, 0.000596, -78.5077)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00400001648813486,
+					"position": "(4.0, 0.000596, -79.0577)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399991311132908,
+					"position": "(4.0, 0.000596, -79.69937)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399992056190968,
+					"position": "(4.0, 0.000596, -80.34104)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00399990659207106,
+					"position": "(4.0, 0.000596, -80.98271)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00400001741945744,
+					"position": "(4.0, 0.000596, -81.62438)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0,
+					"lowest_sole_y": -0.0423062592744827,
+					"position": "(4.0, 0.000596, -82.17439)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00400001695379615,
+					"position": "(4.0, 0.000596, -82.72439)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				},
+				{
+					"ground_y": 0.0,
+					"lowest_sole_y": 0.00400001741945744,
+					"position": "(4.0, 0.000596, -83.36606)",
+					"socket_finite": true,
+					"speed": 5.5,
+					"state": "RUN"
+				}
+			]
+		},
+		"passed": true,
+		"test": "continuous_4s_run"
+	},
+	{
+		"detail": {
+			"count": 15,
+			"note": "Visible runtime instances only; no exhaustive dialogue or floor contact assertion"
+		},
+		"passed": true,
+		"test": "npc_inventory_scoped"
+	},
+	{
+		"detail": {
+			"actual": {
+				"collected": {
+					"Arma_00": true,
+					"Mision_LibroBiblioteca_-46_1": true,
+					"Mision_LibroBiblioteca_-52_1": true,
+					"Mision_LibroBiblioteca_-58_1": true
+				},
+				"credits": 395.0,
+				"quests": {
+					"academico3": {
+						"state": 1.0
+					},
+					"academico4": {
+						"state": 0.0
+					},
+					"academico5": {
+						"state": 0.0
+					},
+					"acceso7": {
+						"state": 0.0
+					},
+					"biblioteca": {
+						"state": 2.0
+					},
+					"cargador": {
+						"state": 0.0
+					},
+					"casino": {
+						"state": 0.0
+					},
+					"direccion": {
+						"state": 0.0
+					},
+					"director_task_antivirus": {
+						"state": 0.0
+					},
+					"director_task_config": {
+						"state": 0.0
+					},
+					"director_task_network": {
+						"state": 0.0
+					},
+					"documentos": {
+						"state": 0.0
+					},
+					"implementos": {
+						"state": 0.0
+					},
+					"infectado": {
+						"state": 0.0
+					},
+					"inicio": {
+						"state": 2.0
+					},
+					"llaves": {
+						"state": 0.0
+					},
+					"nexo_final": {
+						"state": 0.0
+					},
+					"postgame": {
+						"state": 0.0
+					},
+					"seguridad6": {
+						"state": 0.0
+					},
+					"ubicar_profesores": {
+						"state": 0.0
+					},
+					"v4_bugs": {
+						"state": 0.0
+					},
+					"v4_emergency": {
+						"state": 0.0
+					},
+					"v4_network": {
+						"state": 0.0
+					},
+					"v4_presentation": {
+						"state": 0.0
+					},
+					"v4_rescue": {
+						"state": 0.0
+					},
+					"v4_workshop": {
+						"state": 0.0
+					}
+				},
+				"xp": 695.0
+			},
+			"expected": {
+				"collected": {
+					"Arma_00": true,
+					"Mision_LibroBiblioteca_-46_1": true,
+					"Mision_LibroBiblioteca_-52_1": true,
+					"Mision_LibroBiblioteca_-58_1": true
+				},
+				"credits": 395.0,
+				"quests": {
+					"academico3": {
+						"state": 1.0
+					},
+					"academico4": {
+						"state": 0.0
+					},
+					"academico5": {
+						"state": 0.0
+					},
+					"acceso7": {
+						"state": 0.0
+					},
+					"biblioteca": {
+						"state": 2.0
+					},
+					"cargador": {
+						"state": 0.0
+					},
+					"casino": {
+						"state": 0.0
+					},
+					"direccion": {
+						"state": 0.0
+					},
+					"director_task_antivirus": {
+						"state": 0.0
+					},
+					"director_task_config": {
+						"state": 0.0
+					},
+					"director_task_network": {
+						"state": 0.0
+					},
+					"documentos": {
+						"state": 0.0
+					},
+					"implementos": {
+						"state": 0.0
+					},
+					"infectado": {
+						"state": 0.0
+					},
+					"inicio": {
+						"state": 2.0
+					},
+					"llaves": {
+						"state": 0.0
+					},
+					"nexo_final": {
+						"state": 0.0
+					},
+					"postgame": {
+						"state": 0.0
+					},
+					"seguridad6": {
+						"state": 0.0
+					},
+					"ubicar_profesores": {
+						"state": 0.0
+					},
+					"v4_bugs": {
+						"state": 0.0
+					},
+					"v4_emergency": {
+						"state": 0.0
+					},
+					"v4_network": {
+						"state": 0.0
+					},
+					"v4_presentation": {
+						"state": 0.0
+					},
+					"v4_rescue": {
+						"state": 0.0
+					},
+					"v4_workshop": {
+						"state": 0.0
+					}
+				},
+				"xp": 695.0
+			},
+			"note": "Compare JSON values, allowing numeric deserialization; real local save writer, reader and migration"
+		},
+		"passed": true,
+		"test": "save_semantic_roundtrip"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "reload_no_duplicate_rewards"
+	}
+]

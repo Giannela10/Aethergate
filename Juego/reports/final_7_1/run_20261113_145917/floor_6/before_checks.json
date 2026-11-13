@@ -1,0 +1,343 @@
+[
+	{
+		"detail": {
+			"bounds": "[P: (-84.5, 60.12495, -161.29), S: (169.0, 11.78, 38.87)]",
+			"clear_samples": 6,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_PasilloReferencia"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-58.09, 60.12495, -161.29), S: (16.18, 11.29, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_Sala807"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-42.09, 60.12495, -161.29), S: (16.18, 11.29, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_Sala808"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (32.91, 60.12495, -161.29), S: (12.68, 11.29, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_Sala805"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (45.41, 60.12495, -161.29), S: (12.68, 11.29, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_Sala806"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (19.91, 60.12495, -148.49), S: (13.18, 11.29, 10.86501)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_Sala809"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.09, 60.12495, -146.09), S: (6.18, 11.29, 8.464996)]",
+			"clear_samples": 4,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_Sala810"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-70.075, 60.15495, -161.275), S: (12.15, 11.25, 23.59999)]",
+			"clear_samples": 6,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_BanosMujeres"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (57.925, 60.15495, -161.275), S: (12.15, 11.25, 23.59999)]",
+			"clear_samples": 6,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_BanosHombres"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-19.0, 60.15495, -147.0), S: (38.0, 11.27, 10.0)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_ZonaEncuentroDuoc"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-83.09, 60.15495, -144.09), S: (12.17999, 11.26, 6.410004)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_SalaEstudioExtremoSur"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (70.91, 60.15495, -144.09), S: (12.17999, 11.26, 6.410004)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_SalaEstudioExtremoSur_4187"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.25, 60.1585, -149.505), S: (48.75, 5.630001, 7.75499)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "capsule_sample_VestibuloAscensores"
+	},
+	{
+		"detail": {
+			"text": "PLANO DE LOS PISOS\nPISO 6 · USTED ESTÁ AQUÍ\n\nPISO 1\nCasino · Coordinación\n\nPISO 2\nBiblioteca · Auditorio"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "directory_destinations"
+	},
+	{
+		"detail": {
+			"actor": "(52.0, 60.22495, -132.0)",
+			"selected": "/root/FinalCampus71/Main/Piso6/profesor_ingles/BossDuelController",
+			"simulation": true
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "E_selection_profesor_ingles"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "dialogue_profesor_ingles"
+	},
+	{
+		"detail": {
+			"id": "4e928533-e6f8-52e3-bbf1-115a8d4fd993",
+			"prompt": "Choose the correct sentence.",
+			"subject": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "question_options_profesor_ingles_0"
+	},
+	{
+		"detail": {
+			"explanation": "Con she, el presente del verbo be es is.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "feedback_profesor_ingles_0"
+	},
+	{
+		"detail": {
+			"id": "0747cad5-1dcf-5ab2-b71e-508f53af783f",
+			"prompt": "What is the English word for biblioteca?",
+			"subject": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "question_options_profesor_ingles_1"
+	},
+	{
+		"detail": {
+			"explanation": "Library designa una biblioteca.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "feedback_profesor_ingles_1"
+	},
+	{
+		"detail": {
+			"id": "70edf2e8-01cf-5fdc-97d8-d5a81195ebba",
+			"prompt": "Complete: I have ___ apple.",
+			"subject": "06cc220b-ed6f-5213-ab7e-df5afd9c51eb"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "question_options_profesor_ingles_2"
+	},
+	{
+		"detail": {
+			"explanation": "Se utiliza an antes del sonido vocálico inicial de apple.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "feedback_profesor_ingles_2"
+	},
+	{
+		"detail": [
+			"4e928533-e6f8-52e3-bbf1-115a8d4fd993",
+			"0747cad5-1dcf-5ab2-b71e-508f53af783f",
+			"70edf2e8-01cf-5fdc-97d8-d5a81195ebba"
+		],
+		"floor": 6,
+		"status": "PASS",
+		"test": "no_early_repeat_profesor_ingles"
+	},
+	{
+		"detail": null,
+		"floor": 6,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_profesor_ingles"
+	},
+	{
+		"detail": {
+			"actor": "(-52.0, 60.22495, -132.0)",
+			"selected": "/root/FinalCampus71/Main/Piso6/profesor_etica/BossDuelController",
+			"simulation": true
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "E_selection_profesor_etica"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "dialogue_profesor_etica"
+	},
+	{
+		"detail": {
+			"id": "33f119dc-11d8-5e9e-9bc6-3c15d15a6e11",
+			"prompt": "¿Qué conducta expresa integridad académica?",
+			"subject": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "question_options_profesor_etica_0"
+	},
+	{
+		"detail": {
+			"explanation": "La integridad exige honestidad sobre autoría y resultados.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "feedback_profesor_etica_0"
+	},
+	{
+		"detail": {
+			"id": "4c39ed85-8425-5aab-92aa-4da105b01b2f",
+			"prompt": "¿Qué es información confidencial?",
+			"subject": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "question_options_profesor_etica_1"
+	},
+	{
+		"detail": {
+			"explanation": "La confidencialidad establece deberes sobre el acceso y la divulgación.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "feedback_profesor_etica_1"
+	},
+	{
+		"detail": {
+			"id": "024df2bf-6cef-5f54-8933-b55d1d784ba9",
+			"prompt": "¿Qué acción respeta la privacidad de otra persona?",
+			"subject": "84aa08a7-8520-56a0-bfe3-63b16bdb8f44"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "question_options_profesor_etica_2"
+	},
+	{
+		"detail": {
+			"explanation": "El tratamiento responsable limita datos y respeta finalidad y autorización.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "feedback_profesor_etica_2"
+	},
+	{
+		"detail": [
+			"33f119dc-11d8-5e9e-9bc6-3c15d15a6e11",
+			"4c39ed85-8425-5aab-92aa-4da105b01b2f",
+			"024df2bf-6cef-5f54-8933-b55d1d784ba9"
+		],
+		"floor": 6,
+		"status": "PASS",
+		"test": "no_early_repeat_profesor_etica"
+	},
+	{
+		"detail": null,
+		"floor": 6,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_profesor_etica"
+	},
+	{
+		"detail": {
+			"scope": "Diagnostic relocation for inspection; no campaign authorization injected",
+			"unlocks": {
+				"ENGLISH_PREPARED": false,
+				"LECTURA_PREPARADA": false,
+				"NEXO_INFORMATION": false,
+				"REFLEXION_PREVIA": false,
+				"provided:documentos": true,
+				"reward:quest:documentos": true,
+				"reward:welcome": true
+			}
+		},
+		"floor": 6,
+		"status": "PASS",
+		"test": "campaign_gates_not_bypassed"
+	}
+]

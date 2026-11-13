@@ -1,0 +1,34 @@
+[
+    {
+        "file":  "Juego/Main.tscn",
+        "sha256":  "3AA2A2D0AA7B4A23233BF8E298C8F6FD71AA4D0E17904F8654288E86C2816BBA"
+    },
+    {
+        "file":  "Juego/scripts/campaign/interaction_controller.gd",
+        "sha256":  "3840FCE0163EA0339725A8665B435ACE816FCA257D7D28EB8C2E937DD8629EFC"
+    },
+    {
+        "file":  "Juego/scripts/juego/character_footwear_6_3.gd",
+        "sha256":  "4400161C8E7905FC32D28008DD41D59F746C5F20DA4A48D2C78F7594416E1FAC"
+    },
+    {
+        "file":  "Juego/scripts/juego/human_student_6_2.gd",
+        "sha256":  "1E18D16EB0B93C0D6496694EAD7BA25A0C39B56BD24ABF0F97AEE113CA8BE874"
+    },
+    {
+        "file":  "Juego/scripts/juego/humanoid.gd",
+        "sha256":  "B7B95FF8DC184C3EEBB65776B264B3FF1B34B52AF017D711FF6CA501AABEBD54"
+    },
+    {
+        "file":  "Juego/scripts/pisos/piso_menos_1/reconstruccion_visual_2026.gd",
+        "sha256":  "E32A8B560E322C0460FDA9064847CC85B5811876956F3E84CDDFC7E9DD2B73A4"
+    },
+    {
+        "file":  "Juego/CHARACTER_ANIMATION_FINAL_7_0.md",
+        "sha256":  "9F7EAD59FC216914726B39145FF1949F817976C64DE4227F0FED3FCE34E3CF3F"
+    },
+    {
+        "file":  "Juego/FLOORS_MINUS1_1_2_FINAL_AUDIT.md",
+        "sha256":  "6C7D64CA0AD516D2A101315EBEC0460B036F0BCA0C3711AAFF9286F3A9FD58F3"
+    }
+]

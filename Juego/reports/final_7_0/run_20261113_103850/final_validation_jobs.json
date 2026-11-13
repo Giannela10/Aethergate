@@ -1,0 +1,56 @@
+[
+    {
+        "arguments":  {
+                          "file_path":  "res://scripts/juego/human_student_6_2.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://scripts/juego/character_footwear_6_3.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://scripts/juego/humanoid.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://scripts/campaign/interaction_controller.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://scripts/pisos/piso_menos_1/reconstruccion_visual_2026.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://tests/final_campus_7_0.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://tests/final_probe_7_0.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://tests/final_extras_7_0.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://tests/final_ramp_resource_7_0.gd"
+                      },
+        "tool":  "script_check"
+    }
+]

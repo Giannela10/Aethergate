@@ -1,0 +1,176 @@
+[
+	{
+		"detail": {
+			"questions": 150,
+			"unique_prompts": 150
+		},
+		"status": "PASS",
+		"test": "bank_150_unique_valid"
+	},
+	{
+		"detail": {
+			"floor": 3.0,
+			"mode": "Local service full cycle; no official grade or remote write",
+			"questions": 15,
+			"subjects": [
+				"2ea705e1-9bd2-51ce-a5ef-98e9db30da98"
+			]
+		},
+		"status": "PASS",
+		"test": "deck_profesor_datos"
+	},
+	{
+		"detail": {
+			"floor": 3.0,
+			"mode": "Local service full cycle; no official grade or remote write",
+			"questions": 15,
+			"subjects": [
+				"702a0166-82e3-5a7e-9004-8de48d1cecf7"
+			]
+		},
+		"status": "PASS",
+		"test": "deck_profesor_algoritmos"
+	},
+	{
+		"detail": {
+			"floor": 3.0,
+			"mode": "Local service full cycle; no official grade or remote write",
+			"questions": 15,
+			"subjects": [
+				"d607df1e-af8d-594a-9f2e-d46186d0b3a6"
+			]
+		},
+		"status": "PASS",
+		"test": "deck_profesor_redes"
+	},
+	{
+		"detail": {
+			"floor": 4.0,
+			"mode": "Local service full cycle; no official grade or remote write",
+			"questions": 15,
+			"subjects": [
+				"b1d6de42-ae8c-5f14-8e39-6175edd15fb5"
+			]
+		},
+		"status": "PASS",
+		"test": "deck_docente_enfermeria"
+	},
+	{
+		"detail": {
+			"floor": 4.0,
+			"mode": "Local service full cycle; no official grade or remote write",
+			"questions": 15,
+			"subjects": [
+				"98e03d19-a8e3-5880-bd55-d50dd53dc787"
+			]
+		},
+		"status": "PASS",
+		"test": "deck_docente_odontologia"
+	},
+	{
+		"detail": {
+			"floor": 6.0,
+			"mode": "Local service full cycle; no official grade or remote write",
+			"questions": 15,
+			"subjects": [
+				"06cc220b-ed6f-5213-ab7e-df5afd9c51eb"
+			]
+		},
+		"status": "PASS",
+		"test": "deck_profesor_ingles"
+	},
+	{
+		"detail": {
+			"floor": 6.0,
+			"mode": "Local service full cycle; no official grade or remote write",
+			"questions": 15,
+			"subjects": [
+				"84aa08a7-8520-56a0-bfe3-63b16bdb8f44"
+			]
+		},
+		"status": "PASS",
+		"test": "deck_profesor_etica"
+	},
+	{
+		"detail": {
+			"floor": 7.0,
+			"mode": "Local service full cycle; no official grade or remote write",
+			"questions": 15,
+			"subjects": [
+				"a341fb38-521c-5209-bc61-ef328634c1fd"
+			]
+		},
+		"status": "PASS",
+		"test": "deck_profesor_lenguaje"
+	},
+	{
+		"detail": {
+			"floor": 7.0,
+			"mode": "Local service full cycle; no official grade or remote write",
+			"questions": 15,
+			"subjects": [
+				"1624252c-aa36-5b40-8dc7-8e5f0b6017a0"
+			]
+		},
+		"status": "PASS",
+		"test": "deck_profesor_matematicas"
+	},
+	{
+		"detail": {
+			"floor": 4.0,
+			"mode": "Local service full cycle; no official grade or remote write",
+			"questions": 15,
+			"subjects": [
+				"2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+				"702a0166-82e3-5a7e-9004-8de48d1cecf7",
+				"d607df1e-af8d-594a-9f2e-d46186d0b3a6",
+				"b1d6de42-ae8c-5f14-8e39-6175edd15fb5",
+				"98e03d19-a8e3-5880-bd55-d50dd53dc787",
+				"06cc220b-ed6f-5213-ab7e-df5afd9c51eb",
+				"84aa08a7-8520-56a0-bfe3-63b16bdb8f44",
+				"a341fb38-521c-5209-bc61-ef328634c1fd",
+				"1624252c-aa36-5b40-8dc7-8e5f0b6017a0"
+			]
+		},
+		"status": "PASS",
+		"test": "deck_coordinador_profesores"
+	},
+	{
+		"detail": {
+			"floor": 8.0,
+			"mode": "Local service full cycle; no official grade or remote write",
+			"questions": 15,
+			"subjects": [
+				"2ea705e1-9bd2-51ce-a5ef-98e9db30da98",
+				"702a0166-82e3-5a7e-9004-8de48d1cecf7",
+				"d607df1e-af8d-594a-9f2e-d46186d0b3a6"
+			]
+		},
+		"status": "PASS",
+		"test": "deck_director"
+	},
+	{
+		"detail": {
+			"bases": 4,
+			"screens": 4,
+			"stems": 4
+		},
+		"status": "PASS",
+		"test": "fresh_lab_stands"
+	},
+	{
+		"detail": null,
+		"status": "PASS",
+		"test": "fresh_guard_collision"
+	},
+	{
+		"detail": null,
+		"status": "PASS",
+		"test": "guard_install_idempotent"
+	},
+	{
+		"detail": null,
+		"status": "PASS",
+		"test": "Main_guard_script_persisted"
+	}
+]

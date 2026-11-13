@@ -1,0 +1,11 @@
+ M Juego/DUOCGAMES_4_0_REPORT.md
+ D Juego/tests/placement_stairs_visual_check.gd.uid
+?? Juego/reports/detail_admin_dashboard.png.import
+?? Juego/reports/detail_coordination_overview.png.import
+?? Juego/reports/detail_gameplay_inventory.png.import
+?? Juego/reports/detail_gameplay_map.png.import
+?? Juego/reports/detail_gameplay_pause.png.import
+?? Juego/reports/detail_gameplay_phone.png.import
+?? Juego/reports/detail_gameplay_walking.png.import
+?? Juego/reports/detail_teacher_dashboard.png.import
+?? Juego/reports/final_7_0/

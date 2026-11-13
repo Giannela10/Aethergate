@@ -1,0 +1,100 @@
+[
+	{
+		"detail": null,
+		"passed": true,
+		"test": "first_day_initial_active"
+	},
+	{
+		"detail": {
+			"position": "(-42.0, 0.0, -142.4)",
+			"selected": "/root/FinalCampus70/Main/Piso1/SalaAyudaEstudiantil/BossAyudaEstudiantil/BossDuelController"
+		},
+		"passed": true,
+		"test": "punto_scanner"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "punto_dialogue"
+	},
+	{
+		"detail": null,
+		"passed": false,
+		"test": "punto_talk_objective"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "first_collect_objective"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "intro_pc_scanner"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "intro_pc_started"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "intro_pc_objective"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "simulation_punto"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "simulation_chef"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "first_day_completed_fixture"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "floor2_unlocked_by_quest"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "first_day_no_duplicate_reward"
+	},
+	{
+		"detail": {
+			"cabin": "(-10.0, 12.05839, -157.0)",
+			"floor": "2",
+			"note": "Real platform ride; diagnostic relocation into cabin",
+			"position": "(-10.0, 12.05854, -157.0)"
+		},
+		"passed": true,
+		"test": "lift_one_to_two"
+	},
+	{
+		"detail": {
+			"cabin": "(-10.0, 0.0, -157.0)",
+			"floor": "1",
+			"note": "Real platform ride; diagnostic relocation into cabin",
+			"position": "(-10.0, 0.000341, -157.0)"
+		},
+		"passed": true,
+		"test": "lift_two_to_one"
+	},
+	{
+		"detail": {
+			"cabin": "(-10.0, 12.05839, -157.0)",
+			"floor": "2",
+			"note": "Real platform ride; diagnostic relocation into cabin",
+			"position": "(-10.0, 12.05873, -157.0)"
+		},
+		"passed": true,
+		"test": "lift_one_to_two_again"
+	}
+]

@@ -1,0 +1,295 @@
+[
+	{
+		"detail": {
+			"bounds": "[P: (-84.5, 83.88, -161.29), S: (169.0, 11.78001, 38.87)]",
+			"clear_samples": 6,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_PasilloReferencia"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-58.09, 83.88, -161.29), S: (16.18, 11.29001, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_Sala807"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-42.09, 83.88, -161.29), S: (16.18, 11.29001, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_Sala808"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (32.91, 83.88, -161.29), S: (12.68, 11.29001, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_Sala805"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (45.41, 83.88, -161.29), S: (12.68, 11.29001, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_Sala806"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (19.91, 83.88, -148.49), S: (13.18, 11.29001, 10.86501)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_Sala809"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.09, 83.88, -146.09), S: (6.18, 11.29001, 8.464996)]",
+			"clear_samples": 4,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_Sala810"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-70.075, 83.91, -161.275), S: (12.15, 11.25, 23.59999)]",
+			"clear_samples": 6,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_BanosMujeres"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (57.925, 83.91, -161.275), S: (12.15, 11.25, 23.59999)]",
+			"clear_samples": 6,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_BanosHombres"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-19.0, 83.91, -147.0), S: (38.0, 11.27, 10.0)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_ZonaEncuentroDuoc"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-83.09, 83.91, -144.09), S: (12.17999, 11.26, 6.410004)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_SalaEstudioExtremoSur"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (70.91, 83.91, -144.09), S: (12.17999, 11.26, 6.410004)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_SalaEstudioExtremoSur_4187"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.25, 83.91355, -149.505), S: (48.75, 5.629997, 7.75499)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "capsule_sample_VestibuloAscensores"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]",
+			"clear_samples": 0,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 8,
+		"status": "NOT RUN",
+		"test": "capsule_sample_EncuentroDirectorInformatica"
+	},
+	{
+		"detail": {
+			"text": "PLANO DE LOS PISOS\nPISO 8 · USTED ESTÁ AQUÍ\n\nPISO 1\nCasino · Coordinación\n\nPISO 2\nBiblioteca · Auditorio"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "directory_destinations"
+	},
+	{
+		"detail": {
+			"actor": "(64.0, 84.06, -131.0)",
+			"selected": "/root/FinalCampus71/Main/Piso8/EncuentroDirectorInformatica/DirectorInformaticaBoss/BossDuelController",
+			"simulation": true
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "E_selection_director"
+	},
+	{
+		"detail": {
+			"missing": "Pruebas del Director: 0/3\nRevisa los puntos informáticos señalizados del piso 8: conexión, antivirus y configuración.",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 0
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "dialogue_director"
+	},
+	{
+		"detail": {
+			"id": "66e154d1-c925-58c0-8f67-d4ffe0f53960",
+			"prompt": "En una relación con clave simple, A determina B y B determina C no clave. ¿Qué problema se busca evitar al alcanzar tercera forma normal?",
+			"subject": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "question_options_director_0"
+	},
+	{
+		"detail": {
+			"explanation": "La tercera forma normal busca evitar dependencias transitivas indebidas de atributos no clave.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "feedback_director_0"
+	},
+	{
+		"detail": {
+			"id": "63a11d9c-e17e-5755-b1fd-7798e04a4d90",
+			"prompt": "¿Qué garantiza la atomicidad de una transferencia entre dos cuentas?",
+			"subject": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "question_options_director_1"
+	},
+	{
+		"detail": {
+			"explanation": "Atomicidad significa que la unidad transaccional no queda confirmada parcialmente.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "feedback_director_1"
+	},
+	{
+		"detail": {
+			"id": "1d05b001-8c84-5b15-9199-7d5cd191aa2e",
+			"prompt": "¿Qué evita principalmente una consulta SQL parametrizada frente a concatenar entradas?",
+			"subject": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "question_options_director_2"
+	},
+	{
+		"detail": {
+			"explanation": "Los parámetros separan valores e instrucciones y reducen el riesgo de inyección SQL.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "feedback_director_2"
+	},
+	{
+		"detail": [
+			"66e154d1-c925-58c0-8f67-d4ffe0f53960",
+			"63a11d9c-e17e-5755-b1fd-7798e04a4d90",
+			"1d05b001-8c84-5b15-9199-7d5cd191aa2e"
+		],
+		"floor": 8,
+		"status": "PASS",
+		"test": "no_early_repeat_director"
+	},
+	{
+		"detail": null,
+		"floor": 8,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_director"
+	},
+	{
+		"detail": {
+			"scope": "Diagnostic relocation for inspection; no campaign authorization injected",
+			"unlocks": {
+				"ENGLISH_PREPARED": false,
+				"LECTURA_PREPARADA": false,
+				"NEXO_INFORMATION": false,
+				"REFLEXION_PREVIA": false,
+				"door:acceso7": true,
+				"provided:documentos": true,
+				"reward:quest:documentos": true,
+				"reward:quest:ubicar_profesores": true,
+				"reward:welcome": true
+			}
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "campaign_gates_not_bypassed"
+	},
+	{
+		"detail": {
+			"reason": "No safe start",
+			"start": "(-30.0, 84.03355, -140.0)"
+		},
+		"floor": 8,
+		"status": "NOT RUN",
+		"test": "hall_walk_8"
+	},
+	{
+		"detail": {
+			"scope": "Negative authorization test; authorized inter-floor ride BLOCKED by unmet campaign, no unlock injection",
+			"unlocked": false
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "elevator_campaign_gate"
+	},
+	{
+		"detail": "Current isolated new campaign has not earned upper-floor destinations",
+		"floor": 8,
+		"status": "BLOCKED",
+		"test": "authorized_elevator_trip"
+	},
+	{
+		"detail": {
+			"cloud": false,
+			"path": "res://reports/final_7_1/run_20261113_145917/floor_8/isolated_save.json"
+		},
+		"floor": 8,
+		"status": "PASS",
+		"test": "isolated_save_read"
+	}
+]

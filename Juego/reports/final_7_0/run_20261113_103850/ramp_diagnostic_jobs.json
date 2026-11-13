@@ -1,0 +1,23 @@
+[
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_script().set_source_code(get_tree().current_scene.get_script().source_code+\"\\nfunc start_ramp_diagnostic() -\\u003e String:\\n\\treturn load(\\\"res://tests/final_ramp_7_0.gd\\\").new().install(self)\\n\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_script().reload(true)",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.start_ramp_diagnostic()",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    }
+]

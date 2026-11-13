@@ -1,0 +1,30 @@
+[
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_script().set_source_code(get_tree().current_scene.get_script().source_code+\"\\nfunc start_regressions() -\\u003e String:\\n\\treturn load(\\\"res://tests/final_regressions_7_0.gd\\\").new().install(self)\\n\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_script().reload(true)",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.set(\"out\",get_tree().current_scene.out+\"cadence_regression/\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.start_regressions()",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    }
+]

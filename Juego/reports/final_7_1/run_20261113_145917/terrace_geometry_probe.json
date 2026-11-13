@@ -1,0 +1,4 @@
+{
+    "code":  "[get_tree().current_scene.campus.get_node(\"Piso5/TerrazaPicnic/CercaVidrio/Frente/Panel01\").size,get_tree().current_scene.campus.get_node(\"Piso5/TerrazaPicnic/CercaVidrio/Frente/Panel01\").global_transform,get_tree().current_scene.campus.get_node(\"Piso5/TerrazaPicnic/CercaVidrio/Frente/Panel01\").collision_layer]",
+    "channel":  "runtime"
+}

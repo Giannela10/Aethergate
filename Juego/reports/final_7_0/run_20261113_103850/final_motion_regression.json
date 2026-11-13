@@ -1,0 +1,30 @@
+[
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_child(-2).set(\"out\",get_tree().current_scene.out+\"final_contact/\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_child(-2).call_deferred(\"locomotion_measure\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_child(-1).set(\"results\",[])",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_child(-1).call_deferred(\"run\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    }
+]

@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-11-13T18:44:07.311Z",
+  "public_get_only": true,
+  "configured": true,
+  "authenticated_user": false,
+  "remote_bank_counts": "unknown_without_authorized_staff_session",
+  "probes": [
+    {
+      "route": "/auth/v1/settings",
+      "status": 200,
+      "count_header": null
+    },
+    {
+      "route": "/rest/v1/",
+      "status": 401,
+      "count_header": null
+    },
+    {
+      "route": "/rest/v1/campaign_saves",
+      "status": 401,
+      "error_code": "42501",
+      "count_header": null
+    },
+    {
+      "route": "/rest/v1/learning_access",
+      "status": 404,
+      "error_code": "PGRST205",
+      "count_header": null
+    },
+    {
+      "route": "/rest/v1/learning_activities",
+      "status": 404,
+      "error_code": "PGRST205",
+      "count_header": null
+    },
+    {
+      "route": "/rest/v1/learning_attempts",
+      "status": 404,
+      "error_code": "PGRST205",
+      "count_header": null
+    },
+    {
+      "route": "/rest/v1/profiles",
+      "status": 401,
+      "error_code": "42501",
+      "count_header": null
+    },
+    {
+      "route": "/rest/v1/questions",
+      "status": 401,
+      "error_code": "42501",
+      "count_header": null
+    },
+    {
+      "route": "/rest/v1/subjects",
+      "status": 401,
+      "error_code": "42501",
+      "count_header": null
+    },
+    {
+      "route": "/rest/v1/teacher_subjects",
+      "status": 401,
+      "error_code": "42501",
+      "count_header": null
+    }
+  ],
+  "reachable": true
+}

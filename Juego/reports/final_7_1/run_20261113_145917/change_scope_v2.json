@@ -1,0 +1,179 @@
+{
+  "protectedFiles": [
+    {
+      "file": "Juego/CHARACTER_ANIMATION_FINAL_7_0.md",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/DUOCGAMES_4_0_REPORT.md",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/FLOORS_MINUS1_1_2_FINAL_AUDIT.md",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/scripts/campaign/interaction_controller.gd",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/scripts/campaign/interaction_controller.gd.uid",
+      "unchanged": true,
+      "comparison": "HEAD UID; recovery UID was reimported by Godot"
+    },
+    {
+      "file": "Juego/scripts/juego/character_footwear_6_3.gd",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/scripts/juego/character_footwear_6_3.gd.uid",
+      "unchanged": true,
+      "comparison": "HEAD UID; recovery UID was reimported by Godot"
+    },
+    {
+      "file": "Juego/scripts/juego/humanoid.gd",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/scripts/juego/humanoid.gd.uid",
+      "unchanged": true,
+      "comparison": "HEAD UID; recovery UID was reimported by Godot"
+    },
+    {
+      "file": "Juego/scripts/juego/human_student_6_2.gd",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/scripts/juego/human_student_6_2.gd.uid",
+      "unchanged": true,
+      "comparison": "HEAD UID; recovery UID was reimported by Godot"
+    },
+    {
+      "file": "Juego/scripts/pisos/piso_menos_1/reconstruccion_visual_2026.gd",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/scripts/pisos/piso_menos_1/reconstruccion_visual_2026.gd.uid",
+      "unchanged": true,
+      "comparison": "HEAD UID; recovery UID was reimported by Godot"
+    },
+    {
+      "file": "Juego/tests/FinalAnimation70.tscn",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/FinalCampus70.tscn",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_animation_7_0.gd",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_animation_7_0.gd.uid",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_campus_7_0.gd",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_campus_7_0.gd.uid",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_contacts_7_0.ps1",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_extras_7_0.gd",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_extras_7_0.gd.uid",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_gallery_7_0.cjs",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_mcp_7_0.cjs",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_probe_7_0.gd",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_probe_7_0.gd.uid",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_ramp_7_0.gd",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_ramp_7_0.gd.uid",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_ramp_resource_7_0.gd",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_ramp_resource_7_0.gd.uid",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_regressions_7_0.gd",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_regressions_7_0.gd.uid",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    },
+    {
+      "file": "Juego/tests/final_summary_7_0.cjs",
+      "unchanged": true,
+      "comparison": "recovery SHA-256"
+    }
+  ],
+  "Main": {
+    "changed": [
+      "[node name=\"Frente\" type=\"Node3D\" parent=\"Piso5/TerrazaPicnic/CercaVidrio\" unique_id=1549016223]"
+    ],
+    "added": [
+      "[ext_resource type=\"Script\" path=\"res://scripts/pisos/piso_5/terrace_guard_collision_7_1.gd\" id=\"71_terrace_guard\"]"
+    ],
+    "removed": []
+  },
+  "status": "PASS"
+}

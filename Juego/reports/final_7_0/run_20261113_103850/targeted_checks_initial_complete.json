@@ -1,0 +1,283 @@
+[
+	{
+		"detail": "/root/FinalCampus70/Main/PisoMenos1/NexoFinalArea",
+		"passed": true,
+		"test": "nexo_actual_reference"
+	},
+	{
+		"detail": {
+			"placement_valid": true
+		},
+		"passed": true,
+		"test": "nexo_prerequisites_preserved"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "punto_real_dialogue"
+	},
+	{
+		"detail": [
+			{
+				"blocker": "/root/FinalCampus70/Main/Piso1/SalaAyudaEstudiantil/BossAyudaEstudiantil/CuerpoBoss",
+				"can_reach": true,
+				"offset": "(0.0, 0.0, 1.6)",
+				"safe": true,
+				"selected": "/root/FinalCampus70/Main/Piso1/SalaAyudaEstudiantil/BossAyudaEstudiantil/BossDuelController"
+			}
+		],
+		"passed": true,
+		"test": "punto_access_from_valid_side"
+	},
+	{
+		"detail": {
+			"blockers": [
+				"/root/FinalCampus70/Main/Piso2/Losas/LosaOriginal10/StaticBody3D"
+			],
+			"end": "(-53.5, 12.05859, -116.245)",
+			"note": "Input-driven segment; vertical target is diagnostic, horizontal reach is assertion",
+			"start": "(-53.5, 12.09839, -125.0)",
+			"target": "(-53.5, 12.2, -116.0)",
+			"trace": [
+				"(-53.5, 12.05859, -124.6611)",
+				"(-53.5, 12.05859, -124.1611)",
+				"(-53.5, 12.05859, -123.6612)",
+				"(-53.5, 12.05859, -123.1195)",
+				"(-53.5, 12.05859, -122.6196)",
+				"(-53.5, 12.05859, -122.1196)",
+				"(-53.5, 12.05859, -121.578)",
+				"(-53.5, 12.05859, -121.078)",
+				"(-53.5, 12.05859, -120.5364)",
+				"(-53.5, 12.05859, -119.9947)",
+				"(-53.5, 12.05859, -119.4531)",
+				"(-53.5, 12.05859, -118.9115)",
+				"(-53.5, 12.05859, -118.4115)",
+				"(-53.5, 12.05859, -117.8699)",
+				"(-53.5, 12.05859, -117.3282)",
+				"(-53.5, 12.05859, -116.7866)",
+				"(-53.5, 12.05859, -116.245)"
+			]
+		},
+		"passed": true,
+		"test": "library_main_aisle"
+	},
+	{
+		"detail": {
+			"blockers": [],
+			"end": "(64.19728, 11.52026, -118.5)",
+			"note": "Input-driven segment; vertical target is diagnostic, horizontal reach is assertion",
+			"start": "(70.0, 12.09839, -118.5)",
+			"target": "(64.0, 12.2, -118.5)",
+			"trace": [
+				"(69.70278, 12.05859, -118.5)",
+				"(69.20281, 12.05859, -118.5)",
+				"(68.66118, 12.05859, -118.5)",
+				"(68.16121, 12.05859, -118.5)",
+				"(67.61958, 12.05859, -118.5)",
+				"(66.95295, 12.05713, -118.5)",
+				"(66.41013, 11.9563, -118.5)",
+				"(65.90945, 11.85815, -118.5)",
+				"(65.32451, 11.74292, -118.5)",
+				"(64.78175, 11.6355, -118.5)",
+				"(64.19728, 11.52026, -118.5)"
+			]
+		},
+		"passed": true,
+		"test": "auditorium_entry1"
+	},
+	{
+		"detail": {
+			"blockers": [],
+			"end": "(64.11364, 11.50317, -90.5)",
+			"note": "Input-driven segment; vertical target is diagnostic, horizontal reach is assertion",
+			"start": "(70.0, 12.09839, -90.5)",
+			"target": "(64.0, 12.2, -90.5)",
+			"trace": [
+				"(69.70278, 12.05859, -90.5)",
+				"(69.20281, 12.05859, -90.5)",
+				"(68.61951, 12.05859, -90.5)",
+				"(67.99455, 12.05859, -90.5)",
+				"(67.49458, 12.05859, -90.5)",
+				"(66.95295, 12.05859, -90.5)",
+				"(66.36835, 11.94629, -90.5)",
+				"(65.82536, 11.84106, -90.5)",
+				"(65.2409, 11.72583, -90.5)",
+				"(64.65677, 11.61059, -90.5)",
+				"(64.11364, 11.50317, -90.5)"
+			]
+		},
+		"passed": true,
+		"test": "auditorium_entry2"
+	},
+	{
+		"detail": {
+			"blockers": [
+				"/root/FinalCampus70/Main/Piso1/EscaleraEmergencia/Tramo1RampaFisica",
+				"/root/FinalCampus70/Main/Piso1/EscaleraEmergencia/Tramo1RampaFisica",
+				"/root/FinalCampus70/Main/Piso1/EscaleraEmergencia/Tramo1RampaFisica"
+			],
+			"end": "(-22.65, 2.284398, -156.6174)",
+			"note": "Input-driven segment; vertical target is diagnostic, horizontal reach is assertion",
+			"start": "(-22.65, 0.04, -150.0)",
+			"target": "(-22.65, 3.0, -157.0)",
+			"trace": [
+				"(-22.65, -0.000039, -150.2972)",
+				"(-22.65, -0.000039, -150.7973)",
+				"(-22.65, 0.100352, -151.2566)",
+				"(-22.65, 0.275066, -151.6854)",
+				"(-22.65, 0.464336, -152.15)",
+				"(-22.65, 0.653603, -152.6146)",
+				"(-22.65, 0.828327, -153.0434)",
+				"(-22.65, 1.003024, -153.4722)",
+				"(-22.65, 1.192294, -153.9368)",
+				"(-22.65, 1.381623, -154.4015)",
+				"(-22.65, 1.556359, -154.8304)",
+				"(-22.65, 1.745621, -155.295)",
+				"(-22.65, 1.920372, -155.7239)",
+				"(-22.65, 2.109658, -156.1884)",
+				"(-22.65, 2.284398, -156.6174)"
+			]
+		},
+		"passed": true,
+		"test": "stairs_floor1_first_flight"
+	},
+	{
+		"detail": {
+			"reason": "No capsule-clear starting point",
+			"start": "(24.37, -11.9, -124.0)"
+		},
+		"passed": false,
+		"test": "basement_ramp_up"
+	},
+	{
+		"detail": {
+			"collected": 3,
+			"objective": 3
+		},
+		"passed": true,
+		"test": "three_books_real_pickups"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "library_dialogue"
+	},
+	{
+		"detail": {
+			"question": "«Hablemos de El principito. ¿Qué flor cuida el principito en su planeta?»",
+			"type": 1
+		},
+		"passed": true,
+		"test": "library_quiz_started"
+	},
+	{
+		"detail": {
+			"feedback": "DOÑA ELVIRA: «¡Correcto! Veo que sí has leído... No me rendiré tan fácil.»\nLa bibliotecaria pierde 25 de vida.",
+			"question": "¿Qué flor cuida el principito en su planeta?"
+		},
+		"passed": true,
+		"test": "question_feedback_0"
+	},
+	{
+		"detail": {
+			"feedback": "DOÑA ELVIRA: «¡Correcto! Veo que sí has leído... No me rendiré tan fácil.»\nLa bibliotecaria pierde 25 de vida.",
+			"question": "¿Cómo se llama el escudero de Don Quijote?"
+		},
+		"passed": true,
+		"test": "question_feedback_1"
+	},
+	{
+		"detail": {
+			"feedback": "DOÑA ELVIRA: «¡Correcto! Veo que sí has leído... No me rendiré tan fácil.»\nLa bibliotecaria pierde 25 de vida.",
+			"question": "¿Qué animal le enseña al principito sobre la amistad?"
+		},
+		"passed": true,
+		"test": "question_feedback_2"
+	},
+	{
+		"detail": {
+			"feedback": "DOÑA ELVIRA: «¡Correcto! Veo que sí has leído... No me rendiré tan fácil.»\nLa bibliotecaria pierde 25 de vida.",
+			"question": "¿Qué clase de animal persigue el capitán Ahab?"
+		},
+		"passed": true,
+		"test": "question_feedback_3"
+	},
+	{
+		"detail": {
+			"feedback": "DOÑA ELVIRA: «¡Correcto! Veo que sí has leído... No me rendiré tan fácil.»\nLa bibliotecaria pierde 25 de vida.\n¡Ganaste! «Has demostrado conocer mis libros.»",
+			"question": "¿Dónde debe destruirse el Anillo Único?"
+		},
+		"passed": true,
+		"test": "question_feedback_4"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "library_quiz_finished"
+	},
+	{
+		"detail": {
+			"floor3": true,
+			"note": "Only checked unlock dependency; floor 3 not visited",
+			"state": 2
+		},
+		"passed": true,
+		"test": "library_quest_unlock3"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "library_no_duplicate_reward"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "local_save_written_and_read"
+	},
+	{
+		"detail": null,
+		"passed": false,
+		"test": "save_quests_rewards_persistent_ids"
+	},
+	{
+		"detail": {
+			"blockers": [
+				"/root/FinalCampus70/Main/Piso1/LosasYAccesos/LosaRecortada_1_3/Cuerpo"
+			],
+			"end": "(24.37, 0.000205, -137.4648)",
+			"note": "Input-driven segment; vertical target is diagnostic, horizontal reach is assertion",
+			"start": "(24.37, 0.04, -124.0)",
+			"target": "(24.37, -6.0, -138.0)",
+			"trace": [
+				"(24.37, 0.000205, -124.2972)",
+				"(24.37, 0.000205, -124.8389)",
+				"(24.37, 0.000205, -125.3388)",
+				"(24.37, 0.000205, -125.8805)",
+				"(24.37, 0.000205, -126.4221)",
+				"(24.37, 0.000205, -126.9221)",
+				"(24.37, 0.000205, -127.422)",
+				"(24.37, 0.000205, -127.9637)",
+				"(24.37, 0.000205, -128.5054)",
+				"(24.37, 0.000205, -129.0888)",
+				"(24.37, 0.000205, -129.6305)",
+				"(24.37, 0.000205, -130.1723)",
+				"(24.37, 0.000205, -130.714)",
+				"(24.37, 0.000205, -131.2141)",
+				"(24.37, 0.000205, -131.7558)",
+				"(24.37, 0.000205, -132.2975)",
+				"(24.37, 0.000205, -132.7976)",
+				"(24.37, 0.000205, -133.2976)",
+				"(24.37, 0.000205, -133.8394)",
+				"(24.37, 0.000205, -134.3394)",
+				"(24.37, 0.000205, -134.8812)",
+				"(24.37, 0.000205, -135.3812)",
+				"(24.37, 0.000205, -135.923)",
+				"(24.37, 0.000205, -136.423)",
+				"(24.37, 0.000205, -136.9648)",
+				"(24.37, 0.000205, -137.4648)"
+			]
+		},
+		"passed": true,
+		"test": "ramp_from_actual_surface"
+	}
+]

@@ -1,0 +1,647 @@
+[
+	{
+		"detail": {
+			"bounds": "[P: (-84.5, 71.90862, -161.29), S: (169.0, 11.78001, 38.87)]",
+			"clear_samples": 6,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_PasilloReferencia"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-58.09, 71.90862, -161.29), S: (16.18, 11.29001, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_Sala807"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-42.09, 71.90862, -161.29), S: (16.18, 11.29001, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_Sala808"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (32.91, 71.90862, -161.29), S: (12.68, 11.29001, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_Sala805"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (45.41, 71.90862, -161.29), S: (12.68, 11.29001, 23.66499)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_Sala806"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (19.91, 71.90862, -148.49), S: (13.18, 11.29001, 10.86501)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_Sala809"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.09, 71.90862, -146.09), S: (6.18, 11.29001, 8.464996)]",
+			"clear_samples": 4,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_Sala810"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-70.075, 71.93863, -161.275), S: (12.15, 11.25, 23.59999)]",
+			"clear_samples": 6,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_BanosMujeres"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (57.925, 71.93863, -161.275), S: (12.15, 11.25, 23.59999)]",
+			"clear_samples": 6,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_BanosHombres"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-19.0, 71.93863, -147.0), S: (38.0, 11.27, 10.0)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_ZonaEncuentroDuoc"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-83.09, 71.93863, -144.09), S: (12.17999, 11.26, 6.410004)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_SalaEstudioExtremoSur"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (70.91, 71.93863, -144.09), S: (12.17999, 11.26, 6.410004)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_SalaEstudioExtremoSur_4187"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.25, 71.94218, -149.505), S: (48.75, 5.629997, 7.75499)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "capsule_sample_VestibuloAscensores"
+	},
+	{
+		"detail": {
+			"text": "PLANO DE LOS PISOS\nPISO 7 · USTED ESTÁ AQUÍ\n\nPISO 1\nCasino · Coordinación\n\nPISO 2\nBiblioteca · Auditorio"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "directory_destinations"
+	},
+	{
+		"detail": {
+			"actor": "(52.0, 72.00863, -132.0)",
+			"selected": "/root/FinalCampus71/Main/Piso7/profesor_lenguaje/BossDuelController",
+			"simulation": true
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "E_selection_profesor_lenguaje"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "dialogue_profesor_lenguaje"
+	},
+	{
+		"detail": {
+			"id": "a2dd06ba-ecdd-5251-b991-b2babbeeefb9",
+			"prompt": "¿Qué elemento expresa con mayor claridad el propósito de un correo académico?",
+			"subject": "a341fb38-521c-5209-bc61-ef328634c1fd"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "question_options_profesor_lenguaje_0"
+	},
+	{
+		"detail": {
+			"explanation": "Un asunto específico permite anticipar el tema y organizar el mensaje.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "feedback_profesor_lenguaje_0"
+	},
+	{
+		"detail": {
+			"id": "f5a5fbae-9845-5581-85d0-b6e58fb7de26",
+			"prompt": "¿Cuál es un ejemplo de comunicación no verbal?",
+			"subject": "a341fb38-521c-5209-bc61-ef328634c1fd"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "question_options_profesor_lenguaje_1"
+	},
+	{
+		"detail": {
+			"explanation": "Los gestos y la postura transmiten información sin depender de palabras.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "feedback_profesor_lenguaje_1"
+	},
+	{
+		"detail": {
+			"id": "0b58f0f8-7861-5431-877a-cb001e51fa73",
+			"prompt": "¿Qué práctica favorece una presentación comprensible?",
+			"subject": "a341fb38-521c-5209-bc61-ef328634c1fd"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "question_options_profesor_lenguaje_2"
+	},
+	{
+		"detail": {
+			"explanation": "Una estructura ayuda a seguir el propósito y el hilo de la presentación.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "feedback_profesor_lenguaje_2"
+	},
+	{
+		"detail": [
+			"a2dd06ba-ecdd-5251-b991-b2babbeeefb9",
+			"f5a5fbae-9845-5581-85d0-b6e58fb7de26",
+			"0b58f0f8-7861-5431-877a-cb001e51fa73"
+		],
+		"floor": 7,
+		"status": "PASS",
+		"test": "no_early_repeat_profesor_lenguaje"
+	},
+	{
+		"detail": null,
+		"floor": 7,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_profesor_lenguaje"
+	},
+	{
+		"detail": {
+			"actor": "(-35.0, 71.98219, -140.0)",
+			"selected": "/root/FinalCampus71/Main/Piso7/profesor_matematicas/BossDuelController",
+			"simulation": true
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "E_selection_profesor_matematicas"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "dialogue_profesor_matematicas"
+	},
+	{
+		"detail": {
+			"id": "3dc70762-bd7b-56eb-bbb7-a29ddd75d009",
+			"prompt": "¿Cuánto vale x en x + 5 = 12?",
+			"subject": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "question_options_profesor_matematicas_0"
+	},
+	{
+		"detail": {
+			"explanation": "Restar 5 a ambos lados da x = 7.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "feedback_profesor_matematicas_0"
+	},
+	{
+		"detail": {
+			"id": "2aefbc88-67a3-5cbf-a026-18d4f0406057",
+			"prompt": "¿Cuál es el 10% de 200?",
+			"subject": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "question_options_profesor_matematicas_1"
+	},
+	{
+		"detail": {
+			"explanation": "0,10 × 200 = 20.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "feedback_profesor_matematicas_1"
+	},
+	{
+		"detail": {
+			"id": "3b83e3dc-d5f0-5638-8d7e-55f53af50ca8",
+			"prompt": "¿Cuánto es 3 × (2 + 4)?",
+			"subject": "1624252c-aa36-5b40-8dc7-8e5f0b6017a0"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "question_options_profesor_matematicas_2"
+	},
+	{
+		"detail": {
+			"explanation": "Primero se resuelve el paréntesis: 3 × 6 = 18.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "feedback_profesor_matematicas_2"
+	},
+	{
+		"detail": [
+			"3dc70762-bd7b-56eb-bbb7-a29ddd75d009",
+			"2aefbc88-67a3-5cbf-a026-18d4f0406057",
+			"3b83e3dc-d5f0-5638-8d7e-55f53af50ca8"
+		],
+		"floor": 7,
+		"status": "PASS",
+		"test": "no_early_repeat_profesor_matematicas"
+	},
+	{
+		"detail": null,
+		"floor": 7,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_profesor_matematicas"
+	},
+	{
+		"detail": {
+			"scope": "Diagnostic relocation for inspection; no campaign authorization injected",
+			"unlocks": {
+				"ENGLISH_PREPARED": false,
+				"LECTURA_PREPARADA": false,
+				"NEXO_INFORMATION": false,
+				"REFLEXION_PREVIA": false,
+				"door:acceso7": true,
+				"provided:documentos": true,
+				"reward:quest:documentos": true,
+				"reward:quest:ubicar_profesores": true,
+				"reward:welcome": true
+			}
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "campaign_gates_not_bypassed"
+	},
+	{
+		"detail": {
+			"reason": "No safe start",
+			"start": "(-30.0, 72.06219, -140.0)"
+		},
+		"floor": 7,
+		"status": "NOT RUN",
+		"test": "hall_walk_7"
+	},
+	{
+		"detail": {
+			"blockers": [
+				"/root/FinalCampus71/Main/Piso8/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur_3672/Cuerpo"
+			],
+			"end": "(20.07348, 83.94072, -127.8)",
+			"expected": "(20.4, 83.91355, -127.8)",
+			"scope": "Real input/controller; diagnostic relocation to start",
+			"start": "(-21.8, 72.00863, -127.8)",
+			"trace": [
+				"(-21.46111, 71.96883, -127.8)",
+				"(-20.91945, 71.96883, -127.8)",
+				"(-20.3778, 71.96883, -127.8)",
+				"(-19.79447, 71.96883, -127.8)",
+				"(-19.25281, 71.96883, -127.8)",
+				"(-18.80338, 72.0943, -127.8)",
+				"(-18.33745, 72.28212, -127.8)",
+				"(-17.8715, 72.46995, -127.8)",
+				"(-17.44142, 72.64333, -127.8)",
+				"(-16.97549, 72.83115, -127.8)",
+				"(-16.47371, 73.03341, -127.8)",
+				"(-15.93607, 73.25014, -127.8)",
+				"(-15.43428, 73.45241, -127.8)",
+				"(-14.9325, 73.65468, -127.8)",
+				"(-14.46655, 73.84251, -127.8)",
+				"(-14.0006, 74.03033, -127.8)",
+				"(-13.53465, 74.21817, -127.8)",
+				"(-13.06869, 74.40598, -127.8)",
+				"(-12.63859, 74.57937, -127.8)",
+				"(-12.17264, 74.76716, -127.8)",
+				"(-11.74253, 74.94057, -127.8)",
+				"(-11.24074, 75.14285, -127.8)",
+				"(-10.77478, 75.33067, -127.8)",
+				"(-10.30883, 75.51849, -127.8)",
+				"(-9.842898, 75.70632, -127.8)",
+				"(-9.376963, 75.89414, -127.8)",
+				"(-8.911008, 76.08197, -127.8)",
+				"(-8.445077, 76.2698, -127.8)",
+				"(-7.979118, 76.45761, -127.8)",
+				"(-7.477348, 76.65988, -127.8)",
+				"(-7.047244, 76.83326, -127.8)",
+				"(-6.581275, 77.0211, -127.8)",
+				"(-6.151182, 77.1945, -127.8)",
+				"(-5.720567, 77.36733, -127.8)",
+				"(-5.182473, 77.38379, -127.8)",
+				"(-4.599142, 77.38379, -127.8)",
+				"(-4.057477, 77.38379, -127.8)",
+				"(-3.557477, 77.38379, -127.8)",
+				"(-3.057476, 77.38379, -127.8)",
+				"(-2.515808, 77.38379, -127.8)",
+				"(-1.932474, 77.38379, -127.8)",
+				"(-1.390808, 77.38379, -127.8)",
+				"(-0.890808, 77.38379, -127.8)",
+				"(-0.349141, 77.38379, -127.8)",
+				"(0.100815, 77.50329, -127.8)",
+				"(0.561256, 77.69666, -127.8)",
+				"(1.057124, 77.9049, -127.8)",
+				"(1.48214, 78.0834, -127.8)",
+				"(1.978029, 78.29164, -127.8)",
+				"(2.438468, 78.48502, -127.8)",
+				"(2.898923, 78.67839, -127.8)",
+				"(3.323966, 78.85689, -127.8)",
+				"(3.784429, 79.05026, -127.8)",
+				"(4.24489, 79.24363, -127.8)",
+				"(4.705338, 79.43701, -127.8)",
+				"(5.130373, 79.6155, -127.8)",
+				"(5.555426, 79.79398, -127.8)",
+				"(6.015864, 79.98737, -127.8)",
+				"(6.511729, 80.19562, -127.8)",
+				"(6.936768, 80.37411, -127.8)",
+				"(7.361787, 80.55261, -127.8)",
+				"(7.822238, 80.74599, -127.8)",
+				"(8.282707, 80.93933, -127.8)",
+				"(8.707774, 81.11782, -127.8)",
+				"(9.168247, 81.3112, -127.8)",
+				"(9.593283, 81.48973, -127.8)",
+				"(10.01835, 81.66821, -127.8)",
+				"(10.47878, 81.86162, -127.8)",
+				"(10.93926, 82.05497, -127.8)",
+				"(11.39974, 82.24836, -127.8)",
+				"(11.82479, 82.42687, -127.8)",
+				"(12.24983, 82.60536, -127.8)",
+				"(12.71032, 82.79873, -127.8)",
+				"(13.13535, 82.97727, -127.8)",
+				"(13.56041, 83.15572, -127.8)",
+				"(14.02087, 83.34915, -127.8)",
+				"(14.48136, 83.54249, -127.8)",
+				"(14.94182, 83.73588, -127.8)",
+				"(15.41545, 83.91238, -127.8)",
+				"(15.91358, 83.91341, -127.8)",
+				"(16.41358, 83.91341, -127.8)",
+				"(16.91357, 83.91341, -127.8)",
+				"(17.45523, 83.91341, -127.8)",
+				"(17.99018, 83.94072, -127.8)",
+				"(18.53184, 83.94072, -127.8)",
+				"(19.03183, 83.94072, -127.8)",
+				"(19.53183, 83.94072, -127.8)",
+				"(20.07348, 83.94072, -127.8)"
+			]
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "stairs_7_up"
+	},
+	{
+		"detail": {
+			"blockers": [
+				"/root/FinalCampus71/Main/Piso7/PasilloReferencia/LadoSurSalasYVentanales/SueloContinuoSur/Cuerpo"
+			],
+			"end": "(-21.40627, 71.96941, -127.8)",
+			"expected": "(-21.8, 71.94218, -127.8)",
+			"scope": "Real input/controller; diagnostic relocation to start",
+			"start": "(20.4, 83.98, -127.8)",
+			"trace": [
+				"(20.01945, 83.94051, -127.8)",
+				"(19.51945, 83.94051, -127.8)",
+				"(18.93613, 83.94051, -127.8)",
+				"(18.35281, 83.94051, -127.8)",
+				"(17.8526, 83.91561, -127.8)",
+				"(17.26912, 83.91366, -127.8)",
+				"(16.68579, 83.91366, -127.8)",
+				"(16.10247, 83.91366, -127.8)",
+				"(15.5608, 83.91366, -127.8)",
+				"(15.01713, 83.76742, -127.8)",
+				"(14.47303, 83.53841, -127.8)",
+				"(13.92908, 83.31087, -127.8)",
+				"(13.42782, 83.09994, -127.8)",
+				"(12.88394, 82.87093, -127.8)",
+				"(12.34012, 82.64339, -127.8)",
+				"(11.75438, 82.39779, -127.8)",
+				"(11.25236, 82.18685, -127.8)",
+				"(10.70897, 81.95785, -127.8)",
+				"(10.16552, 81.73031, -127.8)",
+				"(9.622436, 81.5013, -127.8)",
+				"(9.120712, 81.29037, -127.8)",
+				"(8.576797, 81.06283, -127.8)",
+				"(7.989821, 80.81576, -127.8)",
+				"(7.404419, 80.57015, -127.8)",
+				"(6.819603, 80.32455, -127.8)",
+				"(6.234664, 80.07894, -127.8)",
+				"(5.691265, 79.8514, -127.8)",
+				"(5.105857, 79.6058, -127.8)",
+				"(4.521009, 79.36019, -127.8)",
+				"(3.936424, 79.11459, -127.8)",
+				"(3.351657, 78.86898, -127.8)",
+				"(2.80871, 78.63998, -127.8)",
+				"(2.222957, 78.39204, -127.8)",
+				"(1.678693, 78.16596, -127.8)",
+				"(1.135177, 77.93696, -127.8)",
+				"(0.550378, 77.69135, -127.8)",
+				"(0.007327, 77.46381, -127.8)",
+				"(-0.535139, 77.38361, -127.8)",
+				"(-1.035139, 77.38361, -127.8)",
+				"(-1.576805, 77.38361, -127.8)",
+				"(-2.118472, 77.38361, -127.8)",
+				"(-2.701806, 77.38361, -127.8)",
+				"(-3.243474, 77.38361, -127.8)",
+				"(-3.785142, 77.38361, -127.8)",
+				"(-4.326807, 77.38361, -127.8)",
+				"(-4.826806, 77.38361, -127.8)",
+				"(-5.36847, 77.38361, -127.8)",
+				"(-5.952514, 77.27424, -127.8)",
+				"(-6.453708, 77.07209, -127.8)",
+				"(-6.996779, 76.85334, -127.8)",
+				"(-7.497721, 76.65119, -127.8)",
+				"(-8.04088, 76.43244, -127.8)",
+				"(-8.583705, 76.21369, -127.8)",
+				"(-9.168522, 75.97834, -127.8)",
+				"(-9.752977, 75.74299, -127.8)",
+				"(-10.25414, 75.54084, -127.8)",
+				"(-10.79705, 75.32209, -127.8)",
+				"(-11.29813, 75.11994, -127.8)",
+				"(-11.84082, 74.90119, -127.8)",
+				"(-12.42572, 74.66438, -127.8)",
+				"(-12.92679, 74.46369, -127.8)",
+				"(-13.46947, 74.24494, -127.8)",
+				"(-14.01326, 74.02473, -127.8)",
+				"(-14.55711, 73.80598, -127.8)",
+				"(-15.10274, 73.58562, -127.8)",
+				"(-15.60455, 73.383, -127.8)",
+				"(-16.14821, 73.16489, -127.8)",
+				"(-16.65018, 72.96209, -127.8)",
+				"(-17.19387, 72.74334, -127.8)",
+				"(-17.69524, 72.54119, -127.8)",
+				"(-18.19627, 72.33904, -127.8)",
+				"(-18.73897, 72.12029, -127.8)",
+				"(-19.23963, 71.96941, -127.8)",
+				"(-19.78129, 71.96941, -127.8)",
+				"(-20.32295, 71.96941, -127.8)",
+				"(-20.86461, 71.96941, -127.8)",
+				"(-21.40627, 71.96941, -127.8)"
+			]
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "stairs_7_down"
+	},
+	{
+		"detail": {
+			"scope": "Negative authorization test; authorized inter-floor ride BLOCKED by unmet campaign, no unlock injection",
+			"unlocked": false
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "elevator_campaign_gate"
+	},
+	{
+		"detail": "Current isolated new campaign has not earned upper-floor destinations",
+		"floor": 7,
+		"status": "BLOCKED",
+		"test": "authorized_elevator_trip"
+	},
+	{
+		"detail": {
+			"cloud": false,
+			"path": "res://reports/final_7_1/run_20261113_145917/floor_7/isolated_save.json"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "isolated_save_read"
+	},
+	{
+		"detail": {
+			"source": "Real documents quest delivery in this fixture"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "earned_access_card"
+	},
+	{
+		"detail": {
+			"scope": "Real gate controller with earned key; not a full walked doorway route"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "access7_card_controller"
+	},
+	{
+		"detail": {
+			"scope": "Opening a door does not complete unmet main prerequisites",
+			"state": 0
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "floor8_main_requirements_preserved"
+	},
+	{
+		"detail": {
+			"scope": "Diagnostic relocation to coordinator; real scanner selection"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "coordinator_E_return"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"seen": {
+				"coordinador_profesores": true,
+				"docente_enfermeria": true,
+				"docente_odontologia": true,
+				"profesor_algoritmos": true,
+				"profesor_datos": true,
+				"profesor_etica": true,
+				"profesor_ingles": true,
+				"profesor_lenguaje": true,
+				"profesor_matematicas": true
+			}
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "locate_teachers_dependency"
+	},
+	{
+		"detail": {
+			"policy_height": 2.7,
+			"scale": "(1.540906, 1.540906, 1.540906)",
+			"scope": "Actual imported mentor, one second of idle animation; not all movement states"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "human_imported_profesor_lenguaje"
+	},
+	{
+		"detail": {
+			"policy_height": 2.7,
+			"scale": "(1.501158, 1.501158, 1.501158)",
+			"scope": "Actual imported mentor, one second of idle animation; not all movement states"
+		},
+		"floor": 7,
+		"status": "PASS",
+		"test": "human_imported_profesor_matematicas"
+	}
+]

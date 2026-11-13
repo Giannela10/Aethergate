@@ -1,5 +1,7 @@
 [gd_scene format=4 uid="uid://mxmbgp2qgeul"]
 
+[ext_resource type="Script" path="res://scripts/pisos/piso_5/terrace_guard_collision_7_1.gd" id="71_terrace_guard"]
+
 [ext_resource type="Script" uid="uid://dqjcm3ducuhpk" path="res://scripts/organizacion/informacion_piso.gd" id="1_gdb40"]
 [ext_resource type="Material" path="res://materials/entrance/MAT_Concrete_Floor.tres" id="1_sc1dx"]
 [ext_resource type="Script" uid="uid://b16tpou66prew" path="res://scripts/exterior/reja.gd" id="2_uu6xs"]
@@ -52473,10 +52475,10 @@ size = Vector3(0.35, 0.3, 0.04)
 size = Vector3(0.8, 0.16, 0.1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_co32k"]
-size = Vector3(5, 0.42, 47.54)
+size = Vector3(5, 0.42, 49.06409)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_vcqyj"]
-size = Vector3(5, 0.42, 47.54)
+size = Vector3(5, 0.42, 49.06409)
 
 [sub_resource type="BoxMesh" id="BoxMesh_6wc5n"]
 size = Vector3(0.38, 4.2, 47.44)
@@ -138395,6 +138397,7 @@ metadata/ancho_entradas = 6.0
 transform = Transform3D(1.0062389, 0, 0, 0, 1, 0, 0, 0, 1, 0.02874422, 0, 0)
 
 [node name="Frente" type="Node3D" parent="Piso5/TerrazaPicnic/CercaVidrio" unique_id=1549016223]
+script = ExtResource("71_terrace_guard")
 
 [node name="Panel01" type="CSGBox3D" parent="Piso5/TerrazaPicnic/CercaVidrio/Frente" unique_id=603122221]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80.91409, 0.85, -76.22)
@@ -166401,7 +166404,7 @@ mesh = SubResource("BoxMesh_7bjb6")
 [node name="RampaVehicularExterior" type="Node3D" parent="PisoMenos1/AmbientacionIndustrial2026" unique_id=1616784040]
 
 [node name="LosaInclinada" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/RampaVehicularExterior" unique_id=768084790]
-transform = Transform3D(1, 0, 0, 0, 0.9685521, -0.24881074, 0, 0.24881074, 0.9685521, 24.37, -6.029193, -139.47)
+transform = Transform3D(1, 0, 0, 0, 0.9685521, -0.24881074, 0, 0.24881074, 0.9685521, 24.37, -6.246011, -139.47)
 material_override = SubResource("ShaderMaterial_8gn08")
 mesh = SubResource("BoxMesh_co32k")
 

@@ -1,0 +1,16 @@
+[
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_node(\"CampaignFlow71\").terrace_checks()",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_node(\"CampaignFlow71\").call_deferred(\"terrace_guard_walk\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    }
+]

@@ -1,0 +1,16 @@
+[
+	{
+		"academic": 1,
+		"floor": 4,
+		"id": "v4_emergency",
+		"steps": [
+			"Entrar al entrenamiento ficticio",
+			"Identificar prioridades educativas",
+			"Organizar recursos",
+			"Cerrar simulación"
+		],
+		"title": "Emergencia simulada",
+		"x": -45,
+		"z": -137
+	}
+]

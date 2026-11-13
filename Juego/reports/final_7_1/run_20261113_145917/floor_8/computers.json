@@ -1,0 +1,16 @@
+[
+	{
+		"activity_profile": "pc8",
+		"done": false,
+		"id": "pc8",
+		"path": "/root/FinalCampus71/Main/CampusCampaign/pc8",
+		"position": "(37.0, 84.04, -132.0)"
+	},
+	{
+		"activity_profile": "",
+		"done": false,
+		"id": "director_antivirus",
+		"path": "/root/FinalCampus71/Main/CampusCampaign/director_antivirus",
+		"position": "(-32.0, 83.98, -133.0)"
+	}
+]

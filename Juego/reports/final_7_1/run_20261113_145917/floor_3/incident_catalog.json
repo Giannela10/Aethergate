@@ -1,0 +1,47 @@
+[
+	{
+		"academic": 3,
+		"floor": 3,
+		"id": "v4_rescue",
+		"steps": [
+			"Localizar al estudiante en sala 306",
+			"Hablar mediante la puerta",
+			"Inspeccionar el panel",
+			"Resolver el acceso informático",
+			"Restablecer el sistema",
+			"Abrir la sala",
+			"Acompañar a zona segura"
+		],
+		"title": "Estudiante encerrado · Sala 306",
+		"x": 38,
+		"z": -143
+	},
+	{
+		"academic": 2,
+		"floor": 3,
+		"id": "v4_network",
+		"steps": [
+			"Inspeccionar PC",
+			"Revisar cableado",
+			"Identificar dispositivo",
+			"Restaurar la red"
+		],
+		"title": "Laboratorio sin conexión",
+		"x": -45,
+		"z": -137
+	},
+	{
+		"academic": 2,
+		"floor": 3,
+		"id": "v4_bugs",
+		"steps": [
+			"Detectar Bugs",
+			"Inspeccionar algoritmo",
+			"Corregir la secuencia",
+			"Verificar programa"
+		],
+		"title": "Programa infectado",
+		"x": 30,
+		"z": -137
+	}
+]

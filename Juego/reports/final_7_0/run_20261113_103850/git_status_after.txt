@@ -1,0 +1,39 @@
+ M Juego/DUOCGAMES_4_0_REPORT.md
+ M Juego/Main.tscn
+ M Juego/scripts/campaign/interaction_controller.gd
+ M Juego/scripts/juego/character_footwear_6_3.gd
+ M Juego/scripts/juego/human_student_6_2.gd
+ M Juego/scripts/juego/humanoid.gd
+ M Juego/scripts/pisos/piso_menos_1/reconstruccion_visual_2026.gd
+ D Juego/tests/placement_stairs_visual_check.gd.uid
+?? Juego/CHARACTER_ANIMATION_FINAL_7_0.md
+?? Juego/FLOORS_MINUS1_1_2_FINAL_AUDIT.md
+?? Juego/reports/detail_admin_dashboard.png.import
+?? Juego/reports/detail_coordination_overview.png.import
+?? Juego/reports/detail_gameplay_inventory.png.import
+?? Juego/reports/detail_gameplay_map.png.import
+?? Juego/reports/detail_gameplay_pause.png.import
+?? Juego/reports/detail_gameplay_phone.png.import
+?? Juego/reports/detail_gameplay_walking.png.import
+?? Juego/reports/detail_teacher_dashboard.png.import
+?? Juego/reports/final_7_0/
+?? Juego/tests/FinalAnimation70.tscn
+?? Juego/tests/FinalCampus70.tscn
+?? Juego/tests/final_animation_7_0.gd
+?? Juego/tests/final_animation_7_0.gd.uid
+?? Juego/tests/final_campus_7_0.gd
+?? Juego/tests/final_campus_7_0.gd.uid
+?? Juego/tests/final_contacts_7_0.ps1
+?? Juego/tests/final_extras_7_0.gd
+?? Juego/tests/final_extras_7_0.gd.uid
+?? Juego/tests/final_gallery_7_0.cjs
+?? Juego/tests/final_mcp_7_0.cjs
+?? Juego/tests/final_probe_7_0.gd
+?? Juego/tests/final_probe_7_0.gd.uid
+?? Juego/tests/final_ramp_7_0.gd
+?? Juego/tests/final_ramp_7_0.gd.uid
+?? Juego/tests/final_ramp_resource_7_0.gd
+?? Juego/tests/final_ramp_resource_7_0.gd.uid
+?? Juego/tests/final_regressions_7_0.gd
+?? Juego/tests/final_regressions_7_0.gd.uid
+?? Juego/tests/final_summary_7_0.cjs

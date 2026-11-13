@@ -1,0 +1,1157 @@
+[
+	{
+		"detail": {
+			"bounds": "[P: (-39.0, 24.12, -110.0), S: (10.0, 3.299999, 8.0)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_301"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-69.0, 24.12, -158.0), S: (10.0, 3.299999, 8.0)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_302"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-57.0, 24.12, -158.0), S: (10.0, 3.299999, 8.0)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_304-B"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-45.0, 24.12, -158.0), S: (10.0, 3.299999, 8.0)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_305"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (33.0, 24.12, -158.0), S: (10.0, 3.299999, 8.0)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_306"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (45.0, 24.12, -158.0), S: (10.0, 3.299999, 8.0)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_TÉCNICA"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (21.17489, 23.925, -122.225), S: (13.55, 11.14, 24.14999)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_303"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.25, 23.96767, -149.505), S: (48.75, 5.630001, 6.564987)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_VestibuloAscensores"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (58.55, 24.70767, -146.3), S: (10.9, 0.799999, 4.640015)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_EncuentroProfesorRedes"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-85.17, 23.96767, -162.98), S: (169.4238, 11.70675, 40.28)]",
+			"clear_samples": 7,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_CostadosReferencia"
+	},
+	{
+		"detail": {
+			"text": "PLANO DE LOS PISOS\nPISO 3 · USTED ESTÁ AQUÍ\n\nPISO 1\nCasino · Coordinación\n\nPISO 2\nBiblioteca · Auditorio"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "directory_destinations"
+	},
+	{
+		"detail": {
+			"actor": "(65.0, 24.00767, -145.0)",
+			"selected": "/root/FinalCampus71/Main/Piso3/EncuentroProfesorRedes/ProfesorRedes/BossDuelController",
+			"simulation": true
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "E_selection_profesor_redes"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "dialogue_profesor_redes"
+	},
+	{
+		"detail": {
+			"id": "135d6824-1db8-5f01-855f-272b469c265a",
+			"prompt": "¿Qué servicio traduce nombres de dominio a direcciones mediante registros?",
+			"subject": "d607df1e-af8d-594a-9f2e-d46186d0b3a6"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_redes_0"
+	},
+	{
+		"detail": {
+			"explanation": "DNS permite resolver nombres usando distintos tipos de registros.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_redes_0"
+	},
+	{
+		"detail": {
+			"id": "ee8224c6-1fbb-5aa7-8166-30faee820e93",
+			"prompt": "¿Qué servicio puede asignar automáticamente configuración IPv4 a un equipo?",
+			"subject": "d607df1e-af8d-594a-9f2e-d46186d0b3a6"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_redes_1"
+	},
+	{
+		"detail": {
+			"explanation": "DHCP puede proporcionar dirección, máscara, puerta de enlace y servidores DNS.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_redes_1"
+	},
+	{
+		"detail": {
+			"id": "ab6cf4ec-b5b9-589e-bd86-08eb437f05e8",
+			"prompt": "¿Qué dispositivo reenvía tramas Ethernet entre puertos de una LAN usando direcciones MAC?",
+			"subject": "d607df1e-af8d-594a-9f2e-d46186d0b3a6"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_redes_2"
+	},
+	{
+		"detail": {
+			"explanation": "Un switch Ethernet utiliza su tabla de direcciones MAC para reenviar tramas.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_redes_2"
+	},
+	{
+		"detail": [
+			"135d6824-1db8-5f01-855f-272b469c265a",
+			"ee8224c6-1fbb-5aa7-8166-30faee820e93",
+			"ab6cf4ec-b5b9-589e-bd86-08eb437f05e8"
+		],
+		"floor": 3,
+		"status": "PASS",
+		"test": "no_early_repeat_profesor_redes"
+	},
+	{
+		"detail": null,
+		"floor": 3,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_profesor_redes"
+	},
+	{
+		"detail": {
+			"actor": "(-45.0, 24.00767, -137.0)",
+			"selected": "/root/FinalCampus71/Main/Piso3/profesor_datos/BossDuelController",
+			"simulation": true
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "E_selection_profesor_datos"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "dialogue_profesor_datos"
+	},
+	{
+		"detail": {
+			"id": "358945cd-2bf8-5a8d-a5d1-30c1a7294f0b",
+			"prompt": "¿Qué instrucción SQL consulta filas de una tabla?",
+			"subject": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_datos_0"
+	},
+	{
+		"detail": {
+			"explanation": "SELECT recupera datos de una relación.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_datos_0"
+	},
+	{
+		"detail": {
+			"id": "349dd33a-b61a-51ce-a200-db71d0f66e68",
+			"prompt": "¿Qué propiedad debe cumplir una clave primaria?",
+			"subject": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_datos_1"
+	},
+	{
+		"detail": {
+			"explanation": "La clave primaria identifica filas y exige unicidad y ausencia de NULL.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_datos_1"
+	},
+	{
+		"detail": {
+			"id": "07f684a9-d000-52f1-99ba-c55071aaca3c",
+			"prompt": "¿Para qué sirve una clave foránea?",
+			"subject": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_datos_2"
+	},
+	{
+		"detail": {
+			"explanation": "Una clave foránea define una referencia cuya integridad puede comprobar la base de datos.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_datos_2"
+	},
+	{
+		"detail": [
+			"358945cd-2bf8-5a8d-a5d1-30c1a7294f0b",
+			"349dd33a-b61a-51ce-a200-db71d0f66e68",
+			"07f684a9-d000-52f1-99ba-c55071aaca3c"
+		],
+		"floor": 3,
+		"status": "PASS",
+		"test": "no_early_repeat_profesor_datos"
+	},
+	{
+		"detail": null,
+		"floor": 3,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_profesor_datos"
+	},
+	{
+		"detail": {
+			"actor": "(30.0, 24.00767, -130.0)",
+			"selected": "/root/FinalCampus71/Main/Piso3/profesor_algoritmos/BossDuelController",
+			"simulation": true
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "E_selection_profesor_algoritmos"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "dialogue_profesor_algoritmos"
+	},
+	{
+		"detail": {
+			"id": "f4ad0b7e-f737-5540-8b8f-4e0194fa1b57",
+			"prompt": "¿Qué representa una variable en un algoritmo?",
+			"subject": "702a0166-82e3-5a7e-9004-8de48d1cecf7"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_algoritmos_0"
+	},
+	{
+		"detail": {
+			"explanation": "Una variable permite referirse a un valor durante la ejecución.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_algoritmos_0"
+	},
+	{
+		"detail": {
+			"id": "c2ec7a81-a405-5487-9da9-73b3c6260cdb",
+			"prompt": "¿Qué estructura selecciona una acción según una condición?",
+			"subject": "702a0166-82e3-5a7e-9004-8de48d1cecf7"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_algoritmos_1"
+	},
+	{
+		"detail": {
+			"explanation": "Una estructura if/else permite ejecutar ramas según una condición lógica.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_algoritmos_1"
+	},
+	{
+		"detail": {
+			"id": "49715368-78e1-5b50-8408-9025d46cea45",
+			"prompt": "¿Para qué se utiliza un ciclo?",
+			"subject": "702a0166-82e3-5a7e-9004-8de48d1cecf7"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_algoritmos_2"
+	},
+	{
+		"detail": {
+			"explanation": "Los ciclos expresan repeticiones controladas por condiciones o recorridos.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_algoritmos_2"
+	},
+	{
+		"detail": [
+			"f4ad0b7e-f737-5540-8b8f-4e0194fa1b57",
+			"c2ec7a81-a405-5487-9da9-73b3c6260cdb",
+			"49715368-78e1-5b50-8408-9025d46cea45"
+		],
+		"floor": 3,
+		"status": "PASS",
+		"test": "no_early_repeat_profesor_algoritmos"
+	},
+	{
+		"detail": null,
+		"floor": 3,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_profesor_algoritmos"
+	},
+	{
+		"detail": {
+			"scope": "Diagnostic relocation for inspection; no campaign authorization injected",
+			"unlocks": {
+				"ENGLISH_PREPARED": false,
+				"LECTURA_PREPARADA": false,
+				"NEXO_INFORMATION": false,
+				"REFLEXION_PREVIA": false,
+				"door:acceso7": true,
+				"provided:documentos": true,
+				"reward:quest:director_task_config": true,
+				"reward:quest:director_task_network": true,
+				"reward:quest:documentos": true,
+				"reward:quest:ubicar_profesores": true,
+				"reward:welcome": true
+			}
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "campaign_gates_not_bypassed"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-39.0, 24.12, -110.0), S: (10.0, 3.299999, 8.0)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_301"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-69.0, 24.12, -158.0), S: (10.0, 3.299999, 8.0)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_302"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-57.0, 24.12, -158.0), S: (10.0, 3.299999, 8.0)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_304-B"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-45.0, 24.12, -158.0), S: (10.0, 3.299999, 8.0)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_305"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (33.0, 24.12, -158.0), S: (10.0, 3.299999, 8.0)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_306"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (45.0, 24.12, -158.0), S: (10.0, 3.299999, 8.0)]",
+			"clear_samples": 5,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_TÉCNICA"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (21.17489, 23.925, -122.225), S: (13.55, 11.14, 24.14999)]",
+			"clear_samples": 3,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_laboratory_303"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.25, 23.96767, -149.505), S: (48.75, 5.630001, 6.564987)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_VestibuloAscensores"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (58.55, 24.70767, -146.3), S: (10.9, 0.799999, 4.640015)]",
+			"clear_samples": 9,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_EncuentroProfesorRedes"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-85.17, 23.96767, -162.98), S: (169.4238, 11.70675, 40.28)]",
+			"clear_samples": 7,
+			"scope": "Placement samples, not a walked route"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "capsule_sample_CostadosReferencia"
+	},
+	{
+		"detail": {
+			"text": "PLANO DE LOS PISOS\nPISO 3 · USTED ESTÁ AQUÍ\n\nPISO 1\nCasino · Coordinación\n\nPISO 2\nBiblioteca · Auditorio"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "directory_destinations"
+	},
+	{
+		"detail": {
+			"actor": "(65.0, 24.00767, -145.0)",
+			"selected": "/root/FinalCampus71/Main/Piso3/EncuentroProfesorRedes/ProfesorRedes/BossDuelController",
+			"simulation": true
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "E_selection_profesor_redes"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "dialogue_profesor_redes"
+	},
+	{
+		"detail": {
+			"id": "21935a11-2bed-5fc0-85fb-29323bf322e6",
+			"prompt": "¿Qué función cumple un router?",
+			"subject": "d607df1e-af8d-594a-9f2e-d46186d0b3a6"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_redes_0"
+	},
+	{
+		"detail": {
+			"explanation": "Un router decide el siguiente salto hacia redes de destino.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_redes_0"
+	},
+	{
+		"detail": {
+			"id": "63b002c5-3970-5278-be7b-a4d33566350a",
+			"prompt": "¿Cuántos bits tiene una dirección IPv4?",
+			"subject": "d607df1e-af8d-594a-9f2e-d46186d0b3a6"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_redes_1"
+	},
+	{
+		"detail": {
+			"explanation": "IPv4 usa direcciones de 32 bits; IPv6 utiliza 128.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_redes_1"
+	},
+	{
+		"detail": {
+			"id": "c71ff6ed-e4e6-5046-8a76-7bcea38e287d",
+			"prompt": "¿A qué capa OSI se asocia habitualmente el direccionamiento IP?",
+			"subject": "d607df1e-af8d-594a-9f2e-d46186d0b3a6"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_redes_2"
+	},
+	{
+		"detail": {
+			"explanation": "IP opera como protocolo de red para direccionamiento y encaminamiento.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_redes_2"
+	},
+	{
+		"detail": [
+			"21935a11-2bed-5fc0-85fb-29323bf322e6",
+			"63b002c5-3970-5278-be7b-a4d33566350a",
+			"c71ff6ed-e4e6-5046-8a76-7bcea38e287d"
+		],
+		"floor": 3,
+		"status": "PASS",
+		"test": "no_early_repeat_profesor_redes"
+	},
+	{
+		"detail": null,
+		"floor": 3,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_profesor_redes"
+	},
+	{
+		"detail": {
+			"actor": "(-45.0, 24.00767, -137.0)",
+			"selected": "/root/FinalCampus71/Main/Piso3/profesor_datos/BossDuelController",
+			"simulation": true
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "E_selection_profesor_datos"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "dialogue_profesor_datos"
+	},
+	{
+		"detail": {
+			"id": "a45dc9cb-9174-5a63-a6d9-459836e11bed",
+			"prompt": "¿Qué cláusula filtra filas antes de agruparlas?",
+			"subject": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_datos_0"
+	},
+	{
+		"detail": {
+			"explanation": "WHERE selecciona filas antes de GROUP BY; HAVING filtra grupos.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_datos_0"
+	},
+	{
+		"detail": {
+			"id": "e15bb58e-11c2-5781-a6a8-27fab989c8a7",
+			"prompt": "¿Qué consulta obtiene todas las columnas de alumnos?",
+			"subject": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_datos_1"
+	},
+	{
+		"detail": {
+			"explanation": "SELECT * consulta columnas; las otras instrucciones modifican o eliminan datos.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_datos_1"
+	},
+	{
+		"detail": {
+			"id": "9a8e1999-8163-57bd-b40c-d225d7dbd03c",
+			"prompt": "¿Qué devuelve INNER JOIN entre dos tablas según una condición?",
+			"subject": "2ea705e1-9bd2-51ce-a5ef-98e9db30da98"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_datos_2"
+	},
+	{
+		"detail": {
+			"explanation": "INNER JOIN conserva las coincidencias que satisfacen ON.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_datos_2"
+	},
+	{
+		"detail": [
+			"a45dc9cb-9174-5a63-a6d9-459836e11bed",
+			"e15bb58e-11c2-5781-a6a8-27fab989c8a7",
+			"9a8e1999-8163-57bd-b40c-d225d7dbd03c"
+		],
+		"floor": 3,
+		"status": "PASS",
+		"test": "no_early_repeat_profesor_datos"
+	},
+	{
+		"detail": null,
+		"floor": 3,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_profesor_datos"
+	},
+	{
+		"detail": {
+			"actor": "(30.0, 24.00767, -130.0)",
+			"selected": "/root/FinalCampus71/Main/Piso3/profesor_algoritmos/BossDuelController",
+			"simulation": true
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "E_selection_profesor_algoritmos"
+	},
+	{
+		"detail": {
+			"missing": "",
+			"scope": "Direct method fallback if E selection failed",
+			"state": 1
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "dialogue_profesor_algoritmos"
+	},
+	{
+		"detail": {
+			"id": "dc3ba72a-90eb-5394-ad2f-68b788ce0d13",
+			"prompt": "En un arreglo indexado desde cero, ¿cuál es el índice del primer elemento?",
+			"subject": "702a0166-82e3-5a7e-9004-8de48d1cecf7"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_algoritmos_0"
+	},
+	{
+		"detail": {
+			"explanation": "El primer índice de un arreglo con base cero es 0.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_algoritmos_0"
+	},
+	{
+		"detail": {
+			"id": "9dccf80a-8519-5226-a914-04009ed80d93",
+			"prompt": "¿Qué ventaja aporta una función bien definida?",
+			"subject": "702a0166-82e3-5a7e-9004-8de48d1cecf7"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_algoritmos_1"
+	},
+	{
+		"detail": {
+			"explanation": "Una función agrupa una operación que puede invocarse desde distintos lugares.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_algoritmos_1"
+	},
+	{
+		"detail": {
+			"id": "d3c0ace2-1cb3-5a5a-82ce-63437219dcb1",
+			"prompt": "Si x vale 3 y se ejecuta x = x + 2 dos veces, ¿cuánto vale x?",
+			"subject": "702a0166-82e3-5a7e-9004-8de48d1cecf7"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "question_options_profesor_algoritmos_2"
+	},
+	{
+		"detail": {
+			"explanation": "La primera actualización da 5 y la segunda da 7.",
+			"scope": "Real local view button signal; not a remote grade"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "feedback_profesor_algoritmos_2"
+	},
+	{
+		"detail": [
+			"dc3ba72a-90eb-5394-ad2f-68b788ce0d13",
+			"9dccf80a-8519-5226-a914-04009ed80d93",
+			"d3c0ace2-1cb3-5a5a-82ce-63437219dcb1"
+		],
+		"floor": 3,
+		"status": "PASS",
+		"test": "no_early_repeat_profesor_algoritmos"
+	},
+	{
+		"detail": null,
+		"floor": 3,
+		"status": "PASS",
+		"test": "local_practice_no_official_pass_profesor_algoritmos"
+	},
+	{
+		"detail": {
+			"scope": "Diagnostic relocation for inspection; no campaign authorization injected",
+			"unlocks": {
+				"ENGLISH_PREPARED": false,
+				"LECTURA_PREPARADA": false,
+				"NEXO_INFORMATION": false,
+				"REFLEXION_PREVIA": false,
+				"door:acceso7": true,
+				"provided:documentos": true,
+				"reward:quest:director_task_config": true,
+				"reward:quest:director_task_network": true,
+				"reward:quest:documentos": true,
+				"reward:quest:ubicar_profesores": true,
+				"reward:welcome": true
+			}
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "campaign_gates_not_bypassed"
+	},
+	{
+		"detail": {
+			"added_noncolliding_stands": false,
+			"monitors": 6,
+			"unsupported_gap_before": 0.225
+		},
+		"floor": 3,
+		"status": "FAIL",
+		"test": "monitor_supports"
+	},
+	{
+		"detail": {
+			"added_noncolliding_stands": true,
+			"monitors": 24,
+			"unsupported_gap_before": 0.225
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "monitor_supports"
+	},
+	{
+		"detail": {
+			"reason": "Anonymous read-only probes return PGRST205 for V4 resources; no verified remote result fabricated",
+			"steps": [
+				"Localizar al estudiante en sala 306",
+				"Hablar mediante la puerta",
+				"Inspeccionar el panel",
+				"Resolver el acceso informático",
+				"Restablecer el sistema",
+				"Abrir la sala",
+				"Acompañar a zona segura"
+			]
+		},
+		"floor": 3,
+		"status": "BLOCKED",
+		"test": "published_incident_v4_rescue"
+	},
+	{
+		"detail": {
+			"reason": "Anonymous read-only probes return PGRST205 for V4 resources; no verified remote result fabricated",
+			"steps": [
+				"Inspeccionar PC",
+				"Revisar cableado",
+				"Identificar dispositivo",
+				"Restaurar la red"
+			]
+		},
+		"floor": 3,
+		"status": "BLOCKED",
+		"test": "published_incident_v4_network"
+	},
+	{
+		"detail": {
+			"reason": "Anonymous read-only probes return PGRST205 for V4 resources; no verified remote result fabricated",
+			"steps": [
+				"Detectar Bugs",
+				"Inspeccionar algoritmo",
+				"Corregir la secuencia",
+				"Verificar programa"
+			]
+		},
+		"floor": 3,
+		"status": "BLOCKED",
+		"test": "published_incident_v4_bugs"
+	},
+	{
+		"detail": {
+			"reason": "No safe start",
+			"start": "(-30.0, 24.08767, -140.0)"
+		},
+		"floor": 3,
+		"status": "NOT RUN",
+		"test": "hall_walk_3"
+	},
+	{
+		"detail": {
+			"blockers": [
+				"/root/FinalCampus71/Main/Piso4/Losas/LosaOriginal02/LosaPasoEscalera1"
+			],
+			"end": "(20.24317, 35.67445, -127.8)",
+			"expected": "(20.4, 35.67442, -127.8)",
+			"scope": "Real input/controller; diagnostic relocation to start",
+			"start": "(-21.8, 24.00767, -127.8)",
+			"trace": [
+				"(-21.46111, 23.96878, -127.8)",
+				"(-20.91945, 23.96878, -127.8)",
+				"(-20.3778, 23.96878, -127.8)",
+				"(-19.83614, 23.96878, -127.8)",
+				"(-19.25281, 23.96878, -127.8)",
+				"(-18.77378, 24.12756, -127.8)",
+				"(-18.30498, 24.31235, -127.8)",
+				"(-17.83619, 24.49714, -127.8)",
+				"(-17.36738, 24.68194, -127.8)",
+				"(-16.89856, 24.86674, -127.8)",
+				"(-16.42974, 25.05154, -127.8)",
+				"(-15.92485, 25.25056, -127.8)",
+				"(-15.45602, 25.43537, -127.8)",
+				"(-14.98718, 25.62017, -127.8)",
+				"(-14.51836, 25.80498, -127.8)",
+				"(-14.01346, 26.004, -127.8)",
+				"(-13.54462, 26.18881, -127.8)",
+				"(-13.07579, 26.37362, -127.8)",
+				"(-12.64303, 26.5442, -127.8)",
+				"(-12.1742, 26.72901, -127.8)",
+				"(-11.6693, 26.92801, -127.8)",
+				"(-11.16441, 27.12705, -127.8)",
+				"(-10.69558, 27.31184, -127.8)",
+				"(-10.22676, 27.49664, -127.8)",
+				"(-9.757931, 27.68146, -127.8)",
+				"(-9.325173, 27.85204, -127.8)",
+				"(-8.856343, 28.03684, -127.8)",
+				"(-8.423578, 28.20743, -127.8)",
+				"(-7.954747, 28.39223, -127.8)",
+				"(-7.449875, 28.59126, -127.8)",
+				"(-7.017113, 28.76184, -127.8)",
+				"(-6.548299, 28.94665, -127.8)",
+				"(-6.115535, 29.11721, -127.8)",
+				"(-5.638418, 29.28815, -127.8)",
+				"(-5.09681, 29.28901, -127.8)",
+				"(-4.555146, 29.28901, -127.8)",
+				"(-4.013481, 29.28901, -127.8)",
+				"(-3.471813, 29.28901, -127.8)",
+				"(-2.971812, 29.28901, -127.8)",
+				"(-2.430145, 29.28901, -127.8)",
+				"(-1.888477, 29.28901, -127.8)",
+				"(-1.346811, 29.28901, -127.8)",
+				"(-0.805145, 29.28901, -127.8)",
+				"(-0.263478, 29.28901, -127.8)",
+				"(0.211968, 29.45063, -127.8)",
+				"(0.711122, 29.65563, -127.8)",
+				"(1.174623, 29.84598, -127.8)",
+				"(1.638118, 30.03633, -127.8)",
+				"(2.101615, 30.22668, -127.8)",
+				"(2.565108, 30.41703, -127.8)",
+				"(3.028601, 30.60738, -127.8)",
+				"(3.492093, 30.79774, -127.8)",
+				"(3.955585, 30.98808, -127.8)",
+				"(4.419076, 31.17843, -127.8)",
+				"(4.882573, 31.36878, -127.8)",
+				"(5.346058, 31.55913, -127.8)",
+				"(5.773895, 31.73483, -127.8)",
+				"(6.237398, 31.92516, -127.8)",
+				"(6.665224, 32.1009, -127.8)",
+				"(7.128732, 32.29124, -127.8)",
+				"(7.592244, 32.48161, -127.8)",
+				"(8.020095, 32.6573, -127.8)",
+				"(8.447943, 32.83301, -127.8)",
+				"(8.91145, 33.02334, -127.8)",
+				"(9.339287, 33.19907, -127.8)",
+				"(9.767142, 33.37477, -127.8)",
+				"(10.23064, 33.56512, -127.8)",
+				"(10.65849, 33.74083, -127.8)",
+				"(11.08632, 33.91657, -127.8)",
+				"(11.51416, 34.09227, -127.8)",
+				"(11.94201, 34.26796, -127.8)",
+				"(12.36985, 34.44366, -127.8)",
+				"(12.7977, 34.61935, -127.8)",
+				"(13.22553, 34.7951, -127.8)",
+				"(13.65338, 34.97078, -127.8)",
+				"(14.08122, 35.14647, -127.8)",
+				"(14.50905, 35.3222, -127.8)",
+				"(14.97255, 35.51257, -127.8)",
+				"(15.45156, 35.67567, -127.8)",
+				"(15.99323, 35.67445, -127.8)",
+				"(16.53489, 35.67445, -127.8)",
+				"(17.07655, 35.67445, -127.8)",
+				"(17.61821, 35.67445, -127.8)",
+				"(18.1182, 35.67445, -127.8)",
+				"(18.65986, 35.67445, -127.8)",
+				"(19.15985, 35.67445, -127.8)",
+				"(19.70151, 35.67445, -127.8)",
+				"(20.24317, 35.67445, -127.8)"
+			]
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "stairs_3_up"
+	},
+	{
+		"detail": {
+			"blockers": [
+				"/root/FinalCampus71/Main/Piso3/Losas/LosaOriginal02/LosaPasoEscalera1"
+			],
+			"end": "(-21.45856, 23.96811, -127.8)",
+			"expected": "(-21.8, 23.96767, -127.8)",
+			"scope": "Real input/controller; diagnostic relocation to start",
+			"start": "(20.4, 35.71442, -127.8)",
+			"trace": [
+				"(20.01945, 35.67462, -127.8)",
+				"(19.47779, 35.67462, -127.8)",
+				"(18.89446, 35.67462, -127.8)",
+				"(18.35281, 35.67462, -127.8)",
+				"(17.81115, 35.67462, -127.8)",
+				"(17.26949, 35.67462, -127.8)",
+				"(16.68616, 35.67462, -127.8)",
+				"(16.18617, 35.67462, -127.8)",
+				"(15.6445, 35.67462, -127.8)",
+				"(15.10185, 35.56451, -127.8)",
+				"(14.59967, 35.35944, -127.8)",
+				"(14.05571, 35.13629, -127.8)",
+				"(13.512, 34.91315, -127.8)",
+				"(12.96808, 34.68854, -127.8)",
+				"(12.42436, 34.46539, -127.8)",
+				"(11.83901, 34.22565, -127.8)",
+				"(11.33812, 34.0191, -127.8)",
+				"(10.79493, 33.79742, -127.8)",
+				"(10.29326, 33.59088, -127.8)",
+				"(9.750214, 33.36774, -127.8)",
+				"(9.248754, 33.16119, -127.8)",
+				"(8.704675, 32.93805, -127.8)",
+				"(8.202424, 32.73151, -127.8)",
+				"(7.700264, 32.52643, -127.8)",
+				"(7.19938, 32.31989, -127.8)",
+				"(6.656479, 32.09674, -127.8)",
+				"(6.155335, 31.8902, -127.8)",
+				"(5.653856, 31.68512, -127.8)",
+				"(5.06706, 31.44448, -127.8)",
+				"(4.522549, 31.22051, -127.8)",
+				"(3.977259, 30.99663, -127.8)",
+				"(3.391802, 30.75618, -127.8)",
+				"(2.847173, 30.53314, -127.8)",
+				"(2.302828, 30.30978, -127.8)",
+				"(1.758202, 30.08578, -127.8)",
+				"(1.214727, 29.86263, -127.8)",
+				"(0.671736, 29.63949, -127.8)",
+				"(0.128847, 29.41634, -127.8)",
+				"(-0.415371, 29.2893, -127.8)",
+				"(-0.915371, 29.2893, -127.8)",
+				"(-1.457037, 29.2893, -127.8)",
+				"(-1.957037, 29.2893, -127.8)",
+				"(-2.457037, 29.2893, -127.8)",
+				"(-3.040372, 29.2893, -127.8)",
+				"(-3.58204, 29.2893, -127.8)",
+				"(-4.165373, 29.2893, -127.8)",
+				"(-4.707038, 29.2893, -127.8)",
+				"(-5.248703, 29.2893, -127.8)",
+				"(-5.790542, 29.24511, -127.8)",
+				"(-6.333866, 29.03075, -127.8)",
+				"(-6.877019, 28.8164, -127.8)",
+				"(-7.420498, 28.60204, -127.8)",
+				"(-7.964087, 28.38915, -127.8)",
+				"(-8.465368, 28.1914, -127.8)",
+				"(-9.008572, 27.97704, -127.8)",
+				"(-9.509912, 27.77929, -127.8)",
+				"(-10.01119, 27.58154, -127.8)",
+				"(-10.51302, 27.38378, -127.8)",
+				"(-11.01475, 27.18603, -127.8)",
+				"(-11.51644, 26.98827, -127.8)",
+				"(-12.01785, 26.79052, -127.8)",
+				"(-12.5192, 26.59277, -127.8)",
+				"(-13.02055, 26.39501, -127.8)",
+				"(-13.56401, 26.18066, -127.8)",
+				"(-14.14948, 25.9497, -127.8)",
+				"(-14.65093, 25.75195, -127.8)",
+				"(-15.19685, 25.5368, -127.8)",
+				"(-15.69865, 25.33905, -127.8)",
+				"(-16.20095, 25.14219, -127.8)",
+				"(-16.74381, 24.92783, -127.8)",
+				"(-17.24503, 24.73008, -127.8)",
+				"(-17.74632, 24.53232, -127.8)",
+				"(-18.24766, 24.33457, -127.8)",
+				"(-18.79088, 24.12021, -127.8)",
+				"(-19.3336, 23.96811, -127.8)",
+				"(-19.87525, 23.96811, -127.8)",
+				"(-20.41691, 23.96811, -127.8)",
+				"(-20.95857, 23.96811, -127.8)",
+				"(-21.45856, 23.96811, -127.8)"
+			]
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "stairs_3_down"
+	},
+	{
+		"detail": {
+			"scope": "Negative authorization test; authorized inter-floor ride BLOCKED by unmet campaign, no unlock injection",
+			"unlocked": false
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "elevator_campaign_gate"
+	},
+	{
+		"detail": "Current isolated new campaign has not earned upper-floor destinations",
+		"floor": 3,
+		"status": "BLOCKED",
+		"test": "authorized_elevator_trip"
+	},
+	{
+		"detail": {
+			"cloud": false,
+			"path": "res://reports/final_7_1/run_20261113_145917/floor_3/isolated_save.json"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "isolated_save_read"
+	},
+	{
+		"detail": null,
+		"floor": 3,
+		"status": "PASS",
+		"test": "npc_E_Profesor"
+	},
+	{
+		"detail": null,
+		"floor": 3,
+		"status": "PASS",
+		"test": "npc_Profesor_accept"
+	},
+	{
+		"detail": {
+			"policy_height": 2.7,
+			"scale": "(1.539927, 1.539927, 1.539927)",
+			"scope": "Actual imported mentor, one second of idle animation; not all movement states"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "human_imported_profesor_redes"
+	},
+	{
+		"detail": {
+			"policy_height": 2.7,
+			"scale": "(1.541996, 1.541996, 1.541996)",
+			"scope": "Actual imported mentor, one second of idle animation; not all movement states"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "human_imported_profesor_datos"
+	},
+	{
+		"detail": {
+			"policy_height": 2.7,
+			"scale": "(1.544203, 1.544203, 1.544203)",
+			"scope": "Actual imported mentor, one second of idle animation; not all movement states"
+		},
+		"floor": 3,
+		"status": "PASS",
+		"test": "human_imported_profesor_algoritmos"
+	}
+]

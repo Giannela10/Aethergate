@@ -1,0 +1,132 @@
+[
+	{
+		"file": "floor_8/director_simulation_digital_entity_and_mentor.png",
+		"floor": 8,
+		"label": "digital_entity_and_mentor",
+		"phase": "director_simulation",
+		"point": "(66.0, 87.06, -123.0)",
+		"samples": [
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 14.327,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 15.961,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 19.251,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 16.731,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 15.067,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 15.554,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 16.182,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 15.22,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 15.425,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 15.907,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 19.137,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 13.651,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 15.963,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 15.428,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 12.096,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 11.959,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 12.383,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 12.909,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 12.87,
+				"primitives": 227678.0
+			},
+			{
+				"draw_calls": 7482.0,
+				"fps": 17.0,
+				"ms": 13.227,
+				"primitives": 227678.0
+			}
+		],
+		"target": "(64.0, 85.46, -131.0)"
+	}
+]

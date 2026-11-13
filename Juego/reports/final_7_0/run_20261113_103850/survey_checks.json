@@ -1,0 +1,1106 @@
+[
+	{
+		"detail": {
+			"displacement": 4.63237428665161,
+			"note": "Finite motion/socket check; inspect captures for visual approval",
+			"samples": [
+				{
+					"camera": "(3.999679, 3.215763, -43.39425)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.101111, -48.175)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(3.999973, 3.215614, -43.7674)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.101111, -48.5889)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(3.999998, 3.215601, -44.20412)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.101111, -49.04725)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(4.0, 3.2156, -44.60984)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.101111, -49.42226)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(4.0, 3.2156, -44.96304)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.101111, -49.79727)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(4.0, 3.2156, -45.36479)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.101111, -50.21395)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(4.0, 3.2156, -45.75025)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.101111, -50.58896)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(4.0, 3.2156, -46.14787)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.101111, -51.00564)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(4.0, 3.2156, -46.52781)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.101111, -51.38065)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(4.0, 3.2156, -47.001)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.101111, -51.839)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(4.0, 3.2156, -47.36411)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.101111, -52.21401)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(4.0, 3.178686, -47.79331)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, -0.023889, -52.63069)",
+					"state": "WALK"
+				}
+			]
+		},
+		"passed": true,
+		"test": "game_walk"
+	},
+	{
+		"detail": {
+			"displacement": 9.5983772277832,
+			"note": "Finite motion/socket check; inspect captures for visual approval",
+			"samples": [
+				{
+					"camera": "(4.0, 3.21515, -48.26518)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.100678, -53.04735)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(4.0, 3.215165, -48.68164)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.100678, -53.57235)",
+					"state": "RUN"
+				},
+				{
+					"camera": "(4.0, 3.215167, -49.41225)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.100678, -54.4568)",
+					"state": "RUN"
+				},
+				{
+					"camera": "(4.0, 3.215167, -50.28048)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.100678, -55.2818)",
+					"state": "RUN"
+				},
+				{
+					"camera": "(4.0, 3.215167, -51.07846)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.100678, -56.10681)",
+					"state": "RUN"
+				},
+				{
+					"camera": "(4.0, 3.215167, -51.97401)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.100678, -57.02348)",
+					"state": "RUN"
+				},
+				{
+					"camera": "(4.0, 3.215167, -53.01389)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.100678, -58.03182)",
+					"state": "RUN"
+				},
+				{
+					"camera": "(4.0, 3.215167, -53.85103)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.100678, -58.85682)",
+					"state": "RUN"
+				},
+				{
+					"camera": "(4.0, 3.215167, -54.75048)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.100678, -59.77349)",
+					"state": "RUN"
+				},
+				{
+					"camera": "(4.0, 3.215167, -55.74347)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.100678, -60.69017)",
+					"state": "RUN"
+				},
+				{
+					"camera": "(4.0, 3.215167, -56.56292)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.100678, -61.60684)",
+					"state": "RUN"
+				},
+				{
+					"camera": "(4.0, 3.215167, -57.44193)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.0, 0.100678, -62.43184)",
+					"state": "RUN"
+				}
+			]
+		},
+		"passed": true,
+		"test": "game_run"
+	},
+	{
+		"detail": {
+			"displacement": 4.58888006210327,
+			"note": "Finite motion/socket check; inspect captures for visual approval",
+			"samples": [
+				{
+					"camera": "(4.097581, 3.215167, -58.76083)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.175, 0.100678, -63.46684)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(4.434832, 3.215167, -58.76898)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.588888, 0.100678, -63.46684)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(4.813457, 3.215167, -58.76987)",
+					"finite": true,
+					"ground": true,
+					"position": "(4.963886, 0.100678, -63.46684)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(5.236992, 3.215167, -58.76997)",
+					"finite": true,
+					"ground": true,
+					"position": "(5.380551, 0.100678, -63.46684)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(5.631814, 3.215167, -58.76997)",
+					"finite": true,
+					"ground": true,
+					"position": "(5.797216, 0.100678, -63.46684)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(6.022636, 3.215167, -58.76997)",
+					"finite": true,
+					"ground": true,
+					"position": "(6.172215, 0.100678, -63.46684)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(6.448287, 3.215167, -58.76998)",
+					"finite": true,
+					"ground": true,
+					"position": "(6.58888, 0.100678, -63.46684)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(6.842147, 3.215167, -58.76998)",
+					"finite": true,
+					"ground": true,
+					"position": "(7.005545, 0.100678, -63.46684)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(7.24195, 3.215167, -58.76998)",
+					"finite": true,
+					"ground": true,
+					"position": "(7.380544, 0.100678, -63.46684)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(7.662928, 3.215167, -58.76998)",
+					"finite": true,
+					"ground": true,
+					"position": "(7.797209, 0.100678, -63.46684)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.050173, 3.215167, -58.76998)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.213877, 0.100678, -63.46684)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.442577, 3.215167, -58.76998)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.58888, 0.100678, -63.46684)",
+					"state": "WALK"
+				}
+			]
+		},
+		"passed": true,
+		"test": "game_lateral"
+	},
+	{
+		"detail": {
+			"displacement": 4.83902740478516,
+			"note": "Finite motion/socket check; inspect captures for visual approval",
+			"samples": [
+				{
+					"camera": "(8.791263, 3.215167, -58.63034)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100678, -63.25296)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.791621, 3.215167, -58.25638)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100678, -62.79461)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.791656, 3.215167, -57.77501)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100678, -62.33626)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.791657, 3.215167, -57.34361)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100678, -61.91958)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.791657, 3.215167, -56.94604)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100678, -61.5029)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.791657, 3.215167, -56.57863)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100678, -61.12789)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.791657, 3.215167, -56.17476)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100678, -60.75288)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.791657, 3.215167, -55.78712)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100678, -60.3362)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.791657, 3.215167, -55.32948)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100678, -59.87785)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.791657, 3.215167, -54.93389)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100678, -59.50284)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.791657, 3.215167, -54.52863)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100678, -59.08616)",
+					"state": "WALK"
+				},
+				{
+					"camera": "(8.791657, 3.215167, -54.08059)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100678, -58.62782)",
+					"state": "WALK"
+				}
+			]
+		},
+		"passed": true,
+		"test": "game_backward"
+	},
+	{
+		"detail": {
+			"displacement": 0.000352166593074799,
+			"note": "Finite motion/socket check; inspect captures for visual approval",
+			"samples": [
+				{
+					"camera": "(8.791657, 3.670866, -53.7285)",
+					"finite": true,
+					"ground": false,
+					"position": "(8.791657, 0.759248, -58.42504)",
+					"state": "JUMP"
+				},
+				{
+					"camera": "(8.791657, 4.06215, -53.7282)",
+					"finite": true,
+					"ground": false,
+					"position": "(8.791657, 1.028693, -58.42504)",
+					"state": "JUMP"
+				},
+				{
+					"camera": "(8.791657, 4.074471, -53.72818)",
+					"finite": true,
+					"ground": false,
+					"position": "(8.791657, 0.909248, -58.42504)",
+					"state": "FALL"
+				},
+				{
+					"camera": "(8.791657, 3.737949, -53.72817)",
+					"finite": true,
+					"ground": false,
+					"position": "(8.791657, 0.469249, -58.42504)",
+					"state": "FALL"
+				},
+				{
+					"camera": "(8.791657, 3.300796, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "LAND"
+				},
+				{
+					"camera": "(8.791657, 3.2219, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.215481, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214878, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.21482, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214816, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				}
+			]
+		},
+		"passed": true,
+		"test": "game_jump"
+	},
+	{
+		"detail": {
+			"displacement": 0.0,
+			"note": "Finite motion/socket check; inspect captures for visual approval",
+			"samples": [
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "CROUCH"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "CROUCH"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "CROUCH"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "CROUCH"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "CROUCH"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "CROUCH"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "CROUCH"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "CROUCH"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "CROUCH"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "CROUCH"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "CROUCH"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "CROUCH"
+				}
+			]
+		},
+		"passed": true,
+		"test": "game_crouch"
+	},
+	{
+		"detail": {
+			"displacement": 0.0,
+			"note": "Finite motion/socket check; inspect captures for visual approval",
+			"samples": [
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "ATTACK_LIGHT"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "ATTACK_LIGHT"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "ATTACK_LIGHT"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				}
+			]
+		},
+		"passed": true,
+		"test": "game_attack"
+	},
+	{
+		"detail": {
+			"displacement": 0.0,
+			"note": "Finite motion/socket check; inspect captures for visual approval",
+			"samples": [
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				},
+				{
+					"camera": "(8.791657, 3.214815, -53.72817)",
+					"finite": true,
+					"ground": true,
+					"position": "(8.791657, 0.100326, -58.42504)",
+					"state": "IDLE"
+				}
+			]
+		},
+		"passed": true,
+		"test": "game_turn"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "capsule_preserved"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "save_isolation"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (23.8, -12.05289, -150.03), S: (55.23, 7.862229, 42.455)]",
+			"clear_samples": 9,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_PisoMenos1/AmbientacionIndustrial2026/MecanicaAutomotriz"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (55.0, -12.05839, -151.14), S: (28.0, 8.75, 17.84499)]",
+			"clear_samples": 9,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_PisoMenos1/AmbientacionIndustrial2026/SoldaduraYEstructurasMetalicas"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (36.805, -12.16839, -120.83), S: (38.695, 3.46, 10.18)]",
+			"clear_samples": 9,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_PisoMenos1/AmbientacionIndustrial2026/MaquinariaIndustrial"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-15.2, -12.05839, -109.41), S: (22.59, 0.95, 10.82001)]",
+			"clear_samples": 9,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_PisoMenos1/AmbientacionIndustrial2026/AreaCentralEstudiantes"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-36.75, -12.05839, -132.01), S: (11.45, 4.0, 4.149994)]",
+			"clear_samples": 6,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_PisoMenos1/AmbientacionIndustrial2026/NegocioCafeteria"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-77.125, -12.05839, -127.8), S: (26.705, 3.6, 45.3)]",
+			"clear_samples": 9,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_PisoMenos1/AmbientacionIndustrial2026/PasilloSalasTecnicas"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (21.53, -12.14682, -163.1391), S: (5.680002, 16.96336, 47.33818)]",
+			"clear_samples": 6,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_PisoMenos1/AmbientacionIndustrial2026/RampaVehicularExterior"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "basement_campaign_locked"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "basement_lift_respects_campaign"
+	},
+	{
+		"detail": {
+			"note": "No final unlock injected; end encounter remains pending",
+			"path": "missing"
+		},
+		"passed": false,
+		"test": "nexo_area_preserved"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-71.64986, -0.00375, -162.9435), S: (39.43234, 12.00375, 27.83142)]",
+			"clear_samples": 5,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso1/SalaAyudaEstudiantil"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-84.947, 0.0, -162.95), S: (52.927, 12.0, 86.45)]",
+			"clear_samples": 7,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso1/Casino"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (32.95, -0.08, -122.3025), S: (50.795, 12.045, 28.80251)]",
+			"clear_samples": 8,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso1/InteriorCoordinacion"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (31.0, 0.0, -162.2), S: (46.7, 12.0, 39.20001)]",
+			"clear_samples": 8,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso1/PasilloDerechoYCapilla"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.25, 0.0, -149.505), S: (43.95, 5.63, 6.564987)]",
+			"clear_samples": 9,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso1/VestibuloAscensores"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-32.16, -0.294, -122.0), S: (64.51, 0.3, 24.14999)]",
+			"clear_samples": 3,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso1/AcabadosPasillos"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "first_day_initial_active"
+	},
+	{
+		"detail": null,
+		"passed": false,
+		"test": "punto_scanner"
+	},
+	{
+		"detail": null,
+		"passed": false,
+		"test": "punto_dialogue"
+	},
+	{
+		"detail": null,
+		"passed": false,
+		"test": "punto_talk_objective"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "first_collect_objective"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "intro_pc_scanner"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "intro_pc_started"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "intro_pc_objective"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "simulation_punto"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "simulation_chef"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "first_day_completed_fixture"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "floor2_unlocked_by_quest"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "first_day_no_duplicate_reward"
+	},
+	{
+		"detail": {
+			"cabin": "(-10.0, 12.05839, -157.0)",
+			"floor": "2",
+			"note": "Real platform ride; diagnostic relocation into cabin",
+			"position": "(-10.0, 12.05873, -157.0)"
+		},
+		"passed": true,
+		"test": "lift_one_to_two"
+	},
+	{
+		"detail": {
+			"cabin": "(-10.0, 0.0, -157.0)",
+			"floor": "1",
+			"note": "Real platform ride; diagnostic relocation into cabin",
+			"position": "(-10.0, 0.000341, -157.0)"
+		},
+		"passed": true,
+		"test": "lift_two_to_one"
+	},
+	{
+		"detail": {
+			"cabin": "(-10.0, 12.05839, -157.0)",
+			"floor": "2",
+			"note": "Real platform ride; diagnostic relocation into cabin",
+			"position": "(-10.0, 12.05873, -157.0)"
+		},
+		"passed": true,
+		"test": "lift_one_to_two_again"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-85.171, 12.05839, -162.95), S: (52.913, 12.0, 86.49582)]",
+			"clear_samples": 6,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso2/Biblioteca"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-84.75, 12.05466, -123.125), S: (11.83, 12.00373, 12.605)]",
+			"clear_samples": 9,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso2/SalaImpresiones"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-85.05, 0.0, -122.088), S: (169.383, 35.67442, 46.08327)]",
+			"clear_samples": 0,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": false,
+		"test": "capsule_sample_Piso2/AuditorioPiso2e"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-26.25, 12.05839, -149.505), S: (48.75, 5.630001, 6.564987)]",
+			"clear_samples": 9,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso2/VestibuloAscensores"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (19.1078, 12.03839, -121.9925), S: (2.008242, 1.700001, 33.28927)]",
+			"clear_samples": 0,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": false,
+		"test": "capsule_sample_Piso2/AcabadosPasillos"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-50.528, 12.05839, -122.6658), S: (18.11, 11.35, 7.745827)]",
+			"clear_samples": 7,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso2/Biblioteca/SalasEstudio/SalaEstudio1"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-50.528, 12.05839, -114.9858), S: (18.11, 11.35, 7.745827)]",
+			"clear_samples": 7,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso2/Biblioteca/SalasEstudio/SalaEstudio2"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-50.528, 12.05839, -107.3058), S: (18.11, 11.35, 7.745827)]",
+			"clear_samples": 7,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso2/Biblioteca/SalasEstudio/SalaEstudio3"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-50.528, 12.05839, -99.62583), S: (18.11, 11.35, 7.745827)]",
+			"clear_samples": 7,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso2/Biblioteca/SalasEstudio/SalaEstudio4"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-50.528, 12.05839, -91.94583), S: (18.11, 11.35, 7.745827)]",
+			"clear_samples": 7,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso2/Biblioteca/SalasEstudio/SalaEstudio5"
+	},
+	{
+		"detail": {
+			"bounds": "[P: (-50.528, 12.05839, -84.26582), S: (18.11, 11.35, 7.811646)]",
+			"clear_samples": 7,
+			"note": "Capsule placement samples, not a complete walked route"
+		},
+		"passed": true,
+		"test": "capsule_sample_Piso2/Biblioteca/SalasEstudio/SalaEstudio6"
+	},
+	{
+		"detail": null,
+		"passed": true,
+		"test": "floor3_still_locked_before_library"
+	},
+	{
+		"detail": {
+			"note": "Question UI and progression checked separately; presence alone is not approval",
+			"script": "res://scripts/pisos/piso_2/boss_bibliotecaria.gd"
+		},
+		"passed": true,
+		"test": "librarian_present"
+	}
+]

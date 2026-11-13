@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6571
+[MCPRegistry] runtime port 6571 registered for c:/users/despacho2-cd/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego
+FINAL70_TARGET nexo_actual_reference true
+FINAL70_TARGET nexo_prerequisites_preserved true
+SCRIPT ERROR: Invalid call. Nonexistent function 'get_rid' in base 'Node3D (boss_ayuda_estudiantil.gd)'.
+   at: punto_probe (res://tests/final_probe_7_0.gd:42)
+   GDScript backtrace (most recent call first):
+       [0] punto_probe (res://tests/final_probe_7_0.gd:42)

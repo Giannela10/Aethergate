@@ -1,0 +1,16 @@
+[
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.extension(\"res://tests/final_tools_7_1.gd\")",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    },
+    {
+        "arguments":  {
+                          "code":  "get_tree().current_scene.get_node(\"AuditTools71\").call_deferred(\"monitors\",false)",
+                          "channel":  "runtime"
+                      },
+        "tool":  "execute_code"
+    }
+]

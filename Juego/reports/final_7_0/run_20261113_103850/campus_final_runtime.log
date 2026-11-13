@@ -1,0 +1,130 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050
+
+[MCPRuntimeServer] port: scanning 6570-6585 (default)
+[MCPRuntimeServer] listening on 127.0.0.1:6571
+[MCPRegistry] runtime port 6571 registered for c:/users/despacho2-cd/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego
+FINAL70_TARGET nexo_actual_reference true
+FINAL70_TARGET nexo_prerequisites_preserved true
+FINAL70_TARGET punto_real_dialogue true
+FINAL70_TARGET punto_access_from_valid_side true
+FINAL70_CHECK first_day_initial_active true
+FINAL70_CHECK punto_scanner true
+FINAL70_CHECK punto_dialogue true
+FINAL70_CHECK punto_talk_objective false
+FINAL70_CHECK first_collect_objective true
+FINAL70_CHECK intro_pc_scanner true
+FINAL70_CHECK intro_pc_started true
+FINAL70_CHECK intro_pc_objective true
+FINAL70_CHECK simulation_punto true
+FINAL70_CHECK simulation_chef true
+FINAL70_CHECK first_day_completed_fixture true
+FINAL70_CHECK floor2_unlocked_by_quest true
+FINAL70_CHECK first_day_no_duplicate_reward true
+FINAL70_CHECK lift_one_to_two true
+FINAL70_CHECK lift_two_to_one true
+FINAL70_CHECK lift_one_to_two_again true
+FINAL70_TARGET library_main_aisle true
+FINAL70_TARGET auditorium_entry1 true
+FINAL70_TARGET auditorium_entry2 true
+FINAL70_TARGET stairs_floor1_first_flight true
+FINAL70_TARGET basement_ramp_up false
+FINAL70_TARGET three_books_real_pickups true
+FINAL70_TARGET library_dialogue true
+FINAL70_TARGET library_quiz_started true
+FINAL70_TARGET question_feedback_0 true
+FINAL70_TARGET question_feedback_1 true
+FINAL70_TARGET question_feedback_2 true
+FINAL70_TARGET question_feedback_3 true
+FINAL70_TARGET question_feedback_4 true
+FINAL70_TARGET library_quiz_finished true
+FINAL70_TARGET library_quest_unlock3 true
+FINAL70_TARGET library_no_duplicate_reward true
+FINAL70_TARGET local_save_written_and_read true
+FINAL70_TARGET save_quests_rewards_persistent_ids false
+FINAL70_TARGET_DONE
+[MCPTools] execute.code: get_tree().current_scene.get_script().reload(true)
+[MCPTools] execute.code: get_tree().current_scene.start_extras()
+[MCPTools] execute.code: get_tree().current_scene.call("start_extras")
+[MCPTools] execute.code: get_tree().current_scene.get_script().source_code.contains("func start_extras")
+[MCPTools] execute.code: get_tree().current_scene.get_script().set_source_code(get_tree().current_scene.get_script().source_code+"\nfunc start_extras() -\u003e String:\n\treturn load(\"res://tests/final_extras_7_0.gd\").new().install(self)\n")
+[MCPTools] execute.code: get_tree().current_scene.get_script().reload(true)
+[MCPTools] execute.code: get_tree().current_scene.start_extras()
+FINAL70_EXTRA talk_requirement_satisfied true
+FINAL70_EXTRA paired_capsule_does_not_block_mentor true
+FINAL70_EXTRA solid_wall_still_blocks_mentor true
+FINAL70_EXTRA ramp_surface_found true
+FINAL70_TARGET ramp_from_actual_surface true
+FINAL70_EXTRA ramp_actual_walk true
+FINAL70_EXTRA inventory_socket_identity true
+FINAL70_EXTRA continuous_4s_walk true
+FINAL70_EXTRA continuous_4s_run true
+FINAL70_EXTRA npc_inventory_scoped true
+FINAL70_EXTRA save_semantic_roundtrip true
+FINAL70_EXTRA reload_no_duplicate_rewards true
+FINAL70_EXTRAS_DONE
+[MCPTools] execute.code: get_tree().current_scene.player.body.human62.footwear63.get_script().set_source_code("extends RefCounted\n## Authored lofted sneaker geometry. One shared mesh, three surfaces, four skin binds.\nstatic var shared_mesh: ArrayMesh\nstatic var shared_skin: Ski...[+14097 chars]
+[MCPTools] execute.code: get_tree().current_scene.player.body.human62.footwear63.get_script().reload(true)
+[MCPTools] execute.code: get_tree().current_scene.get_child(-1).get_script().set_source_code("extends Node\nvar f: Node\nvar c: Node\nvar p: CharacterBody3D\nvar out: String\nvar rows=[]\nfunc install(parent: Node) -\u003e String:\n\tf=parent;c=f.campaign;p=f.player;out=f.out+\"re...[+8619 chars]
+[MCPTools] execute.code: get_tree().current_scene.get_child(-1).get_script().reload(true)
+[MCPTools] execute.code: get_tree().current_scene.start_extras()
+FINAL70_EXTRA talk_requirement_satisfied true
+FINAL70_EXTRA paired_capsule_does_not_block_mentor true
+FINAL70_EXTRA solid_wall_still_blocks_mentor true
+FINAL70_EXTRA ramp_surface_found true
+FINAL70_TARGET refined_ramp_from_actual_surface true
+FINAL70_EXTRA ramp_actual_walk true
+FINAL70_EXTRA inventory_socket_identity true
+FINAL70_EXTRA continuous_4s_walk true
+FINAL70_EXTRA continuous_4s_run true
+FINAL70_EXTRA npc_inventory_scoped true
+FINAL70_EXTRA save_semantic_roundtrip true
+FINAL70_EXTRA reload_no_duplicate_rewards true
+FINAL70_EXTRAS_DONE
+[MCPTools] execute.code: get_tree().current_scene.get_script().set_source_code(get_tree().current_scene.get_script().source_code+"\nfunc start_regressions() -\u003e String:\n\treturn load(\"res://tests/final_regressions_7_0.gd\").new().install(self)\n")
+[MCPTools] execute.code: get_tree().current_scene.get_script().reload(true)
+[MCPTools] execute.code: get_tree().current_scene.start_regressions()
+FINAL70_REGRESSION inventory_regression timeout=false
+FINAL70_REGRESSION gameplay_regression timeout=false
+FINAL70_REGRESSION guardado_lectura timeout=false
+FINAL70_REGRESSION main_character_regression_6 timeout=false
+FINAL70_REGRESSIONS_DONE
+[MCPTools] execute.code: get_tree().current_scene.player.body.human62.footwear63.get_script().set_source_code("extends RefCounted\n## Authored lofted sneaker geometry. One shared mesh, three surfaces, four skin binds.\nstatic var shared_mesh: ArrayMesh\nstatic var shared_skin: Ski...[+14150 chars]
+[MCPTools] execute.code: get_tree().current_scene.player.body.human62.footwear63.get_script().reload(true)
+[MCPTools] execute.code: get_tree().current_scene.get_child(-2).set("out",get_tree().current_scene.out+"final_contact/")
+[MCPTools] execute.code: get_tree().current_scene.get_child(-2).call_deferred("locomotion_measure")
+[MCPTools] execute.code: get_tree().current_scene.get_child(-1).set("results",[])
+[MCPTools] execute.code: get_tree().current_scene.get_child(-1).call_deferred("run")
+FINAL70_EXTRA inventory_socket_identity true
+FINAL70_REGRESSION inventory_regression timeout=false
+FINAL70_EXTRA continuous_4s_walk true
+FINAL70_REGRESSION gameplay_regression timeout=false
+FINAL70_REGRESSION guardado_lectura timeout=false
+FINAL70_EXTRA continuous_4s_run true
+FINAL70_REGRESSION main_character_regression_6 timeout=false
+FINAL70_REGRESSIONS_DONE
+[MCPTools] execute.code: get_tree().current_scene.get_child(-2).get_script().set_source_code("extends Node\nvar f: Node\nvar c: Node\nvar p: CharacterBody3D\nvar out: String\nvar rows=[]\nfunc install(parent: Node) -\u003e String:\n\tf=parent;c=f.campaign;p=f.player;out=f.out+\"re...[+8775 chars]
+[MCPTools] execute.code: get_tree().current_scene.get_child(-2).get_script().reload(true)
+[MCPTools] execute.code: get_tree().current_scene.get_child(-2).set("out",get_tree().current_scene.out+"final_ground/")
+[MCPTools] execute.code: get_tree().current_scene.get_child(-2).call_deferred("locomotion_measure")
+FINAL70_EXTRA inventory_socket_identity true
+FINAL70_EXTRA continuous_4s_walk true
+FINAL70_EXTRA continuous_4s_run true
+[MCPTools] execute.code: get_tree().current_scene.get_child(-2).get_script().set_source_code("extends Node\nvar f: Node\nvar c: Node\nvar p: CharacterBody3D\nvar out: String\nvar rows=[]\nfunc install(parent: Node) -\u003e String:\n\tf=parent;c=f.campaign;p=f.player;out=f.out+\"re...[+9947 chars]
+[MCPTools] execute.code: get_tree().current_scene.get_child(-2).get_script().reload(true)
+[MCPTools] execute.code: get_tree().current_scene.get_child(-2).set("out",get_tree().current_scene.out+"transitions/")
+[MCPTools] execute.code: get_tree().current_scene.get_child(-2).call_deferred("transition_checks")
+FINAL70_TARGET stairs_minus1_to_1 true
+FINAL70_EXTRA stairs_minus1_to_1_arrival_height true
+FINAL70_TARGET stairs_1_to_2 true
+FINAL70_EXTRA stairs_1_to_2_arrival_height true
+FINAL70_TARGET stairs_2_to_1 true
+FINAL70_EXTRA stairs_2_to_1_arrival_height true
+FINAL70_TARGET ramp_full_exit false
+FINAL70_EXTRA ramp_full_exit_arrival_height false
+FINAL70_TRANSITIONS_DONE
+[MCPTools] execute.code: get_tree().current_scene.get_script().set_source_code(get_tree().current_scene.get_script().source_code+"\nfunc start_ramp_diagnostic() -\u003e String:\n\treturn load(\"res://tests/final_ramp_7_0.gd\").new().install(self)\n")
+[MCPTools] execute.code: get_tree().current_scene.get_script().reload(true)
+[MCPTools] execute.code: get_tree().current_scene.start_ramp_diagnostic()
+FINAL70_TARGET ramp_corrected_diagnostic false
+FINAL70_RAMP_DIAGNOSTIC_DONE false

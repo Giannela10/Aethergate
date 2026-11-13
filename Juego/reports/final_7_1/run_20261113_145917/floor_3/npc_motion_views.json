@@ -1,0 +1,782 @@
+[
+	{
+		"file": "floor_3/npc_motion_npc_profesor_redes_front.png",
+		"floor": 3,
+		"label": "npc_profesor_redes_front",
+		"phase": "npc_motion",
+		"point": "(65.0, 25.60767, -149.0)",
+		"samples": [
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 26.58,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 24.771,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 23.871,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 23.621,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 23.967,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 32.047,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 21.383,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 22.79,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 37.332,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 30.297,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 23.229,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 25.22,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 22.794,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 25.053,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 24.472,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 24.946,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 26.334,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 21.0,
+				"ms": 37.181,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 32.0,
+				"ms": 31.479,
+				"primitives": 522474.0
+			},
+			{
+				"draw_calls": 8344.0,
+				"fps": 32.0,
+				"ms": 25.911,
+				"primitives": 522474.0
+			}
+		],
+		"target": "(65.0, 25.35767, -145.0)"
+	},
+	{
+		"file": "floor_3/npc_motion_npc_profesor_redes_side.png",
+		"floor": 3,
+		"label": "npc_profesor_redes_side",
+		"phase": "npc_motion",
+		"point": "(69.0, 25.60767, -145.0)",
+		"samples": [
+			{
+				"draw_calls": 18191.0,
+				"fps": 32.0,
+				"ms": 62.367,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 32.0,
+				"ms": 64.495,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 32.0,
+				"ms": 60.274,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 32.0,
+				"ms": 65.544,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 32.0,
+				"ms": 64.111,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 32.0,
+				"ms": 64.294,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 32.0,
+				"ms": 57.723,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 32.0,
+				"ms": 54.352,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 32.0,
+				"ms": 52.618,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 32.0,
+				"ms": 53.468,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 32.0,
+				"ms": 51.778,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 16.0,
+				"ms": 53.845,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 16.0,
+				"ms": 53.334,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 16.0,
+				"ms": 53.37,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 16.0,
+				"ms": 59.278,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 16.0,
+				"ms": 65.295,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 16.0,
+				"ms": 53.828,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 16.0,
+				"ms": 55.131,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 16.0,
+				"ms": 51.546,
+				"primitives": 873524.0
+			},
+			{
+				"draw_calls": 18191.0,
+				"fps": 16.0,
+				"ms": 52.943,
+				"primitives": 873524.0
+			}
+		],
+		"target": "(65.0, 25.35767, -145.0)"
+	},
+	{
+		"file": "floor_3/npc_motion_npc_profesor_datos_front.png",
+		"floor": 3,
+		"label": "npc_profesor_datos_front",
+		"phase": "npc_motion",
+		"point": "(-45.0, 25.60767, -141.0)",
+		"samples": [
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 21.615,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 26.093,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 23.372,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 23.356,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 22.641,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 26.262,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 22.634,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 24.211,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 23.103,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 26.013,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 23.023,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 23.744,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 23.102,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 24.889,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 25.275,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 23.237,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 24.681,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 25.498,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 25.217,
+				"primitives": 428922.0
+			},
+			{
+				"draw_calls": 8909.0,
+				"fps": 19.0,
+				"ms": 24.382,
+				"primitives": 428922.0
+			}
+		],
+		"target": "(-45.0, 25.35767, -137.0)"
+	},
+	{
+		"file": "floor_3/npc_motion_npc_profesor_datos_side.png",
+		"floor": 3,
+		"label": "npc_profesor_datos_side",
+		"phase": "npc_motion",
+		"point": "(-41.0, 25.60767, -137.0)",
+		"samples": [
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 10.74,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.374,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.285,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.345,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.316,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.331,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.361,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.317,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.329,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.404,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.326,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.314,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.292,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 19.0,
+				"ms": 13.339,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 50.0,
+				"ms": 13.424,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 50.0,
+				"ms": 13.345,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 50.0,
+				"ms": 13.275,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 50.0,
+				"ms": 13.301,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 50.0,
+				"ms": 13.318,
+				"primitives": 136494.0
+			},
+			{
+				"draw_calls": 2493.0,
+				"fps": 50.0,
+				"ms": 13.365,
+				"primitives": 136494.0
+			}
+		],
+		"target": "(-45.0, 25.35767, -137.0)"
+	},
+	{
+		"file": "floor_3/npc_motion_npc_profesor_algoritmos_front.png",
+		"floor": 3,
+		"label": "npc_profesor_algoritmos_front",
+		"phase": "npc_motion",
+		"point": "(30.0, 25.60767, -134.0)",
+		"samples": [
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 18.047,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 20.686,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 22.523,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 19.691,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 21.279,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 18.01,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 34.667,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 24.699,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 19.145,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 17.721,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 19.525,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 19.681,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 18.792,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 18.592,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 19.431,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 17.312,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 18.524,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 17.964,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 18.986,
+				"primitives": 529894.0
+			},
+			{
+				"draw_calls": 7829.0,
+				"fps": 69.0,
+				"ms": 20.389,
+				"primitives": 529894.0
+			}
+		],
+		"target": "(30.0, 25.35767, -130.0)"
+	},
+	{
+		"file": "floor_3/npc_motion_npc_profesor_algoritmos_side.png",
+		"floor": 3,
+		"label": "npc_profesor_algoritmos_side",
+		"phase": "npc_motion",
+		"point": "(34.0, 25.60767, -130.0)",
+		"samples": [
+			{
+				"draw_calls": 11815.0,
+				"fps": 69.0,
+				"ms": 34.132,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 69.0,
+				"ms": 37.501,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 69.0,
+				"ms": 39.225,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 69.0,
+				"ms": 38.774,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 69.0,
+				"ms": 36.583,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 38.071,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 39.261,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 35.089,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 38.17,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 36.04,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 37.119,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 36.572,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 35.314,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 36.333,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 40.675,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 38.787,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 36.064,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 36.929,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 37.433,
+				"primitives": 556524.0
+			},
+			{
+				"draw_calls": 11815.0,
+				"fps": 37.0,
+				"ms": 36.771,
+				"primitives": 556524.0
+			}
+		],
+		"target": "(30.0, 25.35767, -130.0)"
+	}
+]

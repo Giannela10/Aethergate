@@ -12,6 +12,7 @@ var clock:=0.0
 var active:=true
 var socket_defaults: Dictionary={}
 var footwear63: RefCounted
+var player_retarget := false
 
 func asset_dir() -> String: return DIR
 func asset_files() -> Array:
@@ -19,6 +20,7 @@ func asset_files() -> Array:
 
 func initialize(owner_visual: Node3D) -> bool:
 	host=owner_visual
+	player_retarget=host.get_script().resource_path.contains("main_character_visual")
 	name="ImportedModel"
 	rotation.y=PI
 	scale=Vector3.ONE*1.07
@@ -147,7 +149,16 @@ func update_pose(delta: float) -> void:
 				pose.basis=Basis(Quaternion(original,direction))*rests[i].basis
 			else:
 				direction=(rig.global_basis.inverse()*joint.global_basis*Vector3.DOWN).normalized()
-				pose.basis=Basis(Quaternion(rests[i].basis.y.normalized(),direction))*rests[i].basis
+				if player_retarget:
+					# Transfer a complete rotation from the procedural bind frame.
+					# A fresh shortest-arc aim every frame loses limb roll and the
+					# elbow/knee bend plane as the parent turns.
+					var neutral_frame=rig.global_basis.orthonormalized().inverse()*host.global_basis.orthonormalized()
+					var moving_frame=rig.global_basis.orthonormalized().inverse()*joint.global_basis.orthonormalized()
+					var motion=moving_frame*neutral_frame.inverse()
+					pose.basis=motion*Basis(Quaternion(rests[i].basis.y.normalized(),Vector3.DOWN))*rests[i].basis
+				else:
+					pose.basis=Basis(Quaternion(rests[i].basis.y.normalized(),direction))*rests[i].basis
 		elif label in ["spine_01","spine_02","spine_03","neck_01","head"]:
 			if label=="spine_01": pose.origin.y+=(host.spine.position.y-0.05)/scale.y
 			var joint: Node3D=host.head_pivot if label=="head" else host.chest if label in ["spine_03","neck_01"] else host.spine

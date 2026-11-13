@@ -1,0 +1,4 @@
+{
+    "code":  "get_tree().current_scene.campaign.academic_expansion.actors.keys()",
+    "channel":  "runtime"
+}

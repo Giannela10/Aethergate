@@ -1,0 +1,56 @@
+[
+	{
+		"after": {
+			"amount": 1,
+			"id": "pc5",
+			"kind": "computer",
+			"optional": true,
+			"text": "Preparaci�n opcional de Ingl�s: computador del piso 6"
+		},
+		"before": {
+			"amount": 1,
+			"id": "pc5",
+			"kind": "computer",
+			"optional": true,
+			"text": "Resuelve el desafío académico (preparación opcional)"
+		},
+		"computer_position": "(25.5, 60.2585, -142.134)",
+		"quest": "academico5"
+	},
+	{
+		"after": {
+			"amount": 1,
+			"id": "pc6",
+			"kind": "computer",
+			"optional": true,
+			"text": "Preparaci�n opcional de Comunicaci�n: computador del piso 7"
+		},
+		"before": {
+			"amount": 1,
+			"id": "pc6",
+			"kind": "computer",
+			"optional": true,
+			"text": "Completa la actividad de Lenguaje (preparación opcional)"
+		},
+		"computer_position": "(35.0, 72.06863, -132.0)",
+		"quest": "seguridad6"
+	},
+	{
+		"after": {
+			"amount": 1,
+			"id": "pc7",
+			"kind": "computer",
+			"optional": true,
+			"text": "Preparaci�n opcional de �tica: computador del piso 6"
+		},
+		"before": {
+			"amount": 1,
+			"id": "pc7",
+			"kind": "computer",
+			"optional": true,
+			"text": "Completa el computador del Piso 7 (preparación opcional)"
+		},
+		"computer_position": "(-35.0, 60.28495, -132.0)",
+		"quest": "acceso7"
+	}
+]

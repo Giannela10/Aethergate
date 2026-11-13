@@ -185,20 +185,31 @@ func resolve_contact(poses: Array[Transform3D], delta: float) -> void:
 			plants.erase(side);continue
 		var visible_y=preload("res://scripts/juego/character_ground_6_3.gd").height_at(model,ankle,hit.position.y)
 		var clearance=bottom-visible_y
+		var swinging=false
+		# The advancing leg must leave the ground. Previously both feet were
+		# planted up to 25 cm above it, so contact IK fought the authored swing.
+		if model.player_retarget and model.host.visual_speed>0.2 and model.host.air_t<0.1:
+			var swing=cos(model.host.phase)*(1.0 if side=="l" else -1.0)
+			if swing>0.0:
+				plants.erase(side)
+				swinging=true
 		if clearance>0.25 or clearance< -0.22:
 			plants.erase(side);continue
 		var correction=visible_y+0.004-bottom
-		target_offset=minf(target_offset,correction)
-		supports.append({"side":side,"foot":foot,"ball":ball,"ankle":ankle,"hit":hit,"correction":correction})
+		if not swinging: target_offset=minf(target_offset,correction)
+		supports.append({"side":side,"foot":foot,"ball":ball,"ankle":ankle,"hit":hit,"correction":correction,"swinging":swinging})
 	if target_offset==INF: target_offset=0.0
 	# Authored NPC spawn offsets can be 0.12 m above the walking surface.
 	contact_offset=move_toward(contact_offset,clampf(target_offset,-0.20,0.20),delta*2.5)
 	var shift: Vector3=model.rig.global_basis.inverse()*(Vector3.UP*contact_offset)
 	for i in poses.size(): poses[i].origin+=shift
 	for support in supports:
+		# Test after the shared pelvis shift: a foot clear before that shift
+		# can otherwise be pushed through the floor by the supporting leg.
+		if support.swinging and support.correction<=contact_offset: continue
 		var target: Vector3=support.ankle+Vector3.UP*support.correction
 		var side: String=support.side
-		var moving=model.host.visual_speed>0.2
+		var moving=model.host.visual_speed>0.2 and not support.swinging
 		if moving:
 			if plants.has(side):
 				var plant: Dictionary=plants[side]
@@ -207,7 +218,8 @@ func resolve_contact(poses: Array[Transform3D], delta: float) -> void:
 					var platform_delta: Vector3=plant.collider.global_position-plant.platform
 					if platform_delta.length()<0.25: plant.point+=platform_delta
 					plant.platform=plant.collider.global_position
-				if plant.age>0.48 or plant.point.distance_to(target)>0.30 or plant.collider!=support.hit.collider: plants.erase(side)
+				var max_travel=0.90 if model.player_retarget else 0.30
+				if plant.age>0.48 or plant.point.distance_to(target)>max_travel or plant.collider!=support.hit.collider: plants.erase(side)
 			if not plants.has(side): plants[side]={"point":target,"age":0.0,"collider":support.hit.collider,"platform":support.hit.collider.global_position}
 			target=plants[side].point
 		else: plants.erase(side)
@@ -228,6 +240,11 @@ func _solve_leg(poses: Array[Transform3D], thigh: int, calf: int, foot: int, bal
 	var distance=clampf(hip.distance_to(target),0.05,upper_length+lower_length-0.0001)
 	var direction=(target-hip).normalized()
 	var pole=old_knee-hip-direction*(old_knee-hip).dot(direction)
+	if model.player_retarget:
+		# This imported model faces +Z in skeleton space. Keep the knee on
+		# that side even near full extension, where the old pole is unstable.
+		var forward=Vector3.BACK-direction*Vector3.BACK.dot(direction)
+		if pole.length()<0.001 or pole.dot(forward)<0.0: pole=forward
 	if pole.length()<0.001: pole=Vector3.BACK-direction*Vector3.BACK.dot(direction)
 	pole=pole.normalized()
 	var along=(upper_length*upper_length-lower_length*lower_length+distance*distance)/(2*distance)

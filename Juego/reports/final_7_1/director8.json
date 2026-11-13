@@ -1,0 +1,4 @@
+{
+    "code":  "get_tree().current_scene.get_node(\"CampaignFlow71\").call_deferred(\"director_tasks\")",
+    "channel":  "runtime"
+}

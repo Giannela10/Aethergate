@@ -1,0 +1,4 @@
+{
+    "code":  "get_tree().current_scene.get_script().source_code.contains(\"func start_extras\")",
+    "channel":  "runtime"
+}

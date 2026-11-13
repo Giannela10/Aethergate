@@ -95,9 +95,17 @@ func can_reach_target(node: Node3D) -> bool:
 	# paired simulation body; walls and other scene colliders still block sight.
 	if not target.is_in_group("educational_mentor"): return false
 	var actor=node.get("actor")
-	if not actor is CollisionObject3D: return false
+	if not actor is Node3D: return false
+	var simulation_body: CollisionObject3D=actor as CollisionObject3D
+	if simulation_body==null:
+		# Punto Estudiantil owns a top-level CharacterBody3D child. The
+		# mentor occupies its neutral spawn, so that child's capsule must
+		# be treated exactly like a CharacterBody3D actor's own capsule.
+		var mover=actor.get("_mover")
+		if mover is CollisionObject3D and actor.is_ancestor_of(mover): simulation_body=mover
+	if simulation_body==null: return false
 	var query=PhysicsRayQueryParameters3D.create(player.global_position+Vector3.UP*1.2,target.global_position+Vector3.UP*1.2)
-	query.exclude=[player.get_rid(),actor.get_rid()]
+	query.exclude=[player.get_rid(),simulation_body.get_rid()]
 	var hit=player.get_world_3d().direct_space_state.intersect_ray(query)
 	if hit.is_empty(): return true
 	var collider=hit.get("collider") as Node

@@ -1,0 +1,1692 @@
+[
+	{
+		"file": "floor_5/before_TerrazaPicnic_(0.0, 0.0, -1.0).png",
+		"floor": 5,
+		"label": "TerrazaPicnic_(0.0, 0.0, -1.0)",
+		"phase": "before",
+		"point": "(-34.32022, 50.21485, -110.5567)",
+		"samples": [
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 31.346,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 34.422,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 34.376,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 38.207,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 38.307,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 26.676,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 22.321,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 20.806,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 22.734,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 21.258,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 19.821,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 20.846,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 19.5,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 21.017,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 19.368,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8444.0,
+				"fps": 73.0,
+				"ms": 24.201,
+				"primitives": 234116.0
+			},
+			{
+				"draw_calls": 8428.0,
+				"fps": 73.0,
+				"ms": 21.528,
+				"primitives": 227858.0
+			},
+			{
+				"draw_calls": 8428.0,
+				"fps": 73.0,
+				"ms": 19.874,
+				"primitives": 227858.0
+			},
+			{
+				"draw_calls": 8428.0,
+				"fps": 73.0,
+				"ms": 18.77,
+				"primitives": 227858.0
+			},
+			{
+				"draw_calls": 8428.0,
+				"fps": 73.0,
+				"ms": 20.209,
+				"primitives": 227858.0
+			}
+		],
+		"target": "(-34.32022, 50.21485, -116.5567)"
+	},
+	{
+		"file": "floor_5/before_TerrazaPicnic_(0.0, 0.0, 1.0).png",
+		"floor": 5,
+		"label": "TerrazaPicnic_(0.0, 0.0, 1.0)",
+		"phase": "before",
+		"point": "(-34.32022, 50.21485, -110.5567)",
+		"samples": [
+			{
+				"draw_calls": 2547.0,
+				"fps": 73.0,
+				"ms": 12.375,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 73.0,
+				"ms": 13.331,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.332,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.353,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.404,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.299,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.27,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.345,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.327,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.352,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.332,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.32,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.322,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.341,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.327,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.345,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.337,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.317,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.324,
+				"primitives": 115366.0
+			},
+			{
+				"draw_calls": 2547.0,
+				"fps": 36.0,
+				"ms": 13.39,
+				"primitives": 115366.0
+			}
+		],
+		"target": "(-34.32022, 50.21485, -104.5567)"
+	},
+	{
+		"file": "floor_5/before_TerrazaPicnic_(1.0, 0.0, 0.0).png",
+		"floor": 5,
+		"label": "TerrazaPicnic_(1.0, 0.0, 0.0)",
+		"phase": "before",
+		"point": "(-34.32022, 50.21485, -110.5567)",
+		"samples": [
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 36.33,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 35.432,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 37.286,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 35.818,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 34.81,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 35.855,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 33.129,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 39.281,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 40.737,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 35.312,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 32.891,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 34.722,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 32.605,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 33.608,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 34.365,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 33.06,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 32.882,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 35.183,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 32.131,
+				"primitives": 548384.0
+			},
+			{
+				"draw_calls": 12396.0,
+				"fps": 36.0,
+				"ms": 32.684,
+				"primitives": 548384.0
+			}
+		],
+		"target": "(-28.32022, 50.21485, -110.5567)"
+	},
+	{
+		"file": "floor_5/before_TerrazaPicnic_(-1.0, 0.0, 0.0).png",
+		"floor": 5,
+		"label": "TerrazaPicnic_(-1.0, 0.0, 0.0)",
+		"phase": "before",
+		"point": "(-34.32022, 50.21485, -110.5567)",
+		"samples": [
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 10.533,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.313,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.333,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.355,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.311,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.333,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.353,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.315,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.325,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.338,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.338,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.362,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.307,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.343,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.324,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.322,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.331,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.326,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.349,
+				"primitives": 56430.0
+			},
+			{
+				"draw_calls": 2041.0,
+				"fps": 36.0,
+				"ms": 13.34,
+				"primitives": 56430.0
+			}
+		],
+		"target": "(-40.32022, 50.21485, -110.5567)"
+	},
+	{
+		"file": "floor_5/before_TiendaEsquinaPiso5_(0.0, 0.0, -1.0).png",
+		"floor": 5,
+		"label": "TiendaEsquinaPiso5_(0.0, 0.0, -1.0)",
+		"phase": "before",
+		"point": "(-30.99706, 50.21485, -147.4295)",
+		"samples": [
+			{
+				"draw_calls": 8375.0,
+				"fps": 36.0,
+				"ms": 10.1,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 36.0,
+				"ms": 13.32,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 36.0,
+				"ms": 13.317,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 15.851,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 10.802,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 13.324,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 13.336,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 13.392,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 13.278,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 13.386,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 13.31,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 13.372,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 13.327,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 13.499,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 14.937,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 15.919,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 13.315,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 14.984,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 12.382,
+				"primitives": 189808.0
+			},
+			{
+				"draw_calls": 8375.0,
+				"fps": 46.0,
+				"ms": 11.965,
+				"primitives": 189808.0
+			}
+		],
+		"target": "(-30.99706, 50.21485, -153.4295)"
+	},
+	{
+		"file": "floor_5/before_TiendaEsquinaPiso5_(0.0, 0.0, 1.0).png",
+		"floor": 5,
+		"label": "TiendaEsquinaPiso5_(0.0, 0.0, 1.0)",
+		"phase": "before",
+		"point": "(-30.99706, 50.21485, -147.4295)",
+		"samples": [
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 14.825,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 17.257,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 18.857,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 17.103,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 19.777,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 18.415,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 18.139,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 18.841,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 17.174,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 20.639,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 17.907,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 17.541,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 18.939,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 17.533,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 20.492,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 18.357,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 17.562,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 18.098,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 18.628,
+				"primitives": 354472.0
+			},
+			{
+				"draw_calls": 5470.0,
+				"fps": 46.0,
+				"ms": 19.655,
+				"primitives": 354472.0
+			}
+		],
+		"target": "(-30.99706, 50.21485, -141.4295)"
+	},
+	{
+		"file": "floor_5/before_TiendaEsquinaPiso5_(1.0, 0.0, 0.0).png",
+		"floor": 5,
+		"label": "TiendaEsquinaPiso5_(1.0, 0.0, 0.0)",
+		"phase": "before",
+		"point": "(-30.99706, 50.21485, -147.4295)",
+		"samples": [
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 31.541,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 36.697,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 35.739,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 38.63,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 38.963,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 39.18,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 38.452,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 39.362,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 35.482,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 34.464,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 35.725,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 34.578,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 35.122,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 38.694,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 34.739,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 35.033,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 36.068,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 35.628,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 33.817,
+				"primitives": 563745.0
+			},
+			{
+				"draw_calls": 14126.0,
+				"fps": 48.0,
+				"ms": 35.818,
+				"primitives": 563745.0
+			}
+		],
+		"target": "(-24.99706, 50.21485, -147.4295)"
+	},
+	{
+		"file": "floor_5/before_TiendaEsquinaPiso5_(-1.0, 0.0, 0.0).png",
+		"floor": 5,
+		"label": "TiendaEsquinaPiso5_(-1.0, 0.0, 0.0)",
+		"phase": "before",
+		"point": "(-30.99706, 50.21485, -147.4295)",
+		"samples": [
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 9.647,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.297,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.358,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.309,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.381,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.309,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.34,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.363,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.283,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.361,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.3,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.353,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.305,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.347,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.332,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.331,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.347,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.319,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.388,
+				"primitives": 85558.0
+			},
+			{
+				"draw_calls": 3923.0,
+				"fps": 29.0,
+				"ms": 13.333,
+				"primitives": 85558.0
+			}
+		],
+		"target": "(-36.99706, 50.21485, -147.4295)"
+	},
+	{
+		"file": "floor_5/before_VestibuloAscensores_(0.0, 0.0, -1.0).png",
+		"floor": 5,
+		"label": "VestibuloAscensores_(0.0, 0.0, -1.0)",
+		"phase": "before",
+		"point": "(-11.625, 50.21485, -147.1185)",
+		"samples": [
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 10.701,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.334,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.353,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.325,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.325,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.33,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.351,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.367,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.284,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.401,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.241,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.334,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.337,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.346,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.338,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.338,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.362,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.276,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.331,
+				"primitives": 168176.0
+			},
+			{
+				"draw_calls": 7568.0,
+				"fps": 29.0,
+				"ms": 13.35,
+				"primitives": 168176.0
+			}
+		],
+		"target": "(-11.625, 50.21485, -153.1185)"
+	},
+	{
+		"file": "floor_5/before_VestibuloAscensores_(0.0, 0.0, 1.0).png",
+		"floor": 5,
+		"label": "VestibuloAscensores_(0.0, 0.0, 1.0)",
+		"phase": "before",
+		"point": "(-11.625, 50.21485, -147.1185)",
+		"samples": [
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 14.121,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 15.679,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 16.055,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 15.834,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 16.078,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 17.665,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 16.742,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 15.986,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 16.085,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 18.618,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 18.187,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 17.435,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 17.684,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 16.055,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 16.028,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 18.542,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 15.776,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 16.981,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 16.024,
+				"primitives": 333266.0
+			},
+			{
+				"draw_calls": 5323.0,
+				"fps": 63.0,
+				"ms": 16.763,
+				"primitives": 333266.0
+			}
+		],
+		"target": "(-11.625, 50.21485, -141.1185)"
+	},
+	{
+		"file": "floor_5/before_VestibuloAscensores_(1.0, 0.0, 0.0).png",
+		"floor": 5,
+		"label": "VestibuloAscensores_(1.0, 0.0, 0.0)",
+		"phase": "before",
+		"point": "(-11.625, 50.21485, -147.1185)",
+		"samples": [
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 18.815,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 23.524,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 23.22,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 23.888,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 21.151,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 23.395,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 22.329,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 22.212,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 21.129,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 24.527,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 22.408,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 22.935,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 27.543,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 23.797,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 63.0,
+				"ms": 22.661,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 47.0,
+				"ms": 22.481,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 47.0,
+				"ms": 22.728,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 47.0,
+				"ms": 25.105,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 47.0,
+				"ms": 21.818,
+				"primitives": 343162.0
+			},
+			{
+				"draw_calls": 9378.0,
+				"fps": 47.0,
+				"ms": 22.544,
+				"primitives": 343162.0
+			}
+		],
+		"target": "(-5.625, 50.21485, -147.1185)"
+	},
+	{
+		"file": "floor_5/before_VestibuloAscensores_(-1.0, 0.0, 0.0).png",
+		"floor": 5,
+		"label": "VestibuloAscensores_(-1.0, 0.0, 0.0)",
+		"phase": "before",
+		"point": "(-11.625, 50.21485, -147.1185)",
+		"samples": [
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 12.949,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 16.419,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 18.475,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 15.777,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 15.125,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 15.584,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 15.325,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 18.242,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 16.205,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 15.43,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 15.793,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 16.344,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 17.638,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 16.197,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 16.044,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 15.915,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 16.522,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 16.776,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 15.171,
+				"primitives": 216436.0
+			},
+			{
+				"draw_calls": 8919.0,
+				"fps": 47.0,
+				"ms": 15.385,
+				"primitives": 216436.0
+			}
+		],
+		"target": "(-17.625, 50.21485, -147.1185)"
+	},
+	{
+		"file": "floor_5/before_PlanoPisos_front.png",
+		"floor": 5,
+		"label": "PlanoPisos_front",
+		"phase": "before",
+		"point": "(-16.835, 50.07485, -143.0)",
+		"samples": [
+			{
+				"draw_calls": 7181.0,
+				"fps": 47.0,
+				"ms": 10.525,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 47.0,
+				"ms": 10.269,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 47.0,
+				"ms": 12.088,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 47.0,
+				"ms": 12.08,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 47.0,
+				"ms": 13.339,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 47.0,
+				"ms": 13.377,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 15.045,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 11.868,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 13.035,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 13.338,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 13.333,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 13.335,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 13.342,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 13.962,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 14.038,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 12.946,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 12.397,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 13.318,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 13.33,
+				"primitives": 201960.0
+			},
+			{
+				"draw_calls": 7181.0,
+				"fps": 51.0,
+				"ms": 13.387,
+				"primitives": 201960.0
+			}
+		],
+		"target": "(-19.835, 50.27485, -143.0)"
+	}
+]

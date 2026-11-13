@@ -49,6 +49,11 @@ func _ready() -> void:
 		if id == "acceso7":
 			quest.description = "Abre el acceso con TarjetaAcceso y explora el piso 7. Sus duelos son opcionales."
 			quest.requirements.append(_req("floor","7","Visita el piso 7"))
+	# pc5/pc6/pc7 are persistent IDs, not floor numbers. Match the optional
+	# objective captions to the actual computers without changing requirements.
+	for row in [["academico5","pc5","Preparación opcional de Inglés: computador del piso 6"],["seguridad6","pc6","Preparación opcional de Comunicación: computador del piso 7"],["acceso7","pc7","Preparación opcional de Ética: computador del piso 6"]]:
+		for requirement in definitions[row[0]].requirements:
+			if requirement.kind=="computer" and requirement.id==row[1]: requirement.text=row[2]
 	definitions.academico3.requirements.append(_req("academic_any","piso3","Supera Bases de Datos o Algoritmos"))
 	_add("ubicar_profesores","Ubicar profesores","Habla con Algoritmos (3), Inglés (6) y Matemáticas (7). No necesitas derrotarlos; regresa al coordinador.",false,"",[
 		_req("talk","profesor_algoritmos","Localiza Algoritmos · piso 3 · Informática"),

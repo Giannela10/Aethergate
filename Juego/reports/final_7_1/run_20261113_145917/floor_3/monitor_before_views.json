@@ -1,0 +1,782 @@
+[
+	{
+		"file": "floor_3/monitor_before_detail_monitor_301.png",
+		"floor": 3,
+		"label": "detail_monitor_301",
+		"phase": "monitor_before",
+		"point": "(-34.0, 25.82, -108.7)",
+		"samples": [
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 15.843,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 17.253,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 17.285,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 15.581,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 16.372,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 17.684,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 15.936,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 16.919,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 15.281,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 15.296,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 19.161,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 18.516,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 15.971,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 18.808,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 26.307,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 28.336,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 22.688,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 21.281,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 16.396,
+				"primitives": 273716.0
+			},
+			{
+				"draw_calls": 3969.0,
+				"fps": 57.0,
+				"ms": 21.531,
+				"primitives": 273716.0
+			}
+		],
+		"target": "(-31.3, 25.12, -105.0)"
+	},
+	{
+		"file": "floor_3/monitor_before_detail_monitor_302.png",
+		"floor": 3,
+		"label": "detail_monitor_302",
+		"phase": "monitor_before",
+		"point": "(-64.0, 25.82, -151.3)",
+		"samples": [
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 19.403,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 11.433,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 11.913,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 8.635,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 7.978,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 13.277,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 15.497,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 11.226,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 13.327,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 13.328,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 13.261,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 13.327,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 13.411,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 17.585,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 12.304,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 11.15,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 12.32,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 13.271,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 13.627,
+				"primitives": 45084.0
+			},
+			{
+				"draw_calls": 1081.0,
+				"fps": 57.0,
+				"ms": 13.007,
+				"primitives": 45084.0
+			}
+		],
+		"target": "(-66.7, 25.12, -155.0)"
+	},
+	{
+		"file": "floor_3/monitor_before_detail_monitor_304-B.png",
+		"floor": 3,
+		"label": "detail_monitor_304-B",
+		"phase": "monitor_before",
+		"point": "(-52.0, 25.82, -151.3)",
+		"samples": [
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 7.592,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.336,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.332,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.342,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.318,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.358,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.347,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.286,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.424,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.236,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.373,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.309,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.341,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.371,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.295,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.352,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.292,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.356,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.327,
+				"primitives": 86248.0
+			},
+			{
+				"draw_calls": 2250.0,
+				"fps": 56.0,
+				"ms": 13.336,
+				"primitives": 86248.0
+			}
+		],
+		"target": "(-54.7, 25.12, -155.0)"
+	},
+	{
+		"file": "floor_3/monitor_before_detail_monitor_305.png",
+		"floor": 3,
+		"label": "detail_monitor_305",
+		"phase": "monitor_before",
+		"point": "(-40.0, 25.82, -151.3)",
+		"samples": [
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 9.775,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.345,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.367,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.279,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.362,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.293,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.34,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.362,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.311,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.374,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.307,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.353,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.338,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.321,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.309,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.378,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.587,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.046,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.347,
+				"primitives": 125376.0
+			},
+			{
+				"draw_calls": 3459.0,
+				"fps": 56.0,
+				"ms": 13.321,
+				"primitives": 125376.0
+			}
+		],
+		"target": "(-42.7, 25.12, -155.0)"
+	},
+	{
+		"file": "floor_3/monitor_before_detail_monitor_306.png",
+		"floor": 3,
+		"label": "detail_monitor_306",
+		"phase": "monitor_before",
+		"point": "(38.0, 25.82, -151.3)",
+		"samples": [
+			{
+				"draw_calls": 4849.0,
+				"fps": 68.0,
+				"ms": 10.992,
+				"primitives": 182450.0
+			},
+			{
+				"draw_calls": 4849.0,
+				"fps": 68.0,
+				"ms": 12.397,
+				"primitives": 182450.0
+			},
+			{
+				"draw_calls": 4849.0,
+				"fps": 68.0,
+				"ms": 12.542,
+				"primitives": 182450.0
+			},
+			{
+				"draw_calls": 4849.0,
+				"fps": 68.0,
+				"ms": 12.734,
+				"primitives": 182450.0
+			},
+			{
+				"draw_calls": 4849.0,
+				"fps": 68.0,
+				"ms": 13.951,
+				"primitives": 182450.0
+			},
+			{
+				"draw_calls": 4849.0,
+				"fps": 68.0,
+				"ms": 13.047,
+				"primitives": 182450.0
+			},
+			{
+				"draw_calls": 4849.0,
+				"fps": 68.0,
+				"ms": 15.354,
+				"primitives": 182450.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 14.928,
+				"primitives": 238192.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 13.301,
+				"primitives": 238192.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 13.887,
+				"primitives": 238192.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 15.239,
+				"primitives": 238192.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 13.999,
+				"primitives": 238192.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 11.252,
+				"primitives": 238192.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 13.487,
+				"primitives": 238192.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 13.425,
+				"primitives": 238192.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 13.941,
+				"primitives": 238192.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 11.147,
+				"primitives": 238192.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 10.293,
+				"primitives": 238192.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 12.896,
+				"primitives": 238192.0
+			},
+			{
+				"draw_calls": 4910.0,
+				"fps": 68.0,
+				"ms": 13.193,
+				"primitives": 238192.0
+			}
+		],
+		"target": "(35.3, 25.12, -155.0)"
+	},
+	{
+		"file": "floor_3/monitor_before_detail_monitor_TÉCNICA.png",
+		"floor": 3,
+		"label": "detail_monitor_TÉCNICA",
+		"phase": "monitor_before",
+		"point": "(50.0, 25.82, -151.3)",
+		"samples": [
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 12.293,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 13.62,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 12.252,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 13.722,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 14.085,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 14.172,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 14.375,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 14.451,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 13.426,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 15.47,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 16.098,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 16.188,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 17.815,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 14.098,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 13.618,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 11.25,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 15.186,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 13.076,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 16.766,
+				"primitives": 271306.0
+			},
+			{
+				"draw_calls": 5370.0,
+				"fps": 68.0,
+				"ms": 13.58,
+				"primitives": 271306.0
+			}
+		],
+		"target": "(47.3, 25.12, -155.0)"
+	}
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "arguments":  {
+                          "file_path":  "res://tests/final_director_sim_7_1.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://scripts/education/teaching_lab_v4.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://scripts/campaign/quest_manager.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "file_path":  "res://scripts/pisos/piso_5/terrace_guard_collision_7_1.gd"
+                      },
+        "tool":  "script_check"
+    },
+    {
+        "arguments":  {
+                          "text_filter":  "error",
+                          "limit":  25
+                      },
+        "tool":  "debugger_get_log"
+    }
+]

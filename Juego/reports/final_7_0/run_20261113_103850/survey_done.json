@@ -1,0 +1,48 @@
+{
+	"checks": 55,
+	"failures": [
+		{
+			"detail": {
+				"note": "No final unlock injected; end encounter remains pending",
+				"path": "missing"
+			},
+			"passed": false,
+			"test": "nexo_area_preserved"
+		},
+		{
+			"detail": null,
+			"passed": false,
+			"test": "punto_scanner"
+		},
+		{
+			"detail": null,
+			"passed": false,
+			"test": "punto_dialogue"
+		},
+		{
+			"detail": null,
+			"passed": false,
+			"test": "punto_talk_objective"
+		},
+		{
+			"detail": {
+				"bounds": "[P: (-85.05, 0.0, -122.088), S: (169.383, 35.67442, 46.08327)]",
+				"clear_samples": 0,
+				"note": "Capsule placement samples, not a complete walked route"
+			},
+			"passed": false,
+			"test": "capsule_sample_Piso2/AuditorioPiso2e"
+		},
+		{
+			"detail": {
+				"bounds": "[P: (19.1078, 12.03839, -121.9925), S: (2.008242, 1.700001, 33.28927)]",
+				"clear_samples": 0,
+				"note": "Capsule placement samples, not a complete walked route"
+			},
+			"passed": false,
+			"test": "capsule_sample_Piso2/AcabadosPasillos"
+		}
+	],
+	"scope": "Sector cameras and capsule samples; not exhaustive instance approval. Mission victories injected only inside isolated fixture.",
+	"views": 106
+}

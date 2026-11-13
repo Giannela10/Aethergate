@@ -1,0 +1,16 @@
+[
+	{
+		"activity_profile": "pc5",
+		"done": false,
+		"id": "pc5",
+		"path": "/root/FinalCampus71/Main/CampusCampaign/pc5",
+		"position": "(25.5, 60.2585, -142.134)"
+	},
+	{
+		"activity_profile": "pc7",
+		"done": false,
+		"id": "pc7",
+		"path": "/root/FinalCampus71/Main/CampusCampaign/pc7",
+		"position": "(-35.0, 60.28495, -132.0)"
+	}
+]

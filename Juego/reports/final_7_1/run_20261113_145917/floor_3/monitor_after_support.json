@@ -1,0 +1,194 @@
+[
+	{
+		"desk_top_local": 0.8,
+		"monitor": "Monitor",
+		"room": "301",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@7861",
+		"room": "301",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@7869",
+		"room": "301",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@7877",
+		"room": "301",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "Monitor",
+		"room": "302",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@7901",
+		"room": "302",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@7909",
+		"room": "302",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@7917",
+		"room": "302",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "Monitor",
+		"room": "304-B",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@7943",
+		"room": "304-B",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@7951",
+		"room": "304-B",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@7959",
+		"room": "304-B",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "Monitor",
+		"room": "305",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@8000",
+		"room": "305",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@8008",
+		"room": "305",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@8016",
+		"room": "305",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "Monitor",
+		"room": "306",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@8042",
+		"room": "306",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@8050",
+		"room": "306",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@8058",
+		"room": "306",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "Monitor",
+		"room": "TÉCNICA",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@8099",
+		"room": "TÉCNICA",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@8107",
+		"room": "TÉCNICA",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "@MeshInstance3D@8115",
+		"room": "TÉCNICA",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": 0.8,
+		"stand_top_local": 1.025
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"desk_top_local": 0.8,
+		"monitor": "Monitor",
+		"room": "301",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": null,
+		"stand_top_local": null
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "Monitor",
+		"room": "302",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": null,
+		"stand_top_local": null
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "Monitor",
+		"room": "304-B",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": null,
+		"stand_top_local": null
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "Monitor",
+		"room": "305",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": null,
+		"stand_top_local": null
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "Monitor",
+		"room": "306",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": null,
+		"stand_top_local": null
+	},
+	{
+		"desk_top_local": 0.8,
+		"monitor": "Monitor",
+		"room": "TÉCNICA",
+		"screen_bottom_local": 1.02500000596046,
+		"stand_base_local": null,
+		"stand_top_local": null
+	}
+]

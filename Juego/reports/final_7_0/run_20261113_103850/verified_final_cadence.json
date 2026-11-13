@@ -1,0 +1,26 @@
+[
+	{
+		"expected": 8.75,
+		"passed": true,
+		"rad_per_second": 8.75,
+		"speed": 2.5
+	},
+	{
+		"expected": 10.0,
+		"passed": true,
+		"rad_per_second": 9.99999999999999,
+		"speed": 5.5
+	},
+	{
+		"expected": 12.0,
+		"passed": true,
+		"rad_per_second": 11.9999998266047,
+		"speed": 6.6
+	},
+	{
+		"expected": 0.0,
+		"passed": true,
+		"rad_per_second": 0.0,
+		"speed": 0.0
+	}
+]

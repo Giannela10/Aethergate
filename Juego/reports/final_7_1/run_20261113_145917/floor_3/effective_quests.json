@@ -1,0 +1,582 @@
+[
+	{
+		"id": "inicio",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "punto",
+				"kind": "talk",
+				"text": "Habla con Punto Estudiantil"
+			},
+			{
+				"amount": 1,
+				"id": "*",
+				"kind": "collect",
+				"text": "Recoge tu primer objeto"
+			},
+			{
+				"amount": 1,
+				"id": "pc_intro",
+				"kind": "computer",
+				"text": "Completa el computador inicial"
+			},
+			{
+				"amount": 1,
+				"id": "punto",
+				"kind": "boss",
+				"text": "Derrota al Encargado"
+			},
+			{
+				"amount": 1,
+				"id": "chef",
+				"kind": "boss",
+				"text": "Habla y vence al Chef"
+			}
+		],
+		"reward": {
+			"credits": 60,
+			"unlock": "2",
+			"xp": 100
+		},
+		"state": 1,
+		"title": "Primer día"
+	},
+	{
+		"id": "biblioteca",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "2",
+				"kind": "floor",
+				"text": "Visita la biblioteca"
+			},
+			{
+				"amount": 3,
+				"id": "LibroBiblioteca",
+				"kind": "collect",
+				"text": "Busca tres libros"
+			},
+			{
+				"amount": 1,
+				"id": "bibliotecaria",
+				"kind": "boss",
+				"text": "Supera el duelo de preguntas"
+			}
+		],
+		"reward": {
+			"credits": 60,
+			"unlock": "3",
+			"xp": 120
+		},
+		"state": 0,
+		"title": "La guardiana del conocimiento"
+	},
+	{
+		"id": "academico3",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "3",
+				"kind": "floor",
+				"text": "Llega al piso 3"
+			},
+			{
+				"amount": 1,
+				"id": "pc3",
+				"kind": "computer",
+				"text": "Resuelve el desafío académico"
+			},
+			{
+				"amount": 1,
+				"id": "piso3",
+				"kind": "academic_any",
+				"text": "Supera Bases de Datos o Algoritmos"
+			}
+		],
+		"reward": {
+			"credits": 40,
+			"unlock": "4",
+			"xp": 80
+		},
+		"state": 0,
+		"title": "Etapa académica · Piso 3"
+	},
+	{
+		"id": "academico4",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "4",
+				"kind": "floor",
+				"text": "Llega al piso 4"
+			},
+			{
+				"amount": 1,
+				"id": "pc4",
+				"kind": "computer",
+				"text": "Resuelve el desafío académico"
+			}
+		],
+		"reward": {
+			"credits": 40,
+			"unlock": "5",
+			"xp": 80
+		},
+		"state": 0,
+		"title": "Etapa académica · Piso 4"
+	},
+	{
+		"id": "academico5",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "5",
+				"kind": "floor",
+				"text": "Llega al piso 5"
+			},
+			{
+				"amount": 1,
+				"id": "pc5",
+				"kind": "computer",
+				"optional": true,
+				"text": "Resuelve el desafío académico (preparación opcional)"
+			}
+		],
+		"reward": {
+			"credits": 40,
+			"unlock": "6",
+			"xp": 80
+		},
+		"state": 0,
+		"title": "Formación general · Piso 5"
+	},
+	{
+		"id": "seguridad6",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "pc6",
+				"kind": "computer",
+				"optional": true,
+				"text": "Completa la actividad de Lenguaje (preparación opcional)"
+			},
+			{
+				"amount": 1,
+				"id": "6",
+				"kind": "floor",
+				"text": "Visita el piso 6"
+			}
+		],
+		"reward": {
+			"credits": 60,
+			"unlock": "7",
+			"xp": 100
+		},
+		"state": 0,
+		"title": "Encuentro académico · Piso 6"
+	},
+	{
+		"id": "acceso7",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "acceso7",
+				"kind": "door",
+				"text": "Abre el acceso restringido del Piso 7"
+			},
+			{
+				"amount": 1,
+				"id": "pc7",
+				"kind": "computer",
+				"optional": true,
+				"text": "Completa el computador del Piso 7 (preparación opcional)"
+			},
+			{
+				"amount": 1,
+				"id": "7",
+				"kind": "floor",
+				"text": "Visita el piso 7"
+			}
+		],
+		"reward": {
+			"credits": 80,
+			"unlock": "8",
+			"xp": 120
+		},
+		"state": 0,
+		"title": "Acceso restringido"
+	},
+	{
+		"id": "direccion",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "pc8",
+				"kind": "computer",
+				"optional": true,
+				"text": "Organiza los documentos NEXO (preparación opcional)"
+			},
+			{
+				"amount": 1,
+				"id": "director",
+				"kind": "boss",
+				"text": "Habla y vence al Director"
+			},
+			{
+				"amount": 1,
+				"id": "director_task_network",
+				"kind": "academic_task",
+				"text": "PC sin conexión"
+			},
+			{
+				"amount": 1,
+				"id": "director_task_antivirus",
+				"kind": "academic_task",
+				"text": "Equipo infectado"
+			},
+			{
+				"amount": 1,
+				"id": "director_task_config",
+				"kind": "academic_task",
+				"text": "Configuración de red"
+			}
+		],
+		"reward": {
+			"credits": 150,
+			"unlock": "S",
+			"xp": 250
+		},
+		"state": 0,
+		"title": "Modo Administrador"
+	},
+	{
+		"id": "postgame",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "archivo_subterraneo",
+				"kind": "secret",
+				"text": "Encuentra el archivo del subterráneo"
+			}
+		],
+		"reward": {
+			"credits": 100,
+			"xp": 200
+		},
+		"state": 0,
+		"title": "Archivos del subterráneo"
+	},
+	{
+		"id": "nexo_final",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "nexo_core",
+				"kind": "door",
+				"text": "Encuentra el núcleo de NEXO"
+			},
+			{
+				"amount": 1,
+				"id": "nexo",
+				"kind": "boss",
+				"text": "Desactiva NEXO"
+			}
+		],
+		"reward": {},
+		"state": 0,
+		"title": "El núcleo de Proyecto NEXO"
+	},
+	{
+		"id": "llaves",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "llaves",
+				"kind": "deliver",
+				"text": "Entrega las llaves al auxiliar"
+			}
+		],
+		"reward": {
+			"credits": 25,
+			"items": {
+				"Botiquin": 1
+			},
+			"xp": 40
+		},
+		"state": 0,
+		"title": "Las llaves perdidas"
+	},
+	{
+		"id": "cargador",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "cargador",
+				"kind": "deliver",
+				"text": "Entrega el cargador"
+			}
+		],
+		"reward": {
+			"credits": 20,
+			"items": {
+				"BebidaEnergetica": 1
+			},
+			"xp": 30
+		},
+		"state": 0,
+		"title": "El cargador"
+	},
+	{
+		"id": "documentos",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "documentos",
+				"kind": "deliver",
+				"text": "Entrega los documentos"
+			}
+		],
+		"reward": {
+			"credits": 40,
+			"items": {
+				"TarjetaAcceso": 1
+			},
+			"xp": 70
+		},
+		"state": 0,
+		"title": "Documentos importantes"
+	},
+	{
+		"id": "implementos",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "implementos",
+				"kind": "deliver",
+				"text": "Devuelve los tres implementos"
+			}
+		],
+		"reward": {
+			"credits": 35,
+			"items": {
+				"PaletaPingPong": 1
+			},
+			"xp": 50
+		},
+		"state": 0,
+		"title": "Implementos perdidos"
+	},
+	{
+		"id": "infectado",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "pc3",
+				"kind": "computer",
+				"text": "Elimina los virus"
+			}
+		],
+		"reward": {
+			"credits": 30,
+			"items": {
+				"USBInfectado": 1
+			},
+			"xp": 50
+		},
+		"state": 0,
+		"title": "Computador infectado"
+	},
+	{
+		"id": "casino",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "chef",
+				"kind": "duel_started",
+				"text": "Inicia el duelo con el Chef"
+			}
+		],
+		"reward": {
+			"credits": 15,
+			"xp": 25
+		},
+		"state": 0,
+		"title": "Ayuda en el casino"
+	},
+	{
+		"id": "director_task_network",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "director_task_network",
+				"kind": "academic_task",
+				"text": "PC sin conexión"
+			}
+		],
+		"reward": {},
+		"state": 0,
+		"title": "PC sin conexión"
+	},
+	{
+		"id": "director_task_antivirus",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "director_task_antivirus",
+				"kind": "academic_task",
+				"text": "Equipo infectado"
+			}
+		],
+		"reward": {},
+		"state": 0,
+		"title": "Equipo infectado"
+	},
+	{
+		"id": "director_task_config",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "director_task_config",
+				"kind": "academic_task",
+				"text": "Configuración de red"
+			}
+		],
+		"reward": {},
+		"state": 0,
+		"title": "Configuración de red"
+	},
+	{
+		"id": "ubicar_profesores",
+		"requirements": [
+			{
+				"amount": 1,
+				"id": "profesor_algoritmos",
+				"kind": "talk",
+				"text": "Localiza Algoritmos · piso 3 · Informática"
+			},
+			{
+				"amount": 1,
+				"id": "profesor_ingles",
+				"kind": "talk",
+				"text": "Localiza Inglés · piso 6 · formación general"
+			},
+			{
+				"amount": 1,
+				"id": "profesor_matematicas",
+				"kind": "talk",
+				"text": "Localiza Matemáticas · piso 7 · formación general"
+			},
+			{
+				"amount": 1,
+				"id": "coordinador",
+				"kind": "academic_return",
+				"text": "Regresa a Sala de Profesores · piso 4"
+			}
+		],
+		"reward": {},
+		"state": 0,
+		"title": "Ubicar profesores"
+	},
+	{
+		"id": "v4_rescue",
+		"requirements": [
+			{
+				"amount": 7,
+				"id": "v4_rescue",
+				"kind": "education_task",
+				"text": "Resolver el incidente"
+			}
+		],
+		"reward": {
+			"credits": 50,
+			"xp": 100
+		},
+		"state": 0,
+		"title": "Estudiante encerrado · Sala 306"
+	},
+	{
+		"id": "v4_network",
+		"requirements": [
+			{
+				"amount": 4,
+				"id": "v4_network",
+				"kind": "education_task",
+				"text": "Resolver el incidente"
+			}
+		],
+		"reward": {
+			"credits": 50,
+			"xp": 100
+		},
+		"state": 0,
+		"title": "Laboratorio sin conexión"
+	},
+	{
+		"id": "v4_bugs",
+		"requirements": [
+			{
+				"amount": 4,
+				"id": "v4_bugs",
+				"kind": "education_task",
+				"text": "Resolver el incidente"
+			}
+		],
+		"reward": {
+			"credits": 50,
+			"xp": 100
+		},
+		"state": 0,
+		"title": "Programa infectado"
+	},
+	{
+		"id": "v4_emergency",
+		"requirements": [
+			{
+				"amount": 4,
+				"id": "v4_emergency",
+				"kind": "education_task",
+				"text": "Resolver el incidente"
+			}
+		],
+		"reward": {
+			"credits": 50,
+			"xp": 100
+		},
+		"state": 0,
+		"title": "Emergencia simulada"
+	},
+	{
+		"id": "v4_presentation",
+		"requirements": [
+			{
+				"amount": 4,
+				"id": "v4_presentation",
+				"kind": "education_task",
+				"text": "Resolver el incidente"
+			}
+		],
+		"reward": {
+			"credits": 50,
+			"xp": 100
+		},
+		"state": 0,
+		"title": "Presentación interrumpida"
+	},
+	{
+		"id": "v4_workshop",
+		"requirements": [
+			{
+				"amount": 4,
+				"id": "v4_workshop",
+				"kind": "education_task",
+				"text": "Resolver el incidente"
+			}
+		],
+		"reward": {
+			"credits": 50,
+			"xp": 100
+		},
+		"state": 0,
+		"title": "Taller descontrolado"
+	}
+]

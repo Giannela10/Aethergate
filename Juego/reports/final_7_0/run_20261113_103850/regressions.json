@@ -1,0 +1,34 @@
+[
+	{
+		"note": "Fresh local tests, no remote Supabase evaluation",
+		"script_errors": false,
+		"started": true,
+		"suite": "inventory_regression",
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6572\n[MCPRegistry] runtime port 6572 registered for c:/users/despacho2-cd/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego\nINVENTORY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}\n",
+		"timeout": false
+	},
+	{
+		"note": "Fresh local tests, no remote Supabase evaluation",
+		"script_errors": false,
+		"started": true,
+		"suite": "gameplay_regression",
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6572\n[MCPRegistry] runtime port 6572 registered for c:/users/despacho2-cd/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego\nGAMEPLAY_REGRESSION_RESULT {\"failures\":[],\"passed\":true}\n",
+		"timeout": false
+	},
+	{
+		"note": "Fresh local tests, no remote Supabase evaluation",
+		"script_errors": false,
+		"started": true,
+		"suite": "guardado_lectura",
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nWARNING: Guardado inválido en res://tests/guardado_lectura_temporal/partida.json: Unknown error getting token. Se conserva una copia en res://tests/guardado_lectura_temporal/partida.json.invalid-559592.bak; se usarán valores iniciales para este archivo.\n   at: push_warning (core/variant/variant_utility.cpp:1033)\n   GDScript backtrace (most recent call first):\n       [0] read_dictionary (res://scripts/compartidos/lectura_guardado.gd:21)\n       [1] _initialize (res://tests/guardado_lectura.gd:18)\nWARNING: Guardado inválido en res://tests/guardado_lectura_temporal/partida.json: Expected key. Se conserva una copia en res://tests/guardado_lectura_temporal/partida.json.invalid-561736.bak; se usarán valores iniciales para este archivo.\n   at: push_warning (core/variant/variant_utility.cpp:1033)\n   GDScript backtrace (most recent call first):\n       [0] read_dictionary (res://scripts/compartidos/lectura_guardado.gd:21)\n       [1] _initialize (res://tests/guardado_lectura.gd:18)\nWARNING: Guardado inválido en res://tests/guardado_lectura_temporal/partida.json: Se esperaba un objeto JSON. Se conserva una copia en res://tests/guardado_lectura_temporal/partida.json.invalid-564184.bak; se usarán valores iniciales para este archivo.\n   at: push_warning (core/variant/variant_utility.cpp:1033)\n   GDScript backtrace (most recent call first):\n       [0] read_dictionary (res://scripts/compartidos/lectura_guardado.gd:21)\n       [1] _initialize (res://tests/guardado_lectura.gd:18)\nWARNING: Guardado inválido en res://tests/guardado_lectura_temporal/partida.json: Se esperaba un objeto JSON. Se conserva una copia en res://tests/guardado_lectura_temporal/partida.json.invalid-566619.bak; se usarán valores iniciales para este archivo.\n   at: push_warning (core/variant/variant_utility.cpp:1033)\n   GDScript backtrace (most recent call first):\n       [0] read_dictionary (res://scripts/compartidos/lectura_guardado.gd:21)\n       [1] _initialize (res://tests/guardado_lectura.gd:18)\nSAVE_READING_RESULT {\"failures\":[]}\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6572\n[MCPRegistry] runtime port 6572 registered for c:/users/despacho2-cd/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego\n",
+		"timeout": false
+	},
+	{
+		"note": "Fresh local tests, no remote Supabase evaluation",
+		"script_errors": false,
+		"started": true,
+		"suite": "main_character_regression_6",
+		"tail": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\n[MCPRuntimeServer] port: scanning 6570-6585 (default)\n[MCPRuntimeServer] listening on 127.0.0.1:6572\n[MCPRegistry] runtime port 6572 registered for c:/users/despacho2-cd/onedrive - sociedad comercial aquamundo ltda/escritorio/proyecto de titulo/aethergate/juego\nMAIN_CHARACTER60_RESULT {\"failures\":[],\"personal_saves_used\":false}\n",
+		"timeout": false
+	}
+]

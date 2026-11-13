@@ -1,0 +1,522 @@
+[
+	{
+		"file": "floor_6/npc_motion_npc_profesor_ingles_front.png",
+		"floor": 6,
+		"label": "npc_profesor_ingles_front",
+		"phase": "npc_motion",
+		"point": "(52.0, 61.82495, -136.0)",
+		"samples": [
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 12.288,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 22.97,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 16.283,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 17.12,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 17.774,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 16.962,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 12.947,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 19.174,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 11.891,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 12.897,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 13.351,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 14.636,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 14.589,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 13.255,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 13.27,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 14.811,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 9.717,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 16.311,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 15.117,
+				"primitives": 218188.0
+			},
+			{
+				"draw_calls": 2886.0,
+				"fps": 59.0,
+				"ms": 13.929,
+				"primitives": 218188.0
+			}
+		],
+		"target": "(52.0, 61.57495, -132.0)"
+	},
+	{
+		"file": "floor_6/npc_motion_npc_profesor_ingles_side.png",
+		"floor": 6,
+		"label": "npc_profesor_ingles_side",
+		"phase": "npc_motion",
+		"point": "(56.0, 61.82495, -132.0)",
+		"samples": [
+			{
+				"draw_calls": 18573.0,
+				"fps": 59.0,
+				"ms": 79.113,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 59.0,
+				"ms": 95.508,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 59.0,
+				"ms": 85.653,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 69.262,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 58.156,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 53.857,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 58.785,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 56.644,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 58.552,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 54.866,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 58.798,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 56.566,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 52.734,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 49.732,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 58.739,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 54.836,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 63.762,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 47.944,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 49.159,
+				"primitives": 741200.0
+			},
+			{
+				"draw_calls": 18573.0,
+				"fps": 33.0,
+				"ms": 48.964,
+				"primitives": 741200.0
+			}
+		],
+		"target": "(52.0, 61.57495, -132.0)"
+	},
+	{
+		"file": "floor_6/npc_motion_npc_profesor_etica_front.png",
+		"floor": 6,
+		"label": "npc_profesor_etica_front",
+		"phase": "npc_motion",
+		"point": "(-52.0, 61.82495, -136.0)",
+		"samples": [
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 12.466,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 13.308,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 13.347,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 13.348,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 13.318,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 26.719,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 11.923,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 11.58,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 13.358,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 11.678,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 14.16,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 14.781,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 12.767,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 13.75,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 12.22,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 16.29,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 13.991,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 15.48,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 11.46,
+				"primitives": 216086.0
+			},
+			{
+				"draw_calls": 3316.0,
+				"fps": 17.0,
+				"ms": 13.139,
+				"primitives": 216086.0
+			}
+		],
+		"target": "(-52.0, 61.57495, -132.0)"
+	},
+	{
+		"file": "floor_6/npc_motion_npc_profesor_etica_side.png",
+		"floor": 6,
+		"label": "npc_profesor_etica_side",
+		"phase": "npc_motion",
+		"point": "(-48.0, 61.82495, -132.0)",
+		"samples": [
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 10.873,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.345,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.343,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.296,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.299,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.337,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.36,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.319,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.364,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.308,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.304,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.338,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.348,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.361,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.298,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.346,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.344,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.296,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.317,
+				"primitives": 86054.0
+			},
+			{
+				"draw_calls": 1691.0,
+				"fps": 43.0,
+				"ms": 13.38,
+				"primitives": 86054.0
+			}
+		],
+		"target": "(-52.0, 61.57495, -132.0)"
+	}
+]

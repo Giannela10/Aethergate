@@ -1,0 +1,4 @@
+{
+    "code":  "get_tree().current_scene.get_node(\"NPCInspect71\").call_deferred(\"inspect\",4)",
+    "channel":  "runtime"
+}

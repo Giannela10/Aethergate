@@ -1,0 +1,18 @@
+{
+	"note": "Fresh PackedScene read from disk, without instantiating campaign or using saves. Confirms persisted geometry, not upper exit approval.",
+	"passed": true,
+	"rows": [
+		{
+			"center_y": -6.24601078033447,
+			"length": 49.0640907287598,
+			"path": "PisoMenos1/AmbientacionIndustrial2026/RampaVehicularExterior/LosaInclinada",
+			"size": "(5.0, 0.42, 49.06409)",
+			"transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.968552, 0.248811), Z: (0.0, -0.248811, 0.968552), O: (24.37, -6.246011, -139.47)]"
+		},
+		{
+			"length": 49.0640907287598,
+			"path": "PisoMenos1/AmbientacionIndustrial2026/RampaVehicularExterior/LosaInclinada/ColisionEstatica/Forma",
+			"size": "(5.0, 0.42, 49.06409)"
+		}
+	]
+}

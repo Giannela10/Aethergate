@@ -232,9 +232,14 @@ var human_visual63: Node3D
 func _install_human63() -> void:
 	# Actor presets and mentor/simulation ownership are assigned after child ready.
 	if not is_inside_tree(): return
-	await get_tree().process_frame
+	# Object-bound signal callbacks disconnect automatically when a preview or
+	# short-lived actor is freed; a suspended coroutine instead resumes on a
+	# deleted script instance and raises an engine error.
+	get_tree().process_frame.connect(_prepare_human63,CONNECT_ONE_SHOT)
+func _prepare_human63() -> void:
 	if not is_inside_tree(): return
-	await get_tree().process_frame
+	get_tree().process_frame.connect(_finish_human63,CONNECT_ONE_SHOT)
+func _finish_human63() -> void:
 	if not is_inside_tree(): return
 	normalize_visual_height()
 	human_visual63=load("res://scripts/juego/npc_visual_6_3.gd").install(self)
@@ -632,6 +637,10 @@ func _animate_pose(delta: float, velocity: Vector3, on_floor: bool, crouching: b
 	# Fase del ciclo de paso: caminar depende de la velocidad; correr tiene cadencia fija
 	var walk_k := minf(hspeed / 2.5, 1.0)
 	var rate := lerpf(hspeed * 3.5, 10.0, run_t)
+	if get_meta("human62_active",false):
+		# Keep the established 5.5-unit run cadence, but scale its frequency
+		# with actual motion (including boosts and deceleration), not a fixed clock.
+		rate=lerpf(hspeed*3.5,hspeed*(10.0/5.5),run_t)
 	phase = fmod(phase + rate * delta, TAU)
 	var s := sin(phase)
 	var c := cos(phase)
