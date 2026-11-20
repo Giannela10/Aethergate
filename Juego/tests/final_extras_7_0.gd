@@ -124,7 +124,7 @@ func transition_checks() -> void:
 		["stairs_minus1_to_1",Vector3(-21.8,-11.9,-127.8),Vector3(20.4,0,-127.8),0.0],
 		["stairs_1_to_2",Vector3(-21.8,0.15,-127.8),Vector3(20.4,12.058385849,-127.8),12.058385849],
 		["stairs_2_to_1",Vector3(20.4,12.2,-127.8),Vector3(-21.8,0,-127.8),0.0],
-		["ramp_full_exit",Vector3(24.37,-11.9,-114),Vector3(24.37,0,-166),0.0]]:
+		["ramp_full_exit",Vector3(26.871576,-11.9,-114),Vector3(26.871576,-1.2,-172),-1.2]]:
 		var count=helper.rows.size()
 		await helper.walk(route[1],route[2],route[0],28)
 		var reached=helper.rows.size()>count and helper.rows[-1].passed

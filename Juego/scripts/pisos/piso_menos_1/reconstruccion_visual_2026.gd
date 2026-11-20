@@ -2,6 +2,8 @@
 extends Node3D
 ## Reconstrucción visual modular del subsuelo. Solo se ejecuta desde el editor bajo demanda.
 const BASE_Y: float = -12.058385849
+const RAMP_CENTER_X: float = 26.871576
+const RAMP_LOCAL_X: float = 24.37
 const FLOOR_SHADER: Shader = preload("res://materials/entrance/piso_menos1_hormigon.gdshader")
 var scene_root: Node
 var campus: Node3D
@@ -144,7 +146,7 @@ func _lights(parent: Node3D) -> void:
 	cafe.shadow_enabled = false
 	_own(parent, cafe, "LuzCalidaNegocio")
 	var ramp_light := OmniLight3D.new()
-	ramp_light.position = Vector3(24.37, BASE_Y + 4.0, -158.0)
+	ramp_light.position = Vector3(RAMP_CENTER_X, BASE_Y + 4.0, -158.0)
 	ramp_light.light_color = Color("dce8e4")
 	ramp_light.light_energy = 0.8
 	ramp_light.omni_range = 12.0
@@ -426,6 +428,14 @@ func _vending(parent: Node3D) -> void:
 
 func _ramp(parent: Node3D) -> void:
 	var ramp := _group(parent, "RampaVehicularExterior")
+	ramp.position.x = RAMP_CENTER_X - RAMP_LOCAL_X
+	var patio_run := 4.8
+	var patio_drop := 1.2
+	var patio_angle := atan2(patio_drop, patio_run)
+	var patio_center := Vector3(RAMP_LOCAL_X, -patio_drop * 0.5, -165.84 - patio_run * 0.5)
+	patio_center -= Vector3(0, cos(patio_angle), -sin(patio_angle)) * 0.1
+	var patio_deck := _box(ramp, "ConexionPatio", patio_center, Vector3(4.6, 0.2, Vector2(patio_run, patio_drop).length() + 0.08), m["concrete"], true)
+	patio_deck.rotation.x = -patio_angle
 	var start_z := -162.94
 	var end_z := -116.0
 	var center_z := (start_z + end_z) * 0.5
@@ -435,9 +445,13 @@ func _ramp(parent: Node3D) -> void:
 	var center_y := BASE_Y * 0.5
 	# The slope length is the hypotenuse. Offset the box center so its TOP
 	# surface meets the authored floor heights, avoiding a vertical entrance lip.
-	var deck_length := sqrt(run*run+rise*rise)+0.6
-	var deck := _box(ramp, "LosaInclinada", Vector3(24.37, center_y-0.21/cos(angle), center_z), Vector3(5.0, 0.42, deck_length), m["concrete"], true, true)
-	deck.rotation.x = angle
+	var landing_edge := -162.1
+	var deck_run := end_z - landing_edge
+	var deck_angle := atan2(rise, deck_run)
+	var deck_length := Vector2(deck_run, rise).length() + 0.6
+	var deck := _box(ramp, "LosaInclinada", Vector3(RAMP_LOCAL_X, center_y - 0.21 / cos(deck_angle), (landing_edge + end_z) * 0.5), Vector3(5.0, 0.42, deck_length), m["concrete"], true, true)
+	deck.rotation.x = deck_angle
+	_box(ramp, "DescansoSuperiorRampa", Vector3(RAMP_LOCAL_X, -0.1, -162.66), Vector3(5.0, 0.2, 1.1), m["concrete"], true)
 	# Muros altos y baranda/reja de contención a ambos lados, todos siguen la pendiente.
 	for side in [-1.0, 1.0]:
 		var wall := _box(ramp, "MuroHormigonLateral", Vector3(24.37 + side * 2.65, center_y + 2.0, center_z), Vector3(0.38, 4.2, run + 0.5), m["wall"], true)
@@ -537,7 +551,7 @@ func build_all() -> Dictionary:
 	_vending(root)
 	_ramp(root)
 	_safety(root)
-	return {"status":"built", "zones":11, "rooms":4, "vehicles":2, "ping_pong":2, "locker_rows":3, "nexo_reserved":Vector2(48,-100), "ramp_start":Vector3(24.37,BASE_Y,-116), "ramp_exit":Vector3(24.37,0,-162.94)}
+	return {"status":"built", "zones":11, "rooms":4, "vehicles":2, "ping_pong":2, "locker_rows":3, "nexo_reserved":Vector2(48,-100), "ramp_start":Vector3(RAMP_CENTER_X,BASE_Y,-116), "ramp_exit":Vector3(RAMP_CENTER_X,0,-162.94)}
 
 func rebuild_all() -> Dictionary:
 	campus = get_parent() as Node3D

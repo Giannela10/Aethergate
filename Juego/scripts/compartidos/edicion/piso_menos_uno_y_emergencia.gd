@@ -5,6 +5,7 @@ const CampusNodes = preload("res://scripts/organizacion/nodos_campus.gd")
 const LEVELS: Array[float] = [-12.058385849, 0.0, 12.058385849, 23.967668533, 35.674415588, 47.974849701, 60.158504486, 71.942184448, 83.913551331]
 const ATRIUM := Rect2(-19.5, -137.8, 36.5, 30.8)
 const SHAFT := Rect2(-24.2, -161.0, 7.0, 12.4)
+const RAMP_OPENING := Rect2(23.95, -162.95, 5.85, 13.65)
 var campus: Node3D
 var mats: Dictionary = {}
 var cuts: Array = []
@@ -119,8 +120,14 @@ func build_basement() -> void:
 	slab(basement, "Piso", Rect2(-84.8, -162.45, 169.1, 86.05), LEVELS[0], mats["floor"], 0.5)
 	for x in [-84.8, 84.3]:
 		box(basement, "MuroLateral", Vector3(x, LEVELS[0] * 0.5, -119.425), Vector3(0.35, -LEVELS[0], 86.05), mats["wall"])
-	for z in [-162.45, -76.4]:
-		box(basement, "MuroFondo", Vector3(-0.25, LEVELS[0] * 0.5, z), Vector3(169.1, -LEVELS[0], 0.35), mats["wall"])
+	var rear_z := -162.45
+	var mid_y := LEVELS[0] * 0.5
+	var left_width := RAMP_OPENING.position.x + 84.8
+	var right_width := 84.3 - RAMP_OPENING.end.x
+	box(basement, "MuroFondo", Vector3(-84.8 + left_width * 0.5, mid_y, rear_z), Vector3(left_width, -LEVELS[0], 0.35), mats["wall"])
+	box(basement, "MuroFondoDerechoRampa", Vector3(84.3 - right_width * 0.5, mid_y, rear_z), Vector3(right_width, -LEVELS[0], 0.35), mats["wall"])
+	box(basement, "MuroFondoBajoRampa", Vector3(RAMP_OPENING.get_center().x, mid_y - 0.5, rear_z), Vector3(RAMP_OPENING.size.x, -LEVELS[0] - 1.0, 0.35), mats["wall"])
+	box(basement, "MuroFondoSur", Vector3(-0.25, mid_y, -76.4), Vector3(169.1, -LEVELS[0], 0.35), mats["wall"])
 	for x in [-60.0, -36.0, 36.0, 60.0]:
 		for z in [-149.0, -120.0, -90.0]:
 			box(basement, "Pilar", Vector3(x, LEVELS[0] * 0.5, z), Vector3(1.2, -LEVELS[0], 1.2), mats["concrete"])
@@ -253,11 +260,12 @@ func build_emergency() -> void:
 		box(level, "FrenteIzquierdo", Vector3(-23.25, y + wall_height * 0.5, -148.6), Vector3(1.9, wall_height, 0.24), mats["wall"])
 		box(level, "FrenteDerecho", Vector3(-18.1, y + wall_height * 0.5, -148.6), Vector3(2.0, wall_height, 0.24), mats["wall"])
 		box(level, "FrenteSobrePuerta", Vector3(-20.7, y + (wall_height + 3.6) * 0.5, -148.6), Vector3(3.2, wall_height - 3.6, 0.24), mats["wall"])
-		var light := OmniLight3D.new()
-		light.position = Vector3(-20.7, y + 4.5, -154.3)
-		light.omni_range = 12.0
-		light.light_energy = 1.2
-		owned(level, light, "LuzEmergencia")
+		if y != 0.0:
+			var light := OmniLight3D.new()
+			light.position = Vector3(-20.7, y + 4.5, -154.3)
+			light.omni_range = 12.0
+			light.light_energy = 1.2
+			owned(level, light, "LuzEmergencia")
 		if i == LEVELS.size() - 1:
 			continue
 		var rise := (LEVELS[i + 1] - y) * 0.25
@@ -298,6 +306,9 @@ func build() -> Dictionary:
 	finish_accesses()
 	preserve_central_entrance()
 	extend_elevators_to_basement()
+	var floor_parts := CampusNodes.obtener(self, "LosasConAberturas") as Node3D
+	carve(RAMP_OPENING, 0.0, floor_parts)
+	box(floor_parts, "BarandaInicioRampa", Vector3(RAMP_OPENING.get_center().x, 0.55, RAMP_OPENING.end.y + 0.05), Vector3(RAMP_OPENING.size.x, 1.1, 0.12), mats["wall"])
 	set_meta("abertura_piso1", ATRIUM)
 	set_meta("caja_emergencia", SHAFT)
 	set_meta("losas_recortadas", cuts)
