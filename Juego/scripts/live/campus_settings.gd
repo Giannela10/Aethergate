@@ -1,16 +1,18 @@
 extends Node
 var hub: Node
-var data := {"window":"WINDOWED","quality":"ALTO","fps":0,"language":"es","telemetry":false}
+var data := {"window":"FULLSCREEN","quality":"ALTO","fps":0,"language":"es","telemetry":false}
 var tick := 0.0
 var known: Dictionary = {}
 var applied_window := ""
-var windowed_size := Vector2i(1152,648)
+var windowed_size := Vector2i.ZERO
 var windowed_position := Vector2i.ZERO
 const QUALITIES := {"BAJO":{"near":9.0,"far":22.0,"shadows":false,"effects":false},"MEDIO":{"near":13.0,"far":30.0,"shadows":true,"effects":true},"ALTO":{"near":16.0,"far":35.0,"shadows":true,"effects":true}}
 const CHARACTER_QUALITY := {"ALTO":"CHARACTER_HIGH","MEDIO":"CHARACTER_MEDIUM","BAJO":"CHARACTER_LOW"}
 const SHADOW_DISTANCE := {"ALTO":40.0,"MEDIO":30.0,"BAJO":20.0}
 func _ready() -> void:
 	data.telemetry = hub.config.telemetry_enabled
+	if DisplayServer.get_name() != "headless" and DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_WINDOWED:
+		data.window = "WINDOWED"
 	if hub.campaign.cloud_mode:
 		var stored = hub.campaign.data.get("settings",{})
 		if stored is Dictionary:
@@ -55,15 +57,16 @@ func apply() -> void:
 		hub.reactive.restore_lights()
 		hub.reactive.refresh()
 	if DisplayServer.get_name() != "headless" and hub.campaign.persist and not hub.campaign.has_meta("test_mode") and applied_window != data.window:
-		if applied_window in ["","WINDOWED"]:
+		if applied_window in ["","WINDOWED"] and DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_WINDOWED:
 			windowed_size = DisplayServer.window_get_size()
 			windowed_position = DisplayServer.window_get_position()
 		match data.window:
 			"WINDOWED":
 				DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
 				DisplayServer.window_set_flag(DisplayServer.WINDOW_FLAG_BORDERLESS,false)
-				DisplayServer.window_set_size(windowed_size)
-				DisplayServer.window_set_position(windowed_position)
+				if windowed_size != Vector2i.ZERO:
+					DisplayServer.window_set_size(windowed_size)
+					DisplayServer.window_set_position(windowed_position)
 			"BORDERLESS":
 				DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
 				DisplayServer.window_set_flag(DisplayServer.WINDOW_FLAG_BORDERLESS,true)
