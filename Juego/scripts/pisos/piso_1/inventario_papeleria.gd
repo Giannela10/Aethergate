@@ -16,6 +16,7 @@ func _ready() -> void:
 	hint.position = Vector2(20,360)
 	add_child(hint)
 	panel = PanelContainer.new()
+	panel.add_theme_stylebox_override("panel", preload("res://scripts/campaign/campus_menu_style.gd").surface())
 	add_child(panel)
 	panel.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
 	panel.position -= Vector2(250,270)
@@ -25,6 +26,7 @@ func _ready() -> void:
 	panel.add_child(box)
 	var title := Label.new()
 	title.text = "Inventario"
+	title.add_theme_color_override("font_color", Color("#ffc229"))
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	box.add_child(title)
 	rows = VBoxContainer.new()

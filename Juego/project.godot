@@ -24,7 +24,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 MCPRuntimeServer="*res://addons/godot_mcp_toolkit/runtime/mcp_runtime_server.gd"
-AuthManager="*uid://1oe3jcemj523"
+AuthManager="*res://scripts/auth/auth_manager.gd"
 QuestionService="*res://scripts/education/question_service.gd"
 CloudSave="*res://scripts/education/cloud_save.gd"
 
@@ -39,6 +39,10 @@ window/stretch/aspect="expand"
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_mcp_toolkit/plugin.cfg", "res://addons/education_export_guard/plugin.cfg")
+
+[gui]
+
+theme/custom="res://resources/ui/campus_theme.tres"
 
 [rendering]
 

@@ -70,7 +70,7 @@ func _build_ui() -> void:
 	var card := PanelContainer.new()
 	card.custom_minimum_size = Vector2(460, 140)
 	card.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
-	card.add_theme_stylebox_override("panel", _flat(Color(0.95, 0.95, 0.97)))
+	card.add_theme_stylebox_override("panel", preload("res://scripts/campaign/campus_menu_style.gd").surface(12))
 	root.add_child(card)
 	var box := VBoxContainer.new()
 	box.alignment = BoxContainer.ALIGNMENT_CENTER
@@ -78,12 +78,12 @@ func _build_ui() -> void:
 	file_label = Label.new()
 	file_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	file_label.add_theme_font_size_override("font_size", 34)
-	file_label.add_theme_color_override("font_color", Color(0.1, 0.1, 0.15))
+	file_label.add_theme_color_override("font_color", Color("#f3f8ff"))
 	box.add_child(file_label)
 	type_label = Label.new()
 	type_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	type_label.add_theme_font_size_override("font_size", 20)
-	type_label.add_theme_color_override("font_color", Color(0.35, 0.35, 0.45))
+	type_label.add_theme_color_override("font_color", Color("#b0c3d9"))
 	box.add_child(type_label)
 
 	feedback = Label.new()

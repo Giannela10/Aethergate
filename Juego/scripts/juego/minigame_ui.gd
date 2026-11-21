@@ -9,6 +9,7 @@ const GAME_SCRIPTS := [
 	preload("res://scripts/juego/game_virus.gd"),
 	preload("res://scripts/juego/game_password.gd"),
 ]
+const MenuStyle = preload("res://scripts/campaign/campus_menu_style.gd")
 const TITLES := ["Ordenar archivos", "Antivirus", "Contraseña"]
 
 var active := false
@@ -38,13 +39,7 @@ func _ready() -> void:
 
 	# Ventana
 	var window := PanelContainer.new()
-	var sb := StyleBoxFlat.new()
-	sb.bg_color = Color("1f2430")
-	sb.border_color = Color("4a5370")
-	sb.set_border_width_all(2)
-	sb.set_corner_radius_all(12)
-	sb.set_content_margin_all(14)
-	window.add_theme_stylebox_override("panel", sb)
+	window.add_theme_stylebox_override("panel", MenuStyle.surface(14))
 	center.add_child(window)
 
 	var vbox := VBoxContainer.new()
@@ -56,6 +51,7 @@ func _ready() -> void:
 	vbox.add_child(bar)
 	title_label = Label.new()
 	title_label.add_theme_font_size_override("font_size", 20)
+	title_label.add_theme_color_override("font_color", MenuStyle.GOLD)
 	title_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	bar.add_child(title_label)
 	var close_btn := Button.new()

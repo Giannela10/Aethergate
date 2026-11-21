@@ -184,7 +184,7 @@ func _build_hud() -> void:
 	box.add_child(help)
 	if get_parent().has_node("CampusCampaign"):
 		# Campaign objectives and pause controls replace the prototype's duplicate HUD.
-		help.hide(); tasks_label.hide(); kills_label.hide()
+		box.hide()
 
 	msg_label = Label.new()
 	layer.add_child(msg_label)

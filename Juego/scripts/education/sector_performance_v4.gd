@@ -4,13 +4,15 @@ var platform: Node
 var enabled := false # Draw calls fall, but CPU samples varied: opt-in benchmark only.
 var batches: Array = []
 var batched_meshes := 0
-func _ready() -> void:
+var initialized := false
+
+func _prepare_batches() -> void:
+	initialized = true
 	for floor_number in [-1,1,2,3,4,5,6,7,8]:
 		var root: Node = platform.campaign.get_parent().get_node("PisoMenos1" if floor_number==-1 else "Piso"+str(floor_number))
 		for name in ["Losas","LosasYAccesos","BarandasPasillos","BarandasEscalerasPrincipales","Estructura"]:
 			var structure := root.get_node_or_null(name) as Node3D
 			if structure: _batch_static(structure)
-	set_enabled(enabled)
 
 func _batch_static(structure: Node3D) -> void:
 	var candidates := {}
@@ -33,6 +35,8 @@ func _batch_static(structure: Node3D) -> void:
 		batches.append({"batch":batch,"originals":nodes})
 		batched_meshes+=nodes.size()
 func set_enabled(value: bool) -> void:
+	if value and not initialized:
+		_prepare_batches()
 	enabled=value
 	for row in batches:
 		row.batch.visible=enabled

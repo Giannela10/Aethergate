@@ -61,14 +61,14 @@ se imprimen respuestas crudas del proveedor. Los datos de partida siguen locales
 
 ## Configuración real y compatibilidad
 
-La configuración encontrada en el archivo de ejemplo se conservó en
-`config/auth_config.json`; el ejemplo volvió a ser una plantilla sin valores
-reales. El archivo real está ignorado por Git y excluido de exportaciones.
+El clon y la exportación usan por defecto `config/auth_config.public.json`,
+que contiene la URL del proyecto y su clave pública de cliente.
 
-Orden de archivos: `DUOCGAMES_AUTH_CONFIG` si existe, después
-`user://auth_config.json` y finalmente `res://config/auth_config.json`.
-El primer archivo existente se usa como fuente; un JSON inválido no se oculta
-con otra configuración. El ejemplo nunca se carga automáticamente.
+Las configuraciones locales mantienen prioridad en este orden. Primero se
+consulta `DUOCGAMES_AUTH_CONFIG`, luego `user://auth_config.json`, después
+`res://config/auth_config.json` y el archivo local junto al proyecto o al
+ejecutable. El primer archivo existente se usa incluso si es inválido. Si
+no hay archivos locales, se usa la configuración pública incluida.
 
 Propiedades: `supabase_url`, preferentemente `supabase_publishable_key`,
 compatibilidad `supabase_anon_key`, `google_enabled`, `oauth_callback_port`.

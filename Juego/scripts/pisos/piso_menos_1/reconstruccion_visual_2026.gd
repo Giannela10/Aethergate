@@ -2,8 +2,6 @@
 extends Node3D
 ## Reconstrucción visual modular del subsuelo. Solo se ejecuta desde el editor bajo demanda.
 const BASE_Y: float = -12.058385849
-const RAMP_CENTER_X: float = 26.871576
-const RAMP_LOCAL_X: float = 24.37
 const FLOOR_SHADER: Shader = preload("res://materials/entrance/piso_menos1_hormigon.gdshader")
 var scene_root: Node
 var campus: Node3D
@@ -145,13 +143,13 @@ func _lights(parent: Node3D) -> void:
 	cafe.omni_range = 9.0
 	cafe.shadow_enabled = false
 	_own(parent, cafe, "LuzCalidaNegocio")
-	var ramp_light := OmniLight3D.new()
-	ramp_light.position = Vector3(RAMP_CENTER_X, BASE_Y + 4.0, -158.0)
-	ramp_light.light_color = Color("dce8e4")
-	ramp_light.light_energy = 0.8
-	ramp_light.omni_range = 12.0
-	ramp_light.shadow_enabled = false
-	_own(parent, ramp_light, "LuzTransicionRampa")
+	var rear_light := OmniLight3D.new()
+	rear_light.position = Vector3(26.87, BASE_Y + 4.0, -158.0)
+	rear_light.light_color = Color("dce8e4")
+	rear_light.light_energy = 0.8
+	rear_light.omni_range = 12.0
+	rear_light.shadow_enabled = false
+	_own(parent, rear_light, "LuzPasilloPosterior")
 
 func _lockers(parent: Node3D, center: Vector3, count: int, yaw := 0.0, along_x := true, unit := 0.92) -> void:
 	var frames: Array[Transform3D] = []
@@ -225,14 +223,6 @@ func _central_area(parent: Node3D) -> void:
 	# Orientación discreta visible al salir del elevador y aproximarse al centro.
 	var orientation_sign := _label(social, "OrientacionSubsuelo", "MECANICA  ←       AREA COMUN       →  CAFETERIA / SALAS", Vector3(0, BASE_Y + 3.4, -121.0), 45)
 	orientation_sign.rotation.y = PI
-	# Marcas de seguridad en la escalera central existente: visuales sobrepuestas, sin tocar colisión.
-	var noses: Array[Transform3D] = []
-	for i in 35:
-		var x := -18.65 + float(i) * 0.90
-		var y := BASE_Y + 0.13 + float(i) * 0.365
-		noses.append(Transform3D(Basis.IDENTITY, Vector3(x, y, -132.833)))
-	_multimesh(social, "NarizAmarillaEscaleraCentral", Vector3(0.055, 0.045, 9.55), m["line"], noses)
-
 func _cafe(parent: Node3D) -> void:
 	var shop := _group(parent, "NegocioCafeteria")
 	var x := -31.0
@@ -426,65 +416,13 @@ func _vending(parent: Node3D) -> void:
 		_box(machines, "Pantalla%d" % i, Vector3(x + 0.4, BASE_Y + 2.08, -127.5), Vector3(0.35, 0.3, 0.04), m["screen"])
 		_box(machines, "Bandeja%d" % i, Vector3(x, BASE_Y + 0.25, -127.48), Vector3(0.8, 0.16, 0.1), m["dark"])
 
-func _ramp(parent: Node3D) -> void:
-	var ramp := _group(parent, "RampaVehicularExterior")
-	ramp.position.x = RAMP_CENTER_X - RAMP_LOCAL_X
-	var patio_run := 4.8
-	var patio_drop := 1.2
-	var patio_angle := atan2(patio_drop, patio_run)
-	var patio_center := Vector3(RAMP_LOCAL_X, -patio_drop * 0.5, -165.84 - patio_run * 0.5)
-	patio_center -= Vector3(0, cos(patio_angle), -sin(patio_angle)) * 0.1
-	var patio_deck := _box(ramp, "ConexionPatio", patio_center, Vector3(4.6, 0.2, Vector2(patio_run, patio_drop).length() + 0.08), m["concrete"], true)
-	patio_deck.rotation.x = -patio_angle
-	var start_z := -162.94
-	var end_z := -116.0
-	var center_z := (start_z + end_z) * 0.5
-	var run := end_z - start_z
-	var rise := -BASE_Y
-	var angle := atan(rise / run)
-	var center_y := BASE_Y * 0.5
-	# The slope length is the hypotenuse. Offset the box center so its TOP
-	# surface meets the authored floor heights, avoiding a vertical entrance lip.
-	var landing_edge := -162.1
-	var deck_run := end_z - landing_edge
-	var deck_angle := atan2(rise, deck_run)
-	var deck_length := Vector2(deck_run, rise).length() + 0.6
-	var deck := _box(ramp, "LosaInclinada", Vector3(RAMP_LOCAL_X, center_y - 0.21 / cos(deck_angle), (landing_edge + end_z) * 0.5), Vector3(5.0, 0.42, deck_length), m["concrete"], true, true)
-	deck.rotation.x = deck_angle
-	_box(ramp, "DescansoSuperiorRampa", Vector3(RAMP_LOCAL_X, -0.1, -162.66), Vector3(5.0, 0.2, 1.1), m["concrete"], true)
-	# Muros altos y baranda/reja de contención a ambos lados, todos siguen la pendiente.
-	for side in [-1.0, 1.0]:
-		var wall := _box(ramp, "MuroHormigonLateral", Vector3(24.37 + side * 2.65, center_y + 2.0, center_z), Vector3(0.38, 4.2, run + 0.5), m["wall"], true)
-		wall.rotation.x = angle
-		var top_z := end_z
-		var top_y := 0.0
-		var rail := _box(ramp, "VigaSuperiorReja", Vector3(24.37 + side * 2.65, center_y + 4.6, center_z), Vector3(0.11, 0.10, run + 0.5), m["steel"])
-		rail.rotation.x = angle
-		for i in 18:
-			var t := float(i) / 17.0
-			var post := _box(ramp, "PosteReja", Vector3(24.37 + side * 2.65, lerpf(4.2, BASE_Y + 4.2, t), lerpf(start_z, top_z, t)), Vector3(0.09, 1.25, 0.09), m["steel"])
-			post.rotation.x = angle
-		for level in [2.8, 3.3, 3.8]:
-			var wire := _box(ramp, "MallaRejaHorizontal", Vector3(24.37 + side * 2.65, center_y + level, center_z), Vector3(0.04, 0.035, run), m["steel"])
-			wire.rotation.x = angle
-	# Marcas amarillas de borde y juntas transversales muy discretas.
-	for side in [-1.0, 1.0]:
-		var stripe := _box(ramp, "BordeSeguridad", Vector3(24.37 + side * 2.18, center_y + 0.23, center_z), Vector3(0.12, 0.035, run), m["line"])
-		stripe.rotation.x = angle
-	_label(ramp, "SalidaVehicular", "SALIDA VEHICULAR  ·  EXTERIOR", Vector3(24.37, BASE_Y + 5.2, -119.0), 48, Color("f2d783"))
-	_label(ramp, "SalidaExterior", "EXTERIOR", Vector3(24.37, 3.1, -164.0), 54, Color("f0f2ed"))
-	# Franjas de transición de luz, sin iluminar el nivel con un falso cielo.
-	for i in 5:
-		var z := lerpf(start_z + 2.0, end_z - 2.0, float(i) / 4.0)
-		_box(ramp, "LuminariaRampa", Vector3(24.37, lerpf(1.5, BASE_Y + 7.8, float(i) / 4.0), z), Vector3(2.8, 0.10, 0.22), m["lamp"])
-
 func _overhead(parent: Node3D) -> void:
 	var overhead := _group(parent, "InstalacionesExpuestas")
 	# Vigas de hormigón añadidas bajo el forjado; el cielo permanece abierto.
 	for x in [-72.0, -49.0, -26.0, -3.0, 20.0, 43.0, 66.0, 80.0]:
 		_box(overhead, "VigaHormigon", Vector3(x, BASE_Y + 10.9, -119.0), Vector3(0.72, 0.82, 79.0), m["beam"])
 	for z in [-151.0, -136.0, -120.0, -104.0, -88.0]:
-		# El corredor de rampa queda abierto: las bandejas se interrumpen entre X=20…31.
+		# Las bandejas se interrumpen en el corredor posterior.
 		for segment in [[-27.5, 95.0], [51.0, 40.0]]:
 			_box(overhead, "BandejaPortacables", Vector3(segment[0], BASE_Y + 9.4, z), Vector3(segment[1], 0.18, 0.8), m["steel"])
 			_box(overhead, "BandejaPortacablesTapa", Vector3(segment[0], BASE_Y + 9.53, z), Vector3(segment[1], 0.08, 0.86), m["locker_frame"])
@@ -549,9 +487,8 @@ func build_all() -> Dictionary:
 	_welding(root)
 	_machinery(root)
 	_vending(root)
-	_ramp(root)
 	_safety(root)
-	return {"status":"built", "zones":11, "rooms":4, "vehicles":2, "ping_pong":2, "locker_rows":3, "nexo_reserved":Vector2(48,-100), "ramp_start":Vector3(RAMP_CENTER_X,BASE_Y,-116), "ramp_exit":Vector3(RAMP_CENTER_X,0,-162.94)}
+	return {"status":"built", "zones":10, "rooms":4, "vehicles":2, "ping_pong":2, "locker_rows":3, "nexo_reserved":Vector2(48,-100)}
 
 func rebuild_all() -> Dictionary:
 	campus = get_parent() as Node3D

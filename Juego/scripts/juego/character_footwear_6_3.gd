@@ -157,8 +157,8 @@ func _build() -> void:
 		st.generate_normals();st.index();st.commit(shared_mesh)
 
 func resolve_contact(poses: Array[Transform3D], delta: float) -> void:
-	var actor: Node3D=model.host.get_parent()
-	if not model.host.was_on_floor or model.host.dead:
+	var actor := model.host.get_parent() as Node3D
+	if actor == null or not model.host.was_on_floor or model.host.dead:
 		plants.clear();contact_offset=move_toward(contact_offset,0.0,delta*2)
 		return
 	if previous_origin!=Vector3.INF and actor.global_position.distance_to(previous_origin)>0.75: plants.clear()

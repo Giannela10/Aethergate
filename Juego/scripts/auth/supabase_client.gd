@@ -81,7 +81,12 @@ func _perform_request(path: String, method: int, serialized: String, body: Dicti
 	var status := int(result[1])
 	last_status = status
 	connected = int(result[0]) == HTTPRequest.RESULT_SUCCESS and status > 0
-	var parsed = JSON.parse_string(result[3].get_string_from_utf8())
+	var parsed: Variant = null
+	var payload: PackedByteArray = result[3]
+	if connected and not payload.is_empty():
+		var decoder := JSON.new()
+		if decoder.parse(payload.get_string_from_utf8()) == OK:
+			parsed = decoder.data
 	var failure := classify_failure(status,int(result[0]),OK)
 	_record_diagnostic(path,method,status,int(result[0]),OK,parsed,body,token,Time.get_ticks_msec()-started)
 	return {"ok":connected and status >= 200 and status < 300,"status":status,"data":parsed,"transport_result":int(result[0]),"request_error":OK,"failure_kind":failure,"error":"Solicitud rechazada (%d)" % status if status > 0 else "Sin respuesta HTTP"}

@@ -127,7 +127,7 @@ func refresh() -> void:
 		if complete:
 			campaign.data.quests[id].state = Quest.State.COMPLETED
 			campaign.grant_reward(quest.reward,"quest:"+id)
-			campaign.ui.notify("Misión completada: "+quest.title)
+			campaign.ui.campus_hud.complete(quest.title, int(quest.reward.get("credits", 0)))
 	updating = false
 	campaign.save_game()
 

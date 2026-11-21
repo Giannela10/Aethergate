@@ -28,15 +28,15 @@ exacta de ese intento requiere el siguiente envío manual con diagnóstico activ
 
 ## Estado de esta conexión
 
-No hace falta volver a copiar credenciales: se conservaron los valores ya
-existentes del ejemplo en `config/auth_config.json` y se limpió la plantilla.
-El loader reconoce `supabase_publishable_key` primero y `supabase_anon_key`
-como alias de compatibilidad; ambos deben contener una clave pública
-`sb_publishable_…`. La configuración real no está versionada.
+El clon y la exportación se conectan con la URL y la clave pública versionadas
+en `config/auth_config.public.json`. El cargador reconoce
+`supabase_publishable_key` primero y `supabase_anon_key` como alias del mismo
+tipo de clave pública `sb_publishable_…`. Las instrucciones de configuración
+local de abajo se aplican al habilitar Google OAuth o cambiar de proyecto.
 
-La comprobación GET real a Supabase Auth respondió HTTP 200, con Email habilitado
-y nuevos registros permitidos. Las tablas educativas respondieron 404/ausentes
-del esquema expuesto. No hay acceso administrativo configurado ni se ejecutó SQL
+Una comprobación anterior de Supabase Auth respondió HTTP 200, con Email
+habilitado y nuevos registros permitidos. En ese diagnóstico las tablas
+educativas respondieron 404. No había acceso administrativo ni se ejecutó SQL
 remoto. **Ahora ejecuta este archivo en Supabase SQL Editor:**
 `supabase/migrations/001_education_auth.sql`.
 Después ejecuta `supabase/seeds/001_subjects.sql` para las asignaturas iniciales.

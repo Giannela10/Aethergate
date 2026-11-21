@@ -1,5 +1,5 @@
 {
-	"checks": 59,
+	"checks": 62,
 	"failures": [],
 	"real_accounts_created": 0,
 	"session_storage": "isolated in-memory fixture"

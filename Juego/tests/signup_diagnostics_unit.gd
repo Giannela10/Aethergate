@@ -16,9 +16,14 @@ func run() -> void:
 	for status in [400,401,403,422,429,500,503]:
 		check(Client.classify_failure(status,HTTPRequest.RESULT_SUCCESS) == "http_error","HTTP status remains an HTTP error %d" % status)
 		check(Auth._email_error({"status":status}) != "No se pudo conectar con el servidor.","HTTP status not mislabeled network %d" % status)
-	for pair in [[HTTPRequest.RESULT_TIMEOUT,"timeout"],[HTTPRequest.RESULT_CANT_RESOLVE,"dns"],[HTTPRequest.RESULT_CANT_CONNECT,"connection"],[HTTPRequest.RESULT_TLS_HANDSHAKE_ERROR,"tls"]]:
+	for pair in [
+		[HTTPRequest.RESULT_TIMEOUT, "timeout", "tardó demasiado"],
+		[HTTPRequest.RESULT_CANT_RESOLVE, "dns", "dirección del proyecto Supabase"],
+		[HTTPRequest.RESULT_CANT_CONNECT, "connection", "No se pudo conectar con el servidor."],
+		[HTTPRequest.RESULT_TLS_HANDSHAKE_ERROR, "tls", "conexión segura"]
+	]:
 		check(Client.classify_failure(0,pair[0]) == pair[1],"Transport reason "+pair[1])
-		check(Auth._email_error({"status":0,"failure_kind":pair[1]}) == "No se pudo conectar con el servidor.","Transport message "+pair[1])
+		check(Auth._email_error({"status":0,"failure_kind":pair[1]}).contains(pair[2]),"Transport message "+pair[1])
 	check(Auth._email_error({"status":0,"failure_kind":"configuration"}).contains("configuración"),"Configuration is not a network error")
 	check(Auth._email_error({"status":422,"data":{"code":"email_address_invalid"}}) == "El correo electrónico no es válido.","Invalid email mapped")
 	check(Auth._email_error({"status":422,"data":{"code":"weak_password"}}) == "La contraseña no cumple los requisitos.","Weak password mapped")

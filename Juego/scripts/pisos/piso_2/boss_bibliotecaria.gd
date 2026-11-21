@@ -1,6 +1,7 @@
 extends Node3D
 ## Duelo literario: la vida del jugador es la misma del resto del juego.
 const Humanoid = preload("res://scripts/juego/humanoid.gd")
+const MenuStyle = preload("res://scripts/campaign/campus_menu_style.gd")
 const QUESTIONS := [
 	["Don Quijote de la Mancha", "¿Cómo se llama el escudero de Don Quijote?", "Sancho Panza", "Rocinante", "Hamlet"],
 	["Don Quijote de la Mancha", "¿Quién escribió esta novela?", "Miguel de Cervantes", "Pablo Neruda", "Julio Verne"],
@@ -167,7 +168,7 @@ func _build_ui() -> void:
 	overlay.add_child(damage_flash)
 	damage_flash.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	var status_panel := PanelContainer.new()
-	status_panel.add_theme_stylebox_override("panel", _panel_style(Color(0.07, 0.05, 0.11, 0.94), Color("ad8653")))
+	status_panel.add_theme_stylebox_override("panel", MenuStyle.surface(12))
 	overlay.add_child(status_panel)
 	status_panel.anchor_left = 0.15
 	status_panel.anchor_right = 0.85
@@ -183,7 +184,7 @@ func _build_ui() -> void:
 	boss_bar = _make_bar(bars, Color("c86189"))
 	player_bar = _make_bar(bars, Color("55b5ac"))
 	var panel := PanelContainer.new()
-	panel.add_theme_stylebox_override("panel", _panel_style(Color(0.07, 0.05, 0.11, 0.96), Color("ad8653")))
+	panel.add_theme_stylebox_override("panel", MenuStyle.surface(12))
 	overlay.add_child(panel)
 	panel.anchor_left = 0.06
 	panel.anchor_right = 0.94
@@ -216,8 +217,7 @@ func _build_ui() -> void:
 		var button := Button.new()
 		button.custom_minimum_size.y = 34
 		button.alignment = HORIZONTAL_ALIGNMENT_CENTER
-		button.add_theme_stylebox_override("normal", _panel_style(Color("262135"), Color("504361")))
-		button.add_theme_stylebox_override("hover", _panel_style(Color("3a304d"), Color("e8bd7c")))
+		MenuStyle.tone(button)
 		button.pressed.connect(_answer.bind(i))
 		list.add_child(button)
 		answers.append(button)

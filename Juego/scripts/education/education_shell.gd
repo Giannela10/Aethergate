@@ -1,5 +1,8 @@
 extends Control
 ## Shared accessible shell for Login and role dashboards. No authorization in UI.
+const CAMPUS_SCENE := "res://Main.tscn"
+const MenuStyle = preload("res://scripts/campaign/campus_menu_style.gd")
+
 var auth: Node
 var service: Node
 var column: VBoxContainer
@@ -16,6 +19,12 @@ var users_list: VBoxContainer
 var user_search: LineEdit
 var user_filter: OptionButton
 var remember_checkbox: CheckBox
+var campus_loading := false
+var student_dashboard: Control
+var shell_surface: Control
+var has_primary_action := false
+var student_ready := false
+var student_save := {}
 var learning_panel := preload("res://scripts/education/learning_staff_panel.gd").new()
 
 func _start_menu_music() -> void:
@@ -70,74 +79,34 @@ func _ready() -> void:
 	auth.session_changed.connect(_route)
 	auth.status_changed.connect(_status)
 	get_node("/root/CloudSave").status_changed.connect(_status)
-	var background := ColorRect.new()
-	background.color = Color("091526")
-	background.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-	add_child(background)
-	var campus_backdrop := name in ["Login","StudentMainMenu","PendingAccountScreen","TeacherDashboard","AdminDashboard"]
-	if campus_backdrop:
-		var campus := TextureRect.new()
-		campus.name = "CampusBackground"
-		campus.texture = load("res://resources/ui/campus_login.png")
-		campus.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-		campus.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
-		campus.mouse_filter = Control.MOUSE_FILTER_IGNORE
-		campus.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-		add_child(campus)
-		var shade := ColorRect.new()
-		shade.color = Color(0.025,0.055,0.10,0.18)
-		shade.mouse_filter = Control.MOUSE_FILTER_IGNORE
-		shade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-		add_child(shade)
-	var margin := MarginContainer.new()
-	margin.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-	for side in ["left","right","top","bottom"]: margin.add_theme_constant_override("margin_"+side,24)
-	add_child(margin)
-	var layout := HBoxContainer.new()
-	margin.add_child(layout)
-	var left := Control.new()
-	if not campus_backdrop: left.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	layout.add_child(left)
+	shell_surface = Control.new()
+	add_child(shell_surface)
+	shell_surface.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	var canvas := MenuStyle.screen(shell_surface)
+	MenuStyle.stripe(canvas, Rect2(29, 46, 5, 112))
+	MenuStyle.label(canvas, "DuocUC", Rect2(45, 39, 384, 65), 51)
+	MenuStyle.label(canvas, "Aventura Universitaria", Rect2(48, 109, 422, 45), 28)
+	var compact := name in ["Login", "PendingAccountScreen"]
+	var bounds := Rect2(638, 86, 476, 505) if compact else Rect2(485, 59, 629, 530)
 	var card := PanelContainer.new()
 	card.name = "MenuCard"
-	card.size_flags_vertical = Control.SIZE_SHRINK_CENTER
-	var card_style := StyleBoxFlat.new()
-	card_style.bg_color = Color(0.025,0.055,0.10,0.94) if campus_backdrop else Color(0,0,0,0)
-	card_style.set_corner_radius_all(16)
-	card_style.set_content_margin_all(22 if campus_backdrop else 0)
-	card.add_theme_stylebox_override("panel",card_style)
-	layout.add_child(card)
-	var scroll := ScrollContainer.new()
-	menu_scroll = scroll
-	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
-	scroll.custom_minimum_size.x = minf(420 if campus_backdrop else 760,get_viewport_rect().size.x-(108 if campus_backdrop else 64))
-	card.add_child(scroll)
-	var right := Control.new()
-	right.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	layout.add_child(right)
-	var theme_resource := Theme.new()
-	var normal := StyleBoxFlat.new()
-	normal.bg_color = Color("15324d")
-	normal.set_corner_radius_all(8)
-	normal.set_content_margin_all(12)
-	normal.content_margin_top = 8
-	normal.content_margin_bottom = 8
-	var hover := normal.duplicate() as StyleBoxFlat
-	hover.bg_color = Color("24567c")
-	var focused := StyleBoxFlat.new()
-	focused.bg_color = Color(0,0,0,0)
-	focused.border_color = Color("ffd344")
-	focused.set_border_width_all(2)
-	focused.set_corner_radius_all(8)
-	theme_resource.set_stylebox("normal","Button",normal)
-	theme_resource.set_stylebox("hover","Button",hover)
-	theme_resource.set_stylebox("pressed","Button",hover)
-	theme_resource.set_stylebox("focus","Button",focused)
-	theme = theme_resource
+	card.add_theme_stylebox_override("panel", MenuStyle.surface())
+	MenuStyle.place(canvas, card, bounds)
+	menu_scroll = ScrollContainer.new()
+	menu_scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	menu_scroll.follow_focus = true
+	card.add_child(menu_scroll)
 	column = VBoxContainer.new()
 	column.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	column.add_theme_constant_override("separation",8)
-	scroll.add_child(column)
+	column.add_theme_constant_override("separation", 9)
+	menu_scroll.add_child(column)
+	if compact:
+		var fit_card := func():
+			var height := clampf(column.get_combined_minimum_size().y + 38, 240, bounds.size.y)
+			card.size.y = height
+			card.position.y = (MenuStyle.DESIGN.y - height) * 0.5
+		column.minimum_size_changed.connect(fit_card)
+		fit_card.call_deferred()
 	_show_login()
 	await auth.initialize()
 	_route()
@@ -149,6 +118,16 @@ func _status(message: String) -> void:
 
 func _clear(title: String, subtitle: String = "") -> void:
 	page_generation += 1
+	if is_instance_valid(student_dashboard):
+		student_dashboard.hide()
+		student_dashboard.queue_free()
+		student_dashboard = null
+	if is_instance_valid(menu_scroll):
+		menu_scroll.show()
+		menu_scroll.scroll_vertical = 0
+	if is_instance_valid(shell_surface):
+		shell_surface.show()
+	has_primary_action = false
 	account_fields.clear()
 	for child in column.get_children():
 		column.remove_child(child)
@@ -163,7 +142,7 @@ func _label(value: String, size: int = 18) -> Label:
 	label.text = value
 	label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	label.add_theme_font_size_override("font_size",size)
-	if size >= 30: label.add_theme_color_override("font_color",Color("ffd344"))
+	if size >= 30: label.add_theme_color_override("font_color",MenuStyle.GOLD)
 	column.add_child(label)
 	return label
 
@@ -171,6 +150,10 @@ func _button(value: String, action: Callable) -> Button:
 	var button := Button.new()
 	button.text = value
 	button.custom_minimum_size.y = 44
+	button.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	if not has_primary_action:
+		MenuStyle.tone(button, true)
+		has_primary_action = true
 	button.pressed.connect(action)
 	column.add_child(button)
 	return button
@@ -220,7 +203,7 @@ func _refresh_account() -> void:
 	_status(str(result.message))
 
 func _show_login() -> void:
-	_clear("DUOCGAMES","Aprende. Explora. Supera desafíos.")
+	_clear("Inicio")
 	_button("INICIAR SESIÓN",_account_form.bind(false)).grab_focus()
 	_button("REGISTRARSE",_account_form.bind(true))
 	if auth.client.configured() and auth.client.config.get("google_enabled",false):
@@ -333,36 +316,88 @@ func _logout() -> void:
 	auth.logout()
 
 func _student() -> void:
-	_clear("DUOCGAMES","Bienvenido, " + auth.display_name)
-	var continue_button := _button("CONTINUAR",_play.bind("continue"))
-	continue_button.disabled = true
-	continue_button.grab_focus()
-	var new_button := _button("NUEVA PARTIDA",_confirm_new)
-	_button("PROGRESO ACADÉMICO",_progress)
-	_button("AJUSTES",_settings)
-	_button("CERRAR SESIÓN",_logout)
-	if auth.role in ["teacher","admin"]: _button("VOLVER A MI PANEL",_open_menu.bind(""))
-	_debug_button()
-	_load_avatar()
+	_clear("DUOCGAMES")
+	var cloud := get_node("/root/CloudSave")
 	if auth.dev_session:
-		continue_button.disabled = preload("res://scripts/compartidos/lectura_guardado.gd").read_dictionary("user://campus_campaign_v1.json").is_empty()
+		student_save = preload("res://scripts/compartidos/lectura_guardado.gd").read_dictionary("user://campus_campaign_v1.json")
+	elif cloud.loaded and cloud.account_id == auth.user_id and cloud.project == auth.client.project_url():
+		student_save = cloud.payload
+	else:
+		student_save = {}
+	student_ready = false
+	var extra: Array = [["Nueva partida", _student_new], ["Progreso académico", _progress]]
+	if auth.role in ["teacher","admin"]:
+		extra.append(["Volver a mi panel", _open_menu.bind("")])
+	if OS.is_debug_build():
+		extra.append(["Desarrollo", _development])
+	student_dashboard = preload("res://scripts/campaign/campus_dashboard.gd").new()
+	student_dashboard.setup(str(auth.display_name), student_save, {
+		"play": _student_play, "missions": _student_open.bind("missions"),
+		"inventory": _student_open.bind("inventory"), "appearance": _student_open.bind("appearance"),
+		"settings": _settings, "credits": _student_credits, "exit": _student_exit
+	}, extra)
+	add_child(student_dashboard)
+	student_dashboard.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	menu_scroll.hide()
+	shell_surface.hide()
+	status = student_dashboard.status
+	if auth.dev_session:
+		student_ready = true
 		return
-	new_button.disabled = true
 	var current := page_generation
 	_status("Cargando tu partida de Supabase…")
-	var cloud := get_node("/root/CloudSave")
 	var success: bool = await cloud.load_game()
 	if current != page_generation: return
 	if not success:
+		_clear("PARTIDA EN LA NUBE")
 		_status(cloud.last_error)
 		_button("REINTENTAR CONEXIÓN",_student)
 		if cloud.conflicted: _button("CARGAR PARTIDA DE LA NUBE",_confirm_cloud_reload)
+		_button("CERRAR SESIÓN", _logout)
 		return
-	continue_button.disabled = cloud.payload.is_empty()
-	new_button.disabled = false
+	student_save = cloud.payload
+	student_ready = true
+	student_dashboard.set_progress(student_save)
 	_status("Partida sincronizada con tu cuenta." if cloud.revision > 0 else "Tu cuenta está lista para crear una partida.")
-	if cloud.revision == 0 and FileAccess.file_exists("user://campus_campaign_v1.json"):
-		_button("IMPORTAR MI PARTIDA LOCAL ANTERIOR",_confirm_import)
+
+func _student_new() -> void:
+	if student_ready:
+		_confirm_new()
+
+func _student_play() -> void:
+	if not student_ready:
+		return
+	if student_save.is_empty():
+		_confirm_new()
+	else:
+		_play("continue")
+
+func _student_open(entry: String) -> void:
+	if not student_ready:
+		return
+	if not student_save.is_empty():
+		_play(entry)
+	elif entry == "appearance":
+		_play("custom_new")
+	else:
+		_status("Crea una partida para acceder a esta sección.")
+
+func _student_credits() -> void:
+	_clear("CRÉDITOS", "DuocUC · Aventura Universitaria\nJuego desarrollado en Godot.")
+	_button("VOLVER", _student)
+
+func _student_exit() -> void:
+	_clear("SALIR", "¿Cómo quieres salir?")
+	_button("CERRAR SESIÓN", _logout)
+	_button("CERRAR EL JUEGO", _student_quit)
+	_button("CANCELAR", _student)
+
+func _student_quit() -> void:
+	var cloud := get_node("/root/CloudSave")
+	if not auth.dev_session and not await cloud.flush():
+		_status(cloud.last_error)
+		return
+	get_tree().quit()
 
 func _confirm_cloud_reload() -> void:
 	_clear("CARGAR PARTIDA","Se descartarán los cambios pendientes de esta sesión.")
@@ -392,20 +427,53 @@ func _import_local() -> void:
 func _confirm_new() -> void:
 	_clear("NUEVA PARTIDA","El menú de campaña pedirá confirmación y permitirá personalizar al estudiante. Se conserva el mecanismo de copia del guardado anterior.")
 	_button("CONTINUAR A PERSONALIZACIÓN",_play.bind("new"))
+	if not auth.dev_session and student_save.is_empty() and FileAccess.file_exists("user://campus_campaign_v1.json"):
+		_button("IMPORTAR MI PARTIDA LOCAL ANTERIOR", _confirm_import)
 	_button("CANCELAR",_student)
 
 func _play(entry: String) -> void:
+	if campus_loading:
+		return
 	if not auth.can_enter_menu() or auth.role not in ["student","teacher","admin"]:
 		_route()
 		return
+	campus_loading = true
+	var page := page_generation
+	var account: String = auth.user_id
 	if not auth.dev_session:
 		var cloud := get_node("/root/CloudSave")
 		if not await cloud.load_game() or cloud.conflicted:
+			campus_loading = false
 			_status(cloud.last_error)
 			return
+	if page != page_generation or account != auth.user_id or not auth.can_enter_menu():
+		campus_loading = false
+		return
+	_status("Cargando campus…")
+	var request := ResourceLoader.load_threaded_request(CAMPUS_SCENE, "PackedScene")
+	var status := ResourceLoader.load_threaded_get_status(CAMPUS_SCENE)
+	if request != OK and status not in [ResourceLoader.THREAD_LOAD_IN_PROGRESS, ResourceLoader.THREAD_LOAD_LOADED]:
+		campus_loading = false
+		_status("No se pudo iniciar la carga del campus.")
+		return
+	while status == ResourceLoader.THREAD_LOAD_IN_PROGRESS:
+		await get_tree().process_frame
+		status = ResourceLoader.load_threaded_get_status(CAMPUS_SCENE)
+	var campus: PackedScene
+	if status == ResourceLoader.THREAD_LOAD_LOADED:
+		campus = ResourceLoader.load_threaded_get(CAMPUS_SCENE)
+	campus_loading = false
+	if page != page_generation or account != auth.user_id or not auth.can_enter_menu():
+		return
+	if campus == null:
+		_status("No se pudo cargar el campus. Inténtalo de nuevo.")
+		return
 	get_tree().set_meta("education_entry",entry)
 	get_tree().set_meta("education_enabled",true)
-	get_tree().change_scene_to_file("res://Main.tscn")
+	if get_tree().change_scene_to_packed(campus) != OK:
+		get_tree().remove_meta("education_entry")
+		get_tree().remove_meta("education_enabled")
+		_status("No se pudo abrir el campus.")
 
 func _load_avatar() -> void:
 	if not auth.avatar_url.begins_with("https://"): return

@@ -30,6 +30,7 @@ func _ready() -> void:
 	layer.layer = 20
 	add_child(layer)
 	window = PanelContainer.new()
+	window.add_theme_stylebox_override("panel", preload("res://scripts/campaign/campus_menu_style.gd").surface())
 	layer.add_child(window)
 	window.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
 	window.position -= Vector2(190,220)
@@ -39,6 +40,7 @@ func _ready() -> void:
 	window.add_child(list)
 	var title := Label.new()
 	title.text = "Impresiones y papelería\n¿Qué necesitas?"
+	title.add_theme_color_override("font_color", Color("#ffc229"))
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	list.add_child(title)
 	for key in ITEMS:

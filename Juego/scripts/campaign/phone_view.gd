@@ -1,5 +1,6 @@
 class_name PhoneView
 extends CanvasLayer
+const MenuStyle = preload("res://scripts/campaign/campus_menu_style.gd")
 ## Presentación del teléfono; los contenidos y callbacks siguen siendo CampaignUI.
 var campaign: Node
 var root: Control
@@ -22,8 +23,8 @@ func _ready() -> void:
 	frame = PanelContainer.new()
 	root.add_child(frame)
 	var shell := StyleBoxFlat.new()
-	shell.bg_color = Color("11151d")
-	shell.border_color = Color("505967")
+	shell.bg_color = MenuStyle.INK
+	shell.border_color = MenuStyle.BLUE
 	shell.set_border_width_all(3)
 	shell.set_corner_radius_all(38)
 	shell.set_content_margin_all(12)
@@ -32,7 +33,7 @@ func _ready() -> void:
 	frame.add_theme_stylebox_override("panel",shell)
 	var screen := PanelContainer.new()
 	var glass := StyleBoxFlat.new()
-	glass.bg_color = Color("12243b")
+	glass.bg_color = Color("#0b1e32")
 	glass.set_corner_radius_all(28)
 	glass.set_content_margin_all(16)
 	screen.add_theme_stylebox_override("panel",glass)
@@ -45,6 +46,7 @@ func _ready() -> void:
 	var brand := Label.new()
 	brand.text = "DUOC  ·  CAMPUS"
 	brand.add_theme_font_size_override("font_size",11)
+	brand.add_theme_color_override("font_color", MenuStyle.GOLD)
 	brand.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	status.add_child(brand)
 	var camera := Label.new()
@@ -138,6 +140,7 @@ func home() -> void:
 	var heading := Label.new()
 	heading.text = "Hola, estudiante."
 	heading.add_theme_font_size_override("font_size",25)
+	heading.add_theme_color_override("font_color", MenuStyle.GOLD)
 	column.add_child(heading)
 	var subtitle := Label.new()
 	subtitle.text = "Todo tu día, en un lugar."
@@ -148,11 +151,7 @@ func home() -> void:
 	spacer.custom_minimum_size.y = 12
 	column.add_child(spacer)
 	var card := PanelContainer.new()
-	var style := StyleBoxFlat.new()
-	style.bg_color = Color("223e59")
-	style.set_corner_radius_all(16)
-	style.set_content_margin_all(16)
-	card.add_theme_stylebox_override("panel",style)
+	card.add_theme_stylebox_override("panel", MenuStyle.surface(13))
 	column.add_child(card)
 	badge = Label.new()
 	badge.text = "✉  "+str(campaign.phone.unread_count())+" mensajes sin leer\nPiso "+(campaign.floor_current if not campaign.floor_current.is_empty() else campaign.phone._floor_for(campaign.player))+"  ·  "+campaign.academics.clock_text()
@@ -185,17 +184,7 @@ func home() -> void:
 		button.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 		button.custom_minimum_size = Vector2(0,70)
 		button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-		var tile := StyleBoxFlat.new()
-		tile.bg_color = Color(app[3]).darkened(0.52)
-		tile.border_color = Color(app[3]).darkened(0.15)
-		tile.set_border_width_all(1)
-		tile.set_corner_radius_all(16)
-		tile.set_content_margin_all(8)
-		button.add_theme_stylebox_override("normal",tile)
-		var hover: StyleBoxFlat = tile.duplicate()
-		hover.bg_color = Color(app[3]).darkened(0.28)
-		button.add_theme_stylebox_override("hover",hover)
-		button.add_theme_stylebox_override("focus",hover)
+		MenuStyle.tone(button)
 		if app[0] == "messages":
 			button.pressed.connect(campaign.phone.messages)
 		elif app[0] == "contacts":

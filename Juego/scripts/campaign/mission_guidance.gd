@@ -5,6 +5,7 @@ var target: Node3D
 var hint := ""
 var marker: Label3D
 var refresh_time := 0.0
+var arrows: Array[MeshInstance3D] = []
 
 func _ready() -> void:
 	marker = Label3D.new()
@@ -14,16 +15,43 @@ func _ready() -> void:
 	marker.billboard = BaseMaterial3D.BILLBOARD_ENABLED
 	marker.no_depth_test = true
 	marker.modulate = Color("ffe075")
+	marker.outline_modulate = Color("#182738")
 	campaign.add_child(marker)
 	marker.hide()
+	var material := StandardMaterial3D.new()
+	material.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
+	material.cull_mode = BaseMaterial3D.CULL_DISABLED
+	material.albedo_color = Color("#ffe163")
+	var shape := SurfaceTool.new()
+	shape.begin(Mesh.PRIMITIVE_TRIANGLES)
+	shape.set_material(material)
+	# Dos alas con un hueco detrás de la punta.
+	var points := [
+		Vector3(-0.7,0,0.30), Vector3(0,0,-0.46), Vector3(0,0,-0.09),
+		Vector3(-0.7,0,0.30), Vector3(0,0,-0.09), Vector3(-0.70,0,0.02),
+		Vector3(0.70,0,0.30), Vector3(0,0,-0.46), Vector3(0,0,-0.09),
+		Vector3(0.70,0,0.30), Vector3(0,0,-0.09), Vector3(0.70,0,0.02),
+	]
+	for point in points:
+		shape.add_vertex(point)
+	var mesh := shape.commit()
+	for i in 4:
+		var arrow := MeshInstance3D.new()
+		arrow.mesh = mesh
+		arrow.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+		campaign.add_child(arrow)
+		arrow.hide()
+		arrows.append(arrow)
 
-func _process(delta: float) -> void:
+func _physics_process(delta: float) -> void:
 	refresh_time -= delta
 	if refresh_time > 0:
 		return
 	refresh_time = 0.15
 	target = null
 	hint = ""
+	for arrow in arrows:
+		arrow.hide()
 	if not campaign.ready_for_play or not campaign.quests:
 		marker.hide()
 		return
@@ -46,14 +74,42 @@ func _process(delta: float) -> void:
 					hint += "\nComputador inicial: cerca de la entrada principal."
 				elif requirement.id == "chef":
 					hint += "\nChef: en el casino del primer piso."
-				marker.global_position = target.global_position+Vector3.UP*5.2
-				marker.text = "! MISIÓN PRINCIPAL\n"+requirement.text+"\n%d m · Piso %s" % [ceili(distance),floor_number]
+				marker.global_position = target.global_position+Vector3.UP*3.15
+				marker.text = "◆\n%d m" % ceili(distance)
 				marker.visible = not campaign.player.dead and not is_instance_valid(campaign.active_duel)
+				if marker.visible and requirement.id == "punto":
+					_show_entrance_arrows()
 			else:
 				marker.hide()
 				hint = "M: consulta los requisitos de esta etapa."
 			return
 	marker.hide()
+
+func _show_entrance_arrows() -> void:
+	var player: CharacterBody3D = campaign.player
+	var from := player.global_position
+	if from.z < -74.0 or absf(from.y) > 2.0:
+		return
+	var gate := Vector3(3, from.y, -28)
+	var destination := gate if from.z > -26.0 else Vector3(3, from.y, -67)
+	var direction := (destination-from).normalized()
+	var length := from.distance_to(destination)
+	var space := player.get_world_3d().direct_space_state
+	var exclude: Array[RID] = [player.get_rid()]
+	for i in arrows.size():
+		var step := 4.0 + 2.2*i
+		if step >= length:
+			break
+		var at := from + direction*step
+		var obstruction := PhysicsRayQueryParameters3D.create(from+Vector3.UP, at+Vector3.UP, 1, exclude)
+		if not space.intersect_ray(obstruction).is_empty():
+			break
+		var ground := space.intersect_ray(PhysicsRayQueryParameters3D.create(at+Vector3.UP, at-Vector3.UP*2, 1, exclude))
+		if ground.is_empty() or ground.normal.y < 0.7:
+			break
+		arrows[i].global_position = ground.position+Vector3.UP*0.06
+		arrows[i].rotation.y = atan2(-direction.x, -direction.z)
+		arrows[i].show()
 
 func nearest_floor(height: float) -> String:
 	var heights = load("res://scripts/campaign/campus_content.gd").HEIGHTS

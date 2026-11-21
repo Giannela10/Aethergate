@@ -1,0 +1,1662 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Hormigon"]
+albedo_color = Color(0.49, 0.45, 0.39, 1)
+roughness = 0.86
+
+[sub_resource type="StandardMaterial3D" id="Balcon"]
+albedo_color = Color(0.61, 0.57, 0.49, 1)
+roughness = 0.86
+
+[sub_resource type="StandardMaterial3D" id="Oscuro"]
+albedo_color = Color(0.16, 0.17, 0.16, 1)
+roughness = 0.86
+
+[sub_resource type="StandardMaterial3D" id="Vidrio"]
+albedo_color = Color(0.14, 0.25, 0.29, 1)
+roughness = 0.36
+
+[sub_resource type="StandardMaterial3D" id="Panel"]
+albedo_color = Color(0.33, 0.36, 0.34, 1)
+roughness = 0.86
+
+[sub_resource type="StandardMaterial3D" id="Verde"]
+albedo_color = Color(0.16, 0.32, 0.22, 1)
+roughness = 0.86
+
+[sub_resource type="StandardMaterial3D" id="Crema"]
+albedo_color = Color(0.66, 0.56, 0.42, 1)
+roughness = 0.86
+
+[sub_resource type="StandardMaterial3D" id="Salmon"]
+albedo_color = Color(0.58, 0.38, 0.31, 1)
+roughness = 0.86
+
+[sub_resource type="StandardMaterial3D" id="Gris"]
+albedo_color = Color(0.48, 0.51, 0.49, 1)
+roughness = 0.86
+
+[sub_resource type="StandardMaterial3D" id="Teja"]
+albedo_color = Color(0.44, 0.22, 0.16, 1)
+roughness = 0.86
+
+[sub_resource type="StandardMaterial3D" id="Pizarra"]
+albedo_color = Color(0.23, 0.25, 0.27, 1)
+roughness = 0.86
+
+[sub_resource type="StandardMaterial3D" id="Pasto"]
+albedo_color = Color(0.24, 0.32, 0.20, 1)
+roughness = 0.86
+
+[sub_resource type="BoxMesh" id="Malla1"]
+material = SubResource("Pasto")
+size = Vector3(345, 0.14, 33)
+
+[sub_resource type="BoxMesh" id="Malla2"]
+material = SubResource("Crema")
+size = Vector3(14, 7, 12)
+
+[sub_resource type="PrismMesh" id="Malla3"]
+material = SubResource("Teja")
+size = Vector3(14.9, 3, 12.8)
+
+[sub_resource type="BoxMesh" id="Malla4"]
+material = SubResource("Oscuro")
+size = Vector3(1.6, 2.7, 0.15)
+
+[sub_resource type="BoxMesh" id="Malla5"]
+material = SubResource("Vidrio")
+size = Vector3(2.35, 1.7, 0.16)
+
+[sub_resource type="BoxMesh" id="Malla6"]
+material = SubResource("Hormigon")
+size = Vector3(2, 0.1, 9)
+
+[sub_resource type="BoxMesh" id="Malla7"]
+material = SubResource("Salmon")
+size = Vector3(15, 10, 12)
+
+[sub_resource type="PrismMesh" id="Malla8"]
+material = SubResource("Pizarra")
+size = Vector3(15.9, 3, 12.8)
+
+[sub_resource type="BoxMesh" id="Malla9"]
+material = SubResource("Hormigon")
+size = Vector3(2, 0.1, 11)
+
+[sub_resource type="BoxMesh" id="Malla10"]
+material = SubResource("Gris")
+size = Vector3(17, 8, 12)
+
+[sub_resource type="PrismMesh" id="Malla11"]
+material = SubResource("Teja")
+size = Vector3(17.9, 3, 12.8)
+
+[sub_resource type="BoxMesh" id="Malla12"]
+material = SubResource("Hormigon")
+size = Vector3(2, 0.1, 13)
+
+[sub_resource type="BoxMesh" id="Malla13"]
+material = SubResource("Salmon")
+size = Vector3(15, 7, 12)
+
+[sub_resource type="BoxMesh" id="Malla14"]
+material = SubResource("Gris")
+size = Vector3(17, 10, 12)
+
+[sub_resource type="BoxMesh" id="Malla15"]
+material = SubResource("Crema")
+size = Vector3(14, 8, 12)
+
+[sub_resource type="BoxMesh" id="Malla16"]
+material = SubResource("Gris")
+size = Vector3(17, 7, 12)
+
+[sub_resource type="BoxMesh" id="Malla17"]
+material = SubResource("Crema")
+size = Vector3(14, 10, 12)
+
+[sub_resource type="BoxMesh" id="Malla18"]
+material = SubResource("Salmon")
+size = Vector3(15, 8, 12)
+
+[sub_resource type="BoxMesh" id="Malla19"]
+material = SubResource("Hormigon")
+size = Vector3(70, 5, 97)
+
+[sub_resource type="BoxMesh" id="Malla20"]
+material = SubResource("Hormigon")
+size = Vector3(62, 98, 88)
+
+[sub_resource type="BoxMesh" id="Malla21"]
+material = SubResource("Balcon")
+size = Vector3(63, 1, 89)
+
+[sub_resource type="BoxMesh" id="Malla22"]
+material = SubResource("Oscuro")
+size = Vector3(0.22, 2.25, 82)
+
+[sub_resource type="BoxMesh" id="Malla23"]
+material = SubResource("Oscuro")
+size = Vector3(57, 2.25, 0.22)
+
+[sub_resource type="BoxMesh" id="Malla24"]
+material = SubResource("Balcon")
+size = Vector3(1.65, 0.5, 84)
+
+[sub_resource type="BoxMesh" id="Malla25"]
+material = SubResource("Balcon")
+size = Vector3(59, 0.5, 1.65)
+
+[sub_resource type="BoxMesh" id="Malla26"]
+material = SubResource("Hormigon")
+size = Vector3(0.42, 90, 0.64)
+
+[sub_resource type="BoxMesh" id="Malla27"]
+material = SubResource("Hormigon")
+size = Vector3(0.64, 90, 0.42)
+
+[sub_resource type="BoxMesh" id="Malla28"]
+material = SubResource("Hormigon")
+size = Vector3(59, 6.8, 113)
+
+[sub_resource type="BoxMesh" id="Malla29"]
+material = SubResource("Panel")
+size = Vector3(52, 30.8, 107)
+
+[sub_resource type="BoxMesh" id="Malla30"]
+material = SubResource("Panel")
+size = Vector3(38, 7, 69)
+
+[sub_resource type="BoxMesh" id="Malla31"]
+material = SubResource("Verde")
+size = Vector3(0.5, 4.4, 107.3)
+
+[sub_resource type="BoxMesh" id="Malla32"]
+material = SubResource("Verde")
+size = Vector3(52.5, 4.4, 0.42)
+
+[sub_resource type="BoxMesh" id="Malla33"]
+material = SubResource("Vidrio")
+size = Vector3(0.26, 3.47, 101)
+
+[sub_resource type="BoxMesh" id="Malla34"]
+material = SubResource("Vidrio")
+size = Vector3(47, 3.47, 0.25)
+
+[sub_resource type="BoxMesh" id="Malla35"]
+material = SubResource("Oscuro")
+size = Vector3(0.39, 17.5, 0.22)
+
+[sub_resource type="BoxMesh" id="Malla36"]
+material = SubResource("Oscuro")
+size = Vector3(0.22, 17.5, 0.39)
+
+[sub_resource type="BoxMesh" id="Malla37"]
+material = SubResource("Vidrio")
+size = Vector3(16, 4.8, 0.25)
+
+[sub_resource type="BoxMesh" id="Malla38"]
+material = SubResource("Panel")
+size = Vector3(22, 0.46, 3)
+
+[node name="VecinosDuoc" type="Node3D"]
+
+[node name="Casas" type="Node3D" parent="."]
+
+[node name="TorreIzquierda" type="Node3D" parent="."]
+position = Vector3(-206, -1.6, -92)
+
+[node name="SantoTomasDerecha" type="Node3D" parent="."]
+position = Vector3(185, -1.6, -111)
+
+[node name="Jardines" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-7.5, -1.56, -311)
+cast_shadow = 0
+mesh = SubResource("Malla1")
+
+[node name="Casa1" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-168, 1.95, -311)
+cast_shadow = 0
+mesh = SubResource("Malla2")
+
+[node name="Techo1" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-168, 6.9, -311)
+cast_shadow = 0
+mesh = SubResource("Malla3")
+
+[node name="Puerta1" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-168, -0.15, -304.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq1" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-172, 1, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer1" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-164, 1, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero1" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-168, -1.46, -300.5)
+cast_shadow = 0
+mesh = SubResource("Malla6")
+
+[node name="Casa2" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-145, 3.45, -313)
+cast_shadow = 0
+mesh = SubResource("Malla7")
+
+[node name="Techo2" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-145, 9.9, -313)
+cast_shadow = 0
+mesh = SubResource("Malla8")
+
+[node name="Puerta2" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-145, -0.15, -306.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq2" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-149, 1, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaIzq2" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-149, 4.45, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer2" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-141, 1, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaDer2" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-141, 4.45, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero2" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-145, -1.46, -301.5)
+cast_shadow = 0
+mesh = SubResource("Malla9")
+
+[node name="Casa3" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-122, 2.45, -315)
+cast_shadow = 0
+mesh = SubResource("Malla10")
+
+[node name="Techo3" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-122, 7.9, -315)
+cast_shadow = 0
+mesh = SubResource("Malla11")
+
+[node name="Puerta3" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-122, -0.15, -308.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq3" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-126, 1, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaIzq3" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-126, 4.45, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer3" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-118, 1, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaDer3" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-118, 4.45, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero3" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-122, -1.46, -302.5)
+cast_shadow = 0
+mesh = SubResource("Malla12")
+
+[node name="Casa4" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-99, 1.95, -311)
+cast_shadow = 0
+mesh = SubResource("Malla2")
+
+[node name="Techo4" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-99, 6.9, -311)
+cast_shadow = 0
+mesh = SubResource("Malla3")
+
+[node name="Puerta4" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-99, -0.15, -304.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq4" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-103, 1, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer4" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-95, 1, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero4" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-99, -1.46, -300.5)
+cast_shadow = 0
+mesh = SubResource("Malla6")
+
+[node name="Casa5" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-76, 1.95, -313)
+cast_shadow = 0
+mesh = SubResource("Malla13")
+
+[node name="Techo5" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-76, 6.9, -313)
+cast_shadow = 0
+mesh = SubResource("Malla8")
+
+[node name="Puerta5" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-76, -0.15, -306.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq5" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-80, 1, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer5" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-72, 1, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero5" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-76, -1.46, -301.5)
+cast_shadow = 0
+mesh = SubResource("Malla9")
+
+[node name="Casa6" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-53, 3.45, -315)
+cast_shadow = 0
+mesh = SubResource("Malla14")
+
+[node name="Techo6" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-53, 9.9, -315)
+cast_shadow = 0
+mesh = SubResource("Malla11")
+
+[node name="Puerta6" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-53, -0.15, -308.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq6" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-57, 1, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaIzq6" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-57, 4.45, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer6" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-49, 1, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaDer6" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-49, 4.45, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero6" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-53, -1.46, -302.5)
+cast_shadow = 0
+mesh = SubResource("Malla12")
+
+[node name="Casa7" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-30, 2.45, -311)
+cast_shadow = 0
+mesh = SubResource("Malla15")
+
+[node name="Techo7" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-30, 7.9, -311)
+cast_shadow = 0
+mesh = SubResource("Malla3")
+
+[node name="Puerta7" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-30, -0.15, -304.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq7" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-34, 1, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaIzq7" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-34, 4.45, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer7" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-26, 1, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaDer7" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-26, 4.45, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero7" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-30, -1.46, -300.5)
+cast_shadow = 0
+mesh = SubResource("Malla6")
+
+[node name="Casa8" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-7, 1.95, -313)
+cast_shadow = 0
+mesh = SubResource("Malla13")
+
+[node name="Techo8" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-7, 6.9, -313)
+cast_shadow = 0
+mesh = SubResource("Malla8")
+
+[node name="Puerta8" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-7, -0.15, -306.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq8" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-11, 1, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer8" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-3, 1, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero8" type="MeshInstance3D" parent="Casas"]
+position = Vector3(-7, -1.46, -301.5)
+cast_shadow = 0
+mesh = SubResource("Malla9")
+
+[node name="Casa9" type="MeshInstance3D" parent="Casas"]
+position = Vector3(16, 1.95, -315)
+cast_shadow = 0
+mesh = SubResource("Malla16")
+
+[node name="Techo9" type="MeshInstance3D" parent="Casas"]
+position = Vector3(16, 6.9, -315)
+cast_shadow = 0
+mesh = SubResource("Malla11")
+
+[node name="Puerta9" type="MeshInstance3D" parent="Casas"]
+position = Vector3(16, -0.15, -308.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq9" type="MeshInstance3D" parent="Casas"]
+position = Vector3(12, 1, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer9" type="MeshInstance3D" parent="Casas"]
+position = Vector3(20, 1, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero9" type="MeshInstance3D" parent="Casas"]
+position = Vector3(16, -1.46, -302.5)
+cast_shadow = 0
+mesh = SubResource("Malla12")
+
+[node name="Casa10" type="MeshInstance3D" parent="Casas"]
+position = Vector3(39, 3.45, -311)
+cast_shadow = 0
+mesh = SubResource("Malla17")
+
+[node name="Techo10" type="MeshInstance3D" parent="Casas"]
+position = Vector3(39, 9.9, -311)
+cast_shadow = 0
+mesh = SubResource("Malla3")
+
+[node name="Puerta10" type="MeshInstance3D" parent="Casas"]
+position = Vector3(39, -0.15, -304.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq10" type="MeshInstance3D" parent="Casas"]
+position = Vector3(35, 1, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaIzq10" type="MeshInstance3D" parent="Casas"]
+position = Vector3(35, 4.45, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer10" type="MeshInstance3D" parent="Casas"]
+position = Vector3(43, 1, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaDer10" type="MeshInstance3D" parent="Casas"]
+position = Vector3(43, 4.45, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero10" type="MeshInstance3D" parent="Casas"]
+position = Vector3(39, -1.46, -300.5)
+cast_shadow = 0
+mesh = SubResource("Malla6")
+
+[node name="Casa11" type="MeshInstance3D" parent="Casas"]
+position = Vector3(62, 2.45, -313)
+cast_shadow = 0
+mesh = SubResource("Malla18")
+
+[node name="Techo11" type="MeshInstance3D" parent="Casas"]
+position = Vector3(62, 7.9, -313)
+cast_shadow = 0
+mesh = SubResource("Malla8")
+
+[node name="Puerta11" type="MeshInstance3D" parent="Casas"]
+position = Vector3(62, -0.15, -306.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq11" type="MeshInstance3D" parent="Casas"]
+position = Vector3(58, 1, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaIzq11" type="MeshInstance3D" parent="Casas"]
+position = Vector3(58, 4.45, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer11" type="MeshInstance3D" parent="Casas"]
+position = Vector3(66, 1, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaDer11" type="MeshInstance3D" parent="Casas"]
+position = Vector3(66, 4.45, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero11" type="MeshInstance3D" parent="Casas"]
+position = Vector3(62, -1.46, -301.5)
+cast_shadow = 0
+mesh = SubResource("Malla9")
+
+[node name="Casa12" type="MeshInstance3D" parent="Casas"]
+position = Vector3(85, 1.95, -315)
+cast_shadow = 0
+mesh = SubResource("Malla16")
+
+[node name="Techo12" type="MeshInstance3D" parent="Casas"]
+position = Vector3(85, 6.9, -315)
+cast_shadow = 0
+mesh = SubResource("Malla11")
+
+[node name="Puerta12" type="MeshInstance3D" parent="Casas"]
+position = Vector3(85, -0.15, -308.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq12" type="MeshInstance3D" parent="Casas"]
+position = Vector3(81, 1, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer12" type="MeshInstance3D" parent="Casas"]
+position = Vector3(89, 1, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero12" type="MeshInstance3D" parent="Casas"]
+position = Vector3(85, -1.46, -302.5)
+cast_shadow = 0
+mesh = SubResource("Malla12")
+
+[node name="Casa13" type="MeshInstance3D" parent="Casas"]
+position = Vector3(108, 1.95, -311)
+cast_shadow = 0
+mesh = SubResource("Malla2")
+
+[node name="Techo13" type="MeshInstance3D" parent="Casas"]
+position = Vector3(108, 6.9, -311)
+cast_shadow = 0
+mesh = SubResource("Malla3")
+
+[node name="Puerta13" type="MeshInstance3D" parent="Casas"]
+position = Vector3(108, -0.15, -304.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq13" type="MeshInstance3D" parent="Casas"]
+position = Vector3(104, 1, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer13" type="MeshInstance3D" parent="Casas"]
+position = Vector3(112, 1, -304.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero13" type="MeshInstance3D" parent="Casas"]
+position = Vector3(108, -1.46, -300.5)
+cast_shadow = 0
+mesh = SubResource("Malla6")
+
+[node name="Casa14" type="MeshInstance3D" parent="Casas"]
+position = Vector3(131, 3.45, -313)
+cast_shadow = 0
+mesh = SubResource("Malla7")
+
+[node name="Techo14" type="MeshInstance3D" parent="Casas"]
+position = Vector3(131, 9.9, -313)
+cast_shadow = 0
+mesh = SubResource("Malla8")
+
+[node name="Puerta14" type="MeshInstance3D" parent="Casas"]
+position = Vector3(131, -0.15, -306.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq14" type="MeshInstance3D" parent="Casas"]
+position = Vector3(127, 1, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaIzq14" type="MeshInstance3D" parent="Casas"]
+position = Vector3(127, 4.45, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer14" type="MeshInstance3D" parent="Casas"]
+position = Vector3(135, 1, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaDer14" type="MeshInstance3D" parent="Casas"]
+position = Vector3(135, 4.45, -306.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero14" type="MeshInstance3D" parent="Casas"]
+position = Vector3(131, -1.46, -301.5)
+cast_shadow = 0
+mesh = SubResource("Malla9")
+
+[node name="Casa15" type="MeshInstance3D" parent="Casas"]
+position = Vector3(154, 2.45, -315)
+cast_shadow = 0
+mesh = SubResource("Malla10")
+
+[node name="Techo15" type="MeshInstance3D" parent="Casas"]
+position = Vector3(154, 7.9, -315)
+cast_shadow = 0
+mesh = SubResource("Malla11")
+
+[node name="Puerta15" type="MeshInstance3D" parent="Casas"]
+position = Vector3(154, -0.15, -308.94)
+cast_shadow = 0
+mesh = SubResource("Malla4")
+
+[node name="VentanaIzq15" type="MeshInstance3D" parent="Casas"]
+position = Vector3(150, 1, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaIzq15" type="MeshInstance3D" parent="Casas"]
+position = Vector3(150, 4.45, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaDer15" type="MeshInstance3D" parent="Casas"]
+position = Vector3(158, 1, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="VentanaAltaDer15" type="MeshInstance3D" parent="Casas"]
+position = Vector3(158, 4.45, -308.93)
+cast_shadow = 0
+mesh = SubResource("Malla5")
+
+[node name="Sendero15" type="MeshInstance3D" parent="Casas"]
+position = Vector3(154, -1.46, -302.5)
+cast_shadow = 0
+mesh = SubResource("Malla12")
+
+[node name="Base" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 2.5, 0)
+cast_shadow = 0
+mesh = SubResource("Malla19")
+
+[node name="VolumenPrincipal" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 49, 0)
+cast_shadow = 0
+mesh = SubResource("Malla20")
+
+[node name="Azotea" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 98.5, 0)
+cast_shadow = 0
+mesh = SubResource("Malla21")
+
+[node name="VentanasCampus0" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 6, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida0" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 6, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus0" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 4.86, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida0" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 4.86, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus1" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 9.45, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida1" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 9.45, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus1" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 8.309999999999999, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida1" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 8.309999999999999, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus2" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 12.9, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida2" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 12.9, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus2" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 11.76, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida2" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 11.76, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus3" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 16.35, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida3" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 16.35, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus3" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 15.21, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida3" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 15.21, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus4" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 19.8, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida4" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 19.8, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus4" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 18.66, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida4" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 18.66, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus5" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 23.25, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida5" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 23.25, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus5" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 22.11, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida5" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 22.11, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus6" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 26.700000000000003, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida6" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 26.700000000000003, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus6" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 25.560000000000002, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida6" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 25.560000000000002, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus7" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 30.150000000000002, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida7" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 30.150000000000002, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus7" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 29.01, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida7" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 29.01, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus8" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 33.6, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida8" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 33.6, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus8" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 32.46, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida8" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 32.46, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus9" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 37.05, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida9" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 37.05, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus9" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 35.91, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida9" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 35.91, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus10" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 40.5, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida10" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 40.5, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus10" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 39.36, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida10" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 39.36, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus11" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 43.95, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida11" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 43.95, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus11" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 42.81, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida11" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 42.81, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus12" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 47.400000000000006, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida12" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 47.400000000000006, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus12" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 46.260000000000005, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida12" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 46.260000000000005, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus13" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 50.85, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida13" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 50.85, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus13" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 49.71, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida13" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 49.71, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus14" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 54.300000000000004, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida14" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 54.300000000000004, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus14" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 53.160000000000004, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida14" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 53.160000000000004, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus15" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 57.75, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida15" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 57.75, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus15" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 56.61, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida15" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 56.61, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus16" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 61.2, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida16" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 61.2, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus16" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 60.06, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida16" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 60.06, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus17" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 64.65, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida17" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 64.65, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus17" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 63.510000000000005, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida17" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 63.510000000000005, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus18" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 68.1, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida18" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 68.1, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus18" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 66.96, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida18" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 66.96, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus19" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 71.55, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida19" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 71.55, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus19" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 70.41, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida19" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 70.41, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus20" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 75, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida20" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 75, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus20" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 73.86, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida20" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 73.86, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus21" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 78.45, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida21" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 78.45, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus21" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 77.31, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida21" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 77.31, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus22" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 81.9, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida22" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 81.9, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus22" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 80.76, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida22" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 80.76, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus23" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 85.35000000000001, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida23" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 85.35000000000001, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus23" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 84.21000000000001, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida23" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 84.21000000000001, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus24" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 88.80000000000001, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida24" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 88.80000000000001, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus24" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 87.66000000000001, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida24" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 87.66000000000001, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="VentanasCampus25" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.12, 92.25, 0)
+cast_shadow = 0
+mesh = SubResource("Malla22")
+
+[node name="VentanasAvenida25" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 92.25, 44.12)
+cast_shadow = 0
+mesh = SubResource("Malla23")
+
+[node name="BalconCampus25" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.55, 91.11, 0)
+cast_shadow = 0
+mesh = SubResource("Malla24")
+
+[node name="BalconAvenida25" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 91.11, 44.55)
+cast_shadow = 0
+mesh = SubResource("Malla25")
+
+[node name="MontanteLateral3" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.25, 49, -37)
+cast_shadow = 0
+mesh = SubResource("Malla26")
+
+[node name="MontanteLateral11" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.25, 49, -29.5)
+cast_shadow = 0
+mesh = SubResource("Malla26")
+
+[node name="MontanteLateral18" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.25, 49, -22)
+cast_shadow = 0
+mesh = SubResource("Malla26")
+
+[node name="MontanteLateral26" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.25, 49, -14.5)
+cast_shadow = 0
+mesh = SubResource("Malla26")
+
+[node name="MontanteLateral33" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.25, 49, -7)
+cast_shadow = 0
+mesh = SubResource("Malla26")
+
+[node name="MontanteLateral41" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.25, 49, 0.5)
+cast_shadow = 0
+mesh = SubResource("Malla26")
+
+[node name="MontanteLateral48" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.25, 49, 8)
+cast_shadow = 0
+mesh = SubResource("Malla26")
+
+[node name="MontanteLateral56" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.25, 49, 15.5)
+cast_shadow = 0
+mesh = SubResource("Malla26")
+
+[node name="MontanteLateral63" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.25, 49, 23)
+cast_shadow = 0
+mesh = SubResource("Malla26")
+
+[node name="MontanteLateral71" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.25, 49, 30.5)
+cast_shadow = 0
+mesh = SubResource("Malla26")
+
+[node name="MontanteLateral78" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(31.25, 49, 38)
+cast_shadow = 0
+mesh = SubResource("Malla26")
+
+[node name="MontanteFrontal0" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(-25, 49, 44.25)
+cast_shadow = 0
+mesh = SubResource("Malla27")
+
+[node name="MontanteFrontal6" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(-18.75, 49, 44.25)
+cast_shadow = 0
+mesh = SubResource("Malla27")
+
+[node name="MontanteFrontal13" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(-12.5, 49, 44.25)
+cast_shadow = 0
+mesh = SubResource("Malla27")
+
+[node name="MontanteFrontal19" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(-6.25, 49, 44.25)
+cast_shadow = 0
+mesh = SubResource("Malla27")
+
+[node name="MontanteFrontal25" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(0, 49, 44.25)
+cast_shadow = 0
+mesh = SubResource("Malla27")
+
+[node name="MontanteFrontal31" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(6.25, 49, 44.25)
+cast_shadow = 0
+mesh = SubResource("Malla27")
+
+[node name="MontanteFrontal38" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(12.5, 49, 44.25)
+cast_shadow = 0
+mesh = SubResource("Malla27")
+
+[node name="MontanteFrontal44" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(18.75, 49, 44.25)
+cast_shadow = 0
+mesh = SubResource("Malla27")
+
+[node name="MontanteFrontal50" type="MeshInstance3D" parent="TorreIzquierda"]
+position = Vector3(25, 49, 44.25)
+cast_shadow = 0
+mesh = SubResource("Malla27")
+
+[node name="Zocalo" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(3, 3.4, 0)
+cast_shadow = 0
+mesh = SubResource("Malla28")
+
+[node name="VolumenPrincipal" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(4, 15.4, 0)
+cast_shadow = 0
+mesh = SubResource("Malla29")
+
+[node name="VolumenRetranqueado" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(11, 32.4, -10)
+cast_shadow = 0
+mesh = SubResource("Malla30")
+
+[node name="BandaVerdeCampus" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.2, 27.4, 0)
+cast_shadow = 0
+mesh = SubResource("Malla31")
+
+[node name="BandaVerdeAvenida" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(4, 27.4, 53.7)
+cast_shadow = 0
+mesh = SubResource("Malla32")
+
+[node name="CristalCampus0" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.1, 8.3, 0)
+cast_shadow = 0
+mesh = SubResource("Malla33")
+
+[node name="CristalAvenida0" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(4, 8.3, 53.62)
+cast_shadow = 0
+mesh = SubResource("Malla34")
+
+[node name="CristalCampus1" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.1, 12.780000000000001, 0)
+cast_shadow = 0
+mesh = SubResource("Malla33")
+
+[node name="CristalAvenida1" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(4, 12.780000000000001, 53.62)
+cast_shadow = 0
+mesh = SubResource("Malla34")
+
+[node name="CristalCampus2" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.1, 17.26, 0)
+cast_shadow = 0
+mesh = SubResource("Malla33")
+
+[node name="CristalAvenida2" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(4, 17.26, 53.62)
+cast_shadow = 0
+mesh = SubResource("Malla34")
+
+[node name="CristalCampus3" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.1, 21.740000000000002, 0)
+cast_shadow = 0
+mesh = SubResource("Malla33")
+
+[node name="CristalAvenida3" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(4, 21.740000000000002, 53.62)
+cast_shadow = 0
+mesh = SubResource("Malla34")
+
+[node name="MontanteCampus0" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -49)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus1" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -45.08)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus2" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -41.16)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus3" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -37.24)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus4" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -33.32)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus5" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -29.4)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus6" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -25.48)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus7" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -21.560000000000002)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus8" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -17.64)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus9" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -13.719999999999999)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus10" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -9.799999999999997)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus11" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -5.880000000000003)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus12" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, -1.9600000000000009)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus13" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 1.9600000000000009)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus14" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 5.8799999999999955)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus15" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 9.799999999999997)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus16" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 13.719999999999999)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus17" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 17.64)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus18" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 21.560000000000002)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus19" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 25.480000000000004)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus20" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 29.400000000000006)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus21" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 33.31999999999999)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus22" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 37.239999999999995)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus23" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 41.16)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus24" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 45.08)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteCampus25" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.27, 15, 49)
+cast_shadow = 0
+mesh = SubResource("Malla35")
+
+[node name="MontanteAvenida0" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-17.5, 15, 53.78)
+cast_shadow = 0
+mesh = SubResource("Malla36")
+
+[node name="MontanteAvenida1" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-13.59, 15, 53.78)
+cast_shadow = 0
+mesh = SubResource("Malla36")
+
+[node name="MontanteAvenida2" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-9.68, 15, 53.78)
+cast_shadow = 0
+mesh = SubResource("Malla36")
+
+[node name="MontanteAvenida3" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-5.77, 15, 53.78)
+cast_shadow = 0
+mesh = SubResource("Malla36")
+
+[node name="MontanteAvenida4" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(-1.8599999999999994, 15, 53.78)
+cast_shadow = 0
+mesh = SubResource("Malla36")
+
+[node name="MontanteAvenida5" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(2.0500000000000007, 15, 53.78)
+cast_shadow = 0
+mesh = SubResource("Malla36")
+
+[node name="MontanteAvenida6" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(5.960000000000001, 15, 53.78)
+cast_shadow = 0
+mesh = SubResource("Malla36")
+
+[node name="MontanteAvenida7" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(9.870000000000001, 15, 53.78)
+cast_shadow = 0
+mesh = SubResource("Malla36")
+
+[node name="MontanteAvenida8" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(13.780000000000001, 15, 53.78)
+cast_shadow = 0
+mesh = SubResource("Malla36")
+
+[node name="MontanteAvenida9" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(17.689999999999998, 15, 53.78)
+cast_shadow = 0
+mesh = SubResource("Malla36")
+
+[node name="MontanteAvenida10" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(21.6, 15, 53.78)
+cast_shadow = 0
+mesh = SubResource("Malla36")
+
+[node name="MontanteAvenida11" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(25.510000000000005, 15, 53.78)
+cast_shadow = 0
+mesh = SubResource("Malla36")
+
+[node name="AccesoAcristalado" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(2, 2.4, 56.61)
+cast_shadow = 0
+mesh = SubResource("Malla37")
+
+[node name="Marquesina" type="MeshInstance3D" parent="SantoTomasDerecha"]
+position = Vector3(2, 5.15, 57.7)
+cast_shadow = 0
+mesh = SubResource("Malla38")
+
+[node name="LetreroCampus" type="Label3D" parent="SantoTomasDerecha"]
+position = Vector3(-22.53, 27.4, 5)
+rotation = Vector3(0, -1.5707963, 0)
+pixel_size = 0.065
+text = "SANTO TOMÁS"
+font_size = 56
+outline_size = 0
+
+[node name="LetreroAvenida" type="Label3D" parent="SantoTomasDerecha"]
+position = Vector3(4, 27.4, 53.95)
+rotation = Vector3(0, 0, 0)
+pixel_size = 0.065
+text = "SANTO TOMÁS"
+font_size = 56
+outline_size = 0

@@ -1,18 +1,26 @@
 extends VBoxContainer
+const MenuStyle = preload("res://scripts/campaign/campus_menu_style.gd")
 signal answered(value: Variant)
 var activity: Dictionary = {}
 var sequence: Array = []
 var status: Label
 var locked := false
+var teacher_style := false
 
 func _ready() -> void:
 	var prompt := Label.new()
 	prompt.text = str(activity.get("prompt",""))
 	prompt.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	if teacher_style:
+		add_theme_constant_override("separation", 7)
+		prompt.add_theme_font_size_override("font_size", 21)
+		prompt.add_theme_color_override("font_color", MenuStyle.PALE)
 	add_child(prompt)
 	if not str(activity.get("image_path","")).is_empty(): _load_image.call_deferred()
 	status = Label.new()
 	status.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	if teacher_style:
+		status.add_theme_color_override("font_color", MenuStyle.MUTED)
 	add_child(status)
 	var kind := str(activity.get("kind","multiple_choice"))
 	var content: Dictionary = activity.get("content",{})
@@ -50,6 +58,11 @@ func _button(text: String, action: Callable) -> Button:
 	var button := Button.new()
 	button.text = text
 	button.custom_minimum_size.y = 48
+	if teacher_style:
+		MenuStyle.tone(button)
+		button.alignment = HORIZONTAL_ALIGNMENT_LEFT
+		button.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		button.add_theme_font_size_override("font_size", 16)
 	button.pressed.connect(action)
 	add_child(button)
 	return button

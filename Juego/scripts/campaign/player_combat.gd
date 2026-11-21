@@ -20,6 +20,8 @@ func _ready() -> void:
 	bar.custom_minimum_size = Vector2(150,12)
 	bar.show_percentage = false
 	layer.add_child(bar)
+	if get_tree().get_first_node_in_group("campus") != null:
+		bar.hide()
 
 func _process(delta: float) -> void:
 	dodge_t = maxf(0,dodge_t-delta)

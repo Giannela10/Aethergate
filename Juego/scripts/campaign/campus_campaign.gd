@@ -22,6 +22,7 @@ var inventory_snapshot: Dictionary = {}
 var defaults: Dictionary = {}
 var loaded_save := false
 var autosave_t := 0.0
+var legacy_ui_scan_time := 0.0
 var floor_current := ""
 var audio: Node
 var polish: Node
@@ -46,8 +47,8 @@ func _cloud_status(message: String) -> void:
 	if not cloud_store.last_error.is_empty() and is_instance_valid(ui):
 		ui.notify(message,10)
 
-func show_personalization(new_run: bool = false) -> void:
-	appearance_menu.open(new_run)
+func show_personalization(new_run: bool = false, on_return: Callable = Callable()) -> void:
+	appearance_menu.open(new_run, on_return)
 
 func refresh_visual_rewards() -> void:
 	preload("res://scripts/juego/character_appearance.gd").unlock_from_progress(data.bosses,data.cosmetics)
@@ -232,7 +233,12 @@ func _boot() -> void:
 			if get_tree().has_meta("education_entry"):
 				var entry := str(get_tree().get_meta("education_entry"))
 				get_tree().remove_meta("education_entry")
-				if entry == "new": call_deferred("_confirm_new_game")
+				match entry:
+					"new": call_deferred("_confirm_new_game")
+					"appearance": show_personalization.call_deferred(false, show_start_menu)
+					"custom_new": show_personalization.call_deferred(true, show_start_menu)
+					"missions": quest_ui.show_quests.call_deferred()
+					"inventory": _open_inventory.call_deferred()
 			else:
 				call_deferred("show_start_menu")
 
@@ -533,8 +539,26 @@ func show_start_menu() -> void:
 		return
 	manager.cam.global_position = player.global_position+Vector3(0,3,5)
 	manager.cam.look_at(player.global_position+Vector3.UP*1.4)
-	ui.dialog("DUOCGAMES","Explora el campus, completa misiones y supera los duelos.",["Continuar","Nueva partida"],[ui.close_modal,_confirm_new_game],true)
+	var screen: Control = ui.open_fullscreen()
+	var dashboard := preload("res://scripts/campaign/campus_dashboard.gd").new()
+	dashboard.setup("Estudiante", data, {
+		"play": ui.close_modal, "missions": quest_ui.show_quests, "inventory": _open_inventory,
+		"appearance": show_personalization.bind(false, show_start_menu), "settings": show_options,
+		"credits": _main_menu_credits, "exit": _main_menu_exit
+	}, [["Nueva partida", _confirm_new_game]])
+	screen.add_child(dashboard)
+	dashboard.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	if not save_blocked_reason.is_empty(): ui.notify(save_blocked_reason,12)
+
+func _main_menu_credits() -> void:
+	ui.dialog("CRÉDITOS", "DuocUC · Aventura Universitaria\nJuego desarrollado en Godot.", ["Volver"], [show_start_menu], true)
+
+func _main_menu_exit() -> void:
+	ui.dialog("SALIR", "¿Quieres cerrar el juego?", ["Salir", "Cancelar"], [_quit_from_main_menu, show_start_menu], true)
+
+func _quit_from_main_menu() -> void:
+	save_game()
+	get_tree().quit()
 
 func reload_cloud_scene() -> void:
 	if not cloud_mode or not ready_for_play or restarting: return
@@ -707,6 +731,10 @@ func update_status(delta: float) -> void:
 	for enemy in get_tree().get_nodes_in_group("enemy"):
 		if enemy.has_signal("died") and not enemy.has_node("BossDuelController") and not enemy.died.is_connected(enemy_defeated):
 			enemy.died.connect(enemy_defeated)
+	legacy_ui_scan_time -= delta
+	if legacy_ui_scan_time > 0.0:
+		return
+	legacy_ui_scan_time = 0.15
 	for group in ["computer","weapon_pickup","inventory_pickup","stationery_vendor"]:
 		for node in get_tree().get_nodes_in_group(group):
 			for property in ["prompt","label"]:

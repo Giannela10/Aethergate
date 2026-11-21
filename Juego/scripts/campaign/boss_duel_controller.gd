@@ -30,6 +30,7 @@ func learn_from_mentor() -> void:
 	base_education.campaign=campaign
 	base_education.floor_number=int(campaign.phone._floor_for(actor))
 	base_education.mentor_id=boss_id
+	base_education.mentor_name = boss_name
 	base_education.open()
 
 func is_educational_simulation() -> bool:
@@ -117,8 +118,8 @@ func interact(candidate: CharacterBody3D) -> void:
 	campaign.active_duel = self
 	campaign.event("talk",boss_id)
 	campaign.ui.dialog(boss_name,intro_text+"\n\nEl docente guía la actividad. Los ataques se dirigen a una entidad digital de entrenamiento.\nSi cierras durante el desafío, continuarás desde el estado previo.",["INICIAR SIMULACIÓN" if is_educational_simulation() else "INICIAR DESAFÍO","AHORA NO"],[accept,decline])
-	if boss_id=="profesor_redes": campaign.ui.dialog(boss_name,"Puedes practicar Redes o iniciar la simulación con sus requisitos actuales.",["ACTIVIDAD DEL DOCENTE","INICIAR SIMULACIÓN","AHORA NO"],[learn_from_mentor,accept,decline])
-	if boss_id=="director": campaign.ui.dialog(boss_name,intro_text+"\nEvaluación integradora: completa la actividad publicada y luego acepta la simulación.",["EVALUACIÓN INTEGRADORA","INICIAR SIMULACIÓN","AHORA NO"],[learn_from_mentor,accept,decline])
+	if boss_id=="profesor_redes": campaign.ui.teacher_dialog(boss_name,"Puedes practicar Redes o iniciar la simulación con sus requisitos actuales.",["ACTIVIDAD DEL DOCENTE","INICIAR SIMULACIÓN","AHORA NO"],[learn_from_mentor,accept,decline],false)
+	if boss_id=="director": campaign.ui.teacher_dialog(boss_name,intro_text+"\nEvaluación integradora: completa la actividad publicada y luego acepta la simulación.",["EVALUACIÓN INTEGRADORA","INICIAR SIMULACIÓN","AHORA NO"],[learn_from_mentor,accept,decline],false)
 
 func decline() -> void:
 	if state != DuelState.DIALOGUE:

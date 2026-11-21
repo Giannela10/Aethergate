@@ -29,6 +29,7 @@ func can_enter_menu() -> bool:
 func _auth_log(tag: String, result: String, http_status: int = 0) -> void:
 	if OS.is_debug_build(): print("[AUTH_%s] status=%d result=%s" % [tag,http_status,result])
 const SESSION_FILE := "user://education.auth-session.json"
+const BUNDLED_AUTH_CONFIG := "res://config/auth_config.public.json"
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
@@ -54,6 +55,7 @@ func load_configuration() -> void:
 		candidates.append(ProjectSettings.globalize_path("res://").trim_suffix("/").get_base_dir().path_join("config/auth_config.json"))
 	else:
 		candidates.append(OS.get_executable_path().get_base_dir().path_join("config/auth_config.json"))
+	candidates.append(BUNDLED_AUTH_CONFIG)
 	for path in candidates:
 		if not FileAccess.file_exists(path): continue
 		config_source = "DUOCGAMES_AUTH_CONFIG" if path == external else path

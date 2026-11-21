@@ -1,4 +1,5 @@
 extends CanvasLayer
+const MenuStyle = preload("res://scripts/campaign/campus_menu_style.gd")
 const Catalog = preload("res://scripts/inventory/item_catalog.gd")
 const Item = preload("res://scripts/inventory/inventory_item.gd")
 var player: CharacterBody3D
@@ -34,7 +35,7 @@ func _ready() -> void:
 	shade.hide()
 	panel = PanelContainer.new()
 	panel.name = "InventoryPanel"
-	panel.add_theme_stylebox_override("panel",_style(Color("142332"),Color("479baf")))
+	panel.add_theme_stylebox_override("panel", MenuStyle.surface())
 	root_control.add_child(panel)
 	var scroll := ScrollContainer.new()
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
@@ -47,6 +48,7 @@ func _ready() -> void:
 	var heading := Label.new()
 	heading.text = "MOCHILA DEL ESTUDIANTE"
 	heading.add_theme_font_size_override("font_size",22)
+	heading.add_theme_color_override("font_color", MenuStyle.GOLD)
 	column.add_child(heading)
 	_button(column,"CREDENCIALES ACADÉMICAS",func():
 		var campaign := get_tree().get_first_node_in_group("campus_campaign")
@@ -91,6 +93,8 @@ func _ready() -> void:
 	var quick := HBoxContainer.new()
 	quick.name = "QuickBar"
 	root_control.add_child(quick)
+	if player.get_parent().has_node("CampusCampaign") or get_tree().get_first_node_in_group("campus") != null:
+		quick.hide()
 	quick.set_anchors_and_offsets_preset(Control.PRESET_CENTER_BOTTOM)
 	quick.offset_left = -320
 	quick.offset_right = 320
