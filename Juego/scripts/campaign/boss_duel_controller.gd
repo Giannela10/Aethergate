@@ -117,7 +117,8 @@ func interact(candidate: CharacterBody3D) -> void:
 	state = DuelState.DIALOGUE
 	campaign.active_duel = self
 	campaign.event("talk",boss_id)
-	campaign.ui.dialog(boss_name,intro_text+"\n\nEl docente guía la actividad. Los ataques se dirigen a una entidad digital de entrenamiento.\nSi cierras durante el desafío, continuarás desde el estado previo.",["INICIAR SIMULACIÓN" if is_educational_simulation() else "INICIAR DESAFÍO","AHORA NO"],[accept,decline])
+	var simulation_note := "\n\nEn la simulación te enfrentarás a un avatar con la apariencia de " + boss_name + "." if is_educational_simulation() else ""
+	campaign.ui.dialog(boss_name,intro_text+simulation_note+"\nSi cierras durante el desafío, continuarás desde el estado previo.",["INICIAR SIMULACIÓN" if is_educational_simulation() else "INICIAR DESAFÍO","AHORA NO"],[accept,decline])
 	if boss_id=="profesor_redes": campaign.ui.teacher_dialog(boss_name,"Puedes practicar Redes o iniciar la simulación con sus requisitos actuales.",["ACTIVIDAD DEL DOCENTE","INICIAR SIMULACIÓN","AHORA NO"],[learn_from_mentor,accept,decline],false)
 	if boss_id=="director": campaign.ui.teacher_dialog(boss_name,intro_text+"\nEvaluación integradora: completa la actividad publicada y luego acepta la simulación.",["EVALUACIÓN INTEGRADORA","INICIAR SIMULACIÓN","AHORA NO"],[learn_from_mentor,accept,decline],false)
 

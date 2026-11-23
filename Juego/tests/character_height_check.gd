@@ -193,10 +193,11 @@ func run_checks() -> void:
 	record("academic_dialogue",campaign.ui.modal)
 	await duel.accept()
 	await get_tree().create_timer(0.25).timeout
-	record("educational_simulation",duel.state==duel.DuelState.COMBAT and duel.simulation.hologram.visible and duel.simulation.mentor.visible)
-	record("mentor_height_in_simulation",absf(measure(duel.simulation.mentor_visual).height-2.7)<0.04)
+	record("educational_simulation",duel.state==duel.DuelState.COMBAT and duel.simulation.original_visual.is_visible_in_tree() and not duel.simulation.mentor.visible)
 	await shot("academic_simulation")
 	duel.reset_duel()
+	record("mentor_restored_after_reset",duel.simulation.mentor.is_visible_in_tree() and duel.simulation.mentor_visual == duel.simulation.original_visual and duel.simulation.original_visual.is_visible_in_tree())
+	record("mentor_height_after_reset",absf(measure(duel.simulation.mentor_visual).height-2.7)<0.04)
 	campaign.ui.close_modal()
 	player.busy=false
 	player.dead=false
@@ -243,7 +244,14 @@ func run_checks() -> void:
 	var variant = original_profile.duplicate(true)
 	variant["top"] = 4
 	player.body.apply_appearance(variant)
-	record("procedural_fallback",not player.body.human62.active and player.body.global_basis.get_scale().is_equal_approx(Vector3.ONE*1.5))
+	record("jacket_preserves_imported_model",player.body.human62.active and player.body.human62.is_visible_in_tree())
+	var original_rig: Skeleton3D = player.body.human62.rig
+	var preserves_rig := true
+	for outfit in range(1,CharacterAppearance.OPTIONS.outfit.size()):
+		variant["outfit"] = outfit
+		player.body.apply_appearance(variant)
+		preserves_rig = preserves_rig and player.body.human62.is_visible_in_tree() and player.body.human62.rig == original_rig
+	record("outfits_preserve_imported_model",preserves_rig)
 	player.body.apply_appearance(original_profile)
 	record("imported_profile_restored",player.body.human62.active)
 	var source_scale = player.scale

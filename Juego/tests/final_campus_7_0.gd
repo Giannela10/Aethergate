@@ -178,7 +178,7 @@ func first_mission() -> void:
 		player.global_position=duel.interaction_target().global_position+Vector3(1.6,0,0)
 		duel.interact(player);await duel.accept()
 		await get_tree().create_timer(duel.intro_duration+0.4).timeout
-		record("simulation_"+duel.boss_id,duel.state==duel.DuelState.COMBAT and duel.simulation!=null and duel.simulation.mentor.visible and duel.simulation.hologram.visible)
+		record("simulation_"+duel.boss_id,duel.state==duel.DuelState.COMBAT and duel.simulation!=null and not duel.simulation.mentor.visible and duel.simulation.original_visual.is_visible_in_tree())
 		# Exercise defeat/reward plumbing only. This is not a normal combat win.
 		duel.actor.take_hit(Vector3.ZERO,10000)
 		await get_tree().process_frame

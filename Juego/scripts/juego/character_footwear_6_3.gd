@@ -11,6 +11,7 @@ var foot_center:=Vector3.ZERO
 var contact_offset:=0.0
 var plants: Dictionary={}
 var previous_origin:=Vector3.INF
+var previous_forward := Vector3.ZERO
 
 func install(owner_model: Node3D) -> void:
 	model=owner_model
@@ -161,6 +162,10 @@ func resolve_contact(poses: Array[Transform3D], delta: float) -> void:
 	if actor == null or not model.host.was_on_floor or model.host.dead:
 		plants.clear();contact_offset=move_toward(contact_offset,0.0,delta*2)
 		return
+	var facing: Vector3 = model.host.global_basis.orthonormalized() * Vector3.FORWARD
+	if model.player_retarget and previous_forward != Vector3.ZERO and previous_forward.dot(facing) < 0.985:
+		plants.clear()
+	previous_forward = facing
 	if previous_origin!=Vector3.INF and actor.global_position.distance_to(previous_origin)>0.75: plants.clear()
 	previous_origin=actor.global_position
 	var supports=[]
@@ -193,7 +198,8 @@ func resolve_contact(poses: Array[Transform3D], delta: float) -> void:
 			if swing>0.0:
 				plants.erase(side)
 				swinging=true
-		if clearance>0.25 or clearance< -0.22:
+		var support_height := 0.10 if model.player_retarget and model.host.visual_speed > 0.2 else 0.25
+		if clearance>support_height or clearance< -0.22:
 			plants.erase(side);continue
 		var correction=visible_y+0.004-bottom
 		if not swinging: target_offset=minf(target_offset,correction)
@@ -218,8 +224,12 @@ func resolve_contact(poses: Array[Transform3D], delta: float) -> void:
 					var platform_delta: Vector3=plant.collider.global_position-plant.platform
 					if platform_delta.length()<0.25: plant.point+=platform_delta
 					plant.platform=plant.collider.global_position
-				var max_travel=0.90 if model.player_retarget else 0.30
-				if plant.age>0.48 or plant.point.distance_to(target)>max_travel or plant.collider!=support.hit.collider: plants.erase(side)
+				var max_travel := 0.30
+				var max_age := 0.48
+				if model.player_retarget:
+					max_travel = clampf(model.host.visual_speed * 0.065,0.18,0.36)
+					max_age = 0.20
+				if plant.age>max_age or plant.point.distance_to(target)>max_travel or plant.collider!=support.hit.collider: plants.erase(side)
 			if not plants.has(side): plants[side]={"point":target,"age":0.0,"collider":support.hit.collider,"platform":support.hit.collider.global_position}
 			target=plants[side].point
 		else: plants.erase(side)
@@ -238,13 +248,18 @@ func _solve_leg(poses: Array[Transform3D], thigh: int, calf: int, foot: int, bal
 	var old_knee=poses[calf].origin
 	var old_ankle=poses[foot].origin
 	var distance=clampf(hip.distance_to(target),0.05,upper_length+lower_length-0.0001)
-	var direction=(target-hip).normalized()
-	var pole=old_knee-hip-direction*(old_knee-hip).dot(direction)
+	var direction: Vector3 = (target-hip).normalized()
+	var pole: Vector3 = old_knee-hip-direction*(old_knee-hip).dot(direction)
 	if model.player_retarget:
-		# This imported model faces +Z in skeleton space. Keep the knee on
-		# that side even near full extension, where the old pole is unstable.
-		var forward=Vector3.BACK-direction*Vector3.BACK.dot(direction)
-		if pole.length()<0.001 or pole.dot(forward)<0.0: pole=forward
+		# The leg's mapped forward is +Z in skeleton space. Limit lateral
+		# deviation so a planted foot cannot twist the knee sideways.
+		var forward := Vector3.BACK-direction*Vector3.BACK.dot(direction)
+		if forward.length_squared() > 0.0001:
+			forward = forward.normalized()
+			var lateral := direction.cross(forward)
+			var authored_angle := atan2(pole.dot(lateral),pole.dot(forward))
+			var confidence := smoothstep(0.005,0.06,pole.length())
+			pole = forward.rotated(direction,clampf(authored_angle,-0.22,0.22)*confidence)
 	if pole.length()<0.001: pole=Vector3.BACK-direction*Vector3.BACK.dot(direction)
 	pole=pole.normalized()
 	var along=(upper_length*upper_length-lower_length*lower_length+distance*distance)/(2*distance)

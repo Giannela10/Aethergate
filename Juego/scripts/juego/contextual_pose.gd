@@ -31,7 +31,8 @@ func apply(model: Node3D, delta: float, velocity: Vector3) -> void:
 		model.ankle_r.rotation.x = 0
 	if remaining <= 0 or velocity.length() > 2.8:
 		return
-	var weight := sin(PI*(1.0-remaining/duration))
+	var progress := 1.0 - remaining / duration
+	var weight := smoothstep(0.0,0.35,progress) * (1.0 - smoothstep(0.55,1.0,progress))
 	var shoulder: Node3D = model.shoulder_l if model.armed else model.shoulder_r
 	var elbow: Node3D = model.elbow_l if model.armed else model.elbow_r
 	match action:

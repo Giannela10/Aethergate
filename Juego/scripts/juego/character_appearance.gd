@@ -4,10 +4,16 @@ extends RefCounted
 const SKIN = ["f3cbae","e0ac86","c78d65","a66c49","805137","503323"]
 const COLORS = ["315e78","723d72","9c403a","376e54","d0b45e","353b46","e1e5e9"]
 const HAIR = ["332a25","171719","815430","bd9355","a54038","c4c4c4"]
+const CAMPUS_REFERENCE := {
+	"body_type":0, "face":4, "skin":2, "hair":3, "hair_color":0,
+	"top":1, "clothes":0, "bottom_style":1, "pants":0,
+	"shoe_style":0, "shoes":6, "backpack":1, "backpack_color":5
+}
 const OPTIONS = {
-	"face":["Equilibrado","Redondeado","Alargado","Mandíbula definida"],
+	"body_type":["Estudiante","Estudiante mujer"],
+	"face":["Equilibrado","Redondeado","Alargado","Mandíbula definida","Rostro de referencia"],
 	"skin":["Claro","Durazno","Arena","Cobre","Moreno","Oscuro"],
-	"hair":["Corto","Largo","Sin cabello","Corto lateral","Medio","Rizado"],
+	"hair":["Corto","Largo","Sin cabello","Corto lateral","Medio","Rizado","Coleta","Trenza"],
 	"hair_color":["Castaño","Negro","Avellana","Rubio","Rojizo","Gris"],
 	"top":["Polera","Polerón","Camisa","Sweater","Chaqueta","Uniforme clínico ficticio","Overol de taller"],
 	"bottom_style":["Pantalón casual","Jeans","Pantalón formal","Pantalón de trabajo","Pantalón deportivo"],
@@ -18,7 +24,7 @@ const OPTIONS = {
 	"pants":["Azul","Violeta","Rojo","Verde","Mostaza","Grafito","Blanco"],
 	"shoes":["Azul","Violeta","Rojo","Verde","Mostaza","Grafito","Blanco"],
 	"backpack":["Sin mochila","Mochila clásica","Mochila Informática"],
-	"accessory":["Ninguno","Lentes","Accesorio Telecomunicaciones","Guantes de Taller","Casco de Seguridad","Credencial especial","Insignia de Integridad","Bolso del escritor","Dispositivo del Director"],
+	"accessory":["Ninguno","Lentes","Accesorio Telecomunicaciones","Guantes de Taller","Casco de Seguridad","Credencial especial","Insignia de Integridad","Bolso del escritor","Dispositivo del Director","Aros","Reloj","Pin DuocUC"],
 	"outfit":["Ropa elegida","Delantal del Chef","Polerón Biblioteca","Chaqueta Mecánica","Polerón de campeón","NEXO JACKET","TECH SET","SPORT SET"]
 }
 const LOCKS = {

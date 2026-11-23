@@ -64,10 +64,16 @@ func _exclude_bodies(a: Node, b: Node) -> Array[RID]:
 	return result
 
 func _visual(actor: Node) -> Node3D:
+	if actor.has_meta("dialogue_visual"):
+		var shared = actor.get_meta("dialogue_visual")
+		if is_instance_valid(shared): return shared
 	for property in ["body","model","_visual","visual"]:
 		var candidate = actor.get(property)
 		if candidate is Node3D and candidate.get("look_controller") != null:
 			return candidate
+	for child in actor.get_children():
+		if child is Node3D and child.get("look_controller") != null:
+			return child
 	return null
 
 func _set_gaze(actor: Node3D, target: Node3D) -> void:

@@ -136,7 +136,7 @@ func _ready() -> void:
 	_capture_modules()
 
 func _capture_modules() -> void:
-	module_parts = {"BODY":[],"HEAD":[],"HAIR":[],"TOP":[],"BOTTOM":[],"SHOES":[],"HEAD_ACCESSORY":[],"ACCESSORY":[],"BACKPACK":[]}
+	module_parts = {"BODY":[],"HEAD":[],"HAIR":[],"TOP":[],"BOTTOM":[],"SHOES":[],"HEAD_ACCESSORY":[],"ACCESSORY":[],"OUTFIT":[],"BACKPACK":[]}
 	for mesh in fall_pivot.find_children("*","MeshInstance3D",true,false):
 		var category: String = mesh.get_meta("visual_module","BODY")
 		var material := mesh.material_override as StandardMaterial3D

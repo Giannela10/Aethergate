@@ -5,7 +5,6 @@ const Stage = preload("res://scripts/campaign/campus_avatar_stage.gd")
 const Profile = preload("res://scripts/juego/character_appearance.gd")
 const Quest = preload("res://scripts/campaign/quest.gd")
 const MAIN_QUESTS := ["inicio","biblioteca","academico3","academico4","academico5","seguridad6","acceso7","direccion","postgame","nexo_final"]
-const DEFAULT_APPEARANCE := {"top":1,"bottom_style":1,"shoes":6,"hair_color":1,"backpack":1,"backpack_color":5}
 const NEWS := [
 	["Primer día", "Encuentra Punto Estudiantil y completa las primeras misiones de la campaña.", "◎"],
 	["Explora el campus", "Encuentra los desafíos académicos de cada piso y continúa tu aventura.", "↗"],
@@ -135,7 +134,7 @@ func _refresh_progress() -> void:
 
 func _saved_appearance() -> Dictionary:
 	var saved: Variant = payload.get("appearance")
-	var equipped: Dictionary = DEFAULT_APPEARANCE.duplicate()
+	var equipped: Dictionary = Profile.CAMPUS_REFERENCE.duplicate()
 	if saved is Dictionary:
 		equipped.merge(saved, true)
 	var cosmetics: Variant = payload.get("cosmetics")

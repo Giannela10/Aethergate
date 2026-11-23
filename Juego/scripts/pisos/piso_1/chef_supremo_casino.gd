@@ -45,6 +45,7 @@ func _ready() -> void:
 func _add_chef_mesh(parent: Node3D, title: String, pos: Vector3, size: Vector3, color: Color) -> void:
 	var mesh := MeshInstance3D.new()
 	mesh.name = title
+	mesh.set_meta("visual_module","OUTFIT")
 	var shape := BoxMesh.new()
 	shape.size = size
 	mesh.mesh = shape

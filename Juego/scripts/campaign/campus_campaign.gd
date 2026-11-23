@@ -103,6 +103,8 @@ func _boot() -> void:
 	var appearance_profile = preload("res://scripts/juego/character_appearance.gd")
 	refresh_visual_rewards()
 	appearance_profile.unlock_from_progress(data.bosses,data.cosmetics)
+	if data.appearance.is_empty():
+		data.appearance = appearance_profile.CAMPUS_REFERENCE.duplicate()
 	data.appearance = appearance_profile.normalize(data.appearance,data.cosmetics)
 	player.body.apply_appearance(data.appearance)
 	appearance_menu = preload("res://scripts/campaign/appearance_menu.gd").new()

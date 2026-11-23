@@ -82,19 +82,19 @@ func apply_appearance(profile: Dictionary) -> void:
 	if profile.top == 1 or profile.outfit in [2,4,5,6]:
 		_piece(body._ball(body.chest,0.13,Vector3(0,0.25,0.09),cloth,Vector3(0.95,0.45,0.65)),"TOP")
 	if profile.outfit == 1:
-		extras.append(body._box(body.chest,Vector3(0.28,0.42,0.025),Vector3(0,-0.04,-0.16),Color("ede3ce")))
+		_piece(body._box(body.chest,Vector3(0.28,0.42,0.025),Vector3(0,-0.04,-0.16),Color("ede3ce")),"OUTFIT")
 	elif profile.outfit == 2:
-		extras.append(body._box(body.chest,Vector3(0.12,0.10,0.02),Vector3(0,0.1,-0.17),Color("d8c07b")))
+		_piece(body._box(body.chest,Vector3(0.12,0.10,0.02),Vector3(0,0.1,-0.17),Color("d8c07b")),"OUTFIT")
 	elif profile.outfit == 3:
-		extras.append(body._box(body.chest,Vector3(0.37,0.30,0.24),Vector3(0,0.1,0),Color("4c5962")))
+		_piece(body._box(body.chest,Vector3(0.37,0.30,0.24),Vector3(0,0.1,0),Color("4c5962")),"TOP")
 	elif profile.outfit == 4:
-		extras.append(body._box(body.chest,Vector3(0.1,0.12,0.025),Vector3(0,0.1,-0.17),Color("ffd461")))
+		_piece(body._box(body.chest,Vector3(0.1,0.12,0.025),Vector3(0,0.1,-0.17),Color("ffd461")),"OUTFIT")
 	elif profile.outfit in [5,6]:
 		# Cosmetic only; use the selected clothes as the jacket base.
-		extras.append(body._box(body.chest,Vector3(0.28,0.015,0.012),Vector3(0,0.16,-0.17),Color("45e5dc")))
-		extras.append(body._box(body.chest,Vector3(0.015,0.25,0.012),Vector3(-0.10,0.05,-0.17),Color("45e5dc")))
+		_piece(body._box(body.chest,Vector3(0.28,0.015,0.012),Vector3(0,0.16,-0.17),Color("45e5dc")),"OUTFIT")
+		_piece(body._box(body.chest,Vector3(0.015,0.25,0.012),Vector3(-0.10,0.05,-0.17),Color("45e5dc")),"OUTFIT")
 	elif profile.outfit == 7:
-		extras.append(body._box(body.chest,Vector3(0.12,0.15,0.012),Vector3(0,0.1,-0.17),Color("f4e8cc")))
+		_piece(body._box(body.chest,Vector3(0.12,0.15,0.012),Vector3(0,0.1,-0.17),Color("f4e8cc")),"OUTFIT")
 	match profile.accessory:
 		1:
 			for side in [-1,1]:
@@ -104,20 +104,38 @@ func apply_appearance(profile: Dictionary) -> void:
 					_piece(body._box(body.head_pivot,Vector3(0.003,0.023,0.004),Vector3(side*0.035+x,0.111,-0.091),Color("253747")),"ACCESSORY")
 			_piece(body._box(body.head_pivot,Vector3(0.027,0.003,0.004),Vector3(0,0.114,-0.091),Color("253747")),"ACCESSORY")
 		2:
-			extras.append(body._box(body.head_pivot,Vector3(0.035,0.06,0.07),Vector3(0.105,0.08,0),Color("41cbdd")))
+			_piece(body._box(body.head_pivot,Vector3(0.035,0.06,0.07),Vector3(0.105,0.08,0),Color("41cbdd")),"ACCESSORY")
 		3:
 			for hand in [body.hand_l,body.hand_r]:
-				extras.append(body._ball(hand,0.06,Vector3.ZERO,Color("b89452"),Vector3(0.8,1,0.7)))
+				_piece(body._ball(hand,0.06,Vector3.ZERO,Color("b89452"),Vector3(0.8,1,0.7)),"ACCESSORY")
 		4:
-			extras.append(body._ball(body.head_pivot,0.125,Vector3(0,0.18,0),Color("edbb30"),Vector3(1,0.65,1)))
+			_piece(body._ball(body.head_pivot,0.125,Vector3(0,0.18,0),Color("edbb30"),Vector3(1,0.65,1)),"ACCESSORY")
 		5:
-			extras.append(body._box(body.chest,Vector3(0.08,0.10,0.02),Vector3(0.08,0.02,-0.17),Color("ffd461")))
+			_piece(body._box(body.chest,Vector3(0.08,0.10,0.02),Vector3(0.08,0.02,-0.17),Color("ffd461")),"ACCESSORY")
 		6:
 			_piece(body._box(body.chest,Vector3(0.065,0.08,0.016),Vector3(-0.085,0.1,-0.17),Color("c7b477")),"ACCESSORY")
 		7:
 			_piece(body._ball(body.hips,0.14,Vector3(-0.17,-0.07,0.08),cloth.darkened(0.15),Vector3(0.5,1.15,0.9)),"ACCESSORY")
 		8:
 			_piece(body._box(body.chest,Vector3(0.07,0.11,0.016),Vector3(0.08,0.02,-0.18),Color("5eacb8")),"ACCESSORY")
+		9:
+			var hoop := TorusMesh.new()
+			hoop.inner_radius = 0.011
+			hoop.outer_radius = 0.015
+			hoop.rings = 16
+			hoop.ring_segments = 8
+			for side in [-1.0,1.0]:
+				var earring: MeshInstance3D = body._node(body.head_pivot,hoop,Vector3(side*0.102,0.075,0.01),Color("cfab64"),Vector3.ONE,0.35)
+				earring.rotation.z = PI / 2.0
+				_piece(earring,"ACCESSORY")
+		10:
+			_piece(body._cyl(body.elbow_l,0.039,0.039,0.023,Vector3(0,-0.22,0),Color("303943")),"ACCESSORY")
+			_piece(body._box(body.elbow_l,Vector3(0.037,0.038,0.014),Vector3(0,-0.22,-0.040),Color("566978")),"ACCESSORY")
+		11:
+			var pin: MeshInstance3D = body._cyl(body.chest,0.021,0.021,0.008,Vector3(0.081,0.17,-0.18),Color("f4b832"))
+			pin.rotation.x = PI / 2.0
+			_piece(pin,"ACCESSORY")
+			_piece(body._box(body.chest,Vector3(0.022,0.006,0.003),Vector3(0.081,0.17,-0.185),Color("143054")),"ACCESSORY")
 	_modular_clothing(profile,cloth)
 	_finish_clothing6(profile,cloth)
 	_batch_extras6()

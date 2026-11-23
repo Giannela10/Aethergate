@@ -10,9 +10,9 @@ const SECTIONS := {
 	"Cabeza": ["hair", "head_accessory", "hair_color"],
 	"Accesorios": ["accessory", "outfit"],
 	"Colores": ["clothes", "pants", "shoes", "backpack_color"],
-	"Apariencia": ["face", "skin", "hair", "hair_color"]
+	"Apariencia": ["body_type", "face", "skin", "hair"]
 }
-const LABELS := {"top":"Polerones y chaquetas","bottom_style":"Pantalones","shoe_style":"Calzado","clothes":"Color principal","backpack":"Mochila","backpack_color":"Color de mochila","hair":"Cabello","head_accessory":"Accesorios de cabeza","hair_color":"Color de cabello","accessory":"Accesorios","outfit":"Conjuntos","pants":"Color de pantalón","shoes":"Color de calzado","face":"Forma del rostro","skin":"Tono de piel"}
+const LABELS := {"body_type":"Personaje","top":"Polerones y chaquetas","bottom_style":"Pantalones","shoe_style":"Calzado","clothes":"Color principal","backpack":"Mochila","backpack_color":"Color de mochila","hair":"Cabello","head_accessory":"Accesorios de cabeza","hair_color":"Color de cabello","accessory":"Accesorios","outfit":"Conjuntos","pants":"Color de pantalón","shoes":"Color de calzado","face":"Forma del rostro","skin":"Tono de piel"}
 
 var campaign: Node
 var working := {}
@@ -33,9 +33,7 @@ func open(new_game: bool = false, on_return: Callable = Callable()) -> void:
 	return_action = on_return
 	Profile.unlock_from_progress(campaign.data.bosses, campaign.data.cosmetics)
 	allowed = {} if starting else campaign.data.cosmetics.duplicate()
-	working = Profile.normalize({} if starting else campaign.data.appearance, allowed)
-	if starting:
-		working.merge({"top":1,"bottom_style":1,"clothes":0,"pants":0,"shoes":6,"hair_color":1,"backpack":1,"backpack_color":5}, true)
+	working = Profile.normalize(Profile.CAMPUS_REFERENCE if starting else campaign.data.appearance, allowed)
 	original = working.duplicate()
 	current_section = "Ropa"
 	category_buttons.clear()
@@ -70,8 +68,12 @@ func open(new_game: bool = false, on_return: Callable = Callable()) -> void:
 	preview = preview_container.model
 	Look.button(canvas, "↶", Rect2(285, 533, 44, 35), func(): preview_container.rotate_by(-PI/6), false, 19).tooltip_text = "Girar a la izquierda"
 	Look.button(canvas, "↷", Rect2(536, 533, 44, 35), func(): preview_container.rotate_by(PI/6), false, 19).tooltip_text = "Girar a la derecha"
+	Look.button(canvas, "−", Rect2(378, 533, 44, 35), func(): preview_container.zoom_by(-0.15), false, 19).tooltip_text = "Alejar"
+	Look.button(canvas, "+", Rect2(428, 533, 44, 35), func(): preview_container.zoom_by(0.15), false, 19).tooltip_text = "Acercar"
+	Look.button(canvas, "Rostro", Rect2(478, 533, 54, 35), func(): preview_container.toggle_face_focus(), false, 12).tooltip_text = "Alternar entre el rostro y el cuerpo completo"
 
 	Look.button(canvas, "◇   Apariencia aleatoria", Rect2(25, 583, 203, 46), _randomize, false, 15)
+	Look.button(canvas, "Estudiante DuocUC", Rect2(241, 583, 179, 46), _apply_campus_reference, false, 15)
 	Look.button(canvas, "Cancelar", Rect2(594, 583, 116, 46), _cancel, false, 15)
 	Look.button(canvas, "↻  Restablecer", Rect2(720, 583, 153, 46), _reset, false, 15)
 	Look.button(canvas, "✓  Confirmar apariencia", Rect2(884, 578, 248, 56), _confirm, true, 18)
@@ -123,7 +125,7 @@ func _build_row(key: String, y: float) -> void:
 	selectors[key] = []
 	for i in Profile.OPTIONS[key].size():
 		var card := Button.new()
-		card.custom_minimum_size = Vector2(78, 57)
+		card.custom_minimum_size = Vector2(146 if key == "body_type" else 78, 57)
 		card.tooltip_text = Profile.OPTIONS[key][i]
 		card.disabled = _locked(key, i)
 		card.pressed.connect(_select.bind(i, key))
@@ -133,8 +135,9 @@ func _build_row(key: String, y: float) -> void:
 		icon.variant = i
 		icon.color = _option_color(key, i)
 		icon.mouse_filter = Control.MOUSE_FILTER_IGNORE
-		Look.place(card, icon, Rect2(12, 3, 58, 33))
-		var caption := Look.label(card, Profile.OPTIONS[key][i], Rect2(4, 36, 74, 18), 10)
+		var width := card.custom_minimum_size.x
+		Look.place(card, icon, Rect2((width - 58) * 0.5, 3, 58, 33))
+		var caption := Look.label(card, Profile.OPTIONS[key][i], Rect2(4, 36, width - 8, 18), 10)
 		caption.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		if card.disabled:
 			var locked := Look.label(card, "×", Rect2(65, 1, 13, 16), 14, Look.MUTED)
@@ -188,6 +191,10 @@ func _randomize() -> void:
 
 func _reset() -> void:
 	working = original.duplicate()
+	_apply_profile()
+
+func _apply_campus_reference() -> void:
+	working = Profile.CAMPUS_REFERENCE.duplicate()
 	_apply_profile()
 
 func _confirm() -> void:

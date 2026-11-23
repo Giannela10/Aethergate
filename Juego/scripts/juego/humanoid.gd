@@ -240,7 +240,7 @@ func _prepare_human63() -> void:
 	if not is_inside_tree(): return
 	get_tree().process_frame.connect(_finish_human63,CONNECT_ONE_SHOT)
 func _finish_human63() -> void:
-	if not is_inside_tree(): return
+	if not is_inside_tree() or is_instance_valid(human_visual63): return
 	normalize_visual_height()
 	human_visual63=load("res://scripts/juego/npc_visual_6_3.gd").install(self)
 

@@ -16,7 +16,7 @@ func run() -> void:
 		if button.text.begins_with("INICIAR SIMUL"): button.pressed.emit();break
 	var began=Time.get_ticks_msec()
 	while d.state==d.DuelState.INTRO and Time.get_ticks_msec()-began<12000: await get_tree().process_frame
-	f.record("director_digital_simulation_start","PASS" if d.state==d.DuelState.COMBAT and d.simulation.active and d.simulation.hologram.visible and d.simulation.mentor.visible and not d.simulation.original_visual.visible else "BLOCKED",{"state":d.state,"published_profile_present":c.get_node("DuocGames4").published_mentors.has("director"),"scope":"Actual simulation button after three earned tasks; isolated unauthenticated catalog. Does not certify a published evaluation"})
+	f.record("director_digital_simulation_start","PASS" if d.state==d.DuelState.COMBAT and d.simulation.active and d.simulation.original_visual.is_visible_in_tree() and not d.simulation.mentor.visible else "BLOCKED",{"state":d.state,"published_profile_present":c.get_node("DuocGames4").published_mentors.has("director"),"scope":"Actual simulation button after three earned tasks; isolated unauthenticated catalog. Does not certify a published evaluation"})
 	await f.shot("digital_entity_and_mentor",d.spawn_position+Vector3(2,3,8),d.spawn_position+Vector3.UP*1.4)
 	d.reset_duel();d.actor.set_physics_process(false)
 	f.record("director_simulation_reset_no_reward","PASS" if not c.data.bosses.get("director",false) and not f.player.has_key_item("CredencialDirector") and not d.simulation.active else "FAIL")

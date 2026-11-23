@@ -106,6 +106,8 @@ func run() -> void:
 		check(duel.actor.health == hp,"Inmunidad neutral: "+duel.boss_id)
 		check(not duel.actor.is_physics_processing(),"IA apagada neutral")
 	var chef := scene.get_node("Piso1/Casino/ChefSupremoCasino/BossDuelController")
+	var chef_visual: Node3D = chef.simulation.mentor_visual
+	check(chef_visual == chef.actor.body and chef_visual.is_visible_in_tree(),"El Chef usa su modelo de combate desde el diálogo")
 	player.global_position = chef.actor.global_position+Vector3(3,0,0)
 	chef.interact(player)
 	check(chef.state == chef.DuelState.DIALOGUE and player.busy,"Diálogo del boss")
@@ -116,6 +118,7 @@ func run() -> void:
 	chef.accept()
 	await create_timer(0.7).timeout
 	check(chef.state == chef.DuelState.COMBAT and chef.allows_damage(),"Aceptación inicia combate")
+	check(chef.actor.body == chef_visual and chef_visual.is_visible_in_tree() and not chef.simulation.mentor.visible,"El combate conserva el modelo del Chef Supremo")
 	chef.actor.set_physics_process(false)
 	player.health = 23.0
 	chef.actor.take_hit(Vector3.ZERO,10000)
@@ -227,7 +230,7 @@ func run() -> void:
 	var restored_chef: Node = reloaded.get_node("Piso1/Casino/ChefSupremoCasino/BossDuelController")
 	while not restored_chef.initialized:
 		await process_frame
-	check(restored_chef.defeated and restored_chef.simulation != null and restored_chef.simulation.mentor.visible and not restored_chef.simulation.hologram.visible,"Mentor conserva simulación completada al cargar; no reaparece como enemigo ni caído")
+	check(restored_chef.defeated and restored_chef.simulation != null and restored_chef.simulation.mentor.visible and restored_chef.simulation.original_visual.visible,"El Chef conserva su modelo al cargar la simulación completada")
 	check(restored.player.global_position.distance_to(Vector3(saved.position[0],saved.position[1]+0.15,saved.position[2])) < 0.5,"Posición conservada al cargar")
 	check(not restored.get_node("Tarjeta_01").visible,"Tarjeta recogida no reaparece")
 	var chair_restored := false

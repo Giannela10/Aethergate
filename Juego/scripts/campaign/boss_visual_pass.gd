@@ -39,6 +39,8 @@ func setup(actor: Node3D, id: String) -> void:
 		for side in [-1,1]:
 			body._box(body.chest,Vector3(0.016,0.20,0.015),Vector3(side*0.13,0.1,-0.135),Color("d6cfdf"))
 		signature_prop = body._ball(body.hand_l,0.10,Vector3(0,-0.06,-0.04),Color("c7833d"))
+	if is_instance_valid(signature_prop):
+		signature_prop.set_meta("visual_module","ACCESSORY")
 	body.set_meta("boss_animation_states",STATES)
 	body.set_meta("neutral_work",work)
 	body.set_expression("NEUTRAL")

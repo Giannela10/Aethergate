@@ -64,6 +64,7 @@ var pose_rests: Array[Transform3D]=[]
 var inverse_rests: Array[Transform3D]=[]
 func initialize(owner_visual: Node3D) -> bool:
 	if not super.initialize(owner_visual): return false
+	clock = float(posmod(identity.hash(),4600)) / 1000.0
 	for bone in rig.get_bone_count():
 		pose_names.append(rig.get_bone_name(bone))
 		pose_parents.append(rig.get_bone_parent(bone))
@@ -74,6 +75,7 @@ func initialize(owner_visual: Node3D) -> bool:
 func update_pose(delta: float) -> void:
 	if not active: return
 	clock+=delta
+	var idle: bool = host.visual_speed < 0.15 and not host.dead and host.hurt_t <= 0.0 and not host.is_punching()
 	var poses: Array[Transform3D]=[]
 	var rig_inverse=rig.global_basis.inverse()
 	var to_rig=rig.global_transform.affine_inverse()
@@ -105,6 +107,10 @@ func update_pose(delta: float) -> void:
 			var joint: Node3D=host.head_pivot if label=="head" else host.chest if label in ["spine_03","neck_01"] else host.spine
 			var direction=(rig_inverse*joint.global_basis*Vector3.UP).normalized()
 			pose.basis=Basis(Quaternion(Vector3.UP,direction))*rests[i].basis
+			if label == "head":
+				pose.basis = head_pose_basis(rests[i].basis)
+				if idle and not is_instance_valid(host.look_controller.target):
+					pose.basis = Basis(Vector3.UP, sin(clock * 1.3) * 0.028) * pose.basis
 		elif label.begins_with("index_") or label.begins_with("middle_") or label.begins_with("ring_") or label.begins_with("pinky_"):
 			pose.basis=pose.basis*Basis(Vector3.RIGHT,0.8 if host.armed or host.is_punching() else 0.22 if host.visual_speed>3.2 else 0.08)
 		poses.append(pose)

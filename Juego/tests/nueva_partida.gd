@@ -11,6 +11,14 @@ func check(condition: bool, message: String) -> void:
 func _initialize() -> void:
 	call_deferred("run")
 
+func press_button(container: Node, label: String) -> bool:
+	for button in container.find_children("*","Button",true,false):
+		if button.text.ends_with(label):
+			button.pressed.emit()
+			return true
+	check(false,"Falta el botón "+label)
+	return false
+
 func run() -> void:
 	# Escena de prueba que recarga sus propias rutas de guardado, nunca user://.
 	var source = load("res://Main.tscn").instantiate()
@@ -42,23 +50,34 @@ func run() -> void:
 	campaign.player.global_position = Vector3(25,35.9,-143)
 	campaign.save_game()
 	campaign.show_start_menu()
-	campaign.ui.column.get_child(3).pressed.emit()
+	if not press_button(campaign.ui.fullscreen_menu,"Nueva partida"):
+		quit(1)
+		return
 	check(campaign.ui.column.get_child(0).text == "NUEVA PARTIDA","Nueva partida abre confirmación")
-	campaign.ui.column.get_child(2).pressed.emit()
-	check(campaign.ui.column.get_child(0).text == "PERSONALIZACIÓN","Nueva partida permite elegir apariencia")
+	if not press_button(campaign.ui.column,"Comenzar nueva partida"):
+		quit(1)
+		return
+	check(campaign.appearance_menu.starting and is_instance_valid(campaign.appearance_menu.preview),"Nueva partida permite elegir apariencia")
 	campaign.appearance_menu._select(4,"skin")
 	campaign.appearance_menu._select(1,"top")
-	campaign.appearance_menu._confirm()
+	campaign.appearance_menu._select(1,"body_type")
+	campaign.appearance_menu._select(7,"hair")
+	campaign.appearance_menu._select(9,"accessory")
+	if not press_button(campaign.ui.fullscreen_menu,"Confirmar apariencia"):
+		quit(1)
+		return
 	var deadline := Time.get_ticks_msec()+20000
 	while (current_scene == scene or current_scene == null) and Time.get_ticks_msec() < deadline:
 		await process_frame
 	check(current_scene != scene and current_scene != null,"El botón recarga la escena")
 	if current_scene != null and current_scene != scene:
 		var fresh = current_scene.get_node("CampusCampaign")
-		while not fresh.ready_for_play and Time.get_ticks_msec() < deadline:
+		var boot_deadline := Time.get_ticks_msec()+120000
+		while not fresh.ready_for_play and Time.get_ticks_msec() < boot_deadline:
 			await process_frame
 		check(fresh.ready_for_play,"Nueva partida termina de iniciar")
 		check(fresh.data.appearance.skin == 4 and fresh.data.appearance.top == 1,"Apariencia seleccionada sobrevive al reinicio")
+		check(fresh.data.appearance.body_type == 1 and fresh.data.appearance.hair == 7 and fresh.data.appearance.accessory == 9,"Estudiante y accesorios conservados al cargar")
 		check(fresh.data.bosses.is_empty(),"Se reinician los jefes")
 		check(fresh.academics.state.attended == 0 and fresh.academics.state.missed == 0,"Se reinicia asistencia académica")
 		check(fresh.phone.state.contacts.is_empty() and fresh.phone.state.messages.is_empty(),"Nueva partida reinicia celular")

@@ -1,13 +1,11 @@
 extends Node3D
-## The legacy actor is the simulation hitbox, never the mentor's hitbox.
+## The interaction marker and the combat actor share a single visible model.
 var duel: Node
 var original_visual: Node3D
 var mentor: Node3D
-var hologram: Node3D
 var caption: Label3D
 var active := false
 var mentor_visual: Node3D
-var idle_tick := 0.0
 
 static func digital_model() -> Node3D:
 	var model := Node3D.new()
@@ -35,60 +33,53 @@ func setup(controller: Node) -> void:
 	for key in ["body","_visual","visual"]:
 		var candidate = duel.actor.get(key)
 		if candidate is Node3D: original_visual = candidate; break
-	hologram = digital_model()
-	duel.actor.add_child(hologram)
-	hologram.hide()
 	mentor = Node3D.new()
 	mentor.name = "Mentor_"+duel.boss_id
 	mentor.add_to_group("educational_mentor")
-	duel.campaign.add_child(mentor)
-	mentor.global_position = duel.spawn_position
-	var visual := preload("res://scripts/juego/student_visual.gd").new()
-	mentor_visual=visual
-	mentor.add_child(visual)
-	var presets = preload("res://scripts/juego/character_visual_presets.gd")
-	var role: String={"docente_enfermeria":"ENFERMERIA","docente_odontologia":"ODONTOLOGIA","director":"DIRECTOR","punto":"FUNCIONARIO","chef":"VENDEDOR"}.get(duel.boss_id,presets.role_for(duel.boss_id))
-	presets.apply(visual,presets.create(duel.boss_id,role))
+	var anchor: Node3D = original_visual.get_parent() if original_visual else duel.actor
+	anchor.add_child(mentor)
+	mentor_visual = original_visual
+	if original_visual:
+		mentor.set_meta("dialogue_visual",original_visual)
+		original_visual.show()
+		_configure_actor_appearance()
 	caption = Label3D.new()
 	caption.text = duel.boss_name+"\nMENTOR · SIMULACIÓN EDUCATIVA"
 	caption.position.y = 2.8
 	caption.billboard = BaseMaterial3D.BILLBOARD_ENABLED
 	mentor.add_child(caption)
-	mentor.show()
-	if original_visual: original_visual.hide()
-	duel.actor.set_meta("simulation_enemy",true)
+
+func _configure_actor_appearance() -> void:
+	var presets = preload("res://scripts/juego/character_visual_presets.gd")
+	if not original_visual.has_meta("visual_preset"):
+		var role: String = {"punto":"FUNCIONARIO","chef":"VENDEDOR"}.get(duel.boss_id,presets.role_for(duel.boss_id))
+		var preset: Dictionary = presets.create(duel.boss_id,role)
+		if original_visual.has_method("apply_appearance"):
+			presets.apply(original_visual,preset)
+		else:
+			original_visual.set_meta("visual_preset",preset)
+	original_visual.set_meta("educational_duel_visual",true)
+	if original_visual.has_method("_finish_human63"):
+		original_visual._finish_human63()
 
 func begin() -> void:
 	active = true
-	mentor.show()
-	if original_visual: original_visual.hide()
-	hologram.show()
-	# Put the stationary mentor outside the arena center using the existing safety probe.
-	var seats: Node = duel.campaign.player.get_node_or_null("SeatController")
-	if seats:
-		for offset in [Vector3(5,0,0),Vector3(-5,0,0),Vector3(0,0,3)]:
-			var point = seats.safe_position(duel.spawn_position+offset)
-			if point != null and absf(point.y-duel.spawn_position.y)<0.5:
-				mentor.global_position = point
-				break
+	mentor.hide()
 
 func finish() -> void:
 	active = false
-	hologram.hide()
 	mentor.show()
 	caption.text = duel.boss_name+"\nSIMULACIÓN COMPLETADA"
-	if original_visual: original_visual.hide()
+	if is_instance_valid(original_visual) and original_visual.get("dead") == true:
+		get_tree().create_timer(1.6,false).timeout.connect(_restore_mentor_pose)
 
 func reset() -> void:
 	active = false
-	mentor.global_position=duel.spawn_position
 	mentor.show()
-	hologram.hide()
-	if original_visual: original_visual.hide()
 
-func _process(delta: float) -> void:
-	if mentor_visual==null or not mentor.visible: return
-	idle_tick-=delta
-	if idle_tick>0: return
-	idle_tick=0.15
-	mentor_visual.animate(0.15,Vector3.ZERO,true,false)
+func _restore_mentor_pose() -> void:
+	if not is_instance_valid(original_visual): return
+	original_visual.dead = false
+	original_visual.death_t = 0.0
+	original_visual.hurt_t = 0.0
+	original_visual.fall_pivot.transform = Transform3D.IDENTITY

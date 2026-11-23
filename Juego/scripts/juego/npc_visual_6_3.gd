@@ -16,6 +16,15 @@ var headgear: Array[MeshInstance3D]=[]
 var headset63: MeshInstance3D
 var eye_rest=Vector3.ZERO
 static var config: Dictionary={}
+const FACE_FEATURES := {
+	"nose_width":Vector2(0.16,0.42),"nose_length":Vector2(0.16,0.36),
+	"nose_height":Vector2(0.08,0.21),"jaw_width":Vector2(0.18,0.43),
+	"chin":Vector2(0.11,0.31),"cheekbones":Vector2(0.20,0.43),
+	"eye_size":Vector2(0.14,0.32),"eye_spacing":Vector2(0.09,0.20),
+	"eye_tilt":Vector2(0.08,0.19),"lips":Vector2(0.13,0.33),
+	"mouth_width":Vector2(0.11,0.27),"ear_size":Vector2(0.10,0.22),
+	"forehead":Vector2(0.10,0.27)
+}
 static func install(visual: Node3D) -> Node3D:
 	if config.is_empty(): config=JSON.parse_string(FileAccess.get_file_as_string("res://scripts/juego/characters_6_3_rollout.json"))
 	if not config.get("enabled",false) or visual.get_script().resource_path.contains("main_character_visual"): return null
@@ -36,6 +45,7 @@ static func install(visual: Node3D) -> Node3D:
 	if batch>=4 and kind=="ESTUDIANTE" and not id.contains("rescued"): eligible=true
 	if batch>=5 and kind in ["FUNCIONARIO","GUARDIA","VENDEDOR","TECNICO","TALLER","BIBLIOTECARIA"]: eligible=true
 	if batch>=6 and id.contains("rescued"): eligible=true
+	if batch>=7 and (not preset.is_empty() or visual.has_meta("educational_duel_visual")): eligible=true
 	if not eligible: return null
 	var adapter=load("res://scripts/juego/npc_visual_6_3.gd").new()
 	adapter.name="HumanVisual63";adapter.host=visual;adapter.identity=id;adapter.role=kind
@@ -45,11 +55,10 @@ static func install(visual: Node3D) -> Node3D:
 	return adapter
 func build() -> bool:
 	var rng=RandomNumberGenerator.new();rng.seed=identity.hash()
-	profile=host.get_meta("appearance_profile",{})
+	profile=host.get_meta("appearance_profile",{}).duplicate()
 	if profile.is_empty():
-		profile=preload("res://scripts/juego/character_visual_presets.gd").create(identity,role)
-		profile.skin=preload("res://scripts/juego/character_appearance.gd").SKIN.find(host.skin_color.to_html(false))
-		profile.skin=maxi(0,int(profile.skin))
+		var preset: Dictionary = host.get_meta("visual_preset",{})
+		profile = preset.duplicate() if not preset.is_empty() else preload("res://scripts/juego/character_visual_presets.gd").create(identity,role)
 	if role=="GUARDIA": profile.clothes=5;profile.pants=5;profile.backpack=0
 	if role=="BIBLIOTECARIA": profile.clothes=1;profile.hair_color=5;profile.backpack=0;profile.accessory=1
 	model=preload("res://scripts/juego/human_npc_6_3.gd").new()
@@ -62,13 +71,17 @@ func build() -> bool:
 	if role=="BIBLIOTECARIA": model.hairstyle="hair_ponytail01";model.wardrobe="clothing_shirt"
 	if role=="GUARDIA": model.wardrobe="clothing_jacket"
 	if role=="ODONTOLOGIA": model.wardrobe="clothing_shirt" # Trenchcoat intersects the clinical teaching pose.
-	if identity=="chef": model.wardrobe="clothing_shirt"
+	if identity=="chef":
+		model.wardrobe="clothing_shirt"
+		profile.clothes=6
 	if role=="ESTUDIANTE": model.wardrobe=["clothing_tshirt","clothing_hoodie","clothing_shirt","clothing_jacket"][absi((identity+"wardrobe63").hash())%4]
 	var traits={"gender_male":rng.randf_range(0.15,0.75),"weight_min":rng.randf_range(0,0.08),"weight_max":rng.randf_range(0,0.10),"muscle_max":rng.randf_range(0,0.08)}
 	if absi((identity+"body63").hash())%3==0 or role=="BIBLIOTECARIA":
 		traits.gender_male=0.0;traits.gender_female=0.45
-	for feature in ["nose_width","nose_length","nose_height","jaw_width","chin","cheekbones","eye_size","eye_spacing","eye_tilt","lips","mouth_width","ear_size","forehead"]:
-		traits["face_"+feature+("_incr" if rng.randf()>0.5 else "_decr")]=rng.randf_range(0.10,0.38)
+	for feature in FACE_FEATURES:
+		var range_for_feature: Vector2 = FACE_FEATURES[feature]
+		var suffix := "_incr" if rng.randf() > 0.5 else "_decr"
+		traits["face_"+feature+suffix] = rng.randf_range(range_for_feature.x,range_for_feature.y)
 	if role!="ESTUDIANTE": traits.age_old=rng.randf_range(0.04,0.18)
 	model.traits=traits
 	add_child(model)
@@ -77,7 +90,7 @@ func build() -> bool:
 	skin_meshes.assign(model.human.find_children("*","MeshInstance3D",true,false))
 	# Keep authored role props and sockets; hide only the replaced body/clothes/hair.
 	for mesh in host.fall_pivot.find_children("*","MeshInstance3D",true,false):
-		var keep=str(mesh.get_meta("visual_module","")) in ["BACKPACK","ACCESSORY","HEAD_ACCESSORY"]
+		var keep=str(mesh.get_meta("visual_module","")) in ["BACKPACK","ACCESSORY","HEAD_ACCESSORY","OUTFIT"]
 		var appearance=host.get("appearance_adapter")
 		if appearance!=null and mesh in appearance.extras and str(mesh.get_meta("visual_module",""))=="":
 			if mesh.get_parent()==host.head_pivot and int(profile.get("accessory",0)) in [2,4]: keep=true

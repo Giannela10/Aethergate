@@ -30,6 +30,8 @@ var cam_yaw := 0.0
 var cam_pitch := 0.35
 var cam_dist := 5.0
 var cam_pivot := Vector3.ZERO
+var camera_clearance := 5.0
+var camera_probe := SphereShape3D.new()
 var kills := 0
 var tasks_done := 0
 var message_id := 0
@@ -53,6 +55,7 @@ func _ready() -> void:
 
 	cam = Camera3D.new()
 	cam.fov = 60.0
+	camera_probe.radius = 0.22
 	add_child(cam)
 	cam.make_current()
 	cam_pivot = player.global_position + Vector3(0, 1.4, 0)
@@ -349,8 +352,21 @@ func _process(delta: float) -> void:
 	var offset := Vector3(0, sin(cam_pitch), cos(cam_pitch)) * cam_dist
 	offset = offset.rotated(Vector3.UP, cam_yaw)
 	var desired_position := cam_pivot + offset
+	var space := get_world_3d().direct_space_state
 	var query := PhysicsRayQueryParameters3D.create(cam_pivot, desired_position)
 	query.exclude = [player.get_rid()]
-	var hit := get_world_3d().direct_space_state.intersect_ray(query)
-	cam.global_position = hit.position + hit.normal * 0.25 if not hit.is_empty() else desired_position
+	var hit := space.intersect_ray(query)
+	var available := cam_dist
+	if not hit.is_empty():
+		available = maxf(0.05, cam_pivot.distance_to(hit.position) - camera_probe.radius)
+	var sweep := PhysicsShapeQueryParameters3D.new()
+	sweep.shape = camera_probe
+	sweep.transform.origin = cam_pivot
+	sweep.motion = offset
+	sweep.exclude = query.exclude
+	var safe := space.cast_motion(sweep)
+	if not safe.is_empty():
+		available = minf(available, maxf(0.05, cam_dist * safe[0]))
+	camera_clearance = minf(available, lerpf(camera_clearance, available, 1.0 - exp(-12.0 * delta)))
+	cam.global_position = cam_pivot + offset.normalized() * camera_clearance
 	cam.look_at(cam_pivot)

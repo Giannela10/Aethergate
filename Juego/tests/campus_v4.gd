@@ -78,9 +78,11 @@ func run() -> void:
 	for duel in get_nodes_in_group("boss_duel"):
 		if duel.is_educational_simulation():
 			check(duel.simulation != null,"Mentor adapter "+duel.boss_id)
+			var shared_visual: Node3D = duel.simulation.mentor_visual
 			duel.simulation.begin()
+			check(shared_visual == duel.simulation.original_visual and shared_visual.visible,"Duel keeps the same model "+duel.boss_id)
 			check(duel.simulation.mentor.is_in_group("educational_mentor") and not duel.simulation.mentor.is_in_group("enemy"),"Mentor never an enemy "+duel.boss_id)
 			duel.simulation.reset()
-			check(duel.interaction_target()==duel.simulation.mentor,"Teacher conversation targets the mentor, not the hidden simulation actor "+duel.boss_id)
+			check(duel.interaction_target()==duel.simulation.mentor and shared_visual.visible,"Teacher conversation uses the shared visible model "+duel.boss_id)
 	print("CAMPUS_V4_RESULT ",JSON.stringify({"checks":checks,"failures":failures,"escort_position":str(missions.rescue_student.global_position),"routine_actors":c.get_node("DuocGames4").routines.actors.size(),"audio_streams":c.get_node("DuocGames4").sound.samples.size()}))
 	quit(0 if failures.is_empty() else 1)

@@ -6,9 +6,11 @@ var camera: Camera3D
 var stage_viewport: SubViewport
 var yaw := PI
 var fitting_size := 2.8
+var zoom := 1.0
 var profile := {}
 var can_rotate := false
 var portrait := false
+var face_focus := false
 var applied_profile := {}
 var frame_revision := 0
 
@@ -26,17 +28,17 @@ func _ready() -> void:
 	environment.environment = Environment.new()
 	environment.environment.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
 	environment.environment.ambient_light_color = Color("#dceaff")
-	environment.environment.ambient_light_energy = 0.78
+	environment.environment.ambient_light_energy = 0.63
 	stage_viewport.add_child(environment)
 	var sunlight := DirectionalLight3D.new()
 	sunlight.rotation_degrees = Vector3(-35, 23, 0)
 	sunlight.light_color = Color("#fff2db")
-	sunlight.light_energy = 1.4
+	sunlight.light_energy = 1.2
 	stage_viewport.add_child(sunlight)
 	var rim := DirectionalLight3D.new()
 	rim.rotation_degrees = Vector3(-15, 180, 0)
 	rim.light_color = Color("#87bcff")
-	rim.light_energy = 0.65
+	rim.light_energy = 0.45
 	stage_viewport.add_child(rim)
 	camera = Camera3D.new()
 	camera.projection = Camera3D.PROJECTION_ORTHOGONAL
@@ -58,13 +60,25 @@ func set_profile(value: Dictionary) -> void:
 	_refresh()
 
 func rotate_by(angle: float) -> void:
-	yaw += angle
+	yaw = wrapf(yaw + angle,-PI,PI)
+	_refresh()
+
+func zoom_by(amount: float) -> void:
+	zoom = clampf(zoom + amount,0.85,1.65)
+	_refresh()
+
+func toggle_face_focus() -> void:
+	face_focus = not face_focus
 	_refresh()
 
 func _gui_input(event: InputEvent) -> void:
 	if can_rotate and event is InputEventMouseMotion and Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
 		rotate_by(event.relative.x * 0.012)
 		accept_event()
+	elif can_rotate and event is InputEventMouseButton and event.pressed:
+		if event.button_index in [MOUSE_BUTTON_WHEEL_UP,MOUSE_BUTTON_WHEEL_DOWN]:
+			zoom_by(0.15 if event.button_index == MOUSE_BUTTON_WHEEL_UP else -0.15)
+			accept_event()
 
 func _refresh() -> void:
 	if not is_instance_valid(camera):
@@ -81,12 +95,12 @@ func _refresh() -> void:
 			top = maxf(top, rig.to_global(rig.get_bone_global_pose(head_id).origin).y + 0.30)
 	var target := Vector3(0, (top + foot) * 0.5, 0)
 	fitting_size = maxf((top - foot) * 1.12, 2.75)
-	if portrait:
+	if portrait or face_focus:
 		target.y = top - 0.30
 		fitting_size = 0.82
 	camera.position = target + Vector3(0, 0, 5)
 	camera.look_at(target)
-	camera.size = fitting_size
+	camera.size = fitting_size / zoom
 	_render_preview()
 
 func _render_preview() -> void:
