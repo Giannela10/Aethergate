@@ -332,7 +332,9 @@ func cubierta_explanada(parent: Node3D, p: Vector3, steel: Material, roof_materi
 	box(canopy,"Banco",Vector3(0,0.5,1.1),Vector3(2.3,0.14,0.45),steel)
 
 func vista_explanada_frontal() -> Dictionary:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return {}
 	camera.global_position = Vector3(0,125,-32)
 	camera.look_at(Vector3(0,0,-40),Vector3.FORWARD)
 	return {"view":"front forecourt"}

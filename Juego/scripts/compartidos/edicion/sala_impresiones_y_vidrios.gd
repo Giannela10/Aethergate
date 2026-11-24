@@ -104,7 +104,9 @@ func configurar_ventanilla() -> Dictionary:
 	return {"ventanilla":true,"acceso_publico":false}
 
 func vista_piso_dos() -> Dictionary:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return {}
 	camera.global_position = Vector3(0,280,-140)
 	camera.look_at(Vector3(0,0,-140),Vector3.FORWARD)
 	return {"position":camera.global_position}

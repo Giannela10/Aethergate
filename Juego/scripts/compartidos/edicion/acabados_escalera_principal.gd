@@ -85,7 +85,9 @@ func verificar() -> Dictionary:
 	return {"tramos":counts,"vidrio_interior_presente":CampusNodes.campus(self).has_node("VidriosLateralesEscaleraPisos2a8")}
 
 func vista_escalera() -> void:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return
 	camera.global_position = Vector3(-24,17,-112)
 	camera.look_at(Vector3(-2,18,-127.8),Vector3.UP)
 

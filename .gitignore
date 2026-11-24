@@ -1,4 +1,6 @@
 recovery/
+/dist/
+/Instalar DuocGames/
 Juego/build/
 .godot/
 config/auth_config.json

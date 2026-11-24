@@ -707,13 +707,17 @@ func ampliar_recinto_y_despejar_entradas() -> Dictionary:
 	return {"ancho_maximo":right-wing_left,"superficie_m2":(right-left)*(front-back)+wing_width*wing_depth,"profundidad":front-back,"butacas":99,"entradas_libres":2,"base_hasta_suelo":true}
 
 func vista_auditorio_ampliado() -> Dictionary:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return {}
 	camera.global_position = Vector3(64,19,-102)
 	camera.look_at(Vector3(45,11,-102),Vector3.UP)
 	return {"view":"expanded auditorium"}
 
 func vista_lateral_auditorio() -> Dictionary:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return {}
 	camera.global_position = Vector3(21,27,-121)
 	camera.look_at(Vector3(26,26,-104),Vector3.UP)
 	return {"view":"closed auditorium sides"}

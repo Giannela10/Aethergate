@@ -444,12 +444,16 @@ func extend_elevators_to_basement() -> Dictionary:
 	return {"ascensores_extendidos": count, "piso_menos1_y": LEVELS[0], "tecla_menos1": "0"}
 
 func view_atrium() -> void:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return
 	camera.global_position = Vector3(30, 17, -96)
 	camera.look_at(Vector3(-1, -4, -125))
 
 func view_emergency() -> void:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return
 	camera.global_position = Vector3(-33, 10, -136)
 	camera.look_at(Vector3(-20.7, 4, -153))
 

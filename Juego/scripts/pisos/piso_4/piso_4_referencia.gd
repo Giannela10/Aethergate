@@ -199,8 +199,9 @@ func add_rear_rooms() -> Dictionary:
 	return {"salas":4,"banos_mujeres":1,"profundidad":depth,"frente_original_z":-140,"mesas_por_sala":9,"sillas_por_sala":9}
 
 func overview() -> void:
-	var viewport := EditorInterface.get_editor_viewport_3d(0)
-	var camera := viewport.get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return
 	camera.position = Vector3(-110,160,-20)
 	camera.look_at(Vector3(0,HEIGHT,-125))
 

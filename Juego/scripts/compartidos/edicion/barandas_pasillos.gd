@@ -216,7 +216,9 @@ func verificar() -> Dictionary:
 	return {"paneles":panels.size(),"sin_colision":missing_collision,"bordes_pendientes":remaining}
 
 func vista() -> void:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return
 	camera.global_position = Vector3(-13,30,-116)
 	camera.look_at(Vector3(-24,24,-122),Vector3.UP)
 

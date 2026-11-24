@@ -210,12 +210,16 @@ func ajustar_orillas_referencia() -> Dictionary:
 	return {"cubierta":str(bounds),"terraza":terrace_result,"entradas":4,"vacios_protegidos":3}
 
 func vista_terraza_cercana() -> void:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return
 	camera.global_position = Vector3(0,100,-43)
 	camera.look_at(Vector3(0,49,-112),Vector3.UP)
 
 func vista_orillas_referencia() -> void:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return
 	camera.global_position = Vector3(-145,150,-35)
 	camera.look_at(Vector3(0,64,-120),Vector3.UP)
 
@@ -336,13 +340,17 @@ func abrir_entradas_terraza() -> Dictionary:
 	return {"entradas":4,"centros_x":entry_centers,"ancho":6.0,"altura_libre":3.5,"sin_hojas_que_bloqueen":true}
 
 func vista_terraza() -> Dictionary:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return {}
 	camera.global_position = Vector3(-125,100,-62)
 	camera.look_at(Vector3(-25,53,-112),Vector3.UP)
 	return {"view":"terrace"}
 
 func vista_aerea() -> Dictionary:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return {}
 	camera.global_position = Vector3(0,265,-140)
 	camera.look_at(Vector3(0,0,-140),Vector3.FORWARD)
 	return {"view":"aerial"}
@@ -373,7 +381,9 @@ func alinear_acceso() -> Dictionary:
 	return {"entrada_x":18,"destino":"pasillo junto a ascensores"}
 
 func vista_acceso() -> Dictionary:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return {}
 	camera.global_position = Vector3(4,7,-183)
 	camera.look_at(Vector3(18,2,-164),Vector3.UP)
 	return {"view":"rear entrance"}
@@ -526,7 +536,9 @@ func ajustar_torniquetes() -> Dictionary:
 	return {"torniquetes_apoyados":count}
 
 func vista_posterior_general() -> Dictionary:
-	var camera := EditorInterface.get_editor_viewport_3d(0).get_camera_3d()
+	var camera := preload("res://scripts/compartidos/edicion/editor_preview.gd").camera()
+	if camera == null:
+		return {}
 	camera.global_position = Vector3(0,28,-225)
 	camera.look_at(Vector3(0,1,-165),Vector3.UP)
 	return {"view":"rear parking, ramp, stairs and bicycles"}
