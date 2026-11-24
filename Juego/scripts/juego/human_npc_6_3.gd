@@ -6,6 +6,7 @@ var identity=""
 var traits: Dictionary={}
 static var meshes: Dictionary={}
 static var materials: Dictionary={}
+static var surface_lods: Dictionary={}
 func asset_dir() -> String: return "res://assets/characters/shared_6_3/"
 func asset_files() -> Array:
 	var files=[wardrobe,"clothing_jeans"]
@@ -30,13 +31,25 @@ func apply_profile(profile: Dictionary) -> void:
 			var original: ArrayMesh=mesh.mesh
 			var baked=mesh.bake_mesh_from_current_blend_shape_mix()
 			var importer=ImporterMesh.new()
+			var source_path := original.resource_path
+			var lods: Array = surface_lods.get(source_path, [])
 			for surface in baked.get_surface_count():
 				var arrays=baked.surface_get_arrays(surface)
 				var source=original.surface_get_arrays(surface)
 				arrays[Mesh.ARRAY_BONES]=source[Mesh.ARRAY_BONES]
 				arrays[Mesh.ARRAY_WEIGHTS]=source[Mesh.ARRAY_WEIGHTS]
-				importer.add_surface(Mesh.PRIMITIVE_TRIANGLES,arrays,[],{},original.surface_get_material(surface))
-			importer.generate_lods(25.0,60.0,[])
+				importer.add_surface(Mesh.PRIMITIVE_TRIANGLES,arrays,[],lods[surface] if not lods.is_empty() else {},original.surface_get_material(surface))
+			if lods.is_empty():
+				# Morphs move vertices but keep the source topology. Disable normal
+				# splits so the generated index buffers fit every variant.
+				importer.generate_lods(25.0,180.0,[])
+				if not source_path.is_empty():
+					for surface in importer.get_surface_count():
+						var levels := {}
+						for level in importer.get_surface_lod_count(surface):
+							levels[importer.get_surface_lod_size(surface,level)] = importer.get_surface_lod_indices(surface,level)
+						lods.append(levels)
+					surface_lods[source_path] = lods
 			mesh.mesh=importer.get_mesh()
 			meshes[mesh_key]=mesh.mesh
 		mesh.lod_bias=0.35
@@ -48,7 +61,6 @@ func apply_profile(profile: Dictionary) -> void:
 				mat.albedo_color=Color(preload("res://scripts/juego/character_appearance.gd").COLORS[profile.clothes])
 				mat.roughness=0.94
 			if str(mesh.name).begins_with("Cloth_jeans") and int(profile.get("bottom_style",0)) in [2,3]:
-				mat.albedo_texture=null
 				mat.albedo_color=Color(preload("res://scripts/juego/character_appearance.gd").COLORS[profile.pants])
 				mat.roughness_texture=preload("res://scripts/juego/character_surface_6.gd").fabric()
 			var texture_id=mat.albedo_texture.get_instance_id() if mat.albedo_texture else 0

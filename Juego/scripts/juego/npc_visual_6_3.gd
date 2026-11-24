@@ -4,7 +4,6 @@ var host: Node3D
 var model: Node3D
 var identity=""
 var role=""
-var hidden: Array[MeshInstance3D]=[]
 var tick=0.0
 var pose_delta=0.0
 var animation_interval=1.0/30.0
@@ -103,9 +102,9 @@ func build() -> bool:
 			ancestor=ancestor.get_parent()
 		if keep and mesh.get_parent()==host.head_pivot and ((role=="BIBLIOTECARIA" and mesh.mesh is BoxMesh) or (int(profile.get("accessory",0))==1 and str(mesh.get_meta("visual_module",""))=="ACCESSORY")): eyewear.append(mesh)
 		if keep and mesh.get_parent()==host.head_pivot and (str(mesh.get_meta("visual_module",""))=="HEAD_ACCESSORY" or int(profile.get("accessory",0))==4): headgear.append(mesh)
-		if not keep: mesh.hide();hidden.append(mesh)
+		if not keep: mesh.hide()
 	if int(profile.get("head_accessory",0))==1:
-		for part in headgear: part.hide();hidden.append(part)
+		for part in headgear: part.hide()
 		headgear.clear()
 		headset63=MeshInstance3D.new();headset63.name="Headset63"
 		headset63.mesh=preload("res://scripts/juego/character_headset_6_3.gd").geometry()
@@ -121,12 +120,10 @@ func reapply(_profile: Dictionary) -> void:
 	if model!=null:
 		model.set_active(false)
 		model.free();model=null
-	hidden.clear();eyewear.clear();headgear.clear()
+	eyewear.clear();headgear.clear()
 	build()
 func update(delta: float) -> void:
 	if model==null: return
-	for mesh in hidden:
-		if is_instance_valid(mesh): mesh.hide()
 	var player=get_tree().get_first_node_in_group("player")
 	var distance=host.global_position.distance_to(player.global_position) if player else 0.0
 	set_relevance(distance)
@@ -138,8 +135,10 @@ func update(delta: float) -> void:
 	align_eyewear()
 	align_headgear()
 	tick=fmod(tick,interval)
+	var shadow_mode := GeometryInstance3D.SHADOW_CASTING_SETTING_ON if distance<16 and host.cast_near_shadows else GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 	for mesh in skin_meshes:
-		mesh.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_ON if distance<16 and host.cast_near_shadows else GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+		if mesh.cast_shadow != shadow_mode:
+			mesh.cast_shadow = shadow_mode
 func set_relevance(distance: float) -> void:
 	if model==null: return
 	animation_interval=1.0/30.0 if distance<4 else 1.0/15.0 if distance<10 else 0.12 if distance<28 else 0.40

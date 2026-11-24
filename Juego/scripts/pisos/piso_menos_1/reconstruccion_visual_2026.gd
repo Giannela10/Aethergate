@@ -418,9 +418,12 @@ func _vending(parent: Node3D) -> void:
 
 func _overhead(parent: Node3D) -> void:
 	var overhead := _group(parent, "InstalacionesExpuestas")
+	var stair_z_segments := [Vector2(-158.5, -133.6), Vector2(-122.1, -79.5)]
 	# Vigas de hormigón añadidas bajo el forjado; el cielo permanece abierto.
 	for x in [-72.0, -49.0, -26.0, -3.0, 20.0, 43.0, 66.0, 80.0]:
-		_box(overhead, "VigaHormigon", Vector3(x, BASE_Y + 10.9, -119.0), Vector3(0.72, 0.82, 79.0), m["beam"])
+		var spans := stair_z_segments if x in [-3.0, 20.0] else [Vector2(-158.5, -79.5)]
+		for span: Vector2 in spans:
+			_box(overhead, "VigaHormigon", Vector3(x, BASE_Y + 10.9, (span.x + span.y) * 0.5), Vector3(0.72, 0.82, span.y - span.x), m["beam"])
 	for z in [-151.0, -136.0, -120.0, -104.0, -88.0]:
 		# Las bandejas se interrumpen en el corredor posterior.
 		for segment in [[-27.5, 95.0], [51.0, 40.0]]:
@@ -428,11 +431,18 @@ func _overhead(parent: Node3D) -> void:
 			_box(overhead, "BandejaPortacablesTapa", Vector3(segment[0], BASE_Y + 9.53, z), Vector3(segment[1], 0.08, 0.86), m["locker_frame"])
 	# Ductos rectangulares comunes y red de cañerías paralela.
 	for x in [-69.0, -46.0, -23.0, 0.0, 35.0, 46.0, 69.0]:
-		_box(overhead, "DuctoVentilacion", Vector3(x, BASE_Y + 8.7, -116.0), Vector3(0.58, 0.72, 74.0), m["steel"])
-		_box(overhead, "ConduitElectrico", Vector3(x + 0.7, BASE_Y + 8.25, -116.0), Vector3(0.12, 0.12, 74.0), m["yellow_dark"])
+		var spans := [Vector2(-153.0, -133.6), Vector2(-122.1, -79.0)] if x == 0.0 else [Vector2(-153.0, -79.0)]
+		for span: Vector2 in spans:
+			var center_z := (span.x + span.y) * 0.5
+			_box(overhead, "DuctoVentilacion", Vector3(x, BASE_Y + 8.7, center_z), Vector3(0.58, 0.72, span.y - span.x), m["steel"])
+			_box(overhead, "ConduitElectrico", Vector3(x + 0.7, BASE_Y + 8.25, center_z), Vector3(0.12, 0.12, span.y - span.x), m["yellow_dark"])
 	for z in [-148.0, -137.0, -126.0, -115.0, -104.0, -93.0, -82.0]:
-		_cylinder(overhead, "TuberiaRoja", Vector3(14.0, BASE_Y + 8.5, z), 0.11, 150.0, m["red"], Vector3.RIGHT)
-		_cylinder(overhead, "TuberiaAzul", Vector3(16.0, BASE_Y + 8.25, z), 0.10, 150.0, m["blue_light"], Vector3.RIGHT)
+		var red_spans := [Vector2(-61.0, -20.5), Vector2(21.25, 89.0)] if z == -126.0 else [Vector2(-61.0, 89.0)]
+		var blue_spans := [Vector2(-59.0, -20.5), Vector2(21.25, 91.0)] if z == -126.0 else [Vector2(-59.0, 91.0)]
+		for span: Vector2 in red_spans:
+			_cylinder(overhead, "TuberiaRoja", Vector3((span.x + span.y) * 0.5, BASE_Y + 8.5, z), 0.11, span.y - span.x, m["red"], Vector3.RIGHT)
+		for span: Vector2 in blue_spans:
+			_cylinder(overhead, "TuberiaAzul", Vector3((span.x + span.y) * 0.5, BASE_Y + 8.25, z), 0.10, span.y - span.x, m["blue_light"], Vector3.RIGHT)
 	# Suspensiones oscuras repetidas desde forjado.
 	for x in [-69.0, -46.0, -23.0, 0.0, 35.0, 46.0, 69.0]:
 		for z in [-145.0, -119.0, -93.0]:

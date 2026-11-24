@@ -40,14 +40,14 @@ func wall_check() -> void:
 	record("solid_wall_still_blocks_mentor",not scanner.can_reach_target(duel))
 	wall.queue_free();target.global_position=old_position
 func ramp() -> void:
-	var ray=PhysicsRayQueryParameters3D.create(Vector3(24.37,2,-124),Vector3(24.37,-15,-124))
+	var ray=PhysicsRayQueryParameters3D.create(Vector3(-90.6,2,-124),Vector3(-90.6,-15,-124))
 	ray.exclude=[p.get_rid()]
 	var hit=p.get_world_3d().direct_space_state.intersect_ray(ray)
-	if hit.is_empty(): record("ramp_surface_found",false);return
+	if hit.is_empty() or not str(hit.collider.get_path()).ends_with("/RampaPosteriorPoniente/TramoSubsuelo"): record("ramp_surface_found",false);return
 	record("ramp_surface_found",true,{"position":str(hit.position),"collider":str(hit.collider.get_path())})
 	var helper=f.get_children().filter(func(n): return n.get_script()!=null and n.get_script().resource_path.ends_with("final_probe_7_0.gd"))[0]
 	var before=helper.rows.size()
-	await helper.walk(hit.position+Vector3.UP*0.12,Vector3(24.37,-6,-138),"refined_ramp_from_actual_surface",10)
+	await helper.walk(hit.position+Vector3.UP*0.12,Vector3(-90.6,-6.82,-138),"refined_ramp_from_actual_surface",10)
 	if helper.rows.size()>before: record("ramp_actual_walk",helper.rows[-1].passed,helper.rows[-1].detail)
 func locomotion_measure() -> void:
 	c.ui.close_modal();p.busy=false;p.dead=false;p.body.show()
@@ -124,7 +124,9 @@ func transition_checks() -> void:
 		["stairs_minus1_to_1",Vector3(-21.8,-11.9,-127.8),Vector3(20.4,0,-127.8),0.0],
 		["stairs_1_to_2",Vector3(-21.8,0.15,-127.8),Vector3(20.4,12.058385849,-127.8),12.058385849],
 		["stairs_2_to_1",Vector3(20.4,12.2,-127.8),Vector3(-21.8,0,-127.8),0.0],
-		["ramp_full_exit",Vector3(26.871576,-11.9,-114),Vector3(26.871576,-1.2,-172),-1.2]]:
+		["ramp_full_exit",Vector3(-90.6,-11.9,-111.5),Vector3(-90.6,0,-159.75),0.0],
+		["ramp_piso1_access",Vector3(-90.6,0.15,-159.75),Vector3(-82.5,0,-159.75),0.0],
+		["ramp_patio_access",Vector3(-90.6,0.15,-163),Vector3(-90.6,-1.2,-176),-1.2]]:
 		var count=helper.rows.size()
 		await helper.walk(route[1],route[2],route[0],28)
 		var reached=helper.rows.size()>count and helper.rows[-1].passed

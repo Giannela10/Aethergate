@@ -118,8 +118,10 @@ func label(parent: Node3D, title: String, text_value: String, pos: Vector3, size
 func build_basement() -> void:
 	var basement := group(self, "PisoMenos1")
 	slab(basement, "Piso", Rect2(-84.8, -162.45, 169.1, 86.05), LEVELS[0], mats["floor"], 0.5)
-	for x in [-84.8, 84.3]:
-		box(basement, "MuroLateral", Vector3(x, LEVELS[0] * 0.5, -119.425), Vector3(0.35, -LEVELS[0], 86.05), mats["wall"])
+	box(basement, "MuroLateral", Vector3(-84.8, LEVELS[0] * 0.5, -138.475), Vector3(0.35, -LEVELS[0], 47.95), mats["wall"])
+	box(basement, "MuroLateralDespuesRampa", Vector3(-84.8, LEVELS[0] * 0.5, -92.45), Vector3(0.35, -LEVELS[0], 32.1), mats["wall"])
+	box(basement, "DintelRampaPoniente", Vector3(-84.8, -4.425, -111.5), Vector3(0.35, 8.85, 6.0), mats["wall"])
+	box(basement, "MuroLateral", Vector3(84.3, LEVELS[0] * 0.5, -119.425), Vector3(0.35, -LEVELS[0], 86.05), mats["wall"])
 	var rear_z := -162.45
 	var mid_y := LEVELS[0] * 0.5
 	var left_width := RAMP_OPENING.position.x + 84.8
@@ -133,9 +135,10 @@ func build_basement() -> void:
 			box(basement, "Pilar", Vector3(x, LEVELS[0] * 0.5, z), Vector3(1.2, -LEVELS[0], 1.2), mats["concrete"])
 	for x in [-56.0, -28.0, 0.0, 28.0, 56.0]:
 		for z in [-149.0, -124.0, -95.0]:
-			box(basement, "Luminaria", Vector3(x, -1.2, z), Vector3(2.5, 0.1, 0.3), mats["lamp"], false)
+			var light_z: float = -134.5 if x == 0.0 and z == -124.0 else z
+			box(basement, "Luminaria", Vector3(x, -1.2, light_z), Vector3(2.5, 0.1, 0.3), mats["lamp"], false)
 			var light := OmniLight3D.new()
-			light.position = Vector3(x, -3.0, z)
+			light.position = Vector3(x, -3.0, light_z)
 			light.omni_range = 24.0
 			light.light_energy = 1.4
 			owned(basement, light, "Luz")

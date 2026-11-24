@@ -440,15 +440,6 @@ func _play(entry: String) -> void:
 	campus_loading = true
 	var page := page_generation
 	var account: String = auth.user_id
-	if not auth.dev_session:
-		var cloud := get_node("/root/CloudSave")
-		if not await cloud.load_game() or cloud.conflicted:
-			campus_loading = false
-			_status(cloud.last_error)
-			return
-	if page != page_generation or account != auth.user_id or not auth.can_enter_menu():
-		campus_loading = false
-		return
 	_status("Cargando campus…")
 	var request := ResourceLoader.load_threaded_request(CAMPUS_SCENE, "PackedScene")
 	var status := ResourceLoader.load_threaded_get_status(CAMPUS_SCENE)
@@ -456,6 +447,13 @@ func _play(entry: String) -> void:
 		campus_loading = false
 		_status("No se pudo iniciar la carga del campus.")
 		return
+	var save_ready := true
+	var save_error := ""
+	if not auth.dev_session:
+		var cloud := get_node("/root/CloudSave")
+		save_ready = await cloud.load_game() and not cloud.conflicted
+		save_error = cloud.last_error
+		status = ResourceLoader.load_threaded_get_status(CAMPUS_SCENE)
 	while status == ResourceLoader.THREAD_LOAD_IN_PROGRESS:
 		await get_tree().process_frame
 		status = ResourceLoader.load_threaded_get_status(CAMPUS_SCENE)
@@ -464,6 +462,9 @@ func _play(entry: String) -> void:
 		campus = ResourceLoader.load_threaded_get(CAMPUS_SCENE)
 	campus_loading = false
 	if page != page_generation or account != auth.user_id or not auth.can_enter_menu():
+		return
+	if not save_ready:
+		_status(save_error)
 		return
 	if campus == null:
 		_status("No se pudo cargar el campus. Inténtalo de nuevo.")

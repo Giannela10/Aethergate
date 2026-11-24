@@ -9,6 +9,7 @@ var windowed_position := Vector2i.ZERO
 const QUALITIES := {"BAJO":{"near":9.0,"far":22.0,"shadows":false,"effects":false},"MEDIO":{"near":13.0,"far":30.0,"shadows":true,"effects":true},"ALTO":{"near":16.0,"far":35.0,"shadows":true,"effects":true}}
 const CHARACTER_QUALITY := {"ALTO":"CHARACTER_HIGH","MEDIO":"CHARACTER_MEDIUM","BAJO":"CHARACTER_LOW"}
 const SHADOW_DISTANCE := {"ALTO":40.0,"MEDIO":30.0,"BAJO":20.0}
+const RENDER_SCALE := {"ALTO":1.0,"MEDIO":0.85,"BAJO":0.7}
 func _ready() -> void:
 	data.telemetry = hub.config.telemetry_enabled
 	if DisplayServer.get_name() != "headless" and DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_WINDOWED:
@@ -45,6 +46,7 @@ func save() -> void:
 	if result != OK: hub.campaign.ui.notify("No se pudieron guardar los ajustes: "+error_string(result))
 func apply() -> void:
 	Engine.max_fps = int(data.fps)
+	hub.campaign.get_viewport().scaling_3d_scale = RENDER_SCALE[data.quality]
 	# Keep nearby sunlight shadows; the previous 100 m range rendered most floors
 	# into shadow maps. Controlled fixture ablation recorded in PERFORMANCE_PROFILE.
 	var sun := hub.campaign.get_parent().get_node_or_null("SistemasCompartidos/LuzExterior") as DirectionalLight3D

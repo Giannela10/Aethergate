@@ -57,7 +57,7 @@ func routes() -> void:
 	await walk(Vector3(70,12.2,-118.5),Vector3(64,12.2,-118.5),"auditorium_entry1",6)
 	await walk(Vector3(70,12.2,-90.5),Vector3(64,12.2,-90.5),"auditorium_entry2",6)
 	await walk(Vector3(-22.65,0.15,-150),Vector3(-22.65,3,-157),"stairs_floor1_first_flight",7)
-	await walk(Vector3(24.37,-11.9,-124),Vector3(24.37,-7,-138),"basement_ramp_up",9)
+	await walk(Vector3(-90.6,-11.9,-111.5),Vector3(-90.6,-6.82,-138),"basement_ramp_up",12)
 func walk(start: Vector3, target: Vector3, label: String, timeout: float) -> void:
 	c.ui.close_modal();p.busy=false;p.dead=false;p.velocity=Vector3.ZERO
 	var safe=p.get_node("SeatController").safe_position(start)

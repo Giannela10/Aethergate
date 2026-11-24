@@ -95,6 +95,216 @@
 [ext_resource type="Script" uid="uid://c8xovbsmkbh2m" path="res://scripts/pisos/piso_3/encuentro_profesor_redes.gd" id="profesor_redes_piso3"]
 [ext_resource type="Material" path="res://materials/entrance/MAT_Sign_Backplate_5.tres" id="visual5_sign"]
 
+[ext_resource type="Material" path="res://materials/entrance/MAT_Concrete_Floor.tres" id="ramp_concrete"]
+
+[sub_resource type="StandardMaterial3D" id="RampDetail_bronze"]
+albedo_color = Color(0.34, 0.3, 0.24, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="RampDetail_wall"]
+albedo_color = Color(0.53, 0.49, 0.43, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="RampDetail_dark"]
+albedo_color = Color(0.085, 0.089, 0.091, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="RampDetail_steel"]
+albedo_color = Color(0.15, 0.18, 0.2, 1)
+roughness = 0.55
+
+[sub_resource type="StandardMaterial3D" id="RampDetail_yellow"]
+albedo_color = Color(0.91, 0.62, 0.09, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="RampDetail_blue"]
+albedo_color = Color(0.065, 0.25, 0.4, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="RampDetail_rubber"]
+albedo_color = Color(0.036, 0.038, 0.035, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="RampDetail_white"]
+albedo_color = Color(0.74, 0.73, 0.68, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="RampDetail_red"]
+albedo_color = Color(0.45, 0.055, 0.04, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="RampDetail_gray"]
+albedo_color = Color(0.28, 0.29, 0.29, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="RampDetailMesh1"]
+size = Vector3(2.4, 0.007, 0.045)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh2"]
+size = Vector3(0.068, 0.068, 3.39)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh3"]
+size = Vector3(0.064, 0.9, 0.064)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh4"]
+size = Vector3(0.19, 3.45, 11.6)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh5"]
+size = Vector3(0.055, 3.58, 7.4)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh6"]
+size = Vector3(0.065, 3.18, 2.08)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh7"]
+size = Vector3(0.055, 1.04, 2.06)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh8"]
+size = Vector3(0.11, 3.3, 0.078)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh9"]
+size = Vector3(0.11, 0.07, 2.16)
+
+[sub_resource type="CylinderMesh" id="RampDetailMesh10"]
+top_radius = 0.16
+bottom_radius = 0.16
+height = 0.13
+radial_segments = 12
+rings = 0
+
+[sub_resource type="CylinderMesh" id="RampDetailMesh11"]
+top_radius = 0.135
+bottom_radius = 0.135
+height = 0.045
+radial_segments = 12
+rings = 0
+
+[sub_resource type="BoxMesh" id="RampDetailMesh12"]
+size = Vector3(7.38, 0.018, 0.23)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh13"]
+size = Vector3(0.14, 0.012, 0.2)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh14"]
+size = Vector3(0.72, 0.05, 0.38)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh15"]
+size = Vector3(0.72, 0.012, 0.72)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh16"]
+size = Vector3(0.1, 3.24, 0.09)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh17"]
+size = Vector3(0.85, 0.17, 1.18)
+
+[sub_resource type="CylinderMesh" id="RampDetailMesh18"]
+top_radius = 0.1
+bottom_radius = 0.1
+height = 0.06
+radial_segments = 12
+rings = 0
+
+[sub_resource type="CylinderMesh" id="RampDetailMesh19"]
+top_radius = 0.33
+bottom_radius = 0.33
+height = 0.54
+radial_segments = 12
+rings = 0
+
+[sub_resource type="CylinderMesh" id="RampDetailMesh20"]
+top_radius = 0.27
+bottom_radius = 0.27
+height = 0.13
+radial_segments = 12
+rings = 0
+
+[sub_resource type="BoxMesh" id="RampDetailMesh21"]
+size = Vector3(1.32, 0.55, 1.65)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh22"]
+size = Vector3(0.53, 0.2, 0.5)
+
+[sub_resource type="CylinderMesh" id="RampDetailMesh23"]
+top_radius = 0.31
+bottom_radius = 0.31
+height = 0.22
+radial_segments = 12
+rings = 0
+
+[sub_resource type="BoxMesh" id="RampDetailMesh24"]
+size = Vector3(0.075, 1.87, 0.075)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh25"]
+size = Vector3(1.27, 0.1, 1.41)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh26"]
+size = Vector3(0.1, 2.16, 0.12)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh27"]
+size = Vector3(0.13, 0.09, 1.26)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh28"]
+size = Vector3(3.28, 0.012, 0.046)
+
+[sub_resource type="CylinderMesh" id="RampDetailMesh29"]
+top_radius = 0.34
+bottom_radius = 0.34
+height = 0.14
+radial_segments = 12
+rings = 0
+
+[sub_resource type="CylinderMesh" id="RampDetailMesh30"]
+top_radius = 0.213
+bottom_radius = 0.213
+height = 0.025
+radial_segments = 12
+rings = 0
+
+[sub_resource type="BoxMesh" id="RampDetailMesh31"]
+size = Vector3(0.53, 0.4, 0.36)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh32"]
+size = Vector3(0.61, 0.29, 0.37)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh33"]
+size = Vector3(0.55, 0.12, 0.33)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh34"]
+size = Vector3(0.075, 0.65, 0.1)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh35"]
+size = Vector3(0.065, 0.05, 0.64)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh36"]
+size = Vector3(0.11, 0.18, 0.23)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh37"]
+size = Vector3(0.82, 0.085, 0.08)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh38"]
+size = Vector3(0.08, 0.105, 0.18)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh39"]
+size = Vector3(0.085, 1.9, 0.085)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh40"]
+size = Vector3(0.064, 0.055, 20.15)
+
+[sub_resource type="BoxMesh" id="RampDetailMesh41"]
+size = Vector3(0.025, 1.65, 0.024)
+
+[sub_resource type="BoxShape3D" id="RampLateralStairShape"]
+size = Vector3(2.5, 0.2, 3.4208308)
+
+[sub_resource type="StandardMaterial3D" id="Ramp_ConcreteWall"]
+albedo_color = Color(0.61, 0.55, 0.47, 1)
+roughness = 0.94
+
+[sub_resource type="StandardMaterial3D" id="Ramp_RailingGlass"]
+transparency = 1
+cull_mode = 2
+albedo_color = Color(0.73, 0.86, 0.85, 0.23)
+roughness = 0.18
+
 [sub_resource type="BoxMesh" id="BoxMesh_cl58d"]
 size = Vector3(0.3343506, 23.599426, 31.143219)
 
@@ -62329,6 +62539,54 @@ size = Vector3(0.45, 0.182703, 10)
 [sub_resource type="BoxShape3D" id="BoxShape3D_DescansoCentralMenos1"]
 size = Vector3(5.56, 0.3, 10)
 
+[sub_resource type="BoxMesh" id="RamalEscalera_1_0"]
+size = Vector3(0.72, 0.82, 24.9)
+
+[sub_resource type="BoxMesh" id="RamalEscalera_1_1"]
+size = Vector3(0.72, 0.82, 42.6)
+
+[sub_resource type="BoxMesh" id="RamalEscalera_2_0"]
+size = Vector3(0.72, 0.82, 24.9)
+
+[sub_resource type="BoxMesh" id="RamalEscalera_2_1"]
+size = Vector3(0.72, 0.82, 42.6)
+
+[sub_resource type="BoxMesh" id="RamalEscalera_3_0"]
+size = Vector3(0.58, 0.72, 19.4)
+
+[sub_resource type="BoxMesh" id="RamalEscalera_3_1"]
+size = Vector3(0.58, 0.72, 43.1)
+
+[sub_resource type="BoxMesh" id="RamalEscalera_4_0"]
+size = Vector3(0.12, 0.12, 19.4)
+
+[sub_resource type="BoxMesh" id="RamalEscalera_4_1"]
+size = Vector3(0.12, 0.12, 43.1)
+
+[sub_resource type="CylinderMesh" id="RamalEscalera_5_0"]
+top_radius = 0.11
+bottom_radius = 0.11
+height = 40.5
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="RamalEscalera_5_1"]
+top_radius = 0.11
+bottom_radius = 0.11
+height = 67.75
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="RamalEscalera_6_0"]
+top_radius = 0.1
+bottom_radius = 0.1
+height = 38.5
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="RamalEscalera_6_1"]
+top_radius = 0.1
+bottom_radius = 0.1
+height = 69.75
+radial_segments = 12
+
 [node name="Main" type="Node3D" unique_id=873609652 groups=["campus"]]
 metadata/rutas_ordenadas = {
 "AcabadosAscensores": "HerramientasEdicion/AcabadosAscensores",
@@ -63782,9 +64040,21 @@ text = "CASINO"
 font_size = 72
 
 [node name="ParedIzquierdaSectorPosterior" type="CSGBox3D" parent="Piso1/Casino" unique_id=1661670641]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -84.697, 6, -142.8)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -84.697, 6, -140.45)
 use_collision = true
-size = Vector3(0.5, 12, 40.3)
+size = Vector3(0.5, 12, 35.6)
+material = SubResource("StandardMaterial3D_e4s1n")
+
+[node name="ParedIzquierdaJambaRampa" type="CSGBox3D" parent="Piso1/Casino"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -84.697, 6, -162.1)
+use_collision = true
+size = Vector3(0.5, 12, 1.7)
+material = SubResource("StandardMaterial3D_e4s1n")
+
+[node name="ParedIzquierdaDintelRampa" type="CSGBox3D" parent="Piso1/Casino"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -84.697, 7.575, -159.75)
+use_collision = true
+size = Vector3(0.5, 8.85, 3)
 material = SubResource("StandardMaterial3D_e4s1n")
 
 [node name="AcabadosEntradaLateral" type="Node3D" parent="Piso1/Casino" unique_id=1345193552]
@@ -156892,15 +157162,23 @@ metadata/geometria_retirada = true
 shape = SubResource("BoxShape3D_3mggg")
 disabled = true
 
-[node name="MuroLateral" type="MeshInstance3D" parent="PisoMenos1" unique_id=1384030917]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -84.8, -6.029193, -119.425)
-material_override = SubResource("StandardMaterial3D_5mbva")
-mesh = SubResource("BoxMesh_4vymu")
+[node name="MuroLateral" type="CSGBox3D" parent="PisoMenos1" unique_id=1384030917]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -84.8, -6.0291929, -138.475)
+use_collision = true
+size = Vector3(0.35, 12.0583859, 47.95)
+material = SubResource("StandardMaterial3D_5mbva")
 
-[node name="Cuerpo" type="StaticBody3D" parent="PisoMenos1/MuroLateral" unique_id=1229006402]
+[node name="MuroLateralDespuesRampa" type="CSGBox3D" parent="PisoMenos1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -84.8, -6.0291929, -92.45)
+use_collision = true
+size = Vector3(0.35, 12.0583859, 32.1)
+material = SubResource("StandardMaterial3D_5mbva")
 
-[node name="Colision" type="CollisionShape3D" parent="PisoMenos1/MuroLateral/Cuerpo" unique_id=256935578]
-shape = SubResource("BoxShape3D_7jujm")
+[node name="DintelRampaPoniente" type="CSGBox3D" parent="PisoMenos1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -84.8, -4.425, -111.5)
+use_collision = true
+size = Vector3(0.35, 8.85, 6)
+material = SubResource("StandardMaterial3D_5mbva")
 
 [node name="@MeshInstance3D@23654" type="MeshInstance3D" parent="PisoMenos1" unique_id=1225060555]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 84.3, -6.029193, -119.425)
@@ -157133,12 +157411,12 @@ light_energy = 1.4
 omni_range = 24.0
 
 [node name="@MeshInstance3D@23679" type="MeshInstance3D" parent="PisoMenos1" unique_id=2102411144]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2, -124)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2, -134.5)
 material_override = SubResource("StandardMaterial3D_0r4wo")
 mesh = SubResource("BoxMesh_10xug")
 
 [node name="@OmniLight3D@23680" type="OmniLight3D" parent="PisoMenos1" unique_id=3384489]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, -124)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, -134.5)
 light_energy = 1.4
 omni_range = 24.0
 
@@ -158894,17 +159172,29 @@ material_override = SubResource("StandardMaterial3D_jyltq")
 cast_shadow = 0
 mesh = SubResource("BoxMesh_1ns22")
 
-[node name="@MeshInstance3D@51301" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas" unique_id=609379032]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1.1583859, -119)
+[node name="RamalEscalera_1_0" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1.1583859, -146.05)
 material_override = SubResource("StandardMaterial3D_jyltq")
 cast_shadow = 0
-mesh = SubResource("BoxMesh_7qrdk")
+mesh = SubResource("RamalEscalera_1_0")
 
-[node name="@MeshInstance3D@51302" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas" unique_id=1083151147]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, -1.1583859, -119)
+[node name="RamalEscalera_1_1" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1.1583859, -100.8)
 material_override = SubResource("StandardMaterial3D_jyltq")
 cast_shadow = 0
-mesh = SubResource("BoxMesh_w5rwe")
+mesh = SubResource("RamalEscalera_1_1")
+
+[node name="RamalEscalera_2_0" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, -1.1583859, -146.05)
+material_override = SubResource("StandardMaterial3D_jyltq")
+cast_shadow = 0
+mesh = SubResource("RamalEscalera_2_0")
+
+[node name="RamalEscalera_2_1" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, -1.1583859, -100.8)
+material_override = SubResource("StandardMaterial3D_jyltq")
+cast_shadow = 0
+mesh = SubResource("RamalEscalera_2_1")
 
 [node name="@MeshInstance3D@51303" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas" unique_id=1843413484]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43, -1.1583859, -119)
@@ -159080,17 +159370,29 @@ material_override = SubResource("StandardMaterial3D_m0m4d")
 cast_shadow = 0
 mesh = SubResource("BoxMesh_b0jqy")
 
-[node name="@MeshInstance3D@51328" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas" unique_id=1255100670]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3.3583858, -116)
+[node name="RamalEscalera_3_0" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3.3583858, -143.3)
 material_override = SubResource("StandardMaterial3D_vr0q0")
 cast_shadow = 0
-mesh = SubResource("BoxMesh_6xoee")
+mesh = SubResource("RamalEscalera_3_0")
 
-[node name="@MeshInstance3D@51329" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas" unique_id=1422267119]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7, -3.8083858, -116)
+[node name="RamalEscalera_3_1" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3.3583858, -100.55)
+material_override = SubResource("StandardMaterial3D_vr0q0")
+cast_shadow = 0
+mesh = SubResource("RamalEscalera_3_1")
+
+[node name="RamalEscalera_4_0" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7, -3.8083858, -143.3)
 material_override = SubResource("StandardMaterial3D_m0m4d")
 cast_shadow = 0
-mesh = SubResource("BoxMesh_4pdf7")
+mesh = SubResource("RamalEscalera_4_0")
+
+[node name="RamalEscalera_4_1" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7, -3.8083858, -100.55)
+material_override = SubResource("StandardMaterial3D_m0m4d")
+cast_shadow = 0
+mesh = SubResource("RamalEscalera_4_1")
 
 [node name="@MeshInstance3D@51330" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas" unique_id=1323956124]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, -3.3583858, -116)
@@ -159156,19 +159458,33 @@ cast_shadow = 0
 visibility_range_end = 150.0
 mesh = SubResource("CylinderMesh_4ssnw")
 
-[node name="@MeshInstance3D@51338" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas" unique_id=701915165]
-transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 14, -3.5583858, -126)
+[node name="RamalEscalera_5_0" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, -40.75, -3.5583858, -126)
 material_override = SubResource("StandardMaterial3D_snbwf")
 cast_shadow = 0
 visibility_range_end = 150.0
-mesh = SubResource("CylinderMesh_81o52")
+mesh = SubResource("RamalEscalera_5_0")
 
-[node name="@MeshInstance3D@51339" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas" unique_id=1933597774]
-transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 16, -3.8083858, -126)
+[node name="RamalEscalera_5_1" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 55.125, -3.5583858, -126)
+material_override = SubResource("StandardMaterial3D_snbwf")
+cast_shadow = 0
+visibility_range_end = 150.0
+mesh = SubResource("RamalEscalera_5_1")
+
+[node name="RamalEscalera_6_0" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, -39.75, -3.8083858, -126)
 material_override = SubResource("StandardMaterial3D_n4d55")
 cast_shadow = 0
 visibility_range_end = 150.0
-mesh = SubResource("CylinderMesh_bnxw0")
+mesh = SubResource("RamalEscalera_6_0")
+
+[node name="RamalEscalera_6_1" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 56.125, -3.8083858, -126)
+material_override = SubResource("StandardMaterial3D_n4d55")
+cast_shadow = 0
+visibility_range_end = 150.0
+mesh = SubResource("RamalEscalera_6_1")
 
 [node name="@MeshInstance3D@51340" type="MeshInstance3D" parent="PisoMenos1/AmbientacionIndustrial2026/InstalacionesExpuestas" unique_id=2145865396]
 transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 14, -3.5583858, -115)
@@ -175841,9 +176157,21 @@ size = Vector3(313.407, 0.2, 98.8465)
 material = ExtResource("1_sc1dx")
 
 [node name="Suelo1" type="CSGBox3D" parent="Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles" unique_id=1538524373]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -124.69, 0, -69.72749)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -128.89, 0, -69.72749)
 use_collision = true
-size = Vector3(78.88, 0.2, 186.432)
+size = Vector3(70.48, 0.2, 186.432)
+material = ExtResource("1_sc1dx")
+
+[node name="Suelo1BordeEdificio" type="CSGBox3D" parent="Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.175, 0, -67.005745)
+use_collision = true
+size = Vector3(0.55, 0.2, 180.98851)
+material = ExtResource("1_sc1dx")
+
+[node name="Suelo1FrenteRampa" type="CSGBox3D" parent="Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.45, 0, -42.430745)
+use_collision = true
+size = Vector3(8.4, 0.2, 131.83851)
 material = ExtResource("1_sc1dx")
 
 [node name="Suelo2" type="CSGBox3D" parent="Exterior/EstructuraYAccesoPosterior/TerrenoExteriorPorNiveles" unique_id=1249358687]
@@ -175858,6 +176186,2322 @@ use_collision = true
 size = Vector3(169.83, 0.2, 99.411)
 material = ExtResource("1_sc1dx")
 
+[node name="RampaPosteriorPoniente" type="Node3D" parent="Exterior"]
+
+[node name="AccesoDesdeVereda" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 0.9912279, 0.1321637, 0, -0.1321637, 0.9912279, -89.55, -0.7982456, -169.4735673)
+use_collision = true
+size = Vector3(7.7, 0.4, 9.1596476)
+material = ExtResource("ramp_concrete")
+
+[node name="DescansoPiso1" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.55, -0.2, -161.25)
+use_collision = true
+size = Vector3(7.7, 0.4, 7.56)
+material = ExtResource("ramp_concrete")
+
+[node name="UmbralPiso1" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -86.35, -0.2, -159.75)
+use_collision = true
+size = Vector3(3.6, 0.4, 3)
+material = ExtResource("ramp_concrete")
+
+[node name="TramoSubsuelo" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 0.94400002, -0.3299454, 0, 0.3299454, 0.94400002, -89.55, -6.21799293, -140.31598908)
+use_collision = true
+size = Vector3(7.7, 0.4, 36.62660955)
+material = ExtResource("ramp_concrete")
+
+[node name="DescansoPisoMenos1" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -87.4, -12.2591929, -115.765)
+use_collision = true
+size = Vector3(12, 0.4016142, 14.53)
+material = ExtResource("ramp_concrete")
+
+[node name="ContencionOeste" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, -6.095, -133)
+use_collision = true
+size = Vector3(0.3, 12.71, 49)
+material = SubResource("Ramp_ConcreteWall")
+
+[node name="ContencionEste" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, -6.095, -136.005)
+use_collision = true
+size = Vector3(0.3, 12.71, 42.99)
+material = SubResource("Ramp_ConcreteWall")
+
+[node name="CierreFondoSubsuelo" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.175, -6.095, -108.35)
+use_collision = true
+size = Vector3(9.05, 12.71, 0.3)
+material = SubResource("Ramp_ConcreteWall")
+
+[node name="LosaCierreHuecoSubsuelo" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -86.175, -12.27, -132.995)
+use_collision = true
+size = Vector3(3.25, 0.41, 49.01)
+material = ExtResource("ramp_concrete")
+
+[node name="CierreLateralAccesoSubsuelo" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.04, -10.55, -114.49)
+use_collision = true
+size = Vector3(1.02, 3.04, 0.23)
+material = SubResource("Ramp_ConcreteWall")
+
+[node name="CubiertaAccesoSubsuelo" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.3, -0.12, -111.64)
+use_collision = true
+size = Vector3(8.84, 0.44, 6.28)
+material = ExtResource("ramp_concrete")
+
+[node name="BordePatioNorte" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.275, -0.22, -162.1)
+use_collision = true
+size = Vector3(0.89, 0.4, 1.7)
+material = ExtResource("ramp_concrete")
+
+[node name="BordePatioSur" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.275, -0.22, -157.875)
+use_collision = true
+size = Vector3(0.89, 0.4, 0.75)
+material = ExtResource("ramp_concrete")
+
+[node name="MureteEntradaPoniente" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.13, -161.25)
+use_collision = true
+size = Vector3(0.3, 0.26, 7.5)
+material = SubResource("Ramp_ConcreteWall")
+
+[node name="MureteEntradaOriente" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.13, -163.125)
+use_collision = true
+size = Vector3(0.3, 0.26, 3.75)
+material = SubResource("Ramp_ConcreteWall")
+
+[node name="MureteJuntoUmbral" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.13, -157.875)
+use_collision = true
+size = Vector3(0.3, 0.26, 0.75)
+material = SubResource("Ramp_ConcreteWall")
+
+[node name="VidrioPoniente" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -136.75)
+use_collision = true
+size = Vector3(0.055, 0.95, 56.5)
+material = SubResource("Ramp_RailingGlass")
+
+[node name="PasamanosPoniente" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 1.24, -136.75)
+size = Vector3(0.095, 0.065, 56.5)
+material = ExtResource("3_kjvhd")
+
+[node name="PerfilInferiorPoniente" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.285, -136.75)
+size = Vector3(0.095, 0.06, 56.5)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente0" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -164.96)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente1" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -161.64118)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente2" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -158.32235)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente3" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -155.00353)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente4" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -151.68471)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente5" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -148.36588)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente6" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -145.04706)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente7" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -141.72824)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente8" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -138.40941)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente9" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -135.09059)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente10" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -131.77176)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente11" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -128.45294)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente12" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -125.13412)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente13" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -121.81529)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente14" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -118.49647)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente15" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -115.17765)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente16" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -111.85882)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PostePoniente17" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.55, 0.745, -108.54)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="VidrioOrienteEntrada" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -163.125)
+use_collision = true
+size = Vector3(0.055, 0.95, 3.75)
+material = SubResource("Ramp_RailingGlass")
+
+[node name="PasamanosOrienteEntrada" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 1.24, -163.125)
+size = Vector3(0.095, 0.065, 3.75)
+material = ExtResource("3_kjvhd")
+
+[node name="PerfilInferiorOrienteEntrada" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.285, -163.125)
+size = Vector3(0.095, 0.06, 3.75)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteEntrada0" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -164.96)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteEntrada1" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -163.125)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteEntrada2" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -161.29)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="VidrioOrienteTramo" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -136.375)
+use_collision = true
+size = Vector3(0.055, 0.95, 43.75)
+material = SubResource("Ramp_RailingGlass")
+
+[node name="PasamanosOrienteTramo" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 1.24, -136.375)
+size = Vector3(0.095, 0.065, 43.75)
+material = ExtResource("3_kjvhd")
+
+[node name="PerfilInferiorOrienteTramo" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.285, -136.375)
+size = Vector3(0.095, 0.06, 43.75)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo0" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -158.21)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo1" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -155.09071)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo2" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -151.97143)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo3" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -148.85214)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo4" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -145.73286)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo5" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -142.61357)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo6" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -139.49429)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo7" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -136.375)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo8" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -133.25571)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo9" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -130.13643)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo10" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -127.01714)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo11" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -123.89786)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo12" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -120.77857)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo13" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -117.65929)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="PosteOrienteTramo14" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.55, 0.745, -114.54)
+size = Vector3(0.075, 0.99, 0.065)
+material = ExtResource("3_kjvhd")
+
+[node name="VidrioCierreFondo" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.175, 0.745, -108.35)
+use_collision = true
+size = Vector3(9.05, 0.95, 0.055)
+material = SubResource("Ramp_RailingGlass")
+
+[node name="PasamanosCierreFondo" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.175, 1.24, -108.35)
+size = Vector3(9.05, 0.065, 0.095)
+material = ExtResource("3_kjvhd")
+
+[node name="EscaleraLateralPatio" type="Node3D" parent="Exterior/RampaPosteriorPoniente"]
+
+[node name="Peldano1" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -1.114286, -173.1)
+size = Vector3(2.5, 0.171429, 0.464)
+material = SubResource("RampDetail_wall")
+
+[node name="CantoAntideslizante1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -1.025571, -173.27)
+mesh = SubResource("RampDetailMesh1")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Peldano2" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -1.028571, -172.65)
+size = Vector3(2.5, 0.342857, 0.464)
+material = SubResource("RampDetail_wall")
+
+[node name="CantoAntideslizante2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -0.854143, -172.82)
+mesh = SubResource("RampDetailMesh1")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Peldano3" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -0.942857, -172.2)
+size = Vector3(2.5, 0.514286, 0.464)
+material = SubResource("RampDetail_wall")
+
+[node name="CantoAntideslizante3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -0.682714, -172.37)
+mesh = SubResource("RampDetailMesh1")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Peldano4" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -0.857143, -171.75)
+size = Vector3(2.5, 0.685714, 0.464)
+material = SubResource("RampDetail_wall")
+
+[node name="CantoAntideslizante4" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -0.511286, -171.92)
+mesh = SubResource("RampDetailMesh1")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Peldano5" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -0.771429, -171.3)
+size = Vector3(2.5, 0.857143, 0.464)
+material = SubResource("RampDetail_wall")
+
+[node name="CantoAntideslizante5" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -0.339857, -171.47)
+mesh = SubResource("RampDetailMesh1")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Peldano6" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -0.685714, -170.85)
+size = Vector3(2.5, 1.028571, 0.464)
+material = SubResource("RampDetail_wall")
+
+[node name="CantoAntideslizante6" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -0.168429, -171.02)
+mesh = SubResource("RampDetailMesh1")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Peldano7" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -0.6, -170.4)
+size = Vector3(2.5, 1.2, 0.464)
+material = SubResource("RampDetail_wall")
+
+[node name="CantoAntideslizante7" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, 0.003, -170.57)
+mesh = SubResource("RampDetailMesh1")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="DescansoSuperior" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.95, -0.17, -168.1)
+use_collision = true
+size = Vector3(2.5, 0.34, 4.25)
+material = SubResource("RampDetail_wall")
+
+[node name="ConexionVereda" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.05, -0.17, -165.65)
+use_collision = true
+size = Vector3(3.45, 0.34, 0.75)
+material = SubResource("RampDetail_wall")
+
+[node name="Pasamanos0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 0.934488, 0.355995, 0, -0.355995, 0.934488, -85.18, 0.39, -171.75)
+mesh = SubResource("RampDetailMesh2")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Soporte0_0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.18, -0.52, -173)
+mesh = SubResource("RampDetailMesh3")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Soporte0_1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.18, -0.17, -172.1)
+mesh = SubResource("RampDetailMesh3")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Soporte0_2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.18, 0.18, -171.2)
+mesh = SubResource("RampDetailMesh3")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Soporte0_3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.18, 0.53, -170.3)
+mesh = SubResource("RampDetailMesh3")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="ProteccionDescanso0" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.18, 0.48, -167.65)
+use_collision = true
+size = Vector3(0.07, 0.96, 2.45)
+material = SubResource("RampDetail_dark")
+
+[node name="Pasamanos2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 0.934488, 0.355995, 0, -0.355995, 0.934488, -82.72, 0.39, -171.75)
+mesh = SubResource("RampDetailMesh2")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Soporte2_0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -82.72, -0.52, -173)
+mesh = SubResource("RampDetailMesh3")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Soporte2_1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -82.72, -0.17, -172.1)
+mesh = SubResource("RampDetailMesh3")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Soporte2_2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -82.72, 0.18, -171.2)
+mesh = SubResource("RampDetailMesh3")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Soporte2_3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -82.72, 0.53, -170.3)
+mesh = SubResource("RampDetailMesh3")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="ProteccionDescanso2" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -82.72, 0.48, -167.65)
+use_collision = true
+size = Vector3(0.07, 0.96, 2.45)
+material = SubResource("RampDetail_dark")
+
+[node name="ColisionContinua" type="StaticBody3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio"]
+transform = Transform3D(1, 0, 0, 0, 0.9344877, 0.3559953, 0, -0.3559953, 0.9344877, -83.95, -0.6934488, -171.7144005)
+
+[node name="Forma" type="CollisionShape3D" parent="Exterior/RampaPosteriorPoniente/EscaleraLateralPatio/ColisionContinua"]
+shape = SubResource("RampLateralStairShape")
+
+[node name="BajadaTecnica" type="Node3D" parent="Exterior/RampaPosteriorPoniente"]
+
+[node name="MarquesinaHormigon" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.25, -8.62, -117)
+use_collision = true
+size = Vector3(2.18, 0.33, 11.6)
+material = SubResource("RampDetail_wall")
+
+[node name="MuroFondoTaller" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.28, -10.31, -117)
+mesh = SubResource("RampDetailMesh4")
+material_override = SubResource("RampDetail_wall")
+cast_shadow = 0
+
+[node name="MuroGrafito" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.74, -10.23, -119.25)
+mesh = SubResource("RampDetailMesh5")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="PanoAcristalado0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.16, -10.33, -111.85)
+mesh = SubResource("RampDetailMesh6")
+material_override = ExtResource("17_x3yn0")
+cast_shadow = 0
+
+[node name="ZocaloVidrio0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.12, -11.5, -111.85)
+mesh = SubResource("RampDetailMesh7")
+material_override = SubResource("RampDetail_gray")
+cast_shadow = 0
+
+[node name="MarcoVertical0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.1, -10.31, -110.78)
+mesh = SubResource("RampDetailMesh8")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="MarcoHorizontal0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.1, -8.74, -111.85)
+mesh = SubResource("RampDetailMesh9")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Plafon0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.23, -8.84, -111.85)
+mesh = SubResource("RampDetailMesh10")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Difusor0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.23, -8.92, -111.85)
+mesh = SubResource("RampDetailMesh11")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Puerta1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.16, -10.33, -114.09)
+mesh = SubResource("RampDetailMesh6")
+material_override = SubResource("RampDetail_bronze")
+cast_shadow = 0
+
+[node name="MarcoVertical1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.1, -10.31, -113.02)
+mesh = SubResource("RampDetailMesh8")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="MarcoHorizontal1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.1, -8.74, -114.09)
+mesh = SubResource("RampDetailMesh9")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Plafon1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.23, -8.84, -114.09)
+mesh = SubResource("RampDetailMesh10")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Difusor1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.23, -8.92, -114.09)
+mesh = SubResource("RampDetailMesh11")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="PanoAcristalado2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.16, -10.33, -116.33)
+mesh = SubResource("RampDetailMesh6")
+material_override = ExtResource("17_x3yn0")
+cast_shadow = 0
+
+[node name="ZocaloVidrio2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.12, -11.5, -116.33)
+mesh = SubResource("RampDetailMesh7")
+material_override = SubResource("RampDetail_gray")
+cast_shadow = 0
+
+[node name="MarcoVertical2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.1, -10.31, -115.26)
+mesh = SubResource("RampDetailMesh8")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="MarcoHorizontal2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.1, -8.74, -116.33)
+mesh = SubResource("RampDetailMesh9")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Plafon2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.23, -8.84, -116.33)
+mesh = SubResource("RampDetailMesh10")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Difusor2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.23, -8.92, -116.33)
+mesh = SubResource("RampDetailMesh11")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="PanoAcristalado3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.16, -10.33, -118.57)
+mesh = SubResource("RampDetailMesh6")
+material_override = ExtResource("17_x3yn0")
+cast_shadow = 0
+
+[node name="ZocaloVidrio3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.12, -11.5, -118.57)
+mesh = SubResource("RampDetailMesh7")
+material_override = SubResource("RampDetail_gray")
+cast_shadow = 0
+
+[node name="MarcoVertical3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.1, -10.31, -117.5)
+mesh = SubResource("RampDetailMesh8")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="MarcoHorizontal3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.1, -8.74, -118.57)
+mesh = SubResource("RampDetailMesh9")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Plafon3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.23, -8.84, -118.57)
+mesh = SubResource("RampDetailMesh10")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Difusor3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.23, -8.92, -118.57)
+mesh = SubResource("RampDetailMesh11")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Puerta4" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.16, -10.33, -120.81)
+mesh = SubResource("RampDetailMesh6")
+material_override = SubResource("RampDetail_bronze")
+cast_shadow = 0
+
+[node name="MarcoVertical4" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.1, -10.31, -119.74)
+mesh = SubResource("RampDetailMesh8")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="MarcoHorizontal4" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.1, -8.74, -120.81)
+mesh = SubResource("RampDetailMesh9")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Plafon4" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.23, -8.84, -120.81)
+mesh = SubResource("RampDetailMesh10")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Difusor4" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.23, -8.92, -120.81)
+mesh = SubResource("RampDetailMesh11")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="LuzMarquesina0" type="OmniLight3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+position = Vector3(-92, -8.98, -114)
+light_color = Color(1, 0.89, 0.73, 1)
+light_energy = 0.6
+omni_range = 6.25
+
+[node name="LuzMarquesina1" type="OmniLight3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+position = Vector3(-92, -8.98, -119)
+light_color = Color(1, 0.89, 0.73, 1)
+light_energy = 0.6
+omni_range = 6.25
+
+[node name="CanalDrenaje" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.53, -12.051, -122.56)
+mesh = SubResource("RampDetailMesh12")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Rejilla0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.1, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.815, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.53, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.245, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla4" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -91.96, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla5" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -91.675, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla6" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -91.39, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla7" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -91.105, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla8" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.82, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla9" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.535, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla10" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.25, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla11" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.965, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla12" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.68, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla13" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.395, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla14" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.11, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla15" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -88.825, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla16" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -88.54, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla17" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -88.255, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla18" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -87.97, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla19" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -87.685, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla20" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -87.4, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla21" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -87.115, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla22" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -86.83, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla23" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -86.545, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla24" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -86.26, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Rejilla25" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.975, -12.038, -122.56)
+mesh = SubResource("RampDetailMesh13")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Resalto0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.85, -12.032, -119.5)
+mesh = SubResource("RampDetailMesh14")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Resalto1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.12, -12.032, -119.5)
+mesh = SubResource("RampDetailMesh14")
+material_override = SubResource("RampDetail_yellow")
+cast_shadow = 0
+
+[node name="Resalto2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -91.39, -12.032, -119.5)
+mesh = SubResource("RampDetailMesh14")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Resalto3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.66, -12.032, -119.5)
+mesh = SubResource("RampDetailMesh14")
+material_override = SubResource("RampDetail_yellow")
+cast_shadow = 0
+
+[node name="Resalto4" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.93, -12.032, -119.5)
+mesh = SubResource("RampDetailMesh14")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Resalto5" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.2, -12.032, -119.5)
+mesh = SubResource("RampDetailMesh14")
+material_override = SubResource("RampDetail_yellow")
+cast_shadow = 0
+
+[node name="Resalto6" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -88.47, -12.032, -119.5)
+mesh = SubResource("RampDetailMesh14")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Resalto7" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -87.74, -12.032, -119.5)
+mesh = SubResource("RampDetailMesh14")
+material_override = SubResource("RampDetail_yellow")
+cast_shadow = 0
+
+[node name="Resalto8" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -87.01, -12.032, -119.5)
+mesh = SubResource("RampDetailMesh14")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Resalto9" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -86.28, -12.032, -119.5)
+mesh = SubResource("RampDetailMesh14")
+material_override = SubResource("RampDetail_yellow")
+cast_shadow = 0
+
+[node name="TapaRegistro" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -91.2, -12.053, -113.22)
+mesh = SubResource("RampDetailMesh15")
+material_override = SubResource("RampDetail_gray")
+cast_shadow = 0
+
+[node name="CanalizacionAmarilla" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.755, -10.42, -121.4)
+mesh = SubResource("RampDetailMesh16")
+material_override = SubResource("RampDetail_yellow")
+cast_shadow = 0
+
+[node name="CarroMotor0" type="Node3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -86.39, -12.057, -118.3)
+
+[node name="Chasis" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.22, 0)
+mesh = SubResource("RampDetailMesh17")
+material_override = SubResource("RampDetail_blue")
+cast_shadow = 0
+
+[node name="Rueda00" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor0"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, -0.35, 0.1, -0.43)
+mesh = SubResource("RampDetailMesh18")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Rueda01" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor0"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, -0.35, 0.1, 0.43)
+mesh = SubResource("RampDetailMesh18")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Rueda10" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor0"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 0.35, 0.1, -0.43)
+mesh = SubResource("RampDetailMesh18")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Rueda11" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor0"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 0.35, 0.1, 0.43)
+mesh = SubResource("RampDetailMesh18")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="CuerpoMotor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor0"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 0.63, 0)
+mesh = SubResource("RampDetailMesh19")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="TapaMotor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor0"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, -0.31, 0.63, 0)
+mesh = SubResource("RampDetailMesh20")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="CarroMotor1" type="Node3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -86.39, -12.057, -115.9)
+
+[node name="Chasis" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.22, 0)
+mesh = SubResource("RampDetailMesh17")
+material_override = SubResource("RampDetail_blue")
+cast_shadow = 0
+
+[node name="Rueda00" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor1"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, -0.35, 0.1, -0.43)
+mesh = SubResource("RampDetailMesh18")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Rueda01" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor1"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, -0.35, 0.1, 0.43)
+mesh = SubResource("RampDetailMesh18")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Rueda10" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor1"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 0.35, 0.1, -0.43)
+mesh = SubResource("RampDetailMesh18")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Rueda11" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor1"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 0.35, 0.1, 0.43)
+mesh = SubResource("RampDetailMesh18")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="CuerpoMotor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor1"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 0.63, 0)
+mesh = SubResource("RampDetailMesh19")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="TapaMotor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/CarroMotor1"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, -0.31, 0.63, 0)
+mesh = SubResource("RampDetailMesh20")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="GruaHorquilla" type="Node3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.25, -12.057, -111.2)
+
+[node name="Chasis" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.52, 0)
+mesh = SubResource("RampDetailMesh21")
+material_override = SubResource("RampDetail_yellow")
+cast_shadow = 0
+
+[node name="Asiento" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.06, 0.15)
+mesh = SubResource("RampDetailMesh22")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Rueda00" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, -0.58, 0.31, -0.52)
+mesh = SubResource("RampDetailMesh23")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="MarcoCabina00" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 1.52, -0.52)
+mesh = SubResource("RampDetailMesh24")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Rueda01" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, -0.58, 0.31, 0.55)
+mesh = SubResource("RampDetailMesh23")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="MarcoCabina01" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 1.52, 0.55)
+mesh = SubResource("RampDetailMesh24")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Rueda10" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 0.58, 0.31, -0.52)
+mesh = SubResource("RampDetailMesh23")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="MarcoCabina10" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 1.52, -0.52)
+mesh = SubResource("RampDetailMesh24")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Rueda11" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 0.58, 0.31, 0.55)
+mesh = SubResource("RampDetailMesh23")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="MarcoCabina11" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58, 1.52, 0.55)
+mesh = SubResource("RampDetailMesh24")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Techo" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.42, 0.02)
+mesh = SubResource("RampDetailMesh25")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Mastil0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.35, 1.1, -0.86)
+mesh = SubResource("RampDetailMesh26")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Horquilla0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.35, 0.055, -1.44)
+mesh = SubResource("RampDetailMesh27")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Mastil1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.35, 1.1, -0.86)
+mesh = SubResource("RampDetailMesh26")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Horquilla1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/BajadaTecnica/GruaHorquilla"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.35, 0.055, -1.44)
+mesh = SubResource("RampDetailMesh27")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="EstacionamientoMotos" type="Node3D" parent="Exterior/RampaPosteriorPoniente"]
+
+[node name="Pavimento" type="CSGBox3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -98.6, -1.27, -174.85)
+use_collision = true
+size = Vector3(8.55, 0.18, 22.9)
+material = SubResource("RampDetail_gray")
+
+[node name="Demarcacion0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.25, -1.174, -184.72)
+mesh = SubResource("RampDetailMesh28")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Moto1" type="Node3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.3, -1.175, -184)
+
+[node name="NeumaticoTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto1"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto1"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="NeumaticoDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto1"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto1"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Motor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48, 0)
+mesh = SubResource("RampDetailMesh31")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Deposito" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16, 0.86, 0)
+mesh = SubResource("RampDetailMesh32")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Sillin" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 0.86, 0)
+mesh = SubResource("RampDetailMesh33")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Horquilla" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.63, 0.61, 0)
+mesh = SubResource("RampDetailMesh34")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Manubrio" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 1.07, 0)
+mesh = SubResource("RampDetailMesh35")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Foco" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.74, 0.9, 0)
+mesh = SubResource("RampDetailMesh36")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Escape" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.42, 0.23)
+mesh = SubResource("RampDetailMesh37")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="LuzTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.77, 0.73, 0)
+mesh = SubResource("RampDetailMesh38")
+material_override = SubResource("RampDetail_red")
+cast_shadow = 0
+
+[node name="Demarcacion1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.25, -1.174, -183.07)
+mesh = SubResource("RampDetailMesh28")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Moto2" type="Node3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.3, -1.175, -182.35)
+
+[node name="NeumaticoTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto2"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto2"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="NeumaticoDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto2"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto2"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Motor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48, 0)
+mesh = SubResource("RampDetailMesh31")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Deposito" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16, 0.86, 0)
+mesh = SubResource("RampDetailMesh32")
+material_override = SubResource("RampDetail_red")
+cast_shadow = 0
+
+[node name="Sillin" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 0.86, 0)
+mesh = SubResource("RampDetailMesh33")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Horquilla" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.63, 0.61, 0)
+mesh = SubResource("RampDetailMesh34")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Manubrio" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 1.07, 0)
+mesh = SubResource("RampDetailMesh35")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Foco" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.74, 0.9, 0)
+mesh = SubResource("RampDetailMesh36")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Escape" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.42, 0.23)
+mesh = SubResource("RampDetailMesh37")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="LuzTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.77, 0.73, 0)
+mesh = SubResource("RampDetailMesh38")
+material_override = SubResource("RampDetail_red")
+cast_shadow = 0
+
+[node name="Demarcacion2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.25, -1.174, -181.42)
+mesh = SubResource("RampDetailMesh28")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Moto3" type="Node3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.3, -1.175, -180.7)
+
+[node name="NeumaticoTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto3"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto3"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="NeumaticoDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto3"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto3"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Motor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48, 0)
+mesh = SubResource("RampDetailMesh31")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Deposito" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16, 0.86, 0)
+mesh = SubResource("RampDetailMesh32")
+material_override = SubResource("RampDetail_blue")
+cast_shadow = 0
+
+[node name="Sillin" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 0.86, 0)
+mesh = SubResource("RampDetailMesh33")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Horquilla" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.63, 0.61, 0)
+mesh = SubResource("RampDetailMesh34")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Manubrio" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 1.07, 0)
+mesh = SubResource("RampDetailMesh35")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Foco" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.74, 0.9, 0)
+mesh = SubResource("RampDetailMesh36")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Escape" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.42, 0.23)
+mesh = SubResource("RampDetailMesh37")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="LuzTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.77, 0.73, 0)
+mesh = SubResource("RampDetailMesh38")
+material_override = SubResource("RampDetail_red")
+cast_shadow = 0
+
+[node name="Demarcacion3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.25, -1.174, -179.77)
+mesh = SubResource("RampDetailMesh28")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Moto4" type="Node3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.3, -1.175, -179.05)
+
+[node name="NeumaticoTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto4"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto4"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="NeumaticoDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto4"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto4"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Motor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48, 0)
+mesh = SubResource("RampDetailMesh31")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Deposito" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16, 0.86, 0)
+mesh = SubResource("RampDetailMesh32")
+material_override = SubResource("RampDetail_gray")
+cast_shadow = 0
+
+[node name="Sillin" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 0.86, 0)
+mesh = SubResource("RampDetailMesh33")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Horquilla" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.63, 0.61, 0)
+mesh = SubResource("RampDetailMesh34")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Manubrio" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 1.07, 0)
+mesh = SubResource("RampDetailMesh35")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Foco" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.74, 0.9, 0)
+mesh = SubResource("RampDetailMesh36")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Escape" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.42, 0.23)
+mesh = SubResource("RampDetailMesh37")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="LuzTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.77, 0.73, 0)
+mesh = SubResource("RampDetailMesh38")
+material_override = SubResource("RampDetail_red")
+cast_shadow = 0
+
+[node name="Demarcacion4" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.25, -1.174, -178.12)
+mesh = SubResource("RampDetailMesh28")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Moto5" type="Node3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.3, -1.175, -177.4)
+
+[node name="NeumaticoTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto5"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto5"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="NeumaticoDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto5"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto5"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Motor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48, 0)
+mesh = SubResource("RampDetailMesh31")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Deposito" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16, 0.86, 0)
+mesh = SubResource("RampDetailMesh32")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Sillin" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 0.86, 0)
+mesh = SubResource("RampDetailMesh33")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Horquilla" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.63, 0.61, 0)
+mesh = SubResource("RampDetailMesh34")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Manubrio" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 1.07, 0)
+mesh = SubResource("RampDetailMesh35")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Foco" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.74, 0.9, 0)
+mesh = SubResource("RampDetailMesh36")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Escape" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.42, 0.23)
+mesh = SubResource("RampDetailMesh37")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="LuzTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.77, 0.73, 0)
+mesh = SubResource("RampDetailMesh38")
+material_override = SubResource("RampDetail_red")
+cast_shadow = 0
+
+[node name="Demarcacion5" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.25, -1.174, -176.47)
+mesh = SubResource("RampDetailMesh28")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Moto6" type="Node3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.3, -1.175, -175.75)
+
+[node name="NeumaticoTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto6"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto6"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="NeumaticoDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto6"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto6"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Motor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48, 0)
+mesh = SubResource("RampDetailMesh31")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Deposito" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16, 0.86, 0)
+mesh = SubResource("RampDetailMesh32")
+material_override = SubResource("RampDetail_red")
+cast_shadow = 0
+
+[node name="Sillin" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 0.86, 0)
+mesh = SubResource("RampDetailMesh33")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Horquilla" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.63, 0.61, 0)
+mesh = SubResource("RampDetailMesh34")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Manubrio" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 1.07, 0)
+mesh = SubResource("RampDetailMesh35")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Foco" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.74, 0.9, 0)
+mesh = SubResource("RampDetailMesh36")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Escape" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.42, 0.23)
+mesh = SubResource("RampDetailMesh37")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="LuzTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.77, 0.73, 0)
+mesh = SubResource("RampDetailMesh38")
+material_override = SubResource("RampDetail_red")
+cast_shadow = 0
+
+[node name="Demarcacion6" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.25, -1.174, -174.82)
+mesh = SubResource("RampDetailMesh28")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Moto7" type="Node3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.3, -1.175, -174.1)
+
+[node name="NeumaticoTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto7"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto7"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="NeumaticoDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto7"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto7"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Motor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48, 0)
+mesh = SubResource("RampDetailMesh31")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Deposito" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16, 0.86, 0)
+mesh = SubResource("RampDetailMesh32")
+material_override = SubResource("RampDetail_blue")
+cast_shadow = 0
+
+[node name="Sillin" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 0.86, 0)
+mesh = SubResource("RampDetailMesh33")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Horquilla" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.63, 0.61, 0)
+mesh = SubResource("RampDetailMesh34")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Manubrio" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 1.07, 0)
+mesh = SubResource("RampDetailMesh35")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Foco" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.74, 0.9, 0)
+mesh = SubResource("RampDetailMesh36")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Escape" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.42, 0.23)
+mesh = SubResource("RampDetailMesh37")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="LuzTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.77, 0.73, 0)
+mesh = SubResource("RampDetailMesh38")
+material_override = SubResource("RampDetail_red")
+cast_shadow = 0
+
+[node name="Demarcacion7" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.25, -1.174, -173.17)
+mesh = SubResource("RampDetailMesh28")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Moto8" type="Node3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.3, -1.175, -172.45)
+
+[node name="NeumaticoTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto8"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto8"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="NeumaticoDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto8"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto8"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Motor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48, 0)
+mesh = SubResource("RampDetailMesh31")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Deposito" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16, 0.86, 0)
+mesh = SubResource("RampDetailMesh32")
+material_override = SubResource("RampDetail_gray")
+cast_shadow = 0
+
+[node name="Sillin" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 0.86, 0)
+mesh = SubResource("RampDetailMesh33")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Horquilla" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.63, 0.61, 0)
+mesh = SubResource("RampDetailMesh34")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Manubrio" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 1.07, 0)
+mesh = SubResource("RampDetailMesh35")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Foco" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.74, 0.9, 0)
+mesh = SubResource("RampDetailMesh36")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Escape" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.42, 0.23)
+mesh = SubResource("RampDetailMesh37")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="LuzTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.77, 0.73, 0)
+mesh = SubResource("RampDetailMesh38")
+material_override = SubResource("RampDetail_red")
+cast_shadow = 0
+
+[node name="Demarcacion8" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.25, -1.174, -171.52)
+mesh = SubResource("RampDetailMesh28")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Moto9" type="Node3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.3, -1.175, -170.8)
+
+[node name="NeumaticoTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto9"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto9"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="NeumaticoDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto9"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0)
+mesh = SubResource("RampDetailMesh29")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="LlantaDelantera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto9"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.74, 0.34, 0.078)
+mesh = SubResource("RampDetailMesh30")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Motor" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48, 0)
+mesh = SubResource("RampDetailMesh31")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Deposito" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16, 0.86, 0)
+mesh = SubResource("RampDetailMesh32")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Sillin" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 0.86, 0)
+mesh = SubResource("RampDetailMesh33")
+material_override = SubResource("RampDetail_rubber")
+cast_shadow = 0
+
+[node name="Horquilla" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.63, 0.61, 0)
+mesh = SubResource("RampDetailMesh34")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="Manubrio" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 1.07, 0)
+mesh = SubResource("RampDetailMesh35")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="Foco" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.74, 0.9, 0)
+mesh = SubResource("RampDetailMesh36")
+material_override = SubResource("RampDetail_white")
+cast_shadow = 0
+
+[node name="Escape" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42, 0.42, 0.23)
+mesh = SubResource("RampDetailMesh37")
+material_override = SubResource("RampDetail_steel")
+cast_shadow = 0
+
+[node name="LuzTrasera" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos/Moto9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.77, 0.73, 0)
+mesh = SubResource("RampDetailMesh38")
+material_override = SubResource("RampDetail_red")
+cast_shadow = 0
+
+[node name="PosteCerco0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.22, -186)
+mesh = SubResource("RampDetailMesh39")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="PosteCerco1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.22, -182.65)
+mesh = SubResource("RampDetailMesh39")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="PosteCerco2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.22, -179.3)
+mesh = SubResource("RampDetailMesh39")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="PosteCerco3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.22, -175.95)
+mesh = SubResource("RampDetailMesh39")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="PosteCerco4" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.22, -172.6)
+mesh = SubResource("RampDetailMesh39")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="PosteCerco5" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.22, -169.25)
+mesh = SubResource("RampDetailMesh39")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="PosteCerco6" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.22, -165.9)
+mesh = SubResource("RampDetailMesh39")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="TravesanoCerco0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.95, -175.95)
+mesh = SubResource("RampDetailMesh40")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="TravesanoCerco1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, 0.02, -175.95)
+mesh = SubResource("RampDetailMesh40")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="TravesanoCerco2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, 0.69, -175.95)
+mesh = SubResource("RampDetailMesh40")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco0" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -185.94)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco1" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -185.634)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco2" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -185.328)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco3" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -185.022)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco4" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -184.716)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco5" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -184.41)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco6" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -184.104)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco7" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -183.798)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco8" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -183.492)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco9" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -183.186)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco10" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -182.88)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco11" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -182.574)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco12" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -182.268)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco13" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -181.962)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco14" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -181.656)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco15" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -181.35)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco16" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -181.044)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco17" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -180.738)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco18" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -180.432)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco19" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -180.126)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco20" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -179.82)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco21" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -179.514)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco22" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -179.208)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco23" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -178.902)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco24" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -178.596)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco25" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -178.29)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco26" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -177.984)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco27" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -177.678)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco28" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -177.372)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco29" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -177.066)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco30" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -176.76)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco31" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -176.454)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco32" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -176.148)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco33" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -175.842)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco34" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -175.536)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco35" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -175.23)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco36" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -174.924)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco37" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -174.618)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco38" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -174.312)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco39" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -174.006)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco40" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -173.7)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco41" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -173.394)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco42" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -173.088)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco43" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -172.782)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco44" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -172.476)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco45" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -172.17)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco46" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -171.864)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco47" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -171.558)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco48" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -171.252)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco49" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -170.946)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco50" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -170.64)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco51" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -170.334)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco52" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -170.028)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco53" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -169.722)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco54" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -169.416)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco55" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -169.11)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco56" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -168.804)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco57" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -168.498)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco58" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -168.192)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco59" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -167.886)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco60" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -167.58)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco61" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -167.274)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco62" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -166.968)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco63" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -166.662)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco64" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -166.356)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
+[node name="BarroteCerco65" type="MeshInstance3D" parent="Exterior/RampaPosteriorPoniente/EstacionamientoMotos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.85, -0.16, -166.05)
+mesh = SubResource("RampDetailMesh41")
+material_override = SubResource("RampDetail_dark")
+cast_shadow = 0
+
 [node name="CostadosReferenciaFotos" type="Node3D" parent="Exterior" unique_id=281240090]
 script = ExtResource("77_8qby0")
 metadata/scope = "Revestimiento exterior según fotos; sin cambios de colisiones, salas, campañas o accesos."
@@ -175871,11 +178515,23 @@ material_override = SubResource("ShaderMaterial_2gl7k")
 cast_shadow = 0
 mesh = SubResource("BoxMesh_rlgfl")
 
-[node name="HormigonVolumenPosterior" type="MeshInstance3D" parent="Exterior/CostadosReferenciaFotos/CostadoOeste" unique_id=1373670661]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.72, 47.31, -142.6)
-material_override = SubResource("ShaderMaterial_2gl7k")
+[node name="HormigonVolumenPosterior" type="CSGBox3D" parent="Exterior/CostadosReferenciaFotos/CostadoOeste" unique_id=1373670661]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.72, 47.31, -162.725)
 cast_shadow = 0
-mesh = SubResource("BoxMesh_sosvc")
+size = Vector3(0.16, 97.22, 2.95)
+material = SubResource("ShaderMaterial_2gl7k")
+
+[node name="HormigonVolumenPosteriorDespuesRampa" type="CSGBox3D" parent="Exterior/CostadosReferenciaFotos/CostadoOeste"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.72, 47.31, -139.625)
+cast_shadow = 0
+size = Vector3(0.16, 97.22, 37.25)
+material = SubResource("ShaderMaterial_2gl7k")
+
+[node name="HormigonVolumenPosteriorSobreRampa" type="CSGBox3D" parent="Exterior/CostadosReferenciaFotos/CostadoOeste"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.72, 49.535, -159.75)
+cast_shadow = 0
+size = Vector3(0.16, 92.77, 3)
+material = SubResource("ShaderMaterial_2gl7k")
 
 [node name="FondoFranjaAcristalada" type="MeshInstance3D" parent="Exterior/CostadosReferenciaFotos/CostadoOeste" unique_id=1586407884]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.67, 23.325, -115.8)
@@ -176441,11 +179097,17 @@ material_override = SubResource("StandardMaterial3D_bpfqb")
 cast_shadow = 0
 mesh = SubResource("BoxMesh_hpsk2")
 
-[node name="Zocalo" type="MeshInstance3D" parent="Exterior/CostadosReferenciaFotos/CostadoOeste" unique_id=1612173923]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.92, -0.45, -120.3)
-material_override = SubResource("StandardMaterial3D_70maq")
+[node name="Zocalo" type="CSGBox3D" parent="Exterior/CostadosReferenciaFotos/CostadoOeste" unique_id=1612173923]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.92, -0.45, -162.925)
 cast_shadow = 0
-mesh = SubResource("BoxMesh_3fhsn")
+size = Vector3(0.25, 1.7, 3.35)
+material = SubResource("StandardMaterial3D_70maq")
+
+[node name="ZocaloDespuesRampa" type="CSGBox3D" parent="Exterior/CostadosReferenciaFotos/CostadoOeste"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.92, -0.45, -117.125)
+cast_shadow = 0
+size = Vector3(0.25, 1.7, 82.25)
+material = SubResource("StandardMaterial3D_70maq")
 
 [node name="PosteAzotea" type="MeshInstance3D" parent="Exterior/CostadosReferenciaFotos/CostadoOeste" unique_id=1813430566]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.8, 96.57, -162)
@@ -176560,12 +179222,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.8, 97.22, -142.6)
 material_override = SubResource("StandardMaterial3D_70maq")
 cast_shadow = 0
 mesh = SubResource("BoxMesh_yxmlu")
-
-[node name="ProteccionVidrioBase" type="MeshInstance3D" parent="Exterior/CostadosReferenciaFotos/CostadoOeste" unique_id=1937063434]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -86.9, 0.3, -160)
-material_override = SubResource("StandardMaterial3D_0sbe6")
-cast_shadow = 0
-mesh = SubResource("BoxMesh_uyust")
 
 [node name="PosteProteccionBase" type="MeshInstance3D" parent="Exterior/CostadosReferenciaFotos/CostadoOeste" unique_id=1988413270]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -86.9, 0.3, -158.02)
