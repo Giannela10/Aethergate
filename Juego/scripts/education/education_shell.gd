@@ -10,7 +10,11 @@ var status: Label
 var page_generation := 0
 var form_fields: Dictionary = {}
 var form_subjects: Array = []
+var form_teachers: Array = []
+const QUESTION_BOSSES := {"":"Sin boss asignado","profesor_datos":"Profesor de Bases de Datos · piso 3","profesor_algoritmos":"Profesor de Algoritmos · piso 3","profesor_redes":"Profesor de Redes · piso 3","docente_enfermeria":"Docente de Enfermería · piso 4","docente_odontologia":"Docente de Odontología · piso 4","coordinador_profesores":"Coordinador de profesores · piso 4","profesor_ingles":"Profesor de Inglés · piso 6","profesor_etica":"Profesor de Ética · piso 6","profesor_lenguaje":"Profesor de Lenguaje · piso 7","profesor_matematicas":"Profesor de Matemáticas · piso 7","director":"Director de Informática · piso 8"}
+const QUESTION_BOSS_IDS := ["","profesor_datos","profesor_algoritmos","profesor_redes","docente_enfermeria","docente_odontologia","coordinador_profesores","profesor_ingles","profesor_etica","profesor_lenguaje","profesor_matematicas","director"]
 var editing_id := ""
+var question_save_in_progress := false
 var account_fields: Dictionary = {}
 var menu_scroll: ScrollContainer
 var administration: Node
@@ -747,7 +751,8 @@ func _questions() -> void:
 		if auth.role == "admin":
 			var creator = row.get("creator",{})
 			_label("Creador: " + str(creator.get("display_name","Sin nombre")) if creator is Dictionary else "Creador no disponible",14)
-		var writable: bool = auth.role == "admin" or auth.dev_session or str(row.get("created_by","")) == auth.user_id
+			_label("Boss asignado: " + str(QUESTION_BOSSES.get(str(row.get("assigned_boss_id","")),"Sin boss asignado")),14)
+		var writable: bool = auth.role == "admin" or auth.dev_session or str(row.get("created_by","")) == auth.user_id or str(row.get("assigned_teacher_id","")) == auth.user_id
 		_button("EDITAR",_form.bind(row)).disabled = not writable
 		_button("DESACTIVAR" if row.active else "ACTIVAR",_toggle.bind(row)).disabled = not writable
 		_button("VISTA PREVIA",_preview.bind(row))
@@ -782,12 +787,41 @@ func _form(row: Dictionary) -> void:
 	editing_id = str(row.get("id",""))
 	form_subjects = await service.get_subjects()
 	if current != page_generation: return
+	if not row.is_empty() and auth.role == "teacher":
+		var subject_found := false
+		for item in form_subjects:
+			if str(item.get("id","")) == str(row.get("subject_id","")): subject_found = true
+		if not subject_found:
+			var subject_data: Dictionary = row.get("subjects",{}) if row.get("subjects",{}) is Dictionary else {}
+			form_subjects.append({"id":str(row.get("subject_id","")),"name":str(subject_data.get("name","Asignatura asignada")),"floor":int(row.get("floor",0))})
+	form_teachers = []
+	if auth.role == "admin":
+		var profiles: Dictionary = await administration.list_profiles()
+		if current != page_generation: return
+		if profiles.get("ok",false): form_teachers = profiles.data.filter(func(profile): return profile.get("role","")=="teacher")
 	var subject := OptionButton.new()
 	for item in form_subjects:
 		subject.add_item("%s · Piso %s" % [item.name,item.floor])
 		if str(item.id) == str(row.get("subject_id","")): subject.select(subject.item_count-1)
+	if subject.item_count > 0 and subject.selected < 0: subject.select(0)
 	column.add_child(subject)
 	form_fields.subject = subject
+	if auth.role == "admin":
+		_label("Profesor responsable",15)
+		var assigned_teacher := OptionButton.new()
+		assigned_teacher.add_item("Sin profesor asignado")
+		for teacher in form_teachers:
+			assigned_teacher.add_item("%s · %s" % [teacher.get("display_name","Profesor"),teacher.get("email","")])
+			if str(teacher.get("id","")) == str(row.get("assigned_teacher_id","")): assigned_teacher.select(assigned_teacher.item_count-1)
+		column.add_child(assigned_teacher)
+		form_fields.assigned_teacher = assigned_teacher
+	_label("Boss que hará esta pregunta",15)
+	var boss_choice := OptionButton.new()
+	for boss_id in QUESTION_BOSS_IDS:
+		boss_choice.add_item(QUESTION_BOSSES[boss_id])
+		if boss_id == str(row.get("assigned_boss_id","")): boss_choice.select(boss_choice.item_count-1)
+	column.add_child(boss_choice)
+	form_fields.assigned_boss = boss_choice
 	var difficulty := OptionButton.new()
 	for value in ["Fácil","Media","Difícil"]: difficulty.add_item(value)
 	difficulty.select(maxi(0,["easy","medium","hard"].find(row.get("difficulty","easy"))))
@@ -815,15 +849,30 @@ func _form(row: Dictionary) -> void:
 	if form_subjects.is_empty(): _status("No hay asignaturas asignadas. Solicita una asignación al administrador.")
 
 func _save_form() -> void:
-	if form_subjects.is_empty(): return
+	if question_save_in_progress: return
+	if form_subjects.is_empty() or form_fields.subject.selected < 0:
+		_status("Selecciona una asignatura activa antes de guardar.")
+		return
 	var data := {}
 	for key in ["question_text","option_a","option_b","option_c","option_d","explanation"]: data[key] = str(form_fields[key].text).strip_edges()
 	data.subject_id = str(form_subjects[form_fields.subject.selected].id)
 	data.difficulty = ["easy","medium","hard"][form_fields.difficulty.selected]
 	data.correct_option = ["A","B","C","D"][form_fields.correct.selected]
 	data.active = form_fields.active.button_pressed
+	if auth.role == "admin":
+		var selected_teacher := int(form_fields.assigned_teacher.selected)-1
+		data.assigned_teacher_id = str(form_teachers[selected_teacher].id) if selected_teacher >= 0 and selected_teacher < form_teachers.size() else ""
+	data.assigned_boss_id = QUESTION_BOSS_IDS[form_fields.assigned_boss.selected]
 	var current := page_generation
+	question_save_in_progress = true
+	for child in column.get_children():
+		if child is Button: child.disabled = true
+	_status("Guardando en Supabase...")
 	var result: Dictionary = await service.update_question(editing_id,data)
+	question_save_in_progress = false
 	if current != page_generation: return
 	if result.has("error"): _status(result.error)
 	else: _questions()
+	if result.has("error"):
+		for child in column.get_children():
+			if child is Button: child.disabled = false

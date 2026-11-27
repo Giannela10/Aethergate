@@ -12,7 +12,34 @@ func _dialog(title: String, text: String, choices: Array, callbacks: Array) -> v
 	campaign.ui.teacher_dialog(title, text, choices, callbacks, true, mentor_name)
 
 func open() -> void:
-	_dialog("ACTIVIDAD DEL DOCENTE","Elige la fuente. La práctica local es material original no validado por Duoc UC y no otorga desbloqueos oficiales.",["PRÁCTICA LOCAL","BANCO PUBLICADO","VOLVER"],[open_local,open_published,campaign.ui.close_modal])
+	_dialog("ACTIVIDAD DEL DOCENTE","Elige la fuente. La práctica local es material original no validado por Duoc UC y no otorga desbloqueos oficiales.",["PRÁCTICA LOCAL","BANCO PUBLICADO","PREGUNTAS DEL BOSS","VOLVER"],[open_local,open_published,open_assigned_questions,campaign.ui.close_modal])
+func open_assigned_questions() -> void:
+	practice_mode = false
+	_dialog("PREGUNTAS DEL BOSS","Buscando preguntas asignadas a " + mentor_name + "...",[],[])
+	var question_service: Node = campaign.get_node("/root/QuestionService")
+	activity = await question_service.get_boss_question(mentor_id)
+	if not is_instance_valid(campaign): return
+	if activity.has("error"):
+		_dialog("SIN PREGUNTAS ASIGNADAS",str(activity.error),["VOLVER A ACTIVIDADES","CERRAR"],[open,campaign.ui.close_modal])
+		return
+	_dialog("PREGUNTA DE " + mentor_name.to_upper(),"Responde para registrar tu resultado.",[],[])
+	var view := preload("res://scripts/education/question_view.gd").new()
+	view.question = activity
+	view.selected.connect(_answer_assigned_question)
+	campaign.ui.column.add_child(view)
+
+func _answer_assigned_question(option: String) -> void:
+	_dialog("VALIDANDO RESPUESTA","Un momento...",[],[])
+	var question_service: Node = campaign.get_node("/root/QuestionService")
+	var result: Dictionary = await question_service.submit_answer(str(activity.id),option,"teacher_challenge")
+	if not is_instance_valid(campaign): return
+	if result.has("error"):
+		_dialog("SIN VALIDACION",str(result.error),["OTRA PREGUNTA","CERRAR"],[open_assigned_questions,campaign.ui.close_modal])
+		return
+	preload("res://scripts/education/academic_progress.gd").record(campaign.data,activity,result,"teacher_challenge")
+	campaign.save_game()
+	_dialog("CORRECTO" if result.get("correct",false) else "SIGUE APRENDIENDO",str(result.get("explanation","")),["OTRA PREGUNTA","CONTINUAR"],[open_assigned_questions,campaign.ui.close_modal])
+
 func open_local() -> void:
 	practice_mode=true
 	_open_activity()

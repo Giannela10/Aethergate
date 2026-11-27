@@ -48,6 +48,25 @@ func get_random_question(subject_id: String, context: String) -> Dictionary:
 	mode = "Fallback local DEBUG"
 	return question
 
+func get_boss_question(boss_id: String) -> Dictionary:
+	if auth.role == "pending": return {"error":"Your account is pending assignment."}
+	if auth.role != "student": return {"error":"This question is available to students."}
+	if auth.dev_session and OS.is_debug_build():
+		var candidates: Array = demo.filter(func(q): return q.get("assigned_boss_id","")==boss_id and q.get("active",false))
+		if candidates.is_empty(): return {"error":"This boss has no active assigned questions."}
+		var question: Dictionary = candidates.pick_random().duplicate(true)
+		issued[str(question.id)] = {"source":"demo","context":"teacher_challenge","key":question.get("correct_option","A"),"explanation":question.get("explanation","")}
+		question.erase("correct_option"); question.erase("explanation")
+		return question
+	if not auth.dev_session and auth.session_valid() and auth.client.configured():
+		var response: Dictionary = await auth.client.request_json("/rest/v1/rpc/get_boss_question",HTTPClient.METHOD_POST,{"p_boss_id":boss_id,"p_exclude":last_id if last_id.length()==36 else null},auth.access_token)
+		if response.ok and response.data is Dictionary and response.data.has("id"):
+			mode = "Supabase"; last_id = str(response.data.id)
+			issued[last_id] = {"source":"remote","context":"teacher_challenge"}
+			return response.data
+		if int(response.status)>0: return {"error":"This boss has no active assigned questions."}
+	return {"error":"Connect to Supabase to view this boss's assigned questions."}
+
 func submit_answer(question_id: String, option: String, context: String) -> Dictionary:
 	if option not in ["A","B","C","D"] or context not in CONTEXTS: return {"error":"Respuesta inválida"}
 	if in_flight or not issued.has(question_id): return {"error":"Solicita una pregunta nueva"}
@@ -101,18 +120,25 @@ func update_question(id: String, data: Dictionary) -> Dictionary:
 	if not error.is_empty(): return {"error":error}
 	if auth.role not in ["teacher","admin"]: return {"error":"Sin autorización"}
 	if auth.dev_session and OS.is_debug_build():
-		var row := data.duplicate(true)
-		row.id = id if not id.is_empty() else "dev-created-" + str(Time.get_ticks_usec())
-		row.floor = 3
-		if row.subject_id != "INF_GENERAL": return {"error":"Asignatura no asignada"}
-		for index in demo.size():
-			if demo[index].id == row.id:
-				demo[index] = row
-				return {"ok":true}
-		demo.append(row)
-		return {"ok":true}
+		return {"error":"DEBUG sessions do not save to Supabase. Sign in with a real teacher or admin account."}
+	var schema_check: Dictionary = await auth.client.request_json("/rest/v1/questions?select=id,assigned_teacher_id,assigned_boss_id&limit=1",HTTPClient.METHOD_GET,{},auth.access_token)
+	if not schema_check.ok:
+		if int(schema_check.get("status",0)) == 0: return {"error":"Could not connect to Supabase. Check the connection and project configuration."}
+		if int(schema_check.get("status",0)) in [401,403]: return {"error":"Supabase rejected this session or account permissions. Sign in as a teacher or admin."}
+		return {"error":"Question migrations 010 and 011 are missing, or the Supabase REST schema needs a refresh. Nothing was saved."}
 	var result: Dictionary = await auth.client.request_json("/rest/v1/rpc/save_question",HTTPClient.METHOD_POST,{"p_id":id if not id.is_empty() else null,"p_data":data},auth.access_token)
-	return {"ok":true} if result.ok else {"error":"No se pudo guardar. Revisa tu asignación y propiedad de la pregunta."}
+	if result.ok: return {"ok":true,"id":str(result.data) if result.data is String else ""}
+	var error_data: Variant = result.get("data",{})
+	var detail := ""
+	if error_data is Dictionary:
+		detail = str(error_data.get("message",error_data.get("msg",error_data.get("details",error_data.get("hint",error_data.get("error_description",""))))))
+	if not detail.is_empty(): detail = preload("res://scripts/auth/supabase_client.gd").sanitize_message(detail,[auth.access_token,auth.refresh_token,auth.client.publishable_key()])
+	var status_code := int(result.get("status",0))
+	if status_code == 404 or (error_data is Dictionary and str(error_data.get("code","")) == "PGRST202"):
+		return {"error":"Supabase cannot find save_question. Apply migrations 001, 010 and 011, then refresh the REST schema."}
+	if status_code in [401,403]: return {"error":"Supabase rejected the save due to permissions. Sign in as a teacher or admin and check the migrations."}
+	if status_code == 0: return {"error":"Could not connect to Supabase. Check the connection and project configuration."}
+	return {"error":"Supabase rejected the save (HTTP %d). %s" % [status_code,detail if not detail.is_empty() else "Check that the subject is active and the account has permission."]}
 
 func set_question_active(id: String, active: bool) -> Dictionary:
 	if auth.role not in ["teacher","admin"]: return {"error":"Sin autorización"}
